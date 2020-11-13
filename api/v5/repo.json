@@ -1,0 +1,58 @@
+{
+    "syntaxVersion": 500,
+    "common": {
+        "name": "Unauthorized Blokada build. Download one from https://blokada.org",
+        "forBuild": "*",
+        "supportedLanguages": ["en", "pl", "de"]
+    },
+    "buildConfigs": [
+        {
+            "name": "Blokada 5: official channel",
+            "forBuild": "fullRelease",
+            "update": {
+                "infoUrl": "https://blokada.org/#download",
+                "mirrors": [
+                    "https://go.blokada.org/apk5"
+                ],
+                "newest": "5.4.0"
+            }
+        },
+        {
+            "name": "Blokada 5: beta channel",
+            "forBuild": "fullBeta",
+            "checkForUpdate": true,
+            "update": {
+                "infoUrl": "https://blokada.org/#download",
+                "mirrors": [
+                    "https://go.blokada.org/apk5_beta"
+                ],
+                "newest": "5.4.0"
+            }
+        },
+        {
+            "name": "F-Droid or XDA",
+            "forBuild": "communityRelease",
+            "checkForUpdate": false
+        },
+        {
+            "name": "Blokada 5 Slim: Google Play",
+            "forBuild": "googleRelease"
+        },
+        {
+            "name": "Blokada 5 Slim: Google Play",
+            "forBuild": "googleOfficial"
+        },
+        {
+            "name": "Blokada 5 Slim: Google Play (beta)",
+            "forBuild": "googleBeta"
+        },
+        {
+            "name": "Blokada 5: escaped from Google Play",
+            "forBuild": "escapedRelease"
+        },
+        {
+            "name": "Blokada 5: escaped from Google Play (beta)",
+            "forBuild": "escapedRelease"
+        }
+    ]
+}
