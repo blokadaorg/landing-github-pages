@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.11.311
-# Release: 311
-# Entries: 41,025
+# Version: 20.11.321
+# Release: 321
+# Entries: 41,027
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 06 Nov 20 12:05:40
+# Updated: Mon, 16 Nov 20 12:05:43
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -4870,7 +4870,6 @@ akamai.invitemedia.com
 akamai.mathtag.com
 akamai.smartadserver.com
 akamai.taboola.com
-akamai.tiqcdn.com
 akar.iad.appboy.com
 aka-root.com
 akashdayalgroups.com
@@ -6077,6 +6076,8 @@ ap.goodsblock.mgid.com
 aphelia.de
 apholio.de
 aphycolourses.info
+api03.datatrics.com
+api04.datatrics.com
 api.1mobile.com
 api.247-inc.net
 api2.amplitude.com
@@ -6210,6 +6211,7 @@ api.c.uc.cn
 api.cxense.com
 apid.adfalcon.com
 api.data.sentinel.mob.com
+api.datatrics.com
 api.decibelinsight.net
 api.destinationrewards.com
 api.df.mob.com
@@ -6222,7 +6224,6 @@ api.ent.mobileanjian.com
 api.eqmob.com
 api.ero-advertising.com
 api.eroadvertising.com
-api.espn.com
 api-eu-west-1.adsnative.com
 api.exoclick.com
 api-explorer.adzerk.com
@@ -6624,6 +6625,7 @@ appconfig.cmgdigital.com
 app-config.enhance.co
 app.content.ad
 app.crashlytics.com
+app.datatrics.com
 appdata.vmate.in
 app.datorama.com
 appdatum.com
@@ -8730,7 +8732,6 @@ bot2.googlerenewals.net
 botasdrmartens.com.mx
 bots.trafficon.co
 bottleguy.com
-bot.whatismyipaddress.com
 boudinotassociates.com
 boudja.com
 bounceads.net
@@ -8804,7 +8805,6 @@ brhkraeknmjk.com
 brickandmobile.com
 bridge.lga1.admarketplace.net
 bridge.sfo1.admarketplace.net
-br.ifunny.co
 brightcom.com
 brightcom-d.openx.net
 brightcom-inv-eu.admixer.net
@@ -11912,10 +11912,10 @@ crasheco.com
 crasheye.cn
 crashlogs.mobilegame.woniu.com
 crashlogs.whatsapp.net
-crashlogs.woniu.com
 crashlytics.163.com
 crashlytics2.l.google.com
 crashlytics.com
+crashlyticsreports-pa.googleapis.com
 crash-metadata.flurry.com
 crash-metrics.sdk.inmobi.com
 crashstats-collector.opera.com
@@ -13382,7 +13382,6 @@ doodle-d.openx.net
 doom-afterburn.de
 doors.co.kr
 dopemobi.offerstrack.net
-doppler.hulu.com
 dopyx.com
 dorectertnerow.info
 doriahellsehen.com
@@ -13948,6 +13947,7 @@ ecoencomputer.com
 ecoflyway.com
 ecoining.com
 ecomadserver.com
+ecommerce.datatrics.com
 ecommstats.s3.amazonaws.com
 e.company-target.com
 e.connectad.io
@@ -14664,7 +14664,6 @@ event.scorecardresearch.com
 events.engageya.com
 eventserver-eastus.trafficmanager.idsp.inmobi.com
 events.foreseeresults.com
-events.ifunny.co
 events.influencemobile.com
 events.kiosked.com
 events.kumulos.com
@@ -14690,7 +14689,6 @@ events.uber.com
 events-us-east-1.ipredictive.com
 events-us-west-2.ipredictive.com
 events.webflowmetrics.com
-events.whisk.com
 events.xg4ken.com
 events.zaloapp.com
 event-tag.yesware.com.herokudns.com
@@ -15038,6 +15036,7 @@ fastlybench.cedexis.com
 fastnclick.com
 fastonlineusers.com
 fastpopunder.com
+fast-redirecting.com
 fast-route.com
 fastspeedtest.ml
 fasttrashcleaner2017.r.xoxknct.com
@@ -15267,6 +15266,7 @@ find-soulmates.com
 findyourcasino.com
 find-your-chat.com
 find-your-profithere11.com
+find-yourprofithere.life
 find-your-slut.com
 fineboost-loghub.ap-southeast-1.log.aliyuncs.com
 fineoffer.net
@@ -15747,7 +15747,6 @@ f.shopee.sg
 fs.moatads.com
 fstatic.iadvize.com
 fst.securefastoffers.com
-fsuseaad1.blob.core.windows.net
 fsvastx.moatads.com
 fsvcrapnmmvj.com
 fsv-steinitz.de
@@ -15760,6 +15759,7 @@ ftm-soryn-kg.at
 ftp.dns-info.dyndns.pro
 ftp.moatads.com
 ftrace.rayjump.com
+f-trak.rumahkerennn.com
 fttcj.com
 fttsgimpiagrwa.com
 ftttziizhuplfj.com
@@ -16282,7 +16282,6 @@ geoip.businessinsider.com
 geoip-db.com
 geoip.fotoable.net
 geoip.goforandroid.com
-geoip.ifunny.co
 geoip.joinsafelyonline.com
 geoip-lookup.vice.com
 geoip.securitetotale.com
@@ -16511,7 +16510,6 @@ gleechie.net
 glenm.mtxcapital.com
 glfnjyzix.bid
 glhxoawgunlame.bid
-glimmer.hearstapps.com
 glimpse.allow.support
 glishais.net
 glispa.com
@@ -18516,7 +18514,6 @@ image.i1img.com
 image-int.richrelevance.com
 image.moengage.com
 imageplus.baidu.com
-imageproxy.ifunny.co
 image.richrelevance.com
 image.s10.exacttarget.com
 images1.cliqueclack.com
@@ -18545,6 +18542,7 @@ images.awin.com
 images.cardlytics.com
 images-cf.taboola.com
 images.dailydiscounts.com
+images.datatrics.com
 images.ddc.com
 images-demand.ssacdn.com
 images.directtrack.com
@@ -18569,7 +18567,6 @@ images.mxpnl.com
 images.netcomvad.com
 images.nuviad.com
 images.ohsex.pro
-images-or.ott.kaltura.com
 images.outbrain.com
 images.outbrainimg.com
 images.outbrain.org
@@ -18662,7 +18659,6 @@ img.gop1.co
 imggprx.mgid.com
 imggprx.traffic-media.co.uk
 imgg.traffic-media.co.uk
-img.ifunny.co
 img.jizzads.com
 img.layer-ads.de
 img.leadzutw.com
@@ -20298,6 +20294,7 @@ kindertrikot.com
 kindertroedel-katzem.de
 kindervereinigung-erfurt.de
 kinderwagenoutlet.com
+kinesis.us-east-1.amazonaws.com
 kingbtc.co
 king-contenido-prod.secure2.footprint.net
 kingtds.xyz
@@ -21022,6 +21019,7 @@ linkbuddies.com
 linkclicks.com
 linkcounter.com
 linkcounter.pornosite.com
+link.datatrics.com
 linkelevator.com
 linkexchange.com
 linkexchangers.net
@@ -21299,7 +21297,6 @@ log-collector.svctr.zynga.com
 logconfig.polarisoffice.com
 log-config.samsungacr.com
 log-dbff2e04.us.v2.we-stats.com
-log.espn.com
 log.europacash.com
 log.fc.yahoo.com
 log.fotoable.com
@@ -21423,7 +21420,6 @@ logs.ereality.org
 logserver.insight.ucweb.com
 logservice-hamburg.de
 logs.hotstar.com
-logs.ifunny.co
 log.sina.cn
 logsink.zedge.net
 log.sitetag.us
@@ -21438,7 +21434,6 @@ logssug-sf.ucweb.com
 logssug.ucweb.com
 logs.supersonic.com
 log.sunnyworks.co.kr
-logs.which.co.uk
 logs.xiti.com
 logs.xtremeserve.xyz
 logs.zedo.com
@@ -21966,6 +21961,7 @@ ma.eqads.com
 ma.fakehub.com
 mafn.de
 mafo.adalliance.io
+magento01.datatrics.com
 mag.iad-03.braze.com
 magicadz.co
 magic.cmcm.com
@@ -22236,6 +22232,7 @@ mattressusa.122.2o7.net
 ma.tune.com
 mature.xxxcounter.com
 mautic.com
+mautic.datatrics.com
 maven.blueconic.net
 maven.kissmetrics.com
 mavenlohi.com
@@ -23309,6 +23306,7 @@ mobilegames.mobi
 mobile-global.baidu.com
 mobile.gunungemas.cc
 mobile.help.adfox.ru
+mobile-http-intake.logs.datadoghq.com
 mobile.ib.sin1.geoadnxs.com
 mobileiconnect.com
 mobileiosapi.punchh.com
@@ -23548,7 +23546,6 @@ movieads.ero-advertising.com
 movieads.imgs.sapo.pt
 moviestorrentxyz.imageshack.host
 moviesvalanet.imageshack.host
-movip.wps.com
 movitex.122.2o7.net
 mowfruit.com
 moyucubeshop.com
@@ -24260,6 +24257,7 @@ netwalkervpn.s.xoxknct.com
 networkad.net
 network.advertise.com
 network.aufeminin.com
+network.datatrics.com
 network.innity.com
 networkmanag.com
 networkn-d.openx.net
@@ -25541,7 +25539,6 @@ origin.bkrtx.com
 origin-cdn.openx.com
 origin.contentabc.com
 origin-evt.undertone.com
-origin.kaltura.com
 origin.kaltura.perf.akadns.net
 originlog.media.net
 origin.optimost.io
@@ -25610,7 +25607,6 @@ ots.optimize.webtrends.com
 ottacknet.112.2o7.net
 ottdailytidingscom.112.2o7.net
 ot.teads.tv
-ott.kaltura.com
 otuveoqm.com
 otyammyiovhru.com
 oubriojtpnps.com
@@ -25681,6 +25677,7 @@ o.wowreality.info
 o.wowtrk.com
 ow.pubmatic.com
 owqhtqryzggt.com
+ox1.shopcool.com.tw
 oxado.com
 oxanehlscsry.com
 oxcash.com
@@ -26187,7 +26184,6 @@ pasta.estrongspro.duapps.com
 pasta.pw.duapps.com
 pasta.sd.duapps.com
 pasta.tk.duapps.com
-pa-stats.origin-cogent.kaltura.com
 pasta.whosthat.duapps.com
 pastoupt.com
 pata.ero-advertising.com
@@ -27371,6 +27367,7 @@ pool-techeu.adhese.com
 pool.telenet.be.adhese.com
 poolto.be
 pool-trf.adhese.com
+poonstwifterspick.work
 pooxbpxm.com
 pop3.ouedkniss.com
 pop6.adultfriendfinder.com
@@ -28751,7 +28748,6 @@ raven.aprod.scopely.io
 rawasy.com
 rawchanger.com
 rawdata.appsflyer.com
-rawtelemetry-west.servicebus.windows.net
 rayjump.com
 razwrite.com
 rbaan.net
@@ -28904,7 +28900,6 @@ rebelsubway.com
 rebevengwas.com
 reborndollsshop.com
 rebtelnetworks.112.2o7.net
-rebtelsdk.pubnub.com
 receptiveink.com
 receptivereaction.com
 rechtsanwalt-klett.de
@@ -29195,7 +29190,6 @@ responsys.net
 res-push.ad.jiguang.cn
 res.rayjump.com
 restartad.com
-rest-as.ott.kaltura.com
 restaurant-eskadron.de
 restaurantspoon.de
 rest.content.ad
@@ -30397,7 +30391,6 @@ sdkgw.us1.twilio.com
 sdk-h5-cdn.rayjoy.com
 sdk.hansel.io
 sdk-hb-cfg.smaato.net
-sdk.hockeyapp.net
 sdk.hostyour.video
 sdk.iad-01.braze.com
 sdk.iad-02.braze.com
@@ -31130,6 +31123,7 @@ shop-shoes.com
 shop.strato.de
 shopstylecollective.com
 shoptop.uz
+shoptrustup.su
 shopvipmall.co
 shopzyapp.com
 short.adnet.cash
@@ -31981,7 +31975,6 @@ sq7.co.uk
 sqm.df.telemetry.microsoft.com
 sqmeqfffehg.bid
 sqm.telemetry.microsoft.com
-sqm.woniu.com
 squirrelhands.com
 sr2.liveperson.net
 srbijacafe.org
@@ -32649,7 +32642,6 @@ stats.merriam-webster.com
 stats.metacount.com
 stats-newyork1.bloxcms.com
 stats.nymag.com
-stats.origin.kaltura.com
 stats.origin.kaltura.perf.akadns.net
 stats.outster.com
 stats.ozwebsites.biz
@@ -32709,6 +32701,7 @@ status.adsnative.com
 status.adzerk.com
 status.appnexus.com
 status.appsflyer.com
+status.datatrics.com
 status.heapanalytics.com
 status.kissmetrics.com
 status.mgid.com
@@ -33286,7 +33279,6 @@ t1.trackalyzer.com
 t2.a.market.xiaomi.com
 t2.beanstalkdata.com
 t2.chartboost.com
-t2.hulu.com
 t2.junbi-tracker.com
 t2lgo.com
 t2.trackalyzer.com
@@ -33401,7 +33393,6 @@ tags.clickintext.net
 tags.crwdcntrl.net
 tags.deployads.com
 tags.digital-metric.com
-tags-eu.tiqcdn.com
 tags.expo9.exponential.com
 tags.extole.com
 tags.foxnews.com
@@ -33416,7 +33407,6 @@ tags.premiumads.com.br
 tags-prod.vrvm.com
 tags.spider-mails.com
 tags.srv.stackadapt.com
-tags.tiqcdn.com.edgekey.net
 tags.t.tailtarget.com
 tags.us.onscroll.com
 tags.viewdeos.com
@@ -34091,7 +34081,6 @@ tipetapeco.com
 tiphkuloov.com
 tippsfuerreisen.de
 tipsurf.com
-tiqcdn.com.edgekey.net
 tir94wepsdxox.appspot.com
 tirerackcom.112.2o7.net
 t.irtyd.com
@@ -34398,6 +34387,9 @@ tqmricveyxphfo.com
 tqomajswbm.com
 tr-1.agilone.com
 tr1.frosmo.com
+tr-255418.datatrics.com
+tr-255768.datatrics.com
+tr-256089.datatrics.com
 tr54sdsazxas.appspot.com
 tr563.com
 traaaack.com
@@ -34616,6 +34608,8 @@ track.dailyhunt.in
 track.dalenetwork.com
 track.dankcash.com
 track.dannixxx.com
+track.datatrics.com
+track*.datatrics.com
 trackdat.pinsightmedia.com
 track.dblol.com
 track.ddfadventures.com
@@ -34687,6 +34681,7 @@ tracker.cl1.fidelizador.com
 tracker.comunidadmarriott.com
 tracker.consumerpackage.net
 tracker.databrain.com
+tracker.datatrics.com
 tracker.departapp.com
 tracker.doodstream.com
 tracker.downdetector.com
@@ -35647,6 +35642,7 @@ traffic.outbrain.com
 trafficpimps.com
 trafficplan.pl
 traffic.pubexchange.com
+traffic-redirecting.com
 traffic.revenuedirect.com
 traffic.ru
 trafficsan.com
@@ -35700,6 +35696,7 @@ tr-assekuranz.de
 traum-deko.de
 traumpreisfabrik.shop
 travel-bimeh.de
+travel.datatrics.com
 travelmads-world.de
 travelscream.com
 travidia.112.2o7.net
@@ -35719,6 +35716,7 @@ trcko.com
 trck.trfsltions.info
 trc.taboola.com
 trc.taboolasyndication.com
+tr.datatrics.com
 treasuredata.com
 trecurlik.com
 tredirect.com
@@ -35829,10 +35827,12 @@ trmit.com
 trmnsite.com
 trombocrack.com
 tronicoase.de
+tr-op.datatrics.com
 trothko.com
 trourted.pro
 tr.outbrain.com
 trovi.com
+tr-reshift.datatrics.com
 t.r-tb.com
 tru465rsda.appspot.com
 trucksid.com
@@ -35855,6 +35855,7 @@ trustednotice.news
 trustx.org
 trust.zone
 tr-v1.prod.cloud.ogury.io
+tr-v2.datatrics.com
 trw12.com
 trwbkkxk.com
 tr.webantenna.info
@@ -36012,7 +36013,6 @@ tvn.adocean.pl
 tvn.hit.gemius.pl
 tvod.adriver.ru
 tvpage.com
-tvpapi-as.ott.kaltura.com
 tvrfpkvotabukw.com
 tv.rlcdn.com
 tvshowslist.com
@@ -36620,6 +36620,7 @@ users.quantumgraph.com
 userstats.shopee.tw
 userstats.shopee.vn
 user-sync.adhese.com
+usersync.datatrics.com
 user-sync-mannenmedia.adhese.com
 user-sync-mycujoo.adhese.com
 user-sync-orange.adhese.com
@@ -37255,6 +37256,7 @@ vintadream.112.2o7.net
 vintage-visagistik.de
 violetluck.com
 violetmagic.com
+viowyf.khaiafi.com
 vip2.clickzs.com
 vip2.clickzzs.nl
 vip3.adcash.com
@@ -37405,7 +37407,6 @@ voodoo-ads.io
 voodoo.com
 voordeel.ad.nl
 vop-tracking-vpc-1741893498.us-east-1.elb.amazonaws.com
-vortex.hulu.com
 vote.sparklit.com
 vouzgwau.com
 vowtravel.info
@@ -38124,6 +38125,7 @@ wolve.pro
 womanear.com
 wonderlandads.com
 wonfigfig.com
+woocommerce01.datatrics.com
 woodpecker.uc.cn
 woogoing.com
 woop.es
