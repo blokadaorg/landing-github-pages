@@ -41,8 +41,8 @@ def main(argv):
 
     base_path = "."
     config = {
-        "input": "../ddg-radar-repo",
-        "output": "../mirror/v5/ddgtrackerradar/standard/hosts.txt",
+        "input": "../tracker-radar",
+        "output": "../blocklists/ddgtrackerradar/standard/hosts.txt",
         "minResources": 3,
         "minResourcesPerSubdomain": 3,
         "whitelistedCategories": ["CDN", "Online Payment", "Non-Tracking"],
