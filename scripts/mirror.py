@@ -29,6 +29,7 @@ import sys
 import os
 import getopt
 import urllib.request
+from shutil import copyfile
 
 def main(argv):
 
@@ -195,7 +196,7 @@ def main(argv):
                     {
                         "name": "standard",
                         "urls": [
-                            "https://blokada.org/blocklists/ddgtrackerradar/standard/hosts.txt"
+                            "../blocklists/ddgtrackerradar/standard/hosts.txt"
                         ]
                     }#,
                     # {
@@ -229,7 +230,7 @@ def main(argv):
                     {
                         "name": "standard",
                         "urls": [
-                            "https://blokada.org/blocklists/exodusprivacy/standard/hosts.txt"
+                            "../blocklists/exodusprivacy/standard/hosts.txt"
                         ]
                     }
                 ]
@@ -275,10 +276,15 @@ def main(argv):
 
             try:
                 print(f"  Downloading: {url}")
-                opener = urllib.request.build_opener()
-                opener.addheaders = [('User-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36')]
-                urllib.request.install_opener(opener)
-                urllib.request.urlretrieve(url, os.path.join(directory, "hosts.txt"))
+
+                if url.startswith("http"):
+                    opener = urllib.request.build_opener()
+                    opener.addheaders = [('User-agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36')]
+                    urllib.request.install_opener(opener)
+                    urllib.request.urlretrieve(url, os.path.join(directory, "hosts.txt"))
+                else:
+                    copyfile(url, os.path.join(directory, "hosts.txt"))
+
                 count += 1
             except Exception as e:
                 print(f"Failed downloading: {url}")
