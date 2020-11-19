@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.11.321
-# Release: 321
-# Entries: 41,027
+# Version: 20.11.324
+# Release: 324
+# Entries: 41,047
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 16 Nov 20 12:05:43
+# Updated: Thu, 19 Nov 20 12:07:20
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -979,6 +979,7 @@
 5ebec5.r.axf8.net
 5ew8d-b3mmu.ads.tremorhub.com
 5ew8d-gibwu.ads.tremorhub.com
+5ijo.01net.com
 5-jahre-weltwaerts.de
 5kv261gjmq04c9.com
 5mcwl.pw
@@ -4574,7 +4575,6 @@ adzpower.com
 adz.rashflash.com
 adzs.nl
 adztec.com
-adzuna.co.uk
 ae1a1e258b8b016.com
 ae22000.pubmatic.com
 ae3482c74b1a99f.com
@@ -11046,6 +11046,7 @@ cnt.rambler.ru
 cnt.trafficstars.com
 cnv.event.prod.bidr.io
 cnvrsns.clickmeter.com
+cny.yoyo.org
 cnzz.mmstat.com
 co1aqu.atdmt.com
 co1linesu.ru
@@ -11620,6 +11621,7 @@ cooponline.de
 coordinatedcub.com
 coordino.com
 coothupu.net
+cootlogix.com
 copay.io
 copia-knorz.de
 copperchickens.com
@@ -14095,7 +14097,6 @@ eikegolehem.com
 e.imguol.com
 einfach-iota.de
 einfach-media.com
-e.infogram.com
 einkauf-am-pc.de
 einkaufende.com
 ei-ph.rdtcdn.com
@@ -15366,9 +15367,25 @@ floryday.com
 flower.bg
 flowgo.com
 fls-cn.amazon-adsystem.com
+fls-cn.amazon.cn
+fls-cn.amazon.com
 fls-eu.amazon-adsystem.com
+fls-eu.amazon.ae
+fls-eu.amazon.es
+fls-eu.amazon.fr
+fls-eu.amazon.in
+fls-eu.amazon.it
+fls-eu.amazon.nl
+fls-eu.amazon.sa
+fls-eu.amazon.se
 fls-fe.amazon-adsystem.com
+fls-fe.amazon.com
+fls-fe.amazon.com.au
+fls-fe.amazon.sg
 fls-na.amazon-adsystem.com
+fls-na.amazon.ca
+fls-na.amazon.com.br
+fls-na.amazon.com.mx
 fls.unrulymedia.com
 flttracksecure.com
 flu23.com
@@ -23122,6 +23139,7 @@ mk-stern.de
 mkt10.122.2o7.net
 mktg.actonsoftware.com
 mktg.tvpage.com
+mkto-ab410147.com
 mktoresp.com
 mkt.ventanasyaluminios.com.mx
 ml314.com
@@ -27473,6 +27491,7 @@ post.netchina.com.cn
 postrelease.com
 post.rmbn.ru
 post.securestudies.com
+post.spmailtechno.com
 post.update.fbsbx.com
 post.update.mopub.com
 post.update.rubiconproject.com
@@ -27740,6 +27759,7 @@ prod.pw.analytics.console.aws.a2z.com
 prod.search.deployads.com
 prod.sift.co
 prod.telemetry.ros.rockstargames.com
+producecopy.com
 producer.getwisdom.io
 productdata.awin.com
 production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com
@@ -31269,7 +31289,6 @@ sindirect.adsrvr.org
 sinera.org
 sin.ero-advertising.com
 sinestreet.com
-s.infogram.com
 single.upsight-api.com
 singlyhouts.info
 singtelprod.amobee.com
@@ -31554,6 +31573,7 @@ smc.demdex.net
 smc.silvercash.com
 s.media-imdb.com
 smentcirrhoea.club
+smetrics.10daily.com.au
 smetrics1.experian.com
 smetrics.aa.com
 smetrics.aem.playstation.com
