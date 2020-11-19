@@ -222,6 +222,17 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "exodusprivacy",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://blokada.org/blocklists/exodusprivacy/standard/hosts.txt"
+                        ]
+                    }
+                ]
             }
         ]
     }
