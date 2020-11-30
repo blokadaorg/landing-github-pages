@@ -115,6 +115,15 @@ link
 https://blokada.org/blocklists/ddgtrackerradar/standard/hosts.txt
 
 
+27
+b_exodusprivacy
+blacklist
+inactive
+https://go.blokada.org/exodusprivacy
+link
+https://blokada.org/mirror/v5/exodusprivacy/standard/hosts.txt
+
+
 28
 b_blacklist
 blacklist
