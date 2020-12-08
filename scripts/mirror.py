@@ -234,6 +234,17 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "oisd",
+                "configs": [
+                    {
+                        "name": "light",
+                        "urls": [
+                            "https://dblw.oisd.nl/light/"
+                        ]
+                    }
+                ]
             }
         ]
     }
