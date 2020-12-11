@@ -19,7 +19,7 @@
         },
         {
             "name": "Blokada 5: Google Play (Escaped)",
-            "forBuild": "escapedRelease"
+            "forBuild": "escapedRelease",
             "update": {
                 "infoUrl": "https://blokada.org/#download",
                 "mirrors": [
