@@ -18,21 +18,23 @@
             }
         },
         {
-            "name": "Blokada 5: beta channel",
-            "forBuild": "fullBeta",
-            "checkForUpdate": true,
+            "name": "Blokada 5: Google Play (Escaped)",
+            "forBuild": "escapedRelease"
             "update": {
                 "infoUrl": "https://blokada.org/#download",
                 "mirrors": [
-                    "https://go.blokada.org/apk5_beta"
+                    "https://go.blokada.org/apk5_escaped"
                 ],
                 "newest": "5.5.0"
             }
         },
         {
-            "name": "F-Droid or XDA",
-            "forBuild": "communityRelease",
-            "checkForUpdate": false
+            "name": "Blokada 5: XDA",
+            "forBuild": "xdaRelease"
+        },
+        {
+            "name": "Blokada 5: F-Droid",
+            "forBuild": "droidRelease"
         },
         {
             "name": "Blokada 5 Slim: Google Play",
@@ -43,24 +45,28 @@
              }
         },
         {
+            "name": "Blokada 5: Beta Channel",
+            "forBuild": "fullBeta",
+            "checkForUpdate": true,
+            "update": {
+                "infoUrl": "https://blokada.org/#download",
+                "mirrors": [
+                    "https://go.blokada.org/apk5_beta"
+                ],
+                "newest": "5.6.0"
+            }
+        },
+        {
+            "name": "Blokada 5 Slim: Google Play (Beta)",
+            "forBuild": "googleBeta"
+        },
+        {
             "name": "Blokada 5 Slim: Google Play",
             "forBuild": "googleOfficial",
             "payload": {
                  "cmd": "escape",
                  "version": 5
              }
-        },
-        {
-            "name": "Blokada 5 Slim: Google Play (beta)",
-            "forBuild": "googleBeta"
-        },
-        {
-            "name": "Blokada 5: escaped from Google Play",
-            "forBuild": "escapedRelease"
-        },
-        {
-            "name": "Blokada 5: escaped from Google Play (beta)",
-            "forBuild": "escapedRelease"
         }
     ]
 }
