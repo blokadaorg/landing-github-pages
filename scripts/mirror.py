@@ -245,6 +245,35 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "developerdan",
+                "configs": [
+                    {
+                        "name": "ads",
+                        "urls": [
+                            "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt"
+                        ]
+                    },
+                    {
+                        "name": "facebook",
+                        "urls": [
+                            "https://www.github.developerdan.com/hosts/lists/facebook-extended.txt"
+                        ]
+                    },
+                    {
+                        "name": "amp",
+                        "urls": [
+                            "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt"
+                        ]
+                    },
+                    {
+                        "name": "junk",
+                        "urls": [
+                            "https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt"
+                        ]
+                    }
+                ]
             }
         ]
     }
