@@ -151,6 +151,33 @@ link
 http://winhelp2002.mvps.org/hosts.txt
 
 
+31
+b_oisd
+blacklist
+inactive
+https://go.blokada.org/oisd
+link
+https://blokada.org/mirror/v5/oisd/light/hosts.txt
+
+
+32
+b_developerdan_ads
+blacklist
+inactive
+https://go.blokada.org/developerdan
+link
+https://blokada.org/mirror/v5/developerdan/ads/hosts.txt
+
+
+33
+b_developerdan_facebook
+blacklist
+inactive
+https://go.blokada.org/developerdan
+link
+https://blokada.org/mirror/v5/developerdan/facebook/hosts.txt
+
+
 35
 b_adaway
 blacklist
