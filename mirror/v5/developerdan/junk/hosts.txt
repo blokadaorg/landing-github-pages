@@ -1,12 +1,12 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2020-12-16T13:05:16+00:00
-# Count: 818 domains
+# Released: 2021-01-07T13:05:17+00:00
+# Count: 935 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
 # Expires: 2 days
 #
-# Copyright 2020 Daniel White
+# Copyright 2021 Daniel White
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,6 +30,7 @@
 0.0.0.0 mail.siegeculture.biz
 0.0.0.0 webdisk.siegeculture.biz
 0.0.0.0 webmail.siegeculture.biz
+0.0.0.0 wlamazcsrv1.siegeculture.biz
 0.0.0.0 ww11.siegeculture.biz
 0.0.0.0 ww25.siegeculture.biz
 0.0.0.0 ww31.siegeculture.biz
@@ -37,15 +38,19 @@
 0.0.0.0 www.siegeculture.biz
 0.0.0.0 globalresearch.ca
 0.0.0.0 archives.globalresearch.ca
+0.0.0.0 ftp.globalresearch.ca
 0.0.0.0 mail.globalresearch.ca
 0.0.0.0 management.globalresearch.ca
 0.0.0.0 staging.globalresearch.ca
+0.0.0.0 static.globalresearch.ca
 0.0.0.0 store.globalresearch.ca
 0.0.0.0 store-stg.globalresearch.ca
 0.0.0.0 tv.globalresearch.ca
+0.0.0.0 webmail.globalresearch.ca
 0.0.0.0 www.globalresearch.ca
 0.0.0.0 qresear.ch
 0.0.0.0 de.qresear.ch
+0.0.0.0 www.de.qresear.ch
 0.0.0.0 relaunch.qresear.ch
 0.0.0.0 www.qresear.ch
 0.0.0.0 100percentfedup.com
@@ -191,7 +196,13 @@
 0.0.0.0 mobile.infowars.com
 0.0.0.0 new.infowars.com
 0.0.0.0 ns1.infowars.com
+0.0.0.0 ns2.infowars.com
 0.0.0.0 ns3.infowars.com
+0.0.0.0 ns4.infowars.com
+0.0.0.0 ns5.infowars.com
+0.0.0.0 ns6.infowars.com
+0.0.0.0 ns8.infowars.com
+0.0.0.0 ns9.infowars.com
 0.0.0.0 paulrevere.infowars.com
 0.0.0.0 planet.infowars.com
 0.0.0.0 podcast.infowars.com
@@ -200,6 +211,7 @@
 0.0.0.0 purge.infowars.com
 0.0.0.0 push.infowars.com
 0.0.0.0 rss.infowars.com
+0.0.0.0 sender.infowars.com
 0.0.0.0 shop.infowars.com
 0.0.0.0 rss.show.infowars.com
 0.0.0.0 staging.infowars.com
@@ -259,13 +271,22 @@
 0.0.0.0 ww25.kamellia.com
 0.0.0.0 www.kamellia.com
 0.0.0.0 knowingthetruth.com
+0.0.0.0 autodiscover.knowingthetruth.com
 0.0.0.0 cpanel.knowingthetruth.com
+0.0.0.0 cpcalendars.knowingthetruth.com
+0.0.0.0 mail.knowingthetruth.com
+0.0.0.0 webmail.knowingthetruth.com
 0.0.0.0 www.knowingthetruth.com
 0.0.0.0 leagueofthesouth.com
+0.0.0.0 802342794173233527.leagueofthesouth.com
+0.0.0.0 aaa.leagueofthesouth.com
 0.0.0.0 direct.leagueofthesouth.com
 0.0.0.0 dixie.leagueofthesouth.com
+0.0.0.0 forum.leagueofthesouth.com
+0.0.0.0 lync.leagueofthesouth.com
 0.0.0.0 mail.leagueofthesouth.com
 0.0.0.0 www.leagueofthesouth.com
+0.0.0.0 wwww.leagueofthesouth.com
 0.0.0.0 lewrockwell.com
 0.0.0.0 archive.lewrockwell.com
 0.0.0.0 beta.lewrockwell.com
@@ -275,12 +296,6 @@
 0.0.0.0 secure.lewrockwell.com
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
-0.0.0.0 naebc.com
-0.0.0.0 cpanel.naebc.com
-0.0.0.0 cpcalendars.naebc.com
-0.0.0.0 webdisk.naebc.com
-0.0.0.0 webmail.naebc.com
-0.0.0.0 www.naebc.com
 0.0.0.0 natall.com
 0.0.0.0 webmail.natall.com
 0.0.0.0 www.natall.com
@@ -314,8 +329,10 @@
 0.0.0.0 web-dev.projectveritas.com
 0.0.0.0 www.projectveritas.com
 0.0.0.0 proudboysusa.com
+0.0.0.0 old.proudboysusa.com
 0.0.0.0 www.proudboysusa.com
 0.0.0.0 qanon-news.com
+0.0.0.0 www.qanon-news.com
 0.0.0.0 qanonanonymous.com
 0.0.0.0 discord.qanonanonymous.com
 0.0.0.0 lostepisodes.qanonanonymous.com
@@ -355,6 +372,7 @@
 0.0.0.0 cdn-7.stillnessinthestorm.com
 0.0.0.0 www.stillnessinthestorm.com
 0.0.0.0 stopsprayingcalifornia.com
+0.0.0.0 mail.stopsprayingcalifornia.com
 0.0.0.0 www.stopsprayingcalifornia.com
 0.0.0.0 suncoastproudboys.com
 0.0.0.0 tapnewswire.com
@@ -365,7 +383,9 @@
 0.0.0.0 autodiscover.thefreedomarticles.com
 0.0.0.0 cpanel.thefreedomarticles.com
 0.0.0.0 cpcalendars.thefreedomarticles.com
+0.0.0.0 ftp.thefreedomarticles.com
 0.0.0.0 mail.thefreedomarticles.com
+0.0.0.0 smtp.thefreedomarticles.com
 0.0.0.0 webdisk.thefreedomarticles.com
 0.0.0.0 webmail.thefreedomarticles.com
 0.0.0.0 www.thefreedomarticles.com
@@ -390,6 +410,7 @@
 0.0.0.0 www.traceamounts.com
 0.0.0.0 unitedpatriotsofamerica.com
 0.0.0.0 cpanel.unitedpatriotsofamerica.com
+0.0.0.0 cpcalendars.unitedpatriotsofamerica.com
 0.0.0.0 cpcontacts.unitedpatriotsofamerica.com
 0.0.0.0 mail.unitedpatriotsofamerica.com
 0.0.0.0 webdisk.unitedpatriotsofamerica.com
@@ -417,6 +438,7 @@
 0.0.0.0 qanon.fun
 0.0.0.0 www.qanon.fun
 0.0.0.0 12160.info
+0.0.0.0 pop.12160.info
 0.0.0.0 www.12160.info
 0.0.0.0 standupx.info
 0.0.0.0 www.standupx.info
@@ -486,16 +508,17 @@
 0.0.0.0 track.spark-post.afa.net
 0.0.0.0 streamer1.afa.net
 0.0.0.0 subcount.afa.net
-0.0.0.0 testwufooapi.afa.net
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
 0.0.0.0 wufooapi.afa.net
 0.0.0.0 www.afa.net
 0.0.0.0 americanfreepress.net
 0.0.0.0 afpstore.americanfreepress.net
+0.0.0.0 dc-fc8c769cf791.americanfreepress.net
 0.0.0.0 host.americanfreepress.net
 0.0.0.0 newsletter.americanfreepress.net
 0.0.0.0 ns1.americanfreepress.net
+0.0.0.0 ns2.americanfreepress.net
 0.0.0.0 shop.americanfreepress.net
 0.0.0.0 www.americanfreepress.net
 0.0.0.0 cancerwisdom.net
@@ -531,6 +554,7 @@
 0.0.0.0 cpanel.educate-yourself.org
 0.0.0.0 cpcalendars.educate-yourself.org
 0.0.0.0 cpcontacts.educate-yourself.org
+0.0.0.0 ftp.educate-yourself.org
 0.0.0.0 mail.educate-yourself.org
 0.0.0.0 ns1.educate-yourself.org
 0.0.0.0 ns2.educate-yourself.org
@@ -542,6 +566,8 @@
 0.0.0.0 fluoridealert.org
 0.0.0.0 imap.fluoridealert.org
 0.0.0.0 la.fluoridealert.org
+0.0.0.0 mail.fluoridealert.org
+0.0.0.0 webmail.fluoridealert.org
 0.0.0.0 www.fluoridealert.org
 0.0.0.0 heartland.org
 0.0.0.0 auth.heartland.org
@@ -562,11 +588,73 @@
 0.0.0.0 store.heartland.org
 0.0.0.0 www.heartland.org
 0.0.0.0 iasmembership.org
+0.0.0.0 authsmtp.iasmembership.org
+0.0.0.0 barracuda.iasmembership.org
+0.0.0.0 box.iasmembership.org
+0.0.0.0 comune.iasmembership.org
+0.0.0.0 email.iasmembership.org
+0.0.0.0 exchange.iasmembership.org
+0.0.0.0 ftp.iasmembership.org
+0.0.0.0 gate.iasmembership.org
+0.0.0.0 hermes.iasmembership.org
+0.0.0.0 imap.iasmembership.org
+0.0.0.0 imap1.iasmembership.org
+0.0.0.0 imap2.iasmembership.org
+0.0.0.0 m.iasmembership.org
+0.0.0.0 mail.iasmembership.org
+0.0.0.0 mail02.iasmembership.org
+0.0.0.0 mail1.iasmembership.org
+0.0.0.0 mail10.iasmembership.org
+0.0.0.0 mail11.iasmembership.org
+0.0.0.0 mail3.iasmembership.org
+0.0.0.0 mail5.iasmembership.org
+0.0.0.0 mail8.iasmembership.org
+0.0.0.0 mailbox.iasmembership.org
+0.0.0.0 mailer.iasmembership.org
+0.0.0.0 mailgate.iasmembership.org
+0.0.0.0 mailgw.iasmembership.org
+0.0.0.0 mailin.iasmembership.org
+0.0.0.0 mailout.iasmembership.org
+0.0.0.0 mailrelay.iasmembership.org
+0.0.0.0 mailserver.iasmembership.org
+0.0.0.0 mbox.iasmembership.org
+0.0.0.0 ms1.iasmembership.org
+0.0.0.0 mx.iasmembership.org
+0.0.0.0 mx01.iasmembership.org
+0.0.0.0 mx02.iasmembership.org
+0.0.0.0 mx1.iasmembership.org
+0.0.0.0 mx3.iasmembership.org
+0.0.0.0 mx4.iasmembership.org
+0.0.0.0 mx7.iasmembership.org
+0.0.0.0 mxs.iasmembership.org
+0.0.0.0 ns1.iasmembership.org
+0.0.0.0 ns2.iasmembership.org
+0.0.0.0 out.iasmembership.org
+0.0.0.0 outmail.iasmembership.org
+0.0.0.0 poczta.iasmembership.org
+0.0.0.0 pop.iasmembership.org
+0.0.0.0 post.iasmembership.org
+0.0.0.0 postmaster.iasmembership.org
+0.0.0.0 relay.iasmembership.org
+0.0.0.0 relay2.iasmembership.org
+0.0.0.0 remote.iasmembership.org
+0.0.0.0 root.iasmembership.org
 0.0.0.0 secure.iasmembership.org
+0.0.0.0 server.iasmembership.org
+0.0.0.0 server1.iasmembership.org
+0.0.0.0 smtp01.iasmembership.org
+0.0.0.0 smtp1.iasmembership.org
+0.0.0.0 smtp2.iasmembership.org
+0.0.0.0 smtp3.iasmembership.org
+0.0.0.0 smtpauth.iasmembership.org
+0.0.0.0 smtps.iasmembership.org
+0.0.0.0 spam.iasmembership.org
+0.0.0.0 srv.iasmembership.org
 0.0.0.0 ssl.iasmembership.org
+0.0.0.0 webmail.iasmembership.org
 0.0.0.0 www.iasmembership.org
+0.0.0.0 www1.iasmembership.org
 0.0.0.0 learntherisk.org
-0.0.0.0 staging.learntherisk.org
 0.0.0.0 www.learntherisk.org
 0.0.0.0 mmcw.org
 0.0.0.0 mx.mmcw.org
@@ -603,7 +691,14 @@
 0.0.0.0 sniper.nsm88.org
 0.0.0.0 www.nsm88.org
 0.0.0.0 nvic.org
+0.0.0.0 gate.nvic.org
+0.0.0.0 mail.nvic.org
+0.0.0.0 mailx.nvic.org
+0.0.0.0 mx4.nvic.org
+0.0.0.0 smtp.nvic.org
+0.0.0.0 smtpauth.nvic.org
 0.0.0.0 wdev.nvic.org
+0.0.0.0 webmail.nvic.org
 0.0.0.0 ww.nvic.org
 0.0.0.0 www.nvic.org
 0.0.0.0 pacificaforum.org
@@ -664,7 +759,10 @@
 0.0.0.0 locator.scientology.org
 0.0.0.0 www.locator.scientology.org
 0.0.0.0 mail.scientology.org
+0.0.0.0 mail3.scientology.org
+0.0.0.0 mobile.scientology.org
 0.0.0.0 ms.scientology.org
+0.0.0.0 munich.scientology.org
 0.0.0.0 mx.scientology.org
 0.0.0.0 myreligion.scientology.org
 0.0.0.0 news.scientology.org
@@ -678,6 +776,7 @@
 0.0.0.0 purification.scientology.org
 0.0.0.0 related.scientology.org
 0.0.0.0 secure.scientology.org
+0.0.0.0 secure15.scientology.org
 0.0.0.0 secure21.scientology.org
 0.0.0.0 secure9.scientology.org
 0.0.0.0 smtp.scientology.org
@@ -688,6 +787,8 @@
 0.0.0.0 stream2.scientology.org
 0.0.0.0 stream3.scientology.org
 0.0.0.0 stream6.scientology.org
+0.0.0.0 sys003.scientology.org
+0.0.0.0 taiwanese.scientology.org
 0.0.0.0 theology.scientology.org
 0.0.0.0 danish.theology.scientology.org
 0.0.0.0 german.theology.scientology.org
@@ -701,6 +802,7 @@
 0.0.0.0 italian.training.scientology.org
 0.0.0.0 spanish.training.scientology.org
 0.0.0.0 taiwanese.training.scientology.org
+0.0.0.0 tw.scientology.org
 0.0.0.0 what-is.scientology.org
 0.0.0.0 italian.what-is.scientology.org
 0.0.0.0 whatis.scientology.org
@@ -771,6 +873,7 @@
 0.0.0.0 3-admin.8kun.top
 0.0.0.0 8k1.8kun.top
 0.0.0.0 8k2.8kun.top
+0.0.0.0 admin.8kun.top
 0.0.0.0 app.8kun.top
 0.0.0.0 archive.8kun.top
 0.0.0.0 b.8kun.top
@@ -791,16 +894,22 @@
 0.0.0.0 mecia.8kun.top
 0.0.0.0 med.8kun.top
 0.0.0.0 media.8kun.top
+0.0.0.0 media2.8kun.top
 0.0.0.0 mediajune.8kun.top
 0.0.0.0 merch-admin.8kun.top
 0.0.0.0 nerv.8kun.top
 0.0.0.0 nerve.8kun.top
+0.0.0.0 nnerve.8kun.top
 0.0.0.0 ns1.8kun.top
 0.0.0.0 ns2.8kun.top
+0.0.0.0 nsys.8kun.top
 0.0.0.0 oldsite.8kun.top
 0.0.0.0 openpgpkey.8kun.top
+0.0.0.0 pingfore.8kun.top
 0.0.0.0 pop.8kun.top
 0.0.0.0 riga.8kun.top
+0.0.0.0 rnerv.8kun.top
+0.0.0.0 rsoon.8kun.top
 0.0.0.0 sandboxsys3.8kun.top
 0.0.0.0 softserve.8kun.top
 0.0.0.0 softserve.softserve.8kun.top
@@ -809,12 +918,17 @@
 0.0.0.0 sys1.8kun.top
 0.0.0.0 sys2.8kun.top
 0.0.0.0 sys3.8kun.top
+0.0.0.0 v.8kun.top
 0.0.0.0 ww.8kun.top
 0.0.0.0 ww1.8kun.top
 0.0.0.0 ww11.8kun.top
 0.0.0.0 www.8kun.top
 0.0.0.0 www14.8kun.top
 0.0.0.0 wyw.8kun.top
+0.0.0.0 x0csys.8kun.top
+0.0.0.0 x0cwww.8kun.top
+0.0.0.0 x0emedia.8kun.top
+0.0.0.0 x12softserve.8kun.top
 0.0.0.0 patriotfront.us
 0.0.0.0 membership.patriotfront.us
 0.0.0.0 www.patriotfront.us
@@ -835,7 +949,10 @@
 0.0.0.0 theamericanfreedomparty.us
 0.0.0.0 www.theamericanfreedomparty.us
 0.0.0.0 qanon.video
+0.0.0.0 mail.qanon.video
+0.0.0.0 www.qanon.video
 0.0.0.0 wearethene.ws
+0.0.0.0 mail.wearethene.ws
 0.0.0.0 s.wearethene.ws
 0.0.0.0 www.wearethene.ws
 

@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 20.12.353
-# Release: 353
-# Entries: 40,735
+# Version: 21.01.008
+# Release: 008
+# Entries: 40,736
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 18 Dec 20 12:06:01
+# Updated: Fri, 08 Jan 21 18:06:22
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -1539,6 +1539,7 @@ abodealley.com
 abo.prismamediadigital.com
 abort-count.smbeat.jp
 abourselfi.com
+aboutads.gr
 aboutads.quantcast.com
 aboutharrypotter.fasthost.tv
 aboutus.revcontent.com
@@ -2349,7 +2350,6 @@ adkengage.com
 adkernel.com
 ad.khan.co.kr
 ad.kissanime.io
-ad.kissanime.nz
 adklip.com
 adkmob.com
 ad.kodansha.net
@@ -2670,7 +2670,6 @@ ad.prv.pl
 adp-sdlv.adtdp.com
 adp-static.adtdp.com
 ad.pt.doubleclick.net
-ad.pttcn.net
 adpublisher.s3.amazonaws.com
 adpushsdk.goforandroid.com
 adpushup.com
@@ -3177,6 +3176,7 @@ adserve.ams.rhythmxchange.com
 adserve.com
 adserve.donanimhaber.com
 adserve.doteasy.com
+adserve.gkeurope.de
 adserve.gossipgirls.com
 adserve.podaddies.com
 adserve.postrelease.com
@@ -3216,6 +3216,7 @@ adserver.asiafriendfinder.com
 adserver.b2c.com
 adserver.bdoce.cl
 adserver.bing.com
+adserver.bizedge.com
 adserver.bizhat.com
 adserver-b.juicyads.com
 adserver.bloodhorse.com
@@ -3293,6 +3294,7 @@ adserver.nexage.com
 adserver.ngz-network.de
 adserver.oddschecker.com
 adserver.onwisconsin.com
+adserver.otthonom.hu
 adserver.ouedkniss.com
 adserver.outpersonals.com
 adserver.pampa.com.br
@@ -3328,6 +3330,7 @@ adserver.targetspot.com
 adserver.tatts.com
 adserver.tele.net
 adserver-toy.adtechjp.com
+adserver.trojaner-info.de
 adserver.tvcatchup.com
 adserver.tweakers.net
 adserver.twitpic.com
@@ -6262,6 +6265,7 @@ api-log-analytics.cloud.toast.com
 api.logentries.com
 api-log.immomo.com
 api.lytics.io
+api-lytics.macpaw.com
 api.madadsmedia.com
 api.madkudu.com
 api.magmamobile.com
@@ -10007,7 +10011,6 @@ cdnquality.com
 cdn.redlightcenter.com
 cdnreference.com
 cdn-resources.prfct.cc
-cdn.responsys.net
 cdn.revcontent.com
 cdn.revive-adserver.net
 cdn.riverhit.com
@@ -17899,6 +17902,7 @@ hyperurl.co
 hypervre.com
 hypnose-enderle.de
 hyprmx.com
+hyros.com
 hystericalhelp.com
 hytera-pro.ru
 hyybabe.com
@@ -21002,6 +21006,7 @@ lmqh.ecoencomputer.com
 lm.serving-sys.com
 lndvtedtayqy.com
 lnelcbntwru.com
+lnfo-can7651.com
 lnicyniqxdxg.com
 lnjrawgb.com
 lnks.gd
@@ -24460,7 +24465,6 @@ northjersey.112.2o7.net
 northmay.com
 north-train.com
 northwestairlines.112.2o7.net
-norton.nortonvirus.org
 norulless.com
 norwas.de
 nospartenaires.com
@@ -25301,7 +25305,6 @@ opyyykrdyuum.com
 oqaghvocticy.com
 oqn2ujcvgki0fgqy.pro
 oqxwefyi.bid
-orabbix.zabbixmonitor.net
 ora.carlaarrabitoarchitetto.com
 oracle.112.2o7.net
 oraclecom.112.2o7.net
@@ -28978,7 +28981,6 @@ resources.taboola.com
 resources-us.yinzcam.com
 responses.df.telemetry.microsoft.com
 responsiveads.com
-responsys.net
 res-push.ad.jiguang.cn
 res.rayjump.com
 restartad.com
@@ -29029,6 +29031,7 @@ reviewcentrecom.skimlinks.com
 revimedia.com
 revive-adserver.net
 revive.docmatic.org
+revive.dubcnm.com
 revive.haskovo.net
 revive.netriota.hu
 revive.plays.bg
@@ -29245,7 +29248,6 @@ roosevelt.gjbig.com
 roos-kuebler.de
 roosterfirework.com
 roostsflewcat.cam
-root20system20macosxdriver.serveusers.com
 rootbuzz.com
 rootconf.media.net
 r.openx.net
@@ -30088,7 +30090,6 @@ sdc.lef.org
 sd.cname3.igexin.com
 sdc.prudential.com
 sdc.shawinc.com
-sdcswingers.online
 sdc.tele.net
 sdc.traderonline.com
 sdeadbqsjam.com
@@ -30447,6 +30448,7 @@ segments.adaptv.advertising.com
 segments.company-target.com
 segments.digitalremedy.com
 segments.scopely.io
+segmetrics.io
 seg.mmtro.com
 se-gmtdmp.mookie1.com
 segob.gob.mx
@@ -31665,6 +31667,7 @@ sport-direkt.net
 sporthotel-schwerin.de
 sportingbeteur.adsrv.eacdn.com
 sportingnews.122.2o7.net
+sportsad.net
 sportschule-luna.de
 sports-discount.net
 sports-ha.com
@@ -32104,7 +32107,6 @@ static-bp.kameleoon.com
 static.buysellads.com
 static.canalstat.com
 static-cdn.adblade.com
-static.cdn.responsys.net
 staticcfstg.adsafeprotected.com
 static.chartbeat.com
 static.cleverpush.com
@@ -32883,7 +32885,6 @@ syhfcveeizqp.bid
 syhganutwnp.com
 s.yieldmo.com
 sylwenys.pw
-symante.nortonvirus.org
 symbolon-kartenberatung-wimmer.de
 symbol-upload.flurry.com
 sympmsnglobalen.112.2o7.net
@@ -33415,7 +33416,6 @@ teethfan.com
 t.effectivemeasure.net
 tehkvecryl.com
 teipgupp.com
-teknogirls.cf
 tek-tek-trek.com
 tel3adv.112.2o7.net
 telaria.adhaven.com
@@ -33710,6 +33710,7 @@ thofandew.com
 thomas-saboarmband.de
 thomas-saboonlineshop.com
 thomas-stricker.de
+thomastorch.com
 thomasvillefurniture.122.2o7.net
 thome.112.2o7.net
 t.hoood.info
