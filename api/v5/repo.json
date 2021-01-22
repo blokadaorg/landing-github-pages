@@ -14,7 +14,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5"
                 ],
-                "newest": "5.6.0"
+                "newest": "5.7.0"
             }
         },
         {
@@ -25,7 +25,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_escaped"
                 ],
-                "newest": "5.6.0"
+                "newest": "5.7.0"
             }
         },
         {
