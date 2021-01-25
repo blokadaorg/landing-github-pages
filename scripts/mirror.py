@@ -241,7 +241,7 @@ def main(argv):
                     {
                         "name": "light",
                         "urls": [
-                            "https://dblw.oisd.nl/light/"
+                            "https://dbl.oisd.nl/light/"
                         ]
                     }
                 ]
