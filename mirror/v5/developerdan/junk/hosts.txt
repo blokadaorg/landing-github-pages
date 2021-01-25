@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-01-22T01:05:18+00:00
-# Count: 999 domains
+# Released: 2021-01-24T13:05:17+00:00
+# Count: 1013 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -275,7 +275,10 @@
 0.0.0.0 autodiscover.knowingthetruth.com
 0.0.0.0 cpanel.knowingthetruth.com
 0.0.0.0 cpcalendars.knowingthetruth.com
+0.0.0.0 cpcontacts.knowingthetruth.com
 0.0.0.0 mail.knowingthetruth.com
+0.0.0.0 staging.knowingthetruth.com
+0.0.0.0 webdisk.knowingthetruth.com
 0.0.0.0 webmail.knowingthetruth.com
 0.0.0.0 www.knowingthetruth.com
 0.0.0.0 leagueofthesouth.com
@@ -336,6 +339,8 @@
 0.0.0.0 old.proudboysusa.com
 0.0.0.0 www.proudboysusa.com
 0.0.0.0 qanon-news.com
+0.0.0.0 cpanel.qanon-news.com
+0.0.0.0 webdisk.qanon-news.com
 0.0.0.0 www.qanon-news.com
 0.0.0.0 qanonanonymous.com
 0.0.0.0 discord.qanonanonymous.com
@@ -388,6 +393,7 @@
 0.0.0.0 cpanel.thefreedomarticles.com
 0.0.0.0 cpcalendars.thefreedomarticles.com
 0.0.0.0 ftp.thefreedomarticles.com
+0.0.0.0 imap.thefreedomarticles.com
 0.0.0.0 mail.thefreedomarticles.com
 0.0.0.0 smtp.thefreedomarticles.com
 0.0.0.0 webdisk.thefreedomarticles.com
@@ -529,6 +535,8 @@
 0.0.0.0 shop.americanfreepress.net
 0.0.0.0 www.americanfreepress.net
 0.0.0.0 cancerwisdom.net
+0.0.0.0 m.cancerwisdom.net
+0.0.0.0 mail.cancerwisdom.net
 0.0.0.0 www.cancerwisdom.net
 0.0.0.0 coronavirushoax.net
 0.0.0.0 mail.coronavirushoax.net
@@ -544,6 +552,9 @@
 0.0.0.0 qalerts.net
 0.0.0.0 www.qalerts.net
 0.0.0.0 qanon.news
+0.0.0.0 blog.qanon.news
+0.0.0.0 email.qanon.news
+0.0.0.0 mssql.qanon.news
 0.0.0.0 www.qanon.news
 0.0.0.0 qposts.online
 0.0.0.0 www.qposts.online
@@ -573,6 +584,7 @@
 0.0.0.0 fluoridealert.org
 0.0.0.0 imap.fluoridealert.org
 0.0.0.0 la.fluoridealert.org
+0.0.0.0 la3.fluoridealert.org
 0.0.0.0 mail.fluoridealert.org
 0.0.0.0 webmail.fluoridealert.org
 0.0.0.0 www.fluoridealert.org
@@ -764,6 +776,7 @@
 0.0.0.0 webdisk.pacificaforum.org
 0.0.0.0 www.pacificaforum.org
 0.0.0.0 paulcraigroberts.org
+0.0.0.0 webmail.paulcraigroberts.org
 0.0.0.0 www.paulcraigroberts.org
 0.0.0.0 rtc.org
 0.0.0.0 danish.rtc.org
@@ -1013,6 +1026,7 @@
 0.0.0.0 whm.theamericanfreedomparty.us
 0.0.0.0 www.theamericanfreedomparty.us
 0.0.0.0 qanon.video
+0.0.0.0 ftp.qanon.video
 0.0.0.0 mail.qanon.video
 0.0.0.0 www.qanon.video
 0.0.0.0 wearethene.ws

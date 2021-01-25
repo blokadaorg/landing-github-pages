@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.01.022
-# Release: 022
-# Entries: 40,794
+# Version: 21.01.025
+# Release: 025
+# Entries: 40,974
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 22 Jan 21 12:05:59
+# Updated: Mon, 25 Jan 21 12:06:00
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -121,13 +121,17 @@
 10168.hittail.com
 1018d7.r.axf8.net
 101com.com
+102.stream.livejasmin.com
 102vod-adaptive.akamaized.net
 103092804.com
 103532.hittail.com
 104231.dtiblog.com
+104.stream.livejasmin.com
 10510523.collect.igodigital.com
 1059362.collect.igodigital.com
+105.stream.livejasmin.com
 106242.hittail.com
+106.stream.livejasmin.com
 10733458.collect.igodigital.com
 10733484.collect.igodigital.com
 10733498.collect.igodigital.com
@@ -273,6 +277,7 @@
 15elon9.edvfwlacluo.com
 15iqb7n.edvfwlacluo.com
 15.nbryb.com
+15.stream.livejasmin.com
 15.taboola.com
 16565.hittail.com
 167126.engine.mobileapptracking.com
@@ -584,6 +589,7 @@
 2ii7.nbryb.com
 2kpixel.quantserve.com
 2leep.com
+2.livejasmin.com
 2mdn.net
 2mdnsys.com
 2miners.com
@@ -806,6 +812,7 @@
 3cinteractive.com
 3dfilter.adright.co
 3dm024.edvfwlacluo.com
+3dns-3.livejasmin.com
 3ds.ero-advertising.com
 3esu.nbryb.com
 3gl.net
@@ -824,6 +831,7 @@
 3.redirect.appmetrica.yandex.com
 3redlightfix.com
 3s-smart-rtb-cdn.mobvista.com
+3.stream.livejasmin.com
 3swu.adj.st
 3w.nuggad.net
 3wr110.net
@@ -986,6 +994,7 @@
 5nbh3-h9cpz.ads.tremorhub.com
 5nt1gx7o57.com
 5rocks.io
+5.stream.livejasmin.com
 5thfinger.com
 5yfi7sy.com
 6063.bapi.adsafeprotected.com
@@ -1033,6 +1042,7 @@
 69s.city
 6a9102689db8e.com
 6.adsco.re
+6apart.livejasmin.com
 6b714f6277c9faa.com
 6bd9a2ea1a1801e55.com
 6c37f8a12dede103bf7.com
@@ -6262,6 +6272,7 @@ api.leadiacloud.com
 api.leadpages.io
 api.leanplum.com
 api.livefyre.com
+api.livejasmin.com
 api.locallogic.co
 api.localytics.com
 api.locately.com
@@ -6785,6 +6796,7 @@ app-sjn.marketo.com
 app-sjo.marketo.com
 app-sjp.marketo.com
 app-sjqe.marketo.com
+apps.livejasmin.com
 apps.mobilityware.com
 app-sn01.marketo.com
 appsnack.com
@@ -7020,6 +7032,7 @@ asia-onrt-stsdk.vivoglobal.com
 asia-ort-stsdk.vivoglobal.com
 asia-pnrt-stsdk.vivoglobal.com
 asia-prt-stsdk.vivoglobal.com
+asia-red.livejasmin.com
 asia.seadform.net
 asia-stsdk.vivoglobal.com
 asiatoday.online
@@ -7225,6 +7238,7 @@ a.twiago.com
 atwola.com
 atxd.adgear.com
 au1.flamingtext.com
+au2.livejasmin.com
 au79nt5wic4x.com
 au.adserver.yahoo.com
 au.ads.justpremium.com
@@ -7329,6 +7343,8 @@ autodisco.de
 autodiscover.amobee.com
 autodiscover.awin.com
 autodiscover.cj.com
+autodiscover.jasmin-cams-live.com
+autodiscover.livejasmin.com
 autohipnose.com
 automatad.com
 automatad-d.openx.net
@@ -8326,6 +8342,7 @@ binasmdul.com
 bindfast.com
 bingads.microsoft.com
 bingo4affiliates.com
+bingoblitz.livejasmin.com
 binlayer.com
 binlayer.de
 bin-layer.ru
@@ -8403,6 +8420,7 @@ biz-offer.com
 bizographics.com
 bizoninvest.com
 bizony.eu
+bizwww.livejasmin.com
 bizx.info
 bizzclick.com
 bj1110.online
@@ -9547,6 +9565,7 @@ c.company-target.com
 c.contentsitesrv.com
 ccrbudgetca.112.2o7.net
 ccrgaviscom.112.2o7.net
+ccs.livejasmin.com
 cc.st
 ccs.ucweb.com
 cc.swiftype.com
@@ -11760,7 +11779,9 @@ cpagrip.com
 cpakd.com
 cpalead.com
 cpalock.com
+cpanel.jasmin-cams-live.com
 cpanel.nativeads.com
+cpanel.webdisk.livejasmin.cl
 cpa-paas.adcolony.com
 c.parsely.com
 cpays.com
@@ -11867,6 +11888,7 @@ crbags.online
 crb.kargo.com
 crcdn01.adnxs.com
 crcdn09.adnxs.com
+crcom.livejasmin.com
 creafi.com
 creafi-online-media.com
 creambing.com
@@ -11877,12 +11899,14 @@ creathere.club
 creation.conversation-memory.com
 creativawebperu.es
 creative1cdn.mobfox.com
+creative.alxbgo.com
 creative-analytics.crossinstall.io
 creative-assets.quantcount.com
 creative-cdn.appgrowth.com
 creativecdn.com
 creative-clicks-inv-wus.admixer.net
 creative.hpyrdr.com
+creative.livejasmin.com
 creative.lkqd.net
 creative.mathads.com
 creative.metalyzer.com
@@ -11896,6 +11920,7 @@ creatives.doubleclick.net
 creative-services.tapad.com
 creative-serving.com
 creatives.inmotionhosting.com
+creative.skinstrip.net
 creatives.livejasmin.com
 creative.sonobi.com
 creatives.pichunter.com
@@ -11949,12 +11974,17 @@ crowd.amobee.com
 crowdgravity.com
 crowdignite.com
 crowd.rubiconproject.com
+crpop.livejasmin.com
 crptentry.com
 crptgate.com
+crpt.livejasmin.com
 cr.pubmatic.com
 crs.baidu.com
 crsspxl.com
 crta.dailymail.co.uk
+crtbb.livejasmin.com
+crtinf.livejasmin.com
+crt.livejasmin.com
 cr-tracking.skimlinks.com
 crtracklink.com
 crt.sectigo.com
@@ -13290,6 +13320,7 @@ domain.name
 domainpark.sitelutions.com
 domainplayersclub.com
 domains.googlesyndication.com
+domains.livejasmin.com
 domainsponsor.com
 domainsteam.de
 domako.de
@@ -14532,6 +14563,7 @@ eu-srv.apptornado.com
 eusta.de
 eutdrjvsrmav.com
 eu-test.addthis.com
+eutest.livejasmin.com
 euthanint.org
 eu-tlx.3lift.com
 eu.track.digitaladsystems.com
@@ -14769,6 +14801,7 @@ ext.host-tracker.com
 ext-inv-cdn.prod.cloud.ogury.io
 extra33.com
 extra.bet365.com
+extra-chat.livejasmin.com
 extramovies.trade
 extratorrents2019site.imageshack.host
 extreme-dm.com
@@ -15247,10 +15280,27 @@ flapi2.rubiconproject.com
 flashadtools.com
 flash.doubleclick-analytics.com
 flashmediaportal.com
+flash.new.livejasmincdn.com
 flash.quantserve.com
+flashstream1.livejasmin.com
+flashstream21.livejasmin.com
+flashstream27.livejasmin.com
+flashstream32.livejasmin.com
+flashstream35.livejasmin.com
+flashstream36.livejasmin.com
+flashstream38.livejasmin.com
+flashstream3.livejasmin.com
+flashstream42.livejasmin.com
+flashstream4.livejasmin.com
+flashstream5.livejasmin.com
+flashstream60.livejasmin.com
+flashstream7.livejasmin.com
+flashstream8.livejasmin.com
+flashstream9.livejasmin.com
 flashtalking.com
 flashtalking.com.edgekey.net
 flashtest.ero-advertising.com
+flashx.new.livejasmincdn.com
 flatdee.ero-advertising.com
 flatfae.ero-advertising.com
 flatfea.ero-advertising.com
@@ -15263,6 +15313,7 @@ flexbanner.com
 flexlinks.com
 flex.msn.com
 flgstgrcwapk.com
+fl-gw.livejasmin.com
 flight-manager.outbrain.com
 flimsycircle.com
 fliplake.de
@@ -15597,6 +15648,7 @@ free-girls-vids.com
 freehandsrevi.com
 freeimghost.trafflow.com
 free.internetspeedtracker.com
+free.livejasmin.com
 freelogs.com
 free-money.host.sk
 freeonescams.com
@@ -15878,6 +15930,10 @@ galaxien.com
 galbrechen.club
 galkama.info
 galleries.videosz.com
+gallery0.livejasmincdn.com
+gallery0.livejasmin.com
+gallery1.livejasmincdn.com
+gallery1.livejasmin.com
 gallery.amobee.com
 gallys.nastydollars.com
 gallysorig.nastydollars.com
@@ -16514,6 +16570,7 @@ go.adroll.com
 goadservices.com
 go.adversal.com
 go.affec.tv
+go.alxbgo.com
 go.appcelerator.com
 go.applovin.com
 go.appnexus.com
@@ -16650,6 +16707,7 @@ go.specia1.com
 gostats.com
 go.stirshakead.com
 go.straightresults.com
+go.stripchat.com
 go.taboola.com
 got-a-message.com
 go.tapad.com
@@ -17587,6 +17645,7 @@ hm.xiaomi.com
 hmzwcomigpqia.com
 hnaws.gq
 hnbutton.appspot.com
+hnew.livejasmin.com
 h.nexac.com
 hn.inspectlet.com
 hnjwxgoods.com
@@ -17811,9 +17870,13 @@ htmlads.s3.amazonaws.com
 html.atm.youku.com
 html-img.revcontent.com
 html.revcontent.com
+htmlwww.livejasmin.com
+htnew.livejasmin.com
 htpkxpgbprpklc.com
 ht.pornhub.com
 htrprrrtrwrc.com
+httcreatives.livejasmin.com
+httnew.livejasmin.com
 httpads.com
 http.intuit.speedera.net
 httpkafka.unityads.unity3d.com
@@ -18472,14 +18535,27 @@ imediaaudiences.com
 i.media.cz
 imeds.ero-advertising.com
 imeem.112.2o7.net
+img0.glb.livejasmin.com
+img0.livejasmincdn.com
+img0.livejasmin.com
+img0.m.livejasmincdn.com
 img100-321.xvideos.com
 img1-gadgetsnow-com.cdn.ampproject.org
+img1.glb.livejasmin.com
 img1.ijinshan.com
+img1.livejasmincdn.com
+img1.livejasmin.com
 img1.zergnet.com
 img2.autoimg.cn
+img2.glb.livejasmin.com
+img2.livejasmincdn.com
+img2.livejasmin.com
+img2.m.livejasmincdn.com
 img2.ru.redtram.com
 img2.zergnet.com
 img.3lift.com
+img3.livejasmincdn.com
+img3.m.livejasmincdn.com
 img3.usefathom.com
 img3.zergnet.com
 img4.zergnet.com
@@ -18526,6 +18602,7 @@ img.gop1.co
 imggprx.mgid.com
 imggprx.traffic-media.co.uk
 imgg.traffic-media.co.uk
+imghu.livejasmin.com
 img.jizzads.com
 img.layer-ads.de
 img.leadzutw.com
@@ -18547,6 +18624,7 @@ imgn.mgid.com
 img.nui.media
 img-origin.trafficshop.com
 img-peco.ucweb.com
+imgproc1.livejasmin.com
 img.prohardver.hu
 img.promoddl.com
 imgpromo.easyrencontre.com
@@ -18572,7 +18650,13 @@ img.ucweb.com
 img-us.mgid.com
 imgview.pw
 imgwallet.com
+imgx0.livejasmincdn.com
+imgx1.livejasmincdn.com
+imgx2.livejasmincdn.com
+imgx2.livejasmin.com
+imgx3.livejasmincdn.com
 imgx.jampp.com
+imgx.livejasmin.com
 imgx.mediav.com
 img.zedo.com
 img.zog.link
@@ -19497,6 +19581,7 @@ japan.inmobi.com
 japi.adfox.ru
 japscat.org
 jarvisdigital-inv-eu.admixer.net
+jasmin-cams-live.com
 ja.support.appsflyer.com
 jatxt.com
 jauchuwa.net
@@ -20889,6 +20974,7 @@ linkexchange.com
 linkexchangers.net
 link.getmailspring.com
 linkgrand.com
+link.info.livejasmin.com
 link.ixs1.net
 linkjumps.com
 linknoddle4.com
@@ -20959,6 +21045,10 @@ liveburst.com
 livecam.com
 live-cams-0.livejasmin.com
 live-cams-1.livejasmin.com
+live-cams-2.livejasmin.com
+live-cams-3.livejasmin.com
+live-cams-4.livejasmin.com
+live-cams-5.livejasmin.com
 live.chartboost.com
 live-collect-blue-lb-184443518.us-east-1.elb.amazonaws.com
 livedbd.top
@@ -20968,6 +21058,23 @@ live-eu-am.sekindo.com
 livefyre.com
 live.hyprmx.com
 liveintent.com
+livejasmin.academy
+livejasminacademy.com
+livejasminacademy.tv
+livejasminbabes.com
+livejasmincall.com
+livejasmincall.net
+livejasmincdn.com
+livejasmin.cl
+livejasmin.co.com
+livejasmine.us
+livejasmin.io
+livejasmin.net.ag
+livejasmin.net.nz
+livejasmin.net.sc
+livejasmin.org.in
+livejasmin.porn
+livejasmin.vg
 live.ksapisrv.com
 live-log.immomo.com
 live-m.immomo.com
@@ -21502,6 +21609,9 @@ ltsnnqhtx.com
 lttsvesujmry.com
 ltzjkjxx.com
 lu.ads.justpremium.com
+lubet.api.new.livejasmin.com
+lubet.modelcenter.livejasmin.com
+lubet.www.livejasmin.com
 lucasrealestategroup.com
 lucidmedia.com
 lucky-asian.info
@@ -21848,6 +21958,7 @@ mail.adcolony.com
 mail.admaym.com
 mail.applovin.com
 mail.callback.batmobi.net
+mailer.livejasmin.com
 mail.ero-advertising.com
 mailfoogae.appspot.com
 mail.moatads.com
@@ -22038,6 +22149,7 @@ massets.appsflyer.com
 massivemark.com
 mass-traffic.com
 master.ads.contentabc.com
+mastercenter.livejasmin.com
 mastercrazymonkey.com
 masterh1.adriver.ru
 masterh5.adriver.ru
@@ -23235,6 +23347,7 @@ mod.calltouch.ru
 modchips24.com
 modehaus-schulz-brakel.de
 modekaufen.com
+modelcenter.livejasmin.com
 modellbahn-versandhaus.de
 modellbau-billiger.de
 modelsgonebad.com
@@ -23684,6 +23797,7 @@ mx1.freemail.ne.jp
 mx.admaym.com
 mx.adserver.yahoo.com
 mxase.clmbtech.com
+mxd.livejasmin.com
 mx.ero-advertising.com
 mxltxnomp.bid
 mxmacromedia.112.2o7.net
@@ -23693,6 +23807,7 @@ mxptint.net
 mxpzslze.com
 mxsuikhqaggf.com
 mxtads.com
+mxu.livejasmin.com
 m.xvideos.by
 mxvp-ad-config-prod-1.zenmxapps.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
@@ -23761,6 +23876,7 @@ myhousecouture.com
 my.iheartradio.com
 mykhtesikvuz.com
 mylevfpqmlt.com
+mylivejasmin.org
 mymediarecommendations.com
 mymetrix.comscore.com
 my.mgid.com
@@ -24150,6 +24266,7 @@ new.fqtag.com
 new-immosolutions.de
 newip427.changeip.net
 newjobs.d1.sc.omtrdc.net
+new.livejasmin.com
 newlook.112.2o7.net
 new.magicadsroute.com
 newmail.pronpic.org
@@ -24165,6 +24282,7 @@ newpromo.europacash.com
 newpush.support
 newre-conversions.clickmeter.com
 newrelic.com
+news12.livejasmin.com
 news2day.me
 news98.biz
 newsadsppush.com
@@ -24190,8 +24308,25 @@ news.iadsdk.apple.com
 newsinteractive.112.2o7.net
 newsinternational.122.2o7.net
 news-jupiter.com
+newsletter07.livejasmin.com
+newsletter09.livejasmin.com
+newsletter100.livejasmin.com
+newsletter101.livejasmin.com
+newsletter105.livejasmin.com
+newsletter106.livejasmin.com
+newsletter109.livejasmin.com
+newsletter10.livejasmin.com
+newsletter111.livejasmin.com
+newsletter112.livejasmin.com
+newsletter113.livejasmin.com
+newsletter114.livejasmin.com
+newsletter115.livejasmin.com
+newsletter11.livejasmin.com
+newsletter2.livejasmin.com
 newsletter-link.com
+newsletter.livejasmin.com
 newsletter.outbrain.com
+news.livejasmin.com
 newsmagic.net
 newsmax.bevo.adsnative.com
 newsmax.cdn.adsnative.com
@@ -24980,6 +25115,7 @@ olarshalrolli.com
 ol.at.atwola.com
 olazspdsld.bid
 olb.pns.kt.com
+old.livejasmin.com
 oldmilram.com
 old.publishers.adsterra.com
 olgjzpgp.com
@@ -25228,7 +25364,6 @@ open.uc.cn
 openx2.kytary.cz
 openx2-match.dotomi.com
 openx.4shared.com
-openx.actvtech.com
 openxadexchange.com
 openx.adhaven.com
 openx.angelsgroup.org.uk
@@ -26206,6 +26341,7 @@ performancerevenue.com
 performancerevenues.com
 performancing.com
 performanteads.com
+performercenter.livejasmin.com
 perfspot.crwdcntrl.net
 perf.teads.tv.edgekey.net
 perfumespremium.es
@@ -27459,6 +27595,7 @@ prestigeuhren.eu
 presto-internals.adotmob.com
 presto-prod.adotmob.com
 prestoris.com
+prettyface.livejasmin.co.com
 prettylittlesummer.at
 pre-usermatch.targeting.unrulymedia.com
 prevdo1.ml
@@ -29860,6 +29997,7 @@ s.analytics.yahoo.com
 sancdn.net
 sandbox.admixer.net
 sandbox.duapps.com
+sandbox.livejasmin.com
 sandbox.outbrain.com
 sandrachen.de
 sandroprabratm.info
@@ -31227,6 +31365,7 @@ skimlinkscom.skimlinks.com
 skimresources.com
 skin.adtrue24.com
 skinected.com
+skinstrip.net
 skin.uc.cn
 skin.ucweb.com
 skipthegames.com
@@ -32093,14 +32232,18 @@ statgw.devtodev.com
 stat.hasmobi.net
 stathat.com
 static0-h5mob.rayjump.com
+static1.new.livejasmincdn.com
 static1.zog.link
 static2.adtimaserver.vn
 static2.chartbeat.com
 static2.mopub.com
+static2.new.livejasmincdn.com
 static2.outbrain.com
 static2.zog.link
+static3.new.livejasmincdn.com
 static3.zog.link
 static.4chan-ads.org
+static4.new.livejasmincdn.com
 static.a-ads.com
 static.accesstrade.vn
 static.ad.atdmt.com
@@ -32216,6 +32359,7 @@ static.kissmetrics.com
 static.lalaping.com
 static-landers-ht.contentdef.com
 static.leaddyno.com
+static.livejasmin.com
 static.liveshows.contentabc.com
 static.loboclick.com
 static.locallogic.co
@@ -32302,6 +32446,10 @@ static.williamhill.com
 static.wooboo.com.cn
 static.woopra.com
 static.wossabeerarg.com
+staticx1.new.livejasmincdn.com
+staticx2.new.livejasmincdn.com
+staticx3.new.livejasmincdn.com
+staticx4.new.livejasmincdn.com
 static.yieldmo.com
 static.yomedia.vn
 static.youappi.com
@@ -32616,6 +32764,7 @@ stream-all.com
 streamamp-d.openx.net
 streamate.com
 streamdefence.com
+streamdiag.livejasmin.com
 stream-direct.co
 streamdream.ws
 streamerpr.trafficon.co
@@ -32623,6 +32772,7 @@ streamguys.deliveryengine.adswizz.com
 streaming.adswizz.com
 streamkey-inv-eu.admixer.net
 streamkey-inv-eus.admixer.net
+stream.livejasmin.com
 streamlyn-d.openx.net
 streetdesign-motorradtechnik.de
 stremanp.com
@@ -33879,6 +34029,7 @@ titokterminal.com
 ti.tradetracker.net
 tiumbs.ero-advertising.com
 tiunnitm.bid
+tives.livejasmin.com
 tiwar.net
 tixzeybm.com
 tizerclik.com
@@ -35792,6 +35943,7 @@ tvevyrrrnbcbyk.com
 tvguide.112.2o7.net
 tvhyilwkn.com
 t.vi-serve.com
+tv.livejasmin.com
 tvmds.tvpassport.com
 tvmtracker.com
 tvn.adocean.pl
@@ -36228,6 +36380,7 @@ update.aubemobile.com
 update.central-messages.com
 updatefaker.com
 update.fortinetantivirus.com
+updatehd.livejasmin.com
 update.hiconversion.com
 update.ib.adnxs.com
 update.indexww.com
@@ -36446,6 +36599,7 @@ usswrite.com
 us-sync.taboola.com
 ustat.batmobi.net
 us.tergun.com
+ustest.livejasmin.com
 us-tracking.dyntrk.com
 us.tracking.justpremium.com
 us-ucdc-upaas.ucweb.com
@@ -36933,6 +37087,7 @@ video.adspruce.com
 video-ads.rubiconproject.com
 video-ads.rubiconproject.com-v1.edgekey.net
 video-ad-stats.googlesyndication.com
+video.alxbgo.com
 videoamp.com
 video.appsdownld.com
 video-assets.mathtag.com
@@ -36974,6 +37129,7 @@ videosalon.by
 videos-bleepingcomputers-com.tvpagecdn.com
 video.sekindo.com
 videos.fyi
+videos.livejasmin.co.com
 video.startappservice.com
 videostats.kakao.com
 videotroncom.112.2o7.net
@@ -37507,6 +37663,9 @@ webcounter.com
 webcounter.cz
 webdata.vidz.com
 webdesignenet.info
+webdisk.jasmin-cams-live.com
+webdisk.livejasmin.cl
+webdisk.livejasmin.co.com
 webeatyouradblocker.com
 weber-messeberatung.de
 weber-versand.net
@@ -38122,6 +38281,7 @@ ww.audienceinsights.net
 wwbn.com
 ww.cj.com
 wweconsumer.112.2o7.net
+ww.livejasmin.com
 wwmcuhvqaf.com
 wwnc.xyz
 wwngdgldlsv.com
@@ -39175,6 +39335,7 @@ www.iwmbuzz.com
 www.izmirend.net
 www.jads.co
 www.japscat.org
+www.jasmin-cams-live.com
 www.jdoqocy.com
 www.jellycounter.com
 www.jetpackdigital.com
@@ -39268,6 +39429,19 @@ www.little-help.com
 www.liveadclicks.com
 www.liveadexchanger.com
 www.liveads.jp
+www.livejasmin.academy
+www.livejasminbabes.com
+www.livejasmincall.com
+www.livejasmincall.net
+www.livejasmin.cl
+www.livejasmin.co.com
+www.livejasmine.us
+www.livejasmin-hack.com
+www.livejasmin.io
+www.livejasmin.net.ag
+www.livejasmin.net.nz
+www.livejasmin.net.sc
+www.livejasmin.org.in
 www.lkvifcxvqkwrl.com
 www.loadmill.com
 www.loboclick.com
@@ -39375,6 +39549,7 @@ www.mycpvlife.com
 www.myemailtracking.com
 www.mygreatrewards.com
 www.mygsdservices.com
+www.mylivejasmin.org
 www.mylovecards.com
 www.myornamenti.com
 www.mypagerank.net
@@ -39399,6 +39574,7 @@ www.neptuneads.com
 www.netmaxx.com
 www.netpoll.nl
 www.newlimitedoffer.com
+www.new.livejasmin.com
 www.newrelic.com
 www.nexage.com
 www.nextstudent.com
@@ -39541,6 +39717,7 @@ www.premieropinion.com
 www.presidency.site
 www.press-here-to-continue.com
 www.pressurespot.com
+www.prettyface.livejasmin.co.com
 www.prioritisemyhealth.com
 www.privatamateure.com
 www.prize-mania.mobi
@@ -39701,6 +39878,7 @@ www.skassets.com
 www.skattabrain.com
 www.skimlinks.com
 www.skimresources.com
+www.skinstrip.net
 www.sksytkvnvnmz.com
 www.smartadserver.com
 www.smartclick.net
@@ -39943,6 +40121,7 @@ www.usenetjunction.com
 www.users.ero-advertising.com
 www.user-shield.com
 www.usersonlinecounter.com
+www.uslax.livejasmin.com
 www.validview.com
 www.valueclick.com
 www.valuedopinions.sg
@@ -39953,6 +40132,7 @@ www.vidcpm.com
 www.videoconverterhd.com
 www.videolove.clanteam.com
 www.videomediagroep.nl
+www.videos.livejasmin.co.com
 www.view4cash.de
 wwwvipboxlive.imageshack.host
 wwwvipboxtvse.imageshack.host
@@ -40114,6 +40294,7 @@ x2ec.nbryb.com
 x2.mookie1.com
 x2.trk1.co
 x3.extreme-dm.com
+x3fq3dimg1.livejasmin.com
 x4.lov3.net
 x6.yakiuchi.com
 xad.com
@@ -40153,7 +40334,6 @@ x.clickcertain.com
 xclicks.net
 xcnn.com
 xcp.go.sonobi.com
-xcsypkknp.com
 xctiblmetgwr.com
 xd.adform.net
 xdaprod.amobee.com
