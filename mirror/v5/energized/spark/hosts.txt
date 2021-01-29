@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.01.025
-# Release: 025
-# Entries: 40,974
+# Version: 21.01.029
+# Release: 029
+# Entries: 40,978
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 25 Jan 21 12:06:00
+# Updated: Fri, 29 Jan 21 12:05:58
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -3529,6 +3529,7 @@ adshot.de
 adshowcase.verizonmedia.com
 adshowroom.adcolony.com
 adshows.21cn.com
+adshrink.it
 ads.hulu.com
 ads.ibest.com.br
 ads.ibtracking.com
@@ -9951,6 +9952,7 @@ cdn-jp.gsecondscreen.com
 cdnjs.tvpage.com
 cdn.justpremium.com
 cdn.k50.ru
+cdn-ketchapp.akamaized.net
 cdn.keywee.co
 cdn.kiwys.com
 cdn.komoona.com
@@ -10917,6 +10919,7 @@ cmpkynhhmkni.com
 cmp-lb-ap-southeast.tubemogul.com
 cmpload.cmcm.com
 cmp.optad360.io
+cmp.osano.com
 cm.pos.baidu.com
 cmp.teads.mgr.consensu.org
 cmp.uniconsent.mgr.consensu.org
@@ -20189,6 +20192,7 @@ kerio-push-gateway-prod.elasticbeanstalk.com
 kerstingundt.de
 kerumal.com
 ketads.com
+ketchapp.org
 ketodietplus.com
 ketqqygdh.com
 keybinary.com
