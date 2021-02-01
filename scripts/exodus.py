@@ -101,6 +101,10 @@ def main(argv):
                 print(f"  Skipping (whitelisted subdomain): {host}")
                 continue
 
+            if host.split(".")[0] == "*":
+                print(f"  Skipping (wildcard): {host}")
+                continue
+
             domains.append(host)
             counter += 1
 
