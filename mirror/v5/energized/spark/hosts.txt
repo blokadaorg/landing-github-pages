@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.01.029
-# Release: 029
-# Entries: 40,978
+# Version: 21.02.032
+# Release: 032
+# Entries: 40,990
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 29 Jan 21 12:05:58
+# Updated: Mon, 01 Feb 21 12:06:01
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -2801,6 +2801,7 @@ ads24.net
 ads24.tipps24-netzwerk.de
 ads25.focalink.com
 ads2-adnow.com
+ads2.adviad.com
 ads2.brazzers.com
 ads2.contentabc.com
 ads2.dyn.perfectaudience.com
@@ -2828,6 +2829,7 @@ ads30.adcolony.com
 ads360.com
 ads.365.mk
 ads3-adnow.com
+ads3.adviad.com
 ads3.contentabc.com
 ads.3e-news.net
 ads3.eqads.com
@@ -2841,6 +2843,7 @@ ads3.textra.me
 ads3.virtual-nights.com
 ads40.vertamedia.com
 ads.429videos.com
+ads4.adviad.com
 ads-4entertainment.adhese.com
 ads4.gamecity.net
 ads4homes.com
@@ -2924,6 +2927,7 @@ ads.adultlinking.com
 ads.adultplex.com
 ads.adverline.com
 ads.advertise.net
+ads.adviad.com
 ads.adxadserv.com
 ads.adxpansion.com
 ads.aerserv.com
@@ -6115,6 +6119,7 @@ api.adthor.com
 api.adtimaserver.vn
 api.adtrade.com
 api.adtrue.com
+api.adviad.com
 api.ad.xiaomi.com
 api.agoda.com.edgekey.net
 api.airpush.com
@@ -6577,6 +6582,7 @@ app.adroll.com
 appads.com
 app.adsunflower.cn
 appadtest.perfectcorp.com
+app.adviad.com
 app.adywind.com
 app.adzerk.com
 appai.de
@@ -9728,6 +9734,7 @@ cdn.adual.net
 cdn.advanseads.com
 cdn.advertiserurl.com
 cdn.advertserve.com
+cdn.adviad.com
 cdn.adx1.com
 cdn.ad.xiaomi.com
 cdnag.bidvertiser.com
@@ -10150,6 +10157,7 @@ cdn-usent.kampyle.com
 cdn.user-api.com
 cdn.userreport.com
 cdn.usersnap.com
+cdnuz.adviad.com
 cdn-v3.conductrics.com
 cdn.vdopia.com
 cdn-vfw-us-test.amazon-adsystem.com
@@ -13246,6 +13254,7 @@ d.mordi.xyz
 dmp.adblade.com
 dmp.adform.net
 dmp.adotmob.com
+dmp.adviad.com
 dmp.amoad.com.rs.adtdp.com
 dmp.delidatax.com
 dmp-eu.adform.net
@@ -13507,6 +13516,7 @@ dspaction.wpu.sh
 dsp.adfarm1.adition.com
 dsp.adotmob.com
 dsp.adriver.ru
+dsp.adviad.com
 dsp.appnext.com
 dsp.batmobi.net
 dsp-creative.demandbase.com
@@ -17673,7 +17683,6 @@ holacasita.com
 holder.com.ua
 hollandbusinessadvertising.nl
 hollister-stuttgart.gaysingleparty.de
-hollps.win
 hollylight.store
 hollymoda.com
 hollywood.122.2o7.net
@@ -29082,6 +29091,7 @@ replicauhrenonlineshop.de
 replica-uhrenshop.com
 repo.amobee.com
 report02.adtech.us
+report.adviad.com
 report.adview.cn
 report.clevernt.com
 report.crashlytics.com
@@ -32056,6 +32066,7 @@ ssp.adplus.co.id
 ssp.adriver.ru
 ssp.ads.betweendigital.com
 ssp.advertising.com
+ssp.adviad.com
 sspapi.admicro.vn
 ssp-api.mobadvent.com
 ssp.api.tappx.com
@@ -33107,6 +33118,7 @@ sync.admixer.co.kr
 sync.adotmob.com
 sync.adspruce.com
 sync.ads.yieldmo.com
+sync.adviad.com
 sync.alphonso.tv
 sync.aniview.com
 sync-apsg.tidaltv.com.akadns.net
