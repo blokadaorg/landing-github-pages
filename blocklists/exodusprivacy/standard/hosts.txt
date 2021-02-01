@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2021-01-29 08:45:07.785304
+# Generated at 2021-02-01 11:58:23.248754
 # Made by Blokada
 
 databerries.com
@@ -164,7 +164,6 @@ wd.adcolony.com
 graph.accountkit.com
 proximitykit.radiusnetworks.com
 mobileanalytics.us-east-1.amazonaws.com
-*.estimote.com
 adproxy.fyber.com
 appengage-video.fyber.com
 banner.fyber.com
@@ -512,7 +511,6 @@ m.airpush.com
 alimama.
 adsmogo.
 usebutton.com
-*.jiguang.cn
 mobile-sdk-resources.jumio.com
 nv-sdk.jumio.com
 partner-service.link
