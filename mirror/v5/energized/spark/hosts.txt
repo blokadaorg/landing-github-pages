@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.02.032
-# Release: 032
-# Entries: 40,990
+# Version: 21.02.036
+# Release: 036
+# Entries: 41,054
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 01 Feb 21 12:06:01
+# Updated: Fri, 05 Feb 21 12:05:59
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -3329,6 +3329,7 @@ adserver.proteinos.com
 adserverpub.com
 adserver.reklamstore.com
 adserver.sciflicks.com
+adserver.scr.sk
 adserver.seniorfriendfinder.com
 adserver.shadow.snapads.com
 adserver.sharewareonline.com
@@ -4426,6 +4427,7 @@ advmedialtd.com
 adv.medscape.com
 adv.mezon.ru
 advmob.cn
+adv.mpvc.it
 adv.mxmcdn.net
 adv-mydarkness.ggcorp.me
 adv.nexthardware.com
@@ -5856,6 +5858,7 @@ anex.appnexus.com
 an.facebook.com
 an-gb.mgid.com
 angege.com
+angeldonationblog.com
 angiba.112.2o7.net
 anglishreasts.site
 angmar.112.2o7.net
@@ -8519,6 +8522,7 @@ blog.adsnative.com
 blogadswap.com
 blog.applovin.com
 blog-assets.newrelic.com
+blog.br0vvnn.io
 blogclans.com
 blogcounter.com
 blogcounter.de
@@ -8652,6 +8656,7 @@ bold-win-inv-eus.admixer.net
 bomjrcum.bid
 bonanza.com
 bond.iad-03.braze.com
+bongacams.com
 bongacash.com
 bonga.sms-mail-message.com
 bonintnewsktarcom.112.2o7.net
@@ -9300,6 +9305,7 @@ campervip.top
 camrfajedgku.com
 cams.enjoy.be
 camsense.com
+camsoda.com
 camvideos.tv
 canadaalltax.com
 canadagoosepromos-ch.com
@@ -9532,6 +9538,7 @@ cbsnfl.112.2o7.net
 cbspgatour.112.2o7.net
 cbsspln.112.2o7.net
 cbstelevisiondistribution.112.2o7.net
+cb.wzrkt.com
 cbzjukldosooj.com
 cbzkrwjdskg.com
 cc5f.dnyp.com
@@ -9633,6 +9640,7 @@ cdn2.gotoirontek.com
 cdn2.inner-active.mobi
 cdn2.lfstmedia.com
 cdn2.mopub.com
+cdn2.optimizely.com
 cdn2.popcash.net
 cdn2.shareitgames.com
 cdn2sitescout-a.akamaihd.net
@@ -9649,6 +9657,7 @@ cdn3.ghosthis.review
 cdn.3lift.com
 cdn3.media.net
 cdn3nc.media.net
+cdn3.optimizely.com
 cdn4.buysellads.net
 cdn4.crispadvertising.com
 cdn4.mopub.com
@@ -9779,6 +9788,8 @@ cdn.augur.io
 cdn.avantisvideo.com
 cdn.avazutracking.net
 cdn.avmws.com
+cdn.awsbj0.fds.api.mi-img.com
+cdn.awsbj0.fds.api.mi-img.com.mgslb.com
 cdnaws.mobidea.com
 cdnax.bidvertiser.com
 cdn.ayads.co
@@ -9786,6 +9797,7 @@ cdn.bannersnack.com
 cdn.batmobi.net
 cdn.beaconpush.com
 cdn.betgorebysson.club
+cdn.betrad.com
 cdn.bidadx.com
 cdn.biddingx.com
 cdn.bidgear.com
@@ -11055,6 +11067,7 @@ code.revcontent.com
 code.rtbsystem.com
 code-server.biz
 code.superstats.com
+codevexillium.org
 code.vihub.ru
 code.visitor-track.com
 codicebusiness.shinystat.com
@@ -13359,6 +13372,7 @@ dosugcz.biz
 dos.velek.com
 dotandad.com
 dotisouldheck.pro
+dotmetrics.net
 dotnxdomain.net
 dotomi.com
 dotomi.weighted.com.akadns.net
@@ -13389,6 +13403,7 @@ dowjones.122.2o7.net
 dowjones-d.openx.net
 down1.uc.cn
 down2.uc.cn
+down3.ucweb.com
 down4.ucweb.com
 downali.game.uc.cn
 downherstorstitone.pro
@@ -13848,6 +13863,7 @@ easyhash.pro
 easyhitcounters.com
 easyhits4u.com
 easyinline.com
+easylist.club
 easymcenter.com
 easy-pdf.com
 easy-web-stats.com
@@ -14529,7 +14545,9 @@ eu01.nr-data.net
 eu1.madsone.com
 eu1.snoobi.com
 eu1-spiky.wzrkt.com
+eu1.wzrkt.com
 eu2.madsone.com
+eu2.wzrkt.com
 eu-adcenter.net
 eu-ad.sam4m.com
 euadsapi.manhuaren.com
@@ -14613,6 +14631,7 @@ events30.adcolony.com
 events3.adcolony.com
 events3alt.adcolony.com
 events.adwidecenter.com
+events.aerserv.com
 eventsalt30.adcolony.com
 events-api.otherlevels.com
 events.api.vungle.com
@@ -15204,6 +15223,7 @@ filter.adxfactory.com
 filter.ezmob.com
 filter.mediacpc.com
 filter.popmonetizer.com
+filters.adtidy.org
 filter.xmlads.bid
 fim.122.2o7.net
 fim.adnxs.com
@@ -15331,6 +15351,7 @@ flight-manager.outbrain.com
 flimsycircle.com
 fliplake.de
 flipper.outbrain.com
+flirt4free.com
 flirt.com
 flixprice.com
 flkyhwjhp.com
@@ -18798,6 +18819,8 @@ in15.zog.link
 in16-1.zog.link
 in16-2.zog.link
 in16.zog.link
+in1-spiky.wzrkt.com
+in1.wzrkt.com
 in2.zog.link
 in3.zog.link
 in4.zog.link
@@ -18999,6 +19022,7 @@ inskinmedia.com
 insnw.net
 insolvenzamt.com
 inspikon.com
+in-spiky.wzrkt.com
 ins-services.meltwater.com
 instaboom-hello.site
 insta-cash.net
@@ -19123,6 +19147,7 @@ inv-dmp.admixer.net
 invenio.sgn.com
 inventionpassenger.com
 invernetter.info
+investbooking.de
 investingapp.net
 investing-channel-d.openx.net
 investor.rubiconproject.com
@@ -20402,6 +20427,7 @@ kr9apzxosa.appspot.com
 kr.adserver.yahoo.com
 krafteurope.112.2o7.net
 kraken.bike
+krakenfolio.com
 kraken.production.us-east-1.kops.kargo.com
 kraken.production.us-west-1.kops.kargo.com
 krakeshlaja.com
@@ -20703,6 +20729,7 @@ lbal.wowanalytics.co.uk
 lbaybxwiklnfe.com
 lbcfwonline.com
 lbdata.tj.ijinshan.com
+l.betrad.com
 lb.fruitflan.com
 lb.ivitrack.com
 lbjgdskmgsmowy.com
@@ -21080,6 +21107,7 @@ livejasmincall.net
 livejasmincdn.com
 livejasmin.cl
 livejasmin.co.com
+livejasmin.com
 livejasmine.us
 livejasmin.io
 livejasmin.net.ag
@@ -24286,6 +24314,7 @@ newmail.pronpic.org
 newmedsdeal.eu
 newmeet.r.xoxknct.com
 newmeet.s.xoxknct.com
+newms-shop.su
 new-new-years.com
 newnudecash.com
 newopenx.detik.com
@@ -25240,6 +25269,7 @@ one.newrelic.com
 onepush.query.yahoo.com
 onerror.ga
 onerror.ml
+onesignal.com
 onespot.com
 onestat.com
 onestatfree.com
@@ -25418,6 +25448,7 @@ ops.adreach.co
 ops-cdn.undertone.com
 opsivesh.net
 op.skimresources.com
+opsonew3org.sg
 opt7.go.sonobi.com
 opt8.co
 optad360.io
@@ -26678,6 +26709,7 @@ pixel.parsely.com
 pixel.prod2.invitemedia.com
 pixel.programmatictrader.com
 pixel.quantcount.com
+pixel.quantserve.com
 pixel.rayjump.com
 pixel.reckintersupwas.info
 pixel.redditmedia.com
@@ -30886,6 +30918,7 @@ sex-and-flirt.com
 sexcounter.com
 sexiba.com
 sexinyourcity.com
+sexlist.com
 sexmoney.com
 sexpennyauctions.com
 sexsimulator.com
@@ -30923,6 +30956,8 @@ sg01.adywind.com
 sg01.rayjump.com
 sg01.smardroid.com
 sg.12xlwin3.net
+sg1-spiky.wzrkt.com
+sg1.wzrkt.com
 sg2-bid.adsrvr.org
 sg3.af.beap.bc.yahoo.com
 sg3.thor-hammer.me
@@ -31361,6 +31396,19 @@ sjs.bizographics.com
 s-jsonp.moatads.com
 s-jsonp.moatads.coms-jsonp.moatads.com
 s.jsrdn.com
+sk1-spiky.wzrkt.com
+sk1-staging-11.wzrkt.com
+sk1-staging-12.wzrkt.com
+sk1-staging-1.wzrkt.com
+sk1-staging-2.wzrkt.com
+sk1-staging-3.wzrkt.com
+sk1-staging-4.wzrkt.com
+sk1-staging-5.wzrkt.com
+sk1-staging-6.wzrkt.com
+sk1-staging-7.wzrkt.com
+sk1-staging-8.wzrkt.com
+sk1-staging-9.wzrkt.com
+sk1.wzrkt.com
 skategirlchina.com
 skateheadclothing.com
 sk-biografien.de
@@ -34561,7 +34609,6 @@ track.dalenetwork.com
 track.dankcash.com
 track.dannixxx.com
 track.datatrics.com
-track*.datatrics.com
 trackdat.pinsightmedia.com
 track.dblol.com
 track.ddfadventures.com
@@ -35637,9 +35684,11 @@ tr.alphonso.tv
 trane-ir-corp-ingersollrand.112.2o7.net
 trankera.org
 tranquilside.com
+transferwiser.io
 trans.globalnetworkad.com
 trans.hiido.com
 translate.newrelic.com
+transplugin.io
 transporter-footwear.com
 trapasol.com
 trasholita.com
@@ -36438,6 +36487,7 @@ uplynk.adaptv.advertising.com
 uplynk-beacon-1914127361.ap-southeast-1.elb.amazonaws.com
 up.nytimes.com
 upoll.umengcloud.com
+upornia.com
 uppyads.com
 uprimp.com
 uproar.com
@@ -36493,6 +36543,8 @@ us1.ero-advertising.com
 us1.evadavdsp.pro
 us-1.gladly.com
 us1.siteimprove.com
+us1-spiky.wzrkt.com
+us1.wzrkt.com
 us2.siteimprove.com
 us2.sumologic.com
 usa-casino-online.com
@@ -37148,6 +37200,7 @@ videos.fyi
 videos.livejasmin.co.com
 video.startappservice.com
 videostats.kakao.com
+video-stats.l.google.com
 videotroncom.112.2o7.net
 video.ucweb.com
 video.unrulymedia.com
@@ -37653,6 +37706,8 @@ web-analytics-collector.thescore.com
 webanalytics.localytics.com
 webanalyticsnossl.websense.com
 webanalytics.tm00.com
+web-analytics-us.huami.com
+web-analytics.us-west-2.elasticbeanstalk.com
 web.analytics.yahoo.com
 webapi.hot-mob.com
 webassembly.stream
@@ -38865,6 +38920,7 @@ www.c4dl.com
 www.cafecoquin.com
 www.cam4.fr
 www.camsoda1.com
+www.camsoda.com
 www.canalstat.com
 www.caramail.com
 www.carbonads.net
@@ -39103,6 +39159,7 @@ www.extreme-dm.com
 www.ex.umengcloud.com
 www.eyewonder.com
 www.faggotry.com
+www.fakehub.com
 www.fanners.ero-advertising.com
 www.fantasyescortblogs.com
 www.fastclick.net
@@ -39613,6 +39670,7 @@ www.ntsearch.com
 www.nu26.com
 www.nutabuse.com
 www.nutaku.com
+www.nutaku.net
 www.o333o.com
 www.oainternet.com
 www.oata.ero-advertising.com
@@ -40108,6 +40166,7 @@ www.tzkarati.com
 www.u1trkqf.com
 www.uc.cn
 www.uc.ucdns.uc.cn
+www.ucweb.com
 www.uehkcendtuxt.com
 www.uesdpbrej.com
 www.ueuodgnrhb.com
@@ -40267,6 +40326,7 @@ www.youarepartofour.club
 www.youaresogay.com
 www.youfiletor.com
 www.youho.com
+www.youjizz.com
 www.yourgiftrewards.com
 www.yourlustmedia.com
 www.yourtuber.info
@@ -40418,6 +40478,7 @@ xlog.byteoversea.com
 xlog.tiktokv.com
 xlog-va.byteoversea.com
 xlog-va.musical.ly
+xlovecam.com
 xl-trk.com
 xm0siulufost.com
 xmarkscom.skimlinks.com
@@ -40485,6 +40546,7 @@ xn--minecrft-5za.com
 xnqfpnszqwpijd.com
 xnwqhydt.com
 xnxx321.com
+xnxx.com
 xn--yotu-1ra.be
 xoada0pzosa.appspot.com
 xokako.com
@@ -40708,12 +40770,14 @@ youarepartofour.club
 youaresogay.com
 youbestchoice.com
 youjamnag.site
+youjizz.com
 youlamedia.com
 youlouk.com
 youmi.net
 younglustforum.pw
 young-sos.de
 youplay2019now.com
+youporn.com
 youporn.sexy
 youradexchange.com
 your.appload.xyz
