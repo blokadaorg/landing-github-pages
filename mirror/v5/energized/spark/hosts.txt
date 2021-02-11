@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.02.036
-# Release: 036
-# Entries: 41,054
+# Version: 21.02.042
+# Release: 042
+# Entries: 41,028
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 05 Feb 21 12:05:59
+# Updated: Thu, 11 Feb 21 12:06:01
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -3047,6 +3047,7 @@ adsbydelema.com
 adsbydomain.fouanalytics.com
 adsby.klikki.com
 ads-by.madadsmedia.com
+adsbynimbus.com
 ads-by.yieldselect.com
 ads-c-1854119718.us-west-1.elb.amazonaws.com
 ads-cadreon.adhese.com
@@ -4494,7 +4495,6 @@ adx.atnext.com
 adx.callback.batmobi.net
 adxcallback.batmobi.net
 adxcallback.hasmobi.net
-adx.c.appier.net
 adxchg.com
 adxcore.com
 adxcorp.kr
@@ -5556,6 +5556,7 @@ analytics.openaire.eu
 analytics.optilead.co.uk
 analytics.orbee.co
 analytics.orenshmu.com
+analytics.ostr.io
 analytics.osvaldo.pt
 analytics.ovative.com
 analytics.ovh.com
@@ -6445,7 +6446,6 @@ api-us.appodealx.com
 api-us-east-1.adsnative.com
 api-us-east.zqtk.net
 api-usent.kampyle.com
-api.usersnap.com
 apiv0.adfox.ru
 apiv1.adfox.ru
 apiv2eu.moengage.com
@@ -6953,13 +6953,6 @@ arkinhechershedt.info
 ark.letv.com
 arkyn.es
 arllvzkoh.com
-arm18.track.appier.net
-arm19.track.appier.net
-arm23.track.appier.net
-arm24.track.appier.net
-arm25.track.appier.net
-arm26.track.appier.net
-arm28.track.appier.net
 armantark.com
 armconsul.ru
 a.rmgserving.com
@@ -10033,6 +10026,7 @@ cdn.optmd.com
 cdn-otf-cas.adperfect.com
 cdn-otf-cas.prfct.cc
 cdn.otherlevels.com
+cdn.owebanalytics.com
 cdnp1.yieldoptimizer.com
 cdnpa.bidvertiser.com
 cdn.pardot.com
@@ -10168,7 +10162,6 @@ cdn.usefathom.com
 cdn-usent.kampyle.com
 cdn.user-api.com
 cdn.userreport.com
-cdn.usersnap.com
 cdnuz.adviad.com
 cdn-v3.conductrics.com
 cdn.vdopia.com
@@ -11980,7 +11973,6 @@ crittercism.com
 crjsrbyybipozq.com
 crkqip.fasdfgsdf.com
 crm4d.com
-cr-mon.appier.net
 croea.com
 crohasitnet.cdaz.icu
 cronvass.edvfwlacluo.com
@@ -12134,7 +12126,6 @@ ct.pinterest.com
 ct.popcash.net
 ctrack.trafficjunky.net
 c.traffic-media.co.uk
-ctrapx-lb.track.appier.net
 ctrck.com
 c.trfilter.info
 ctrlaltdel99.com
@@ -13682,7 +13673,6 @@ dynamicyield.com
 dynamitedata.com
 dyn.atdmt.com
 dync2.c.appier.net
-dync4.c.appier.net
 dync.c.appier.net
 dyn.emetriq.de
 dyn-images.perfectaudience.com
@@ -14153,7 +14143,6 @@ elgros.de
 e-libra.ru
 eligibility.wootric.com
 eligius.st
-elink.clickdimensions.com
 elisabeth-dolezal.at
 e.listenmusic.fun
 elitedollars.com
@@ -15208,7 +15197,6 @@ files.revcontent.com
 files-www2.adsnative.com
 filetarget.com
 filetarget.net
-file-us.clickdimensions.com
 filev4.subiz.com
 filezilla.fr
 fillamoda.com
@@ -16962,6 +16950,7 @@ groupmarketing.ru
 groupm.com
 growice.com
 grow.kissmetrics.com
+growlr.adsbynimbus.com
 grow.rtk.io
 growth-support.applovin.com
 growth-tracking.adroll.com
@@ -19210,21 +19199,6 @@ ios-quinoa-config-prod.sense360eng.com.herokudns.com
 ios-quinoa-personal-identify-prod.sense360eng.com
 ios-quinoa-personal-identify-prod.sense360eng.com.herokudns.com
 iosvpnsecurity.com
-iota100.rtb.appier.net
-iota101.rtb.appier.net
-iota102.rtb.appier.net
-iota103.rtb.appier.net
-iota116.rtb.appier.net
-iota117.rtb.appier.net
-iota118.rtb.appier.net
-iota119.rtb.appier.net
-iota120.rtb.appier.net
-iota121.rtb.appier.net
-iota122.rtb.appier.net
-iota123.rtb.appier.net
-iota124.rtb.appier.net
-iota125.rtb.appier.net
-iota126.rtb.appier.net
 iotapi.adups.com
 io-test.rayjump.com
 ioujbpldicfgm.com
@@ -19839,7 +19813,6 @@ jpjgbiuoziih.com
 jp.jp.api.share.mob.com
 jp-lb.gumgum.com
 jp.l.gm.mob.com
-jprtb.c.appier.net
 jpsc.iasds01.com
 jp-tags.mediaforge.com
 jp-u.openx.net
@@ -21130,6 +21103,7 @@ liverail.rtb.tapad.com
 liverail.sync.go.sonobi.com
 liveramp2waycm-atl.netmng.com
 liveramp.sync.go.sonobi.com
+live.rezync.com
 livesexasian.com
 lives.l.qq.com
 livesmarter.com
@@ -23104,6 +23078,7 @@ mivrpcxlo.com
 mixadvert.com
 mixedreading.com
 mixer4u.online
+mixerbox-lite.adsbynimbus.com
 mixmarket.biz
 mixpo.com
 mix-test.uts.ngdata.com
@@ -23826,6 +23801,7 @@ mvxhbajzn.com
 mvzfgknmmkjzx.com
 m.watchmovie.fun
 mwcouuxv.bid
+mw-encyclopediabritannica.adsbynimbus.com
 mwggummxeygq.com
 m-wlmw.com
 mwnhdnkevthkz.com
@@ -23866,7 +23842,6 @@ myaffiliates.com
 myanyone.net
 myao.adocean.pl
 myappname.s.xoxknct.com
-m.yap.yahoo.co
 myasiantv.gsspcln.jp
 mybags-store.com
 mybbc-analytics.files.bbci.co.uk
@@ -24229,6 +24204,7 @@ netavenir.com
 netbulvar.eu
 netclickstats.com
 netcommunities.com
+netc.sfr.fr
 netdirect.nl
 netdna.cedexis.com
 netextra.hu
@@ -25292,7 +25268,6 @@ onlinecash.com
 onlinecashmethod.com
 online-casino.shengen.ru
 online-casino.webpark.pl
-online-datafeed.c.appier.net
 online-forex.hut1.ru
 onlinegurupopularsitecom.112.2o7.net
 onlineindigoca.112.2o7.net
@@ -25598,7 +25573,6 @@ os.tc
 osteomat.co
 osteopathie4u.at
 ostopauswahl.com
-ostr.io
 osunrrhwhf.com
 otaserve.net
 otcdeal.com
@@ -27278,7 +27252,6 @@ pmjnelusn.com
 pmjwztzpuhb.com
 pmlw0efk4x.com
 p.moatads.com
-pmp-beacon.apx.appier.net
 pmpubs.com
 pmstrk.mercadolivre.com.br
 pm.w55c.net
@@ -27573,7 +27546,6 @@ pre.ads.justpremium.compre.ads.justpremium.com
 prebid.adnxs.com
 prebid.ad.smaato.net
 prebid.adspro.it
-prebid-analytics.c.appier.net
 prebid-a.rubiconproject.com
 prebid-a.rubiconproject.net.akadns.net
 prebid-cache-apac.rubiconproject.com
@@ -33339,6 +33311,7 @@ tag.aticdn.net.edgekey.net
 tag.brainient.com
 tagbucket.cc
 tag-cdn-staging.perfectaudience.com
+tag.clrstm.com
 tag.cogocast.net
 tagcontrolapi.evidon.com
 tagcontrolcollector.evidon.com
@@ -33923,11 +33896,6 @@ thestar.122.2o7.net
 thestardev.122.2o7.net
 thestar.serveblog.net
 thesurfshield.com
-theta230.rtb.appier.net
-theta231.rtb.appier.net
-theta232.rtb.appier.net
-theta233.rtb.appier.net
-theta234.rtb.appier.net
 thetarhaw.com
 thethandarinhec.info
 thetop.be
@@ -34057,6 +34025,7 @@ timefoodandwine.122.2o7.net
 timefortune.112.2o7.net
 timehealth.112.2o7.net
 timehealthtips.122.2o7.net
+timehop.adsbynimbus.com
 timeinc.122.2o7.net
 timeinc.trc.taboola.com
 timeofficepirates.122.2o7.net
@@ -35970,6 +35939,7 @@ t.update.wtag.adaptv.advertising.com
 tupeodhhlcodt.com
 turbine.xaxis.com
 turbo2sdk-push.oupeng.com
+turbo.adsbynimbus.com
 turboadv.com
 turbo.btrll.com
 turbo.engageclick.com
@@ -36122,6 +36092,7 @@ uae.la.ucweb.com
 ua.hit.gemius.pl
 ua.inmobi.com
 uamgajydnv.com
+ua-myfitnesspal.adsbynimbus.com
 uanomwcxixed.com
 uaofcvzlhhh.com
 uapi.ads.oppomobile.com
@@ -37346,6 +37317,7 @@ vjav0.ahcdn.com
 vjcewkcjqu.com
 vj.quanjingpay.com
 vjzcgotoy.com
+vkcache.com
 vkcdnservice.com
 vkhrnisuky.com
 vkphotofqgmmu63j.onion.pet
@@ -37477,7 +37449,6 @@ vrs.cz
 vrtb.infolinks.com
 vrt.outbrain.com
 vrtzads.com
-vrtzcontextualads.com
 vs.asianave.com
 vs.blackplanet.com
 vserv.mobi
@@ -37684,9 +37655,11 @@ wdpro-mkt-prod2-lb.campaign.adobe.com
 wdqeh.bemobtrk.com
 wd-track.de
 w-dual.inmobi.com
+wearbasin.com
 we-are-gamers.com
 w.eastus.avi.inmobi.com
 w.eastus.trafficmanager.inmobi.com
+weatherbug.adsbynimbus.com
 weatherus-d.openx.net
 wea.uc.cn
 web02.adfalcon.com
@@ -40755,6 +40728,7 @@ yobit.net
 yoc-adserver.com
 yoc.optout.skimresources.com
 yoc-performance.com
+yoc-steps.adsbynimbus.com
 yofyzgkoktwlc.com
 yoggrt.com
 yoku.pro
