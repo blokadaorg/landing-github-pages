@@ -274,6 +274,64 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "blocklist",
+                "configs": [
+                    {
+                        "name": "ads",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/ads.txt"
+                        ]
+                    },
+                    {
+                        "name": "facebook",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/facebook.txt"
+                        ]
+                    },
+                    {
+                        "name": "malware",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/malware.txt"
+                        ]
+                    },
+                    {
+                        "name": "phishing",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/phishing.txt"
+                        ]
+                    },
+                    {
+                        "name": "porn",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/porn.txt"
+                        ]
+                    },
+                    {
+                        "name": "tracking",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/tracking.txt"
+                        ]
+                    },
+                    {
+                        "name": "youtube",
+                        "urls": [
+                            "https://blocklistproject.github.io/Lists/youtube.txt"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "spam404",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+                        ]
+                    }
+                ]
             }
         ]
     }
