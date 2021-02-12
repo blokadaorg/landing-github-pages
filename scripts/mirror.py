@@ -303,12 +303,6 @@ def main(argv):
                         ]
                     },
                     {
-                        "name": "porn",
-                        "urls": [
-                            "https://blocklistproject.github.io/Lists/porn.txt"
-                        ]
-                    },
-                    {
                         "name": "tracking",
                         "urls": [
                             "https://blocklistproject.github.io/Lists/tracking.txt"
