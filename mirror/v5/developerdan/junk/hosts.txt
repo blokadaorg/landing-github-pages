@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-02-11T01:05:18+00:00
-# Count: 1111 domains
+# Released: 2021-02-18T13:05:19+00:00
+# Count: 1123 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -55,9 +55,12 @@
 0.0.0.0 relaunch.qresear.ch
 0.0.0.0 www.qresear.ch
 0.0.0.0 100percentfedup.com
+0.0.0.0 e.100percentfedup.com
 0.0.0.0 em.100percentfedup.com
+0.0.0.0 email.100percentfedup.com
 0.0.0.0 li.100percentfedup.com
 0.0.0.0 rs-stripe.100percentfedup.com
+0.0.0.0 shop.100percentfedup.com
 0.0.0.0 store.100percentfedup.com
 0.0.0.0 uptime.100percentfedup.com
 0.0.0.0 www.100percentfedup.com
@@ -88,8 +91,10 @@
 0.0.0.0 armstrongeconomics.com
 0.0.0.0 2018wec.armstrongeconomics.com
 0.0.0.0 2019wec.armstrongeconomics.com
+0.0.0.0 imap.armstrongeconomics.com
 0.0.0.0 mail.armstrongeconomics.com
 0.0.0.0 phpmyadmin.armstrongeconomics.com
+0.0.0.0 sip.armstrongeconomics.com
 0.0.0.0 stage.armstrongeconomics.com
 0.0.0.0 www.armstrongeconomics.com
 0.0.0.0 bible-freedom.com
@@ -132,6 +137,7 @@
 0.0.0.0 production-london-1.davidicke.com
 0.0.0.0 shop.davidicke.com
 0.0.0.0 social.davidicke.com
+0.0.0.0 staging4.davidicke.com
 0.0.0.0 www.davidicke.com
 0.0.0.0 block-test.developerdan.com
 0.0.0.0 block-test-hate-junk.developerdan.com
@@ -313,8 +319,13 @@
 0.0.0.0 archive.lewrockwell.com
 0.0.0.0 beta.lewrockwell.com
 0.0.0.0 beta-secure.lewrockwell.com
+0.0.0.0 dev.lewrockwell.com
+0.0.0.0 docs.lewrockwell.com
 0.0.0.0 donate.lewrockwell.com
+0.0.0.0 ipv6.lewrockwell.com
 0.0.0.0 list.lewrockwell.com
+0.0.0.0 mail.lewrockwell.com
+0.0.0.0 media.lewrockwell.com
 0.0.0.0 secure.lewrockwell.com
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
@@ -427,8 +438,6 @@
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
 0.0.0.0 thinkqanon.com
-0.0.0.0 forum.thinkqanon.com
-0.0.0.0 mail.thinkqanon.com
 0.0.0.0 www.thinkqanon.com
 0.0.0.0 toqonline.com
 0.0.0.0 members.toqonline.com
@@ -972,6 +981,7 @@
 0.0.0.0 fr.scientologynews.org
 0.0.0.0 nl.scientologynews.org
 0.0.0.0 www.scientologynews.org
+0.0.0.0 wwws.scientologynews.org
 0.0.0.0 stormfront.org
 0.0.0.0 bbs.stormfront.org
 0.0.0.0 www.bbs.stormfront.org
@@ -1106,10 +1116,12 @@
 0.0.0.0 cpanel.qgear.us
 0.0.0.0 cpcalendars.qgear.us
 0.0.0.0 cpcontacts.qgear.us
+0.0.0.0 ftp.qgear.us
 0.0.0.0 mail.qgear.us
 0.0.0.0 ns1.qgear.us
 0.0.0.0 ns2.qgear.us
 0.0.0.0 qge.qgear.us
+0.0.0.0 qgear.qgear.us
 0.0.0.0 webdisk.qgear.us
 0.0.0.0 webmail.qgear.us
 0.0.0.0 www.qgear.us

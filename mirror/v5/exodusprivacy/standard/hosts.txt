@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2021-02-11 08:08:20.336626
+# Generated at 2021-02-19 09:28:11.399261
 # Made by Blokada
 
 databerries.com
@@ -520,3 +520,4 @@ sdk.split.io
 sygic-api.infinario.com
 ipqualityscore.com
 bin5y4muil.execute-api.us-east-1.amazonaws.com
+sdk.predic.io

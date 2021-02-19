@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.02.042
-# Release: 042
-# Entries: 3,933
+# Version: 21.02.050
+# Release: 050
+# Entries: 3,941
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Thu, 11 Feb 21 12:07:18
+# Updated: Fri, 19 Feb 21 12:07:23
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -597,6 +597,7 @@ careers.internet.org
 ccamatil.m.facebook.com
 cc.internet.org
 cdg2.fbcdn.net
+cdninstagram.com
 cdn.syndication.twimg.com
 cdn.syndication.twitter.com
 cdn.wibiya.com
@@ -1221,6 +1222,9 @@ external-hkg3-1.xx.fbcdn.net
 external-iad3-1.xx.fbcdn.net
 external-ort2-1.xx.fbcdn.net
 external-preview.redd.it
+external-prg1-1.cdninstagram.com
+external-vie1-1.cdninstagram.com
+external-waw1-1.cdninstagram.com
 f0.freebasics.com
 f6eec677a80kdno4pyq-kxornjlf1521512613-sonar.xz.fbcdn.net
 f91858abe80k2geylvi-zhianuzp1521559729-sonar.xx.fbcdn.net
@@ -1363,6 +1367,7 @@ f.thumbs.redditmedia.com
 ftp.freebasics.com
 ftp.internet.org
 ftp.mx.freebasics.com
+fundingchoicesmessages.google.com
 g2.twimg.com
 galery.freebasics.com
 gamma.whatsapp.com
@@ -3068,9 +3073,12 @@ video-iad3-1.xx.fbcdn.net
 video-nrt1-1.cdninstagram.com
 video-ort2-1.cdninstagram.com
 video-ort2-2.cdninstagram.com
+video-prg1-1.cdninstagram.com
 videos.myspace.com
 video-sof1-1.xx.fbcdn.net
 video.twitter.com
+video-vie1-1.cdninstagram.com
+video-waw1-1.cdninstagram.com
 video.xx.fbcdn.net
 vids.myspace.com
 viewmorepics.myspace.com
