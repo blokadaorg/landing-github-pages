@@ -1,3 +1,12 @@
+5
+b_oisd
+blacklist
+active
+https://go.blokada.org/oisd
+link
+https://blokada.org/mirror/v5/oisd/light/hosts.txt
+
+
 10
 b_unified
 blacklist
@@ -151,15 +160,6 @@ link
 http://winhelp2002.mvps.org/hosts.txt
 
 
-31
-b_oisd
-blacklist
-inactive
-https://go.blokada.org/oisd
-link
-https://blokada.org/mirror/v5/oisd/light/hosts.txt
-
-
 32
 b_developerdan_ads
 blacklist
@@ -230,15 +230,6 @@ inactive
 https://github.com/jerryn70/GoodbyeAds
 link
 https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Xiaomi-Extension.txt
-
-
-70
-b_oisd
-blacklist
-active
-https://go.blokada.org/oisd
-link
-https://blokada.org/mirror/v5/oisd/light/hosts.txt
 
 
 75
