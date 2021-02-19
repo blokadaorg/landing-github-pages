@@ -2,14 +2,14 @@
 adguard
 inactive
 ipv4
-176.103.130.130;176.103.130.131
+94.140.14.14;94.140.15.15
 https://adguard.com/en/adguard-dns/overview.html
 
 5
 adguard_family
 inactive
 ipv4
-176.103.130.132;176.103.130.134
+94.140.14.15;94.140.15.16
 https://adguard.com/en/adguard-dns/overview.html
 
 10
@@ -95,27 +95,6 @@ inactive
 ipv4
 208.67.220.123;208.67.222.123
 https://www.opendns.com/setupguide/#familyshield
-
-58
-opennicasia
-inactive
-ipv4
-139.162.24.92;172.105.220.183
-https://www.opennic.org/
-
-60
-openniceu
-inactive
-ipv4
-82.141.39.32;50.3.82.162
-https://www.opennic.org/
-
-65
-opennicusa
-inactive
-ipv4
-63.231.92.27;66.187.76.16
-https://www.opennic.org/
 
 70
 quad9
