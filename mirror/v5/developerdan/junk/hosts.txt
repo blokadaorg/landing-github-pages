@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-02-18T13:05:19+00:00
-# Count: 1123 domains
+# Released: 2021-02-26T13:05:19+00:00
+# Count: 1168 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -142,6 +142,7 @@
 0.0.0.0 block-test.developerdan.com
 0.0.0.0 block-test-hate-junk.developerdan.com
 0.0.0.0 eartheclipse.com
+0.0.0.0 cdn.eartheclipse.com
 0.0.0.0 www.eartheclipse.com
 0.0.0.0 flatearthnexus.com
 0.0.0.0 autodiscover.flatearthnexus.com
@@ -331,6 +332,7 @@
 0.0.0.0 www.lewrockwell.com
 0.0.0.0 natall.com
 0.0.0.0 mail.natall.com
+0.0.0.0 ssh.natall.com
 0.0.0.0 webmail.natall.com
 0.0.0.0 www.natall.com
 0.0.0.0 national-justice.com
@@ -496,6 +498,7 @@
 0.0.0.0 ftp.qresearch.it
 0.0.0.0 mail.qresearch.it
 0.0.0.0 mx.qresearch.it
+0.0.0.0 webmail.qresearch.it
 0.0.0.0 www.qresearch.it
 0.0.0.0 8kun.net
 0.0.0.0 777.8kun.net
@@ -580,6 +583,7 @@
 0.0.0.0 www.coronavirushoax.net
 0.0.0.0 forbiddenknowledgetv.net
 0.0.0.0 cdn.forbiddenknowledgetv.net
+0.0.0.0 ftp.forbiddenknowledgetv.net
 0.0.0.0 rs-stripe.forbiddenknowledgetv.net
 0.0.0.0 www.forbiddenknowledgetv.net
 0.0.0.0 phibetaiota.net
@@ -641,9 +645,13 @@
 0.0.0.0 legacy.heartland.org
 0.0.0.0 mail.heartland.org
 0.0.0.0 news.heartland.org
+0.0.0.0 rewards.heartland.org
 0.0.0.0 speakers.heartland.org
 0.0.0.0 store.heartland.org
+0.0.0.0 vpn.heartland.org
+0.0.0.0 wiki.heartland.org
 0.0.0.0 www.heartland.org
+0.0.0.0 www2.heartland.org
 0.0.0.0 iasmembership.org
 0.0.0.0 authsmtp.iasmembership.org
 0.0.0.0 barracuda.iasmembership.org
@@ -738,28 +746,42 @@
 0.0.0.0 nationalistwomensfront.org
 0.0.0.0 www.nationalistwomensfront.org
 0.0.0.0 nationalvanguard.org
+0.0.0.0 audio.nationalvanguard.org
+0.0.0.0 autoconfig.nationalvanguard.org
 0.0.0.0 ftp.nationalvanguard.org
+0.0.0.0 mail.nationalvanguard.org
+0.0.0.0 webmail.nationalvanguard.org
 0.0.0.0 www.nationalvanguard.org
 0.0.0.0 nordicresistancemovement.org
 0.0.0.0 www.nordicresistancemovement.org
 0.0.0.0 nsm88.org
 0.0.0.0 antispam.nsm88.org
+0.0.0.0 auth.nsm88.org
 0.0.0.0 authsmtp.nsm88.org
 0.0.0.0 barracuda.nsm88.org
 0.0.0.0 blog.nsm88.org
 0.0.0.0 box.nsm88.org
 0.0.0.0 ca.nsm88.org
+0.0.0.0 com.nsm88.org
+0.0.0.0 comune.nsm88.org
 0.0.0.0 correo.nsm88.org
 0.0.0.0 donate.nsm88.org
+0.0.0.0 email.nsm88.org
+0.0.0.0 exchange.nsm88.org
+0.0.0.0 ftp.nsm88.org
 0.0.0.0 gallery.nsm88.org
 0.0.0.0 gate.nsm88.org
+0.0.0.0 gateway.nsm88.org
 0.0.0.0 gw.nsm88.org
 0.0.0.0 host.nsm88.org
 0.0.0.0 imap.nsm88.org
+0.0.0.0 imap1.nsm88.org
+0.0.0.0 internet.nsm88.org
 0.0.0.0 join.nsm88.org
 0.0.0.0 jointoday.nsm88.org
 0.0.0.0 m.nsm88.org
 0.0.0.0 mail.nsm88.org
+0.0.0.0 mail01.nsm88.org
 0.0.0.0 mail02.nsm88.org
 0.0.0.0 mail1.nsm88.org
 0.0.0.0 mail10.nsm88.org
@@ -771,13 +793,18 @@
 0.0.0.0 mail7.nsm88.org
 0.0.0.0 mailer.nsm88.org
 0.0.0.0 mailgate.nsm88.org
+0.0.0.0 mailhost.nsm88.org
+0.0.0.0 mailin.nsm88.org
 0.0.0.0 mailserver.nsm88.org
 0.0.0.0 mailsrv.nsm88.org
+0.0.0.0 mailx.nsm88.org
+0.0.0.0 mbox.nsm88.org
 0.0.0.0 mo.nsm88.org
 0.0.0.0 ms.nsm88.org
 0.0.0.0 ms1.nsm88.org
 0.0.0.0 mta.nsm88.org
 0.0.0.0 mx.nsm88.org
+0.0.0.0 mx0.nsm88.org
 0.0.0.0 mx1.nsm88.org
 0.0.0.0 mx10.nsm88.org
 0.0.0.0 mx2.nsm88.org
@@ -786,10 +813,13 @@
 0.0.0.0 mx4.nsm88.org
 0.0.0.0 mx5.nsm88.org
 0.0.0.0 mxs.nsm88.org
+0.0.0.0 newmail.nsm88.org
+0.0.0.0 ns.nsm88.org
 0.0.0.0 ns1.nsm88.org
 0.0.0.0 ns10.nsm88.org
 0.0.0.0 ns11.nsm88.org
 0.0.0.0 ns12.nsm88.org
+0.0.0.0 ns13.nsm88.org
 0.0.0.0 ns2.nsm88.org
 0.0.0.0 ns3.nsm88.org
 0.0.0.0 ns4.nsm88.org
@@ -805,16 +835,27 @@
 0.0.0.0 po.nsm88.org
 0.0.0.0 pop.nsm88.org
 0.0.0.0 posta.nsm88.org
+0.0.0.0 postmaster.nsm88.org
+0.0.0.0 relay.nsm88.org
 0.0.0.0 remote.nsm88.org
+0.0.0.0 root.nsm88.org
+0.0.0.0 server.nsm88.org
+0.0.0.0 server1.nsm88.org
+0.0.0.0 smtp.nsm88.org
 0.0.0.0 smtp01.nsm88.org
 0.0.0.0 smtp1.nsm88.org
 0.0.0.0 smtp3.nsm88.org
+0.0.0.0 smtpauth.nsm88.org
 0.0.0.0 smtps.nsm88.org
 0.0.0.0 sniper.nsm88.org
 0.0.0.0 spam.nsm88.org
 0.0.0.0 srv.nsm88.org
+0.0.0.0 ssl.nsm88.org
+0.0.0.0 vmail.nsm88.org
 0.0.0.0 webmail.nsm88.org
 0.0.0.0 www.nsm88.org
+0.0.0.0 www1.nsm88.org
+0.0.0.0 www2.nsm88.org
 0.0.0.0 xinxiang.nsm88.org
 0.0.0.0 zimbra.nsm88.org
 0.0.0.0 zmail.nsm88.org
@@ -1014,6 +1055,7 @@
 0.0.0.0 webmail.theflatearthsociety.org
 0.0.0.0 www.theflatearthsociety.org
 0.0.0.0 ublock.org
+0.0.0.0 demo.ublock.org
 0.0.0.0 log.ublock.org
 0.0.0.0 ping.ublock.org
 0.0.0.0 www.ublock.org
@@ -1022,6 +1064,7 @@
 0.0.0.0 www.listen.warroom.org
 0.0.0.0 pandemic.warroom.org
 0.0.0.0 www.pandemic.warroom.org
+0.0.0.0 sip.warroom.org
 0.0.0.0 qntmpkts.keybase.pub
 0.0.0.0 www.qntmpkts.keybase.pub
 0.0.0.0 operationq.pub
@@ -1131,7 +1174,9 @@
 0.0.0.0 autoconfig.theamericanfreedomparty.us
 0.0.0.0 autodiscover.theamericanfreedomparty.us
 0.0.0.0 ftp.theamericanfreedomparty.us
+0.0.0.0 localhost.theamericanfreedomparty.us
 0.0.0.0 mail.theamericanfreedomparty.us
+0.0.0.0 webmail.theamericanfreedomparty.us
 0.0.0.0 whm.theamericanfreedomparty.us
 0.0.0.0 www.theamericanfreedomparty.us
 0.0.0.0 qanon.video
