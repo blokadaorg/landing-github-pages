@@ -122,7 +122,12 @@ def main(argv):
                             print(f"  Skipping (not enough resources per subdomain): {subdomain}.{domain['domain']}")
                             continue
 
-                        domains.append(f"{subdomain}.{domain['domain']}")
+                        full_domain = f"{subdomain}.{domain['domain']}"
+
+                        if full_domain in whitelist:
+                            print(f"  Skipping (whitelisted): {full_domain}")
+
+                        domains.append(full_domain)
                         counter += 1
 
     # write converted format
