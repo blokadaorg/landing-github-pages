@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2021-03-01 08:03:58.470910
+# Generated at 2021-03-01 08:08:50.513055
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -2235,7 +2235,6 @@ fonts.yieldify-production.com
 img3.doubanio.com.w.alikunlun.com
 s.zkcdn.net
 events.fivetran.com
-i.ebayimg.com
 comet.cdnedge.bluemix.net
 secure.eu-gb.bluemix.net
 a.spqcdn.net
@@ -7245,7 +7244,6 @@ feed.4strokemedia.com
 static-assets.strikinglycdn.com
 user-images.strikinglycdn.com
 uploads.strikinglycdn.com
-store.steampowered.com
 default.salsalabs.org
 globalrize.echoglobal.org
 smartplugin.youbora.com
@@ -9446,7 +9444,6 @@ mirror.virtooal.com
 assets.omny.fm
 device-api.indigitall.com
 survey.feedbackly.com
-fs1.extraimage.org
 i.popincdn.com
 expert-cdn.bt.systems
 sarahraven.images.blucommerce.com
@@ -20850,7 +20847,6 @@ ssp.zog.link
 btds.zog.link
 widget.sndcdn.com
 i1.sndcdn.com
-i.ebayimg.com
 analytics.tiktok.com
 storage.buzzsprout.com
 cds.connatix.com
