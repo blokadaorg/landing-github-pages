@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2021-02-26 18:56:40.272789
+# Generated at 2021-03-01 07:53:14.884838
 # Made by Blokada
 
 databerries.com
@@ -521,3 +521,25 @@ sygic-api.infinario.com
 ipqualityscore.com
 bin5y4muil.execute-api.us-east-1.amazonaws.com
 sdk.predic.io
+grid.amap.com
+tm.amap.com
+mst[0-9]*.is.autonavi.com
+mt[0-9]*.google.cn
+abroad.apilocate.amap.com
+apilocate.amap.com
+restapi.amap.com
+yuntuapi.amap.com
+m5.amap.com
+wb.amap.com
+wb.amap.com
+wb.amap.com
+wb.amap.com
+apiinit.amap.com
+restapi.amap.com
+logs.amap.com
+cgicol.amap.com
+lbs.amap.com
+wap.amap.com
+data.de.coremetrics.com
+yoc-performance.com
+yoc.com

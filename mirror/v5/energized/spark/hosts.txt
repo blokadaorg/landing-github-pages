@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.02.057
-# Release: 057
-# Entries: 41,793
+# Version: 21.03.060
+# Release: 060
+# Entries: 41,810
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 26 Feb 21 18:06:16
+# Updated: Mon, 01 Mar 21 12:06:03
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -7528,6 +7528,7 @@ b014381c95cb.com
 b02byun5xc3s.com
 b0d3ea12ec1b93f7af9.com
 b13481647cf775c5.com
+b174.s240.meetrics.net
 b18a21ab3c9cb53.com
 b1f6fe5e3f0c3c8ba6.com
 b1fb813dc806b7d.com
@@ -7555,6 +7556,7 @@ b.6sc.co
 b6.scorecardresearch.com
 b8pfulzbyj7h.com
 b936c5932623f.com
+b95.s79.research.de.com
 ba6af3a0099c6cb9eb5.com
 babel.innertrends.com
 b.abnad.net
@@ -8305,6 +8307,7 @@ bidsopt-inv-eus.admixer.net
 bidstream.advertserve.com
 bidswitch-eu.splicky.com
 bidswitch.net
+bid.sxp.smartclip.net
 bid.tapjoy.com
 bidtellect.com
 bidtheatre.com
@@ -12264,6 +12267,7 @@ customer.heartinternet.co.uk
 customer.iad-03.braze.com
 customerscreensavers.com
 customers.kameleoon.com
+customers-lidl.kameleoon.com
 custom.supersonicads.com
 customtraffic.impactradius.com
 custom-wrs.api.responsys.net
@@ -14723,6 +14727,9 @@ eutdrjvsrmav.com
 eu-test.addthis.com
 eutest.livejasmin.com
 euthanint.org
+eu-tlp01.kameleoon.eu
+eu-tlp02.kameleoon.eu
+eu-tlp05.kameleoon.eu
 eu-tlx.3lift.com
 eu.track.digitaladsystems.com
 eu-track.inside-graph.com
@@ -16584,6 +16591,7 @@ girrjaqgjb.com
 gisbertschoeler.de
 gisela-kallenbach.de
 git.adotmob.com
+github.com.cnpmjs.org
 gitishcreasu.info
 gitlab.adotmob.com
 gitoku.com
@@ -21662,6 +21670,7 @@ logs1183.xiti.com
 logs1202.xiti.com
 logs1204.xiti.com
 logs1242.xiti.com
+logs1413.xiti.com
 logs2.appsflyer.com
 logs.81plug.com
 logs.amap.com
@@ -29583,6 +29592,7 @@ resources.presage.io
 resources.rubiconproject.com
 resources.taboola.com
 resources-us.yinzcam.com
+responder.wt-safetag.com
 responses.df.telemetry.microsoft.com
 responsiveads.com
 res-push.ad.jiguang.cn
@@ -30280,6 +30290,7 @@ s.206ads.com
 s.206solutions.com
 s20dh7e9dh.com
 s212.ucoz.net
+s240.mxcdn.net
 s248.meetrics.net
 s24hc8xzag.com
 s282.meetrics.net
@@ -30303,6 +30314,7 @@ s2s-tracking.sonic-us.supersonicads.com
 s2-test.go-mpulse.net
 s2.tracemyip.org
 s300.meetrics.net
+s385.mxcdn.net
 s3.addthis.com
 s3-ap-southeast-1-amazonaws.com
 s3-ap-southeast-2-amazonaws.com
@@ -30328,6 +30340,7 @@ s4ns4.advertising.com
 s4ns4.nexage.com
 s5.addthis.com
 s62.research.de.com
+s79.mxcdn.net
 s79.research.de.com
 s7.adaces.ero-advertising.com
 s7.addthis.com
@@ -33242,6 +33255,7 @@ stopplastik.de
 stop.umengcloud.com
 storage1.admixer.net
 storage.cloud.kargo.com
+storage.kameleoon.eu
 storage.outbrain.com
 store-000846-live.com
 store-003774-live.com
@@ -40112,6 +40126,7 @@ www.kuntovire.fi
 www.kw.ads.justpremium.com
 www.kzmleuhgqifvzy.com
 www-la.addthis.com
+www.lacmp.net
 www.land-secure.com
 www.lansrv050.com
 www.laptopreportcard.com
@@ -41611,6 +41626,7 @@ z2.zedo.com
 z3dmbpl6309s.com
 z501lpfg9x8v.com
 z5x.net
+z9q9kj37oy.kameleoon.eu
 za.ads.justpremium.com
 zabavazaodrasle.com
 zabbix.symanteprotection.com
@@ -41750,6 +41766,7 @@ zinlar.pw
 zip.er.cz
 zipfelbob.de
 zipovoma.com
+zipservice.adalliance.io
 ziqdunppuzjd.com
 z.irs01.com
 zismattighofen.at
