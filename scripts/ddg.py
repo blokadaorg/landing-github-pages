@@ -126,6 +126,7 @@ def main(argv):
 
                         if full_domain in whitelist:
                             print(f"  Skipping (whitelisted): {full_domain}")
+                            continue
 
                         domains.append(full_domain)
                         counter += 1
