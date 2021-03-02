@@ -41,7 +41,7 @@
             "forBuild": "googleRelease",
             "payload": {
                  "cmd": "escape/510000001",
-                 "version": 8
+                 "version": 9
              }
         },
         {
