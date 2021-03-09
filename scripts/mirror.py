@@ -241,7 +241,13 @@ def main(argv):
                     {
                         "name": "light",
                         "urls": [
-                            "https://dbl.oisd.nl/light/"
+                            "https://dbl.oisd.nl/basic/"
+                        ]
+                    },
+                    {
+                        "name": "basicw",
+                        "urls": [
+                            "https://dblw.oisd.nl/basic/"
                         ]
                     }
                 ]
@@ -323,6 +329,17 @@ def main(argv):
                         "name": "standard",
                         "urls": [
                             "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "hblock",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://hblock.molinero.dev/hosts_domains.txt"
                         ]
                     }
                 ]
