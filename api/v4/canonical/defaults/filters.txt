@@ -519,6 +519,7 @@ https://blokada.org
 app
 org.jitsi.meet
 
+
 180
 b_app_tomtom
 whitelist
@@ -526,6 +527,7 @@ active
 https://blokada.org
 app
 com.tomtom.speedcams.android.map
+
 
 181
 b_app_tomtomhuawei
