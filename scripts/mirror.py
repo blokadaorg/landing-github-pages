@@ -343,6 +343,28 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "cpbl",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/newhosts-final.hosts"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "danpollock",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://someonewhocares.org/hosts/hosts"
+                        ]
+                    }
+                ]
             }
         ]
     }
