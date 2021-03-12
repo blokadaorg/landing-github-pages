@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.03.070
-# Release: 070
-# Entries: 41,735
+# Version: 21.03.071
+# Release: 071
+# Entries: 41,737
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Thu, 11 Mar 21 12:06:08
+# Updated: Fri, 12 Mar 21 12:06:06
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -4969,6 +4969,7 @@ alog.umengcloud.com
 alog.umeng.co
 alog.umeng.com
 alogus.umeng.com
+aloofvest.com
 alp.adgear.com
 alpereum.ch
 alpha-ace.loginfra.com
@@ -15204,6 +15205,7 @@ feed.bnz88.news
 feedify.net
 feedimages.simpli.fi
 feedjit.com
+feedmob.com
 feed.r-tb.com
 feed.seodollars.com
 feed-stat.wpu.sh
