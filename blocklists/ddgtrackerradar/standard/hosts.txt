@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2021-03-12 08:21:52.911645
+# Generated at 2021-03-16 08:02:14.049100
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -2034,7 +2034,6 @@ websdk.ujet.co
 a1.cdnbox.meltygroup.com
 a.bigcontent.io
 img.mangahasu.se
-github.githubassets.com
 a.twiago.com
 reviews.mtbr.com
 static.zbcdn3.net
@@ -10123,12 +10122,6 @@ e-earphone-f-s.snva.jp
 std2f-s.snva.jp
 cdn.prod.nntech.io
 assets.privy.com
-eadn-wc05-3528614.nxedge.io
-eadn-wc04-3211983.nxedge.io
-eadn-wc03-196922.nxedge.io
-eadn-wc04-2733963.nxedge.io
-eadn-wc05-707714.nxedge.io
-eadn-wc04-3361083.nxedge.io
 covers.zlibcdn2.com
 front-azure.netatmo.net
 c.shld.net
@@ -14368,8 +14361,6 @@ community.cloudflare.steamstatic.com
 idp.feide.no
 static.itxuc.com
 cdn.prod.nntech.io
-eadn-wc04-3211983.nxedge.io
-eadn-wc04-2733963.nxedge.io
 sd-tagging.azurefd.net
 i.bcicdn.com
 marketing.alpinco.no
