@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.03.075
-# Release: 075
-# Entries: 3,941
+# Version: 21.03.085
+# Release: 085
+# Entries: 3,935
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Tue, 16 Mar 21 12:06:45
+# Updated: Fri, 26 Mar 21 12:00:52
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -621,7 +621,6 @@ check4.facebook.com
 check6.facebook.com
 ch.linkedin.com
 chyber-phreaker.internet.org
-cim.meebo.com
 ciphercloud-expresswifi-com.tokenizerdogfood.in.expresswifi.com
 classifieds.myspace.com
 click.e.twitter.com
@@ -1559,7 +1558,6 @@ i.freebasics.com
 i-h1.pinimg.com
 iictt.m.facebook.com
 i.instagram.com
-iknopo.ru
 il.linkedin.com
 image-proxy-origin.twimg.com
 images.instagram.com
@@ -1568,7 +1566,6 @@ imagine.linkedin.com
 imap4.freebasics.com
 imap.internet.org
 imdosat.0.internet.org
-img-trkcllcropy.mncdn.com
 imp2.ads.linkedin.com
 in.bantuan.linkedin.com
 indiatest.in.expresswifi.com
@@ -1654,7 +1651,6 @@ iphone.linkedin.com
 i.pinimg.com
 i.pinimg.com.edgekey.net
 i.pinimg.com.gslb.pinterest.com
-i.po.st
 iq.linkedin.com
 i.redd.it
 i.reddit.com
@@ -2786,7 +2782,6 @@ socialize-it.com
 sociallist.org
 socialmarker.com
 socialtwist.com
-socpost.net
 softtech.m.facebook.com
 sok.m.facebook.com
 sonar.fbsb1-1.fna.fbcdn.net
@@ -3172,7 +3167,6 @@ whm.freebasics.com
 whm.internet.org
 wh.reddit.com
 wibiya.com
-widget.instagramm.ru
 widget.instodom.com
 widget.pushbullet.com
 widgets.awe.sm
