@@ -247,7 +247,7 @@ def main(argv):
                     {
                         "name": "basicw",
                         "urls": [
-                            "https://dblw.oisd.nl/basic/"
+                            "https://abp.oisd.nl/basic/"
                         ]
                     }
                 ]
