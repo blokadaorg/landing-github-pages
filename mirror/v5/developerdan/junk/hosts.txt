@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-03-26T13:05:20+00:00
-# Count: 1323 domains
+# Released: 2021-04-11T01:05:20+00:00
+# Count: 1342 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -34,6 +34,7 @@
 0.0.0.0 ww25.wlamazcsrv1.siegeculture.biz
 0.0.0.0 ww11.siegeculture.biz
 0.0.0.0 ww25.siegeculture.biz
+0.0.0.0 ww25.ww2w.siegeculture.biz
 0.0.0.0 ww31.siegeculture.biz
 0.0.0.0 ww38.siegeculture.biz
 0.0.0.0 www.siegeculture.biz
@@ -79,6 +80,7 @@
 0.0.0.0 americanthinker.com
 0.0.0.0 admin.americanthinker.com
 0.0.0.0 comments.americanthinker.com
+0.0.0.0 email.americanthinker.com
 0.0.0.0 origin.americanthinker.com
 0.0.0.0 subscriptions.americanthinker.com
 0.0.0.0 tmp.americanthinker.com
@@ -145,7 +147,6 @@
 0.0.0.0 block-test.developerdan.com
 0.0.0.0 block-test-hate-junk.developerdan.com
 0.0.0.0 eartheclipse.com
-0.0.0.0 cdn.eartheclipse.com
 0.0.0.0 www.eartheclipse.com
 0.0.0.0 flatearthnexus.com
 0.0.0.0 autodiscover.flatearthnexus.com
@@ -331,6 +332,7 @@
 0.0.0.0 ww16.vip.kamellia.com
 0.0.0.0 vmail.kamellia.com
 0.0.0.0 ww1.kamellia.com
+0.0.0.0 ww11.kamellia.com
 0.0.0.0 ww16.kamellia.com
 0.0.0.0 ww25.kamellia.com
 0.0.0.0 ww38.kamellia.com
@@ -375,9 +377,12 @@
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
 0.0.0.0 www2.lewrockwell.com
+0.0.0.0 naebc.com
+0.0.0.0 www.naebc.com
 0.0.0.0 natall.com
 0.0.0.0 mail.natall.com
 0.0.0.0 ssh.natall.com
+0.0.0.0 video.natall.com
 0.0.0.0 webmail.natall.com
 0.0.0.0 www.natall.com
 0.0.0.0 national-justice.com
@@ -452,7 +457,6 @@
 0.0.0.0 files.qanonfaq.com
 0.0.0.0 www.qanonfaq.com
 0.0.0.0 qproofs.com
-0.0.0.0 www.qproofs.com
 0.0.0.0 resist.com
 0.0.0.0 cc.resist.com
 0.0.0.0 mail.resist.com
@@ -498,6 +502,8 @@
 0.0.0.0 webmail.thefreedomarticles.com
 0.0.0.0 www.thefreedomarticles.com
 0.0.0.0 theqanon.com
+0.0.0.0 sitemap.theqanon.com
+0.0.0.0 sitemaps.theqanon.com
 0.0.0.0 www.theqanon.com
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
@@ -634,6 +640,7 @@
 0.0.0.0 shareathonwebhook.afa.net
 0.0.0.0 track.spark-post.afa.net
 0.0.0.0 streamer1.afa.net
+0.0.0.0 admin.streamer1.afa.net
 0.0.0.0 subcount.afa.net
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
@@ -661,6 +668,7 @@
 0.0.0.0 forbiddenknowledgetv.net
 0.0.0.0 cdn.forbiddenknowledgetv.net
 0.0.0.0 ftp.forbiddenknowledgetv.net
+0.0.0.0 mail.forbiddenknowledgetv.net
 0.0.0.0 rs-stripe.forbiddenknowledgetv.net
 0.0.0.0 www.forbiddenknowledgetv.net
 0.0.0.0 phibetaiota.net
@@ -884,6 +892,7 @@
 0.0.0.0 host.nsm88.org
 0.0.0.0 imap.nsm88.org
 0.0.0.0 imap1.nsm88.org
+0.0.0.0 imap2.nsm88.org
 0.0.0.0 internet.nsm88.org
 0.0.0.0 join.nsm88.org
 0.0.0.0 jointoday.nsm88.org
@@ -899,10 +908,14 @@
 0.0.0.0 mail3.nsm88.org
 0.0.0.0 mail5.nsm88.org
 0.0.0.0 mail7.nsm88.org
+0.0.0.0 mail9.nsm88.org
 0.0.0.0 mailer.nsm88.org
 0.0.0.0 mailgate.nsm88.org
+0.0.0.0 mailgw.nsm88.org
 0.0.0.0 mailhost.nsm88.org
 0.0.0.0 mailin.nsm88.org
+0.0.0.0 mailout.nsm88.org
+0.0.0.0 mails.nsm88.org
 0.0.0.0 mailserver.nsm88.org
 0.0.0.0 mailsrv.nsm88.org
 0.0.0.0 mailx.nsm88.org
@@ -913,6 +926,7 @@
 0.0.0.0 mta.nsm88.org
 0.0.0.0 mx.nsm88.org
 0.0.0.0 mx0.nsm88.org
+0.0.0.0 mx01.nsm88.org
 0.0.0.0 mx1.nsm88.org
 0.0.0.0 mx10.nsm88.org
 0.0.0.0 mx2.nsm88.org
@@ -920,6 +934,7 @@
 0.0.0.0 mx3.nsm88.org
 0.0.0.0 mx4.nsm88.org
 0.0.0.0 mx5.nsm88.org
+0.0.0.0 mx7.nsm88.org
 0.0.0.0 mxs.nsm88.org
 0.0.0.0 newmail.nsm88.org
 0.0.0.0 ns.nsm88.org
@@ -937,11 +952,13 @@
 0.0.0.0 ns8.nsm88.org
 0.0.0.0 ns9.nsm88.org
 0.0.0.0 nv.nsm88.org
+0.0.0.0 ny.nsm88.org
 0.0.0.0 ohio.nsm88.org
 0.0.0.0 out.nsm88.org
 0.0.0.0 outmail.nsm88.org
 0.0.0.0 po.nsm88.org
 0.0.0.0 pop.nsm88.org
+0.0.0.0 pop3.nsm88.org
 0.0.0.0 posta.nsm88.org
 0.0.0.0 postmaster.nsm88.org
 0.0.0.0 relay.nsm88.org
@@ -959,6 +976,7 @@
 0.0.0.0 spam.nsm88.org
 0.0.0.0 srv.nsm88.org
 0.0.0.0 ssl.nsm88.org
+0.0.0.0 u.nsm88.org
 0.0.0.0 vmail.nsm88.org
 0.0.0.0 webmail.nsm88.org
 0.0.0.0 www.nsm88.org
@@ -1205,6 +1223,7 @@
 0.0.0.0 ublock.org
 0.0.0.0 demo.ublock.org
 0.0.0.0 log.ublock.org
+0.0.0.0 mail.ublock.org
 0.0.0.0 ping.ublock.org
 0.0.0.0 www.ublock.org
 0.0.0.0 warroom.org

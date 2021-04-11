@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2021-03-27 07:58:29.807196
+# Generated at 2021-04-11 08:44:51.688709
 # Made by Blokada
 
 databerries.com
@@ -86,7 +86,6 @@ omniture.com
 omtrdc.net
 commander1.com
 tagcommander.com
-facebook.com
 google-analytics.com
 firebase.com
 eulerian.com
@@ -115,12 +114,6 @@ segment.com
 login.microsoftonline.com
 management.azure.com
 colocator.net
-facebook.com
-facebook.com
-facebook.com
-facebook.com
-facebook.com
-facebook.com
 applovin.com
 applvn.com
 avocarrot.com

@@ -1,6 +1,6 @@
 # Title: Lightswitch05's amp-hosts-extended.txt
-# Released: 2021-03-21T13:05:19+00:00
-# Count: 10531 domains
+# Released: 2021-04-07T13:05:18+00:00
+# Count: 10533 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt
@@ -4002,6 +4002,7 @@
 0.0.0.0 hongkiat.com.cdn.ampproject.org
 0.0.0.0 honkiat.com.cdn.ampproject.org
 0.0.0.0 makeuseof.com.cdn.ampproject.org
+0.0.0.0 www.makeuseof.com.cdn.ampproject.org
 0.0.0.0 mobil-seks4.com.cdn.ampproject.org
 0.0.0.0 sisliescort-sisliescortkadin.com.cdn.ampproject.org
 0.0.0.0 urfam-sanliurfagaz.com.cdn.ampproject.org
@@ -10531,6 +10532,7 @@
 0.0.0.0 cdn-china.ampproject.org
 0.0.0.0 cdn-content.ampproject.org
 0.0.0.0 evirolog-doeda-.com.cnd.ampproject.org
+0.0.0.0 comcdn.ampproject.org
 0.0.0.0 content.ampproject.org
 0.0.0.0 d-19000833522506524282.ampproject.org
 0.0.0.0 dcdn.ampproject.org

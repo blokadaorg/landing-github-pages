@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 24 Mar 2021 at 22:22:22 GMT
+# Last updated: Fri, 09 Apr 2021 at 07:05:39 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -2245,6 +2245,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 beloysoff.ru
 127.0.0.1 benefitsorganic.com
 127.0.0.1 bestreview.site
+127.0.0.1 bestwing.org
 127.0.0.1 bgl1dr1-a-fixed.sancharnet.in
 127.0.0.1 bgl1pp1-a-fixed.sancharnet.in
 127.0.0.1 bhyuu.com
@@ -2305,13 +2306,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 cleanmobilephone.com
 127.0.0.1 click.get-answers-fast.com
 127.0.0.1 clicktripz.com
-127.0.0.1 clien.net
 127.0.0.1 clonezilla.es
 127.0.0.1 clonezilla.fr
 127.0.0.1 cnbc.com-article906773.us
 127.0.0.1 cnhv.co
 127.0.0.1 cnt.statistic.date
 127.0.0.1 co8vd.cn
+127.0.0.1 codebiogblog.com
 127.0.0.1 codeexplain.com
 127.0.0.1 codegur.com
 127.0.0.1 codeotel.com
@@ -2322,6 +2323,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 coinhive.com
 127.0.0.1 coinimp.com
 127.0.0.1 coldcertainchannel.com
+127.0.0.1 coldpacific.com
 127.0.0.1 com2err.xyz
 127.0.0.1 compufixshop.com
 127.0.0.1 comsss-56.com
@@ -2335,6 +2337,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 crypto-loot.com
 127.0.0.1 cryptoloot.pro
 127.0.0.1 custom3hurricanedigitalmedia.com
+127.0.0.1 cutesaucepuppy.com
 127.0.0.1 d.oix.com
 127.0.0.1 d.phormlabs.com
 127.0.0.1 d2o9ozfswytaqz.cloudfront.net
@@ -2344,6 +2347,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 definitial.info
 127.0.0.1 deloitteca.com
 127.0.0.1 desktoprepair.info
+127.0.0.1 devguardmap.org
 127.0.0.1 dhauzja511.co.cc
 127.0.0.1 dietpharmacyrx.net
 127.0.0.1 dingrigoguter.pro
@@ -2454,9 +2458,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 hieruu.apicultoresweb.com
 127.0.0.1 himicrosoft.com
 127.0.0.1 hintonsfeetred.info
+127.0.0.1 hireproplus.com
 127.0.0.1 honouncil.info
 127.0.0.1 hot24profit.life
 127.0.0.1 hotchix.servepics.com
+127.0.0.1 hotelboard.org
 127.0.0.1 how-tosolve.com
 127.0.0.1 howtobuildsoftware.com
 127.0.0.1 howupdateworks.beststubcontentsfrees.xyz
@@ -2515,6 +2521,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 kpremium.com
 127.0.0.1 kr.phorm.com
 127.0.0.1 krakragames.com
+127.0.0.1 krebsonsecurity.top
 127.0.0.1 kserv.krldysh.ru
 127.0.0.1 la1dwne9cn5c.com
 127.0.0.1 lacableshaw.com
@@ -2599,6 +2606,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mbi3.kuicr.kyoto-u.ac.jp
 127.0.0.1 mcd-su-2.mos.ru
 127.0.0.1 media-match.com
+127.0.0.1 mediterraneanroom.org
 127.0.0.1 megasurfin.com
 127.0.0.1 menycosme.info
 127.0.0.1 meta.osqa.net
@@ -2816,7 +2824,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 reacherinst.com
 127.0.0.1 readheadstick.biz
 127.0.0.1 readyupdate.thelatestmostreadytocontentgetnowfast.top
+127.0.0.1 redeastbay.com
 127.0.0.1 regardens.info
+127.0.0.1 regclassboard.com
 127.0.0.1 repairintenselyprecisefile.icu
 127.0.0.1 reward-survey.net
 127.0.0.1 reward5363.hardmonday53.agency
@@ -2834,6 +2844,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 ryanrhodes.net
 127.0.0.1 s-41.algovid.com
 127.0.0.1 s.pubmine.com
+127.0.0.1 s3-ap-southeast-1-amazonaws.com
+127.0.0.1 s3-ap-southeast-2-amazonaws.com
 127.0.0.1 s4d.in
 127.0.0.1 safedownloadcenter.com
 127.0.0.1 safedownloadsrus166.com
@@ -2854,6 +2866,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 search.privitize.com
 127.0.0.1 secret.xn--oogle-wmc.com
 127.0.0.1 securedliveuploads.com
+127.0.0.1 securielite.com
 127.0.0.1 securitas232maximus.xyz
 127.0.0.1 securitas25maximus.xyz
 127.0.0.1 securitas493maximus.xyz
@@ -2901,6 +2914,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 sousay.info
 127.0.0.1 sparc.nour.net.sa
 127.0.0.1 speedtestbeta.com
+127.0.0.1 spotchannel02.com
 127.0.0.1 sps01.office.ctm.net
 127.0.0.1 squartera.info
 127.0.0.1 stackoverflow.dluat.com
@@ -2963,6 +2977,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 toptypeonlinetheclicks.icu
 127.0.0.1 torjackan.info
 127.0.0.1 tracking.vcommission.com
+127.0.0.1 traffic-bam.link
 127.0.0.1 traffic.adwitty.com
 127.0.0.1 trialreg.com
 127.0.0.1 trovi.com
@@ -3033,6 +3048,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 whenvideoup.thebigandfreesystemupdate.website
 127.0.0.1 whenvideoup.thebigandfreesystemupdating.date
 127.0.0.1 wikidevs.com
+127.0.0.1 wileprefgurad.net
 127.0.0.1 willysy.com
 127.0.0.1 win-phone-14.com
 127.0.0.1 winsupportit.club
@@ -7921,7 +7937,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 click.israelinfo.ru
 127.0.0.1 click.maaxmarket.com
 127.0.0.1 click.newviralmobistore.com
-127.0.0.1 click.pulse360.com
 127.0.0.1 click.runcpa.com
 127.0.0.1 click1.mainadv.com
 127.0.0.1 click1.rbc.magna.ru
@@ -11264,8 +11279,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 s1.cz.adocean.pl
 127.0.0.1 s1.gratkapl.adocean.pl
 127.0.0.1 s2.buysellads.com
-127.0.0.1 s3-ap-southeast-1-amazonaws.com
-127.0.0.1 s3-ap-southeast-2-amazonaws.com
 127.0.0.1 s3.adbers.com
 127.0.0.1 s3.buysellads.com
 127.0.0.1 s3.pfp.sina.net
@@ -11723,7 +11736,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 static.plista.com
 127.0.0.1 static.plugrush.com
 127.0.0.1 static.ptoahaistais.com
-127.0.0.1 static.pulse360.com
 127.0.0.1 static.regiojobs.be
 127.0.0.1 static.scanscout.com
 127.0.0.1 static.tags.yield-atx.com
@@ -11801,7 +11813,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 support.sweepstakes.com
 127.0.0.1 suprama.online
 127.0.0.1 supremeadsonline.com
-127.0.0.1 sur
 127.0.0.1 suresafe1.adsovo.com
 127.0.0.1 surfacecharo.info
 127.0.0.1 surfindave.com
@@ -12833,7 +12844,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.best-games4you.top
 127.0.0.1 www.best-iphone6s.com
 127.0.0.1 www.bestshopperrewards.com
-127.0.0.1 www.bet365.com
 127.0.0.1 www.bhclicks.com
 127.0.0.1 www.bicoinsprofit.com
 127.0.0.1 www.bidtraffic.com
