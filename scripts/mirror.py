@@ -249,6 +249,12 @@ def main(argv):
                         "urls": [
                             "https://dblw.oisd.nl/basic/"
                         ]
+                    },
+                    {
+                        "name": "basica",
+                        "urls": [
+                            "https://abp.oisd.nl/basic/"
+                        ]
                     }
                 ]
             },
