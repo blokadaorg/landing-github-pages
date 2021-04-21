@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 09 Apr 2021 at 07:05:39 GMT
+# Last updated: Mon, 19 Apr 2021 at 21:21:35 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -8461,6 +8461,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 eas4.emediate.eu
 127.0.0.1 easyadservice.com
 127.0.0.1 easyadvertonline.com
+127.0.0.1 easypills.co
 127.0.0.1 easyweb.tdcanadatrust.secureserver.host1.customer-identification-process.b88600d8.com
 127.0.0.1 eatondesigns.com
 127.0.0.1 eatps.web.aol.com
@@ -8922,6 +8923,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 getmynumber.net
 127.0.0.1 getmyplasmatv.com
 127.0.0.1 getrelator.com
+127.0.0.1 getrxhere.co
 127.0.0.1 getspecialgifts.com
 127.0.0.1 getupdate.thebiggestandmoststabletocontentsafe.bid
 127.0.0.1 getyour5kcredits0.blogspot.com
@@ -9783,7 +9785,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 luckymeetyou.com
 127.0.0.1 luxstockevent.su
 127.0.0.1 luxup.ru
-127.0.0.1 lvbet.pl
 127.0.0.1 lw1.gamecopyworld.com
 127.0.0.1 lw2.gamecopyworld.com
 127.0.0.1 lycos.247realmedia.com
@@ -11474,7 +11475,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 sg.adserver.yahoo.com
 127.0.0.1 sg.lansweeps.click
 127.0.0.1 sg3.beap.gemini.yahoo.com
-127.0.0.1 sgqcvfjvr.onet.pl
 127.0.0.1 sgs001.adtech.de
 127.0.0.1 sgs001.adtech.fr
 127.0.0.1 sgs001.adtech.us
@@ -13857,7 +13857,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www2.ad.tomshardware.com
 127.0.0.1 www2.adireland.com
 127.0.0.1 www2.adserverpub.com
-127.0.0.1 www2.arnes.si
 127.0.0.1 www2.bannerspace.com
 127.0.0.1 www2.doslectionflash.icu
 127.0.0.1 www2.glam.com

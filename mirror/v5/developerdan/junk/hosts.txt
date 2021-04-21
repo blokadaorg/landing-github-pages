@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-04-11T01:05:20+00:00
-# Count: 1342 domains
+# Released: 2021-04-21T01:05:21+00:00
+# Count: 1371 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -101,6 +101,11 @@
 0.0.0.0 smtp.armstrongeconomics.com
 0.0.0.0 stage.armstrongeconomics.com
 0.0.0.0 www.armstrongeconomics.com
+0.0.0.0 beastwatchnews.com
+0.0.0.0 blog.beastwatchnews.com
+0.0.0.0 ftp.beastwatchnews.com
+0.0.0.0 test.beastwatchnews.com
+0.0.0.0 www.beastwatchnews.com
 0.0.0.0 bible-freedom.com
 0.0.0.0 wnf-canada.blogspot.com
 0.0.0.0 www.wnf-canada.blogspot.com
@@ -108,6 +113,7 @@
 0.0.0.0 mail.bonniebluepublishing.com
 0.0.0.0 www.bonniebluepublishing.com
 0.0.0.0 chemtrailsnews.com
+0.0.0.0 ftp.chemtrailsnews.com
 0.0.0.0 www.chemtrailsnews.com
 0.0.0.0 codoh.com
 0.0.0.0 chat.codoh.com
@@ -161,6 +167,7 @@
 0.0.0.0 flatearthresearch.com
 0.0.0.0 forums.flatearthresearch.com
 0.0.0.0 www.flatearthresearch.com
+0.0.0.0 fort-russ.com
 0.0.0.0 globalclimatescam.com
 0.0.0.0 www.globalclimatescam.com
 0.0.0.0 godhatesfags.com
@@ -296,6 +303,7 @@
 0.0.0.0 shop.isitwetyet.com
 0.0.0.0 www.isitwetyet.com
 0.0.0.0 jadeegg.com
+0.0.0.0 partners.jadeegg.com
 0.0.0.0 www.jadeegg.com
 0.0.0.0 joyinliberty.com
 0.0.0.0 mail.joyinliberty.com
@@ -433,9 +441,11 @@
 0.0.0.0 old.proudboysusa.com
 0.0.0.0 www.proudboysusa.com
 0.0.0.0 qanon-news.com
+0.0.0.0 autodiscover.qanon-news.com
 0.0.0.0 cpanel.qanon-news.com
 0.0.0.0 socialnetwork.qanon-news.com
 0.0.0.0 webdisk.qanon-news.com
+0.0.0.0 webmail.qanon-news.com
 0.0.0.0 www.qanon-news.com
 0.0.0.0 qanonanonymous.com
 0.0.0.0 discord.qanonanonymous.com
@@ -482,6 +492,7 @@
 0.0.0.0 sip.stillnessinthestorm.com
 0.0.0.0 www.stillnessinthestorm.com
 0.0.0.0 stopsprayingcalifornia.com
+0.0.0.0 cpanel.stopsprayingcalifornia.com
 0.0.0.0 mail.stopsprayingcalifornia.com
 0.0.0.0 www.stopsprayingcalifornia.com
 0.0.0.0 suncoastproudboys.com
@@ -502,8 +513,13 @@
 0.0.0.0 webmail.thefreedomarticles.com
 0.0.0.0 www.thefreedomarticles.com
 0.0.0.0 theqanon.com
+0.0.0.0 demo.theqanon.com
+0.0.0.0 dev.theqanon.com
+0.0.0.0 old.theqanon.com
+0.0.0.0 shop.theqanon.com
 0.0.0.0 sitemap.theqanon.com
 0.0.0.0 sitemaps.theqanon.com
+0.0.0.0 test.theqanon.com
 0.0.0.0 www.theqanon.com
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
@@ -556,10 +572,12 @@
 0.0.0.0 theqanonhub.weebly.com
 0.0.0.0 www.theqanonhub.weebly.com
 0.0.0.0 theqpatriothub.weebly.com
+0.0.0.0 coronanews123.wordpress.com
 0.0.0.0 qanon41020.wordpress.com
 0.0.0.0 www.qanon41020.wordpress.com
 0.0.0.0 qanonnederland.wordpress.com
 0.0.0.0 www.qanonnederland.wordpress.com
+0.0.0.0 thelightinthedarkplace.wordpress.com
 0.0.0.0 qanon.fun
 0.0.0.0 www.qanon.fun
 0.0.0.0 12160.info
@@ -598,6 +616,7 @@
 0.0.0.0 ns2.8kun.net
 0.0.0.0 oauth.8kun.net
 0.0.0.0 openpgpkey.8kun.net
+0.0.0.0 owa.8kun.net
 0.0.0.0 root.8kun.net
 0.0.0.0 s.8kun.net
 0.0.0.0 softserv.8kun.net
@@ -660,6 +679,7 @@
 0.0.0.0 cancerwisdom.net
 0.0.0.0 m.cancerwisdom.net
 0.0.0.0 mail.cancerwisdom.net
+0.0.0.0 webmail.cancerwisdom.net
 0.0.0.0 www.cancerwisdom.net
 0.0.0.0 coronavirushoax.net
 0.0.0.0 dc-0adc37af29d7.coronavirushoax.net
@@ -710,6 +730,9 @@
 0.0.0.0 flatearthers.org
 0.0.0.0 www.flatearthers.org
 0.0.0.0 fluoridealert.org
+0.0.0.0 admin.fluoridealert.org
+0.0.0.0 congress.fluoridealert.org
+0.0.0.0 email.fluoridealert.org
 0.0.0.0 imap.fluoridealert.org
 0.0.0.0 la.fluoridealert.org
 0.0.0.0 la2.fluoridealert.org
@@ -762,6 +785,7 @@
 0.0.0.0 imap.iasmembership.org
 0.0.0.0 imap1.iasmembership.org
 0.0.0.0 imap2.iasmembership.org
+0.0.0.0 l.iasmembership.org
 0.0.0.0 m.iasmembership.org
 0.0.0.0 mail.iasmembership.org
 0.0.0.0 mail01.iasmembership.org
@@ -857,6 +881,7 @@
 0.0.0.0 ftp.learntherisk.org
 0.0.0.0 www.learntherisk.org
 0.0.0.0 mmcw.org
+0.0.0.0 mail.mmcw.org
 0.0.0.0 mx.mmcw.org
 0.0.0.0 www.mmcw.org
 0.0.0.0 nationalistwomensfront.org
@@ -1106,6 +1131,7 @@
 0.0.0.0 information.learn.scientology.org
 0.0.0.0 italian.learn.scientology.org
 0.0.0.0 spanish.learn.scientology.org
+0.0.0.0 listsmx.scientology.org
 0.0.0.0 locator.scientology.org
 0.0.0.0 www.locator.scientology.org
 0.0.0.0 mail.scientology.org
@@ -1124,6 +1150,8 @@
 0.0.0.0 www.oca.scientology.org
 0.0.0.0 on-line.scientology.org
 0.0.0.0 opposing.scientology.org
+0.0.0.0 personalitytest.scientology.org
+0.0.0.0 pt.scientology.org
 0.0.0.0 purification.scientology.org
 0.0.0.0 related.scientology.org
 0.0.0.0 secure.scientology.org
@@ -1156,6 +1184,7 @@
 0.0.0.0 stream2.scientology.org
 0.0.0.0 stream3.scientology.org
 0.0.0.0 stream6.scientology.org
+0.0.0.0 sundayservice.scientology.org
 0.0.0.0 sys003.scientology.org
 0.0.0.0 taiwanese.scientology.org
 0.0.0.0 test.scientology.org
