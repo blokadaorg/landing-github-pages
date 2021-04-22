@@ -268,6 +268,24 @@ link
 https://blokada.org/mirror/v5/spam404/standard/hosts.txt
 
 
+90
+b_hblock
+blacklist
+inactive
+https://go.blokada.org/hblock
+link
+https://blokada.org/mirror/v5/hblock/standard/hosts.txt
+
+
+95
+b_cpbl
+blacklist
+inactive
+https://go.blokada.org/cpbl
+link
+https://blokada.org/mirror/v5/cpbl/standard/hosts.txt
+
+
 20
 b_app_vending
 whitelist
