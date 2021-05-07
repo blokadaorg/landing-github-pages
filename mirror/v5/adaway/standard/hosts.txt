@@ -920,9 +920,6 @@
 # [adreactor.com]
 127.0.0.1 adserver.adreactor.com
 
-# [adrise.tv]
-127.0.0.1 s.adrise.tv
-
 # [adroll.com]
 127.0.0.1 adroll.com
 127.0.0.1 adx-winners-ap-southeast-1-rtb.adroll.com
@@ -3378,11 +3375,6 @@
 # [chrysler.com]
 127.0.0.1 smetrics.chrysler.com
 
-# [chtbl.com]
-127.0.0.1 chtbl.com
-127.0.0.1 ext.chtbl.com
-127.0.0.1 web.chtbl.com
-
 # [cinarra.com]
 127.0.0.1 jp.cinarra.com
 127.0.0.1 3ppa.jp.cinarra.com
@@ -4068,9 +4060,6 @@
 
 # [databrain.com]
 127.0.0.1 tracker.databrain.com
-
-# [datadoghq.com]
-127.0.0.1 api.datadoghq.com
 
 # [datahc.com]
 127.0.0.1 brands.datahc.com
@@ -10690,10 +10679,6 @@
 # [smartstream.tv]
 127.0.0.1 ads.smartstream.tv
 
-# [smassets.net]
-127.0.0.1 cdn.smassets.net
-127.0.0.1 prod.smassets.net
-
 # [smbeat.jp]
 127.0.0.1 abort-count.smbeat.jp
 127.0.0.1 api.smbeat.jp
@@ -13049,9 +13034,6 @@
 
 # [zoomanalytics.co]
 127.0.0.1 ssl.zoomanalytics.co
-
-# [zopim.com]
-127.0.0.1 widget-mediator.zopim.com
 
 # [zorkanetwork.com]
 127.0.0.1 track.zorkanetwork.com

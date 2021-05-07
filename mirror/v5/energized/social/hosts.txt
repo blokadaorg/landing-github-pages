@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.04.111
-# Release: 111
-# Entries: 3,935
+# Version: 21.05.127
+# Release: 127
+# Entries: 3,936
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 21 Apr 21 12:00:48
+# Updated: Fri, 07 May 21 12:00:55
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -704,6 +704,7 @@ dev-web.whatsapp.com
 d.facebook.com
 digg.com
 digi.freebasics.com
+digitiminimi.com
 discoverapp.com
         <div class="panel-body">
 		<div class="panel-group" id="accordion">
