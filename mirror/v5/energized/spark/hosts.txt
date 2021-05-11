@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.05.127
-# Release: 127
-# Entries: 42,261
+# Version: 21.05.131
+# Release: 131
+# Entries: 42,266
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 07 May 21 11:59:48
+# Updated: Tue, 11 May 21 11:59:57
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -2001,6 +2001,7 @@ adcentric.randomseed.com
 ad.centrum.cz
 adc.flyermobi.com
 adcfrthyo.tk
+ad-channel.wikawika.xyz
 adchap.com
 ad.ch.doubleclick.net
 ad-check.disconnect.me
@@ -7791,6 +7792,7 @@ bar.baidu.com
 barbarahiller.de
 barbarousnerve.com
 barbouratjacke.at
+baremetrics.com
 bare.speedera.net
 bar.freelogs.com
 barilliance.net
@@ -12245,6 +12247,7 @@ ctvtsgtv.112.2o7.net
 c.tw.msn.com
 ct.www.uc.cn
 c.uarating.com
+cubics.com
 cuchpagh.com
 cu-cn-north00001.gala.convection.cn
 cu-cn-north00002.gala.convection.cn
@@ -14422,7 +14425,6 @@ emymarke.com
 emyxshop.com
 emzotevsto.com
 emzxewhgjt.com
-en25.com
 enabler.datalake.mediaset.it
 en.admixer.co.kr
 en.btcprofit.we-trck.com
@@ -14910,7 +14912,6 @@ evt.undertone.com
 evyy.net
 ewaosdzofcsy.bid
 e.watchmovie.fun
-ewebcounter.com
 ewelt24.com
 ewerhodub.com
 ewgtanybkkch.com
@@ -17757,6 +17758,7 @@ heytapimg.com.akamaized.net
 heywire.com
 heyzap.com
 hezasoiduicbha.com
+hf5rbejvpwds.com
 hfbnztgnmheyd.bid
 hfc195b.com
 hfedqcww.com
@@ -18251,6 +18253,7 @@ hubvotrpjios.com
 hueads.com
 hueadsortb.com
 hueadsxml.com
+huezzcjskf.site
 huffingtonpost.crwdcntrl.net
 hugoboss-onlineshop.de
 huhrxmgiofzna.com
@@ -22690,6 +22693,7 @@ matomo.kmkb.ru
 matomo.oka-zakaz.ru
 matomoprod.babelstreet.com
 matomo.tarnkappe.info
+matomo.zwetok.ru
 matomy.adk2.co
 matomy.com
 matrix-cash.com
@@ -28599,6 +28603,7 @@ prt-stsdk.vivo.com.cn
 prt.stsdk.vivo.com.cn
 prt-stsdk.vivoglobal.com
 prt.stsdk.vivoglobal.com
+prudencewiserelapse.com
 prxio.github.io
 p.s.360.cn
 ps4ux.com
@@ -37526,10 +37531,12 @@ us.fjaken.com
 us-gmtdmp.mookie1.com
 us.go.zog.link
 us.h-bid.com
+usherprayer.com
 ushoofop.com
 ushub.awin.com
 us.iad.legacy.dotomi.weighted.com.akadns.net
 usinesmycete.info
+usingirritatecordial.com
 us-level1.dyntrk.com
 us-market.openx.com
 us-match.taboola.com
@@ -38265,7 +38272,6 @@ vmed.vrtcal.com
 vmftwflt.com
 vml1.s3.amazonaws.com
 vmm-pixel.invitemedia.com
-vmmpxl.com
 vmn.net
 v.movad.de
 vmove.ca
@@ -40333,7 +40339,6 @@ www.googletagservices.com
 www.googlew.com
 www.googlo.co
 www.gopjn.com
-www.gopopup.com
 www.gparted.fr
 www.gpbaru.net
 www.grabify.link

@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2021-05-07 10:34:40.106095
+# Generated at 2021-05-11 09:21:58.242615
 # Made by Blokada
 
 databerries.com
@@ -543,3 +543,8 @@ sdk.gpshopper.com
 sypi.gpshopper.com
 ipsws.indooratlas.com
 api-device.mocaplatform.com
+inputs.alooma.com
+cedexis-radar.net
+cedexis.com
+radar.cedexis.com
+tele.fm
