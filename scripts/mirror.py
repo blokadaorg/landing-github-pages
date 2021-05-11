@@ -362,6 +362,17 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "urlhaus",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
+                        ]
+                    }
+                ]
             }
         ]
     }
