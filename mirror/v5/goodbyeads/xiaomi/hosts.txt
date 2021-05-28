@@ -11,7 +11,7 @@
 # Format: hosts
 # Entries: 276+
 # License: MIT, https://github.com/jerryn70/GoodbyeAds/blob/master/LICENSE
-# Updated: Mar 28 12:34:10 GMT+05:30 2021
+# Updated: May 26 12:34:10 GMT+05:30 2021
 # Source: https://github.com/jerryn70/GoodbyeAds
 # Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
 # --------------------------------------------
@@ -207,6 +207,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mishop.cdn.pandora.xiaomi.com
 0.0.0.0 mishop.pandora.xiaomi.com
 0.0.0.0 mitunes.game.xiaomi.com
+0.0.0.0 mitv.tracking.intl.miui.com
 0.0.0.0 mlog.search.xiaomi.net
 0.0.0.0 mp.huangye.miui.com
 0.0.0.0 new.api.ad.xiaomi.com
@@ -258,6 +259,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat.pandora.xiaomi.com
 0.0.0.0 static.game.xiaomi.com
 0.0.0.0 static.mibi.xiaomi.com
+0.0.0.0 stat.xiaomi.com
 0.0.0.0 stats.xiaomi.com
 0.0.0.0 statusapi.micloud.xiaomi.net
 0.0.0.0 storeconfig.mistat.intl.xiaomi.com
@@ -318,7 +320,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zhuti.xiaomi.com
 0.0.0.0 zhwnlapi.etouch.cn
 0.0.0.0 zx.game.xiaomi.com
-0.0.0.0 zx.game.xiaomi.comstat.xiaomi.com
+0.0.0.0 zx.game.xiaomi.com
 # --------------------------------------------
 # √ S A Y  G O O D B Y E  T O  A D S
 # --------------------------------------------

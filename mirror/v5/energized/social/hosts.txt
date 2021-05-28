@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.05.131
-# Release: 131
-# Entries: 3,936
+# Version: 21.05.148
+# Release: 148
+# Entries: 3,935
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Tue, 11 May 21 12:01:04
+# Updated: Fri, 28 May 21 12:00:32
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -534,7 +534,6 @@ beta.whatsapp.com
 bg-bg.facebook.com
 b-graph.expresswifi.com
 b-graph.facebook.com
-b.hatena.ne.jp
 bidder-shv-05-frc3.facebook.com
 bidder-shv-10-frc1.facebook.com
 bidv.m.facebook.com

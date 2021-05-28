@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Tue, 11 May 2021 at 02:26:51 GMT
+# Last updated: Wed, 26 May 2021 at 00:02:46 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -408,6 +408,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ai087.insightexpress.com
 127.0.0.1 ai113.insightexpressai.com
 127.0.0.1 ai125.insightexpressai.com
+127.0.0.1 aksecure.imrworldwide.com
 127.0.0.1 alert.mac-notification.com
 127.0.0.1 alpha.easy-hit-counters.com
 127.0.0.1 amateur.xxxcounter.com
@@ -528,9 +529,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 cashcounter.com
 127.0.0.1 cb1.counterbot.com
 127.0.0.1 ccleaner.fr
+127.0.0.1 cdn-gl.imrworldwide.com
 127.0.0.1 cdn-social.janrain.com
 127.0.0.1 cdn.decibelinsight.net
 127.0.0.1 cdn.doublepimpssl.com
+127.0.0.1 cdn.imrworldwide.com
 127.0.0.1 cdn.oggifinogi.com
 127.0.0.1 cdn.simpleanalytics.io
 127.0.0.1 cdn.taboolasyndication.com
@@ -1363,7 +1366,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 sdogiu.bestamazontips.com
 127.0.0.1 se.sitestat.com
 127.0.0.1 searchadv.com
+127.0.0.1 secure-dcr.imrworldwide.com
+127.0.0.1 secure-drm.imrworldwide.com
 127.0.0.1 secure-gg.imrworldwide.com
+127.0.0.1 secure-it.imrworldwide.com
+127.0.0.1 secure-us.imrworldwide.com
 127.0.0.1 secure.quantserve.com
 127.0.0.1 sekel.ch
 127.0.0.1 servedby.valuead.com
@@ -3019,6 +3026,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 viowyf.khaiafi.com
 127.0.0.1 vip.fortunatetime.xyz
 127.0.0.1 virus-notice.com
+127.0.0.1 vitemadose.fr
 127.0.0.1 vlc.de
 127.0.0.1 voyager1.telesat.com.co
 127.0.0.1 vxiframe.biz
@@ -6998,6 +7006,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 aka-cdn-ns.adtech.de
 127.0.0.1 aka-cdn-ns.adtechus.com
 127.0.0.1 aka-cdn.adtechus.com
+127.0.0.1 aka.ms-ads.co
 127.0.0.1 akaads-espn.starwave.com
 127.0.0.1 akamai.invitemedia.com
 127.0.0.1 ako.cc
@@ -7863,6 +7872,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 cdnt.yottos.com
 127.0.0.1 cdnw.ringtonepartner.com
 127.0.0.1 cds.adecn.com
+127.0.0.1 cds.taboola.com
 127.0.0.1 ce.lijit.com
 127.0.0.1 cecash.com
 127.0.0.1 ced.sascdn.com
@@ -9888,6 +9898,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mastertracks.be
 127.0.0.1 match.ads.betweendigital.com
 127.0.0.1 match.adsrvr.org
+127.0.0.1 match.taboola.com
 127.0.0.1 matomy.adk2.co
 127.0.0.1 matrix.mediavantage.de
 127.0.0.1 maxads.ruralpress.com
@@ -10761,6 +10772,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 pletyka.eu
 127.0.0.1 ploaz54.com
 127.0.0.1 pluszcafe.hu
+127.0.0.1 pm.adsafeprotected.com
 127.0.0.1 pm.w55c.net
 127.0.0.1 pmelon.com
 127.0.0.1 pmstrk.mercadolivre.com.br
@@ -12048,6 +12060,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tpienquete.com
 127.0.0.1 tps.doubleverify.com
 127.0.0.1 tps10216.doubleverify.com
+127.0.0.1 tps20519.doubleverify.com
 127.0.0.1 tps30.doubleverify.com
 127.0.0.1 tps31.doubleverify.com
 127.0.0.1 tr.bigpoint.com
@@ -14073,7 +14086,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 ar.hao123.com
 127.0.0.1 irs01.net
 127.0.0.1 kiks.yandex.ru
-127.0.0.1 tv.sohu.com
 127.0.0.1 y3.ifengimg.com
 #</evercookies-sites>
 
