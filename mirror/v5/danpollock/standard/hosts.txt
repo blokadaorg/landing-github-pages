@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 26 May 2021 at 00:02:46 GMT
+# Last updated: Wed, 09 Jun 2021 at 00:57:36 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1363,6 +1363,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 scrooge.wsoctv.com
 127.0.0.1 scrooge.wtov9.com
 127.0.0.1 sdc.rbistats.com
+127.0.0.1 sdkapi.netmera.com
 127.0.0.1 sdogiu.bestamazontips.com
 127.0.0.1 se.sitestat.com
 127.0.0.1 searchadv.com
@@ -1623,6 +1624,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 track.enviodemails.com
 127.0.0.1 track.exclusivecpa.com
 127.0.0.1 track.ft.com
+127.0.0.1 track.gaug.es
 127.0.0.1 track.gawker.com
 127.0.0.1 track.greatofferstoyou.net
 127.0.0.1 track.grmtracking.com
@@ -8526,6 +8528,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 engage.everyone.net
 127.0.0.1 engage.speedera.net
 127.0.0.1 engager.tmg.nl
+127.0.0.1 engageya.com
 127.0.0.1 engine.4chan-ads.org
 127.0.0.1 engine.adbooth.com
 127.0.0.1 engine.adland.ru
@@ -9074,6 +9077,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 hatter-story.info
 127.0.0.1 havakhosh.com
 127.0.0.1 haynet.adbureau.net
+127.0.0.1 hb.mediafuse.com
 127.0.0.1 hbads.eboz.com
 127.0.0.1 hbadz.eboz.com
 127.0.0.1 hc.baidu.com
@@ -10763,6 +10767,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 play.istlandoll.com
 127.0.0.1 play.leadzupc.com
 127.0.0.1 play.traffpartners.com
+127.0.0.1 player.mediafuse.com
 127.0.0.1 playinvaders.com
 127.0.0.1 playlink.pl
 127.0.0.1 playnow.guru
@@ -11052,6 +11057,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 rcm-images.amazon.com
 127.0.0.1 rcm-it.amazon.it
 127.0.0.1 rcm-na.amazon-adsystem.com
+127.0.0.1 rd.speakol.com
 127.0.0.1 rdmsom.com
 127.0.0.1 rdsa2012.com
 127.0.0.1 re.directrev.com
