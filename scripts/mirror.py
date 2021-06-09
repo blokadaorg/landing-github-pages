@@ -373,6 +373,23 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "1hosts",
+                "configs": [
+                    {
+                        "name": "lite",
+                        "urls": [
+                            "https://badmojr.github.io/1Hosts/Lite/hosts.txt"
+                        ]
+                    },
+                    {
+                        "name": "pro",
+                        "urls": [
+                            "https://badmojr.github.io/1Hosts/Pro/hosts.txt"
+                        ]
+                    }
+                ]
             }
         ]
     }
