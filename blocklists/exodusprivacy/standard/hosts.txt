@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2021-06-11 10:46:59.959082
+# Generated at 2021-06-14 08:18:53.618030
 # Made by Blokada
 
 databerries.com
@@ -111,7 +111,6 @@ yt.moatads.com
 yts.moatads.com
 z.moatads.com
 segment.com
-login.microsoftonline.com
 management.azure.com
 colocator.net
 applovin.com
