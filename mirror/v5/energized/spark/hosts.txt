@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.06.165
-# Release: 165
-# Entries: 42,472
+# Version: 21.06.166
+# Release: 166
+# Entries: 42,469
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 14 Jun 21 11:59:32
+# Updated: Tue, 15 Jun 21 11:59:32
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -18805,7 +18805,6 @@ i.imstks.com
 i.interia.pl
 i.ipromote.com
 iiprpq1bsedg.com
-i.isnssdk.com
 iiy57tqi8rsn.com
 ijade.store
 i.jads.co
@@ -21784,7 +21783,6 @@ loga.xiti.com
 log.book.baidu.com
 log.btopenworld.com
 log.byteoversea.com
-log.byteoversea.com.edgekey.net
 logc11.xiti.com
 logc135.xiti.com
 logc13.xiti.com
@@ -28852,7 +28850,6 @@ publicityclerks.com
 public.servenobid.com
 public-service-gateway.dr.newrelic.com
 publicsparedpen.com
-public-trace-http-intake.logs.datadoghq.com
 publicvm.com
 public-webservice.apdc1n.adpushup.com
 public-webservice.apdc3n.adpushup.com
