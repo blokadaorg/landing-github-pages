@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 09 Jun 2021 at 00:57:36 GMT
+# Last updated: Wed, 16 Jun 2021 at 04:37:29 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -2985,6 +2985,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 toptypeonlinetheclicks.icu
 127.0.0.1 torjackan.info
 127.0.0.1 tracking.vcommission.com
+127.0.0.1 tradedealvip.su
 127.0.0.1 traffic-bam.link
 127.0.0.1 traffic.adwitty.com
 127.0.0.1 trialreg.com
@@ -3018,6 +3019,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 v1.your-notification.tools
 127.0.0.1 vast.btrll.com
 127.0.0.1 vcipo.info
+127.0.0.1 vectorcaremedicals.shop
 127.0.0.1 vedoriska.com
 127.0.0.1 velowilenlitt.pro
 127.0.0.1 venturead.com

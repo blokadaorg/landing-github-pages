@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2021-06-15 08:53:01.541474
+# Generated at 2021-06-16 13:23:04.786957
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -5312,7 +5312,6 @@ images.lifeline.de.dv-cert.edgekey.net
 images.9monate.de.dv-cert.edgekey.net
 digitalasset.intuit.com.edgekey.net
 ipv6.gadgets360.com.edgekey.net
-50992.edgekey.net
 assets.gamewith.jp.edgekey.net
 cdn.trucktrend.com.edgekey.net
 img.gamewith.jp.edgekey.net
