@@ -349,6 +349,12 @@ def main(argv):
                         "urls": [
                             "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/newhosts-final.hosts"
                         ]
+                    },
+                    {
+                        "name": "mini",
+                        "urls": [
+                            "https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/MiniLists/mini-newhosts.hosts"
+                        ]
                     }
                 ]
             },
@@ -387,6 +393,24 @@ def main(argv):
                         "name": "pro",
                         "urls": [
                             "https://badmojr.github.io/1Hosts/Pro/hosts.txt"
+                        ]
+                    },
+                    {
+                        "name": "litea",
+                        "urls": [
+                            "https://hosts.netlify.app/Lite/adblock.txt"
+                        ]
+                    },
+                    {
+                        "name": "proa",
+                        "urls": [
+                            "https://hosts.netlify.app/Pro/adblock.txt"
+                        ]
+                    },
+                    {
+                        "name": "xtraa",
+                        "urls": [
+                            "https://hosts.netlify.app/Xtra/adblock.txt"
                         ]
                     }
                 ]
