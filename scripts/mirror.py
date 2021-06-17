@@ -98,6 +98,12 @@ def main(argv):
                         ]
                     },
                     {
+                        "name": "fake news",
+                        "urls": [
+                            "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
+                        ]
+                    },
+                    {
                         "name": "adult",
                         "urls": [
                             "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
@@ -246,6 +252,12 @@ def main(argv):
                         "urls": [
                             "https://abp.oisd.nl/basic/"
                         ]
+                    },
+                    {
+                        "name": "basic (wildcards)",
+                        "urls": [
+                            "https://abp.oisd.nl/basic/"
+                        ]
                     }
                 ]
             },
@@ -254,6 +266,12 @@ def main(argv):
                 "configs": [
                     {
                         "name": "ads",
+                        "urls": [
+                            "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt"
+                        ]
+                    },
+                    {
+                        "name": "ads and tracking",
                         "urls": [
                             "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt"
                         ]
@@ -272,6 +290,12 @@ def main(argv):
                     },
                     {
                         "name": "junk",
+                        "urls": [
+                            "https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt"
+                        ]
+                    },
+                    {
+                        "name": "hate and junk",
                         "urls": [
                             "https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt"
                         ]
@@ -409,6 +433,24 @@ def main(argv):
                     },
                     {
                         "name": "xtraa",
+                        "urls": [
+                            "https://hosts.netlify.app/Xtra/adblock.txt"
+                        ]
+                    },
+                    {
+                        "name": "lite (wildcards)",
+                        "urls": [
+                            "https://hosts.netlify.app/Lite/adblock.txt"
+                        ]
+                    },
+                    {
+                        "name": "pro (wildcards)",
+                        "urls": [
+                            "https://hosts.netlify.app/Pro/adblock.txt"
+                        ]
+                    },
+                    {
+                        "name": "xtra (wildcards)",
                         "urls": [
                             "https://hosts.netlify.app/Xtra/adblock.txt"
                         ]
