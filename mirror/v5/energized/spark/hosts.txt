@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.06.167
-# Release: 167
-# Entries: 42,471
+# Version: 21.06.168
+# Release: 168
+# Entries: 42,478
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 16 Jun 21 11:59:33
+# Updated: Thu, 17 Jun 21 11:59:42
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -7138,6 +7138,7 @@ assets-v2.yieldify.com
 assets-v2.yieldify-production.com
 assets.vidora.com
 assets.vlicdn2.com
+assets.vlitag.com
 assets.yieldify.com
 assets.yieldify-production.com
 as.sexad.net
@@ -10512,6 +10513,7 @@ christine-herntier.de
 christinmarit.de
 chrodoo-media.de
 chronicads.com
+c.hrzn-nxt.com
 chs.smartclick.net
 ch-sync.taboola.com
 chuckledinadmissible.com
@@ -16873,6 +16875,7 @@ gmgmacmortgage.112.2o7.net
 gmgmcom.112.2o7.net
 gmgoodwrenchdmaprod.112.2o7.net
 gmhummer.112.2o7.net
+gmial.com
 gml.email
 gm.mobfox.com
 gmnxupczjmecj.bid
@@ -31089,6 +31092,7 @@ sc.independent.co.uk
 scintillatingscissors.com
 scintillatingspace.com
 scjczeqyuqjs.com
+s.clcktrax.com
 sclick.baidu.com
 s.clickiocdn.com
 scmp-d.openx.net
@@ -33439,6 +33443,7 @@ static.verticalscope.com
 static.vidazoo.com
 static.vilynx.com
 static.virgul.com
+static.vliplatform.com
 static.vpptechnologies.com
 static-v.tawk.to
 static.webclicks24.com
@@ -34398,6 +34403,7 @@ tags.w55c.net
 tag.targeting.unrulymedia.com
 tag.unionstatistics.com
 tag.userreport.com
+tag.vlitag.com
 tag.widespace.com
 tag.yieldoptimizer.com
 tahoesup.com
@@ -40511,6 +40517,7 @@ www.globalbuffer.com
 www.globalcharge.com
 www.gm4pgv.plus.com
 www.gmads.net
+www.gmial.com
 www.gmodules.com
 www.goatse.bz
 www.goatse.ca
