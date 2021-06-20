@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2021-06-17 11:17:50.272665
+# Generated at 2021-06-20 12:57:46.845082
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -1524,7 +1524,6 @@ s.ykvlen.com
 media.heartlandtv.com
 app.leadsrx.com
 sb.voicefive.com
-menu-static.gog-statics.com
 shared.las4srv.com
 vitemadose.covidtracker.fr
 cms.scorpioncms.com
@@ -6793,7 +6792,6 @@ pics.vpdmm.cc
 mainnet.infura.io
 pt.ispot.tv
 staging-pt.ispot.tv
-login.msa.msidentity.com
 web.sol-data.com
 privacy.outdoorsg.com
 cms.bigbazaarstore.com
@@ -13559,7 +13557,6 @@ chat.kindlycdn.com
 static.kindlycdn.com
 productapi.styla.com
 pt.ispot.tv
-login.msa.msidentity.com
 sr.studiostack.com
 ads.blogherads.com
 tags.catapultx.com
@@ -14992,7 +14989,6 @@ cs548.wac.rhocdn.net
 engine.a8.styla.com
 productapi.styla.com
 pt.ispot.tv
-login.msa.msidentity.com
 sr.studiostack.com
 ads.blogherads.com
 media-d.global.abb
@@ -16550,7 +16546,6 @@ w3.cdn.anvato.net
 tag.contactatonce.com
 pt.ispot.tv
 staging-pt.ispot.tv
-login.msa.msidentity.com
 sr.studiostack.com
 ads.blogherads.com
 tags.catapultx.com
@@ -18026,7 +18021,6 @@ idm.hit.gemius.pl
 onet.hit.gemius.pl
 affiliate.barnebys.com
 pt.ispot.tv
-login.msa.msidentity.com
 sr.studiostack.com
 tags.catapultx.com
 ag.palmtube.net
@@ -19457,7 +19451,6 @@ ads.servenobid.com
 assets.pixlee.com
 ui-elements.loyalsys.io
 pt.ispot.tv
-login.msa.msidentity.com
 sr.studiostack.com
 ads.blogherads.com
 tags.catapultx.com
@@ -20816,7 +20809,6 @@ static.dable.io
 cs548.wac.rhocdn.net
 productapi.styla.com
 pt.ispot.tv
-login.msa.msidentity.com
 ads.blogherads.com
 media-d.global.abb
 ag.palmtube.net
@@ -22037,7 +22029,6 @@ cs548.wac.rhocdn.net
 engine.a8.styla.com
 lg.fra2-c.fdcservers.net.prod.hosts.ooklaserver.net
 speedtest1.synlinq.de.prod.hosts.ooklaserver.net
-login.msa.msidentity.com
 media-d.global.abb
 ag.palmtube.net
 pre.ads.justpremium.com
@@ -23219,7 +23210,6 @@ pro.hit.gemius.pl
 cs548.wac.rhocdn.net
 affiliate.barnebys.com
 productapi.styla.com
-login.msa.msidentity.com
 sr.studiostack.com
 ag.palmtube.net
 static.mailerlite.com

@@ -24,12 +24,12 @@
 # Title: Energized Spark Protection
 # Description: True Lite Protection Pack.
 # Format: domain list
-# Version: 21.06.168
-# Release: 168
-# Entries: 42,478
+# Version: 21.06.171
+# Release: 171
+# Entries: 42,482
 # Pack Code: E5P4RK-P
 # License: MIT, https://energized.pro/license
-# Updated: Thu, 17 Jun 21 11:59:42
+# Updated: Sun, 20 Jun 21 11:59:31
 # RAW: https://block.energized.pro/spark/formats/domains.txt
 # --------------------------------------------
 #
@@ -2497,6 +2497,7 @@ admixer.net
 admix.in
 admized.com
 admngronline.com
+admobclick.com
 admob.com
 admobile.com
 ad.mobstazinc.cn
@@ -5010,6 +5011,8 @@ alpinehandlingsystems.com
 alpint.adgear.com
 alrioneteruld.info
 als.baidu.com
+alt2.googleanalytics.com
+alt4.googleanalytics.com
 altavista.ovh
 alternativeadverts.com
 alternativos.iw-advertising.com
@@ -6212,7 +6215,6 @@ api.clickaine.com
 api.clickbank.net
 api-client.mobitech-search.xyz
 api.cliqz.com
-api.cloud.appcelerator.com
 api.cloudembed.net
 api.cloudmobi.net
 apicmp.adreach.co
@@ -6748,7 +6750,6 @@ app.roximity.com
 apps.adjust.io
 apps.admob.com
 apps.applift.com
-apps.appmachine.com
 apps.begun.ru
 apps-cloud.xyz
 apps.crashlytics.com
@@ -10034,7 +10035,6 @@ cdn.iople.com
 cdn.ip.inpwrd.com
 cdnis.bidvertiser.com
 cdn.ish.atdmt.com
-cdn.iubenda.com
 cdn.izooto.com
 cdn.jampp.com
 cdn.jivox.com
@@ -10734,6 +10734,7 @@ clickfuse.com
 clickgem.com
 click.goingtothead.com
 click.google-analytics.com
+click.googleanalytics.com
 click.green-red.com
 click-haproxy.supersonicads.com
 clickhereforcellphones.com
@@ -14414,6 +14415,7 @@ eloqua.122.2o7.net
 eltrafiko.com
 elwbhndbxfqk.com
 elzaservis.cz
+em1.yoursantander.co.uk
 email.advertising.com
 emailapi-v2.moengage.com
 email.applovin.com
@@ -14521,6 +14523,7 @@ engagement.inmarket.com
 engage-network.influencemobile.com
 engagespot.co
 engagesrvr.filefactory.com
+engage.webshrinker.com
 engageya.com
 engine.adbooth.com
 engine.addroplet.com
@@ -15278,7 +15281,6 @@ fastcooler.s.xoxknct.com
 fastcounter.com
 fastdocuments.net
 fasten4you.de
-fastgetsoftware.com
 fast-hunter.com
 fastlane-adv.rubiconproject.com
 fastlane.rubiconproject.com
@@ -15944,6 +15946,7 @@ franko.info
 fr.at.atwola.com
 fratellimall.com
 fraubrit-shoppt.de
+fraud.adjoe.zone
 fraudulentmatt.com
 fraysacnedon.com
 frbhjvazapgo.com
@@ -20572,7 +20575,6 @@ karina-fibich.at
 karinart.de
 karlsbrew.de
 karma.mdpcdn.com
-karonty.com
 karottenzuschlag.de
 kar.uptoabc.com
 kasmani-electrodomesticos.es
@@ -28494,6 +28496,7 @@ prod2.invitemedia.com
 prod4-collecticon.outlookmobile.com
 prod-a.applovin.com
 prod.adblade.com
+prod.adjoe.zone
 prod-ads.aerserv.com
 prod.adspsp.com
 prod.adtechjp.com
@@ -28513,6 +28516,7 @@ prod.embut.manycomponents.com
 prod-e-node-1112.nexage.com
 prod-e-node-1212.nexage.com
 prod-e-node-2112.nexage.com
+prod.fraud.adjoe.zone
 prod.green-red.com
 prod-ingestion.tracking.v2.yieldlove-ad-serving.net
 prod-js.aws.y-track.com
@@ -30805,7 +30809,6 @@ s9kkremkr0.com
 sa1.tuisong.baidu.com
 sa.ads.justpremium.com
 sa.aol.com.122.2o7.net
-saas.appdynamics.com
 saas.seewhy.com
 saavn.deliveryengine.adswizz.com
 sa.bbc.co.uk
@@ -30902,6 +30905,7 @@ s.analytics.yahoo.com
 sancdn.net
 sandbox.admixer.net
 sandbox.duapps.com
+sandbox.googleanalytics.com
 sandbox.livejasmin.com
 sandbox.outbrain.com
 sandbox.tinypass.com
@@ -32536,7 +32540,6 @@ snapabug.appspot.com
 snapfish.112.2o7.net
 snap.licdn.com
 snapmobile.asia
-snappytvpoc-vh.akamaihd.net
 snapsed.club
 snap.snapmobile.asia
 snapsort-d.openx.net
@@ -33014,6 +33017,7 @@ ssl.cloud.gsdk.qq.com
 ssl.exelator.com
 sslgateways.com
 ssl.google-analytics.com
+ssl.googleanalytics.com
 ssl.gridsumdissector.com
 ssl-i.cdn.openx.com
 ssl.lomadee.com
@@ -37966,7 +37970,6 @@ vapixel.adsafeprotected.com
 vap.lijit.com
 vapoworld.de
 variablefitness.com
-variantswatches.apphb.com
 vasc.iasds01.com
 vasfxpribls.com
 vashoaft.net
@@ -39796,6 +39799,7 @@ www.admaym.com
 www.adminder.com
 www.admixer.co.kr
 www.admixer.net
+www.admobclick.com
 www.adnet.com
 www.adnetworkperformance.com
 www.adnxs.com
