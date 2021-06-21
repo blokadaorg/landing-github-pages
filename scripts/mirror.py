@@ -456,6 +456,17 @@ def main(argv):
                         ]
                     }
                 ]
+            },
+            {
+                "id": "d3host",
+                "configs": [
+                    {
+                        "name": "standard",
+                        "urls": [
+                            "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt"
+                        ]
+                    }
+                ]
             }
         ]
     }
