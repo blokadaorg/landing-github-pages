@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.06.171
-# Release: 171
-# Entries: 3,935
+# Version: 21.06.172
+# Release: 172
+# Entries: 3,894
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Sun, 20 Jun 21 12:00:32
+# Updated: Mon, 21 Jun 21 12:00:31
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -1296,7 +1296,6 @@ fbsbx.com
 fbstatic-a.akamaihd.net
 fbstatic.net
 fbtokenizerdogfood.in.expresswifi.com
-fbtokenizerdogfood.in.xwf.internet.org
 fdda274d380ki4frcgi-rumjfjai1460158783-sonar.xx.fbcdn.net
 fi-fi.facebook.com
 filamentapp-assets.s3.amazonaws.com
@@ -1545,7 +1544,6 @@ ibytedtos.com
 iconnectwe.expresswifi.com
 iconnectwe-expresswifi-com.iconnectwe.in.expresswifi.com
 iconnectwe.in.expresswifi.com
-iconnectwe.in.xwf.internet.org
 iconnectweqa.in.expresswifi.com
 iconnectweqa.in.xwf.internet.org
 id-ask-com.0.internet.org
@@ -1943,7 +1941,6 @@ nelite-operamini.internet.org
 nen-gb.internet.org
 netvision-expresswifi-com.netvision.in.expresswifi.com
 netvision.in.expresswifi.com
-netvision.in.xwf.internet.org
 new.freebasics.com
 new.internet.org
 new.reddit.com
@@ -2059,16 +2056,6 @@ nzero.facebook.com.internet.org
 nzero.freebasics.com
 nzero.internet.org
 nz.linkedin.com
-nz-m-scontent-amt.xx.fbcdn.net
-nz-m-scontent-eze.xx.fbcdn.net
-nz-m-scontent-lhr.xx.fbcdn.net
-nz-m-scontent-mad.xx.fbcdn.net
-nz-m-scontent-tpe.xx.fbcdn.net
-nz-m-video-atl.xx.fbcdn.net
-nz-m-video-bru.xx.fbcdn.net
-nz-m-video-eze.xx.fbcdn.net
-nz-m-video-lax.xx.fbcdn.net
-nz-m-video-lht.xx.fbcdn.net
 nz-p3-scontent.fcgh11-1.fna.fbcdn.net
 nz-p3-scontent.ffor10-1.fna.fbcdn.net
 oauth.reddit.com
@@ -3410,12 +3397,8 @@ youtube.freebasics.com
 z-1.c10r.facebook.com
 z-1-cdn.fbsbx.com
 z-1-external.fsea1-1.fna.fbcdn.net
-z-1-external-ort2-2.xx.fbcdn.net
 z-1.facebook.com
 z-1-lookaside.fbsbx.com
-z-1-scontent-a-iad.xx.fbcdn.net
-z-1-scontent-b-atl.xx.fbcdn.net
-z-1-scontent-dfw5-2.xx.fbcdn.net
 z-1-scontent.fbkk10-1.fna.fbcdn.net
 z-1-scontent.fmaa1-1.fna.fbcdn.net
 z-1-scontent.fmaa2-1.fna.fbcdn.net
@@ -3423,15 +3406,10 @@ z-1-scontent.fpoa10-1.fna.fbcdn.net
 z-1-scontent.fpoa1-1.fna.fbcdn.net
 z-1-scontent.fpoa2-1.fna.fbcdn.net
 z-1-scontent.fvno1-1.fna.fbcdn.net
-z-1-scontent-kul.xx.fbcdn.net
-z-1-scontent-sjc1-1.xx.fbcdn.net
 z-1-scontent-sjc2-1.xx.fbcdn.net
 z-1-scontent.xx.fbcdn.net
-z-1-static.xx.fbcdn.net
-z-1-video-atl3-1.xx.fbcdn.net
 z-1-video.fpoa10-1.fna.fbcdn.net
 z-1-video.fszb1-1.fna.fbcdn.net
-z-1-video.xx.fbcdn.net
 zain.internet.org
 za.linkedin.com
 z.beta.facebook.com
@@ -3477,7 +3455,6 @@ z-m-scontent-cdt.xx.fbcdn.net
 z-m-scontent-dft.xx.fbcdn.net
 z-m-scontent-eze.xx.fbcdn.net
 z-m-scontent.facc5-1.fna.fbcdn.net
-z-m-scontent.fbgt1-2.fna.fbcdn.net
 z-m-scontent.fbgw4-2.fna.fbcdn.net
 z-m-scontent.fbkk13-1.fna.fbcdn.net
 z-m-scontent.fbkk22-1.fna.fbcdn.net
@@ -3495,9 +3472,11 @@ z-m-scontent.fbkk2-8.fna.fbcdn.net
 z-m-scontent.fbkk3-1.fna.fbcdn.net
 z-m-scontent.fbkk3-2.fna.fbcdn.net
 z-m-scontent.fbkk3-3.fna.fbcdn.net
+z-m-scontent.fbkk3-4.fna.fbcdn.net
 z-m-scontent.fbkk4-1.fna.fbcdn.net
 z-m-scontent.fbkk4-2.fna.fbcdn.net
 z-m-scontent.fbkk4-3.fna.fbcdn.net
+z-m-scontent.fbkk4-4.fna.fbcdn.net
 z-m-scontent.fbkk5-1.fna.fbcdn.net
 z-m-scontent.fbkk5-2.fna.fbcdn.net
 z-m-scontent.fbkk5-3.fna.fbcdn.net
@@ -3507,7 +3486,6 @@ z-m-scontent.fbkk5-6.fna.fbcdn.net
 z-m-scontent.fbkk5-7.fna.fbcdn.net
 z-m-scontent.fbkk5-8.fna.fbcdn.net
 z-m-scontent.fbkk8-3.fna.fbcdn.net
-z-m-scontent.fbog2-2.fna.fbcdn.net
 z-m-scontent.fbsr11-1.fna.fbcdn.net
 z-m-scontent.fceb1-1.fna.fbcdn.net
 z-m-scontent.fceb2-1.fna.fbcdn.net
@@ -3540,11 +3518,9 @@ z-m-scontent.fsub3-1.fna.fbcdn.net
 z-m-scontent.fsub3-2.fna.fbcdn.net
 z-m-scontent.fsub6-2.fna.fbcdn.net
 z-m-scontent-gru.xx.fbcdn.net
-z-m-scontent-hkg3-2.xx.fbcdn.net
 z-m-scontent-hkg.xx.fbcdn.net
 z-m-scontent-iad.xx.fbcdn.net
 z-m-scontent-icn.xx.fbcdn.net
-z-m-scontent-kul1-1.xx.fbcdn.net
 z-m-scontent-kut.xx.fbcdn.net
 z-m-scontent-lax.xx.fbcdn.net
 z-m-scontent-lga.xx.fbcdn.net
@@ -3672,12 +3648,10 @@ z-p1-scontent.xx.fbcdn.net
 z-p1-static.xx.fbcdn.net
 z-p1-upload.facebook.com
 z-p1-video.xx.fbcdn.net
-z-p2-video.xx.fbcdn.net
 z-p3-any-graph.facebook.com
 z-p3-api.facebook.com
 z-p3.c10r.facebook.com
 z-p3-cdn.fbsbx.com
-z-p3-external-cai1-1.xx.fbcdn.net
 z-p3-external-dfw5-2.xx.fbcdn.net
 z-p3-external.faly3-2.fna.fbcdn.net
 z-p3-external.feoh1-1.fna.fbcdn.net
@@ -3689,7 +3663,6 @@ z-p3-external.fmnl3-1.fna.fbcdn.net
 z-p3-external.fpnh19-1.fna.fbcdn.net
 z-p3-external.fsdu11-1.fna.fbcdn.net
 z-p3-external.fsea1-1.fna.fbcdn.net
-z-p3-external-hkg3-1.xx.fbcdn.net
 z-p3-external-msp1-1.xx.fbcdn.net
 z-p3-external-sin6-1.xx.fbcdn.net
 z-p3.facebook.com
@@ -3726,9 +3699,11 @@ z-p3-scontent.fbkk2-8.fna.fbcdn.net
 z-p3-scontent.fbkk3-1.fna.fbcdn.net
 z-p3-scontent.fbkk3-2.fna.fbcdn.net
 z-p3-scontent.fbkk3-3.fna.fbcdn.net
+z-p3-scontent.fbkk3-4.fna.fbcdn.net
 z-p3-scontent.fbkk4-1.fna.fbcdn.net
 z-p3-scontent.fbkk4-2.fna.fbcdn.net
 z-p3-scontent.fbkk4-3.fna.fbcdn.net
+z-p3-scontent.fbkk4-4.fna.fbcdn.net
 z-p3-scontent.fbkk5-1.fna.fbcdn.net
 z-p3-scontent.fbkk5-2.fna.fbcdn.net
 z-p3-scontent.fbkk5-3.fna.fbcdn.net
@@ -3744,8 +3719,6 @@ z-p3-scontent.fbog2-3.fna.fbcdn.net
 z-p3-scontent.fbsb11-1.fna.fbcdn.net
 z-p3-scontent.fbsb1-1.fna.fbcdn.net
 z-p3-scontent.fcgh11-1.fna.fbcdn.net
-z-p3-scontent.fcgk5-1.fna.fbcdn.net
-z-p3-scontent.fcgk6-1.fna.fbcdn.net
 z-p3-scontent.fcgk9-2.fna.fbcdn.net
 z-p3-scontent.fcjs1-1.fna.fbcdn.net
 z-p3-scontent.fclq1-1.fna.fbcdn.net
@@ -3758,13 +3731,11 @@ z-p3-scontent.feoh2-1.fna.fbcdn.net
 z-p3-scontent.ffor10-1.fna.fbcdn.net
 z-p3-scontent.ffor11-1.fna.fbcdn.net
 z-p3-scontent.fgua2-1.fna.fbcdn.net
-z-p3-scontent.fgye5-1.fna.fbcdn.net
 z-p3-scontent.fgyn4-1.fna.fbcdn.net
 z-p3-scontent.fhan2-4.fna.fbcdn.net
 z-p3-scontent.fhan7-1.fna.fbcdn.net
 z-p3-scontent.fhan8-1.fna.fbcdn.net
 z-p3-scontent.fhex4-2.fna.fbcdn.net
-z-p3-scontent.fhhr1-2.fna.fbcdn.net
 z-p3-scontent.fhph1-2.fna.fbcdn.net
 z-p3-scontent.fisb6-1.fna.fbcdn.net
 z-p3-scontent.fjed4-1.fna.fbcdn.net
@@ -3779,8 +3750,6 @@ z-p3-scontent.flos1-1.fna.fbcdn.net
 z-p3-scontent.flpb2-1.fna.fbcdn.net
 z-p3-scontent.fltn2-1.fna.fbcdn.net
 z-p3-scontent.fmba2-1.fna.fbcdn.net
-z-p3-scontent.fmct2-2.fna.fbcdn.net
-z-p3-scontent.fmct3-2.fna.fbcdn.net
 z-p3-scontent.fmdc1-1.fna.fbcdn.net
 z-p3-scontent.fmex10-1.fna.fbcdn.net
 z-p3-scontent.fmga1-1.fna.fbcdn.net
@@ -3824,7 +3793,6 @@ z-p3-scontent.furt1-1.fna.fbcdn.net
 z-p3-scontent.fymq3-1.fna.fbcdn.net
 z-p3-scontent.fzcl1-1.fna.fbcdn.net
 z-p3-scontent-gru.xx.fbcdn.net
-z-p3-scontent-hkg3-1.xx.fbcdn.net
 z-p3-scontent-hkg.xx.fbcdn.net
 z-p3-scontent-lax3-1.xx.fbcdn.net
 z-p3-scontent-lhr8-1.xx.fbcdn.net
@@ -3838,7 +3806,6 @@ z-p3-scontent-sea1-1.xx.fbcdn.net
 z-p3-scontent-sof1-1.xx.fbcdn.net
 z-p3-scontent-syd2-1.xx.fbcdn.net
 z-p3-scontent.xx.fbcdn.net
-z-p3-sonar-arn.xx.fbcdn.net
 z-p3-sonar.fbkk22-4.fna.fbcdn.net
 z-p3-sonar.fbkk5-6.fna.fbcdn.net
 z-p3-sonar.fbkk5-7.fna.fbcdn.net
@@ -3847,9 +3814,7 @@ z-p3-upload.facebook.com
 z-p3-video-bog1-1.xx.fbcdn.net
 z-p3-video-cgk1-1.xx.fbcdn.net
 z-p3-video.fbey13-1.fna.fbcdn.net
-z-p3-video.fccs1-1.fna.fbcdn.net
 z-p3-video.fcor10-3.fna.fbcdn.net
-z-p3-video.fctg1-2.fna.fbcdn.net
 z-p3-video.fdad6-1.fna.fbcdn.net
 z-p3-video.fgua5-1.fna.fbcdn.net
 z-p3-video.fgye10-2.fna.fbcdn.net
@@ -3865,7 +3830,6 @@ z-p3-video.fscl4-1.fna.fbcdn.net
 z-p3-video.fsea1-1.fna.fbcdn.net
 z-p3-video.ftpe7-3.fna.fbcdn.net
 z-p3-video.ftuc1-1.fna.fbcdn.net
-z-p3-video-sit4-1.xx.fbcdn.net
 z-p3-video-vie1-1.xx.fbcdn.net
 z-p3-video-waw1-1.xx.fbcdn.net
 z-p3-video.xx.fbcdn.net
@@ -3878,12 +3842,10 @@ z-p42-instagram.c10r.facebook.com
 z-p42-instagram.fada1-10.fna.fbcdn.net
 z-p42-instagram.fada1-1.fna.fbcdn.net
 z-p42-instagram.fbsr2-1.fna.fbcdn.net
-z-p42-instagram.fbtz1-9.fna.fbcdn.net
 z-p42-instagram.fcrk3-1.fna.fbcdn.net
 z-p42-instagram.flhe2-1.fna.fbcdn.net
 z-p42-instagram.flun1-1.fna.fbcdn.net
 z-p42-instagram.flun1-2.fna.fbcdn.net
-z-p42-instagram.fsaw1-3.fna.fbcdn.net
 z-p42.maps.instagram.com
 z-p42-scontent-ams3-1.cdninstagram.com
 z-p42-scontent-amt2-1.cdninstagram.com
@@ -3934,10 +3896,8 @@ z-p42-scontent-sof1-1.cdninstagram.com
 z-p42-scontent-syd2-1.cdninstagram.com
 z-p42-scontent-vie1-1.cdninstagram.com
 z-p42-scontent-waw1-1.cdninstagram.com
-z-p42-scontent.xx.fbcdn.net
 z-p42-scontent-yyz1-1.cdninstagram.com
 z-p42-static.cdninstagram.com	
-z-p42-static.xx.fbcdn.net
 z-p42.www.instagram.com
 z-p4-any-graph.facebook.com
 z-p4-api.facebook.com
@@ -3965,7 +3925,6 @@ z-p4-scontent.cdninstagram.com
 z-p4-scontent-cdt1-1.cdninstagram.com
 z-p4-scontent-dfw5-1.cdninstagram.com
 z-p4-scontent.fath6-1.fna.fbcdn.net
-z-p4-scontent.fgye5-1.fna.fbcdn.net
 z-p4-scontent.fist2-1.fna.fbcdn.net
 z-p4-scontent.flis8-2.fna.fbcdn.net
 z-p4-scontent.fman3-1.fna.fbcdn.net
