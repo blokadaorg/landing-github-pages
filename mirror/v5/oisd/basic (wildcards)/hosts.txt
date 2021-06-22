@@ -5,8 +5,8 @@
 !
 !  Title: oisd basic     
 !  Syntax: abp       
-!  Entries: 41685  
-!  TimeUpdated: 2021-06-21T00:52:52+02:00     
+!  Entries: 41684  
+!  TimeUpdated: 2021-06-22T00:03:22+02:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -222,7 +222,6 @@
 ||102.112.2o7.net^
 ||10300378a5935.com^
 ||103092804.com^
-||104231.dtiblog.com^
 ||104610.com^
 ||105vibe.com^
 ||1080872514.rsc.cdn77.org^
@@ -2120,6 +2119,7 @@
 ||acnenomor.com^
 ||acodes.b2b.cn^
 ||acompanhantesdeportugal.com^
+||acookie.alimama.com^
 ||acootaul.net^
 ||acornpointlodge.com^
 ||acortame.net^
@@ -4182,7 +4182,6 @@
 ||ads.rude.com^
 ||ads.ruralpress.com^
 ||ads.sacbee.com^
-||ads.samba.tv^
 ||ads.sapo.pt^
 ||ads.satyamonline.com^
 ||ads.scabee.com^
@@ -6058,7 +6057,6 @@
 ||alikearm.com^
 ||alimama.alicdn.com^
 ||alimama.cn^
-||alimama.com^
 ||alimb.top^
 ||alimc1.top^
 ||alime-pic.oss-cn-hangzhou.aliyuncs.com^
@@ -7079,6 +7077,7 @@
 ||app.segment.com^
 ||app.webpushr.com^
 ||app.wootric.com^
+||app.yesware.com^
 ||app2.downloadmacsoft.world^
 ||app2.letmacwork.world^
 ||app2.letslowbefast.life^
@@ -7920,6 +7919,7 @@
 ||b.thanksearch.com^
 ||b.tukucc.com^
 ||b.unjs.com^
+||b.zog.link^
 ||b014381c95cb.com^
 ||b02byun5xc3s.com^
 ||b07b29ceb5c.com^
@@ -9154,6 +9154,7 @@
 ||bkrtx.com^
 ||bkrtx.com.edgekey.net^
 ||bksn.se^
+||bkt.clouddn.com^
 ||bl.wavecdn.de^
 ||bl0uxepb4o.com^
 ||bl1mp.com^
@@ -13745,7 +13746,6 @@
 ||dd1.diymianmo.com^
 ||ddacn6pr5v0tl.cloudfront.net^
 ||ddanq.com^
-||ddc.com^
 ||dddcc.com^
 ||dddomainccc.com^
 ||dddyun.com^
@@ -13906,7 +13906,6 @@
 ||deloplen.com^
 ||delosnetwork.it^
 ||deloton.com^
-||delta-boa.com^
 ||delta.playbuzz.com^
 ||delta.rspcdn.com^
 ||deltaction.com^
@@ -14882,6 +14881,7 @@
 ||dtakdb1z5gq7e.cloudfront.net^
 ||dtcpdvnojquf.com^
 ||dtias.adsafeprotected.com^
+||dtiblog.com^
 ||dtiserv.com^
 ||dtiserv2.com^
 ||dtmpub.com^
@@ -16064,7 +16064,6 @@
 ||events.attentivemobile.com^
 ||events.blissona.com^
 ||events.branch.io^
-||events.cid.samba.tv^
 ||events.engager.ecbsn.com^
 ||events.influencemobile.com^
 ||events.izooto.com^
@@ -16087,7 +16086,6 @@
 ||everestgroupcorp.com^
 ||everestjs.net^
 ||everestjs.net.edgekey.net^
-||everestsoftrade.com^
 ||evergage.com^
 ||evergreensame.com^
 ||evergreensignificance.com^
@@ -20585,6 +20583,7 @@
 ||images.cardlytics.com^
 ||images.dailydiscounts.com^
 ||images.datatrics.com^
+||images.ddc.com^
 ||images.directtrack.com^
 ||images.dreamhost.com^
 ||images.e-mailcom.co.uk^
@@ -20782,7 +20781,10 @@
 ||in-tune2016.com^
 ||in.5.p2l.info^
 ||in.ff5.com^
+||in.zog.link^
 ||in24.at^
+||in3.zog.link^
+||in4.zog.link^
 ||in6ej4pbpnih.com^
 ||inabsolor.com^
 ||inactionvocationpaternity.com^
@@ -25201,7 +25203,6 @@
 ||mixappdev.com^
 ||mixedreading.com^
 ||mixi.co.jp^
-||mixineptpol.icu^
 ||mixmarket.biz^
 ||mixpanel.com^
 ||mixpo.com^
@@ -29031,8 +29032,6 @@
 ||pixel.facebook.com^
 ||pixel.logrocket.com^
 ||pixel.meteora.us^
-||pixel.metrics.samba.tv^
-||pixel.mtrcs.samba.tv^
 ||pixel.nc0.co^
 ||pixel.newscgp.com^
 ||pixel.newscred.com^
@@ -32359,6 +32358,7 @@
 ||samage-bility.icu^
 ||samalfamilyfoundation.com^
 ||samanthyean.com^
+||samba.tv^
 ||same.chinadaily.com.cn^
 ||same.eastmoney.com^
 ||samegradually.com^
@@ -35615,6 +35615,7 @@
 ||t.uc.cn^
 ||t.vi-serve.com^
 ||t.wayfair.com^
+||t.yesware.com^
 ||t0gju20fq34i.com^
 ||t0gkj99krb24.com^
 ||t1g2.cn^
@@ -35659,7 +35660,6 @@
 ||tag.adtrendmedia.net^
 ||tag.dickssportinggoods.com^
 ||tag.marinsm.com^
-||tag.mtrcs.samba.tv^
 ||tag.nifty.com^
 ||tag.regieci.com^
 ||tag.researchnow.com^
@@ -40876,7 +40876,6 @@
 ||yesmaris.com^
 ||yesnexus.com^
 ||yessearches.com^
-||yesware.com^
 ||yesware.com.herokudns.com^
 ||yeyajipp.com^
 ||yeyushe.cn^
@@ -41072,6 +41071,7 @@
 ||youramigo.com^
 ||yourblocksite.com^
 ||yourcommonfeed.com^
+||yourdailytrailer.yournewtab.com^
 ||yourfirstcheapshop.com^
 ||yourfreshposts.com^
 ||yourfuckbook.com^
@@ -41082,7 +41082,6 @@
 ||youripad4free.com^
 ||yourlegacy.club^
 ||yourlustmedia.com^
-||yournewtab.com^
 ||yourquickads.com^
 ||yourrecovery.net^
 ||yourrewardzone.com^
@@ -41319,6 +41318,7 @@
 ||zbqmsc.com^
 ||zbwp6ghm.com^
 ||zc.adswizz.com^
+||zc1.delta-boa.com^
 ||zc1.zeroredirect11.com^
 ||zc9l27wq.ru^
 ||zcand.com^
@@ -41552,7 +41552,6 @@
 ||zodiac-game.info^
 ||zodiakactive.com^
 ||zoeandjo.co.uk^
-||zog.link^
 ||zoloft.1.p2l.info^
 ||zoloft.3.p2l.info^
 ||zoloft.4.p2l.info^
