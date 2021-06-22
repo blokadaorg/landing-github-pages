@@ -286,6 +286,33 @@ link
 https://blokada.org/mirror/v5/cpbl/standard/hosts.txt
 
 
+100
+b_urlhaus
+blacklist
+inactive
+https://go.blokada.org/urlhaus
+link
+https://blokada.org/mirror/v5/urlhaus/standard/hosts.txt
+
+
+110
+b_1hosts
+blacklist
+inactive
+https://go.blokada.org/1hosts
+link
+https://blokada.org/mirror/v5/1hosts/lite/hosts.txt
+
+
+120
+b_d3host
+blacklist
+inactive
+https://go.blokada.org/d3host
+link
+https://blokada.org/mirror/v5/d3host/standard/hosts.txt
+
+
 20
 b_app_vending
 whitelist
