@@ -197,7 +197,7 @@ ff02::3 ip6-allhosts
 
 # TikTok
 0.0.0.0 ads.tiktok.com
-0.0.0.0 analytics.tiktok.comet
+0.0.0.0 analytics.tiktok.com
 
 #YouTube
 0.0.0.0 ads.youtube.com
@@ -312,7 +312,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 smetrics.samsung.com
 0.0.0.0 nmetrics.samsung.com
 0.0.0.0 samsung-com.112.2o7.net
-0.0.0.0 insights.samsung.com
+0.0.0.0 business.samsungusa.com
 0.0.0.0 analytics.samsungknox.com
 0.0.0.0 bigdata.ssp.samsung.com
 0.0.0.0 analytics-api.samsunghealthcn.com
@@ -329,5 +329,5 @@ ff02::3 ip6-allhosts
 0.0.0.0 books-analytics-events.apple.com
 0.0.0.0 stocks-analytics-events.apple.com
 0.0.0.0 stocks-analytics-events.news.apple-dns.net
-0.0.0.0 trackingshipment.apple.com
+0.0.0.0 xp.apple.com
 # End

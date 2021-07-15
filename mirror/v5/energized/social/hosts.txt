@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.06.173
-# Release: 173
-# Entries: 3,894
+# Version: 21.07.196
+# Release: 196
+# Entries: 3,904
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Tue, 22 Jun 21 12:00:33
+# Updated: Thu, 15 Jul 21 18:00:41
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -146,6 +146,7 @@ addtoprofile.linkedin.com
 admin.datememe.com
 admin.freebasics.com
 admin.internet.org
+admin-staging.joinclubhouse.com
 ads.facebook.com
 ads.freebasics.com
 ads.linkedin.com
@@ -636,6 +637,7 @@ com.0.freebasics.com
 comfytrade.m.facebook.com
 com.internet.org
 commsconnect.linkedin.com
+community.joinclubhouse.com
 community.linkedin.com
 community-test.linkedin.com
 conectadosbancogalicia.m.facebook.com
@@ -1575,6 +1577,7 @@ info.freebasics.com
 info.internet.org
 info.twitter.com
 in.linkedin.com
+instagr.am
 instagram.c10r.facebook.com
 instagram.com
 instagram-shv-01-ams2.fbcdn.net
@@ -1644,6 +1647,7 @@ inyour.freebasics.com
 inyour-slb-01-05-ash3.facebook.com
 iorg-bola-net.0.internet.org
 iorg-kapanlagi-com.0.internet.org
+ios.joinclubhouse.com
 iphone.facebook.com
 iphone.linkedin.com
 i.pinimg.com
@@ -1672,6 +1676,7 @@ jetairways.m.facebook.com
 jira.freebasics.com
 jira.internet.org
 jobs.twitter.com
+joinclubhouse.com
 jp.linkedin.com
 jp.twimg.com
 jv.datememe.com
@@ -2839,6 +2844,7 @@ s-static.facebook.com
 staff.tumblr.com
 stage.internet.org
 staging.internet.org
+staging.joinclubhouse.com
 standalone.ccpl.xwf.internet.org
 stanleyblackanddecker.m.facebook.com
 star.c10r.facebook.com
@@ -2909,6 +2915,7 @@ telkomsel.freebasics.com
 telkomsel.internet.org
 telstra.internet.org
 telstra.iph.internet.org
+testflight.joinclubhouse.com
 testpartner.yos.sb.expresswifi.com
 tgwidget.com
 th.datememe.com
@@ -3121,6 +3128,7 @@ webopedia.internet.org
 webpass.internet.org
 web.whatsapp.com
 weheartit.com
+welcome.joinclubhouse.com
 w.facebook.com
 whatsapp-cdn-shv-01-arn2.fbcdn.net
 whatsapp-cdn-shv-01-atl1.fbcdn.net
@@ -3237,9 +3245,11 @@ www.gsk.linkedin.com
 www.imagine.linkedin.com
 www.indosat.com.internet.org
 www.info.internet.org
+www.instagr.am
 www.instagram.com
 www.internet.org
 www.i.y.internet.org
+www.joinclubhouse.com
 www.licdn.com
 www.lifg.linkedin.com
 www.linkedin.com

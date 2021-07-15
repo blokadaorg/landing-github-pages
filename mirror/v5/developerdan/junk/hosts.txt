@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-06-21T01:05:21+00:00
-# Count: 1485 domains
+# Released: 2021-07-13T01:05:20+00:00
+# Count: 1562 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -79,11 +79,10 @@
 0.0.0.0 cpanel.stateofthenation.co
 0.0.0.0 mail.stateofthenation.co
 0.0.0.0 sucuriip.stateofthenation.co
+0.0.0.0 whm.stateofthenation.co
 0.0.0.0 www.stateofthenation.co
 0.0.0.0 100percentfedup.com
-0.0.0.0 e.100percentfedup.com
 0.0.0.0 em.100percentfedup.com
-0.0.0.0 email.100percentfedup.com
 0.0.0.0 li.100percentfedup.com
 0.0.0.0 rs-stripe.100percentfedup.com
 0.0.0.0 shop.100percentfedup.com
@@ -100,7 +99,9 @@
 0.0.0.0 webmail.alexjonesvideos.com
 0.0.0.0 www.alexjonesvideos.com
 0.0.0.0 americannaziparty.com
+0.0.0.0 ftp.americannaziparty.com
 0.0.0.0 mail.americannaziparty.com
+0.0.0.0 ssh.americannaziparty.com
 0.0.0.0 webmail.americannaziparty.com
 0.0.0.0 www.americannaziparty.com
 0.0.0.0 americanthinker.com
@@ -171,10 +172,12 @@
 0.0.0.0 awaken.davidicke.com
 0.0.0.0 dev1.davidicke.com
 0.0.0.0 forum.davidicke.com
+0.0.0.0 mailtracker.davidicke.com
 0.0.0.0 production-london-1.davidicke.com
 0.0.0.0 shop.davidicke.com
 0.0.0.0 social.davidicke.com
 0.0.0.0 staging4.davidicke.com
+0.0.0.0 staging7.davidicke.com
 0.0.0.0 www.davidicke.com
 0.0.0.0 block-test.developerdan.com
 0.0.0.0 block-test-hate-junk.developerdan.com
@@ -196,7 +199,6 @@
 0.0.0.0 www.flatearthresearch.com
 0.0.0.0 fort-russ.com
 0.0.0.0 email.fort-russ.com
-0.0.0.0 preview.fort-russ.com
 0.0.0.0 www.fort-russ.com
 0.0.0.0 globalclimatescam.com
 0.0.0.0 www.globalclimatescam.com
@@ -427,7 +429,17 @@
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
 0.0.0.0 www2.lewrockwell.com
+0.0.0.0 liveqordie.com
+0.0.0.0 erp.liveqordie.com
+0.0.0.0 new.liveqordie.com
+0.0.0.0 swag.liveqordie.com
+0.0.0.0 testerp.liveqordie.com
+0.0.0.0 www.liveqordie.com
 0.0.0.0 naebc.com
+0.0.0.0 cpanel.naebc.com
+0.0.0.0 cpcalendars.naebc.com
+0.0.0.0 webdisk.naebc.com
+0.0.0.0 webmail.naebc.com
 0.0.0.0 www.naebc.com
 0.0.0.0 natall.com
 0.0.0.0 mail.natall.com
@@ -444,6 +456,7 @@
 0.0.0.0 audiobooks.naturalnews.com
 0.0.0.0 autoship.naturalnews.com
 0.0.0.0 beetjuicepowder.naturalnews.com
+0.0.0.0 bigberkey.naturalnews.com
 0.0.0.0 biostructuredsilver.naturalnews.com
 0.0.0.0 blackcuminseedpowder.naturalnews.com
 0.0.0.0 blogs.naturalnews.com
@@ -458,6 +471,7 @@
 0.0.0.0 ce-publiclw.naturalnews.com
 0.0.0.0 chia.naturalnews.com
 0.0.0.0 chlorellaclean.naturalnews.com
+0.0.0.0 chs.naturalnews.com
 0.0.0.0 cleanerconcentrate.naturalnews.com
 0.0.0.0 cocoaenergize.naturalnews.com
 0.0.0.0 cocoalove.naturalnews.com
@@ -467,6 +481,7 @@
 0.0.0.0 colloidalsilverskinsootherandpetbedding.naturalnews.com
 0.0.0.0 cwclabs.naturalnews.com
 0.0.0.0 dentalessentialskitsilverbreathspraycombo.naturalnews.com
+0.0.0.0 detoxfootpads.naturalnews.com
 0.0.0.0 emergencysupplies.naturalnews.com
 0.0.0.0 es.naturalnews.com
 0.0.0.0 freezedriedstorablefoodsale.naturalnews.com
@@ -483,6 +498,7 @@
 0.0.0.0 library.naturalnews.com
 0.0.0.0 limitedinventoryflashevent.naturalnews.com
 0.0.0.0 maca.naturalnews.com
+0.0.0.0 magnesiumglycinatepowder.naturalnews.com
 0.0.0.0 mangosteen.naturalnews.com
 0.0.0.0 manukahoney.naturalnews.com
 0.0.0.0 market.naturalnews.com
@@ -500,12 +516,14 @@
 0.0.0.0 organicalmonds.naturalnews.com
 0.0.0.0 organicbrownrice.naturalnews.com
 0.0.0.0 organiccitronellaessentialoil.naturalnews.com
+0.0.0.0 organiccocoaenergize.naturalnews.com
 0.0.0.0 organicfermentedmiso.naturalnews.com
 0.0.0.0 organicgrassfedmilkpowder.naturalnews.com
 0.0.0.0 organicmoringapowder.naturalnews.com
 0.0.0.0 organicrawcashews.naturalnews.com
 0.0.0.0 organicseedsoflife.naturalnews.com
 0.0.0.0 organicsproutedradiance.naturalnews.com
+0.0.0.0 organicsteviaextractpowder.naturalnews.com
 0.0.0.0 organicsupercberryblend.naturalnews.com
 0.0.0.0 organicvirginflaxseedoil.naturalnews.com
 0.0.0.0 organicwheyprotein.naturalnews.com
@@ -558,6 +576,19 @@
 0.0.0.0 pop.prayingmedic.com
 0.0.0.0 smtp.prayingmedic.com
 0.0.0.0 www.prayingmedic.com
+0.0.0.0 principia-scientific.com
+0.0.0.0 autodiscover.principia-scientific.com
+0.0.0.0 cpanel.principia-scientific.com
+0.0.0.0 cpcalendars.principia-scientific.com
+0.0.0.0 cpcontacts.principia-scientific.com
+0.0.0.0 dc-04764355b8f4.principia-scientific.com
+0.0.0.0 ftp.principia-scientific.com
+0.0.0.0 mail.principia-scientific.com
+0.0.0.0 pop.principia-scientific.com
+0.0.0.0 principia-australia-org.principia-scientific.com
+0.0.0.0 webdisk.principia-scientific.com
+0.0.0.0 webmail.principia-scientific.com
+0.0.0.0 www.principia-scientific.com
 0.0.0.0 prisonplanet.com
 0.0.0.0 cdn.prisonplanet.com
 0.0.0.0 cdn-test.prisonplanet.com
@@ -576,6 +607,21 @@
 0.0.0.0 varnish.prisonplanet.com
 0.0.0.0 web.prisonplanet.com
 0.0.0.0 www.prisonplanet.com
+0.0.0.0 projectcamelotportal.com
+0.0.0.0 beta.projectcamelotportal.com
+0.0.0.0 betatest.projectcamelotportal.com
+0.0.0.0 ca27.projectcamelotportal.com
+0.0.0.0 cali.projectcamelotportal.com
+0.0.0.0 cdn1.projectcamelotportal.com
+0.0.0.0 chat.projectcamelotportal.com
+0.0.0.0 direct.projectcamelotportal.com
+0.0.0.0 forum.projectcamelotportal.com
+0.0.0.0 localhost.projectcamelotportal.com
+0.0.0.0 mail.projectcamelotportal.com
+0.0.0.0 media.projectcamelotportal.com
+0.0.0.0 media2.projectcamelotportal.com
+0.0.0.0 media3.projectcamelotportal.com
+0.0.0.0 www.projectcamelotportal.com
 0.0.0.0 projectveritas.com
 0.0.0.0 breaking.projectveritas.com
 0.0.0.0 em.projectveritas.com
@@ -593,6 +639,7 @@
 0.0.0.0 qanon-news.com
 0.0.0.0 autodiscover.qanon-news.com
 0.0.0.0 cpanel.qanon-news.com
+0.0.0.0 mail.qanon-news.com
 0.0.0.0 socialnetwork.qanon-news.com
 0.0.0.0 webdisk.qanon-news.com
 0.0.0.0 webmail.qanon-news.com
@@ -617,6 +664,19 @@
 0.0.0.0 files.qanonfaq.com
 0.0.0.0 www.qanonfaq.com
 0.0.0.0 qproofs.com
+0.0.0.0 qsaltlake.com
+0.0.0.0 ftp.qsaltlake.com
+0.0.0.0 pay.qsaltlake.com
+0.0.0.0 www.qsaltlake.com
+0.0.0.0 qupdates.com
+0.0.0.0 autodiscover.qupdates.com
+0.0.0.0 cpanel.qupdates.com
+0.0.0.0 cpcalendars.qupdates.com
+0.0.0.0 cpcontacts.qupdates.com
+0.0.0.0 mail.qupdates.com
+0.0.0.0 webdisk.qupdates.com
+0.0.0.0 webmail.qupdates.com
+0.0.0.0 www.qupdates.com
 0.0.0.0 resist.com
 0.0.0.0 cc.resist.com
 0.0.0.0 mail.resist.com
@@ -648,7 +708,7 @@
 0.0.0.0 suncoastproudboys.com
 0.0.0.0 tapnewswire.com
 0.0.0.0 history.tapnewswire.com
-0.0.0.0 live.tapnewswire.com
+0.0.0.0 www.history.tapnewswire.com
 0.0.0.0 www.tapnewswire.com
 0.0.0.0 thebigvirushoax.com
 0.0.0.0 www.thebigvirushoax.com
@@ -747,14 +807,19 @@
 0.0.0.0 www.dirtyspics.wordpress.com
 0.0.0.0 globalcooperative.wordpress.com
 0.0.0.0 www.globalcooperative.wordpress.com
+0.0.0.0 greganthonysjournal.wordpress.com
+0.0.0.0 www.greganthonysjournal.wordpress.com
 0.0.0.0 qanon41020.wordpress.com
 0.0.0.0 www.qanon41020.wordpress.com
 0.0.0.0 qanonnederland.wordpress.com
 0.0.0.0 www.qanonnederland.wordpress.com
 0.0.0.0 rightpunditry.wordpress.com
 0.0.0.0 www.rightpunditry.wordpress.com
+0.0.0.0 stuartbramhall.wordpress.com
+0.0.0.0 www.stuartbramhall.wordpress.com
 0.0.0.0 thelightinthedarkplace.wordpress.com
 0.0.0.0 www.thelightinthedarkplace.wordpress.com
+0.0.0.0 thenewabnormal513330780.wordpress.com
 0.0.0.0 qanon.fun
 0.0.0.0 mail.qanon.fun
 0.0.0.0 www.qanon.fun
@@ -901,6 +966,14 @@
 0.0.0.0 pf3618.bloodandsoil.org
 0.0.0.0 pfvoice.bloodandsoil.org
 0.0.0.0 www.bloodandsoil.org
+0.0.0.0 dissidentvoice.org
+0.0.0.0 cn.dissidentvoice.org
+0.0.0.0 consciencewww.dissidentvoice.org
+0.0.0.0 mail.dissidentvoice.org
+0.0.0.0 sullivanwww.dissidentvoice.org
+0.0.0.0 www.dissidentvoice.org
+0.0.0.0 xn--www-xda.dissidentvoice.org
+0.0.0.0 xn--www-xda3o.dissidentvoice.org
 0.0.0.0 educate-yourself.org
 0.0.0.0 cpanel.educate-yourself.org
 0.0.0.0 cpcalendars.educate-yourself.org
@@ -1356,9 +1429,11 @@
 0.0.0.0 www.theflatearthsociety.org
 0.0.0.0 ublock.org
 0.0.0.0 demo.ublock.org
+0.0.0.0 docs.ublock.org
 0.0.0.0 log.ublock.org
 0.0.0.0 mail.ublock.org
 0.0.0.0 ping.ublock.org
+0.0.0.0 plus.ublock.org
 0.0.0.0 www.ublock.org
 0.0.0.0 warroom.org
 0.0.0.0 listen.warroom.org
@@ -1366,6 +1441,7 @@
 0.0.0.0 pandemic.warroom.org
 0.0.0.0 www.pandemic.warroom.org
 0.0.0.0 sip.warroom.org
+0.0.0.0 www.warroom.org
 0.0.0.0 qntmpkts.keybase.pub
 0.0.0.0 www.qntmpkts.keybase.pub
 0.0.0.0 operationq.pub
@@ -1473,6 +1549,7 @@
 0.0.0.0 membership.patriotfront.us
 0.0.0.0 www.patriotfront.us
 0.0.0.0 qgear.us
+0.0.0.0 5185826.qgear.us
 0.0.0.0 autodiscover.qgear.us
 0.0.0.0 cpanel.qgear.us
 0.0.0.0 cpcalendars.qgear.us

@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 16 Jun 2021 at 04:37:29 GMT
+# Last updated: Sat, 10 Jul 2021 at 21:38:58 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -443,6 +443,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 api2.murdoog.com
 127.0.0.1 apiadapter.ad5track.com
 127.0.0.1 apis.murdoog.com
+127.0.0.1 app-analytics-v2.snapchat.com
 127.0.0.1 app-analytics.snapchat.com
 127.0.0.1 app.yesware.com
 127.0.0.1 apple.com-onlinesupport.host
@@ -2764,7 +2765,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 pdns.nudt.edu.cn
 127.0.0.1 personalantispy.com
 127.0.0.1 petra.nic.gov.jo
-127.0.0.1 phatthalung.go.th
 127.0.0.1 phorm.biz.tr
 127.0.0.1 phorm.ch
 127.0.0.1 phorm.cl
@@ -6033,6 +6033,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ads.seattletimes.com
 127.0.0.1 ads.seriouswheels.com
 127.0.0.1 ads.servebom.com
+127.0.0.1 ads.servenobid.com
 127.0.0.1 ads.sexier.com
 127.0.0.1 ads.sfusion.com
 127.0.0.1 ads.shiftdelete.net
@@ -8589,6 +8590,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 eventtracker.videostrip.com
 127.0.0.1 evroteplo.ru
 127.0.0.1 excellent.michaelanthonyrobinson.com
+127.0.0.1 exchange.scalemonk.com
 127.0.0.1 exclusivegiftcards.com
 127.0.0.1 exits1.webquest.net
 127.0.0.1 exits2.webquest.net
@@ -11334,6 +11336,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 sb.scorecardresearch.com
 127.0.0.1 sc1.admob.com
 127.0.0.1 sc9.admob.com
+127.0.0.1 scalemonk.com
 127.0.0.1 scdown.qq.com
 127.0.0.1 scegli-vinci.it
 127.0.0.1 scgis.co.uk
