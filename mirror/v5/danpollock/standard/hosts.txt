@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sat, 10 Jul 2021 at 21:38:58 GMT
+# Last updated: Sun, 18 Jul 2021 at 01:04:17 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -3045,6 +3045,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 webnavegador.com.br
 127.0.0.1 webnetra.entelnet.bo
 127.0.0.1 webpaypal.com
+127.0.0.1 webpillsshop.com
 127.0.0.1 webserv.mos.ru
 127.0.0.1 webwise.com
 127.0.0.1 webwise.net
@@ -7096,6 +7097,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 api.viglink.com
 127.0.0.1 api.zhy333.com
 127.0.0.1 apopt.hbmediapro.com
+127.0.0.1 aporasal.net
 127.0.0.1 app-measurement.com
 127.0.0.1 app.datafastguru.info
 127.0.0.1 app.fancifulapp.cool
@@ -7212,6 +7214,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 asn.advolution.de
 127.0.0.1 asn.cunda.advolution.biz
 127.0.0.1 aspesa.info
+127.0.0.1 assets.adnuntius.com
 127.0.0.1 assets.applovin.com
 127.0.0.1 assets.igapi.com
 127.0.0.1 assets.kixer.com
@@ -7753,6 +7756,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 cdn-onedrive-live.com
 127.0.0.1 cdn.8digits.com
 127.0.0.1 cdn.acloudvideos.com
+127.0.0.1 cdn.ad.citynews.it
 127.0.0.1 cdn.ad.plus
 127.0.0.1 cdn.adigniter.org
 127.0.0.1 cdn.adikteev.com
@@ -8302,6 +8306,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 defpush.com
 127.0.0.1 del1.phillyburbs.com
 127.0.0.1 delb.mspaceads.com
+127.0.0.1 delivery.adnuntius.com
 127.0.0.1 delivery.adyea.com
 127.0.0.1 delivery.clickonometrics.pl
 127.0.0.1 delivery.myswitchads.com
@@ -10124,6 +10129,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 monstersandcritics.advertserve.com
 127.0.0.1 moodoo.com.cn
 127.0.0.1 moodoocrv.com.cn
+127.0.0.1 moodretrieval.com
 127.0.0.1 mop-shere.com
 127.0.0.1 morefastermac.trade
 127.0.0.1 morefreecamsecrets.com
@@ -11284,6 +11290,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 s.megaclick.com
 127.0.0.1 s.moatads.com
 127.0.0.1 s.ntv.io
+127.0.0.1 s.optnx.com
 127.0.0.1 s.oroll.com
 127.0.0.1 s.ppjol.net
 127.0.0.1 s.rev2pub.com
@@ -11502,6 +11509,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 sgs001.adtech.us
 127.0.0.1 sh2070.evanzo-server.de
 127.0.0.1 sh4sure-images.adbureau.net
+127.0.0.1 sha1.videotrek.co
 127.0.0.1 share-clouds.com
 127.0.0.1 share-downloading.com
 127.0.0.1 share-server.com
@@ -12420,6 +12428,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 vrt.outbrain.com
 127.0.0.1 vu.veoxa.com
 127.0.0.1 vxluvrwzs.cinci.rr.com
+127.0.0.1 vz-cdn.trafficjunky.net
 127.0.0.1 vzarabotke.ru
 127.0.0.1 w-chat.xf.cz
 127.0.0.1 w.admob.com
@@ -12741,6 +12750,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.adocean.pl
 127.0.0.1 www.adotube.com
 127.0.0.1 www.adpepper.dk
+127.0.0.1 www.adpmbtj.com
 127.0.0.1 www.adpowerzone.com
 127.0.0.1 www.adquest3d.com
 127.0.0.1 www.adreporting.com
@@ -12949,6 +12959,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.cati.com.tw
 127.0.0.1 www.cdn.taboola.com
 127.0.0.1 www.cdn.taboolasyndication.com
+127.0.0.1 www.cdn4ads.com
 127.0.0.1 www.cell-phone-giveaways.com
 127.0.0.1 www.cellphoneincentives.com
 127.0.0.1 www.chainsawoffer.com
@@ -14048,6 +14059,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 zads.zedo.com
 127.0.0.1 zapadserver1.com
 127.0.0.1 zapcdn.space
+127.0.0.1 zazerygu.pro
 127.0.0.1 zc1.delta-boa.com
 127.0.0.1 zc1.zeroredirect11.com
 127.0.0.1 zdads.e-media.com
