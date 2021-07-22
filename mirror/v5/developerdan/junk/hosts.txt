@@ -1,5 +1,5 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-07-13T01:05:20+00:00
+# Released: 2021-07-19T01:05:21+00:00
 # Count: 1562 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
@@ -946,6 +946,8 @@
 0.0.0.0 wp.phibetaiota.net
 0.0.0.0 www.phibetaiota.net
 0.0.0.0 qalerts.net
+0.0.0.0 cdn.qalerts.net
+0.0.0.0 localhost.qalerts.net
 0.0.0.0 www.qalerts.net
 0.0.0.0 qanon.news
 0.0.0.0 blog.qanon.news
@@ -959,8 +961,6 @@
 0.0.0.0 autodiscover.911truth.org
 0.0.0.0 mail.911truth.org
 0.0.0.0 www.911truth.org
-0.0.0.0 atomwaffendivision.org
-0.0.0.0 www.atomwaffendivision.org
 0.0.0.0 bloodandsoil.org
 0.0.0.0 membership.bloodandsoil.org
 0.0.0.0 pf3618.bloodandsoil.org
@@ -1582,5 +1582,4 @@
 0.0.0.0 s.wearethene.ws
 0.0.0.0 smtp.wearethene.ws
 0.0.0.0 www.wearethene.ws
-
 
