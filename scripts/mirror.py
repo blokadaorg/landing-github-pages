@@ -258,6 +258,12 @@ def main(argv):
                         "urls": [
                             "https://abp.oisd.nl/basic/"
                         ]
+                    },
+                    {
+                        "name": "extra (wildcards)",
+                        "urls": [
+                            "https://abp.oisd.nl/extra/"
+                        ]
                     }
                 ]
             },
