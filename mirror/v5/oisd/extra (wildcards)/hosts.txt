@@ -6,12 +6,13 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 202    
-!  TimeUpdated: 2021-07-20T00:20:21+02:00     
+!  Entries: 212    
+!  TimeUpdated: 2021-08-06T00:17:47+02:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
 
+||1x1.a-mo.net^
 ||2o7.net^
 ||4dsply.com^
 ||a.klaviyo.com^
@@ -19,7 +20,6 @@
 ||aan.amazon.com^
 ||adform.net^
 ||adjust.com^
-||adlandpro.com^
 ||adnxs.com^
 ||adocean.pl^
 ||adsafeprotected.com^
@@ -33,7 +33,6 @@
 ||an.yandex.ru^
 ||analytics.edgekey.net^
 ||android.bugly.qq.com^
-||api.airbrake.io^
 ||api.apptentive.com^
 ||api.bluecore.com^
 ||api.cleverpush.com^
@@ -55,6 +54,7 @@
 ||awaps.yandex.ru^
 ||awin1.com^
 ||b.stats.paypal.com^
+||bannertrack.net^
 ||baremetrics.com^
 ||beacon.errorception.com^
 ||bfast.com^
@@ -63,7 +63,9 @@
 ||branch.io^
 ||bridgetrack.com^
 ||browser.pipe.aria.microsoft.com^
+||browser.sentry-cdn.com^
 ||bs.yandex.ru^
+||btstatic.com^
 ||c.cintnetworks.com^
 ||c.msn.com^
 ||cc-dt.com^
@@ -80,6 +82,7 @@
 ||cj.mplxtms.com^
 ||clickmeter.com^
 ||clicktale.net^
+||cloudflareinsights.com^
 ||commission-junction.com^
 ||config.uca.cloud.unity3d.com^
 ||consent-manager-events.ogury.io^
@@ -104,10 +107,12 @@
 ||events.split.io^
 ||everesttech.net^
 ||extreme-ip-lookup.com^
+||g.msn.com^
 ||gc.zgo.at^
 ||gekko.spiceworks.com^
 ||gemius.pl^
 ||geoip-db.com^
+||ghb.hbmp.mediafuse.com^
 ||google-analytics.com^
 ||googleadservices.com^
 ||graph.facebook.com^
@@ -129,7 +134,6 @@
 ||l.betrad.com^
 ||leanplum.com^
 ||log.quora.com^
-||logs-01.loggly.com^
 ||lptag.liveperson.net^
 ||m.exactag.com^
 ||marinsm.com^
@@ -160,6 +164,7 @@
 ||piwik.org^
 ||player.mediafuse.com^
 ||plugin.mediavoice.com^
+||prebid.a-mo.net^
 ||privacy-policy.truste.com^
 ||publicidees.com^
 ||pushengage.com^
@@ -167,22 +172,24 @@
 ||qksrv.net^
 ||quantummetric.com^
 ||realsrv.com^
+||recs.richrelevance.com^
 ||referrer.disqus.com^
 ||rlcdn.com^
 ||rutrk.org^
 ||sail-horizon.com^
 ||sc-static.net^
+||sci.intuit.com^
 ||sedoparking.com^
 ||sensic.net^
 ||serving-sys.com^
 ||sitetracker.com^
 ||smartclip.net^
+||snigelweb-com.videoplayerhub.com^
 ||srvtrck.com^
 ||sstats.adobe.com^
 ||stat24.com^
 ||statcounter.com^
 ||static.cleverpush.com^
-||static.cloudflareinsights.com^
 ||static.parsely.com^
 ||stats.pusher.com^
 ||t.adcell.com^
@@ -193,6 +200,8 @@
 ||tagger.opecloud.com^
 ||tags.adsafety.net^
 ||tamgrt.com^
+||tdn.r42tag.com^
+||thebrighttag.com^
 ||tkqlhce.com^
 ||tm.tradetracker.net^
 ||tp-emea.exactag.com^
@@ -210,6 +219,7 @@
 ||ue.flipboard.com^
 ||vi-serve.com^
 ||vizury.com^
+||w88.espn.com^
 ||webgains.com^
 ||wt-eu02.net^
 ||www-google-analytics.l.google.com^

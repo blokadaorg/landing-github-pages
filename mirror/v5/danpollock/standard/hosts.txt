@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Tue, 20 Jul 2021 at 06:36:39 GMT
+# Last updated: Sun, 01 Aug 2021 at 22:19:19 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -2193,6 +2193,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 alltereg0.ru
 127.0.0.1 alocdn.com
 127.0.0.1 alphabirdnetwork.com
+127.0.0.1 ama.leftwarning.com
 127.0.0.1 ams1.ib.adnxs.com
 127.0.0.1 andrionmobileapp.bid
 127.0.0.1 android.bigresource.com
@@ -2888,6 +2889,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 sedesol.sedesol.gob.mx
 127.0.0.1 seeques.com
 127.0.0.1 segob.gob.mx
+127.0.0.1 selectpills.com
 127.0.0.1 servamain.ddns.net
 127.0.0.1 settingupdate.yourgoodflashupgradingmain.icu
 127.0.0.1 setupupgrade12.thepointofforcontentingperfect.win
@@ -3040,6 +3042,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 wait3sec.org
 127.0.0.1 waldenfarms.com
 127.0.0.1 waudeesestew.com
+127.0.0.1 weapfuh.originalriver-tone.top
 127.0.0.1 web-ccfr.tsinghua.edu.cn
 127.0.0.1 webassembly.stream
 127.0.0.1 weblover.info
@@ -3223,6 +3226,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.ppoi.org
 127.0.0.1 www.presidency.site
 127.0.0.1 www.proflashdata.com			# Facebook trojan
+127.0.0.1 www.psychics-readings-for-free.com
 127.0.0.1 www.puush.in
 127.0.0.1 www.pyilgdamion.city
 127.0.0.1 www.qbittorrent.com
