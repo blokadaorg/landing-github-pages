@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 01 Aug 2021 at 22:19:19 GMT
+# Last updated: Mon, 16 Aug 2021 at 06:18:24 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -2255,6 +2255,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 beloysoff.ru
 127.0.0.1 benefitsorganic.com
 127.0.0.1 bestreview.site
+127.0.0.1 bestwebpillplace.com
 127.0.0.1 bestwing.org
 127.0.0.1 bgl1dr1-a-fixed.sancharnet.in
 127.0.0.1 bgl1pp1-a-fixed.sancharnet.in
@@ -2537,6 +2538,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 lacableshaw.com
 127.0.0.1 lactofketharma.pro
 127.0.0.1 laleh.itrc.ac.ir
+127.0.0.1 landingairquality.airlite.com
 127.0.0.1 lank.ru
 127.0.0.1 lastworking.theforcontentingflashupgrade.icu
 127.0.0.1 levenshteinanswer.com
@@ -2841,12 +2843,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 reward-survey.net
 127.0.0.1 reward5363.hardmonday53.agency
 127.0.0.1 rickrolling.com
+127.0.0.1 rifec.co
 127.0.0.1 rocks.io
 127.0.0.1 roifmd.info
 127.0.0.1 romdiscover.com
 127.0.0.1 rootbuzz.com
 127.0.0.1 rpmdo.com
 127.0.0.1 rtc.romdiscover.com
+127.0.0.1 ruiawk.spreadthinfind.top
 127.0.0.1 runtnc.net
 127.0.0.1 rusinlepading.pro
 127.0.0.1 russian-sex.com
@@ -2859,6 +2863,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 s4d.in
 127.0.0.1 safedownloadcenter.com
 127.0.0.1 safedownloadsrus166.com
+127.0.0.1 salebestever.su
 127.0.0.1 saleprice.su
 127.0.0.1 saletrybest.su
 127.0.0.1 sazadubo48.bid
@@ -2936,6 +2941,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 start.qip.ru
 127.0.0.1 stats.oix.com
 127.0.0.1 statutorjuihui.site
+127.0.0.1 steelbitepro24.com
 127.0.0.1 stellarium.fr
 127.0.0.1 stopphoulplay.com
 127.0.0.1 stopphoulplay.net

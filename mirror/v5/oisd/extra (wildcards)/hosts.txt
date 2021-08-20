@@ -6,15 +6,15 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 212    
-!  TimeUpdated: 2021-08-06T00:17:47+02:00     
+!  Entries: 224    
+!  TimeUpdated: 2021-08-18T00:18:58+02:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
 
-||1x1.a-mo.net^
 ||2o7.net^
 ||4dsply.com^
+||51yes.com^
 ||a.klaviyo.com^
 ||a.wishabi.com^
 ||aan.amazon.com^
@@ -100,22 +100,27 @@
 ||em.bm23.com^
 ||enrichmentservices.fccinteractive.com^
 ||ensighten.com^
+||entitlements.jwplayer.com^
 ||et.nytimes.com^
 ||eulerian.brandalley.fr^
 ||events.apester.com^
+||events.launchdarkly.com^
 ||events.mapbox.com^
 ||events.split.io^
 ||everesttech.net^
 ||extreme-ip-lookup.com^
 ||g.msn.com^
 ||gc.zgo.at^
+||gds.mmstat.com^
 ||gekko.spiceworks.com^
 ||gemius.pl^
 ||geoip-db.com^
-||ghb.hbmp.mediafuse.com^
+||gm.mmstat.com^
 ||google-analytics.com^
 ||googleadservices.com^
 ||graph.facebook.com^
+||hw-cdn.trafficjunky.net^
+||hw-cdn2.trafficjunky.net^
 ||iam-agof-app.irquest.com^
 ||indexww.com^
 ||informer.yandex.ru^
@@ -133,10 +138,12 @@
 ||krxd.net^
 ||l.betrad.com^
 ||leanplum.com^
+||log.mmstat.com^
 ||log.quora.com^
 ||lptag.liveperson.net^
 ||m.exactag.com^
 ||marinsm.com^
+||marketo.com^
 ||mc.yandex.ru^
 ||media01.eu^
 ||mediaplex.com^
@@ -159,12 +166,12 @@
 ||partner-ads.com^
 ||partners.webmasterplan.com^
 ||pepperjamnetwork.com^
+||perr.h-cdn.com^
 ||ping.taplytics.com^
 ||pings.conviva.com^
 ||piwik.org^
 ||player.mediafuse.com^
 ||plugin.mediavoice.com^
-||prebid.a-mo.net^
 ||privacy-policy.truste.com^
 ||publicidees.com^
 ||pushengage.com^
@@ -184,7 +191,7 @@
 ||serving-sys.com^
 ||sitetracker.com^
 ||smartclip.net^
-||snigelweb-com.videoplayerhub.com^
+||smetrics.discover.com^
 ||srvtrck.com^
 ||sstats.adobe.com^
 ||stat24.com^
@@ -192,9 +199,11 @@
 ||static.cleverpush.com^
 ||static.parsely.com^
 ||stats.pusher.com^
+||syndication.exosrv.com^
 ||t.adcell.com^
 ||t.indeed.com^
 ||t.paypal.com^
+||taboola.com^
 ||tag.getdrip.com^
 ||tagcommander.com^
 ||tagger.opecloud.com^
@@ -219,8 +228,11 @@
 ||ue.flipboard.com^
 ||vi-serve.com^
 ||vizury.com^
+||vz-cdn.trafficjunky.net^
+||vz-cdn2.trafficjunky.net^
 ||w88.espn.com^
 ||webgains.com^
+||ws.mmstat.com^
 ||wt-eu02.net^
 ||www-google-analytics.l.google.com^
 ||zanox.com^
