@@ -6,15 +6,14 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 224    
-!  TimeUpdated: 2021-08-18T00:18:58+02:00     
+!  Entries: 215    
+!  TimeUpdated: 2021-08-27T00:04:30+02:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
 
 ||2o7.net^
 ||4dsply.com^
-||51yes.com^
 ||a.klaviyo.com^
 ||a.wishabi.com^
 ||aan.amazon.com^
@@ -45,6 +44,7 @@
 ||apmebf.com^
 ||aporasal.net^
 ||app.adjust.io^
+||app.adjust.net.in^
 ||appboy-images.com^
 ||appmetrica.yandex.com^
 ||appsflyer.com^
@@ -90,6 +90,7 @@
 ||cws.conviva.com^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d5nxst8fruw4z.cloudfront.net^
+||data.alexa.com^
 ||data.mistat.xiaomi.com^
 ||demdex.net^
 ||directtrack.com^
@@ -111,16 +112,12 @@
 ||extreme-ip-lookup.com^
 ||g.msn.com^
 ||gc.zgo.at^
-||gds.mmstat.com^
 ||gekko.spiceworks.com^
 ||gemius.pl^
 ||geoip-db.com^
-||gm.mmstat.com^
 ||google-analytics.com^
 ||googleadservices.com^
 ||graph.facebook.com^
-||hw-cdn.trafficjunky.net^
-||hw-cdn2.trafficjunky.net^
 ||iam-agof-app.irquest.com^
 ||indexww.com^
 ||informer.yandex.ru^
@@ -138,7 +135,6 @@
 ||krxd.net^
 ||l.betrad.com^
 ||leanplum.com^
-||log.mmstat.com^
 ||log.quora.com^
 ||lptag.liveperson.net^
 ||m.exactag.com^
@@ -152,6 +148,7 @@
 ||mmtro.com^
 ||mobile.pipe.aria.microsoft.com^
 ||mobilesdk-us.kampyle.com^
+||mon.isnssdk.com^
 ||monitor.clickcease.com^
 ||mparticle.com^
 ||mxpnl.com^
@@ -161,7 +158,6 @@
 ||nova.collect.igodigital.com^
 ||nr-data.net^
 ||om.cbsi.com^
-||p.tanx.com^
 ||parkingcrew.net^
 ||partner-ads.com^
 ||partners.webmasterplan.com^
@@ -170,7 +166,6 @@
 ||ping.taplytics.com^
 ||pings.conviva.com^
 ||piwik.org^
-||player.mediafuse.com^
 ||plugin.mediavoice.com^
 ||privacy-policy.truste.com^
 ||publicidees.com^
@@ -199,7 +194,6 @@
 ||static.cleverpush.com^
 ||static.parsely.com^
 ||stats.pusher.com^
-||syndication.exosrv.com^
 ||t.adcell.com^
 ||t.indeed.com^
 ||t.paypal.com^
@@ -228,11 +222,8 @@
 ||ue.flipboard.com^
 ||vi-serve.com^
 ||vizury.com^
-||vz-cdn.trafficjunky.net^
-||vz-cdn2.trafficjunky.net^
 ||w88.espn.com^
 ||webgains.com^
-||ws.mmstat.com^
 ||wt-eu02.net^
 ||www-google-analytics.l.google.com^
 ||zanox.com^
