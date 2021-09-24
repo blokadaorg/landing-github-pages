@@ -428,37 +428,37 @@ def main(argv):
                     {
                         "name": "litea",
                         "urls": [
-                            "https://hosts.netlify.app/Lite/adblock.txt"
+                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
                         ]
                     },
                     {
                         "name": "proa",
                         "urls": [
-                            "https://hosts.netlify.app/Pro/adblock.txt"
+                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt"
                         ]
                     },
                     {
                         "name": "xtraa",
                         "urls": [
-                            "https://hosts.netlify.app/Xtra/adblock.txt"
+                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
                         ]
                     },
                     {
                         "name": "lite (wildcards)",
                         "urls": [
-                            "https://hosts.netlify.app/Lite/adblock.txt"
+                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
                         ]
                     },
                     {
                         "name": "pro (wildcards)",
                         "urls": [
-                            "https://hosts.netlify.app/Pro/adblock.txt"
+                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt"
                         ]
                     },
                     {
                         "name": "xtra (wildcards)",
                         "urls": [
-                            "https://hosts.netlify.app/Xtra/adblock.txt"
+                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
                         ]
                     }
                 ]
