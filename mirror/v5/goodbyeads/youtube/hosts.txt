@@ -11,7 +11,7 @@
 # Format: hosts
 # Entries: 97,615
 # License: MIT, https://github.com/jerryn70/GoodbyeAds/blob/master/LICENSE
-# Updated: Aug 21 12:32:17 GMT+05:30 2021
+# Updated: Sept 02 12:32:17 GMT+05:30 2021
 # Source: https://github.com/jerryn70/GoodbyeAds
 # Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
 # --------------------------------------------
@@ -97624,8 +97624,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.analytic-google.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googletagservices.com
-0.0.0.0 www.youtube-nocookie.com
-0.0.0.0 youtube-nocookie.com
 0.0.0.0 yt.moatads.com
 0.0.0.0 yt1.ggpht.com
 0.0.0.0 yt10.ggpht.com

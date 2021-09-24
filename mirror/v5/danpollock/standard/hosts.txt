@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 25 Aug 2021 at 19:34:59 GMT
+# Last updated: Thu, 23 Sep 2021 at 23:14:19 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -782,6 +782,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 dclk.haaretz.co.il
 127.0.0.1 dclk.themarker.com
 127.0.0.1 dclk.themarketer.com
+127.0.0.1 de-config.sensic.net
 127.0.0.1 de.sitestat.com
 127.0.0.1 de.tynt.com
 127.0.0.1 def.dev-nano.com
@@ -2538,6 +2539,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 lacableshaw.com
 127.0.0.1 lactofketharma.pro
 127.0.0.1 laleh.itrc.ac.ir
+127.0.0.1 landing.aaroninjections.com
 127.0.0.1 landingairquality.airlite.com
 127.0.0.1 lank.ru
 127.0.0.1 lastworking.theforcontentingflashupgrade.icu
@@ -2617,6 +2619,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mbabovuler.club
 127.0.0.1 mbi3.kuicr.kyoto-u.ac.jp
 127.0.0.1 mcd-su-2.mos.ru
+127.0.0.1 mdjdg.girlssohorny.net
 127.0.0.1 media-match.com
 127.0.0.1 mediterraneanroom.org
 127.0.0.1 megasurfin.com
@@ -2939,6 +2942,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 stacksee.lastestapk.com
 127.0.0.1 standardsandpraiserepurpose.com
 127.0.0.1 start.qip.ru
+127.0.0.1 startmarket.su
 127.0.0.1 stats.oix.com
 127.0.0.1 statutorjuihui.site
 127.0.0.1 steelbitepro24.com
@@ -3002,6 +3006,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 trovi.com
 127.0.0.1 truecrypt.fr
 127.0.0.1 trustedmaccleaner.com
+127.0.0.1 trusturl.top
 127.0.0.1 tuniaf.com
 127.0.0.1 tvshowslist.com
 127.0.0.1 twitter.login.kevanshome.org
