@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 23 Sep 2021 at 23:14:19 GMT
+# Last updated: Fri, 22 Oct 2021 at 03:25:55 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -2677,6 +2677,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 natashyabaydesign.com
 127.0.0.1 navegador.oi.com.br
 127.0.0.1 navegador.telefonica.com.br
+127.0.0.1 ncore.ink
+127.0.0.1 ncorecc.me
+127.0.0.1 ncoremeghivo.net
 127.0.0.1 nd11mx1-a-fixed.sancharnet.in
 127.0.0.1 ndl1mc1-a-fixed.sancharnet.in
 127.0.0.1 ndl1mx1-a-fixed.sancharnet.in
@@ -2691,6 +2694,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 newtips.co
 127.0.0.1 newwayscanner.info
 127.0.0.1 nextbestgame.org
+127.0.0.1 niche247.trade
 127.0.0.1 no1.unternehemen.com
 127.0.0.1 no3.unternehmen.org
 127.0.0.1 notepad2.com
@@ -3189,6 +3193,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.inkscape.es
 127.0.0.1 www.inkscape.fr
 127.0.0.1 www.irony.world
+127.0.0.1 www.jvzoo.com
 127.0.0.1 www.kbdiu5z8ah.us
 127.0.0.1 www.keepass.com
 127.0.0.1 www.keepass.fr
@@ -8490,7 +8495,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 anepszava.com
 127.0.0.1 anetit.tradedoubler.com
 127.0.0.1 angeldonationblog.com
-127.0.0.1 angelfire.com
 127.0.0.1 ankieta-online.pl
 127.0.0.1 annuaire-autosurf.com
 127.0.0.1 anonymous-net.com
@@ -14528,7 +14532,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.entertainment-specials.com
 127.0.0.1 www.esd-secure.taboola.com.edgekey.net
 127.0.0.1 www.eshopads2.com
-127.0.0.1 www.estpak.ee
 127.0.0.1 www.euros4click.de
 127.0.0.1 www.eva.hi-ho.ne.jp
 127.0.0.1 www.everestgroupcorp.com
@@ -17228,7 +17231,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 ec.atdmt.com
 127.0.0.1 feedback.microsoft-hohm.com
 127.0.0.1 flex.msn.com
-127.0.0.1 g.msn.com
 127.0.0.1 h1.msn.com
 127.0.0.1 lb1.www.ms.akadns.net
 127.0.0.1 live.rads.msn.com

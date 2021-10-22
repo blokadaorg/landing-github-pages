@@ -6,8 +6,8 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 280    
-!  TimeUpdated: 2021-09-15T18:52:58+02:00     
+!  Entries: 285    
+!  TimeUpdated: 2021-10-22T00:02:34+02:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -24,7 +24,7 @@
 ||adnxs.com^
 ||adocean.pl^
 ||adsafeprotected.com^
-||adservice.google.com.vn^
+||adtraction.com^
 ||advertising.com^
 ||affiliatefuture.com^
 ||agkn.com^
@@ -40,6 +40,7 @@
 ||api.cleverpush.com^
 ||api.intellimize.co^
 ||api.ipinfodb.com^
+||api.logentries.com^
 ||api.sec.miui.com^
 ||api.uca.cloud.unity3d.com^
 ||api.usabilla.com^
@@ -55,6 +56,7 @@
 ||appsflyer.com^
 ||asadcdn.com^
 ||assets.kampyle.com^
+||assoc-amazon.com^
 ||at-o.net^
 ||auditude.com^
 ||awaps.yandex.ru^
@@ -89,8 +91,8 @@
 ||cdn.siftscience.com^
 ||cdn.unid.go.com^
 ||cdnimg.izooto.com^
+||cdp.cloud.unity3d.com^
 ||chartbeat.com^
-||choices.truste.com^
 ||cj.mplxtms.com^
 ||clickmeter.com^
 ||clicktale.net^
@@ -104,7 +106,7 @@
 ||cws.conviva.com^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d5nxst8fruw4z.cloudfront.net^
-||data.alexa.com^
+||data.logentries.com^
 ||data.mistat.xiaomi.com^
 ||decision.taplytics.com^
 ||demdex.net^
@@ -114,11 +116,11 @@
 ||dotomi.com^
 ||doubleclick.net^
 ||ds-aksb-a.akamaihd.net^
+||easycounter.com^
 ||edge-west.customer.io^
 ||em.bm23.com^
 ||engage.commander1.com^
 ||ensighten.com^
-||entitlements.jwplayer.com^
 ||err.izooto.com^
 ||et.nytimes.com^
 ||eulerian.brandalley.fr^
@@ -159,6 +161,7 @@
 ||jivox.com^
 ||js-agent.newrelic.com^
 ||js.hs-scripts.com^
+||js.logentries.com^
 ||js.taplytics.com^
 ||jwpltx.com^
 ||kinja-com.videoplayerhub.com^
@@ -199,6 +202,7 @@
 ||om.cbsi.com^
 ||onsitestats.bluecore.com^
 ||open.isnssdk.com^
+||orange.salesmanago.pl^
 ||p.typekit.net^
 ||p11.techlab-cdn.com^
 ||pangolin16.isnssdk.com^
@@ -219,6 +223,7 @@
 ||publicidees.com^
 ||pushengage.com^
 ||px.spiceworks.com^
+||pxf.io^
 ||qksrv.net^
 ||quantummetric.com^
 ||realsrv.com^
@@ -231,6 +236,7 @@
 ||sci.intuit.com^
 ||screencaptue-cdn.kampyle.com^
 ||screencapture.kampyle.com^
+||seadform.net^
 ||secure-cdn.mplxtms.com^
 ||secure.lomadee.com^
 ||sedoparking.com^
@@ -270,7 +276,6 @@
 ||tnc16-alisg.isnssdk.com^
 ||tnc16-useast1a.isnssdk.com^
 ||tp-emea.exactag.com^
-||track.adtraction.com^
 ||track.customer.io^
 ||track.effiliation.com^
 ||track.omgpl.com^

@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.09.267
-# Release: 267
-# Entries: 6,960
+# Version: 21.10.295
+# Release: 295
+# Entries: 6,962
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 24 Sep 21 12:01:41 +06
+# Updated: Fri, 22 Oct 21 16:15:40 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -1564,7 +1564,6 @@ digg.com
 digi.freebasics.com
 digitalart.meetup.com
 digitalfuelmarketing.slack.com
-digitiminimi.com
 direct.musical.ly
 direct.static.tagged.com
 direct.www.tagged.com
@@ -3093,6 +3092,7 @@ jp.myspace.com
 jp.pinterest.com
 jp.twimg.com
 jp.weibo.com
+jsoon.digitiminimi.com
 jss.medium.com
 j.s.weibo.com
 jv.datememe.com
@@ -6523,6 +6523,8 @@ z-m-scontent.fbkk22-3.fna.fbcdn.net
 z-m-scontent.fbkk22-4.fna.fbcdn.net
 z-m-scontent.fbkk22-5.fna.fbcdn.net
 z-m-scontent.fbkk22-6.fna.fbcdn.net
+z-m-scontent.fbkk22-7.fna.fbcdn.net
+z-m-scontent.fbkk22-8.fna.fbcdn.net
 z-m-scontent.fbkk2-3.fna.fbcdn.net
 z-m-scontent.fbkk2-4.fna.fbcdn.net
 z-m-scontent.fbkk2-5.fna.fbcdn.net
@@ -6710,7 +6712,6 @@ z-p1-scontent.xx.fbcdn.net
 z-p1-static.xx.fbcdn.net
 z-p1-upload.facebook.com
 z-p1-video.xx.fbcdn.net
-z-p3-any-graph.facebook.com
 z-p3-api.facebook.com
 z-p3.c10r.facebook.com
 z-p3-cdn.fbsbx.com
@@ -6751,6 +6752,8 @@ z-p3-scontent.fbkk22-3.fna.fbcdn.net
 z-p3-scontent.fbkk22-4.fna.fbcdn.net
 z-p3-scontent.fbkk22-5.fna.fbcdn.net
 z-p3-scontent.fbkk22-6.fna.fbcdn.net
+z-p3-scontent.fbkk22-7.fna.fbcdn.net
+z-p3-scontent.fbkk22-8.fna.fbcdn.net
 z-p3-scontent.fbkk2-3.fna.fbcdn.net
 z-p3-scontent.fbkk2-4.fna.fbcdn.net
 z-p3-scontent.fbkk2-5.fna.fbcdn.net
@@ -6958,7 +6961,6 @@ z-p42-scontent-waw1-1.cdninstagram.com
 z-p42-scontent-yyz1-1.cdninstagram.com
 z-p42-static.cdninstagram.com	
 z-p42.www.instagram.com
-z-p4-any-graph.facebook.com
 z-p4-api.facebook.com
 z-p4.c10r.facebook.com
 z-p4-cdn.fbsbx.com
