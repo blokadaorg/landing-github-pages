@@ -6,8 +6,8 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 285    
-!  TimeUpdated: 2021-10-22T00:02:34+02:00     
+!  Entries: 284    
+!  TimeUpdated: 2021-10-23T22:47:29+02:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -55,6 +55,7 @@
 ||appmetrica.yandex.com^
 ||appsflyer.com^
 ||asadcdn.com^
+||assets.customer.io^
 ||assets.kampyle.com^
 ||assoc-amazon.com^
 ||at-o.net^
@@ -217,7 +218,6 @@
 ||piwik.org^
 ||plugin.mediavoice.com^
 ||pmc-com.videoplayerhub.com^
-||prebid.a-mo.net^
 ||privacy-policy.truste.com^
 ||privacy.commander1.com^
 ||publicidees.com^
@@ -271,7 +271,6 @@
 ||tamgrt.com^
 ||tdn.r42tag.com^
 ||thebrighttag.com^
-||tkqlhce.com^
 ||tm.tradetracker.net^
 ||tnc16-alisg.isnssdk.com^
 ||tnc16-useast1a.isnssdk.com^

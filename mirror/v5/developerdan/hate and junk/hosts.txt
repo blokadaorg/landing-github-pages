@@ -1,5 +1,5 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2021-10-16T01:05:23+00:00
+# Released: 2021-10-26T13:05:21+00:00
 # Count: 2076 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
@@ -853,7 +853,6 @@
 0.0.0.0 web-test.projectveritas.com
 0.0.0.0 www.projectveritas.com
 0.0.0.0 proudboysusa.com
-0.0.0.0 old.proudboysusa.com
 0.0.0.0 www.proudboysusa.com
 0.0.0.0 qanon-news.com
 0.0.0.0 autodiscover.qanon-news.com
@@ -1170,6 +1169,7 @@
 0.0.0.0 www.forbiddenknowledgetv.net
 0.0.0.0 jamesperloff.net
 0.0.0.0 staging.jamesperloff.net
+0.0.0.0 www.staging.jamesperloff.net
 0.0.0.0 www.jamesperloff.net
 0.0.0.0 niggermania.net
 0.0.0.0 www.niggermania.net

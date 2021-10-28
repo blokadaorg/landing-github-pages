@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 22 Oct 2021 at 03:25:55 GMT
+# Last updated: Thu, 28 Oct 2021 at 02:58:33 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1037,6 +1037,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 linkcounter.com
 127.0.0.1 linkcounter.pornosite.com
 127.0.0.1 linktrack.bravenet.com
+127.0.0.1 listen.audiohook.com
 127.0.0.1 livestats.atlanta-airport.com
 127.0.0.1 loadus.exelator.com
 127.0.0.1 loc1.hitsprocessor.com
@@ -14256,7 +14257,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.amazing-opportunities.info
 127.0.0.1 www.andyhawk.free-online.co.uk
 127.0.0.1 www.andymurray.plus.com
-127.0.0.1 www.angelfire.com
 127.0.0.1 www.annuaire-autosurf.com
 127.0.0.1 www.anrdoezrs.net
 127.0.0.1 www.api.taboola.com
