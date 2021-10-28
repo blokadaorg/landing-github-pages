@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2021-10-28 11:37:57.211067
+# Generated at 2021-10-28 11:43:57.856310
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -7237,7 +7237,6 @@ mainnet.infura.io
 st.tistatic.com
 pt.ispot.tv
 staging-pt.ispot.tv
-ak.privatelink.msidentity.com
 upsform.loop.jobs
 s15.socialannex.com
 s23.socialannex.com
