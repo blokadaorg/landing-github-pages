@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 21.10.302
-# Release: 302
-# Entries: 6,962
+# Version: 21.11.307
+# Release: 307
+# Entries: 6,963
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 29 Oct 21 16:17:14 +06
+# Updated: Wed, 03 Nov 21 20:13:54 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -5603,6 +5603,7 @@ tweetmeme.com
 twemoji.twitter.com
 twimg0-0.akamaihd.net
 twitbuttons.com
+twitcount.com
 twitter.com
 twittercounter.com
 twitthis.com
