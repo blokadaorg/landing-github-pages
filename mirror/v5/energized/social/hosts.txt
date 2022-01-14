@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 22.01.005
-# Release: 005
-# Entries: 6,964
+# Version: 22.01.014
+# Release: 014
+# Entries: 6,965
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 05 Jan 22 12:16:58 +06
+# Updated: Fri, 14 Jan 22 12:16:34 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -5036,6 +5036,7 @@ share.api.viber.com
 share.baidu.com
 share.cdn.integration.viber.com
 share.cdn.viber.com
+share.gree.jp
 share.itraffic.su
 share.media.aws.viber.com
 share.pluso.ru

@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-01-01T01:05:23+00:00
-# Count: 1636 domains
+# Released: 2022-01-12T13:05:23+00:00
+# Count: 1640 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -455,12 +455,14 @@
 0.0.0.0 blogs.naturalnews.com
 0.0.0.0 bluelightblockingamberglasses.naturalnews.com
 0.0.0.0 buzz.naturalnews.com
+0.0.0.0 cacao.naturalnews.com
 0.0.0.0 cacaonibs.naturalnews.com
 0.0.0.0 camucamumacarootpowder.naturalnews.com
 0.0.0.0 camucamupowder.naturalnews.com
 0.0.0.0 cdn.naturalnews.com
 0.0.0.0 cdn1.naturalnews.com
 0.0.0.0 ce-public1.naturalnews.com
+0.0.0.0 ce-publicdy.naturalnews.com
 0.0.0.0 ce-publiclw.naturalnews.com
 0.0.0.0 chia.naturalnews.com
 0.0.0.0 chlorellaclean.naturalnews.com
@@ -470,6 +472,7 @@
 0.0.0.0 cocoaenergize.naturalnews.com
 0.0.0.0 cocoalove.naturalnews.com
 0.0.0.0 collagenmct.naturalnews.com
+0.0.0.0 collagenpeptides.naturalnews.com
 0.0.0.0 colloidalsilvercinnamonmouthwash.naturalnews.com
 0.0.0.0 colloidalsilvercontactdefensespray.naturalnews.com
 0.0.0.0 colloidalsilverskinsootherandpetbedding.naturalnews.com
@@ -496,6 +499,7 @@
 0.0.0.0 limitedinventoryflashevent.naturalnews.com
 0.0.0.0 maca.naturalnews.com
 0.0.0.0 magnesiumglycinatepowder.naturalnews.com
+0.0.0.0 mailhost.naturalnews.com
 0.0.0.0 mangosteen.naturalnews.com
 0.0.0.0 manukahoney.naturalnews.com
 0.0.0.0 market.naturalnews.com
@@ -553,6 +557,7 @@
 0.0.0.0 supplements.naturalnews.com
 0.0.0.0 support.naturalnews.com
 0.0.0.0 turmericgoldliquidextract.naturalnews.com
+0.0.0.0 turmericgoldplus.naturalnews.com
 0.0.0.0 tv.naturalnews.com
 0.0.0.0 veganomega3.naturalnews.com
 0.0.0.0 video.naturalnews.com
@@ -630,6 +635,7 @@
 0.0.0.0 petition.projectveritas.com
 0.0.0.0 remote.projectveritas.com
 0.0.0.0 staging.projectveritas.com
+0.0.0.0 truth.projectveritas.com
 0.0.0.0 vpn.projectveritas.com
 0.0.0.0 web-dev.projectveritas.com
 0.0.0.0 web-prod.projectveritas.com
@@ -738,6 +744,8 @@
 0.0.0.0 www.theqanon.com
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
+0.0.0.0 thinkqanon.com
+0.0.0.0 www.thinkqanon.com
 0.0.0.0 toqonline.com
 0.0.0.0 members.toqonline.com
 0.0.0.0 www.toqonline.com
@@ -912,7 +920,6 @@
 0.0.0.0 track.spark-post.afa.net
 0.0.0.0 streamer1.afa.net
 0.0.0.0 streaming.afa.net
-0.0.0.0 dev.streaming.afa.net
 0.0.0.0 subcount.afa.net
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
@@ -1439,7 +1446,6 @@
 0.0.0.0 wiki-test.tfes.org
 0.0.0.0 www.tfes.org
 0.0.0.0 theflatearthsociety.org
-0.0.0.0 dc-bcd19923ce28.theflatearthsociety.org
 0.0.0.0 mail.theflatearthsociety.org
 0.0.0.0 webmail.theflatearthsociety.org
 0.0.0.0 www.theflatearthsociety.org
@@ -1643,8 +1649,6 @@
 0.0.0.0 webdisk.qgear.us
 0.0.0.0 webmail.qgear.us
 0.0.0.0 www.qgear.us
-0.0.0.0 stolenelection.us
-0.0.0.0 www.stolenelection.us
 0.0.0.0 theamericanfreedomparty.us
 0.0.0.0 www.theamericanfreedomparty.us
 0.0.0.0 qanon.video

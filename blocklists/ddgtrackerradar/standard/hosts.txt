@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-01-05 09:45:10.776490
+# Generated at 2022-01-14 08:11:21.358238
 # Made by Blokada
 
 images.moneycontrol.com
@@ -1376,7 +1376,6 @@ st.jd.id.gslb.qianxun.com
 id.360buyimg.com.gslb.qianxun.com
 zap2it.tmsimg.com
 nbcu.tmsimg.com
-yt3.ggpht.com
 bundler.nice-team.net
 icm.aexp-static.com
 dexwebanalytics.dexfront.live
@@ -1413,7 +1412,6 @@ sm.rtb.mts.ru
 tech.rtb.mts.ru
 s.p7s1.io
 oasis-player.p7s1.io
-images.squarespace-cdn.com
 assets.manufactum.de
 file.hbfile.net
 sgsud.cdn-immedia.net
@@ -1754,7 +1752,6 @@ eu-assets.simpleview-europe.com
 1380410k.ha.azioncdn.net
 lib.ads4g.pl
 link.full24jam.com
-static.sketchfab.com
 global.ib-ibi.com
 tra.scds.pmdstatic.net
 geo.img.pmdstatic.net
@@ -2428,7 +2425,6 @@ a.spqcdn.net
 s.clickiocdn.com
 a.t.webtracker.jp
 i.t.webtracker.jp
-assets.coingecko.com
 analytics.tiktok.com
 v16-web.tiktok.com
 analytics-sg.tiktok.com
@@ -2530,7 +2526,6 @@ a1.adform.net
 s2.adform.net
 s1.adform.net
 s.milimaj.com
-checkoutshopper-live.adyen.com
 media.playmobil.com
 cookie-matching.mediarithmics.com
 static.mediarithmics.com
@@ -2927,7 +2922,6 @@ static.plenigo.com
 t2.hornbach.de
 s.9111s.ru
 www1.mpnrs.com
-preview.redd.it
 external-preview.redd.it
 img.sci-hub.shop
 resources.hermescloud.co.uk
@@ -3098,8 +3092,6 @@ ww1.javbabe.net
 apps.nypr.org
 s.st-firmy.net
 static.share-videos.se
-static1.squarespace.com
-assets.squarespace.com
 91wheels-prod.gumlet.io
 clovia-static.gumlet.io
 convert.gumlet.io
@@ -5152,7 +5144,6 @@ csscdn.redblue.de
 jscdn.redblue.de
 cs.krushmedia.com
 weather-website-client.tomorrow.io
-static01.nyt.com
 static.neptunegame.com
 pixel.tvsciapi.com
 platform.radius8.com
@@ -7551,7 +7542,6 @@ nao-bobcat-com-static.dibhids.net
 nao-bobcat-com-assets.dibhids.net
 cdn-proxy-gpim-nao-com.dibhids.net
 segment-data.zqtk.net
-s3.tradingview.com
 s.tradingview.com
 s3-symbol-logo.tradingview.com
 scanner.tradingview.com
@@ -7787,7 +7777,6 @@ octopus-stream01-cads.fpt.vn
 x.clearbitjs.com
 static.bouncepilot.com
 events.bouncepilot.com
-aadcdn.msauth.net
 t.visto1.net
 images.bhaskarassets.com
 img.homepagemodules.de
@@ -7983,7 +7972,6 @@ static.landbot.io
 chats.landbot.io
 c2t.zwt.co
 pt.potwm.com
-platform.twitter.com
 syndication.twitter.com
 analytics.twitter.com
 544632589.r.worldcdn.net
@@ -8893,8 +8881,6 @@ login.graphcomment.com
 img.zumpercdn.com
 glyph.medium.com
 cdn-static-1.medium.com
-miro.medium.com
-cdn-client.medium.com
 cdn-images-1.medium.com
 static.filestackapi.com
 process.filestackapi.com
@@ -9169,8 +9155,6 @@ ads.adfox.ru
 banners.adfox.ru
 image.asoview-media.com
 romwe.ltwebstatic.com
-sheinsz.ltwebstatic.com
-img.ltwebstatic.com
 blog-app.springbot.com
 ims.icagruppen.se
 st.babysfera.ru
@@ -9699,7 +9683,6 @@ dsf.newscorpaustralia.com
 hamburger.maggieeatstheangel.com
 t.womtp.com
 pfile.hcamerica.com
-cd2.evosrv.com
 twitter.countoon.com
 vplayer.enthusiastgaming.com
 vcdn.enthusiastgaming.com
@@ -10255,7 +10238,6 @@ services.api.no
 c.coll2onf.com
 i1.hyperspeed.pro
 integration.carts.guru
-newassets.hcaptcha.com
 callback-dispatcher.sd-sfr.fr
 assets.jimstatic.com
 fonts.jimstatic.com
@@ -11525,7 +11507,6 @@ p.rfihub.com
 a.rfihub.com
 boot.pubstack.io
 delivery.r2b2.cz
-jsv3.recruitics.com
 public-api.uxfeedback.ru
 edge.prod.cdn.aac-e.com
 static.socialminer.com
@@ -13313,7 +13294,6 @@ everett.newzware.com
 nen.newzware.com
 img.onesignal.com
 bat.bing.com
-r.bing.com
 commerce.bing.com
 script.mixi.net
 img.mixi.net
@@ -13474,7 +13454,6 @@ aff.fox.com
 promote.disclosurequest.com
 web.zoebot.ai
 console.brightmountainmedia.com
-thumb-lvlt.xhcdn.com
 static-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
@@ -13753,8 +13732,6 @@ giris1.selcuksportshdgiris49.com
 digital.ihg.com
 apis.ihg.com
 static.meteoblue.com
-open.scdn.co
-i.scdn.co
 widget.reviewability.com
 js.poshdevelopment.com
 pixel.locker2.com
@@ -13901,7 +13878,6 @@ ovhusa.commander1.com
 sync.commander1.com
 trck.youvisit.com
 webstats.ch.ch
-static.wixstatic.com
 video.wixstatic.com
 go.gldrdr.com
 creative.gldrdr.com
@@ -14257,11 +14233,9 @@ s.flocdn.com
 get.s-onetag.com
 signal-beacon.s-onetag.com
 g.ezoic.net
-yt3.ggpht.com
 delivery.youplay.se
 player.youplay.se
 sm.rtb.mts.ru
-images.squarespace-cdn.com
 mc.yandex.com
 metrics.api.drift.com
 bootstrap.api.drift.com
@@ -14302,7 +14276,6 @@ poweredby.jads.co
 i.jads.co
 p.yaoihavenreborn.com
 eu-assets.simpleview-europe.com
-static.sketchfab.com
 global.ib-ibi.com
 img.custompublish.com
 img5.custompublish.com
@@ -14393,7 +14366,6 @@ btds.zog.link
 ui.powerreviews.com
 widget.sndcdn.com
 i1.sndcdn.com
-assets.coingecko.com
 analytics.tiktok.com
 cds.connatix.com
 capi.connatix.com
@@ -14476,8 +14448,6 @@ export.prisguiden.no
 static.intercomassets.com
 pb-server.ezoic.com
 images2.dustin.eu
-assets.squarespace.com
-static1.squarespace.com
 js.wpushsdk.com
 na.nawpush.com
 jadserve.postrelease.com
@@ -14924,7 +14894,6 @@ d.adroll.com
 platekompaniet.imgkit.net
 sonar.semantiqo.com
 static.fundraiseup.com
-platform.twitter.com
 syndication.twitter.com
 audience.ws.apsis.one
 app.hushly.com
@@ -15131,7 +15100,6 @@ i.bcprm.com
 services.api.no
 r.api.no
 g.api.no
-newassets.hcaptcha.com
 live.primis.tech
 video.primis.tech
 assets.memberful.com
@@ -15411,7 +15379,6 @@ r.acdn.no
 myprivacy.dpgmedia.nl
 cmp.dpgmedia.nl
 bat.bing.com
-r.bing.com
 staticw2.yotpo.com
 widget.trustpilot.com
 images-static.trustpilot.com
@@ -15435,7 +15402,6 @@ lg3.media.net
 prebid.media.net
 ads.playground.xyz
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 btn.createsend1.com
@@ -15464,7 +15430,6 @@ widgets.outbrain.com
 gdpr.apps.isenselabs.com
 static.nrk.no
 obs.cheqzone.com
-open.scdn.co
 resources.blogblog.com
 stats.docu.info
 assets.infowarsmedia.com
@@ -15475,7 +15440,6 @@ s413370795.t.eloqua.com
 s1319934923.t.eloqua.com
 s1603199927.t.eloqua.com
 buy.tinypass.com
-static.wixstatic.com
 jukebox.pathfactory.com
 sync.ecal.com
 macro.adnami.io
@@ -15626,7 +15590,6 @@ dfp-gateway.s-onetag.com
 prebid.s-onetag.com
 assets.static-chmedia.ch
 g.ezoic.net
-yt3.ggpht.com
 widget.getyourguide.com
 s.p7s1.io
 assets.manufactum.de
@@ -15877,7 +15840,6 @@ vedia.peerius.episerver.net
 walz-images.walz.de
 pb-server.ezoic.com
 u.fg8dgt.com
-assets.squarespace.com
 img.weblogssl.com
 js.wpushsdk.com
 jadserve.postrelease.com
@@ -16472,7 +16434,6 @@ js.wpadmngr.com
 db.bngpt.com
 go.xxxjmp.com
 creative.xxxjmp.com
-s3.tradingview.com
 s.tradingview.com
 s3-symbol-logo.tradingview.com
 acdn.adnxs-simple.com
@@ -16512,7 +16473,6 @@ s.adroll.com
 c01d2aab.de.ioam.de
 e9f83529.de.ioam.de
 republic.imgkit.net
-platform.twitter.com
 syndication.twitter.com
 fast.smarketer.de
 static.ingenie.fr
@@ -16603,7 +16563,6 @@ ssum.casalemedia.com
 ssum-sec.casalemedia.com
 as-sec.casalemedia.com
 glyph.medium.com
-cdn-client.medium.com
 cdn-static-1.medium.com
 fscl01.fonpit.de
 telekom01.webtrekk.net
@@ -16758,7 +16717,6 @@ js.verygoodvault.com
 sdxcode.scapp.swisscom.com
 i.bcprm.com
 fh-main.measure.agilemeasure.com
-newassets.hcaptcha.com
 assets.jimstatic.com
 fonts.jimstatic.com
 live.primis.tech
@@ -17049,7 +17007,6 @@ wine.extole.io
 img.tipser.com
 t3-prod-api.tipser.com
 bat.bing.com
-r.bing.com
 widget.trustpilot.com
 cs624.adn.phicdn.net
 sync.1rx.io
@@ -17086,7 +17043,6 @@ ads.playground.xyz
 io.fusedeck.net
 io.stage2.fusedeck.net
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 www-prod.ladepeche.clients.sdv.fr
@@ -17118,7 +17074,6 @@ tr.outbrain.com
 widgets.outbrain.com
 logsene-receiver.eu.sematext.com
 obs.cheqzone.com
-open.scdn.co
 cs.emxdgt.com
 api-35-86-112-158.aamapi.com
 platform.contentfry.com
@@ -17130,7 +17085,6 @@ buy.tinypass.com
 sync.commander1.com
 webstats.ch.ch
 pitefdnqgilxeqakzdhm.supabase.co
-static.wixstatic.com
 jukebox.pathfactory.com
 universal.iperceptions.com
 sync.richaudience.com
@@ -17320,10 +17274,8 @@ get.s-onetag.com
 signal-beacon.s-onetag.com
 prebid.s-onetag.com
 g.ezoic.net
-yt3.ggpht.com
 s.cqrvwq.com
 utt.impactcdn.com
-images.squarespace-cdn.com
 sync-eu.connectad.io
 mc.yandex.com
 metrics.api.drift.com
@@ -17366,7 +17318,6 @@ poweredby.jads.co
 i.jads.co
 data.dianomi.com
 go.ezodn.com
-static.sketchfab.com
 global.ib-ibi.com
 p2.fwpixel.com
 uk-script.dotmetrics.net
@@ -17557,8 +17508,6 @@ js.chargebee.com
 pb-server.ezoic.com
 m.fg8dgt.com
 u.fg8dgt.com
-assets.squarespace.com
-static1.squarespace.com
 ca.api.iheart.com
 js.wpushsdk.com
 socialize.login-seconnecter.ca
@@ -18061,7 +18010,6 @@ utility.rogersmedia.com
 iframe-assets.fresh8.co
 console-user-assets-cdn.fresh8.co
 kendo.cdn.telerik.com
-s3.tradingview.com
 s.tradingview.com
 s3-symbol-logo.tradingview.com
 crcdn01.adnxs-simple.com
@@ -18111,7 +18059,6 @@ s.adroll.com
 republic.imgkit.net
 webchat.heyday.ai
 static.fundraiseup.com
-platform.twitter.com
 syndication.twitter.com
 go.dmzjmp.com
 creative.dmzjmp.com
@@ -18209,7 +18156,6 @@ ssum-sec.casalemedia.com
 dsum-sec.casalemedia.com
 gadget.pico.tools
 glyph.medium.com
-cdn-client.medium.com
 embed.typeform.com
 async-px.dynamicyield.com
 cdn-cm.gcdn.co
@@ -18368,7 +18314,6 @@ js.verygoodvault.com
 y.one.impact-ad.jp
 i.bcprm.com
 audience.cpm-target.ru
-newassets.hcaptcha.com
 live.primis.tech
 video.primis.tech
 assets.memberful.com
@@ -18696,7 +18641,6 @@ simon-and-schuster.extole.io
 wine.extole.io
 2ndswing.extole.io
 bat.bing.com
-r.bing.com
 staticw2.yotpo.com
 cdn-yotpo-images-production.yotpo.com
 img.wbmdstatic.com
@@ -18727,7 +18671,6 @@ prebid.media.net
 lg3.media.net
 ads.playground.xyz
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 btn.createsend1.com
@@ -18768,7 +18711,6 @@ ads.undertone.com
 gcm-production2.omerloclients.com
 lb003p1.cio.gov.ns.ca
 obs.cheqzone.com
-open.scdn.co
 nbcsports.stats.com
 assets.infowarsmedia.com
 cs.emxdgt.com
@@ -18782,7 +18724,6 @@ s1065054172.t.eloqua.com
 s1319934923.t.eloqua.com
 d.adtriba.com
 buy.tinypass.com
-static.wixstatic.com
 jukebox.pathfactory.com
 universal.iperceptions.com
 sd.iperceptions.com
@@ -18967,7 +18908,6 @@ max.nwstatic.co.uk
 get.s-onetag.com
 signal-beacon.s-onetag.com
 g.ezoic.net
-yt3.ggpht.com
 widget.getyourguide.com
 sm.rtb.mts.ru
 mc.yandex.com
@@ -19012,7 +18952,6 @@ js.smct.io
 content-v2-ssr.cloud.jdplc.com
 go.ezodn.com
 eu-assets.simpleview-europe.com
-static.sketchfab.com
 global.ib-ibi.com
 uk-script.dotmetrics.net
 static.adxadserv.com
@@ -19111,7 +19050,6 @@ cm.adform.net
 track.adform.net
 a1.adform.net
 a2.adform.net
-checkoutshopper-live.adyen.com
 js.nagich.co.il
 choices.truste.com
 preferences-mgr.truste.com
@@ -19169,8 +19107,6 @@ analytics.leya.tech
 mct.etherscan.com
 pb-server.ezoic.com
 u.fg8dgt.com
-assets.squarespace.com
-static1.squarespace.com
 buy-me-cdn.makeprosimp.com
 js.wpushsdk.com
 na.nawpush.com
@@ -19617,7 +19553,6 @@ rum-http-intake.logs.datadoghq.eu
 b2cdn.automatad.com
 sonar.semantiqo.com
 static.fundraiseup.com
-platform.twitter.com
 syndication.twitter.com
 go.dmzjmp.com
 creative.dmzjmp.com
@@ -19699,7 +19634,6 @@ ssum-sec.casalemedia.com
 ssum.casalemedia.com
 gadget.pico.tools
 glyph.medium.com
-cdn-client.medium.com
 cdn-static-1.medium.com
 webassets.ssisurveys.com
 embed.typeform.com
@@ -19827,7 +19761,6 @@ u5.investingchannel.com
 js.verygoodvault.com
 apps.commbox.io
 i.bcprm.com
-newassets.hcaptcha.com
 cdn-v6.quoteninja.com
 live.primis.tech
 video.primis.tech
@@ -20108,7 +20041,6 @@ temptationgifts.peerius.com
 terrysfabrics.peerius.com
 thewhitecompany.peerius.com
 bat.bing.com
-r.bing.com
 staticw2.yotpo.com
 widget.trustpilot.com
 ecommplugins-scripts.trustpilot.com
@@ -20135,7 +20067,6 @@ hbx.media.net
 lg3.media.net
 ads.playground.xyz
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 cmp.dmgmediaprivacy.co.uk
@@ -20163,7 +20094,6 @@ tr.outbrain.com
 gdpr.apps.isenselabs.com
 execution-cinxpeup.ci360.marketing
 obs.cheqzone.com
-open.scdn.co
 assets.infowarsmedia.com
 cs.emxdgt.com
 api-35-87-123-161.aamapi.com
@@ -20172,7 +20102,6 @@ cdn5-static.motherlessmedia.com
 s1795.t.eloqua.com
 s1319934923.t.eloqua.com
 buy.tinypass.com
-static.wixstatic.com
 jukebox.pathfactory.com
 button.ecal.com
 sync.ecal.com
@@ -20361,7 +20290,6 @@ s.flocdn.com
 get.s-onetag.com
 signal-beacon.s-onetag.com
 g.ezoic.net
-yt3.ggpht.com
 h30-deploy.hiconversion.com
 utt.impactcdn.com
 mc.yandex.com
@@ -20410,7 +20338,6 @@ i.jads.co
 data.dianomi.com
 content-v2-ssr.cloud.jdplc.com
 go.ezodn.com
-static.sketchfab.com
 global.ib-ibi.com
 p2.fwpixel.com
 uk-script.dotmetrics.net
@@ -20593,8 +20520,6 @@ mct.etherscan.com
 widget.serviceseeker.com.au
 pb-server.ezoic.com
 u.fg8dgt.com
-assets.squarespace.com
-static1.squarespace.com
 sportskeeda.gumlet.io
 js.wpushsdk.com
 gsstatic.greenstory.ca
@@ -21093,7 +21018,6 @@ s.adroll.com
 republic.imgkit.net
 timesnow.imgkit.net
 static.fundraiseup.com
-platform.twitter.com
 syndication.twitter.com
 go.dmzjmp.com
 creative.dmzjmp.com
@@ -21185,7 +21109,6 @@ as-sec.casalemedia.com
 gadget.pico.tools
 static2.bhgre.com.au
 glyph.medium.com
-cdn-client.medium.com
 cdn-static-1.medium.com
 st.dynamicyield.com
 async-px.dynamicyield.com
@@ -21356,7 +21279,6 @@ assets.stockinstore.net
 asx.api.markitdigital.com
 sync.tidaltv.com
 i.bcprm.com
-newassets.hcaptcha.com
 atag.adgile.media
 live.primis.tech
 video.primis.tech
@@ -21647,7 +21569,6 @@ simon-and-schuster.extole.io
 nisbetsuk.peerius.com
 tedbaker.peerius.com
 bat.bing.com
-r.bing.com
 staticw2.yotpo.com
 widget.trustpilot.com
 ecommplugins-scripts.trustpilot.com
@@ -21675,7 +21596,6 @@ static.elfsight.com
 ads.playground.xyz
 go.smartrmail.com
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 btn.createsend1.com
@@ -21711,7 +21631,6 @@ gdpr.apps.isenselabs.com
 ssl.kaptcha.com
 usr.undertone.com
 obs.cheqzone.com
-open.scdn.co
 widget.reviewability.com
 assets.infowarsmedia.com
 pmi.nui.media
@@ -21722,7 +21641,6 @@ s1229.t.eloqua.com
 s1319934923.t.eloqua.com
 buy.tinypass.com
 id.tinypass.com
-static.wixstatic.com
 jukebox.pathfactory.com
 sync.ecal.com
 macro.adnami.io
@@ -21849,7 +21767,6 @@ avm.avantisvideo.com
 get.s-onetag.com
 signal-beacon.s-onetag.com
 g.ezoic.net
-yt3.ggpht.com
 widget.getyourguide.com
 mc.yandex.com
 metrics.api.drift.com
@@ -21887,7 +21804,6 @@ poweredby.jads.co
 i.jads.co
 content-v2-ssr.cloud.jdplc.com
 pages.imu.nl
-static.sketchfab.com
 global.ib-ibi.com
 files.qualifio.com
 player.qualifio.com
@@ -21970,7 +21886,6 @@ track.adform.net
 adx.adform.net
 asia.adform.net
 a2.adform.net
-checkoutshopper-live.adyen.com
 cookie-matching.mediarithmics.com
 kindred-cms-ufe.kindredgroup.com
 cmp.nextday.media
@@ -22024,7 +21939,6 @@ sp.dpgmedia.net
 c.dpgmedia.net
 pb-server.ezoic.com
 u.fg8dgt.com
-assets.squarespace.com
 js.wpushsdk.com
 na.nawpush.com
 jadserve.postrelease.com
@@ -22450,7 +22364,6 @@ republic.imgkit.net
 rum-http-intake.logs.datadoghq.eu
 sonar.semantiqo.com
 static.landbot.io
-platform.twitter.com
 syndication.twitter.com
 fast.smarketer.de
 go.dmzjmp.com
@@ -22527,7 +22440,6 @@ dsum-sec.casalemedia.com
 as-sec.casalemedia.com
 gadget.pico.tools
 glyph.medium.com
-cdn-client.medium.com
 cdn-static-1.medium.com
 async-px-eu.dynamicyield.com
 async-px.dynamicyield.com
@@ -22655,7 +22567,6 @@ js.verygoodvault.com
 y.one.impact-ad.jp
 api.widget.futy.io
 i.bcprm.com
-newassets.hcaptcha.com
 live.primis.tech
 video.primis.tech
 static-web-assets.gnl-common.bbcverticals.com
@@ -22937,7 +22848,6 @@ contextual.media.net
 hbx.media.net
 static.elfsight.com
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 vdm.praxiscdn.nl
@@ -22966,7 +22876,6 @@ widgets.outbrain.com
 tr.outbrain.com
 gdpr.apps.isenselabs.com
 obs.cheqzone.com
-open.scdn.co
 ads.v1d305.com
 lookbook.otrium.com
 cdn5-static.motherlessmedia.com
@@ -22977,7 +22886,6 @@ sandbox.tinypass.com
 buy.tinypass.com
 cf-public-directories.sparkle.production.483754398511.eu-west-1.cloud.kompas.services
 sync.commander1.com
-static.wixstatic.com
 jukebox.pathfactory.com
 sync.ecal.com
 att.mpeasylink.com
@@ -23097,7 +23005,6 @@ s.e-planning.net
 get.s-onetag.com
 assets.static-chmedia.ch
 g.ezoic.net
-yt3.ggpht.com
 analytics.analytics-egain.com
 img.br.de
 assets.manufactum.de
@@ -23139,7 +23046,6 @@ oneworld-frontend.eintracht.de.cname.yum.de
 poweredby.jads.co
 i.jads.co
 go.ezodn.com
-static.sketchfab.com
 global.ib-ibi.com
 digikey.egain.cloud
 landsend.egain.cloud
@@ -23214,7 +23120,6 @@ a2.adform.net
 s2.adform.net
 a1.adform.net
 s1.adform.net
-checkoutshopper-live.adyen.com
 cookie-matching.mediarithmics.com
 k1z06s034.kivbf.de
 franceinfo.reco.ebu.io
@@ -23270,7 +23175,6 @@ cstatic.weborama.fr
 266509774928.gigya-api.com
 feed.solads.media
 pb-server.ezoic.com
-assets.squarespace.com
 js.wpushsdk.com
 na.nawpush.com
 jadserve.postrelease.com
@@ -23861,7 +23765,6 @@ fc723161.de.ioam.de
 republic.imgkit.net
 rum-http-intake.logs.datadoghq.eu
 widget.bussgeldrechner.org
-platform.twitter.com
 syndication.twitter.com
 fast.smarketer.de
 go.dmzjmp.com
@@ -23950,7 +23853,6 @@ dsum-sec.casalemedia.com
 ssum-sec.casalemedia.com
 as-sec.casalemedia.com
 glyph.medium.com
-cdn-client.medium.com
 telekom01.webtrekk.net
 images.boersenmedien.com
 cdn-eu.dynamicyield.com
@@ -24068,7 +23970,6 @@ stuttgarter-nachrichten.weekli.de
 graphql.contentful.com
 connect.nosto.com
 i.bcprm.com
-newassets.hcaptcha.com
 assets.jimstatic.com
 fonts.jimstatic.com
 live.primis.tech
@@ -24311,7 +24212,6 @@ c04f.app.slickstream.com
 mar.prod.image.rndtech.de
 img.tipser.com
 bat.bing.com
-r.bing.com
 staticw2.yotpo.com
 widget.trustpilot.com
 cs486.wpc.2d930.phicdn.net
@@ -24333,7 +24233,6 @@ prebid.media.net
 contextual.media.net
 hbx.media.net
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 cmp.dmgmediaprivacy.co.uk
@@ -24360,7 +24259,6 @@ tr.outbrain.com
 sync.outbrain.com
 widgets.outbrain.com
 obs.cheqzone.com
-open.scdn.co
 static.ladies-cdn.de
 s1795.t.eloqua.com
 s1968580696.t.eloqua.com
@@ -24473,7 +24371,6 @@ ads.us.e-planning.net
 content.avantisvideo.com
 get.s-onetag.com
 g.ezoic.net
-yt3.ggpht.com
 sm.rtb.mts.ru
 mc.yandex.com
 metrics.api.drift.com
@@ -24521,7 +24418,6 @@ poweredby.jads.co
 i.jads.co
 js.smct.io
 go.ezodn.com
-static.sketchfab.com
 global.ib-ibi.com
 tra.scds.pmdstatic.net
 tra.img.pmdstatic.net
@@ -24583,7 +24479,6 @@ widget.sndcdn.com
 wave.sndcdn.com
 fonts.yieldify-production.com
 s.clickiocdn.com
-assets.coingecko.com
 analytics.tiktok.com
 td.yieldify.com
 assets-v2.yieldify.com
@@ -24600,7 +24495,6 @@ cm.adform.net
 s1.adform.net
 a2.adform.net
 s2.adform.net
-checkoutshopper-live.adyen.com
 cookie-matching.mediarithmics.com
 events.mediarithmics.com
 atlantic-web.inbenta.com
@@ -25102,7 +24996,6 @@ webcomponents.cloudly.space
 rum-http-intake.logs.datadoghq.eu
 logs1412.xiti.com
 logv2.xiti.com
-platform.twitter.com
 syndication.twitter.com
 static.ingenie.fr
 les-gets.ingenie.fr
@@ -25176,7 +25069,6 @@ ssum-sec.casalemedia.com
 as-sec.casalemedia.com
 login.graphcomment.com
 glyph.medium.com
-cdn-client.medium.com
 statique.snaping.net
 contenu.snaping.net
 async-px.dynamicyield.com
@@ -25298,7 +25190,6 @@ proxymedia.woopic.com
 js.verygoodvault.com
 y.one.impact-ad.jp
 i.bcprm.com
-newassets.hcaptcha.com
 live.primis.tech
 video.primis.tech
 static-web-assets.gnl-common.bbcverticals.com
@@ -25540,7 +25431,6 @@ contextual.media.net
 hbx.media.net
 static.elfsight.com
 static-lvlt.xhcdn.com
-thumb-lvlt.xhcdn.com
 thumb-v-lv.xhcdn.com
 pornstar-thumb.xhcdn.com
 api-touchpoint.eu2.visioncritical.com
@@ -25577,7 +25467,6 @@ logsene-receiver.eu.sematext.com
 gdpr.apps.isenselabs.com
 thumbs2.redgifs.com
 obs.cheqzone.com
-open.scdn.co
 medias.interflora.fr.fasterized.com
 cs.emxdgt.com
 tr1.admeira.ch
@@ -25587,7 +25476,6 @@ buy.tinypass.com
 ovh.commander1.com
 sync.commander1.com
 pitefdnqgilxeqakzdhm.supabase.co
-static.wixstatic.com
 jukebox.pathfactory.com
 universal.iperceptions.com
 sync.richaudience.com

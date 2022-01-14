@@ -6,8 +6,8 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 519    
-!  TimeUpdated: 2022-01-05T00:10:07Z          
+!  Entries: 534    
+!  TimeUpdated: 2022-01-14T01:08:57+01:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -33,6 +33,7 @@
 ||adbrix.io^
 ||adcell.com^
 ||adcolo.com^
+||adform.net^
 ||adjust.com^
 ||adnetasia.com^
 ||adnxs.com^
@@ -64,6 +65,8 @@
 ||analytics.edgekey.net^
 ||analytics.robinhood.com^
 ||android.bugly.qq.com^
+||androidtvchannels-pa.googleapis.com^
+||androidtvwatsonfe-pa.googleapis.com^
 ||anura.io^
 ||api.apptentive.com^
 ||api.sec.miui.com^
@@ -97,6 +100,7 @@
 ||bizrate.com^
 ||blueconic.net^
 ||bluecore.com^
+||bluekai.com^
 ||bluetoad.com^
 ||bm23.com^
 ||bn5x.net^
@@ -131,6 +135,7 @@
 ||clickcease.com^
 ||clickmeter.com^
 ||clicktale.net^
+||clientmetrics-augmentum.kik.com^
 ||cloudflareinsights.com^
 ||cmp-cdn.ghostery.com^
 ||cnetcontentsolutions.com^
@@ -162,7 +167,6 @@
 ||da.netease.com^
 ||data.mistat.intl.xiaomi.com^
 ||datacaciques.com^
-||db-ip.com^
 ||deals.macupdate.com^
 ||demdex.net^
 ||developerity.com^
@@ -212,6 +216,7 @@
 ||gemius.pl^
 ||geoip-db.com^
 ||geojs.io^
+||geolocation-db.com^
 ||getblueshift.com^
 ||go-mpulse.net^
 ||go2jump.org^
@@ -269,6 +274,7 @@
 ||jwpltx.com^
 ||kampyle.com^
 ||kaxsdc.com^
+||kochava.com^
 ||krxd.net^
 ||l2.io^
 ||leadpages.net^
@@ -316,6 +322,7 @@
 ||mmstat.com^
 ||mmtro.com^
 ||moatads.com.edgekey.net^
+||mobile-collector.newrelic.com^
 ||moengage.com^
 ||moneroocean.stream^
 ||moneyplatform.biz^
@@ -336,6 +343,7 @@
 ||net.kg^
 ||netcore.co.in^
 ||netupdater.info^
+||nexage.com^
 ||njih.net^
 ||nonstoppartner.net^
 ||norteevu.com^
@@ -357,7 +365,6 @@
 ||partner-ads.com^
 ||partycasino.com^
 ||peerius.com^
-||pendo.io^
 ||pepperjamnetwork.com^
 ||perfdrive.com^
 ||pf.intuit.com^
@@ -365,6 +372,8 @@
 ||pings.conviva.com^
 ||pipe.aria.microsoft.com^
 ||piwik.org^
+||pixel.redditmedia.com^
+||pixel.wp.com^
 ||pixelzirkus.gameforge.com^
 ||pjatr.com^
 ||pjtra.com^
@@ -377,7 +386,6 @@
 ||ppcprotect.com^
 ||ppro.de^
 ||pr.comet.yahoo.com^
-||primis.tech^
 ||privacy-policy.truste.com^
 ||promos.fling.com^
 ||prvsz4pe.micpn.com^
@@ -388,6 +396,7 @@
 ||pxf.io^
 ||qiqiyii.com^
 ||qksrv.net^
+||quantserve.com^
 ||quantummetric.com^
 ||quartic.pl^
 ||quiddity.goguardian.com^
@@ -402,6 +411,7 @@
 ||refer.ccbill.com^
 ||referrer.disqus.com^
 ||relevant-digital.com^
+||rereddit.com^
 ||researchnow.co.uk^
 ||resolver.msg.xiaomi.net^
 ||resu8.hjfile.cn^
@@ -414,6 +424,7 @@
 ||sail-horizon.com^
 ||sakura.goguardian.com^
 ||salesmanago.pl^
+||samsungacr.com^
 ||sana.newsinc.com.s3.amazonaws.com^
 ||sc-static.net^
 ||scanverify.com^
@@ -488,6 +499,7 @@
 ||traq.li^
 ||trbo.com^
 ||treehousei.com^
+||triggers.wfxtriggers.com^
 ||trk.pinterest.com^
 ||uamobile.net^
 ||uarating.com^
@@ -498,6 +510,7 @@
 ||us04logfiles.zoom.us^
 ||usabilla.com^
 ||useinsider.com^
+||v.shopify.com^
 ||velaro.com^
 ||verify.authorize.net^
 ||vi-serve.com^
@@ -511,10 +524,12 @@
 ||wcnmd.top^
 ||we-stats.com^
 ||webgains.com^
+||webhop.net^
 ||webpower.eu^
 ||widget.trustpilot.com^
 ||widgets.trustedshops.com^
 ||wootric.com^
+||wsapi-global.master.live^
 ||wt-eu02.net^
 ||www-google-analytics.l.google.com^
 ||x3-policy-maker.goguardian.com^
