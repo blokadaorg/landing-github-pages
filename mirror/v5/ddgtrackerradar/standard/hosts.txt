@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-01-14 08:11:21.358238
+# Generated at 2022-01-17 10:31:23.923030
 # Made by Blokada
 
 images.moneycontrol.com
@@ -2755,7 +2755,6 @@ ipm-aem.autodesk.com
 memenu.xp.autodesk.com
 tags.news.com.au
 subscriptions.news.com.au
-static.independent.co.uk
 go.adversal.com
 images.vinted.net
 images1.vinted.net
@@ -5174,7 +5173,6 @@ ads.brandadvance.co.uk
 tag.cribnotes.jp
 postnord.humany.net
 as.cazamba.com
-media.discordapp.net
 static2.pt-content.com
 static1.pt-content.com
 ads.pt-content.com
@@ -8313,7 +8311,6 @@ images.frp1.ott.kaltura.com
 cfvod.kaltura.com
 cdnapi.kaltura.com
 smaug-public.stashinvest.dso.stsh.io
-c.ndtvimg.com
 webchat.asksid.ai
 kdex003.deqwas.net
 hm.baidu.com
@@ -8949,7 +8946,6 @@ x.cnt.my
 ads.bwr-media.de
 assets.juicer.io
 media.bahag.com
-rpc.ftm.tools
 sallinggroup.tiles.viamap.net
 jobindex.tiles.viamap.net
 f.clarity.ms
@@ -9844,7 +9840,6 @@ assets.empathybroker.com
 s3.castbox.fm
 everest.castbox.fm
 get.geojs.io
-cdn2.unrealengine.com
 p.adsymptotic.com
 videos-porno.petardashd.com
 cogbotv2-cap1.mybluemix.net
@@ -11185,7 +11180,6 @@ d-2467953131143979599.ampproject.net
 d-2578109432887541380.ampproject.net
 d-27010736041254878782.ampproject.net
 d-26324086501880955159.ampproject.net
-3p.ampproject.net
 ws.richpanel.com
 events.browsiprod.com
 yield-manager.browsiprod.com
@@ -17460,7 +17454,6 @@ crb.kargo.com
 storage.cloud.kargo.com
 kraken.production.us-east-1.kops.kargo.com
 widget.beop.io
-static.independent.co.uk
 track.securedvisit.com
 ads.pubmatic.com
 image6.pubmatic.com
@@ -18163,7 +18156,6 @@ server.cpmstar.com
 ssl.cdne.cpmstar.com
 assets.sendinblue.com
 assets.juicer.io
-rpc.ftm.tools
 g.clarity.ms
 f.clarity.ms
 ad.atdmt.com
@@ -19068,7 +19060,6 @@ widget.beop.io
 banner.conkac.com
 swc.autodesk.com
 tags.news.com.au
-static.independent.co.uk
 live-chat.chatbotize.com
 image6.pubmatic.com
 image2.pubmatic.com
@@ -20482,7 +20473,6 @@ tk.kargo.com
 widget.beop.io
 swc.autodesk.com
 tags.news.com.au
-static.independent.co.uk
 image6.pubmatic.com
 image2.pubmatic.com
 ads.pubmatic.com
@@ -21117,7 +21107,6 @@ server.cpmstar.com
 ssl.cdne.cpmstar.com
 content.api.news
 assets.juicer.io
-rpc.ftm.tools
 b.clarity.ms
 ad.atdmt.com
 map.go.affec.tv

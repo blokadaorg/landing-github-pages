@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2022-01-14T01:05:22+00:00
-# Count: 28121 domains
+# Released: 2022-01-16T13:05:21+00:00
+# Count: 28125 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -235,6 +235,7 @@
 0.0.0.0 video-frx5-2.cdninstagram.com
 0.0.0.0 video-gig2-1.cdninstagram.com
 0.0.0.0 video-gmp1-1.cdninstagram.com
+0.0.0.0 video-gru1-1.cdninstagram.com
 0.0.0.0 video-gru2-1.cdninstagram.com
 0.0.0.0 video-gru2-2.cdninstagram.com
 0.0.0.0 video-ham3-1.cdninstagram.com
@@ -376,6 +377,7 @@
 0.0.0.0 z-p42-scontent-mct1-1.cdninstagram.com
 0.0.0.0 z-p42-scontent-prg1-1.cdninstagram.com
 0.0.0.0 z-p42-scontent-sea1-1.cdninstagram.com
+0.0.0.0 z-p42-scontent-sof1-2.cdninstagram.com
 0.0.0.0 ww16.americantvevents.whatsapp.com----m.com
 0.0.0.0 ww16.events.apmagents.whatsapp.com----m.com
 0.0.0.0 ww16.canadacentral.whatsapp.com----m.com
@@ -1703,6 +1705,7 @@
 0.0.0.0 edge-star-mini-shv-02-maa2.facebook.com
 0.0.0.0 edge-star-mini-shv-02-mrs2.facebook.com
 0.0.0.0 edge-star-mini-shv-02-ort2.facebook.com
+0.0.0.0 edge-star-mini-shv-02-sof1.facebook.com
 0.0.0.0 edge-star-mini-shv-03-sin6.facebook.com
 0.0.0.0 edge-star-mini-shv-03-xsp1.facebook.com
 0.0.0.0 edge-star-mini-shv-04-sin6.facebook.com
@@ -19440,6 +19443,7 @@
 0.0.0.0 whatsapp-chatd-edge-shv-01-gig2.facebook.com
 0.0.0.0 whatsapp-chatd-edge-shv-01-hbe1.facebook.com
 0.0.0.0 whatsapp-chatd-edge-shv-01-lcy1.facebook.com
+0.0.0.0 whatsapp-chatd-edge-shv-01-mia3.facebook.com
 0.0.0.0 whatsapp-chatd-edge-shv-01-otp1.facebook.com
 0.0.0.0 whatsapp-chatd-edge-shv-01-pmo1.facebook.com
 0.0.0.0 whatsapp-chatd-edge-shv-01-tpe1.facebook.com
@@ -19588,6 +19592,7 @@
 0.0.0.0 test.facebookvirtualassistant.com
 0.0.0.0 fb.com
 0.0.0.0 360.fb.com
+0.0.0.0 www.360.fb.com
 0.0.0.0 360video.fb.com
 0.0.0.0 www.360video.fb.com
 0.0.0.0 360videos.fb.com
@@ -23315,7 +23320,6 @@
 0.0.0.0 instagram.fccp1-1.fna.fbcdn.net
 0.0.0.0 instagram.fccp2-1.fna.fbcdn.net
 0.0.0.0 scontent.fccp4-1.fna.fbcdn.net
-0.0.0.0 scontent.fccs2-1.fna.fbcdn.net
 0.0.0.0 instagram.fccs3-1.fna.fbcdn.net
 0.0.0.0 scontent.fccs3-1.fna.fbcdn.net
 0.0.0.0 external.fccu11-1.fna.fbcdn.net

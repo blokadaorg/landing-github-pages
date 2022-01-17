@@ -6,8 +6,8 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 534    
-!  TimeUpdated: 2022-01-14T01:08:57+01:00     
+!  Entries: 537    
+!  TimeUpdated: 2022-01-17T00:58:02+01:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -40,9 +40,11 @@
 ||adocean.pl^
 ||adpushup.com^
 ||adregain.com^
+||ads-twitter.com^
 ||adsafeprotected.com^
 ||adsafety.net^
 ||adservicemedia.dk^
+||adsrvr.org^
 ||adtech.de^
 ||adtrackers.net^
 ||adtraction.com^
@@ -147,6 +149,7 @@
 ||conduit-services.com^
 ||config.uca.cloud.unity3d.com^
 ||conversions.appsflyer.com^
+||converti.se^
 ||coremetrics.com^
 ||countvoncount.goguardian.com^
 ||cptrack.de^
@@ -163,7 +166,6 @@
 ||d2r1yp2w7bby2u.cloudfront.net^
 ||d2wy8f7a9ursnm.cloudfront.net^
 ||d35u1vg1q28b3w.cloudfront.net^
-||d2405b0jymm2dk.cloudfront.net^
 ||da.netease.com^
 ||data.mistat.intl.xiaomi.com^
 ||datacaciques.com^
@@ -263,6 +265,7 @@
 ||ip.goguardian.com^
 ||ipdata.co^
 ||ipinfodb.com^
+||ipredictive.com^
 ||ironbeast.io^
 ||isnssdk.com^
 ||ist-track.com^
