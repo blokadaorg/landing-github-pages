@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-01-15T01:05:22+00:00
-# Count: 1641 domains
+# Released: 2022-01-31T01:05:22+00:00
+# Count: 1630 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -224,13 +224,9 @@
 0.0.0.0 rss.b.infowars.com
 0.0.0.0 beta.infowars.com
 0.0.0.0 bigmedia1.infowars.com
-0.0.0.0 cache-a.infowars.com
 0.0.0.0 cdn.infowars.com
 0.0.0.0 cdntest.infowars.com
 0.0.0.0 comments.infowars.com
-0.0.0.0 content1.infowars.com
-0.0.0.0 content2.infowars.com
-0.0.0.0 core.infowars.com
 0.0.0.0 cpdns1.infowars.com
 0.0.0.0 cuda.infowars.com
 0.0.0.0 db-dump.infowars.com
@@ -241,11 +237,9 @@
 0.0.0.0 europe.infowars.com
 0.0.0.0 fauci.infowars.com
 0.0.0.0 helpdesk.infowars.com
-0.0.0.0 httpstream.infowars.com
 0.0.0.0 hw.infowars.com
 0.0.0.0 hwbigmedia1.infowars.com
 0.0.0.0 infowarrior.infowars.com
-0.0.0.0 lists.infowars.com
 0.0.0.0 mail.infowars.com
 0.0.0.0 mb.infowars.com
 0.0.0.0 media.infowars.com
@@ -295,8 +289,8 @@
 0.0.0.0 stream-mp3.infowars.com
 0.0.0.0 stream-mp3-eu.infowars.com
 0.0.0.0 stream-mp3-us.infowars.com
-0.0.0.0 stream-v2.infowars.com
 0.0.0.0 stream1.infowars.com
+0.0.0.0 stream2.infowars.com
 0.0.0.0 stream3.infowars.com
 0.0.0.0 streams.infowars.com
 0.0.0.0 support.infowars.com
@@ -409,21 +403,14 @@
 0.0.0.0 wwww.leagueofthesouth.com
 0.0.0.0 lewrockwell.com
 0.0.0.0 archive.lewrockwell.com
-0.0.0.0 beta.lewrockwell.com
-0.0.0.0 beta-secure.lewrockwell.com
-0.0.0.0 dev.lewrockwell.com
 0.0.0.0 docs.lewrockwell.com
 0.0.0.0 donate.lewrockwell.com
 0.0.0.0 ftp.lewrockwell.com
 0.0.0.0 ipv6.lewrockwell.com
 0.0.0.0 list.lewrockwell.com
-0.0.0.0 lw.lewrockwell.com
 0.0.0.0 mail.lewrockwell.com
-0.0.0.0 media.lewrockwell.com
-0.0.0.0 secure.lewrockwell.com
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
-0.0.0.0 www2.lewrockwell.com
 0.0.0.0 lindelltv.com
 0.0.0.0 www.lindelltv.com
 0.0.0.0 liveqordie.com
@@ -1650,6 +1637,8 @@
 0.0.0.0 webdisk.qgear.us
 0.0.0.0 webmail.qgear.us
 0.0.0.0 www.qgear.us
+0.0.0.0 stolenelection.us
+0.0.0.0 www.stolenelection.us
 0.0.0.0 theamericanfreedomparty.us
 0.0.0.0 www.theamericanfreedomparty.us
 0.0.0.0 qanon.video

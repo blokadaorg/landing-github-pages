@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 14 Jan 2022 at 05:00:49 GMT
+# Last updated: Mon, 17 Jan 2022 at 23:43:29 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -6124,7 +6124,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 flu23.com
 127.0.0.1 fm3cafe.hu
 127.0.0.1 fmads.osdn.com
-127.0.0.1 fnp-smellingerlan.nl
 127.0.0.1 focusin.ads.targetnet.com
 127.0.0.1 fodder.qq.com
 127.0.0.1 fodder.tc.qq.com

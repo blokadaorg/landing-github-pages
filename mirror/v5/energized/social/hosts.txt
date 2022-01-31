@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 22.01.017
-# Release: 017
-# Entries: 6,965
+# Version: 22.01.031
+# Release: 031
+# Entries: 6,966
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Mon, 17 Jan 22 12:48:05 +06
+# Updated: Mon, 31 Jan 22 16:16:40 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -2919,6 +2919,7 @@ inokhrk.i.org
 in.pinterest.com
 in.plus.google.com
 instagr.am
+instagram.astv.ru
 instagram.c10r.facebook.com
 instagram.com
 instagram-shv-01-ams2.fbcdn.net
