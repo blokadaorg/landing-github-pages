@@ -1,5 +1,5 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-01-31T01:05:22+00:00
+# Released: 2022-02-10T01:05:23+00:00
 # Count: 1630 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
@@ -265,7 +265,6 @@
 0.0.0.0 pravda.infowars.com
 0.0.0.0 prod.infowars.com
 0.0.0.0 purge.infowars.com
-0.0.0.0 push.infowars.com
 0.0.0.0 rocket.infowars.com
 0.0.0.0 rss.infowars.com
 0.0.0.0 sender.infowars.com
@@ -660,7 +659,6 @@
 0.0.0.0 qproofs.com
 0.0.0.0 qsaltlake.com
 0.0.0.0 ftp.qsaltlake.com
-0.0.0.0 pay.qsaltlake.com
 0.0.0.0 www.qsaltlake.com
 0.0.0.0 qupdates.com
 0.0.0.0 autodiscover.qupdates.com
@@ -1178,6 +1176,7 @@
 0.0.0.0 nsm88.org
 0.0.0.0 www.nsm88.org
 0.0.0.0 nvic.org
+0.0.0.0 admin.nvic.org
 0.0.0.0 antispam.nvic.org
 0.0.0.0 authsmtp.nvic.org
 0.0.0.0 barracuda.nvic.org
@@ -1211,6 +1210,7 @@
 0.0.0.0 mx4.nvic.org
 0.0.0.0 mx5.nvic.org
 0.0.0.0 mxs.nvic.org
+0.0.0.0 new.nvic.org
 0.0.0.0 newmail.nvic.org
 0.0.0.0 ns.nvic.org
 0.0.0.0 ns2.nvic.org

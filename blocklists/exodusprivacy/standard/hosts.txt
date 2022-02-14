@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2022-01-31 12:17:46.982938
+# Generated at 2022-02-14 14:47:34.496334
 # Made by Blokada
 
 databerries.com
@@ -446,6 +446,7 @@ aktrack.pubmatic.com
 gads.pubmatic.com
 image2.pubmatic.com
 simage2.pubmatic.com
+verify.uxcam.com
 appcelerator.com
 appcelerator.net
 ad-brix.com
@@ -549,3 +550,9 @@ radar.cedexis.com
 tele.fm
 cdn-api.swirl.com
 sdk6.ibm.xtify.com
+marketo.com
+marketo.net
+mktoedge.com
+mktossl.com
+mktorest.com
+synerise.com
