@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 17 Jan 2022 at 23:43:29 GMT
+# Last updated: Wed, 16 Feb 2022 at 21:11:57 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1987,6 +1987,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 technicalconsumerreports.com
 127.0.0.1 techques.com
 127.0.0.1 test.ishvara-yoga.com
+127.0.0.1 thailandtravel.live
 127.0.0.1 thedatesafe.com			# Facebook trojan
 127.0.0.1 themusicnetwork.co.uk
 127.0.0.1 thunderbird.es
@@ -5661,7 +5662,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 clicks2.virtuagirl.com
 127.0.0.1 clickserv.sitescout.com
 127.0.0.1 clickserve.cc-dt.com
-127.0.0.1 clickserve.dartsearch.net
 127.0.0.1 clickserve.eu.dartsearch.net
 127.0.0.1 clickserve.uk.dartsearch.net
 127.0.0.1 clickserve.us2.dartsearch.net

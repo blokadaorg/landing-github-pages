@@ -6,8 +6,8 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 541    
-!  TimeUpdated: 2022-02-14T00:31:45+01:00     
+!  Entries: 556    
+!  TimeUpdated: 2022-02-18T01:25:44+01:00     
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -16,8 +16,8 @@
 ||2cnt.net^
 ||2o7.net^
 ||7xi9g1.com1.z0.glb.clouddn.com^
+||7xsf3h.com1.z0.glb.clouddn.com^
 ||247-inc.net^
-||810251.com^
 ||a-mo.net^
 ||a.klaviyo.com^
 ||a.wishabi.com^
@@ -27,12 +27,14 @@
 ||ackcdn.net^
 ||ad-creatives-public.commondatastorage.googleapis.com^
 ||ad-ettoday.cdn.hinet.net^
+||ad.xiaomi.com^
 ||adash.man.aliyuncs.com^
 ||adbrix.io^
 ||adcell.com^
 ||adcolo.com^
 ||adform.net^
 ||adjust.com^
+||admachina.com.s.pstl.live^
 ||adnetasia.com^
 ||adnxs.com^
 ||adocean.pl^
@@ -83,6 +85,7 @@
 ||asadcdn.com^
 ||assoc-amazon.com^
 ||at-o.net^
+||atm.youku.com^
 ||auditude.com^
 ||awaps.yandex.ru^
 ||awemwh.com^
@@ -118,9 +121,11 @@
 ||bs.yandex.ru^
 ||btstatic.com^
 ||budurl.com^
+||bxczchdxynw.com^
 ||byside.com^
 ||c-api-bit.shopeemobile.com^
 ||c.live.com^
+||c.microsoft.com^
 ||c.msn.com^
 ||cc-dt.com^
 ||cdn-image.com^
@@ -137,12 +142,14 @@
 ||clickcease.com^
 ||clickmeter.com^
 ||clicktale.net^
+||client-event-reporter.twitch.tv^
 ||clientmetrics-augmentum.kik.com^
 ||cloudflareinsights.com^
 ||cmp-cdn.ghostery.com^
 ||cnetcontentsolutions.com^
 ||cnzz.com^
 ||cohesionapps.com^
+||collect.igodigital.com^
 ||commander1.com^
 ||commission-junction.com^
 ||conduit-services.com^
@@ -220,10 +227,13 @@
 ||gc.zgo.at^
 ||gecko-sg.byteoversea.com^
 ||gemius.pl^
+||geo.mozilla.org^
 ||geoip-db.com^
 ||geojs.io^
 ||geolocation-db.com^
 ||getblueshift.com^
+||getpublica.com^
+||ghosthis.review^
 ||go-mpulse.net^
 ||go2jump.org^
 ||goatcounter.com^
@@ -243,7 +253,6 @@
 ||hotkeys.com^
 ||hs-scripts.com^
 ||humanpresence.app^
-||hurom365.cn^
 ||hypestat.com^
 ||iam-agof-app.irquest.com^
 ||ib.snssdk.com^
@@ -274,6 +283,7 @@
 ||jivox.com^
 ||journity.com^
 ||js-agent.newrelic.com^
+||jsc.marketgid.com.p.pstl.live^
 ||jwlbfrmz.com^
 ||jwpltx.com^
 ||kampyle.com^
@@ -289,6 +299,7 @@
 ||linkev.com^
 ||livepartners.it^
 ||livetex.ru^
+||liveyield.com^
 ||log-tb.sgsnssdk.com^
 ||log-upload-os.mihoyo.com^
 ||log.byteoversea.com^
@@ -323,6 +334,7 @@
 ||metric.gstatic.com^
 ||metrics.claspws.tv^
 ||mindtake.com^
+||mistat.xiaomi.com^
 ||mixi.media^
 ||mkt51.net^
 ||mmstat.com^
@@ -336,6 +348,7 @@
 ||monitor.azure.com^
 ||mopinion.com^
 ||movable-ink-397.com^
+||mp.huangye.miui.com^
 ||mparticle.com^
 ||mplxtms.com^
 ||mrzikj.com^
@@ -358,7 +371,6 @@
 ||nsstatic.net^
 ||ntvcld-a.akamaihd.net^
 ||o2o.api.xiaomi.com^
-||okkkk.com^
 ||om.cbsi.com^
 ||omarsys.com^
 ||onenetworkdirect.net^
@@ -430,11 +442,14 @@
 ||rlcdn.com^
 ||rubicon.wellsfargo.com^
 ||rutrk.org^
+||s2.youtube.com^
+||sa.aol.com^
 ||sail-horizon.com^
 ||sakura.goguardian.com^
 ||salesmanago.pl^
 ||samsungacr.com^
 ||sana.newsinc.com.s3.amazonaws.com^
+||sare25.com^
 ||sc-static.net^
 ||scanverify.com^
 ||sci.intuit.com^
@@ -459,7 +474,6 @@
 ||siftscience.com^
 ||siteplug.com^
 ||sitetracker.com^
-||sjgnskf.com^
 ||slike.indiatimes.com^
 ||smartclip.net^
 ||smetrics.discover.com^
@@ -473,14 +487,12 @@
 ||static.parsely.com^
 ||stats.netbopdev.co.uk^
 ||stats.pusher.com^
-||sto1pnort.online^
 ||stocks-analytics-events.apple.com^
 ||stocks-analytics-events.news.apple-dns.net^
 ||streamate.com^
 ||stygg.xyz^
 ||sundaysky.com^
 ||t.indeed.com^
-||t.paypal.com^
 ||taboola.com^
 ||tacticalrepublic.com^
 ||tag.getdrip.com^
@@ -518,8 +530,11 @@
 ||ue.flipboard.com^
 ||ueudahqfig.com^
 ||uid.mavencoalition.io^
+||umeng.com.gds.alibabadns.com^
+||umengcloud.com.gds.alibabadns.com^
 ||unid.go.com^
 ||us.i1.yimg.com^
+||us04logfiles-va.zoom.us^
 ||us04logfiles.zoom.us^
 ||usabilla.com^
 ||useinsider.com^
@@ -528,8 +543,8 @@
 ||verify.authorize.net^
 ||vi-serve.com^
 ||videoplayerhub.com^
-||vidoplay.com^
 ||vilynx.com^
+||visto1.net^
 ||voodoo.com^
 ||vortex.data.microsoft.com^
 ||vortex.hulu.com^
@@ -547,9 +562,9 @@
 ||x3-policy-maker.goguardian.com^
 ||x3-predictor.goguardian.com^
 ||xlog-va.musical.ly^
-||xtxa.net^
 ||xxxjmp.com^
 ||yeswegays.com^
 ||youbora.com^
 ||youvisit.com^
 ||zanox.com^
+||zucks.net.zimg.jp^
