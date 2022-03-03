@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 16 Feb 2022 at 21:11:57 GMT
+# Last updated: Mon, 28 Feb 2022 at 01:30:13 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1927,6 +1927,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 projectpoi.com
 127.0.0.1 provenfeedback.com
 127.0.0.1 qbittorrent.com
+127.0.0.1 qevia.doubleclick.bond
 127.0.0.1 quicksaledeal.su
 127.0.0.1 randki-sex.com
 127.0.0.1 reacherinst.com
