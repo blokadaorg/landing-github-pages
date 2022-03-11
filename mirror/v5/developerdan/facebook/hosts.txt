@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2022-03-02T13:05:22+00:00
-# Count: 28511 domains
+# Released: 2022-03-11T01:05:22+00:00
+# Count: 28525 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -818,6 +818,7 @@
 0.0.0.0 carinaleagues.facebook.com
 0.0.0.0 carlsbergsweden.facebook.com
 0.0.0.0 cb-iq.facebook.com
+0.0.0.0 cbr.facebook.com
 0.0.0.0 ccamatil.facebook.com
 0.0.0.0 ccbvl.facebook.com
 0.0.0.0 ccrms.facebook.com
@@ -930,6 +931,7 @@
 0.0.0.0 coldwellbanker.facebook.com
 0.0.0.0 connect.facebook.com
 0.0.0.0 cosmos-consulting.facebook.com
+0.0.0.0 cotyinc.facebook.com
 0.0.0.0 countdown.facebook.com
 0.0.0.0 craneresorts.facebook.com
 0.0.0.0 cs.facebook.com
@@ -10217,6 +10219,7 @@
 0.0.0.0 gl-es.facebook.com
 0.0.0.0 gn-py.facebook.com
 0.0.0.0 gob.facebook.com
+0.0.0.0 gopro.facebook.com
 0.0.0.0 govtrequests.facebook.com
 0.0.0.0 gps.facebook.com
 0.0.0.0 grab.facebook.com
@@ -10466,6 +10469,7 @@
 0.0.0.0 zh-cn.latest.facebook.com
 0.0.0.0 zh-tw.latest.facebook.com
 0.0.0.0 laureatebrasil.facebook.com
+0.0.0.0 lcre.facebook.com
 0.0.0.0 leap.facebook.com
 0.0.0.0 lesartisansduchangement.facebook.com
 0.0.0.0 letools.facebook.com
@@ -15536,6 +15540,7 @@
 0.0.0.0 pay.facebook.com
 0.0.0.0 peace.facebook.com
 0.0.0.0 perfshield.facebook.com
+0.0.0.0 pichincha.facebook.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pjh.facebook.com
 0.0.0.0 pl-pl.facebook.com
@@ -19495,6 +19500,8 @@
 0.0.0.0 zorro-zorro-unmasked.scgraph.facebook.com
 0.0.0.0 sdsnyouth.facebook.com
 0.0.0.0 sdvg.facebook.com
+0.0.0.0 seat.facebook.com
+0.0.0.0 seattleymca.facebook.com
 0.0.0.0 secure.facebook.com
 0.0.0.0 graph.secure.facebook.com
 0.0.0.0 secure-edge-latest-shv-01-iev1.facebook.com
@@ -19701,6 +19708,7 @@
 0.0.0.0 whatsapp-chatd-msgr-edge-shv-03-sin6.facebook.com
 0.0.0.0 whatsapp-chatd-msgr-mini-edge-shv-01-atl3.facebook.com
 0.0.0.0 whatsapp-chatd-msgr-mini-edge-shv-01-dfw5.facebook.com
+0.0.0.0 whatsapp-chatd-msgr-mini-edge-shv-01-lga3.facebook.com
 0.0.0.0 whatsapp-chatd-msgr-mini-edge-shv-01-sea1.facebook.com
 0.0.0.0 wistron.facebook.com
 0.0.0.0 wit-edge-shv-01-gru1.facebook.com
@@ -19843,6 +19851,7 @@
 0.0.0.0 ai.fb.com
 0.0.0.0 www.ai.fb.com
 0.0.0.0 aotearoanz.fb.com
+0.0.0.0 www.aotearoanz.fb.com
 0.0.0.0 apacpolicy.fb.com
 0.0.0.0 www.apacpolicy.fb.com
 0.0.0.0 api.fb.com
@@ -20648,6 +20657,7 @@
 0.0.0.0 review.fb.com
 0.0.0.0 rightsmanager.fb.com
 0.0.0.0 www.rightsmanager.fb.com
+0.0.0.0 router-reboot-story.fb.com
 0.0.0.0 rozwoj.fb.com
 0.0.0.0 www.rozwoj.fb.com
 0.0.0.0 rozwoj-dev.fb.com
@@ -21277,6 +21287,7 @@
 0.0.0.0 apps-1266023950546267.fbsbx.com
 0.0.0.0 apps-127036382702092.fbsbx.com
 0.0.0.0 apps-1270620056667694.fbsbx.com
+0.0.0.0 apps-1293082061169019.fbsbx.com
 0.0.0.0 apps-1302416360184116.fbsbx.com
 0.0.0.0 apps-1305159549879635.fbsbx.com
 0.0.0.0 apps-1317629475266274.fbsbx.com
@@ -21494,6 +21505,7 @@
 0.0.0.0 integrated-plugin-canvas-341491175940639-487203226.fbsbx.com
 0.0.0.0 integrated-plugin-canvas-428789577222676-1170148942.fbsbx.com
 0.0.0.0 integrated-plugin-canvas-543613365654557-129474250.fbsbx.com
+0.0.0.0 integrated-plugin-canvas-596001507091107-1224313435.fbsbx.com
 0.0.0.0 integrated-plugin-canvas-rsrc.fbsbx.com
 0.0.0.0 interncache-ash.fbsbx.com
 0.0.0.0 interncache-atn.fbsbx.com
@@ -21517,6 +21529,7 @@
 0.0.0.0 maskota.fbsbx.com
 0.0.0.0 masks.fbsbx.com
 0.0.0.0 messenger-sdk.fbsbx.com
+0.0.0.0 mrbu4qs1zj8a79e23fwdgpnl6voi0xchky5t.fbsbx.com
 0.0.0.0 napps.fbsbx.com
 0.0.0.0 nightmask3.fbsbx.com
 0.0.0.0 od.fbsbx.com
@@ -22273,6 +22286,7 @@
 0.0.0.0 windows-live.messenger.com
 0.0.0.0 el-gr.windows-live.messenger.com
 0.0.0.0 bg-bg.el-gr.windows-live.messenger.com
+0.0.0.0 www.bg-bg.el-gr.windows-live.messenger.com
 0.0.0.0 www.windows-live.messenger.com
 0.0.0.0 wndows.messenger.com
 0.0.0.0 www.wndows.messenger.com
@@ -22285,6 +22299,7 @@
 0.0.0.0 www.messenger.com
 0.0.0.0 www-distance.messenger.com
 0.0.0.0 www1.messenger.com
+0.0.0.0 www.www1.messenger.com
 0.0.0.0 wwwhotmail.messenger.com
 0.0.0.0 www.wwwhotmail.messenger.com
 0.0.0.0 wwwm.messenger.com
@@ -28071,7 +28086,6 @@
 0.0.0.0 media.fcgh4-1.fna.whatsapp.net
 0.0.0.0 sonar.fcgk12-1.fna.whatsapp.net
 0.0.0.0 media.fcgk18-2.fna.whatsapp.net
-0.0.0.0 media.fcgk26-1.fna.whatsapp.net
 0.0.0.0 sonar.fcgk3-1.fna.whatsapp.net
 0.0.0.0 sonar.fcgk3-2.fna.whatsapp.net
 0.0.0.0 media.fcgk4-2.fna.whatsapp.net
