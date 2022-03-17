@@ -6,8 +6,8 @@
 !
 !  Title: oisd extra     
 !  Syntax: abp       
-!  Entries: 535    
-!  TimeUpdated: 10 Mar 2022 23:16 UTC         
+!  Entries: 556    
+!  TimeUpdated: 16 Mar 2022 23:14 UTC         
 !  Maintainer: sjhgvr
 !  Expires: 1 day (update frequency)
 !  Homepage: https://oisd.nl
@@ -15,9 +15,8 @@
 ||0emm.com^
 ||2cnt.net^
 ||2o7.net^
-||7rtv.com^
+||5yfi7sy.com^
 ||247-inc.net^
-||365339.top^
 ||810251.com^
 ||a-mo.net^
 ||a.klaviyo.com^
@@ -31,6 +30,7 @@
 ||adbrix.io^
 ||adcell.com^
 ||adcolo.com^
+||adedy.com^
 ||adform.net^
 ||adjust.com^
 ||adnetasia.com^
@@ -39,9 +39,11 @@
 ||adperfect.com^
 ||adpushup.com^
 ||adregain.com^
+||adresponse.it^
 ||adsafeprotected.com^
 ||adsafety.net^
 ||adservicemedia.dk^
+||adspro.it^
 ||adtech.de^
 ||adtrackers.net^
 ||adtraction.com^
@@ -55,12 +57,14 @@
 ||akstat.io^
 ||alb.reddit.com^
 ||alimama.com^
+||aliyunj.xyz^
 ||alpari.ru^
 ||amazon-adsystem.com^
 ||amdc.m.taobao.com^
 ||amplitude.com^
 ||analytics.edgekey.net^
 ||analytics.robinhood.com^
+||andrewsolicitors.com^
 ||android.bugly.qq.com^
 ||androidtvchannels-pa.googleapis.com^
 ||androidtvwatsonfe-pa.googleapis.com^
@@ -78,12 +82,16 @@
 ||appcast.io^
 ||appmetrica.yandex.com^
 ||asadcdn.com^
+||assaulttra.one^
 ||assoc-amazon.com^
+||assoc-amazon.it^
 ||at-o.net^
 ||auditude.com^
+||autoua.com^
 ||awemwh.com^
 ||awin1.com^
 ||bam-x.com^
+||bannerexplosion.it^
 ||bannertrack.net^
 ||baremetrics.com^
 ||bc0a.com^
@@ -94,7 +102,6 @@
 ||bfast.com^
 ||bi.medscape.com^
 ||bigdata.ssp.samsung.com^
-||bitraffic.com^
 ||bizrate.com^
 ||blueconic.net^
 ||bluecore.com^
@@ -113,6 +120,7 @@
 ||browser.sentry-cdn.com^
 ||btstatic.com^
 ||budurl.com^
+||bxczchdxynw.com^
 ||c-api-bit.shopeemobile.com^
 ||c.live.com^
 ||c.msn.com^
@@ -124,7 +132,6 @@
 ||cftrack.com^
 ||cintnetworks.com^
 ||clc.stackoverflow.com^
-||clerk.io^
 ||cleverpush.com^
 ||click-url.com^
 ||clickcease.com^
@@ -136,6 +143,7 @@
 ||cnetcontentsolutions.com^
 ||cnzz.com^
 ||cohesionapps.com^
+||coinever.net^
 ||commander1.com^
 ||commission-junction.com^
 ||conduit-services.com^
@@ -145,7 +153,6 @@
 ||converti.se^
 ||coremetrics.com^
 ||countvoncount.goguardian.com^
-||cpmsolution.ru^
 ||cptrack.de^
 ||cquotient.com^
 ||csr.onet.pl^
@@ -156,6 +163,7 @@
 ||customer.io^
 ||customerevents.netflix.com^
 ||cws.conviva.com^
+||cyacc.com^
 ||d1af033869koo7.cloudfront.net^
 ||d1z2jf7jlzjs58.cloudfront.net^
 ||d1zgderxoe1a.cloudfront.net^
@@ -170,6 +178,7 @@
 ||demdex.net^
 ||digitaladvisor.dk^
 ||directtrack.com^
+||djsn888.com^
 ||djtflbt20bdde.cloudfront.net^
 ||dnsseed.bitcoin.dashjr.org^
 ||dnsseed.bluematt.me^
@@ -183,7 +192,6 @@
 ||easysol.net^
 ||edrone.me^
 ||elastx.net^
-||endoilip.com^
 ||ensighten.com^
 ||eu.spgo.io^
 ||eulerian.brandalley.fr^
@@ -196,7 +204,7 @@
 ||events.split.io^
 ||everesttech.net^
 ||eviltracker.net^
-||evolutionadv.it^
+||evt.mxplay.com^
 ||exactag.com^
 ||exacttarget.com^
 ||exosrv.com^
@@ -210,11 +218,11 @@
 ||flexlinkspro.com^
 ||flixcar.com^
 ||flx1.com^
-||fnacgbik9v14.com^
 ||forter.com^
 ||fourier.taobao.com^
 ||freegeoip.app^
 ||frontier.musical.ly^
+||furocmay.com^
 ||gc.zgo.at^
 ||gecko-sg.byteoversea.com^
 ||gemius.pl^
@@ -232,10 +240,12 @@
 ||gopjn.com^
 ||gosquared.com^
 ||graph.facebook.com^
+||greetpanda.info^
 ||gus.host^
 ||gvt2.com^
 ||hit.interia.pl^
 ||hitmarkerjobs.com^
+||hormebets.info^
 ||hostip.info^
 ||hotelscombined.com.au^
 ||hotkeys.com^
@@ -249,6 +259,7 @@
 ||ichnaea-web.netflix.com^
 ||ichnaea.netflix.com^
 ||idealmedia.io^
+||imitrk.com^
 ||impactradius.com^
 ||includecheck.oisd.nl^
 ||indexww.com^
@@ -270,6 +281,7 @@
 ||ironbeast.io^
 ||isnssdk.com^
 ||ist-track.com^
+||jbrlsr.com^
 ||jdoqocy.com^
 ||jivox.com^
 ||journity.com^
@@ -277,11 +289,13 @@
 ||jwpltx.com^
 ||kampyle.com^
 ||kaxsdc.com^
+||kilopog.com^
 ||kochava.com^
 ||krxd.net^
 ||l2.io^
 ||leadpages.net^
 ||leanplum.com^
+||leonardoadv.it^
 ||lgsmartad.com^
 ||linkev.com^
 ||livetex.ru^
@@ -333,7 +347,6 @@
 ||multiview.com^
 ||mxpnl.com^
 ||mybloglog.com^
-||mycookies.it^
 ||myvisualiq.net^
 ||nabbr.com^
 ||nanigans.com^
@@ -343,6 +356,7 @@
 ||netcore.co.in^
 ||netupdater.info^
 ||nexage.com^
+||njdijiani.com^
 ||njih.net^
 ||nonstoppartner.net^
 ||nr-data.net^
@@ -357,18 +371,19 @@
 ||p.tanx.com^
 ||p.typekit.net^
 ||p.yotpo.com^
-||padssup.com^
 ||pangle.io^
 ||panther.goguardian.com^
 ||parkingcrew.net^
 ||parklogic.com^
 ||partner-ads.com^
 ||partycasino.com^
+||peemee.com^
 ||peerius.com^
 ||pepperjamnetwork.com^
 ||perfdrive.com^
 ||perr.h-cdn.com^
 ||pf.intuit.com^
+||phenompeople.com^
 ||pidorg.ru^
 ||ping-admin.ru^
 ||pings.conviva.com^
@@ -388,15 +403,18 @@
 ||postclickmarketing.com^
 ||ppcprotect.com^
 ||ppro.de^
+||presentlyarch.com^
 ||privacy-policy.truste.com^
-||privacysecurityprotection.com^
+||profilesnitch.com^
 ||promos.fling.com^
 ||prvsz4pe.micpn.com^
 ||publicidees.com^
 ||pushwelcome.com^
 ||pv.sohu.com^
+||pwrads.net^
 ||px.spiceworks.com^
 ||pxf.io^
+||qinchugudao.com^
 ||qksrv.net^
 ||quantserve.com^
 ||quantummetric.com^
@@ -406,6 +424,7 @@
 ||r42tag.com^
 ||radeant.com^
 ||ramp.purch.com^
+||rcsadv.it^
 ||realsrv.com^
 ||recruitics.com^
 ||recs.richrelevance.com^
@@ -418,7 +437,9 @@
 ||resolver.msg.xiaomi.net^
 ||resu8.hjfile.cn^
 ||rezync.com^
+||ritchelu.com^
 ||rlcdn.com^
+||rollersadnessstranded.com^
 ||rubicon.wellsfargo.com^
 ||rutrk.org^
 ||sail-horizon.com^
@@ -434,10 +455,10 @@
 ||seal.verisign.com^
 ||securitymetrics.com^
 ||sedoparking.com^
-||seed.bitcoin.sipa.be^
 ||seed.bitcoinstats.com^
 ||segment.com^
 ||segment.io^
+||selfevidentpotsfertility.com^
 ||sensic.net^
 ||servebbs.net^
 ||servedby.o2.co.uk^
@@ -456,6 +477,7 @@
 ||smetrics.discover.com^
 ||smljmp.com^
 ||snat.goguardian.com^
+||soalouve.com^
 ||srvtrck.com^
 ||sstats.adobe.com^
 ||stat.download.xunlei.com^
@@ -511,7 +533,6 @@
 ||us04logfiles.zoom.us^
 ||usabilla.com^
 ||useinsider.com^
-||uuu88.top^
 ||v.shopify.com^
 ||velaro.com^
 ||verify.authorize.net^
@@ -536,14 +557,14 @@
 ||wt-eu02.net^
 ||x3-policy-maker.goguardian.com^
 ||x3-predictor.goguardian.com^
+||xapi.ozon.ru^
 ||xlog-va.musical.ly^
 ||xtxa.net^
 ||xxxjmp.com^
 ||yeswegays.com^
 ||ynwqls.com^
-||yobee.it^
-||you-cant-win.com^
 ||youbora.com^
 ||youvisit.com^
 ||zanox.com^
 ||zenaps.com^
+||zhuhaiqilu.cn^

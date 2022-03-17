@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-03-08T13:05:22+00:00
-# Count: 1629 domains
+# Released: 2022-03-17T01:05:24+00:00
+# Count: 1646 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -562,6 +562,7 @@
 0.0.0.0 niggermania.com
 0.0.0.0 www.niggermania.com
 0.0.0.0 officialproudboys.com
+0.0.0.0 proudofyourstore.officialproudboys.com
 0.0.0.0 www.officialproudboys.com
 0.0.0.0 organiclifestylemagazine.com
 0.0.0.0 dev.organiclifestylemagazine.com
@@ -910,6 +911,7 @@
 0.0.0.0 pray.afa.net
 0.0.0.0 pulseway.afa.net
 0.0.0.0 resources.afa.net
+0.0.0.0 site2.resources.afa.net
 0.0.0.0 shareathonwebhook.afa.net
 0.0.0.0 track.spark-post.afa.net
 0.0.0.0 streamer1.afa.net
@@ -1540,6 +1542,21 @@
 0.0.0.0 1776.shop
 0.0.0.0 em.1776.shop
 0.0.0.0 www.1776.shop
+0.0.0.0 dailystormer.su
+0.0.0.0 247www.dailystormer.su
+0.0.0.0 94.247www.dailystormer.su
+0.0.0.0 103.94.247www.dailystormer.su
+0.0.0.0 94.103.94.247www.dailystormer.su
+0.0.0.0 de.dailystormer.su
+0.0.0.0 es.dailystormer.su
+0.0.0.0 forum.dailystormer.su
+0.0.0.0 forums.dailystormer.su
+0.0.0.0 it.dailystormer.su
+0.0.0.0 ns1.dailystormer.su
+0.0.0.0 ns2.dailystormer.su
+0.0.0.0 smtp.dailystormer.su
+0.0.0.0 webmail.dailystormer.su
+0.0.0.0 www.dailystormer.su
 0.0.0.0 8kun.top
 0.0.0.0 018.8kun.top
 0.0.0.0 13b.8kun.top
