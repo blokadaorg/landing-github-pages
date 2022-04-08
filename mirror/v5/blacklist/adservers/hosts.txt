@@ -6,7 +6,7 @@
 # Title: Anudeep's Blacklist
 # Expires: 1 days
 # Hosts contributed by Anudeep <anudeep@protonmail.com>
-# Domain count: 42,517
+# Domain count: 42,553
 # ===================================================================
 0.0.0.0 0001-cab8-4c8c-43de.reporo.net
 0.0.0.0 002-slq-470.mktoresp.com
@@ -4916,8 +4916,6 @@
 0.0.0.0 api.market.pubnative.net
 0.0.0.0 api.mediavoice.com
 0.0.0.0 api-metrics.flurry.com
-0.0.0.0 api.micloud.xiaomi.net
-0.0.0.0 api.miui.security.xiaomi.com
 0.0.0.0 api.mixpanel.com
 0.0.0.0 api.mobileapptracking.com
 0.0.0.0 api.mobile.cnzz.com
@@ -5151,7 +5149,6 @@
 0.0.0.0 app.magnetic.com
 0.0.0.0 app.manage.ensighten.com
 0.0.0.0 app.marketo.com
-0.0.0.0 app.market.xiaomi.com
 0.0.0.0 app-measurement.com
 0.0.0.0 app.mediaplex.com
 0.0.0.0 appmetrica.webvisor.com
@@ -7777,11 +7774,7 @@
 0.0.0.0 csr.inspsearchapi.com
 0.0.0.0 csr-k.tlnk.io
 0.0.0.0 c-srvjsr.media.net
-0.0.0.0 cssak.mmtcdn.com
-0.0.0.0 css-cd.mmtcdn.com
 0.0.0.0 css.f-4560.com
-0.0.0.0 csshtlak.mmtcdn.com
-0.0.0.0 css.mmtcdn.com
 0.0.0.0 c-stat.eu
 0.0.0.0 cstest.adtechus.com
 0.0.0.0 cs.w.inmobi.com
@@ -8190,7 +8183,6 @@
 0.0.0.0 data.stage.insert.io
 0.0.0.0 datastore.rediff.com
 0.0.0.0 datatracker.crittercism.com
-0.0.0.0 data.unacademy.com
 0.0.0.0 data-viz-challenge.localytics.com
 0.0.0.0 dataxpandauto.t.domdex.com
 0.0.0.0 dataxpandcareers.t.domdex.com
@@ -10147,9 +10139,6 @@
 0.0.0.0 files-www2.adsnative.com
 0.0.0.0 fill.juicyads.com
 0.0.0.0 fillymedia.go2affise.com
-0.0.0.0 fi-mtv3.cdn.videoplaza.tv
-0.0.0.0 fi-mtv3.videoplaza.tv
-0.0.0.0 fi-mtv.videoplaza.tv
 0.0.0.0 finaff.go2affise.com
 0.0.0.0 finam-rss.mirtesen.ru
 0.0.0.0 finance.admitad.com
@@ -11397,7 +11386,6 @@
 0.0.0.0 ht-mdw.hoverr.media
 0.0.0.0 ht-miss.hoverr.media
 0.0.0.0 html5.adsrvr.org
-0.0.0.0 html.mmtcdn.com
 0.0.0.0 html.pubnative.net
 0.0.0.0 ht-moi.hoverr.media
 0.0.0.0 ht-ndjw.hoverr.media
@@ -12310,11 +12298,9 @@
 0.0.0.0 img.ads.m1.pubmatic.com
 0.0.0.0 imgads.media.net
 0.0.0.0 img.adtech.de
-0.0.0.0 imgak.mmtcdn.com
 0.0.0.0 img-ams5.mediaplex.com
 0.0.0.0 img.applovin.com
 0.0.0.0 img.atdmt.com
-0.0.0.0 img-cd.mmtcdn.com
 0.0.0.0 img-cdn2.mediaplex.com
 0.0.0.0 img-cdn.mediaplex.com
 0.0.0.0 img-cdn.steepto.com
@@ -12329,8 +12315,6 @@
 0.0.0.0 imgg.mgid.com
 0.0.0.0 imggprx.mgid.com
 0.0.0.0 imgg.steepto.com
-0.0.0.0 imghtlak.mmtcdn.com
-0.0.0.0 imghtl.mmtcdn.com
 0.0.0.0 img-iad.mediaplex.com
 0.0.0.0 img-iad.wip.mediaplex.com
 0.0.0.0 img.launcher.ksmobile.com
@@ -12338,7 +12322,6 @@
 0.0.0.0 img.media.net
 0.0.0.0 img.mediaplex.com
 0.0.0.0 img.mgid.com
-0.0.0.0 img.mmtcdn.com
 0.0.0.0 imgn.mgid.com
 0.0.0.0 imgn.steepto.com
 0.0.0.0 img-origin.trafficshop.com
@@ -12907,11 +12890,9 @@
 0.0.0.0 js.advideo.ru
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.agkn.com
-0.0.0.0 jsak.mmtcdn.com
 0.0.0.0 jsc1.mgid.com
 0.0.0.0 jsc.adskeeper.co.uk
 0.0.0.0 jsc-cdn.mgid.com
-0.0.0.0 js-cd.mmtcdn.com
 0.0.0.0 jsc.mgid.com
 0.0.0.0 jsd.supersonicads.com
 0.0.0.0 jsecoin.com
@@ -12923,13 +12904,11 @@
 0.0.0.0 js.hscta.net
 0.0.0.0 js.hsleadflows.net
 0.0.0.0 js.hs-scripts.com
-0.0.0.0 jshtlak.mmtcdn.com
 0.0.0.0 js.idio.co
 0.0.0.0 js.juicyads.com
 0.0.0.0 jsks.biz
 0.0.0.0 js.leadin.com
 0.0.0.0 js.mgid.com
-0.0.0.0 js.mmtcdn.com
 0.0.0.0 js.moatads.com
 0.0.0.0 js.mobojoy.baidu.com
 0.0.0.0 js.mtburn.com
@@ -13998,7 +13977,6 @@
 0.0.0.0 md-i-s.apptimize.com
 0.0.0.0 m.dlx.addthis.com
 0.0.0.0 md-nj.lfstmedia.com
-0.0.0.0 m.do.co
 0.0.0.0 m.doubleclick.net
 0.0.0.0 mdt-www.marketo.com
 0.0.0.0 mea.marketo.com
@@ -17209,7 +17187,6 @@
 0.0.0.0 r1.ace.advertising.com
 0.0.0.0 r1-ads.ace.advertising.com
 0.0.0.0 r1.beta.ace.advertising.com
-0.0.0.0 r1imghtlak.mmtcdn.com
 0.0.0.0 r1.tcr1.tynt.com
 0.0.0.0 r1.tcr41.tynt.com
 0.0.0.0 r1.tcr52.tynt.com
@@ -17494,8 +17471,6 @@
 0.0.0.0 richmondtimesdispatch.d1.sc.omtrdc.net
 0.0.0.0 rick.unbounce.com
 0.0.0.0 rightdiagnosis.us.intellitxt.com
-0.0.0.0 rimgak.mmtcdn.com
-0.0.0.0 rimghtlak.mmtcdn.com
 0.0.0.0 ringsrecord.com
 0.0.0.0 rinuk.mirtesen.ru
 0.0.0.0 ris-gateway.supersonicads.com
@@ -18177,7 +18152,6 @@
 0.0.0.0 sc.iasds01.com
 0.0.0.0 scifi-forum.de.intellitxt.com
 0.0.0.0 scintillatingspace.com
-0.0.0.0 s.click.aliexpress.com
 0.0.0.0 s.clickiocdn.com
 0.0.0.0 sc.mgid.com
 0.0.0.0 s.cm.ksmobile.com
@@ -18306,7 +18280,6 @@
 0.0.0.0 secure.adnxs.com
 0.0.0.0 secure-ads.mopub.com
 0.0.0.0 secure.advertising.com
-0.0.0.0 secure-api.gravity.com
 0.0.0.0 secure-app.mediaplex.com
 0.0.0.0 secure-asia.imrworldwide.com
 0.0.0.0 secure-assets.rubiconproject.com
@@ -18424,7 +18397,6 @@
 0.0.0.0 sentry.getadmiral.com
 0.0.0.0 sentry.hotjar.com
 0.0.0.0 sentry.mopub.com
-0.0.0.0 seoimgak.mmtcdn.com
 0.0.0.0 seo.marketo.com
 0.0.0.0 separatesilver.com
 0.0.0.0 sephora.demdex.net
@@ -19922,7 +19894,6 @@
 0.0.0.0 static.media.net
 0.0.0.0 static.message.umeng.com
 0.0.0.0 static.mgid.com
-0.0.0.0 static.mmtcdn.com
 0.0.0.0 static.mopub.com
 0.0.0.0 static-new.vertamedia.com
 0.0.0.0 static.outbrain.com
@@ -19961,7 +19932,6 @@
 0.0.0.0 statisticsapi.stage.vidible.tv
 0.0.0.0 statisticsapi.vidible.tv
 0.0.0.0 stat.media
-0.0.0.0 stat.moneycontrol.co.in
 0.0.0.0 statravelde.widget.criteo.com
 0.0.0.0 statravel.t.domdex.com
 0.0.0.0 stats10.stickyadstv.com
@@ -20056,7 +20026,6 @@
 0.0.0.0 staty.portalradiowy.pl
 0.0.0.0 stayfriendsch.widget.criteo.com
 0.0.0.0 stayfriendsse.widget.criteo.com
-0.0.0.0 stc.aeplcdn.com
 0.0.0.0 st.districtm.ca
 0.0.0.0 s.teads.tv
 0.0.0.0 steepandcheap.com.102.112.2o7.net
@@ -21556,7 +21525,6 @@
 0.0.0.0 us-pl.vizury.com
 0.0.0.0 uspstudios.vidible.tv
 0.0.0.0 us-pulpomedia.videoplaza.tv
-0.0.0.0 usrimgak.mmtcdn.com
 0.0.0.0 us.rmcontent.advertising.com
 0.0.0.0 us.rmevent.advertising.com
 0.0.0.0 usr.mgid.com
@@ -23009,7 +22977,6 @@
 0.0.0.0 www.mgid.com
 0.0.0.0 www.ministryofads.com
 0.0.0.0 www.mirtesen.ru
-0.0.0.0 www.mmtcdn.com
 0.0.0.0 www.moatads.com
 0.0.0.0 www.mobileapptracking.com
 0.0.0.0 www.mobiquitynetworks.com
@@ -31291,7 +31258,6 @@
 0.0.0.0 collector-px8fcgygk4.perimeterx.net
 0.0.0.0 d.impactradius-event.com
 0.0.0.0 data.coremetrics.com
-0.0.0.0 graph.instagram.com
 0.0.0.0 hb.brainlyads.com
 0.0.0.0 push.content-ad.net
 0.0.0.0 the-eighth-d.openx.net
@@ -35839,8 +35805,6 @@
 0.0.0.0 co4.telecommand.telemetry.microsoft.com.akadns.net
 0.0.0.0 telemetry.dropbox.com
 0.0.0.0 telemetry.v.dropbox.com
-0.0.0.0 us04logfiles.zoom.us
-0.0.0.0 logfiles-va-zd1.zoom.us
 0.0.0.0 tracking.edvisors.com
 0.0.0.0 ads.foodieblogroll.com
 0.0.0.0 adeventtracker.spotify.com
@@ -39971,7 +39935,6 @@
 0.0.0.0 us.linkury.com
 0.0.0.0 vc-stats.linkury.com
 0.0.0.0 ws-cloud.linkury.com
-0.0.0.0 logfiles.zoom.us
 0.0.0.0 d2r1yp2w7bby2u.cloudfront.net
 0.0.0.0 clicks.beap.bc.yahoo.com
 0.0.0.0 bifrost-api.hotstar.com
@@ -40288,7 +40251,6 @@
 0.0.0.0 adservice.google.cat
 0.0.0.0 adservice.google.org
 0.0.0.0 adservice.google.net
-0.0.0.0 improving.duckduckgo.com
 0.0.0.0 p3a.brave.com
 0.0.0.0 img.img-taboola.com
 0.0.0.0 ascstats.iobit.com
@@ -42067,15 +42029,6 @@
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 chegginc.demdex.net
 0.0.0.0 log.zoom.us
-0.0.0.0 logfiles-va-3.zoom.us
-0.0.0.0 logfiles-va-4.zoom.us
-0.0.0.0 logfiles-va-5.zoom.us
-0.0.0.0 logfiles-va-6.zoom.us
-0.0.0.0 logfiles-va-za1.zoom.us
-0.0.0.0 logfiles-va-zd1.zoom.us
-0.0.0.0 logfiles-va.zoom.us
-0.0.0.0 logfiles.zoom.us
-0.0.0.0 us04logfiles.zoom.us
 0.0.0.0 analytics.chegg.com
 0.0.0.0 log.gomlab.com
 0.0.0.0 gomlab-log-17054681.us-east-1.elb.amazonaws.com
@@ -42525,3 +42478,86 @@
 0.0.0.0 welcometocornerstone.com
 0.0.0.0 whitelist.eu
 0.0.0.0 whitelisted.org
+0.0.0.0 phog.ycombinator.com
+0.0.0.0 metrics.spbtv.com
+0.0.0.0 salpato.numo.in
+0.0.0.0 a.omappapi.com
+0.0.0.0 omappapi.com
+0.0.0.0 api.omappapi.com
+0.0.0.0 api.rollbar.com
+0.0.0.0 cdn.rollbar.com
+0.0.0.0 messiah.id
+0.0.0.0 www.messiah.id
+0.0.0.0 www.rescuemetrics.com
+0.0.0.0 app.rescuemetrics.com
+0.0.0.0 assets.rescuemetrics.com
+0.0.0.0 goto.rescuemetrics.com
+0.0.0.0 id.rescuemetrics.com
+0.0.0.0 kdloikam.rescuemetrics.com
+0.0.0.0 ckdloikam.rescuemetrics.com
+0.0.0.0 api.factors.ai
+0.0.0.0 flash.factors.ai
+0.0.0.0 lemtrail.factors.ai
+0.0.0.0 localytics701e1fc.factors.ai
+0.0.0.0 mails.factors.ai
+0.0.0.0 sloth.factors.ai
+0.0.0.0 www.snigelweb.com
+0.0.0.0 adengine.snigelweb.com
+0.0.0.0 adserv.snigelweb.com
+0.0.0.0 adserv-fra1.snigelweb.com
+0.0.0.0 adserv-nyc1.snigelweb.com
+0.0.0.0 adserv-sfo3.snigelweb.com
+0.0.0.0 adserv-sgp1.snigelweb.com
+0.0.0.0 advantage.snigelweb.com
+0.0.0.0 api.snigelweb.com
+0.0.0.0 argus.snigelweb.com
+0.0.0.0 argus-fra1.snigelweb.com
+0.0.0.0 auctioneer.snigelweb.com
+0.0.0.0 call.snigelweb.com
+0.0.0.0 cdn.snigelweb.com
+0.0.0.0 cmp.snigelweb.com
+0.0.0.0 crm.snigelweb.com
+0.0.0.0 drive.snigelweb.com
+0.0.0.0 geo-eu.snigelweb.com
+0.0.0.0 geo-us.snigelweb.com
+0.0.0.0 loader-adserv.snigelweb.com
+0.0.0.0 manager.snigelweb.com
+0.0.0.0 master-adserv-fra1.snigelweb.com
+0.0.0.0 meet.snigelweb.com
+0.0.0.0 playground.snigelweb.com
+0.0.0.0 playground-adserv.snigelweb.com
+0.0.0.0 portal.snigelweb.com
+0.0.0.0 prebidbuilder.snigelweb.com
+0.0.0.0 prototypes.snigelweb.com
+0.0.0.0 public.snigelweb.com
+0.0.0.0 sandbox.snigelweb.com
+0.0.0.0 spd.snigelweb.com
+0.0.0.0 static.snigelweb.com
+0.0.0.0 toolbox.snigelweb.com
+0.0.0.0 vtiger.snigelweb.com
+0.0.0.0 www.adtdp.com
+0.0.0.0 adtdp.com
+0.0.0.0 adp-pubd-static.adtdp.com
+0.0.0.0 adt-static.adtdp.com
+0.0.0.0 cast-cf-j.adtdp.com
+0.0.0.0 ich-loss.adtdp.com
+0.0.0.0 ich-rd.adtdp.com
+0.0.0.0 ich-rtb.adtdp.com
+0.0.0.0 ich-vt.adtdp.com
+0.0.0.0 ich-wn.adtdp.com
+0.0.0.0 iris.adtdp.com
+0.0.0.0 opemane.adtdp.com
+0.0.0.0 rs-j.adtdp.com
+0.0.0.0 rs-sync.adtdp.com
+0.0.0.0 stg-opemane.adtdp.com
+0.0.0.0 stg-tgdfm.adtdp.com
+0.0.0.0 tgdfm.adtdp.com
+0.0.0.0 cast-js-j.adtdp.com
+0.0.0.0 j-serval.adtdp.com
+0.0.0.0 stg-j-serval.adtdp.com
+0.0.0.0 wpadmngr.com
+0.0.0.0 www.wpadmngr.com
+0.0.0.0 js.wpadmngr.com
+0.0.0.0 telemetrydeck.com
+0.0.0.0 www.telemetrydeck.com
+0.0.0.0 api.telemetrydeck.com
