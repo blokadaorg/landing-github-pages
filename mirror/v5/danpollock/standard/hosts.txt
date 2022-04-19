@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 07 Apr 2022 at 00:49:02 GMT
+# Last updated: Sat, 09 Apr 2022 at 03:00:07 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -7507,7 +7507,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 prod-a.applovin.com
 127.0.0.1 productresearchpanel.com
 127.0.0.1 producttestpanel.com
-127.0.0.1 prodxnews1blob.blob.core.windows.net
 127.0.0.1 profile.uproxx.com
 127.0.0.1 profiline-berlin.de
 127.0.0.1 profitboosterapp.com
