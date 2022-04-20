@@ -41,6 +41,15 @@
             }
         },
         {
+            "name": "Blokada Cloud",
+            "forBuild": "sixRelease"
+        },
+        {
+            "name": "Blokada Cloud (Beta)",
+            "forBuild": "sixBeta"
+        },
+// Below are legacy releases that can be removed eventually
+        {
             "name": "Blokada 5: XDA",
             "forBuild": "xdaRelease"
         },
