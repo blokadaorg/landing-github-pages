@@ -37,7 +37,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_beta"
                 ],
-                "newest": "5.20.2"
+                "newest": "5.21.0"
             }
         },
         {
