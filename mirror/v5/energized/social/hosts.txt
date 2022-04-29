@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 22.04.112
-# Release: 112
-# Entries: 6,960
+# Version: 22.04.119
+# Release: 119
+# Entries: 6,961
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Fri, 22 Apr 22 12:14:48 +06
+# Updated: Fri, 29 Apr 22 08:19:22 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -6324,6 +6324,7 @@ xmpp.odnoklassniki.ru
 x.myspacecdn.com
 x.myspace.com
 xn--h1avi.telegram.org
+xn--r1a.website
 x.pluso.ru
 xpndr.skyrock.com
 xp.reddit.com
