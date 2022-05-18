@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sat, 09 Apr 2022 at 03:00:07 GMT
+# Last updated: Mon, 16 May 2022 at 02:09:30 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1645,6 +1645,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 bluescreenalert.com
 127.0.0.1 blw4-1.com
 127.0.0.1 bnvxcfhdgf.blogspot.com.es
+127.0.0.1 bobcard.co.in
 127.0.0.1 bopstermedia56.com
 127.0.0.1 brightonclick.com
 127.0.0.1 brunga.at	# Facebook phishing attempt
@@ -1663,6 +1664,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 changduk26.com			# Facebook trojan
 127.0.0.1 checkfreevideos.net
 127.0.0.1 chelick.net				# Facebook trojan
+127.0.0.1 cicontents.biz
 127.0.0.1 ciiycode.com
 127.0.0.1 cioco-froll.com
 127.0.0.1 clean-mobilephone.com
@@ -1708,6 +1710,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 en.btc-trader-app.club
 127.0.0.1 en.likefever.org			# Facebook trojan
 127.0.0.1 eol1.egyptonline.com
+127.0.0.1 eslprologmvp.com
+127.0.0.1 eslprotourmvp.com
 127.0.0.1 exasked.com
 127.0.0.1 expertland.net
 127.0.0.1 expired-antiviruses.com

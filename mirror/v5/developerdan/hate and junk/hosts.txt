@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-04-01T13:05:23+00:00
-# Count: 1649 domains
+# Released: 2022-05-13T13:05:24+00:00
+# Count: 1656 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -294,6 +294,7 @@
 0.0.0.0 stream2.infowars.com
 0.0.0.0 stream3.infowars.com
 0.0.0.0 streams.infowars.com
+0.0.0.0 streams1.infowars.com
 0.0.0.0 support.infowars.com
 0.0.0.0 talk.infowars.com
 0.0.0.0 testing.infowars.com
@@ -498,6 +499,7 @@
 0.0.0.0 mesquite.naturalnews.com
 0.0.0.0 microalgaesuperfoodpowder.naturalnews.com
 0.0.0.0 mineralandelectrolytedrops.naturalnews.com
+0.0.0.0 mobile.naturalnews.com
 0.0.0.0 monitor.naturalnews.com
 0.0.0.0 mothersdaysale.naturalnews.com
 0.0.0.0 naturalvitamincfromamlafruit.naturalnews.com
@@ -890,6 +892,7 @@
 0.0.0.0 dev.adserver.afa.net
 0.0.0.0 afapledge.afa.net
 0.0.0.0 pre.afapledge.afa.net
+0.0.0.0 test.afapledge.afa.net
 0.0.0.0 aml.afa.net
 0.0.0.0 apppush.afa.net
 0.0.0.0 bitrix.afa.net
@@ -969,6 +972,7 @@
 0.0.0.0 localhost.qalerts.net
 0.0.0.0 www.qalerts.net
 0.0.0.0 qanon.news
+0.0.0.0 email.qanon.news
 0.0.0.0 mssql.qanon.news
 0.0.0.0 www.qanon.news
 0.0.0.0 qposts.online
@@ -979,6 +983,7 @@
 0.0.0.0 mail.911truth.org
 0.0.0.0 www.911truth.org
 0.0.0.0 atomwaffendivision.org
+0.0.0.0 ww7.atomwaffendivision.org
 0.0.0.0 www.atomwaffendivision.org
 0.0.0.0 bloodandsoil.org
 0.0.0.0 membership.bloodandsoil.org
@@ -1267,6 +1272,7 @@
 0.0.0.0 webmail.paulcraigroberts.org
 0.0.0.0 www.paulcraigroberts.org
 0.0.0.0 rtc.org
+0.0.0.0 activesync.rtc.org
 0.0.0.0 autodiscover.rtc.org
 0.0.0.0 danish.rtc.org
 0.0.0.0 davidmiscavige.rtc.org
@@ -1278,6 +1284,7 @@
 0.0.0.0 hungarian.rtc.org
 0.0.0.0 italian.rtc.org
 0.0.0.0 japanese.rtc.org
+0.0.0.0 mail.rtc.org
 0.0.0.0 miscavige.rtc.org
 0.0.0.0 index.miscavige.rtc.org
 0.0.0.0 mx.rtc.org
