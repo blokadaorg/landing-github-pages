@@ -60,8 +60,8 @@
             "name": "Blokada 5 Slim: Google Play",
             "forBuild": "googleRelease",
             "payload": {
-                 "cmd": "escape/520000002",
-                 "version": 19
+                 "cmd": "escape/521000000",
+                 "version": 20
              }
         },
         {
