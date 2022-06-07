@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 16 May 2022 at 02:09:30 GMT
+# Last updated: Sun, 05 Jun 2022 at 07:17:13 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1733,6 +1733,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 free.videodownloadconverter.com
 127.0.0.1 freecontent.bid
 127.0.0.1 freedailydownload.com
+127.0.0.1 freshzz00.duckdns.org
 127.0.0.1 froling.bee.pl
 127.0.0.1 fromru.su
 127.0.0.1 ftdownload.com
@@ -1821,6 +1822,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 lp.cleanmymac.online
 127.0.0.1 lrt7a.coldcertainchannel.com
 127.0.0.1 lucklayed.info
+127.0.0.1 luxdiscount.zone
 127.0.0.1 m01.webwise.org
 127.0.0.1 m02.webwise.org
 127.0.0.1 mac-osx.message-warning.net
@@ -1864,6 +1866,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 monkeyball.osa.pl
 127.0.0.1 movies.701pages.com
 127.0.0.1 mp3red.cc
+127.0.0.1 ms-shoponline.top
 127.0.0.1 ms-shopplus.su
 127.0.0.1 mshelp247.weebly.com
 127.0.0.1 murcia-ban.es
@@ -2001,6 +2004,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 techques.com
 127.0.0.1 test.ishvara-yoga.com
 127.0.0.1 thailandtravel.live
+127.0.0.1 thebestwebpillplace.com
 127.0.0.1 thedatesafe.com			# Facebook trojan
 127.0.0.1 themusicnetwork.co.uk
 127.0.0.1 thunderbird.es
@@ -2013,6 +2017,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tradedealvip.su
 127.0.0.1 traffic-bam.link
 127.0.0.1 traffic.adwitty.com
+127.0.0.1 trk.wizzdeal.trade
 127.0.0.1 trovi.com
 127.0.0.1 truecrypt.fr
 127.0.0.1 trusturl.top
@@ -3598,6 +3603,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 a3.suntimes.com
 127.0.0.1 a7cleaner.com
 127.0.0.1 aa.agkn.com
+127.0.0.1 aa.tweakers.nl
 127.0.0.1 aaa-architecten.nl
 127.0.0.1 aaa-arcobaleno.it
 127.0.0.1 aads.treehugger.com
@@ -3607,6 +3613,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 aax-us-east.amazon-adsystem.com
 127.0.0.1 aax-us-pdx.amazon-adsystem.com
 127.0.0.1 aax.amazon-adsystem.com
+127.0.0.1 ab.tweakers.nl
 127.0.0.1 ab913aa797e78b3.com
 127.0.0.1 abi83-schramberg.de
 127.0.0.1 abourselfi.com
