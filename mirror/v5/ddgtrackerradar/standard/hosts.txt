@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-06-07 18:18:01.672856
+# Generated at 2022-06-08 07:38:07.180479
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -2569,7 +2569,6 @@ ipgeolocation.abstractapi.com
 widget.sndcdn.com
 i1.sndcdn.com
 wave.sndcdn.com
-cf-hls-media.sndcdn.com
 gateway.yieldify-production.com
 fonts.yieldify-production.com
 img3.doubanio.com.w.alikunlun.com
@@ -5265,7 +5264,6 @@ theentertainer.ugc.bazaarvoice.com
 heart.mysingleromance.com
 cs2001.wpc.edgecastcdn.net
 cs472.wac.edgecastcdn.net
-cs510.wpc.edgecastcdn.net
 cs196.wac.edgecastcdn.net
 cs265.wac.edgecastcdn.net
 cs812198061.wac.edgecastcdn.net
@@ -7740,7 +7738,6 @@ no-cache.hubspot.com
 z9g8vp.c2.acecdn.net
 zqbp9a.c2.acecdn.net
 feeds.feedburner.com
-feeds2.feedburner.com
 ads3.bangkokpost.co.th
 lucascdn-w.webaircdn.com
 tacamateurw.webaircdn.com
@@ -7755,7 +7752,6 @@ connect.facebook.net
 sgfm.elcorteingles.es
 cuenta.elcorteingles.es
 pic.aebn.net
-img.chefkoch-cdn.de
 support.brother.com
 static.fatsecret.com
 static.idkids.fr
@@ -8432,7 +8428,6 @@ image.tfgmedia.co.za
 th.cdngangsta.com
 static.qgov.net.au
 script.ekonsilio.com
-vip-lb1.osuosl.org
 magazines-assets.raspberrypi.org
 my.foxbusiness.com.edgekey.net
 b.smrk.io
@@ -14467,7 +14462,6 @@ z.moatads.com
 c.lytics.io
 apps.bazaarvoice.com
 display.ugc.bazaarvoice.com
-cs510.wpc.edgecastcdn.net
 cdn3.vscdns.com
 cdn4.vscdns.com
 cdn0.forter.com
@@ -15874,7 +15868,6 @@ z.moatads.com
 mb.moatads.com
 c.lytics.io
 apps.bazaarvoice.com
-cs510.wpc.edgecastcdn.net
 cdn4.vscdns.com
 cdn0.forter.com
 a.vdo.ai
@@ -19083,7 +19076,6 @@ mb.moatads.com
 gis.goinstore.com
 c.lytics.io
 apps.bazaarvoice.com
-cs510.wpc.edgecastcdn.net
 cdn3.vscdns.com
 cdn0.forter.com
 a.vdo.ai
@@ -20500,7 +20492,6 @@ mb.moatads.com
 c.lytics.io
 apps.bazaarvoice.com
 display.ugc.bazaarvoice.com
-cs510.wpc.edgecastcdn.net
 cs511.wac.edgecastcdn.net
 cdn3.vscdns.com
 cdn4.vscdns.com
@@ -21860,7 +21851,6 @@ img.iex.nl
 z.moatads.com
 c.lytics.io
 apps.bazaarvoice.com
-cs510.wpc.edgecastcdn.net
 cdn4.vscdns.com
 cdn0.forter.com
 app.everviz.com
@@ -23054,7 +23044,6 @@ exporte.wdr.de.v1.edgekey.net
 z.moatads.com
 c.lytics.io
 apps.bazaarvoice.com
-cs510.wpc.edgecastcdn.net
 cdn3.vscdns.com
 cdn4.vscdns.com
 cdn0.forter.com
@@ -24512,7 +24501,6 @@ z.moatads.com
 c.lytics.io
 apps.bazaarvoice.com
 cs811198060.wac.edgecastcdn.net
-cs510.wpc.edgecastcdn.net
 cdn3.vscdns.com
 cdn4.vscdns.com
 cdn0.forter.com
