@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2022-06-08T01:05:23+00:00
-# Count: 29096 domains
+# Released: 2022-06-15T01:05:23+00:00
+# Count: 29144 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -59,6 +59,7 @@
 0.0.0.0 scontent-a-sjc.cdninstagram.com
 0.0.0.0 scontent-akl1-1.cdninstagram.com
 0.0.0.0 scontent-ams.cdninstagram.com
+0.0.0.0 scontent-ams2-1.cdninstagram.com
 0.0.0.0 scontent-ams4-1.cdninstagram.com
 0.0.0.0 scontent-amt2-1.cdninstagram.com
 0.0.0.0 scontent-arn.cdninstagram.com
@@ -90,6 +91,7 @@
 0.0.0.0 scontent-bom1-1.cdninstagram.com
 0.0.0.0 scontent-bom1-2.cdninstagram.com
 0.0.0.0 scontent-bos3-1.cdninstagram.com
+0.0.0.0 scontent-bos5-1.cdninstagram.com
 0.0.0.0 scontent-bru.cdninstagram.com
 0.0.0.0 scontent-bru2-1.cdninstagram.com
 0.0.0.0 scontent-ccu1-1.cdninstagram.com
@@ -213,14 +215,17 @@
 0.0.0.0 scontent-zrh1-1.cdninstagram.com
 0.0.0.0 static.cdninstagram.com
 0.0.0.0 video.cdninstagram.com
+0.0.0.0 video-ams2-1.cdninstagram.com
 0.0.0.0 video-ams4-1.cdninstagram.com
 0.0.0.0 video-amt2-1.cdninstagram.com
 0.0.0.0 video-arn2-1.cdninstagram.com
 0.0.0.0 video-arn2-2.cdninstagram.com
 0.0.0.0 video-atl3-1.cdninstagram.com
 0.0.0.0 video-atl3-2.cdninstagram.com
+0.0.0.0 video-bcn1-1.cdninstagram.com
 0.0.0.0 video-ber1-1.cdninstagram.com
 0.0.0.0 video-bos3-1.cdninstagram.com
+0.0.0.0 video-bos5-1.cdninstagram.com
 0.0.0.0 video-bru2-1.cdninstagram.com
 0.0.0.0 video-cdg2-1.cdninstagram.com
 0.0.0.0 video-cdt1-1.cdninstagram.com
@@ -335,6 +340,7 @@
 0.0.0.0 z-p4-scontent-kut2-2.cdninstagram.com
 0.0.0.0 z-p4-scontent-mct1-1.cdninstagram.com
 0.0.0.0 z-p4-scontent-nrt1-1.cdninstagram.com
+0.0.0.0 z-p4-scontent-otp1-1.cdninstagram.com
 0.0.0.0 z-p4-scontent-pmo1-1.cdninstagram.com
 0.0.0.0 z-p4-scontent-sea1-1.cdninstagram.com
 0.0.0.0 z-p4-scontent-sin6-1.cdninstagram.com
@@ -986,6 +992,7 @@
 0.0.0.0 www.dev.facebook.com
 0.0.0.0 developer.facebook.com
 0.0.0.0 developers.facebook.com
+0.0.0.0 devry.facebook.com
 0.0.0.0 digitalstation.facebook.com
 0.0.0.0 discovery.facebook.com
 0.0.0.0 dixonscarphone.facebook.com
@@ -1111,26 +1118,37 @@
 0.0.0.0 1520240.2.2055qnll.dns.facebook.com
 0.0.0.0 18.1520240.2.2055qnll.dns.facebook.com
 0.0.0.0 240.18.1520240.2.2055qnll.dns.facebook.com
+0.0.0.0 157.240.18.1520240.2.2055qnll.dns.facebook.com
 0.0.0.0 20240.2.2055qnll.dns.facebook.com
 0.0.0.0 2.20240.2.2055qnll.dns.facebook.com
 0.0.0.0 240.2.20240.2.2055qnll.dns.facebook.com
+0.0.0.0 15157.240.2.20240.2.2055qnll.dns.facebook.com
+0.0.0.0 157.240.2.20240.2.2055qnll.dns.facebook.com
 0.0.0.0 240.2.2055qnll.dns.facebook.com
 0.0.0.0 1515157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 18.1515157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 240.18.1515157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 157.240.18.1515157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 18.15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 20240.18.15157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 2.20240.18.15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 240.18.15157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 15157.240.18.15157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 157.240.18.15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 2018.15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 152.2018.15157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 18.152.2018.15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 2.2018.15157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 15240.2.2018.15157.240.2.2055qnll.dns.facebook.com
+0.0.0.0 240.2.2018.15157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 157.240.2.2055qnll.dns.facebook.com
 0.0.0.0 202.2055qnll.dns.facebook.com
 0.0.0.0 2.202.2055qnll.dns.facebook.com
 0.0.0.0 240.2.202.2055qnll.dns.facebook.com
 0.0.0.0 15157.240.2.202.2055qnll.dns.facebook.com
 0.0.0.0 18.15157.240.2.202.2055qnll.dns.facebook.com
+0.0.0.0 240.18.15157.240.2.202.2055qnll.dns.facebook.com
 0.0.0.0 157.240.2.202.2055qnll.dns.facebook.com
 0.0.0.0 21a4lt.dns.facebook.com
 0.0.0.0 2fh9l6gj.dns.facebook.com
@@ -1901,6 +1919,7 @@
 0.0.0.0 edgeray-msgr-shv-01-sin6.facebook.com
 0.0.0.0 edgeray-msgr-shv-01-syd2.facebook.com
 0.0.0.0 edgeray-msgr-shv-02-kut2.facebook.com
+0.0.0.0 edgeray-msgr-shv-02-ort2.facebook.com
 0.0.0.0 edgeray-shv-01-ams4.facebook.com
 0.0.0.0 edgeray-shv-01-atl3.facebook.com
 0.0.0.0 edgeray-shv-01-bog1.facebook.com
@@ -10353,6 +10372,7 @@
 0.0.0.0 graph-fallback.facebook.com
 0.0.0.0 graph-portal.facebook.com
 0.0.0.0 graph-video.facebook.com
+0.0.0.0 graph-www.facebook.com
 0.0.0.0 grotecom.facebook.com
 0.0.0.0 groupcls.facebook.com
 0.0.0.0 grupomulheresdobrasilcombr.facebook.com
@@ -15709,6 +15729,7 @@
 0.0.0.0 one-line.facebook.com
 0.0.0.0 onepoint.facebook.com
 0.0.0.0 onepublicservice.facebook.com
+0.0.0.0 ooredoo.facebook.com
 0.0.0.0 openclassrooms.facebook.com
 0.0.0.0 opensource.facebook.com
 0.0.0.0 opsis.facebook.com
@@ -15749,6 +15770,7 @@
 0.0.0.0 as-in.prod.facebook.com
 0.0.0.0 code.prod.facebook.com
 0.0.0.0 en-gb.de-de.prod.facebook.com
+0.0.0.0 af-za.en-gb.de-de.prod.facebook.com
 0.0.0.0 ar-ar.en-gb.de-de.prod.facebook.com
 0.0.0.0 bg-bg.en-gb.de-de.prod.facebook.com
 0.0.0.0 ca-es.en-gb.de-de.prod.facebook.com
@@ -16110,6 +16132,7 @@
 0.0.0.0 developers.prod.facebook.com
 0.0.0.0 www.ar-ar.af-za.developers.prod.facebook.com
 0.0.0.0 www.af-za.developers.prod.facebook.com
+0.0.0.0 apps.developers.prod.facebook.com
 0.0.0.0 ar-ar.developers.prod.facebook.com
 0.0.0.0 af-za.ar-ar.developers.prod.facebook.com
 0.0.0.0 apps.ar-ar.developers.prod.facebook.com
@@ -17494,6 +17517,7 @@
 0.0.0.0 www.si-lk.es-es.es-es.prod.facebook.com
 0.0.0.0 www.sr-rs.es-es.es-es.prod.facebook.com
 0.0.0.0 www.es-es.es-es.prod.facebook.com
+0.0.0.0 es-la.es-es.prod.facebook.com
 0.0.0.0 es-la.nb-no.es-la.es-es.prod.facebook.com
 0.0.0.0 www.nb-no.es-la.es-es.prod.facebook.com
 0.0.0.0 www.es-la.es-es.prod.facebook.com
@@ -17652,6 +17676,7 @@
 0.0.0.0 www.hr-hr.es-es.prod.facebook.com
 0.0.0.0 it-it.hu-hu.es-es.prod.facebook.com
 0.0.0.0 www.hy-am.es-es.prod.facebook.com
+0.0.0.0 id-id.es-es.prod.facebook.com
 0.0.0.0 eu-es.id-id.es-es.prod.facebook.com
 0.0.0.0 es-la.fi-fi.id-id.es-es.prod.facebook.com
 0.0.0.0 he-il.id-id.es-es.prod.facebook.com
@@ -17675,6 +17700,7 @@
 0.0.0.0 www.ko-kr.es-es.prod.facebook.com
 0.0.0.0 koronakrolow.es-es.prod.facebook.com
 0.0.0.0 la-va.es-es.prod.facebook.com
+0.0.0.0 nl-be.es-es.prod.facebook.com
 0.0.0.0 nl-nl.es-es.prod.facebook.com
 0.0.0.0 ar-ar.nl-nl.es-es.prod.facebook.com
 0.0.0.0 bg-bg.nl-nl.es-es.prod.facebook.com
@@ -19155,6 +19181,7 @@
 0.0.0.0 www.ar-ar.nl-nl.prod.facebook.com
 0.0.0.0 az-az.az-az.nl-nl.prod.facebook.com
 0.0.0.0 de-de.nl-nl.prod.facebook.com
+0.0.0.0 en-gb.nl-nl.prod.facebook.com
 0.0.0.0 ja-jp.en-gb.nl-nl.prod.facebook.com
 0.0.0.0 www.en-gb.nl-nl.prod.facebook.com
 0.0.0.0 zh-cn.en-gb.nl-nl.prod.facebook.com
@@ -19823,6 +19850,7 @@
 0.0.0.0 swm.facebook.com
 0.0.0.0 sy-sy.facebook.com
 0.0.0.0 syagcom.facebook.com
+0.0.0.0 symetri.facebook.com
 0.0.0.0 synthetic-e2e-elbintern-sli-shv-02-maa2.facebook.com
 0.0.0.0 sz-pl.facebook.com
 0.0.0.0 t.facebook.com
@@ -20003,6 +20031,8 @@
 0.0.0.0 work-63036181.facebook.com
 0.0.0.0 work-70529761.facebook.com
 0.0.0.0 work-72004889.facebook.com
+0.0.0.0 work-72829026.facebook.com
+0.0.0.0 work-80675959.facebook.com
 0.0.0.0 work-89117169.facebook.com
 0.0.0.0 work-91377657.facebook.com
 0.0.0.0 work-98326093.facebook.com
@@ -20298,6 +20328,7 @@
 0.0.0.0 www.facebookatunga.fb.com
 0.0.0.0 facebookbrand-2018.fb.com
 0.0.0.0 ap-south-1.facebookbrand-2018.fb.com
+0.0.0.0 bcp.ap-south-1.facebookbrand-2018.fb.com
 0.0.0.0 ar.facebookbrand-2018.fb.com
 0.0.0.0 ar-insidefeed.facebookbrand-2018.fb.com
 0.0.0.0 ar-preprod.facebookbrand-2018.fb.com
@@ -20336,7 +20367,9 @@
 0.0.0.0 viruswall-tr.facebookbrand-2018.fb.com
 0.0.0.0 wethinkdigitalpl.facebookbrand-2018.fb.com
 0.0.0.0 www.facebookbrand-2018.fb.com
+0.0.0.0 etcss.www.facebookbrand-2018.fb.com
 0.0.0.0 yearinreview.facebookbrand-2018.fb.com
+0.0.0.0 www.yearinreview.facebookbrand-2018.fb.com
 0.0.0.0 zh-hans.facebookbrand-2018.fb.com
 0.0.0.0 zh-hant.facebookbrand-2018.fb.com
 0.0.0.0 facebookbrand-2018-dev.fb.com
@@ -20675,6 +20708,7 @@
 0.0.0.0 ame-ngeag-onbd.facebookbrand-release.fb.com
 0.0.0.0 announcements-en.facebookbrand-release.fb.com
 0.0.0.0 antivirus-for-all.facebookbrand-release.fb.com
+0.0.0.0 bf1.antivirus-for-all.facebookbrand-release.fb.com
 0.0.0.0 ar.facebookbrand-release.fb.com
 0.0.0.0 auditdesk-server.facebookbrand-release.fb.com
 0.0.0.0 autodiscovid-survey.facebookbrand-release.fb.com
@@ -20794,6 +20828,7 @@
 0.0.0.0 hardquestionstour.fb.com
 0.0.0.0 www.hardquestionstour.fb.com
 0.0.0.0 humanrights.fb.com
+0.0.0.0 immersivelearningacademy.fb.com
 0.0.0.0 impara.fb.com
 0.0.0.0 www.impara.fb.com
 0.0.0.0 impara-dev.fb.com
@@ -21081,6 +21116,7 @@
 0.0.0.0 547.fbsbx.com
 0.0.0.0 droege.547.fbsbx.com
 0.0.0.0 bill.droege.547.fbsbx.com
+0.0.0.0 a.fbsbx.com
 0.0.0.0 achment.fbsbx.com
 0.0.0.0 ads.fbsbx.com
 0.0.0.0 agent.fbsbx.com
@@ -21562,6 +21598,7 @@
 0.0.0.0 apps-954609611577557.apps.fbsbx.com
 0.0.0.0 apps-964791783867019.apps.fbsbx.com
 0.0.0.0 apps-980450325667812.apps.fbsbx.com
+0.0.0.0 apps-1010638196234765.fbsbx.com
 0.0.0.0 apps-1011075782951379.fbsbx.com
 0.0.0.0 apps-1016085679263010.fbsbx.com
 0.0.0.0 apps-1020669798466989.fbsbx.com
@@ -21689,6 +21726,7 @@
 0.0.0.0 apps-446093886725369.fbsbx.com
 0.0.0.0 apps-446422466744565.fbsbx.com
 0.0.0.0 apps-450943359853812.fbsbx.com
+0.0.0.0 apps-454526169491348.fbsbx.com
 0.0.0.0 apps-455329539062282.fbsbx.com
 0.0.0.0 apps-458479161987754.fbsbx.com
 0.0.0.0 apps-464946774585762.fbsbx.com
@@ -21714,6 +21752,8 @@
 0.0.0.0 apps-522778512129074.fbsbx.com
 0.0.0.0 apps-530715571608792.fbsbx.com
 0.0.0.0 apps-535364614493729.fbsbx.com
+0.0.0.0 apps-535480358003282.fbsbx.com
+0.0.0.0 apps-541143414071025.fbsbx.com
 0.0.0.0 apps-552447672060541.fbsbx.com
 0.0.0.0 apps-573635340542562.fbsbx.com
 0.0.0.0 apps-576004956727614.fbsbx.com
@@ -21734,6 +21774,7 @@
 0.0.0.0 apps-706430283355284.fbsbx.com
 0.0.0.0 apps-711091479585423.fbsbx.com
 0.0.0.0 apps-716171942901499.fbsbx.com
+0.0.0.0 apps-716737155991319.fbsbx.com
 0.0.0.0 apps-726110681728933.fbsbx.com
 0.0.0.0 apps-731861474351221.fbsbx.com
 0.0.0.0 apps-733639447496545.fbsbx.com
@@ -21917,6 +21958,7 @@
 0.0.0.0 z-p4-lookaside.fbsbx.com
 0.0.0.0 z9c0tlbigsxawp125d4mufj7qhnyke3or68v.fbsbx.com
 0.0.0.0 zrq1cu0fbyt48xn27vw6l9mgehskp3jadi5o.fbsbx.com
+0.0.0.0 m.facebook.com-----message----918281265.fightalarms.com
 0.0.0.0 giphy.com
 0.0.0.0 admin.giphy.com
 0.0.0.0 api.giphy.com
@@ -22105,6 +22147,7 @@
 0.0.0.0 1-edege-chat.messenger.com
 0.0.0.0 1-edge-chat.messenger.com
 0.0.0.0 www.1-edge-chat.messenger.com
+0.0.0.0 1374374522791369-togethersdk.messenger.com
 0.0.0.0 168.messenger.com
 0.0.0.0 2-edge-chat.messenger.com
 0.0.0.0 www.2-edge-chat.messenger.com
@@ -22214,6 +22257,7 @@
 0.0.0.0 www.cn.messenger.com
 0.0.0.0 www.maximiles.co.messenger.com
 0.0.0.0 co-fr.messenger.com
+0.0.0.0 code.messenger.com
 0.0.0.0 collamask.messenger.com
 0.0.0.0 consumo.messenger.com
 0.0.0.0 corona.messenger.com
@@ -22493,6 +22537,7 @@
 0.0.0.0 nl-nl.messenger.com
 0.0.0.0 www.nl-nl.messenger.com
 0.0.0.0 oec16-normal-alisg.messenger.com
+0.0.0.0 online.messenger.com
 0.0.0.0 online-distance.messenger.com
 0.0.0.0 openid.messenger.com
 0.0.0.0 order.messenger.com
@@ -22594,6 +22639,7 @@
 0.0.0.0 virusfacts.messenger.com
 0.0.0.0 virusremoval.messenger.com
 0.0.0.0 vn.messenger.com
+0.0.0.0 vpn.messenger.com
 0.0.0.0 w4000ww.messenger.com
 0.0.0.0 web.messenger.com
 0.0.0.0 akuariummaskoki.web.messenger.com
@@ -22649,6 +22695,8 @@
 0.0.0.0 zh-cn.messenger.com
 0.0.0.0 www.zh-cn.messenger.com
 0.0.0.0 meta.com
+0.0.0.0 auth.meta.com
+0.0.0.0 store.meta.com
 0.0.0.0 www.meta.com
 0.0.0.0 oculus.com
 0.0.0.0 account.oculus.com
@@ -22959,6 +23007,7 @@
 0.0.0.0 blackmask.fb.me
 0.0.0.0 blackmask-1.fb.me
 0.0.0.0 blackmask1.fb.me
+0.0.0.0 blogs.fb.me
 0.0.0.0 bqdlot1ghj5uzk8wp4920sfvnr3iameycx76.fb.me
 0.0.0.0 braph.fb.me
 0.0.0.0 buy.fb.me
@@ -22995,6 +23044,7 @@
 0.0.0.0 facon.fb.me
 0.0.0.0 fairytail-german.fb.me
 0.0.0.0 fbcdn.fb.me
+0.0.0.0 files.fb.me
 0.0.0.0 fkgzl57oy8eib93mx42jhw1sncvpqdar0u6t.fb.me
 0.0.0.0 fma.fb.me
 0.0.0.0 fmaestudiomaskin.fb.me
@@ -23049,6 +23099,7 @@
 0.0.0.0 grazph.fb.me
 0.0.0.0 grdaph.fb.me
 0.0.0.0 groph.fb.me
+0.0.0.0 groups.fb.me
 0.0.0.0 grpah.fb.me
 0.0.0.0 grph.fb.me
 0.0.0.0 grraph.fb.me
@@ -23661,7 +23712,6 @@
 0.0.0.0 instagram.fbgw35-1.fna.fbcdn.net
 0.0.0.0 instagram.fbgw4-2.fna.fbcdn.net
 0.0.0.0 external.fbgw57-1.fna.fbcdn.net
-0.0.0.0 instagram.fbgw6-1.fna.fbcdn.net
 0.0.0.0 instagram.fbgw7-1.fna.fbcdn.net
 0.0.0.0 instagram.fbhi1-1.fna.fbcdn.net
 0.0.0.0 instagram.fbhi3-2.fna.fbcdn.net
@@ -25536,7 +25586,6 @@
 0.0.0.0 scontent.fnjf1-2.fna.fbcdn.net
 0.0.0.0 instagram.fnjf10-1.fna.fbcdn.net
 0.0.0.0 instagram.fnjf18-1.fna.fbcdn.net
-0.0.0.0 scontent.fnjf2-1.fna.fbcdn.net
 0.0.0.0 scontent.fnjf4-2.fna.fbcdn.net
 0.0.0.0 instagram.fnlv1-1.fna.fbcdn.net
 0.0.0.0 external.fnlv2-1.fna.fbcdn.net
@@ -25760,7 +25809,6 @@
 0.0.0.0 scontent.fpos1-1.fna.fbcdn.net
 0.0.0.0 instagram.fpos3-1.fna.fbcdn.net
 0.0.0.0 scontent.fpos4-1.fna.fbcdn.net
-0.0.0.0 instagram.fpoz1-1.fna.fbcdn.net
 0.0.0.0 external.fpoz2-1.fna.fbcdn.net
 0.0.0.0 scontent.fpoz2-1.fna.fbcdn.net
 0.0.0.0 instagram.fppb1-1.fna.fbcdn.net

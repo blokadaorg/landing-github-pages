@@ -1,10 +1,10 @@
 [Adblock Plus]
-! Version: 202206062209
+! Version: 202206132129
 ! Title: oisd extra
-! Last modified: 6 Jun 2022 22:09 UTC
+! Last modified: 13 Jun 2022 21:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://oisd.nl
-! Syntax: Adblock Plus Filter List                 
+! Syntax: Adblock Plus Filter List                
 
 ||0.code.cotsta.ru^
 ||0emm.com^
@@ -110,10 +110,8 @@
 ||a35c92d96766745.com^
 ||a997aa5071.com^
 ||aan.amazon.com^
-||absolstats.co.za^
 ||accesstrade.co.id^
 ||ad-ettoday.cdn.hinet.net^
-||ad-server.co.za^
 ||ad132m.com^
 ||adash.man.aliyuncs.com^
 ||adbrix.io^
@@ -141,7 +139,6 @@
 ||aeesy.com^
 ||affex.org^
 ||affiliatefuture.com^
-||affiliatenetwork.co.za^
 ||affiliclk.org^
 ||agacelebir.com^
 ||agkn.com^
@@ -189,7 +186,6 @@
 ||baijiangyurong.top^
 ||baitbrdwk.com^
 ||bam-x.com^
-||bannerignition.co.za^
 ||bannertrack.net^
 ||baremetrics.com^
 ||baywttgdhe.download^
@@ -247,6 +243,7 @@
 ||commander1.com^
 ||commission-junction.com^
 ||config.uca.cloud.unity3d.com^
+||connects.ch^
 ||consent-manager-events.ogury.io^
 ||continuousprescription.com^
 ||conversions.appsflyer.com^
@@ -299,10 +296,10 @@
 ||dynsrvdea.com^
 ||e719.net^
 ||easycounter.com^
-||easysol.net^
 ||ebsxlpv.cn^
 ||eccehkho.com^
 ||edrone.me^
+||eisys-bcs.jp^
 ||ekgloczbsblg.com^
 ||elastx.net^
 ||endovmwy.com^
@@ -313,6 +310,7 @@
 ||eulerian.brandalley.fr^
 ||eulerian.net^
 ||eulerian.officiel-des-vacances.com^
+||eulerian.sarenza.com^
 ||eventgw.twilio.com^
 ||events.jotform.com^
 ||events.launchdarkly.com^
@@ -336,8 +334,6 @@
 ||fireflyengagement.com^
 ||flexlinkspro.com^
 ||flx1.com^
-||fonts.googleapis.com^
-||fonts.gstatic.com^
 ||forter.com^
 ||fourier.taobao.com^
 ||fraudmetrix.cn^
@@ -378,6 +374,7 @@
 ||hotkeys.com^
 ||hovoptelo.com^
 ||hs-scripts.com^
+||hscoscdn20.net^
 ||hsoub.com^
 ||hubpd.com^
 ||humanpresence.app^
@@ -453,7 +450,6 @@
 ||mahidevrat.com^
 ||mairdumont.com^
 ||mancehostic.site^
-||marbil24.co.za^
 ||marfeelcache.com^
 ||marinsm.com^
 ||marketingautomation.services^
@@ -515,7 +511,6 @@
 ||onenetworkdirect.net^
 ||orninedin.club^
 ||othesarialiber.club^
-||p.typekit.net^
 ||p.yotpo.com^
 ||pangle.io^
 ||panther.goguardian.com^
@@ -626,7 +621,6 @@
 ||stat24.com^
 ||statcounter.com^
 ||static.parsely.com^
-||stats.itweb.co.za^
 ||stats.paypal.com^
 ||stats.pusher.com^
 ||stocks-analytics-events.apple.com^
@@ -699,7 +693,6 @@
 ||warningoffended.com^
 ||we-stats.com^
 ||webcare.byside.com^
-||webcounter.co.za^
 ||webgains.com^
 ||webhop.net^
 ||webmasterplan.com^

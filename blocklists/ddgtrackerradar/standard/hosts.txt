@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-06-08 07:38:07.180479
+# Generated at 2022-06-15 12:21:39.748626
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -655,7 +655,6 @@ mediacdn.livestory.io
 static.prd.echannel.linde.com
 assets.nickscali.com
 app.zinrelo.com
-static.dw.com.edgekey.net
 staticg.sportskeeda.com
 ua.financialexpress.com.edgekey.net
 brandedweb.mindbodyonline.com
@@ -683,7 +682,6 @@ aggregator.service.usercentrics.eu
 aggregator.eu.usercentrics.eu
 privacy-proxy.usercentrics.eu
 dyson-h.assetsadobe2.com
-assets.bwbx.io
 static.nseindia.com.edgekey.net
 dmpcdn.el-mundo.net
 v2-assets.pik.ba
@@ -1331,8 +1329,6 @@ wago-embedded.partcommunity.com
 ade.clmbtech.com-v2.edgekey.net
 www.viator.com-v2.edgekey.net
 matching.granify.com
-fs.ypncdn.com
-fi1-ph.ypncdn.com
 ads.sesaab.it
 x.bidswitch.net
 grid.bidswitch.net
@@ -1582,9 +1578,6 @@ static.bankbazaar.com.edgekey.net
 yaas-b-s.performoo.com
 guanabara.neoassist.com
 analytics.freespee.com
-images.wondershare.com
-drfone.wondershare.com
-recoverit.wondershare.com
 dc-static.wondershare.com
 filmora.wondershare.com
 accounts.wondershare.com
@@ -1669,10 +1662,6 @@ jsc.adskeeper.co.uk
 servicer.adskeeper.co.uk
 teliafi-chat.lekane.net
 cjss.enewspapr.com
-p2.vptpsn.com
-p8.vptpsn.com
-p0.vptpsn.com
-p4.vptpsn.com
 cookieconsent.komm.one
 go.xlviirdr.com
 video.xlviirdr.com
@@ -2136,8 +2125,6 @@ vi-ya1.jivosite.com
 node-ya10.jivosite.com
 node-ya14.jivosite.com
 images.uncyc.org
-js.ui-portal.de
-img.ui-portal.de
 nct.ui-portal.de
 static.yourcx.io
 assets.grohe.com
@@ -3533,12 +3520,6 @@ edge.uniconsent.com
 storage.faqbot.nz
 portal.faqbot.nz
 ad.clicrbs.com.br
-cdn1d-static-shared.phncdn.com
-ei.phncdn.com
-di.phncdn.com
-ci.phncdn.com
-i1.cdn2b.image.pornhub.phncdn.com
-i1.cdn2a.image.pornhub.phncdn.com
 app.backinstock.org
 cdn-eu.green-acres.com
 lb-eu.green-acres.com
@@ -4416,7 +4397,6 @@ cms.rationalcdn.com.edgekey.net
 assets.autouncle.com
 olytics.omeda.com
 db.onlinewebfonts.com
-speedcdn.cloud.funkedigital.de
 extracontent.funkedigital.de
 cloud-dw-img.funkedigital.de
 cvochat.caravelo.com
@@ -5428,7 +5408,6 @@ login.plataformasocial.com.br
 media.nbcphiladelphia.com.edgekey.net
 se-ads-microservice.ads.allermedia.io
 s2.bunnycdn.ru
-static.bunnycdn.ru
 app.firecall.tv
 deliver.cdn.nicomanga.jp
 americanhonda.us-4.evergage.com
@@ -7262,7 +7241,6 @@ tvazteca.brightspotcdn.com
 deseret.brightspotcdn.com
 hallmark.brightspotcdn.com
 jnj-content-lab.brightspotcdn.com
-ca-times.brightspotcdn.com
 beymedias.brightspotcdn.com
 sothebys-com.brightspotcdn.com
 vetstreet.brightspotcdn.com
@@ -7846,7 +7824,6 @@ s.stry.tl
 scontent.cdnsnapwidget.com
 prod.webpu.sh
 src.webpu.sh
-wow.zamimg.com
 a.smedata.sk
 web-static-common.smedata.sk
 parcasterix.prod.tunnel.compagniedesalpes.fr
@@ -7982,7 +7959,6 @@ media.airedesantafe.thinkindot.com
 media.todojujuy.thinkindot.com
 media.ultimahora.thinkindot.com
 static.tuugo.com
-static-cdn.ubuntu-de.org
 daemon.indapass.hu
 management.ident.indapass.hu
 secure.vs3.com
@@ -9393,15 +9369,6 @@ questico-ads.reviveservers.com
 medya.ilan.gov.tr
 a.eezy.cloud
 z.vertebrae-axis.com
-c1.ttcache.com
-c7.ttcache.com
-c2.ttcache.com
-c4.ttcache.com
-c8.ttcache.com
-c6.ttcache.com
-c9.ttcache.com
-c3.ttcache.com
-c5.ttcache.com
 juh.assistentevirtual.sp.gov.br
 ppn.assistentevirtual.sp.gov.br
 static.bfmtv.com
@@ -9489,7 +9456,6 @@ h-cibc.online-metrix.net
 h-walmart.online-metrix.net
 statics.javbuz.com
 n.ads3-adnow.com
-static.parastorage.com
 static.bs-dante.ru
 static.wufoo.com
 config-code.usergram.info
@@ -9852,7 +9818,6 @@ cdn1.vntsm.com
 cookielaw.emea.fcagroup.com
 traffic.acwebconnecting.com
 pautas.legis.com.co
-dl.web.de
 pass.canal-plus.com
 007prokom.boost.ai
 212flyplay.boost.ai
@@ -10386,7 +10351,6 @@ gandalf-br.segmentify.com
 gandalf-eu.segmentify.com
 per2.segmentify.com
 tlv.ui02.com
-resources.digital-cloud-west.medallia.com
 resources.digital-cloud.medallia.com
 resources.digital-cloud-citi.medallia.com
 app.loadmill.com
@@ -11515,7 +11479,6 @@ data.eetech.com
 recommender.sannsyn.com
 img.21pron.com
 tds.21pron.com
-ip266460634.ahcdn.com
 cdn.pr.trt.com.tr
 cdn-s.pr.trt.com.tr
 cdn-i.pr.trt.com.tr
@@ -12435,7 +12398,6 @@ feeds.adrequest.net
 prod-cdn.preprod.co-vin.in
 sync.kesko.fi
 wgs-s3.sm.via.de
-neveragain.allstatics.com
 assets.poool.fr
 img.eplay.com
 tour.eplay.com
@@ -12834,9 +12796,7 @@ cdn2.pollster.pl
 static.tjmaxx.com.edgekey.net
 aomobile.brightpattern.com
 player.3qsdn.com
-registry.api.cnn.io
 widget.justwatch.com
-images.justwatch.com
 widget.msgp.pl
 i.datavimg.com
 widgets-mcw.mango-office.ru
@@ -13201,7 +13161,6 @@ tags-cdn.clarivoy.com
 c.tile.openstreetmap.org
 a.tile.openstreetmap.org
 b.tile.openstreetmap.org
-tile.openstreetmap.org
 assets.staticroot.com
 nie.v.netease.com
 rs.20m.es
@@ -13294,26 +13253,6 @@ wshiconnect.mediakiosque.com
 go.smartrmail.com
 strike.fox.com
 c.odp4pro.com
-static-lvlt.xhcdn.com
-thumb-p9.xhcdn.com
-thumb-p8.xhcdn.com
-thumb-p2.xhcdn.com
-thumb-p4.xhcdn.com
-thumb-p6.xhcdn.com
-pornstar-thumb.xhcdn.com
-thumb-v-lv.xhcdn.com
-thumb-user.xhcdn.com
-thumb-v6.xhcdn.com
-thumb-v5.xhcdn.com
-thumb-p1.xhcdn.com
-thumb-v3.xhcdn.com
-thumb-v8.xhcdn.com
-thumb-v1.xhcdn.com
-thumb-v7.xhcdn.com
-thumb-v2.xhcdn.com
-thumb-v0.xhcdn.com
-thumb-v4.xhcdn.com
-thumb-v.xhcdn.com
 bb.tube2000.com
 connect.bolt.com
 echos-bourse-vip.sdv.fr
@@ -13555,13 +13494,6 @@ api-nzme-nzme-prod.arc-dns.net
 assets.prod.breuni.de
 logsene-receiver.eu.sematext.com
 gdpr.apps.isenselabs.com
-p2.nvdst.com
-p6.nvdst.com
-p0.nvdst.com
-p9.nvdst.com
-p5.nvdst.com
-p4.nvdst.com
-p7.nvdst.com
 suite.linximpulse.net
 lupic.cdn.bcebos.com
 bkhk.cdn.bcebos.com
@@ -13583,13 +13515,6 @@ p3.isanook.com
 sal.isanook.com
 cdn-static.kwai.net
 aws-static.kwai.net
-p3.drtst.com
-p1.drtst.com
-p8.drtst.com
-p0.drtst.com
-p5.drtst.com
-p7.drtst.com
-p9.drtst.com
 san-www.racing.com.edgekey.net
 cx.bosch-so.com
 fimg.yx247.com
@@ -14020,7 +13945,6 @@ track1.aniview.com
 go1.aniview.com
 pbs.aniview.com
 play.aniview.com
-static.dw.com.edgekey.net
 pbs.nextmillmedia.com
 app.usercentrics.eu
 app.eu.usercentrics.eu
@@ -14314,9 +14238,6 @@ inuit.ladesk.com
 ads.bullionyield.com
 static.hsappstatic.net
 cmp.uniconsent.com
-di.phncdn.com
-ei.phncdn.com
-ci.phncdn.com
 wildcard.bybit.com.edgekey.net
 js-agent.newrelic.com
 insights-collector.newrelic.com
@@ -14713,7 +14634,6 @@ cdata.carambo.la
 media.dscgirls.live
 components2.rcsobjects.it
 quotespeed.morningstar.com
-wow.zamimg.com
 store-images.s-microsoft.com-c.edgekey.net
 au12-live.inside-graph.com
 eu2-live.inside-graph.com
@@ -14721,7 +14641,6 @@ eu-live.inside-graph.com
 adserving.optoutadvertising.com
 smetrics.rcsmetrics.it
 media.goshopping.dk
-video-api.shdsvc.dowjones.io
 sync.go.sonobi.com
 gu.dyntrk.com
 rum-static.pingdom.net
@@ -14855,22 +14774,12 @@ ws.sharethis.com
 l.sharethis.com
 platform-cdn.sharethis.com
 buttons-config.sharethis.com
-c3.ttcache.com
-c2.ttcache.com
-c5.ttcache.com
-c6.ttcache.com
-c9.ttcache.com
-c7.ttcache.com
-c8.ttcache.com
-c4.ttcache.com
-c1.ttcache.com
 no.bongacams.com
 video-api.wsj.com.edgekey.net
 d.turn.com
 r.turn.com
 h-ebay.online-metrix.net
 h-walmart.online-metrix.net
-static.parastorage.com
 w.ad.style
 choiceclips.whatfinger.com
 vplayer.enthusiastgaming.com
@@ -15141,7 +15050,6 @@ static.lipscore.com
 wapi.lipscore.com
 chat.intele.com
 sync.kesko.fi
-neveragain.allstatics.com
 tssl.emailplatform.com
 image.winudf.com
 twdc-dtci.edge.nc0.co
@@ -15230,9 +15138,6 @@ contextual.media.net
 hbx.media.net
 cs.media.net
 lg3.media.net
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 connect.bolt.com
 cmp.dmgmediaprivacy.co.uk
 files.upscore.com
@@ -15355,7 +15260,6 @@ c.clicktale.net
 bmedia.justservingfiles.net
 player.aniview.com
 pbs.aniview.com
-static.dw.com.edgekey.net
 pbs.nextmillmedia.com
 content.skyscnr.com
 app.usercentrics.eu
@@ -15449,7 +15353,6 @@ responder.wt-safetag.com
 microsite.guidle.com
 static.criteo.net
 api2.branch.io
-images.wondershare.com
 match.prod.bidr.io
 highwebmedia-cname-realtime.ably.io
 app.gitbook.com
@@ -15705,9 +15608,6 @@ static.hsappstatic.net
 m.2020mustang.com
 cmp.uniconsent.com
 edge.uniconsent.com
-ei.phncdn.com
-di.phncdn.com
-ci.phncdn.com
 lb-eu.green-acres.com
 js-agent.newrelic.com
 insights-collector.newrelic.com
@@ -15788,7 +15688,6 @@ b1sync.zemanta.com
 api-fra.livechatinc.com
 go.goaserv.com
 db.onlinewebfonts.com
-speedcdn.cloud.funkedigital.de
 ads.themoneytizer.com
 baselstadt.containers.piwik.pro
 sdk.iad-06.braze.com
@@ -16266,8 +16165,6 @@ smetrics.rcsmetrics.it
 front.optimonk.com
 static.region-du-leman.ch
 wayf.switch.ch
-static-cdn.ubuntu-de.org
-video-api.shdsvc.dowjones.io
 sync.go.sonobi.com
 gu.dyntrk.com
 ads.bannerwise.io
@@ -16399,15 +16296,6 @@ ws.sharethis.com
 platform-cdn.sharethis.com
 proxena-secure.reviveservers.com
 servedby.reviveservers.com
-c3.ttcache.com
-c2.ttcache.com
-c6.ttcache.com
-c7.ttcache.com
-c9.ttcache.com
-c8.ttcache.com
-c4.ttcache.com
-c5.ttcache.com
-c1.ttcache.com
 de.bongacams.com
 player.pepsia.com
 video-api.wsj.com.edgekey.net
@@ -16418,7 +16306,6 @@ r.turn.com
 h.online-metrix.net
 h-ebay.online-metrix.net
 h-walmart.online-metrix.net
-static.parastorage.com
 fairfaxmedia.co.nz.edgekey.net
 w.ad.style
 config1.veinteractive.com
@@ -16717,7 +16604,6 @@ lc.iadvize.com
 welcome.infomaniak.com
 assets.emarsys.net
 medias.bnj.ch
-neveragain.allstatics.com
 assets.poool.fr
 image.winudf.com
 twdc-dtci.edge.nc0.co
@@ -16830,9 +16716,6 @@ cs.media.net
 lg3.media.net
 static.elfsight.com
 io.fusedeck.net
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 cmp.dmgmediaprivacy.co.uk
 files.upscore.com
 assets.volkswagen.com
@@ -16969,7 +16852,6 @@ static.freeskreen.com
 sb.freeskreen.com
 play.aniview.com
 player.aniview.com
-static.dw.com.edgekey.net
 cdn1.lockerdomecdn.com
 pbs.nextmillmedia.com
 content.skyscnr.com
@@ -17102,7 +16984,6 @@ ref.dealerinspire.com
 static.criteo.net
 cdn-media.prettylittlething.com
 api2.branch.io
-images.wondershare.com
 vac.vap.expedia.com.edgekey.net
 vap.expedia.com.edgekey.net
 match.prod.bidr.io
@@ -17381,9 +17262,6 @@ ads.bullionyield.com
 static.hsappstatic.net
 aux.fqtag.com
 cmp.uniconsent.com
-ei.phncdn.com
-di.phncdn.com
-ci.phncdn.com
 js-agent.newrelic.com
 insights-collector.newrelic.com
 static1.dmcdn.net
@@ -17980,15 +17858,6 @@ pd.sharethis.com
 t.sharethis.com
 sync.sharethis.com
 ws.sharethis.com
-c2.ttcache.com
-c1.ttcache.com
-c3.ttcache.com
-c7.ttcache.com
-c8.ttcache.com
-c9.ttcache.com
-c4.ttcache.com
-c5.ttcache.com
-c6.ttcache.com
 bigcommerce.route.com
 cookie.lmgssp.com
 ad.turn.com
@@ -18002,7 +17871,6 @@ h-tdcanada.online-metrix.net
 h-cibc.online-metrix.net
 h-ebay.online-metrix.net
 h-walmart.online-metrix.net
-static.parastorage.com
 w.ad.style
 choiceclips.whatfinger.com
 hamburger.maggieeatstheangel.com
@@ -18292,7 +18160,6 @@ bcldb.managemailing.com
 resources.digital-cloud.medallia.ca
 st.fullcircleinsights.com
 sofia.trustx.org
-neveragain.allstatics.com
 img.eplay.com
 tour.eplay.com
 image.winudf.com
@@ -18404,9 +18271,6 @@ prebid.media.net
 lg3.media.net
 ads.playground.xyz
 dis-prod.assetful.loblaw.ca
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 bb.tube2000.com
 btn.createsend1.com
 ag.innovid.com
@@ -18560,7 +18424,6 @@ track1.aniview.com
 go1.aniview.com
 player.aniview.com
 play.aniview.com
-static.dw.com.edgekey.net
 pbs.nextmillmedia.com
 app.usercentrics.eu
 app.eu.usercentrics.eu
@@ -18904,9 +18767,6 @@ ads.bullionyield.com
 static.hsappstatic.net
 aux.fqtag.com
 cmp.uniconsent.com
-di.phncdn.com
-ei.phncdn.com
-ci.phncdn.com
 js-agent.newrelic.com
 embed.tawk.to
 va.tawk.to
@@ -19286,7 +19146,6 @@ img.tnastatic.com
 front.optimonk.com
 ebooker.arrowcars.co.uk
 sp.rmbl.ws
-video-api.shdsvc.dowjones.io
 mw-prod.bluegrass.mktdata.dowjones.io
 wsj-prod.bluegrass.mktdata.dowjones.io
 digitalcontent.api.tesco.com.edgekey.net
@@ -19414,15 +19273,6 @@ platform-cdn.sharethis.com
 ws.sharethis.com
 sd.sharethis.com
 buttons-config.sharethis.com
-c2.ttcache.com
-c3.ttcache.com
-c7.ttcache.com
-c9.ttcache.com
-c5.ttcache.com
-c6.ttcache.com
-c4.ttcache.com
-c1.ttcache.com
-c8.ttcache.com
 en.bongacams.com
 video-api.wsj.com.edgekey.net
 d.turn.com
@@ -19433,7 +19283,6 @@ h.online-metrix.net
 h-santanderbank.online-metrix.net
 h-ebay.online-metrix.net
 h-walmart.online-metrix.net
-static.parastorage.com
 fairfaxmedia.co.nz.edgekey.net
 config1.veinteractive.com
 vplayer.enthusiastgaming.com
@@ -19687,7 +19536,6 @@ cdn.static.zdbb.net
 halc.iadvize.com
 731747916.r.mothership-cdn.co.nz
 glfe001-abevnwtqcnpok.stackpathdns.com
-neveragain.allstatics.com
 tour.eplay.com
 img.eplay.com
 image.winudf.com
@@ -19779,9 +19627,6 @@ hbx.media.net
 lg3.media.net
 prebid.media.net
 static.elfsight.com
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 cmp.dmgmediaprivacy.co.uk
 widget.perfectmarket.com
 ict.infinity-tracking.net
@@ -19923,7 +19768,6 @@ c.clicktale.net
 tg1.aniview.com
 player.aniview.com
 track1.aniview.com
-static.dw.com.edgekey.net
 pbs.nextmillmedia.com
 app.usercentrics.eu
 graphql.usercentrics.eu
@@ -20306,9 +20150,6 @@ m.2020mustang.com
 fm.cnbc.com.edgekey.net
 gdsapi.cnbc.com.edgekey.net
 cmp.uniconsent.com
-di.phncdn.com
-ei.phncdn.com
-ci.phncdn.com
 wildcard.bybit.com.edgekey.net
 js-agent.newrelic.com
 img-egc.xvideos.com
@@ -20731,7 +20572,6 @@ cdn-ucq.dataweavers.io
 siteintercept.qprod2.net
 recs-1a.particularaudience.com
 sp.rmbl.ws
-video-api.shdsvc.dowjones.io
 sync.go.sonobi.com
 gu.dyntrk.com
 6.vikiplatform.com
@@ -20876,15 +20716,6 @@ sync.sharethis.com
 l.sharethis.com
 platform-cdn.sharethis.com
 ws.sharethis.com
-c5.ttcache.com
-c7.ttcache.com
-c6.ttcache.com
-c3.ttcache.com
-c8.ttcache.com
-c4.ttcache.com
-c9.ttcache.com
-c1.ttcache.com
-c2.ttcache.com
 cdnres.willyweather.com.au
 2b8530329b.0dc77eb60d.com
 video-api.wsj.com.edgekey.net
@@ -20898,7 +20729,6 @@ h-afterpay.online-metrix.net
 h-betfair.online-metrix.net
 h-tabcorp.online-metrix.net
 h-ebay.online-metrix.net
-static.parastorage.com
 fairfaxmedia.co.nz.edgekey.net
 configaus2.veinteractive.com
 choiceclips.whatfinger.com
@@ -21005,7 +20835,6 @@ static.files.bbci.co.uk.edgekey.net
 nav.files.bbci.co.uk.edgekey.net
 ichef.bbci.co.uk.edgekey.net
 ichef.bbc.co.uk.edgekey.net
-resources.digital-cloud-west.medallia.com
 community.akamai.steamstatic.com
 store.akamai.steamstatic.com
 149503561.v2.pressablecdn.com
@@ -21201,7 +21030,6 @@ churchleaders-eszuskq0bptlfh8awbb.stackpathdns.com
 assets.emarsys.net
 st.fullcircleinsights.com
 sofia.trustx.org
-neveragain.allstatics.com
 tour.eplay.com
 img.eplay.com
 image.winudf.com
@@ -21303,9 +21131,6 @@ static.elfsight.com
 storage.elfsight.com
 ads.playground.xyz
 go.smartrmail.com
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 bb.tube2000.com
 btn.createsend1.com
 login.fisherpaykel.com.00d90000000kftpeaq.live.siteforce.com
@@ -21424,7 +21249,6 @@ cdnssl.clicktale.net
 c.clicktale.net
 track1.aniview.com
 player.aniview.com
-static.dw.com.edgekey.net
 pbs.nextmillmedia.com
 tr.datatrics.com
 app.usercentrics.eu
@@ -22070,7 +21894,6 @@ front.optimonk.com
 hetklokhuis.ntr.nl
 cdn1.acsi.eu
 static.vakmedianet.com
-video-api.shdsvc.dowjones.io
 mw-prod.bluegrass.mktdata.dowjones.io
 wsj-prod.bluegrass.mktdata.dowjones.io
 feed.surfing-waves.com
@@ -22185,15 +22008,6 @@ ws.sharethis.com
 l.sharethis.com
 platform-cdn.sharethis.com
 buttons-config.sharethis.com
-c3.ttcache.com
-c2.ttcache.com
-c9.ttcache.com
-c6.ttcache.com
-c8.ttcache.com
-c4.ttcache.com
-c7.ttcache.com
-c1.ttcache.com
-c5.ttcache.com
 nl.bongacams.com
 2b8530329b.0dc77eb60d.com
 video-api.wsj.com.edgekey.net
@@ -22440,7 +22254,6 @@ assets.fstatic.nl
 collector.leadinfo.net
 assets.emarsys.net
 resources.adrequest.net
-neveragain.allstatics.com
 image.winudf.com
 lightspeed.multisafepay.com
 twdc-dtci.edge.nc0.co
@@ -22520,7 +22333,6 @@ go.xlviiirdr.com
 c.tile.openstreetmap.org
 b.tile.openstreetmap.org
 a.tile.openstreetmap.org
-tile.openstreetmap.org
 pixel.rubiconproject.com
 micro.rubiconproject.com
 ads.rubiconproject.com
@@ -22533,9 +22345,6 @@ hbx.media.net
 lg3.media.net
 static.elfsight.com
 storage.elfsight.com
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 vdm.praxiscdn.nl
 vdm-prd01.praxiscdn.nl
 matomo.trimbos.nl
@@ -22637,7 +22446,6 @@ cdnssl.clicktale.net
 c.clicktale.net
 bmedia.justservingfiles.net
 player.aniview.com
-static.dw.com.edgekey.net
 app.usercentrics.eu
 app.eu.usercentrics.eu
 config.eu.usercentrics.eu
@@ -22709,7 +22517,6 @@ collector-pxu6b0qd2s.px-cloud.net
 responder.wt-safetag.com
 static.criteo.net
 api2.branch.io
-images.wondershare.com
 vac.vap.expedia.com.edgekey.net
 vap.expedia.com.edgekey.net
 match.prod.bidr.io
@@ -22904,9 +22711,6 @@ static.hsappstatic.net
 de.lzstatic.com
 m.2020mustang.com
 cmp.uniconsent.com
-ei.phncdn.com
-di.phncdn.com
-ci.phncdn.com
 js-agent.newrelic.com
 integrations.etrusted.com
 embed.tawk.to
@@ -22980,7 +22784,6 @@ cdni.nudematureladies.com.sds.rncdn7.com
 b1sync.zemanta.com
 go.goaserv.com
 db.onlinewebfonts.com
-speedcdn.cloud.funkedigital.de
 ads.themoneytizer.com
 sdk.iad-03.braze.com
 sdk.iad-06.braze.com
@@ -23507,8 +23310,6 @@ assets.smart.com.edgekey.net
 player.redpineapplemedia.com
 smetrics.rcsmetrics.it
 front.optimonk.com
-static-cdn.ubuntu-de.org
-video-api.shdsvc.dowjones.io
 mw-prod.bluegrass.mktdata.dowjones.io
 wsj-prod.bluegrass.mktdata.dowjones.io
 sync.go.sonobi.com
@@ -23625,22 +23426,12 @@ sd.sharethis.com
 proxena-secure.reviveservers.com
 servedby.reviveservers.com
 medya.ilan.gov.tr
-c2.ttcache.com
-c3.ttcache.com
-c1.ttcache.com
-c9.ttcache.com
-c6.ttcache.com
-c8.ttcache.com
-c7.ttcache.com
-c4.ttcache.com
-c5.ttcache.com
 de.bongacams.com
 ad.adnet.de
 video-api.wsj.com.edgekey.net
 presentation-ams1.turn.com
 h-ebay.online-metrix.net
 h-walmart.online-metrix.net
-static.parastorage.com
 w.ad.style
 siegel.ausgezeichnet.org
 u01.appmifile.com.mgslb.com
@@ -23880,7 +23671,6 @@ cdn.static.zdbb.net
 api2.amplitude.com
 halc.iadvize.com
 assets.emarsys.net
-neveragain.allstatics.com
 image.winudf.com
 twdc-dtci.edge.nc0.co
 s-eu-1.pushpushgo.com
@@ -23983,9 +23773,6 @@ d14d2899.with.contentpass.net
 contextual.media.net
 hbx.media.net
 cs.media.net
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 files.upscore.com
 pv.medialead.de
 img.medien-systempartner.de
@@ -24088,7 +23875,6 @@ cdnssl.clicktale.net
 c.clicktale.net
 player.aniview.com
 go1.aniview.com
-static.dw.com.edgekey.net
 app.usercentrics.eu
 app.eu.usercentrics.eu
 aggregator.service.usercentrics.eu
@@ -24160,7 +23946,6 @@ targeting.api.drift.com
 static.criteo.net
 cdn-media.prettylittlething.com
 api2.branch.io
-images.wondershare.com
 prmeng.rosselcdn.net
 remeng.rosselcdn.net
 sports-sora.rosselcdn.net
@@ -24354,9 +24139,6 @@ play.vidyard.com
 ads.bullionyield.com
 static.hsappstatic.net
 cmp.uniconsent.com
-ei.phncdn.com
-di.phncdn.com
-ci.phncdn.com
 lb-eu.green-acres.com
 js-agent.newrelic.com
 static1.dmcdn.net
@@ -24715,7 +24497,6 @@ dpm.zebestof.com
 media.dscgirls.live
 components2.rcsobjects.it
 smetrics.rcsmetrics.it
-video-api.shdsvc.dowjones.io
 mw-prod.bluegrass.mktdata.dowjones.io
 wsj-prod.bluegrass.mktdata.dowjones.io
 sync.go.sonobi.com
@@ -24829,15 +24610,6 @@ l.sharethis.com
 platform-cdn.sharethis.com
 ws.sharethis.com
 sd.sharethis.com
-c2.ttcache.com
-c3.ttcache.com
-c6.ttcache.com
-c9.ttcache.com
-c7.ttcache.com
-c8.ttcache.com
-c5.ttcache.com
-c4.ttcache.com
-c1.ttcache.com
 fr.bongacams.com
 img.metaffiliation.com
 custom.metaffiliation.com
@@ -24848,7 +24620,6 @@ d.turn.com
 h.online-metrix.net
 h-ebay.online-metrix.net
 h-walmart.online-metrix.net
-static.parastorage.com
 content.airiane.com
 u01.appmifile.com.mgslb.com
 i02.appmifile.com.mgslb.com
@@ -25093,7 +24864,6 @@ assets.emarsys.net
 cdnii.e-i.com
 cdnsi.e-i.com
 tempnextstat.bcovery.com
-neveragain.allstatics.com
 assets.poool.fr
 image.winudf.com
 twdc-dtci.edge.nc0.co
@@ -25176,9 +24946,6 @@ cs.media.net
 lg3.media.net
 static.elfsight.com
 c.odp4pro.com
-static-lvlt.xhcdn.com
-thumb-v-lv.xhcdn.com
-pornstar-thumb.xhcdn.com
 echos-v2-vip.sdv.fr
 assets-prod.centrepresseaveyron.clients.sdv.fr
 www-prod.ladepeche.clients.sdv.fr

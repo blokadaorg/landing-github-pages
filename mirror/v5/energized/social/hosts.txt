@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 22.06.159
-# Release: 159
-# Entries: 6,962
+# Version: 22.06.166
+# Release: 166
+# Entries: 6,961
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 08 Jun 22 08:14:56 +06
+# Updated: Wed, 15 Jun 22 16:18:30 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -6906,7 +6906,6 @@ z-p42.graph.instagram.com
 z-p42.i.instagram.com
 z-p42-instagram.c10r.facebook.com
 z-p42-instagram.fcrk3-1.fna.fbcdn.net
-z-p42-instagram.flun1-1.fna.fbcdn.net
 z-p42-instagram.flun1-2.fna.fbcdn.net
 z-p42.maps.instagram.com
 z-p42-scontent-ams3-1.cdninstagram.com
