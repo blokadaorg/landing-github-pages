@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 05 Jun 2022 at 07:17:13 GMT
+# Last updated: Mon, 20 Jun 2022 at 22:23:22 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1963,7 +1963,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 scottishstuff-online.com	# Canadian bank phishing site
 127.0.0.1 screenaddict.thewhizproducts.com
 127.0.0.1 scribe.ttwitter.com
-127.0.0.1 scribus.fr
 127.0.0.1 sea.net.edu.cn
 127.0.0.1 search.buzzdock.com
 127.0.0.1 search.conduit.com
@@ -2168,7 +2167,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.randki-sex.com
 127.0.0.1 www.rickrolling.com
 127.0.0.1 www.russian-sex.com
-127.0.0.1 www.scribus.fr
 127.0.0.1 www.securityscan.us
 127.0.0.1 www.shinilchurch.net	# domain was hacked and had a trojan installed
 127.0.0.1 www.simplyhelper.com
