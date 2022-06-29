@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-06-24 08:28:12.383826
+# Generated at 2022-06-29 08:39:07.995647
 # Made by Blokada
 
 priceapi.moneycontrol.com
@@ -110,7 +110,6 @@ webim.en.trademessenger.com
 assets-global.website-files.com
 assets.website-files.com
 ion.guj.digital.edgekey.net
-www.guj.digital.edgekey.net
 integration-hub.mailclick.me
 static.vocstatic.com
 image.spreadshirtmedia.com
@@ -2033,7 +2032,6 @@ art.ngfiles.com
 aicon.ngfiles.com
 pureconnect.releasy.se
 core.iprom.net
-manifest.prod.boltdns.net
 cf-images.eu-west-1.prod.boltdns.net
 cf-images.ap-southeast-2.prod.boltdns.net
 cf-images.us-east-1.prod.boltdns.net
@@ -2243,7 +2241,6 @@ fsm-ws.attraqt.com
 app.cybba.solutions
 files1.cybba.solutions
 img.24video.net
-s2.coinmarketcap.com
 doppler-config.cbsivideo.com
 t1.os-data.com
 forms.soundestlink.com
@@ -6906,7 +6903,6 @@ zl-acquire-production.ztat.net
 mosaic02.ztat.net
 img01.ztat.net
 sac.ayads.co
-datawrapper.dwcdn.net
 static.dwcdn.net
 selo.compreconfie.com.br
 images.askari-sport.com
@@ -10537,7 +10533,6 @@ secure.widget.cloud.opta.net.edgekey.net
 star.cdn.nintendo.net.edgekey.net
 assets.game.net.edgekey.net
 d.line-scdn.net.edgekey.net
-dl.gmx.net.edgekey.net
 support.content.office.net.edgekey.net
 static.cimcontent.net.edgekey.net
 c.shld.net.edgekey.net
@@ -10553,8 +10548,6 @@ img.chintai.net.edgekey.net
 cdn.agoda.net.edgekey.net
 pix.agoda.net.edgekey.net
 c.ekstatic.net.edgekey.net
-www.faz.net.edgekey.net
-v2.mediax.faz.net.edgekey.net
 styles.finanzen.net.edgekey.net
 scripts.finanzen.net.edgekey.net
 images.finanzen.net.edgekey.net
@@ -13891,7 +13884,6 @@ client.crisp.chat
 secure.trust-provider.com
 dual.ziffdavis.com.edgekey.net
 assets-global.website-files.com
-www.guj.digital.edgekey.net
 ion.guj.digital.edgekey.net
 tibet.gyldendal.no
 spiroo.gyldendal.no
@@ -14077,7 +14069,6 @@ d.agkn.com
 aa.agkn.com
 js.ngfiles.com
 img.ngfiles.com
-manifest.prod.boltdns.net
 c.bannerflow.net
 upload-prod-www.apollo.se
 assets.bounceexchange.com
@@ -14549,7 +14540,6 @@ snir.asos-media.com.edgekey.net
 mosaic02.ztat.net
 mosaic01.ztat.net
 img01.ztat.net
-datawrapper.dwcdn.net
 static.dwcdn.net
 surveys-static.survicate.com
 events.bouncex.net
@@ -15208,7 +15198,6 @@ secure.trust-provider.com
 direct.credit-suisse.com
 dual.ziffdavis.com.edgekey.net
 ion.guj.digital.edgekey.net
-www.guj.digital.edgekey.net
 static.vocstatic.com
 deli.misaglam.com
 t.adcell.com
@@ -15406,7 +15395,6 @@ pool.automattic.iponweb.net
 sync.colossusssp.com
 aa.agkn.com
 d.agkn.com
-manifest.prod.boltdns.net
 c.bannerflow.net
 assets.bounceexchange.com
 i.weltbild.de
@@ -16075,7 +16063,6 @@ go.xxxiijmp.com
 snir.asos-media.com.edgekey.net
 zl-acquire-production.ztat.net
 sac.ayads.co
-datawrapper.dwcdn.net
 static.dwcdn.net
 surveys-static.survicate.com
 events.bouncex.net
@@ -17054,7 +17041,6 @@ aa.agkn.com
 d.agkn.com
 assets.hearstapps.com
 cf-images.us-east-1.prod.boltdns.net
-manifest.prod.boltdns.net
 c.bannerflow.net
 assets.bounceexchange.com
 logrocket.mktoweb.com
@@ -17615,7 +17601,6 @@ loc.nsfwadds.com
 go.xxxiijmp.com
 creative.xxxiijmp.com
 sac.ayads.co
-datawrapper.dwcdn.net
 static.dwcdn.net
 test-quebec.production.na2.netsuitestaging.com
 quebec.williams-sonoma.production.na2.netsuitestaging.com
@@ -18610,7 +18595,6 @@ assets.hearstapps.com
 js.ngfiles.com
 img.ngfiles.com
 cf-images.ap-southeast-2.prod.boltdns.net
-manifest.prod.boltdns.net
 cf-images.us-east-1.prod.boltdns.net
 assets.bounceexchange.com
 tag.bounceexchange.com
@@ -19963,7 +19947,6 @@ d.agkn.com
 assets.hearstapps.com
 js.ngfiles.com
 img.ngfiles.com
-manifest.prod.boltdns.net
 cf-images.ap-southeast-2.prod.boltdns.net
 c.bannerflow.net
 tag.bounceexchange.com
@@ -20475,7 +20458,6 @@ loc.nsfwadds.com
 intljs.rmtag.com
 go.xxxiijmp.com
 creative.xxxiijmp.com
-datawrapper.dwcdn.net
 static.dwcdn.net
 surveys-static.survicate.com
 survey.survicate.com
@@ -21386,7 +21368,6 @@ pool.automattic.iponweb.net
 aa.agkn.com
 js.ngfiles.com
 img.ngfiles.com
-manifest.prod.boltdns.net
 c.bannerflow.net
 rrstatic.retailrocket.net
 tracking.retailrocket.net
@@ -22404,7 +22385,6 @@ px.ads.linkedin.com
 secure.trust-provider.com
 dual.ziffdavis.com.edgekey.net
 ion.guj.digital.edgekey.net
-www.guj.digital.edgekey.net
 prod-origin.truendo.com
 deli.misaglam.com
 edge.curalate.com
@@ -22568,7 +22548,6 @@ ads.adthrive.com
 sw.wpu.sh
 pool.automattic.iponweb.net
 aa.agkn.com
-manifest.prod.boltdns.net
 assets.bounceexchange.com
 logrocket.mktoweb.com
 docker1.mktoweb.com
@@ -23231,7 +23210,6 @@ app.cituro.com
 go.xxxiijmp.com
 creative.xxxiijmp.com
 products.delight-vr.com
-datawrapper.dwcdn.net
 static.dwcdn.net
 events.bouncex.net
 media.bahag.cloud
@@ -24000,7 +23978,6 @@ tag.aticdn.net
 ads.adthrive.com
 pt-static1.ptlwmstc.com
 aa.agkn.com
-manifest.prod.boltdns.net
 snir.www.asos.com.v4.edgekey.net
 assets.bounceexchange.com
 logrocket.mktoweb.com

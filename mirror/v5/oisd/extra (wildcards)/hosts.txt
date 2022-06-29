@@ -1,7 +1,7 @@
 [Adblock Plus]
-! Version: 202206232206
+! Version: 202206271005
 ! Title: oisd extra
-! Last modified: 23 Jun 2022 22:06 UTC
+! Last modified: 27 Jun 2022 10:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://oisd.nl
 ! Syntax: Adblock Plus Filter List                
@@ -509,6 +509,7 @@
 ||drunkenstepfather.com^
 ||dspultra.com^
 ||dstreet.pl^
+||duhalw.win^
 ||duiba.com.cn^
 ||dzc-metrics.mzstatic.com^
 ||dziwnasprawa.eu^
@@ -766,7 +767,6 @@
 ||ivhnnw.com^
 ||jackettrain.com^
 ||japscat.org^
-||jav321.com^
 ||jdoqocy.com^
 ||jivox.com^
 ||jjdtrliuftaouhg.xyz^
@@ -779,6 +779,7 @@
 ||juicingwell.com^
 ||jwpltx.com^
 ||k.cocooncenter.com^
+||kaftakoy.win^
 ||kake.images.worldnow.com^
 ||kampyle.com^
 ||kaxsdc.com^
@@ -804,7 +805,6 @@
 ||l2.io^
 ||lcprd1.samsungcloudsolution.net^
 ||lcprd2.samsungcloudsolution.net^
-||leadpages.net^
 ||leanplum.com^
 ||learn.cisecurity.org^
 ||lemonparty.biz^
@@ -952,6 +952,7 @@
 ||naytev.com^
 ||neemu.com^
 ||nejmqianyan.cn^
+||nelo2-col.linecorp.com^
 ||neoamwhdg.com^
 ||net-s.pl^
 ||net.kg^

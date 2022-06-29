@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2022-06-24T01:05:23+00:00
-# Count: 29587 domains
+# Released: 2022-06-29T01:05:22+00:00
+# Count: 29592 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -113,6 +113,7 @@
 0.0.0.0 scontent-ecv1-1.cdninstagram.com
 0.0.0.0 scontent-eze1-1.cdninstagram.com
 0.0.0.0 scontent-fco2-1.cdninstagram.com
+0.0.0.0 scontent-fml1-1.cdninstagram.com
 0.0.0.0 scontent-fml2-1.cdninstagram.com
 0.0.0.0 scontent-for1-1.cdninstagram.com
 0.0.0.0 scontent-frt.cdninstagram.com
@@ -1968,6 +1969,7 @@
 0.0.0.0 en-ud.facebook.com
 0.0.0.0 en-us.facebook.com
 0.0.0.0 eni.facebook.com
+0.0.0.0 entel.facebook.com
 0.0.0.0 entergy.facebook.com
 0.0.0.0 entur.facebook.com
 0.0.0.0 eo-eo.facebook.com
@@ -19933,6 +19935,7 @@
 0.0.0.0 fr-fr.fr-fr.pl-pl.tr-tr.prod.facebook.com
 0.0.0.0 ja-jp.fr-fr.pl-pl.tr-tr.prod.facebook.com
 0.0.0.0 www.fr-fr.pl-pl.tr-tr.prod.facebook.com
+0.0.0.0 ga-ie.pl-pl.tr-tr.prod.facebook.com
 0.0.0.0 gu-in.pl-pl.tr-tr.prod.facebook.com
 0.0.0.0 he-il.pl-pl.tr-tr.prod.facebook.com
 0.0.0.0 hi-in.pl-pl.tr-tr.prod.facebook.com
@@ -22050,6 +22053,7 @@
 0.0.0.0 apps-1076623972865682.fbsbx.com
 0.0.0.0 apps-1100919010372332.fbsbx.com
 0.0.0.0 apps-1110404666109823.fbsbx.com
+0.0.0.0 apps-1114975339050482.fbsbx.com
 0.0.0.0 apps-1133633194135269.fbsbx.com
 0.0.0.0 apps-1163290194163703.fbsbx.com
 0.0.0.0 apps-1166838713814642.fbsbx.com
@@ -22111,6 +22115,7 @@
 0.0.0.0 apps-285307683047848.fbsbx.com
 0.0.0.0 apps-2856208641321432.fbsbx.com
 0.0.0.0 apps-2874190002852013.fbsbx.com
+0.0.0.0 apps-2882168855262507.fbsbx.com
 0.0.0.0 apps-2884053261855032.fbsbx.com
 0.0.0.0 apps-2891214181149835.fbsbx.com
 0.0.0.0 apps-2909091452706965.fbsbx.com
@@ -22619,6 +22624,7 @@
 0.0.0.0 accountsecuritylockdown.messenger.com
 0.0.0.0 adistance.messenger.com
 0.0.0.0 af-za.messenger.com
+0.0.0.0 www.af-za.messenger.com
 0.0.0.0 afstand-meten.messenger.com
 0.0.0.0 alexandrasicignano.messenger.com
 0.0.0.0 alfa.messenger.com
@@ -22825,6 +22831,7 @@
 0.0.0.0 hk.messenger.com
 0.0.0.0 hr.messenger.com
 0.0.0.0 hr-hr.messenger.com
+0.0.0.0 www.hr-hr.messenger.com
 0.0.0.0 http.messenger.com
 0.0.0.0 httpwww.messenger.com
 0.0.0.0 www.httpwww.messenger.com
@@ -22906,6 +22913,7 @@
 0.0.0.0 lt.messenger.com
 0.0.0.0 lt-lt.messenger.com
 0.0.0.0 www.m.messenger.com
+0.0.0.0 mail-mail.messenger.com
 0.0.0.0 mamaskruemel.messenger.com
 0.0.0.0 manila.messenger.com
 0.0.0.0 marcacorona.messenger.com
@@ -23037,6 +23045,7 @@
 0.0.0.0 sleepmask.messenger.com
 0.0.0.0 smasketch.messenger.com
 0.0.0.0 smtp.messenger.com
+0.0.0.0 snc8.messenger.com
 0.0.0.0 spool.messenger.com
 0.0.0.0 sprint.messenger.com
 0.0.0.0 sq-al.messenger.com
@@ -26546,8 +26555,6 @@
 0.0.0.0 external.fsin5-1.fna.fbcdn.net
 0.0.0.0 scontent.fsin5-1.fna.fbcdn.net
 0.0.0.0 scontent.fsin8-2.fna.fbcdn.net
-0.0.0.0 scontent.fsin9-1.fna.fbcdn.net
-0.0.0.0 instagram.fsin9-2.fna.fbcdn.net
 0.0.0.0 scontent.fsin9-2.fna.fbcdn.net
 0.0.0.0 external.fsjc1-3.fna.fbcdn.net
 0.0.0.0 instagram.fsjc1-3.fna.fbcdn.net
@@ -27469,6 +27476,7 @@
 0.0.0.0 scontent-a-mia.xx.fbcdn.net
 0.0.0.0 scontent-a-mxp.xx.fbcdn.net
 0.0.0.0 scontent-a-nrt.xx.fbcdn.net
+0.0.0.0 scontent-a-ord.xx.fbcdn.net
 0.0.0.0 scontent-a-sea.xx.fbcdn.net
 0.0.0.0 scontent-a-sin.xx.fbcdn.net
 0.0.0.0 scontent-a-sjc.xx.fbcdn.net
@@ -27592,6 +27600,7 @@
 0.0.0.0 scontent-mxp2-1.xx.fbcdn.net
 0.0.0.0 scontent-nrt.xx.fbcdn.net
 0.0.0.0 scontent-nrt1-1.xx.fbcdn.net
+0.0.0.0 scontent-ord.xx.fbcdn.net
 0.0.0.0 scontent-ort2-1.xx.fbcdn.net
 0.0.0.0 scontent-ort2-2.xx.fbcdn.net
 0.0.0.0 scontent-otp1-1.xx.fbcdn.net
@@ -27639,7 +27648,6 @@
 0.0.0.0 sonar-bom.xx.fbcdn.net
 0.0.0.0 sonar-bom1-1.xx.fbcdn.net
 0.0.0.0 sonar-bom1-2.xx.fbcdn.net
-0.0.0.0 sonar-bos3-1.xx.fbcdn.net
 0.0.0.0 sonar-bru2-1.xx.fbcdn.net
 0.0.0.0 sonar-cdg2-1.xx.fbcdn.net
 0.0.0.0 sonar-cdt1-1.xx.fbcdn.net
@@ -29450,9 +29458,6 @@
 0.0.0.0 media.fsgn6-1.fna.whatsapp.net
 0.0.0.0 media.fshl1-1.fna.whatsapp.net
 0.0.0.0 media.fsin5-1.fna.whatsapp.net
-0.0.0.0 sonar.fsin8-1.fna.whatsapp.net
-0.0.0.0 sonar.fsin9-1.fna.whatsapp.net
-0.0.0.0 sonar.fsin9-2.fna.whatsapp.net
 0.0.0.0 media.fslv1-2.fna.whatsapp.net
 0.0.0.0 www.media.fslv1-2.fna.whatsapp.net
 0.0.0.0 media.fslz7-1.fna.whatsapp.net
