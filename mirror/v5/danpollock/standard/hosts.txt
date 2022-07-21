@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 20 Jun 2022 at 22:23:22 GMT
+# Last updated: Wed, 20 Jul 2022 at 17:05:24 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -385,6 +385,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 an.mlb.com
 127.0.0.1 analytics-ingress-global.bitmovin.com
 127.0.0.1 analytics-static.ugc.bazaarvoice.com
+127.0.0.1 analytics.foresee.com
 127.0.0.1 analytics.global.sky.com
 127.0.0.1 analytics.msnbc.msn.com
 127.0.0.1 analytics.ooyala.com
@@ -1347,6 +1348,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tracking.murdoog.com
 127.0.0.1 tracking.myunidays.com
 127.0.0.1 tracking.nesox.com
+127.0.0.1 tracking.nmemails.com
 127.0.0.1 tracking.oerug.com
 127.0.0.1 tracking.pennystockpicks.net
 127.0.0.1 tracking.percentmobile.com
@@ -1654,6 +1656,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 c1i.su
 127.0.0.1 cablyshaw.com
 127.0.0.1 cafecoc.com
+127.0.0.1 callfor-articles.com
+127.0.0.1 callfor-submissions.com
 127.0.0.1 cambonanza.com
 127.0.0.1 campaign.budgethyve.com
 127.0.0.1 ccudl.com
@@ -1661,6 +1665,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 celestia.es
 127.0.0.1 celestia.fr
 127.0.0.1 certifiedwinners.today
+127.0.0.1 cfjln.comfortykive.xyz
 127.0.0.1 changduk26.com			# Facebook trojan
 127.0.0.1 checkfreevideos.net
 127.0.0.1 chelick.net				# Facebook trojan
@@ -1688,6 +1693,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 coinimp.com
 127.0.0.1 coldcertainchannel.com
 127.0.0.1 coldpacific.com
+127.0.0.1 comfortykive.xyz
 127.0.0.1 compufixshop.com
 127.0.0.1 comsss-56.com
 127.0.0.1 conduit.com
@@ -1705,7 +1711,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 dhauzja511.co.cc
 127.0.0.1 dns2.net1.it
 127.0.0.1 doors.co.kr
+127.0.0.1 dsbzk.comfortykive.xyz
+127.0.0.1 dveug.comfortykive.xyz
 127.0.0.1 east.05tz2e9.com
+127.0.0.1 eeude.comfortykive.xyz
 127.0.0.1 efreedom.net
 127.0.0.1 en.btc-trader-app.club
 127.0.0.1 en.likefever.org			# Facebook trojan
@@ -1728,6 +1737,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 filter.mediacpc.com
 127.0.0.1 find-your-profithere11.com
 127.0.0.1 firefox-updater.com
+127.0.0.1 fqint.comfortykive.xyz
 127.0.0.1 free.internetspeedtracker.com
 127.0.0.1 free.propdfconverter.com
 127.0.0.1 free.videodownloadconverter.com
@@ -1768,6 +1778,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 hatrecord.ru				# Facebook trojan
 127.0.0.1 hcg82f2b.com
 127.0.0.1 helpmedb.com
+127.0.0.1 hfrni.comfortykive.xyz
 127.0.0.1 himicrosoft.com
 127.0.0.1 hintonsfeetred.info
 127.0.0.1 hireproplus.com
@@ -1778,6 +1789,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 howtobuildsoftware.com
 127.0.0.1 hp.myway.com
 127.0.0.1 hsb-canada.com	# phishing site for hsbc.ca
+127.0.0.1 hwgda.comfortykive.xyz
 127.0.0.1 i.ua-passport.top
 127.0.0.1 icecars.com
 127.0.0.1 id-unconfirmeduser.frge.io
@@ -1800,6 +1812,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 keepass.fr
 127.0.0.1 keepinfit.net
 127.0.0.1 keybinary.com
+127.0.0.1 kiclq.comfortykive.xyz
 127.0.0.1 kirgo.at	# Facebook phishing attempt
 127.0.0.1 klowns4phun.com
 127.0.0.1 konflow.com				# Facebook trojan
@@ -1852,6 +1865,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 metcoc5cm.clarent.com
 127.0.0.1 microsoftsupport.xyz
 127.0.0.1 miercuri.gq
+127.0.0.1 mikvr.comfortykive.xyz
 127.0.0.1 minemytraffic.com
 127.0.0.1 miner.pr0gramm.com
 127.0.0.1 minero-proxy-01.now.sh
@@ -1870,6 +1884,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ms-shopplus.su
 127.0.0.1 mshelp247.weebly.com
 127.0.0.1 murcia-ban.es
+127.0.0.1 muwuo.comfortykive.xyz
 127.0.0.1 mv0129.stream
 127.0.0.1 mx1.freemail.ne.jp
 127.0.0.1 mylike.co.uk				# Facebook trojan
@@ -1910,9 +1925,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 orange.npix.net
 127.0.0.1 ordersildenafil.com
 127.0.0.1 orion.platino.gov.ve
+127.0.0.1 orowy.comfortykive.xyz
 127.0.0.1 osqa.net
 127.0.0.1 otsserver.com
 127.0.0.1 outerinfo.com
+127.0.0.1 oyrfo.comfortykive.xyz
 127.0.0.1 p.algovid.com
 127.0.0.1 p.ttwitter.com
 127.0.0.1 paincake.yoll.net
@@ -1920,6 +1937,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 paintnet.fr
 127.0.0.1 pdns.nudt.edu.cn
 127.0.0.1 petra.nic.gov.jo
+127.0.0.1 pexkr.comfortykive.xyz
 127.0.0.1 phorm.ch
 127.0.0.1 phorm.co.uk
 127.0.0.1 phorm.com
@@ -1938,11 +1956,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 premium-live-scan.com
 127.0.0.1 premiumvideoupdates.com
 127.0.0.1 prk.roverinvolv.bid
+127.0.0.1 profit-btc.org
 127.0.0.1 proflashdata.com			# Facebook trojan
 127.0.0.1 projectpoi.com
 127.0.0.1 provenfeedback.com
 127.0.0.1 qbittorrent.com
 127.0.0.1 qevia.doubleclick.bond
+127.0.0.1 qfsya.comfortykive.xyz
 127.0.0.1 quicksaledeal.su
 127.0.0.1 randki-sex.com
 127.0.0.1 reacherinst.com
@@ -1963,6 +1983,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 scottishstuff-online.com	# Canadian bank phishing site
 127.0.0.1 screenaddict.thewhizproducts.com
 127.0.0.1 scribe.ttwitter.com
+127.0.0.1 scyxj.comfortykive.xyz
 127.0.0.1 sea.net.edu.cn
 127.0.0.1 search.buzzdock.com
 127.0.0.1 search.conduit.com
@@ -1978,6 +1999,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 smile-angel.com
 127.0.0.1 software-updates.co
 127.0.0.1 software-wenc.co.cc
+127.0.0.1 solarswitch4all.com
 127.0.0.1 solutionscore.com
 127.0.0.1 solveseek.com
 127.0.0.1 sonatns.sonatrach.dz
@@ -1993,6 +2015,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 supernaturalart.com
 127.0.0.1 susm0q6jys.com
 127.0.0.1 sussi.cressoft.com.pk
+127.0.0.1 suxap.comfortykive.xyz
 127.0.0.1 sverd.net
 127.0.0.1 tahoesup.com
 127.0.0.1 tanieaukcje.com
@@ -2024,6 +2047,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tvshowslist.com
 127.0.0.1 tx.micro.net.pk
 127.0.0.1 ua-consumerpanel.frge.io
+127.0.0.1 udgth.comfortykive.xyz
 127.0.0.1 ufpcdn.com
 127.0.0.1 unetbootin.net
 127.0.0.1 unetbootin.org
@@ -2032,13 +2056,17 @@ ff02::3		ip6-allhosts
 127.0.0.1 uqz.com
 127.0.0.1 url9810.tokocrypto.com
 127.0.0.1 users16.jabry.com
+127.0.0.1 usoasopersbe.xyz
 127.0.0.1 utenti.lycos.it
 127.0.0.1 venturead.com
 127.0.0.1 verify.rambler-profile.site
+127.0.0.1 vfzzs.comfortykive.xyz
+127.0.0.1 vgsnf.comfortykive.xyz
 127.0.0.1 videoamp.com
 127.0.0.1 viowyf.khaiafi.com
 127.0.0.1 vip.fortunatetime.xyz
 127.0.0.1 vitemadose.fr
+127.0.0.1 vjpwe.comfortykive.xyz
 127.0.0.1 vlc.de
 127.0.0.1 vxiframe.biz
 127.0.0.1 w3facility.org
@@ -2060,7 +2088,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 wikidevs.com
 127.0.0.1 wileprefgurad.net
 127.0.0.1 willysy.com
+127.0.0.1 wizzshop.trade
 127.0.0.1 wk4x5rdtoz2tn0.com
+127.0.0.1 wpcgt.comfortykive.xyz
 127.0.0.1 wrontonshatbona.pro
 127.0.0.1 ws05.crypto-loot.com
 127.0.0.1 ws06.crypto-loot.com
@@ -2100,6 +2130,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.clonezilla.es
 127.0.0.1 www.clonezilla.fr
 127.0.0.1 www.coinimp.com
+127.0.0.1 www.comfortykive.xyz
 127.0.0.1 www.compufixshop.com
 127.0.0.1 www.didata.bw
 127.0.0.1 www.faggotry.com
@@ -2199,10 +2230,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.wewillrocknow.com
 127.0.0.1 www.willysy.com
 127.0.0.1 www.youfiletor.com
+127.0.0.1 xcdkb.comfortykive.xyz
 127.0.0.1 xen-media.com
 127.0.0.1 xn--oogle-wmc.com
 127.0.0.1 xpx7heciz9.com
 127.0.0.1 xxlargepop.com
+127.0.0.1 yexex.comfortykive.xyz
+127.0.0.1 ykocr.comfortykive.xyz
 127.0.0.1 ymail-activate1.bugs3.com
 127.0.0.1 youcanoptout.com
 127.0.0.1 yourdailytrailer.yournewtab.com
@@ -2212,6 +2246,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 zettapetta.com
 127.0.0.1 zip.er.cz
 127.0.0.1 zzhc.vnet.cn
+127.0.0.1 zzkwg.comfortykive.xyz
 #</malware-sites>
 
 #<doubleclick-sites>
@@ -5369,6 +5404,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 blu.mobileads.msn.com
 127.0.0.1 blueconic.net
 127.0.0.1 bluediamondoffers.com
+127.0.0.1 blueeyesintelligence.org
 127.0.0.1 bm.alimama.cn
 127.0.0.1 bmgiventures.com
 127.0.0.1 bmvip.alimama.cn
@@ -6734,6 +6770,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 larivieracasino.com
 127.0.0.1 larossola.it
 127.0.0.1 lastmeasure.zoy.org
+127.0.0.1 latticescience.com
+127.0.0.1 latticescipub.com
 127.0.0.1 launch.adserver.yahoo.com
 127.0.0.1 layer-ads.de
 127.0.0.1 ldglob01.adtech.fr
@@ -8135,7 +8173,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 static.vertamedia.com
 127.0.0.1 static.virgul.com
 127.0.0.1 static.vpptechnologies.com
-127.0.0.1 static.williamhill.com
 127.0.0.1 static.wooboo.com.cn
 127.0.0.1 static.youmi.net
 127.0.0.1 staticads.btopenworld.com
@@ -8652,6 +8689,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 worden.samenresultaat.nl
 127.0.0.1 work-offer.com
 127.0.0.1 workaccount.free.bg
+127.0.0.1 worldmedpilldeliver.com
 127.0.0.1 worry-free-savings.com
 127.0.0.1 wowanalytics.co.uk
 127.0.0.1 wppluginspro.com
@@ -8679,6 +8717,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.888.com
 127.0.0.1 www.888casino.com
 127.0.0.1 www.888poker.com
+127.0.0.1 www.90offbags.com
 127.0.0.1 www.961.com
 127.0.0.1 www.aandgwright.plus.com
 127.0.0.1 www.aarth.net
