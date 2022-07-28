@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 22.07.202
-# Release: 202
-# Entries: 6,963
+# Version: 22.07.209
+# Release: 209
+# Entries: 6,973
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Thu, 21 Jul 22 21:03:11 +06
+# Updated: Thu, 28 Jul 22 13:03:33 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -1122,6 +1122,7 @@ buggle.medium.com
 bugreportv2.qq.com
 bulletin.plus.google.com
 bulletins.myspace.com
+bumble.com
 bup.flickr.com
 bup-resume.flickr.com
 business.facebook.com
@@ -1312,6 +1313,7 @@ closeio.slack.com
 cloudfoundry.slack.com
 clova-blog.line.me
 clova.line.me
+clover.co
 cl.pinterest.com
 clubmed.m.facebook.com
 club.weibo.com
@@ -1331,6 +1333,7 @@ code.flickr.com
 code.internet.org
 code.kik.com
 coed-recreational-sports.meetup.com
+coffeemeetsbagel.com
 co.i.org
 co.linkedin.com
 collateral.medium.com
@@ -2576,6 +2579,7 @@ hacking.internet.org
 hack.internet.org
 hallo.internet.org
 hanzhuo.renren.com
+happn.com
 happyfarm.qzone.qq.com
 havecamerawilltravel.plus.google.com
 h.beta.facebook.com
@@ -2632,6 +2636,7 @@ hhm.i.org
 hi.datememe.com
 hi-in.facebook.com
 hilfe.linkedin.com
+hinge.co
 h.internet.org
 h.i.org
 hjalp.linkedin.com
@@ -3340,6 +3345,7 @@ market.viber.com
 masdk.3g.qq.com
 m.ask.fm
 mastodon.social
+match.com
 matchmaker.meetup.com
 match.meetme.com
 ma.twimg.com
@@ -3929,6 +3935,7 @@ oglint.i.org
 o.imo.im
 o.internet.org
 o.i.org
+okcupid.com
 old.p.reddit.com
 old.reddit.com
 olds.reddit.com
@@ -4179,6 +4186,7 @@ pm.i.org
 pmir.3g.qq.com
 pmir-hk.3g.qq.com
 pnv.skype.com
+pof.com
 policy.pinterest.com
 policyres.game.yy.com
 polls.linkedin.com
@@ -5510,6 +5518,7 @@ timbrasil.m.facebook.com
 timeap.i.org
 timeline.line.me
 time.qzone.qq.com
+tinder.com
 ting.weibo.com
 tinker.com
 tippaj.tieba.baidu.com
@@ -5884,6 +5893,7 @@ wax.weibo.com
 w.coral.qq.com
 wd89975cf1kjx33lic-gi2tamjzgq3tsmd.snr.whatsapp.net
 wdf.i.org
+weareher.com
 wearentus.slack.com
 web1.wechat.com
 web2.wechat.com

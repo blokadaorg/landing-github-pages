@@ -1,7 +1,7 @@
 [Adblock Plus]
-! Version: 202207210845
+! Version: 202207271752
 ! Title: oisd extra
-! Last modified: 21 Jul 2022 08:45 UTC
+! Last modified: 27 Jul 2022 17:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://oisd.nl
 ! Syntax: Adblock Plus Filter List                
@@ -63,13 +63,11 @@
 ||ads.twitter.com^
 ||ads280dummy2.com^
 ||adsafeprotected.com^
-||adsafety.net^
 ||adservice.google.be^
 ||adservice.google.co.in^
 ||adservice.google.co.jp^
 ||adservice.google.com^
 ||adservice.google.com.vn^
-||adservicemedia.dk^
 ||adtrackers.net^
 ||adtraction.com^
 ||adups.com^
@@ -245,7 +243,6 @@
 ||collector-main.trafficmanager.net^
 ||com-csn.com^
 ||comet.yahoo.com^
-||commander1.com^
 ||commission-junction.com^
 ||config.uca.cloud.unity3d.com^
 ||confirmlyr.xyz^
@@ -297,7 +294,6 @@
 ||devices.carnivalmobile.com^
 ||dfbvccwdlsl.com^
 ||dhkwxpzgvqgr.com^
-||digitaladvisor.dk^
 ||discord-app.net^
 ||djtflbt20bdde.cloudfront.net^
 ||dlfja.gdn^
@@ -328,7 +324,6 @@
 ||ethinconfid.club^
 ||etl.tindersparks.com^
 ||eu.spgo.io^
-||eulerian.brandalley.fr^
 ||eulerian.net^
 ||eulerian.officiel-des-vacances.com^
 ||eulerian.sarenza.com^
@@ -339,12 +334,10 @@
 ||events.mapbox.com^
 ||events.release.narrativ.com^
 ||events.split.io^
-||everesttech.net^
 ||evidon.com^
 ||evidon.com.edgekey.net^
 ||evt.mxplay.com^
 ||exactag.com^
-||exosrv.com^
 ||experience.tinypass.com^
 ||exponea.com^
 ||ext.goguardian.com^
@@ -356,6 +349,7 @@
 ||faktor.io^
 ||fast.appcues.com^
 ||feature.fm^
+||ffconf.ecbsn.com^
 ||firebaselogging-pa.googleapis.com^
 ||fireflyengagement.com^
 ||flexlinkspro.com^
@@ -449,7 +443,6 @@
 ||insightexpressai.com^
 ||insightexpressai.com.edgekey.net^
 ||insights.samsung.com^
-||intelliad.de^
 ||intxt.cn^
 ||investingchannel.com^
 ||invoca.net^
@@ -520,7 +513,6 @@
 ||manufacta-italia.it^
 ||marfeel.com^
 ||marfeelcache.com^
-||marinsm.com^
 ||marketingautomation.services^
 ||marketingplatform.google.com^
 ||marketo.com^
@@ -535,7 +527,6 @@
 ||mediaplex.com^
 ||mediuminsert.com^
 ||medyanetads.com^
-||metaffiliation.com^
 ||metok.sys.miui.com^
 ||metric.gstatic.com^
 ||metrics.claspws.tv^
@@ -544,7 +535,6 @@
 ||mindtake.com^
 ||mkt51.net^
 ||mmstat.com^
-||mmtro.com^
 ||mobivity.com^
 ||moengage.com^
 ||moneroocean.stream^
@@ -602,6 +592,7 @@
 ||okkkk.com^
 ||om.cbsi.com^
 ||omarsys.com^
+||ometria.com^
 ||omtrdc.net^
 ||onenetworkdirect.net^
 ||online-metrix.net^
@@ -616,7 +607,6 @@
 ||panther.goguardian.com^
 ||papy.co.jp^
 ||parkingcrew.net^
-||partner-ads.com^
 ||partners.etoro.com^
 ||partycasino.com^
 ||partypoker.com^
@@ -658,7 +648,6 @@
 ||privacy-policy.truste.com^
 ||production-cmp.isgprivacy.cbsi.com^
 ||props-project.com^
-||publicidees.com^
 ||pushwelcome.com^
 ||pv.sohu.com^
 ||pxf.io^
@@ -702,7 +691,6 @@
 ||sa.bbc.co.uk^
 ||sail-horizon.com^
 ||sakura.goguardian.com^
-||salesmanago.pl^
 ||sanalytics.disneyplus.com^
 ||sare25.com^
 ||sasaum.com^
@@ -729,7 +717,6 @@
 ||server.iad.liveperson.net^
 ||services.brightline.tv^
 ||services.zam.com^
-||serving-sys.com^
 ||setmeg.com^
 ||sgsnssdk.com.edgekey.net^
 ||shakentherepasta.com^
@@ -774,9 +761,7 @@
 ||sy.ameblo.jp^
 ||t.indeed.com^
 ||taboola.com^
-||tag.getdrip.com^
 ||tag.search.sensefuel.live^
-||tag.shopping-feed.com^
 ||tagcommander.com^
 ||tagger.opecloud.com^
 ||tagm.tchibo.de^
@@ -801,7 +786,6 @@
 ||todhamilton.pro^
 ||torimochi.line-apps.com^
 ||track.customer.io^
-||track.effiliation.com^
 ||track.nzz.ch^
 ||tracker.idocdn.com^
 ||tracking.lengow.com^

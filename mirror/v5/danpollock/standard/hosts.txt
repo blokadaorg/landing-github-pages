@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 20 Jul 2022 at 17:05:24 GMT
+# Last updated: Fri, 22 Jul 2022 at 02:22:12 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -6496,6 +6496,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 igrs.ca
 127.0.0.1 ih.adscale.de
 127.0.0.1 ih2.gamecopyworld.com
+127.0.0.1 iijls.com
 127.0.0.1 ilinks.industrybrains.com
 127.0.0.1 ilovemobi.com
 127.0.0.1 im.52441.com
