@@ -7,14 +7,14 @@
     },
     "buildConfigs": [
         {
-            "name": "Blokada 5: official channel",
+            "name": "Blokada 5: Official Channel",
             "forBuild": "fullRelease",
             "update": {
                 "infoUrl": "https://blokada.org/#download",
                 "mirrors": [
                     "https://go.blokada.org/apk5"
                 ],
-                "newest": "5.21.0"
+                "newest": "603000002"
             }
         },
         {
@@ -37,7 +37,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_beta"
                 ],
-                "newest": "5.21.0"
+                "newest": "603000002"
             }
         },
         {
