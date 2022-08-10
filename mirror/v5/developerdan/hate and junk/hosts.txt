@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-07-27T01:05:25+00:00
-# Count: 1771 domains
+# Released: 2022-08-06T01:05:26+00:00
+# Count: 1777 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -423,6 +423,10 @@
 0.0.0.0 testerp.liveqordie.com
 0.0.0.0 www.liveqordie.com
 0.0.0.0 naebc.com
+0.0.0.0 cpanel.naebc.com
+0.0.0.0 cpcalendars.naebc.com
+0.0.0.0 webdisk.naebc.com
+0.0.0.0 webmail.naebc.com
 0.0.0.0 www.naebc.com
 0.0.0.0 natall.com
 0.0.0.0 mail.natall.com
@@ -571,6 +575,7 @@
 0.0.0.0 www.niggermania.com
 0.0.0.0 officialproudboys.com
 0.0.0.0 proudofyourstore.officialproudboys.com
+0.0.0.0 www.proudofyourstore.officialproudboys.com
 0.0.0.0 www.officialproudboys.com
 0.0.0.0 organiclifestylemagazine.com
 0.0.0.0 dev.organiclifestylemagazine.com
@@ -901,6 +906,7 @@
 0.0.0.0 afapledge.afa.net
 0.0.0.0 pre.afapledge.afa.net
 0.0.0.0 nickdev.pre.afapledge.afa.net
+0.0.0.0 test.afapledge.afa.net
 0.0.0.0 aml.afa.net
 0.0.0.0 apppush.afa.net
 0.0.0.0 bitrix.afa.net
