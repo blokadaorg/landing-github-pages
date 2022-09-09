@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-08-06T01:05:26+00:00
-# Count: 1777 domains
+# Released: 2022-09-09T01:05:24+00:00
+# Count: 1806 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -415,6 +415,8 @@
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
 0.0.0.0 lindelltv.com
+0.0.0.0 net.lindelltv.com
+0.0.0.0 faqaboutgod.net.lindelltv.com
 0.0.0.0 www.lindelltv.com
 0.0.0.0 liveqordie.com
 0.0.0.0 erp.liveqordie.com
@@ -447,6 +449,7 @@
 0.0.0.0 bigberkey.naturalnews.com
 0.0.0.0 biostructuredsilver.naturalnews.com
 0.0.0.0 blackcuminseedpowder.naturalnews.com
+0.0.0.0 blackfridaycybermondayevent.naturalnews.com
 0.0.0.0 blackfridayevent.naturalnews.com
 0.0.0.0 blogs.naturalnews.com
 0.0.0.0 bluelightblockingamberglasses.naturalnews.com
@@ -503,6 +506,7 @@
 0.0.0.0 mangosteen.naturalnews.com
 0.0.0.0 manukahoney.naturalnews.com
 0.0.0.0 market.naturalnews.com
+0.0.0.0 mctoil.naturalnews.com
 0.0.0.0 mctoilpowder.naturalnews.com
 0.0.0.0 mesquite.naturalnews.com
 0.0.0.0 microalgaesuperfoodpowder.naturalnews.com
@@ -630,6 +634,7 @@
 0.0.0.0 forum.projectcamelotportal.com
 0.0.0.0 localhost.projectcamelotportal.com
 0.0.0.0 mail.projectcamelotportal.com
+0.0.0.0 main.projectcamelotportal.com
 0.0.0.0 media.projectcamelotportal.com
 0.0.0.0 media2.projectcamelotportal.com
 0.0.0.0 media3.projectcamelotportal.com
@@ -756,6 +761,8 @@
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
 0.0.0.0 thinkqanon.com
+0.0.0.0 forum.thinkqanon.com
+0.0.0.0 mail.thinkqanon.com
 0.0.0.0 www.thinkqanon.com
 0.0.0.0 toqonline.com
 0.0.0.0 members.toqonline.com
@@ -858,6 +865,9 @@
 0.0.0.0 standupx.info
 0.0.0.0 www.standupx.info
 0.0.0.0 nationalpolicy.institute
+0.0.0.0 cpanel.nationalpolicy.institute
+0.0.0.0 webdisk.nationalpolicy.institute
+0.0.0.0 webmail.nationalpolicy.institute
 0.0.0.0 www.nationalpolicy.institute
 0.0.0.0 qresearch.it
 0.0.0.0 ftp.qresearch.it
@@ -932,11 +942,11 @@
 0.0.0.0 resources.afa.net
 0.0.0.0 shareathonwebhook.afa.net
 0.0.0.0 shipstationwebhook.afa.net
+0.0.0.0 site2.afa.net
 0.0.0.0 track.spark-post.afa.net
 0.0.0.0 streamer1.afa.net
-0.0.0.0 site1.streamer1.afa.net
 0.0.0.0 streaming.afa.net
-0.0.0.0 site2.streamingwebhook.afa.net
+0.0.0.0 streamingwebhook.afa.net
 0.0.0.0 subcount.afa.net
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
@@ -976,6 +986,24 @@
 0.0.0.0 staging.jamesperloff.net
 0.0.0.0 www.staging.jamesperloff.net
 0.0.0.0 www.jamesperloff.net
+0.0.0.0 kiwifarms.net
+0.0.0.0 ads.kiwifarms.net
+0.0.0.0 analytics.kiwifarms.net
+0.0.0.0 archive.kiwifarms.net
+0.0.0.0 autodelete.kiwifarms.net
+0.0.0.0 element.kiwifarms.net
+0.0.0.0 git.kiwifarms.net
+0.0.0.0 king01.kiwifarms.net
+0.0.0.0 matrix.kiwifarms.net
+0.0.0.0 merch.kiwifarms.net
+0.0.0.0 no-cookie.kiwifarms.net
+0.0.0.0 pleroma.kiwifarms.net
+0.0.0.0 resetera.kiwifarms.net
+0.0.0.0 riot.kiwifarms.net
+0.0.0.0 ss13.kiwifarms.net
+0.0.0.0 tracker.kiwifarms.net
+0.0.0.0 turn.kiwifarms.net
+0.0.0.0 www.kiwifarms.net
 0.0.0.0 niggermania.net
 0.0.0.0 www.niggermania.net
 0.0.0.0 phibetaiota.net
@@ -1656,6 +1684,7 @@
 0.0.0.0 www.pandemic.warroom.org
 0.0.0.0 podcast.warroom.org
 0.0.0.0 sip.warroom.org
+0.0.0.0 storage.warroom.org
 0.0.0.0 www.warroom.org
 0.0.0.0 qntmpkts.keybase.pub
 0.0.0.0 www.qntmpkts.keybase.pub

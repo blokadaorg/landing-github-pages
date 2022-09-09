@@ -24,12 +24,12 @@
 # Title: Energized Social Extension
 # Description: Social Sites and Apps Blocking.
 # Format: domain list
-# Version: 22.08.222
-# Release: 222
-# Entries: 6,973
+# Version: 22.09.252
+# Release: 252
+# Entries: 6,974
 # Pack Code: EX50C14L-P
 # License: MIT, https://energized.pro/license
-# Updated: Wed, 10 Aug 22 13:04:17 +06
+# Updated: Fri, 09 Sep 22 13:02:06 +06
 # RAW: https://block.energized.pro/extensions/social/formats/domains.txt
 # --------------------------------------------
 #
@@ -1136,6 +1136,7 @@ business.snapchat.com
 business.twitter.com
 business.weheartit.com
 button.flattr.com
+button-follow.zalo.me
 button-share.zalo.me
 buttons.reddit.com
 buy.line.me

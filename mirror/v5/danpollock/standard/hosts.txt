@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 08 Aug 2022 at 02:27:57 GMT
+# Last updated: Sat, 27 Aug 2022 at 08:50:18 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1971,6 +1971,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 dirtmountainbike.fr
 127.0.0.1 disneyholidays.fr
 127.0.0.1 dns2.net1.it
+127.0.0.1 dnythgt.com
 127.0.0.1 dogry.fr
 127.0.0.1 dogtrace.fr
 127.0.0.1 domaine-voyance.fr
@@ -2306,6 +2307,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 lavoixedunord.fr
 127.0.0.1 laxifoot.fr
 127.0.0.1 lbouyguestelecom.fr
+127.0.0.1 lbrtry.com
 127.0.0.1 lcastorama.fr
 127.0.0.1 lcolissimo.fr
 127.0.0.1 lcpr.fr
@@ -2525,6 +2527,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 muttuelle.fr
 127.0.0.1 muwuo.comfortykive.xyz
 127.0.0.1 mv0129.stream
+127.0.0.1 mvspjwd.com
 127.0.0.1 mx1.freemail.ne.jp
 127.0.0.1 mycaal.fr
 127.0.0.1 mycnal.fr
@@ -2837,6 +2840,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 solutionscore.com
 127.0.0.1 solveseek.com
 127.0.0.1 sonatns.sonatrach.dz
+127.0.0.1 songsar.com
 127.0.0.1 soniksports.fr
 127.0.0.1 soports.fr
 127.0.0.1 sorbone.fr
@@ -2847,6 +2851,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ssephora.fr
 127.0.0.1 stackoverflow.xyz
 127.0.0.1 star-iptv.fr
+127.0.0.1 starbuckssurvey.life
 127.0.0.1 startmarket.su
 127.0.0.1 statutorjuihui.site
 127.0.0.1 steelbitepro24.com
@@ -8946,6 +8951,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 service004.adtech.us
 127.0.0.1 service00x.adtech.fr
 127.0.0.1 service00x.adtech.us
+127.0.0.1 servicer.mgid.com
 127.0.0.1 services.adtech.fr
 127.0.0.1 services.adtech.us
 127.0.0.1 services1.adtech.fr
@@ -10562,6 +10568,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 zazerygu.pro
 127.0.0.1 zc1.zeroredirect11.com
 127.0.0.1 zdads.e-media.com
+127.0.0.1 zem.outbrainimg.com
 127.0.0.1 zemgo.com
 127.0.0.1 zeroredirect.com
 127.0.0.1 zeroredirect1.com

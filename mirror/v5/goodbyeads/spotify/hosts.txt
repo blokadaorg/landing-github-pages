@@ -11,7 +11,7 @@
 # Format: hosts
 # Entries: 3700+
 # License: MIT, https://github.com/jerryn70/GoodbyeAds/blob/master/LICENSE
-# Updated: Jun 22 12:32:22 GMT+05:30 2022
+# Updated: Aug 17 12:32:22 GMT+05:30 2022
 # Source: https://github.com/jerryn70/GoodbyeAds
 # Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
 # --------------------------------------------
@@ -1838,7 +1838,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 heads-ec.spotify.com
 0.0.0.0 heads-fab.spotify.com
 0.0.0.0 heads-fac.spotify.com
-0.0.0.0 heads-fa.scdn.co
 0.0.0.0 heads-fa.spotify.com
 0.0.0.0 hl-display.com
 0.0.0.0 ia1.comscore.com
@@ -3300,7 +3299,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 tribpubdfp745347008913.s.moatpixel.com
 0.0.0.0 tune.com
 0.0.0.0 t.update.moatads.com
-0.0.0.0 tv.scdn.co
 0.0.0.0 twx.2mdn.net
 0.0.0.0 twx.doubleclick.net
 0.0.0.0 tx102.sc9.admob.com
