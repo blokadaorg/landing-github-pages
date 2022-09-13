@@ -76,6 +76,14 @@
              }
         },
         {
+            "name": "Blokada 5 Slim (deprecated)",
+            "forBuild": "googleslimRelease",
+            "payload": {
+                 "cmd": "escape/666022308",
+                 "version": 20
+             }
+        },
+        {
             "name": "Blokada 5 Slim: Google Play (Beta)",
             "forBuild": "googleBeta"
         },
