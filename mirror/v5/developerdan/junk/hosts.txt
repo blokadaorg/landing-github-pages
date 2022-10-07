@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-09-09T01:05:24+00:00
-# Count: 1806 domains
+# Released: 2022-09-28T01:05:25+00:00
+# Count: 1805 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -332,7 +332,6 @@
 0.0.0.0 www.mail.joyinliberty.com
 0.0.0.0 ns1.joyinliberty.com
 0.0.0.0 ns2.joyinliberty.com
-0.0.0.0 southernechoes.joyinliberty.com
 0.0.0.0 tracking.joyinliberty.com
 0.0.0.0 www.joyinliberty.com
 0.0.0.0 kamellia.com
@@ -914,8 +913,6 @@
 0.0.0.0 adserver.afa.net
 0.0.0.0 dev.adserver.afa.net
 0.0.0.0 afapledge.afa.net
-0.0.0.0 pre.afapledge.afa.net
-0.0.0.0 nickdev.pre.afapledge.afa.net
 0.0.0.0 test.afapledge.afa.net
 0.0.0.0 aml.afa.net
 0.0.0.0 apppush.afa.net
@@ -947,6 +944,7 @@
 0.0.0.0 streamer1.afa.net
 0.0.0.0 streaming.afa.net
 0.0.0.0 streamingwebhook.afa.net
+0.0.0.0 site1.streamingwebhook.afa.net
 0.0.0.0 subcount.afa.net
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
@@ -1020,6 +1018,7 @@
 0.0.0.0 mvideo.qposts.online
 0.0.0.0 www.qposts.online
 0.0.0.0 911truth.org
+0.0.0.0 app.911truth.org
 0.0.0.0 autodiscover.911truth.org
 0.0.0.0 mail.911truth.org
 0.0.0.0 www.911truth.org
