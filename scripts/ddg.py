@@ -132,6 +132,7 @@ def main(argv):
         f_out.write(f"# Generated at {datetime.now()}\n")
         f_out.write("# Made by Blokada\n\n")
 
+        domains = sorted(set(domains))
         for entry in domains:
             f_out.write(f"{entry}\n")
 
