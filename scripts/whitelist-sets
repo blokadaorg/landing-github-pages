@@ -19,3 +19,5 @@ https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/
 https://raw.githubusercontent.com/ookangzheng/blahdns/master/hosts/whitelist.txt
 https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/exclusions/android.txt
 https://raw.githubusercontent.com/FadeMind/hosts.whitelists/master/whitelist.notracking
+https://raw.githubusercontent.com/badmojr/1Hosts/master/submit_here/exclude_for_all.txt
+https://gitlab.com/malware-filter/urlhaus-filter/-/raw/master/src/exclude.txt
