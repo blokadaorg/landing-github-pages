@@ -71,6 +71,9 @@ def main(argv):
     counter = 0
 
     for link in sets:
+        if not link:
+            continue
+
         print(f"      {link}")
 
         f = urlopen(link)
