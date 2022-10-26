@@ -474,17 +474,6 @@ def main(argv):
                     }
                 ]
             },
-            {
-                "id": "cyberthreatcoalition",
-                "configs": [
-                    {
-                        "name": "vetted",
-                        "urls": [
-                            "https://blocklist.cyberthreatcoalition.org/vetted/domain.txt"
-                        ]
-                    }
-                ]
-            },
         ]
     }
 
