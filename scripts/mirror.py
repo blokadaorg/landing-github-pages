@@ -405,7 +405,7 @@ def main(argv):
                     {
                         "name": "standard",
                         "urls": [
-                            "https://curben.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
+                            "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
                         ]
                     }
                 ]
