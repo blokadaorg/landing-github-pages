@@ -1,7 +1,7 @@
 [Adblock Plus]
-! Version: 202210260043
+! Version: 202210200006
 ! Title: oisd extra
-! Last modified: 2022-10-26T00:43:07+0200
+! Last modified: 2022-10-20T00:06:08+0200
 ! Expires: 1 days (update frequency)
 ! Homepage: https://oisd.nl
 ! Syntax: Adblock Plus Filter List             
@@ -10,6 +10,7 @@
 ||2o7.net^
 ||3cinteractive.com^
 ||51.la^
+||66av.cc^
 ||a.klaviyo.com^
 ||a1.api.bbc.co.uk^
 ||a1843.g.akamai.net^
@@ -37,7 +38,6 @@
 ||ads.google.com^
 ||ads.reddit.com^
 ||ads.twitter.com^
-||ads.videoadex.com^
 ||ads280dummy2.com^
 ||adsafeprotected.com^
 ||adservice.google.co.jp^
@@ -55,7 +55,6 @@
 ||analytics.console.aws.a2z.com^
 ||analytics.edgekey.net^
 ||analytics.twitter.com^
-||aniview.com^
 ||api-2-0.spot.im^
 ||api-gateway.us-west-2.elasticbeanstalk.com^
 ||api-v3.tinypass.com^
@@ -66,13 +65,10 @@
 ||api.ipstack.com^
 ||api.parsely.com^
 ||api.segment.io^
-||api.uca.cloud.unity3d.com^
 ||api.us-east-1.aiv-delivery.net^
-||api.usebutton.com^
 ||api3.siftscience.com^
 ||apis.com.br^
 ||apituner.ecbsn.com^
-||app.chat.xiaomi.net^
 ||app.meltwater.com^
 ||app.wootric.com^
 ||appboy-images.com^
@@ -83,11 +79,9 @@
 ||assets.narvar.com^
 ||assoc-amazon.com^
 ||atlassbx.com^
-||audid-api.taobao.com^
 ||auth.split.io^
 ||b.stats.paypal.com^
 ||bat.bing.com^
-||blogroll.livedoor.net^
 ||blueconic.net^
 ||bluekai.com^
 ||bluekai.com.edgekey.net^
@@ -100,6 +94,7 @@
 ||btstatic.com^
 ||bttn.io^
 ||bugly.qq.com^
+||bugsee-api-prod.elasticbeanstalk.com^
 ||buy.tinypass.com^
 ||c.cintnetworks.com^
 ||c.webengage.com^
@@ -117,16 +112,13 @@
 ||cdn.brid.tv^
 ||cdn.cxense.com^
 ||cdn.dynamicyield.com^
-||cdn.gigya.com^
 ||cdn.gladly.com^
 ||cdn.gotraffic.net^
 ||cdn.optimizely.com^
 ||cdn.segment.com^
 ||cdn.segment.io^
-||cdn.siftscience.com^
 ||cdn.split.io^
 ||cdn.tagcommander.com^
-||cdn.tinypass.com^
 ||cdn.vidible.tv^
 ||cdn2.cache.vn^
 ||cdn3.optimizely.com^
@@ -140,18 +132,14 @@
 ||clicktale.net.edgekey.net^
 ||clientsdk.luminati.io^
 ||coin-wallet.info^
-||collecting-consent.g5e.com^
 ||collector-main.trafficmanager.net^
 ||comet.yahoo.com^
 ||config.uca.cloud.unity3d.com^
 ||connect.scroll.com^
-||consent-manager-events.ogury.io^
 ||contents.purelovers.com^
-||convexfinance.org^
 ||conviva.com^
 ||coremetrics.com^
 ||crashlytics.com^
-||crbcdn.jsfiddle.net^
 ||creativemindhacks.com^
 ||csi.gstatic.com^
 ||ct.pinterest.com^
@@ -176,7 +164,6 @@
 ||drfdisvc.walmart.com^
 ||drunkenstepfather.com^
 ||dzc-metrics.mzstatic.com^
-||dzxcq.com^
 ||e.imguol.com^
 ||e7876.dscg.akamaiedge.net^
 ||edmedsnow.com^
@@ -185,15 +172,12 @@
 ||enigmasoftware.com^
 ||ensighten.com^
 ||events.split.io^
-||everesttech.net^
 ||evidencecleanergold.com^
 ||evidon.com^
 ||evidon.com.edgekey.net^
-||exosrv.com^
 ||experience.tinypass.com^
 ||extra-check.oisd.nl^
 ||extreme-ip-lookup.com^
-||eyeblaster.akadns.net^
 ||fast.appcues.com^
 ||ffconf.ecbsn.com^
 ||fls-na.amazon.com^
@@ -202,15 +186,12 @@
 ||ftpcontent.worldnow.com^
 ||fwmrm.net^
 ||gameanalytics.com^
-||gc.zgo.at^
-||gds.mmstat.com^
 ||gemius.pl^
 ||genforumgenealogy.com^
 ||geo.nbcsports.com^
 ||geolocation.onetrust.com^
 ||gigazine.asia^
 ||global.telemetry.insights.video.a2z.com^
-||gm.mmstat.com^
 ||go.redirectingat.com^
 ||gocarrot.com^
 ||googleadservices.com^
@@ -226,16 +207,13 @@
 ||image.richrelevance.com^
 ||images2.minutemediacdn.com^
 ||img.connatix.com^
-||img.en25.com^
 ||img2.autoimg.cn^
 ||imrworldwide.com^
-||informer.yandex.ru^
 ||insightexpressai.com^
 ||insightexpressai.com.edgekey.net^
 ||insights.samsung.com^
 ||invoca.net^
 ||iteratehq.com^
-||js-agent.newrelic.com^
 ||js-sec.indexww.com^
 ||js.driftt.com^
 ||js.gleam.io^
@@ -243,16 +221,14 @@
 ||jssdkcdns.mparticle.com^
 ||jssdks.mparticle.com^
 ||kampyle.com^
-||kiks.yandex.ru^
 ||komachi.yomiuri.co.jp^
 ||krxd.net^
-||l.betrad.com^
 ||l.qq.com^
 ||leanplum.com^
 ||lgsmartad.com^
+||lienquanmobilequatang.com^
 ||lightboxcdn.com^
 ||livejasmin.com^
-||log.mmstat.com^
 ||logging.api.intuit.com^
 ||logs.datadoghq.com^
 ||logx.optimizely.com^
@@ -262,7 +238,6 @@
 ||maconbraves.com^
 ||macromill.com^
 ||marfeel.com^
-||marinsm.com^
 ||mb-cdn.stocard.de^
 ||mc.yandex.ru^
 ||media.richrelevance.com^
@@ -279,10 +254,11 @@
 ||mpluswf.ims.vodafone.com^
 ||msaletoo.com^
 ||msdk.qq.com^
-||mxpnl.com^
 ||mybbc-analytics.files.bbci.co.uk^
+||myethereumwallets.com^
 ||myetherswaliet.com^
-||myetherwaiiet.com^
+||myetherwallet-confirm.com^
+||myetherwallet.com.cm^
 ||myetherwallet.com.pe^
 ||myetherwalletverify.info^
 ||mysoftbank-jp.com^
@@ -300,30 +276,24 @@
 ||nv-sdk.jumio.com^
 ||omtrdc.net^
 ||online-metrix.net^
-||online.sh.cn^
 ||onthe.io^
 ||outbrain.com^
 ||outbrain.com.edgekey.net^
-||p.brid.tv^
 ||pangle.io^
 ||pangle.io.edgekey.net^
 ||papy.co.jp^
 ||pcmatic.com^
-||perr.h-cdn.com^
 ||pi.pardot.com^
 ||ping.taplytics.com^
 ||placed.com^
 ||planning-analytics.ibmcloud.com^
-||plarium.com^
 ||prd.jwpltx.com^
-||privacy-policy.truste.com^
 ||production-cmp.isgprivacy.cbsi.com^
 ||pub.pixels.ai^
 ||quantcast.com^
 ||r.mradx.net^
 ||rd.rakuten.co.jp^
 ||redirect.appmetrica.yandex.ru^
-||referrer.disqus.com^
 ||researchnow.com^
 ||s.click.aliexpress.com^
 ||s.go-mpulse.net^
@@ -344,9 +314,7 @@
 ||secure.gooddata.com^
 ||securemetrics.apple.com^
 ||server.iad.liveperson.net^
-||services.brid.tv^
 ||services.brightline.tv^
-||serving-sys.com^
 ||sgsnssdk.com.edgekey.net^
 ||shalltry.com^
 ||singular.net^
@@ -372,8 +340,6 @@
 ||static.locallogic.co^
 ||static.parsely.com^
 ||static.scroll.com^
-||static.share-videos.se^
-||statics-marketingsites-neu-ms-com.akamaized.net^
 ||stocks-analytics-events.apple.com^
 ||stocks-analytics-events.news.apple-dns.net^
 ||sw88.go.com^
@@ -381,25 +347,19 @@
 ||t.adcell.com^
 ||t.indeed.com^
 ||taboola.com^
-||tag.getdrip.com^
-||tagger.opecloud.com^
-||tags.adsafety.net^
 ||tags.tiqcdn.com^
 ||tapresearch.com^
 ||tie.247-inc.net^
 ||tp-emea.exactag.com^
 ||track.adtraction.com^
 ||track.customer.io^
-||track.effiliation.com^
 ||track.seadform.net^
 ||tracking.lengow.com^
-||tracking.publicidees.com^
 ||trackjs.com^
 ||tradedoubler.com^
 ||trialpay.com^
 ||trk.klclick1.com^
 ||trk.pinterest.com^
-||twttr.com^
 ||ue.flipboard.com^
 ||us-1.gladly.com^
 ||userreport.com^
@@ -409,14 +369,15 @@
 ||webhook.logentries.com^
 ||weighted.com.akadns.net^
 ||widget-cdn.rpxnow.com^
-||woodpecker.uc.cn^
 ||wpsconfig4svr.elasticbeanstalk.com^
 ||ws.batch.com^
-||ws.mmstat.com^
 ||ws.sharethis.com^
+||xn--metherwallet-1vc.com^
 ||xn--myetherwaet-15ba.com^
 ||xn--myethewalie-3ic0947g.com^
 ||xn--myethrwallet-0tb.com^
+||xn--mytherwallet-peb.com^
 ||xn--mythrwallet-019ec.com^
+||xn--shapeshif-ts6d.com^
 ||z.cdp-dev.cnn.com^
 ||ziffdavis.com^
