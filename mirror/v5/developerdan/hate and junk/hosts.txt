@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-10-20T01:05:24+00:00
-# Count: 1704 domains
+# Released: 2022-10-31T01:05:25+00:00
+# Count: 1703 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -704,6 +704,7 @@
 0.0.0.0 www.resist.com
 0.0.0.0 salmartingano.com
 0.0.0.0 www.salmartingano.com
+0.0.0.0 smobserved.com
 0.0.0.0 stillnessinthestorm.com
 0.0.0.0 autodiscover.stillnessinthestorm.com
 0.0.0.0 cdn.stillnessinthestorm.com
@@ -1642,6 +1643,7 @@
 0.0.0.0 mail.ublock.org
 0.0.0.0 ping.ublock.org
 0.0.0.0 plus.ublock.org
+0.0.0.0 support.ublock.org
 0.0.0.0 www.ublock.org
 0.0.0.0 warroom.org
 0.0.0.0 e.warroom.org
@@ -1684,10 +1686,7 @@
 0.0.0.0 webmail.dailystormer.su
 0.0.0.0 www.dailystormer.su
 0.0.0.0 8kun.top
-0.0.0.0 8k2.8kun.top
 0.0.0.0 nerv.8kun.top
-0.0.0.0 ns1.8kun.top
-0.0.0.0 ns2.8kun.top
 0.0.0.0 softserve.8kun.top
 0.0.0.0 sys.8kun.top
 0.0.0.0 www.8kun.top
