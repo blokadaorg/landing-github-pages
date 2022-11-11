@@ -76,23 +76,26 @@ def main(argv):
 
         print(f"      {link}")
 
-        f = urlopen(link)
-        content = f.read().decode('utf-8')
+        try:
+            f = urlopen(link)
+            content = f.read().decode('utf-8')
 
-        for line in content.splitlines():
-            if line.startswith("#"):
-                continue
-            elif line.startswith("/"):
-                continue
-            elif line.startswith("!"):
-                continue
-            else:
-                counter += 1
-                line, separator, tail = line.partition("#")
-                line = line.strip()
-                line = line.strip("|^")
-                if line:
-                    hosts.add(line)
+            for line in content.splitlines():
+                if line.startswith("#"):
+                    continue
+                elif line.startswith("/"):
+                    continue
+                elif line.startswith("!"):
+                    continue
+                else:
+                    counter += 1
+                    line, separator, tail = line.partition("#")
+                    line = line.strip()
+                    line = line.strip("|^")
+                    if line:
+                        hosts.add(line)
+        except Exception as e:
+            print(f"      - Failed processing ({e})")
 
     # write converted format
     out_file = path.join(base_path, config["output"])
