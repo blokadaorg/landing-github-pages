@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-11-01 11:52:25.321064
+# Generated at 2022-11-11 10:46:32.469919
 # Made by Blokada
 
 0.cdn.autotraderspecialty.com
@@ -4442,7 +4442,6 @@ cs1131256981.wpc.gammacdn.net
 cs158.can.transactcdn.com
 cs1787.adn.xicdn.net
 cs1799.wpc.upsiloncdn.net
-cs2001.wpc.edgecastcdn.net
 cs2172.wpc.nucdn.net
 cs252.wpc.deltacdn.net
 cs265.wac.edgecastcdn.net
@@ -8368,7 +8367,6 @@ media.finishline.com.edgekey.net
 media.firstcoastnews.com.edgekey.net
 media.fischer.group
 media.flixcar.com
-media.forgecdn.net
 media.gbcnmedia.net
 media.gcflearnfree.org
 media.gemini.media
@@ -8897,6 +8895,7 @@ newsde-relay.iocnt.net
 newsdig.ismcdn.jp
 newskoolmedia.jotform.com
 next.kitchenstories.io
+nexus.ensighten.com
 nexus.rechannelapi.com
 nexus.toyota.com
 nfhs-network.extole.io
@@ -9114,7 +9113,6 @@ opec.itdg.com.br.cdn.cloudflare.net
 opec.webedia.com.br
 open-signin.okasconcepts.com
 open.http.mp.streamamg.com
-open.spotifycdn.com
 open.woodpeckerlog.com
 openair-california.airtrfx.com
 openapi.lenovo.com.edgekey.net
@@ -9223,6 +9221,7 @@ p1.music.126.net.163jiasu.com
 p1.parsely.com
 p1.zemanta.com
 p10o5q.nasa.gslb.f5silverline.com
+p11.techlab-cdn.com
 p16-sign-sg.tiktokcdn.com
 p16-sign-va.tiktokcdn.com
 p17652.citrix-itm-test.com
@@ -9322,7 +9321,6 @@ paywall.production.ippen.space
 paywall.subscriptiongenius.com
 pb-server.ezoic.com
 pba.orangeclickmedia.com
-pbcdn1.podbean.com
 pbjs-stream.bydata.com
 pbjs.e-planning.net
 pbs-front.mediasquare.fr
@@ -9402,7 +9400,6 @@ photos.pixlee.co
 photovol-relay.iocnt.net
 photoweb-api.akio.cloud
 pi.ispot.tv
-pi.pardot.com
 pianostreet.ladesk.com
 pic.7mmtv.me
 pic.aebn.net
@@ -9554,7 +9551,6 @@ player.live-video.net
 player.liveclicker.com
 player.mediafuse.com
 player.megaphone.fm
-player.odycdn.com
 player.pepsia.com
 player.pervyvideos.com
 player.platform.octogonehb.com
@@ -10265,6 +10261,7 @@ resourcesssl.newscdn.com.au.edgekey.net
 responder.wt-safetag.com
 ressources.gestionexterne.com
 rest.flingster.com
+rest.iad-03.braze.com
 rest.quiksilver.com
 restapi.mailplus.nl
 restaurant.img-ikyu.com
@@ -10920,6 +10917,7 @@ script.finanzen.at.edgekey.net
 script.fixel.ai
 script.hotjar.com
 script.infinity-tracking.com
+script.ioam.de
 script.metricode.com
 script.nettix.fi
 script.thisisbeacon.com
@@ -11408,7 +11406,6 @@ sliderapp.hulkapps.com
 sliedrecht.livecom.net
 slimages.macysassets.com.edgekey.net
 slot11847.ebay.com.edgekey.net
-slot9428.ebay.com.edgekey.net
 slots-app.logbase.io
 slt.attn.tv
 sm.naughtycdn.com
@@ -11835,14 +11832,12 @@ static.3playmedia.com
 static.4wnetwork.com
 static.a-ads.com
 static.adbutter.net
-static.addtoany.com
 static.adenza.dev
 static.adman.gr
 static.ads-twitter.com
 static.adsafeprotected.com
 static.adxadserv.com
 static.afcdn.com
-static.affiliatly.com
 static.affluences.media
 static.afterpay.com
 static.age.awaze.com
@@ -11966,7 +11961,6 @@ static.fatsecret.com
 static.fcdn.co.il
 static.fidcdn.net
 static.fidcdn.net.cdn.cloudflare.net
-static.files.bbci.co.uk.edgekey.net
 static.filestackapi.com
 static.finncdn.no
 static.flingster.com
@@ -12809,6 +12803,7 @@ tag.wknd.ai
 tag.yieldoptimizer.com
 tagan.adlightning.com
 tagger-scmp.opecloud.com
+tagger.opecloud.com
 tagmanager.alright.network
 tagmanager.apigruporsa.com
 tagmanager.smartadserver.com

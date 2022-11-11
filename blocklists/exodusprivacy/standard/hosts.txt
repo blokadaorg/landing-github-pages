@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2022-11-01 11:52:26.179655
+# Generated at 2022-11-11 10:46:32.975310
 # Made by Blokada
 
 databerries.com
@@ -275,6 +275,7 @@ i.4see.mobi
 rec.replay.answerscloud.com
 a.fiksu.com
 sdk.fiksu.com
+nexus.ensighten.com
 adm.dynamicyield.com
 px.dynamicyield.com
 st.dynamicyield.com
