@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2022-11-11 10:46:32.469919
+# Generated at 2022-11-25 11:03:50.821687
 # Made by Blokada
 
 0.cdn.autotraderspecialty.com
@@ -591,7 +591,6 @@ a.impactradius-tag.com
 a.ipricegroup.com
 a.ipromcloud.com
 a.jsrdn.com
-a.klaviyo.com
 a.mailmunch.co
 a.medfoodsafety.com
 a.mktgcdn.com
@@ -1573,7 +1572,6 @@ apps.mageworx.com
 apps.minibc.com
 apps.mypurecloud.com
 apps.mypurecloud.com.au
-apps.mypurecloud.de
 apps.mypurecloud.ie
 apps.nypr.org
 apps.omegatheme.com
@@ -2526,7 +2524,6 @@ bucket1.mm-syringe.com
 bucknell-prod.lwcal.com
 buddy.excelii.com
 buildbase.ladesk.com
-builds.crazygames.com
 builds.mlbstatic.com
 builds.mlbstatic.com.cdn.cloudflare.net
 bulbamerica.attn.tv
@@ -3000,7 +2997,6 @@ cdn-bcmawriter.pressidium.com
 cdn-bdjoh.nitrocdn.com
 cdn-bfami.nitrocdn.com
 cdn-bigae.nitrocdn.com
-cdn-biiph.nitrocdn.com
 cdn-bikemag.heartyhosting.com
 cdn-bjekh.nitrocdn.com
 cdn-blbpl.nitrocdn.com
@@ -4005,7 +4001,6 @@ cn-cache.marriott.com.edgekey.net
 cn-content.delta.com.edgekey.net
 cname.cordial.com
 cname.optimizely-edge.com
-cname.vercel-dns.com
 cname.whitelabel.chaturbate.com
 cnccookbook.ladesk.com
 cnt.fout.jp
@@ -4655,7 +4650,6 @@ d14d2899.with.contentpass.net
 d24.user.com
 d371ad5ce0c9424abe91e993dbb6426d.events.ubembed.com
 d39-a.sdn.cz
-d3tracking.rbc.com
 d4146af5.with.contentpass.net
 d46-a.sdn.cz
 d49-a.sdn.cz
@@ -4936,7 +4930,6 @@ dl.airtable.com
 dl.mail.com.edgekey.net
 dl.memuplay.com.rgslb.net
 dl.royalcanin.com.cdn.cloudflare.net
-dl.web.de.edgekey.net
 dl.westseven.media
 dl423.infusionsoft.app
 dlswbr.baidu.com.cname3920.yjs-cdn.com
@@ -5205,7 +5198,6 @@ egiftcert-widget.paynup.com
 ehheigkgcqf.exactdn.com
 ei-ph.rdtcdn.com.sds.rncdn7.com
 ei-ph.t8cdn.com
-ei.phncdn.com.sds.rncdn7.com
 ei.rdtcdn.com.sds.rncdn7.com
 ei6moyq49sz.exactdn.com
 eightsleep.api.kustomerapp.com
@@ -6923,7 +6915,6 @@ images.contentstack.io
 images.convertbox.com
 images.coplusk.net
 images.coreware.com
-images.crazygames.com
 images.crutchfieldonline.com
 images.cwtv.com
 images.dable.io
@@ -7203,8 +7194,6 @@ img.ltwebstatic.com.cdn.cloudflare.net
 img.marinelink.com
 img.mediacnt.pro
 img.medien-systempartner.de
-img.medscapestatic.com
-img.medscapestatic.com.edgekey.net
 img.mensxp.com.edgekey.net
 img.metaffiliation.com
 img.mipic.cc
@@ -7629,7 +7618,6 @@ js.sitesearch360.com
 js.smct.io
 js.smile.io
 js.sparkloop.app
-js.static-cache.de
 js.static-century21.com
 js.static-ziprealty.com
 js.taplytics.com
@@ -9997,7 +9985,6 @@ ql072012p.searchunify.com
 qmod.quotemedia.com
 qn534.infusionsoft.com
 qr288.infusionsoft.app
-qsbr.cf2.quoracdn.net.cdn.cloudflare.net
 qsc.cf2.quoracdn.net.cdn.cloudflare.net
 qualtrics.mktoweb.com
 quebec.williams-sonoma.production.na2.netsuitestaging.com
@@ -10733,7 +10720,6 @@ s3.minijuegosgratis.com
 s3.nikecdn.com.edgekey.net
 s3.thcdn.com
 s3.theasianparent.com
-s3.us-west-1.wasabisys.com
 s3.wi-fi.ru
 s30121.pcdn.co
 s30246.pcdn.co
@@ -11766,7 +11752,6 @@ static-bp3.cdnbm.net
 static-cdn.arcanum.hu
 static-cdn.arte.tv-v1.edgekey.net
 static-cdn.coolinarika.net
-static-cdn.jtvnw.net
 static-cdn.multiscreensite.com
 static-cdn.styla.com
 static-cdn.tinkoffjournal.ru
@@ -13713,7 +13698,6 @@ vip01.webedu-proxy.menesr.ate.info
 vip06.webedu-proxy.menesr.ate.info
 vip0x04f.ssl.rncdn5.com
 vip0x055.ssl.rncdn5.com
-vip0x08e.ssl.rncdn5.com
 vip0x0a5.ssl.rncdn5.com
 virginaustralia.demdex.net
 virtus-img.cdnvideo.ru
