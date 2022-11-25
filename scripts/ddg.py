@@ -69,7 +69,21 @@ def main(argv):
     with open(path.join(base_path, "whitelist")) as f:
         whitelist = f.read().split("\n")
 
+    print("Whitelist:")
     print(whitelist)
+
+    # load whitelisted subdomains if any
+    whitelistedSubdomains = []
+    with open(path.join(base_path, "whitelist-subdomains")) as f:
+        wsInput = f.read().split("\n")
+        for ws in wsInput:
+            if ws:
+                whitelistedSubdomains.append(ws)
+                for x in range(10):
+                    whitelistedSubdomains.append(ws + str(x))
+
+    print("Whitelisted subdomains:")
+    print(whitelistedSubdomains)
 
     # load all domain files
     print("  Processing DuckDuckGo repo...")
