@@ -105,7 +105,7 @@ def main(argv):
                     continue
 
                 if len(domain["resources"]) < config["minResources"]:
-                    print(f"  Skipping (not enough resources): {domain['domain']}")
+                    #print(f"  Skipping (not enough resources): {domain['domain']}")
                     continue
 
                 if len(domain["subdomains"]) < 0:
@@ -114,8 +114,18 @@ def main(argv):
                     counter += 1
                 else:
                     for subdomain in domain["subdomains"]:
-                        if subdomain in config["whitelistedSubdomains"]:
+                        if subdomain in whitelistedSubdomains:
                             print(f"  Skipping (whitelisted subdomain): {subdomain}.{domain['domain']}")
+                            continue
+
+                        matchesWhitelistedSubdomain = False
+                        for sub in whitelistedSubdomains:
+                            if subdomain.startswith(sub):
+                                matchesWhitelistedSubdomain = True
+                                break
+
+                        if matchesWhitelistedSubdomain:
+                            print(f"  Skipping (whitelisted subdomain prefix): {subdomain}.{domain['domain']}")
                             continue
 
                         resourcesPerSubdomain = 0
@@ -124,7 +134,7 @@ def main(argv):
                                 resourcesPerSubdomain += 1
 
                         if resourcesPerSubdomain < config["minResourcesPerSubdomain"]:
-                            print(f"  Skipping (not enough resources per subdomain): {subdomain}.{domain['domain']}")
+                            #print(f"  Skipping (not enough resources per subdomain): {subdomain}.{domain['domain']}")
                             continue
 
                         full_domain = f"{subdomain}.{domain['domain']}"
