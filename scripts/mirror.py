@@ -36,53 +36,6 @@ def main(argv):
         "output": "../mirror/v5",
         "packs": [
             {
-                "id": "energized",
-                "configs": [
-                    {
-                        "name": "spark",
-                        "urls": [
-                            "https://block.energized.pro/spark/formats/domains.txt"
-                        ]
-                    },
-                    {
-                        "name": "blu",
-                        "urls": [
-                            "https://block.energized.pro/blu/formats/domains.txt"
-                        ]
-                    },
-                    {
-                        "name": "basic",
-                        "urls": [
-                            "https://block.energized.pro/basic/formats/domains.txt"
-                        ]
-                    },
-                    {
-                        "name": "adult",
-                        "urls": [
-                            "https://block.energized.pro/porn/formats/domains.txt"
-                        ]
-                    },
-                    {
-                        "name": "regional",
-                        "urls": [
-                            "https://block.energized.pro/extensions/regional/formats/domains.txt"
-                        ]
-                    },
-                    {
-                        "name": "social",
-                        "urls": [
-                            "https://block.energized.pro/extensions/social/formats/domains.txt"
-                        ]
-                    },
-                    {
-                        "name": "ultimate",
-                        "urls": [
-                            "https://block.energized.pro/ultimate/formats/domains.txt"
-                        ]
-                    }
-                ]
-            },
-            {
                 "id": "stevenblack",
                 "configs": [
                     {
