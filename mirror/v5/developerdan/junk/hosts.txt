@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2022-11-29T01:05:26+00:00
-# Count: 1681 domains
+# Released: 2022-12-14T01:05:25+00:00
+# Count: 1679 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -102,6 +102,7 @@
 0.0.0.0 www.americannaziparty.com
 0.0.0.0 americanthinker.com
 0.0.0.0 admin.americanthinker.com
+0.0.0.0 cms.americanthinker.com
 0.0.0.0 comments.americanthinker.com
 0.0.0.0 email.americanthinker.com
 0.0.0.0 origin.americanthinker.com
@@ -903,7 +904,6 @@
 0.0.0.0 streaming.afa.net
 0.0.0.0 dev.streaming.afa.net
 0.0.0.0 streamingwebhook.afa.net
-0.0.0.0 site1.streamingwebhook.afa.net
 0.0.0.0 subcount.afa.net
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
@@ -944,7 +944,6 @@
 0.0.0.0 www.staging.jamesperloff.net
 0.0.0.0 www.jamesperloff.net
 0.0.0.0 kiwifarms.net
-0.0.0.0 git.kiwifarms.net
 0.0.0.0 matrix.kiwifarms.net
 0.0.0.0 no-cookie.kiwifarms.net
 0.0.0.0 riot.kiwifarms.net
@@ -1616,7 +1615,6 @@
 0.0.0.0 www.thepeoplesvoice.org
 0.0.0.0 zmail.thepeoplesvoice.org
 0.0.0.0 ublock.org
-0.0.0.0 demo.ublock.org
 0.0.0.0 docs.ublock.org
 0.0.0.0 log.ublock.org
 0.0.0.0 mail.ublock.org

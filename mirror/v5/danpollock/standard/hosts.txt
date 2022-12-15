@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 25 Nov 2022 at 03:22:17 GMT
+# Last updated: Thu, 15 Dec 2022 at 03:07:15 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -869,6 +869,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 js.hs-analytics.net
 127.0.0.1 js.revsci.net
 127.0.0.1 justtrck.com
+127.0.0.1 k.clarity.ms
 127.0.0.1 kissmetrics.com
 127.0.0.1 kqzyfj.com
 127.0.0.1 kt4.kliptracker.com
@@ -1663,6 +1664,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ancree.fr
 127.0.0.1 android.bigresource.com
 127.0.0.1 androiddev.orkitra.com
+127.0.0.1 andromedawallet.com
 127.0.0.1 aneralflas.club
 127.0.0.1 angers-radioloagie.fr
 127.0.0.1 anian1.weebly.com
@@ -2260,7 +2262,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 keepinfit.net
 127.0.0.1 kevlaardiet.fr
 127.0.0.1 keybinary.com
-127.0.0.1 kgvfiivlwyuu.uofgiu
 127.0.0.1 kiabo.fr
 127.0.0.1 kiaby.fr
 127.0.0.1 kiassure.fr
@@ -3193,6 +3194,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.weknow.ac
 127.0.0.1 www.wewillrocknow.com
 127.0.0.1 www.willysy.com
+127.0.0.1 www.winlottofrequently.com
 127.0.0.1 www.youfiletor.com
 127.0.0.1 wyoutube.fr
 127.0.0.1 xcdkb.comfortykive.xyz
@@ -8064,6 +8066,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 moz.execulink.net
 127.0.0.1 mozebyctwoje.com
 127.0.0.1 mr4evmd0r1.s.ad6media.fr
+127.0.0.1 mrazens.com
 127.0.0.1 ms-debug-services.com
 127.0.0.1 ms-downloading.com
 127.0.0.1 ms-home-live.com
@@ -8107,6 +8110,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mygiftresource.com
 127.0.0.1 mygreatrewards.com
 127.0.0.1 mymediarecommendations.com
+127.0.0.1 mypopups.com
 127.0.0.1 mysagagame.com
 127.0.0.1 myseostats.com
 127.0.0.1 mytimerpro.com
@@ -10154,6 +10158,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.morevisits.info
 127.0.0.1 www.mpression.net
 127.0.0.1 www.mr-mondial.com
+127.0.0.1 www.mrazens.com
 127.0.0.1 www.ms247.plus.com
 127.0.0.1 www.my-rewardsvault.com
 127.0.0.1 www.my-stats.com

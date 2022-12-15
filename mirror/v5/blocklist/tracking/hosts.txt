@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15051
+# Total number of network filters: 15052
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -459,7 +459,6 @@
 0.0.0.0 adzip.co
 0.0.0.0 aegdigitalgroup.com
 0.0.0.0 aerserv.com
-0.0.0.0 aetna.com
 0.0.0.0 aetterweb.info
 0.0.0.0 affec.tv
 0.0.0.0 affgold.com
@@ -13096,7 +13095,6 @@
 0.0.0.0 nexusapi.com
 0.0.0.0 nexusapp.com
 0.0.0.0 nexusapps.com
-0.0.0.0 nfltags.com
 0.0.0.0 nicecdn01.com
 0.0.0.0 nicecdn02.com
 0.0.0.0 nilsurvey.info
@@ -13287,7 +13285,6 @@
 0.0.0.0 passionfruitads.com
 0.0.0.0 pawamedia.com
 0.0.0.0 pc20160301.com
-0.0.0.0 pcapredict.com
 0.0.0.0 pclick.yahoo.com
 0.0.0.0 pct-upd.info
 0.0.0.0 pctupd.info
@@ -14923,7 +14920,8 @@
 0.0.0.0 wikia-beacon.com
 0.0.0.0 win30000.com
 0.0.0.0 win30000.net
-0.0.0.0 wistia.com
+0.0.0.0 pipedream.wistia.com
+0.0.0.0 distillery.wistia.com
 0.0.0.0 wistia.net
 0.0.0.0 wobbegongmedia.net
 0.0.0.0 woopic.com
@@ -15075,3 +15073,7 @@
 0.0.0.0 rebrandlydomain.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 geo2.adobe.com
+0.0.0.0 api.crowdin.com
+0.0.0.0 crawler.algolia.com
+0.0.0.0 ts.market.mi-img.com
+0.0.0.0 smarturl.it

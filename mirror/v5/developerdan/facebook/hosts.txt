@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2022-12-01T01:05:23+00:00
-# Count: 30034 domains
+# Released: 2022-12-15T01:05:23+00:00
+# Count: 30030 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -23559,7 +23559,9 @@
 0.0.0.0 accountscenter.meta.com
 0.0.0.0 auth.meta.com
 0.0.0.0 bigzipfiles.auth.meta.com
+0.0.0.0 gateway.horizon.meta.com
 0.0.0.0 store.meta.com
+0.0.0.0 gateway.work.meta.com
 0.0.0.0 www.meta.com
 0.0.0.0 oculus.com
 0.0.0.0 account.oculus.com
@@ -25205,8 +25207,6 @@
 0.0.0.0 scontent.fdel3-1.fna.fbcdn.net
 0.0.0.0 instagram.fdel3-2.fna.fbcdn.net
 0.0.0.0 scontent.fdel3-2.fna.fbcdn.net
-0.0.0.0 instagram.fdel30-1.fna.fbcdn.net
-0.0.0.0 scontent.fdel30-1.fna.fbcdn.net
 0.0.0.0 scontent.fdel31-1.fna.fbcdn.net
 0.0.0.0 instagram.fdel34-1.fna.fbcdn.net
 0.0.0.0 scontent.fdel34-1.fna.fbcdn.net
@@ -25645,8 +25645,6 @@
 0.0.0.0 instagram.fhnd2-4.fna.fbcdn.net
 0.0.0.0 scontent.fhnl2-1.fna.fbcdn.net
 0.0.0.0 video.fhnl3-1.fna.fbcdn.net
-0.0.0.0 scontent.fhou1-1.fna.fbcdn.net
-0.0.0.0 scontent.fhou1-2.fna.fbcdn.net
 0.0.0.0 instagram.fhph1-1.fna.fbcdn.net
 0.0.0.0 scontent.fhph1-1.fna.fbcdn.net
 0.0.0.0 scontent.fhph1-2.fna.fbcdn.net
@@ -26431,7 +26429,6 @@
 0.0.0.0 instagram.fnlv1-1.fna.fbcdn.net
 0.0.0.0 external.fnlv2-1.fna.fbcdn.net
 0.0.0.0 instagram.fnqn2-1.fna.fbcdn.net
-0.0.0.0 instagram.fnqn2-2.fna.fbcdn.net
 0.0.0.0 instagram.fnsi2-1.fna.fbcdn.net
 0.0.0.0 z-m-scontent.fnsi2-1.fna.fbcdn.net
 0.0.0.0 z-p3-scontent.fnsi2-1.fna.fbcdn.net
@@ -28074,7 +28071,6 @@
 0.0.0.0 sonar-nrt1-1.xx.fbcdn.net
 0.0.0.0 sonar-ord5-1.xx.fbcdn.net
 0.0.0.0 sonar-ort2-1.xx.fbcdn.net
-0.0.0.0 sonar-ort2-2.xx.fbcdn.net
 0.0.0.0 sonar-otp1-1.xx.fbcdn.net
 0.0.0.0 sonar-pmo.xx.fbcdn.net
 0.0.0.0 sonar-pmo1-1.xx.fbcdn.net
