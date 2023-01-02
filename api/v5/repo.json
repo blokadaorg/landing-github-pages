@@ -79,8 +79,8 @@
             "name": "Blokada 5 Slim (deprecated)",
             "forBuild": "googleslimRelease",
             "payload": {
-                 "cmd": "escape/666022417",
-                 "version": 22
+                 "cmd": "escape/666022421",
+                 "version": 23
              }
         },
         {
