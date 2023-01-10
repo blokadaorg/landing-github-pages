@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2022-12-15 09:01:10.396351
+# Generated at 2023-01-10 09:26:00.919798
 # Made by Blokada
 
 databerries.com
@@ -38,7 +38,6 @@ tmk.smartadserver.com
 usw-lax.adsrvr.org
 g.jwpsrv.com
 outbrain.com
-appsflyer.com
 ligatus.com
 widespace.com
 247realmedia.com
