@@ -23,6 +23,7 @@
 .music.163.com
 .mvps.org
 .mywot.com
+.nuskin.com
 .opendns.com
 .paho.org
 .partners.salesforce.com
@@ -141,6 +142,7 @@
 3p.ampproject.net
 3ra.be
 3rt.tace.ru
+3vx2e73s43.execute-api.us-east-1.amazonaws.com
 3x.si
 3xpl.stream
 4-edge-chat.facebook.com
@@ -491,6 +493,7 @@ amazon.co.jp
 amazon.co.uk
 amazon.com
 amazon.com$app=com.audible.application
+amazon.com.be
 amazon.de
 amazon.fr
 amazonaws.com
@@ -625,10 +628,12 @@ api.ip.sb
 api.ipify.org
 api.jr.mi.com
 api.kakao.com
+api.kr.karrotmarket.com
 api.letterboxd.com
 api.log4jmemes.com
 api.loganalytics.io
 api.mangadex.org
+api.map.ahrtv.cn
 api.mapbox.com
 api.meetme.com
 api.meta.ndmdhs.com
@@ -636,6 +641,7 @@ api.micloud.xiaomi.net
 api.mmoui.com
 api.mobile-api.ru$app=ru.mamba.client
 api.monitor.azure.com
+api.moyu.ac.cn
 api.myteamspeak.com
 api.na-backend.odysee.com
 api.narrativ.com
@@ -706,6 +712,7 @@ app.e.sigsauer.com
 app.icon256.com
 app.inferkit.com
 app.link
+app.link.nba.com
 app.migc.xiaomi.com
 app.opencdn.co
 app.plex.tv
@@ -733,6 +740,7 @@ apps.mypurecloud.de
 apps.skype.com
 appsbackup-pa.clients6.google.com
 appsbackup-pa.googleapis.com
+appsflyer.com
 appspot-preview.l.google.com
 apptimize.com
 apresolve.spotify.com
@@ -787,16 +795,19 @@ assets.bwbx.io.shared.bloomberga.com
 assets.codehub.cn
 assets.coinbase.com
 assets.coingecko.com
+assets.deutschlandfunk.de.edgekey.net
 assets.gumroad.com
 assets.hearstapps.com
 assets.hulu.com
 assets.huluim.com
 assets.jimstatic.com
+assets.memberful.com
 assets.micpn.com
 assets.minutemediacdn.com
 assets.msn.com
 assets.onestore.ms
 assets.raspberrypi.com
+assets.rpglogs.com
 assets.sb-cd.com
 assets.squarespace.com
 assets.subito.it
@@ -1093,6 +1104,7 @@ bbc.co.uk
 bbc.com
 bbclick.baltbank.ru
 bbr.ru
+bbs.cndeaf.com
 bbs.pcbeta.com
 bbss.softbankbb.co.jp
 bbva.com.ar
@@ -1212,6 +1224,7 @@ bit.do
 bit.ly
 bitbucket.org
 bitfinex.com
+bitget.com
 bithq.org
 bitly.com
 bitly.ws
@@ -1394,6 +1407,7 @@ bt.plc.mx
 bt.pusacg.org
 bt.zlofenix.org
 bt1.archive.org
+bt1.letpo.com
 bt2.54new.com
 bt2.archive.org
 bt2.edwardk.info
@@ -1415,6 +1429,7 @@ bugherd.com
 bugsnag.com
 builder-assets.unbounce.com
 builds.crazygames.com
+builds.mlbstatic.com
 bukopin.co.id
 bul.lu
 bulbagarden.net
@@ -1446,6 +1461,7 @@ bv-activebanking.de
 bv.com.br
 bxl.me
 by.uservoice.com
+bybit.com
 byblosbank.com.lb
 bystrobank.ru
 byteacctimg.com
@@ -1523,6 +1539,7 @@ card2card.mkb.ru
 card2cash.unistream.ru
 cardhouse.ncc-uc.ru
 cardpay.com
+cards.scryfall.io
 cardtocard.dvbank.ua
 carr.codes
 carrefourfinance.be
@@ -1661,6 +1678,7 @@ cdn.syndication.twimg.com
 cdn.syndication.twitter.com
 cdn.tinypass.com
 cdn.tmooc.cn
+cdn.tpdads.com
 cdn.vidible.tv
 cdn.webclicks24.com
 cdn.webde.de
@@ -2049,10 +2067,12 @@ crabdance.com
 cracking.org
 craigslist.org
 craiyon.com
+crashlyticsreports-pa.googleapis.com
 crbcdn.jsfiddle.net
 creative.7o7.cx
 creative.ak.fbcdn.net
 creativecommons.org
+creator.nightcafe.studio
 credicard.com.br
 credit-agricole.fr
 credit-suisse.com
@@ -2097,6 +2117,7 @@ cs510.wpc.edgecastcdn.net
 cs618.wac.edgecastcdn.net
 cs837.wac.edgecastcdn.net
 cs9.wac.phicdn.net
+cs95619.wpc.psicdn.net
 csas.cz
 csb.co.in
 csdnimg.cn
@@ -2147,6 +2168,7 @@ d.gqyy8.com
 d.la1-c1-ord.salesforceliveagent.com
 d13itkw33a7sus.cloudfront.net
 d16s8pqtk4uodx.cloudfront.net
+d1bd3wxsyuz0t7.cloudfront.net
 d1lxz4vuik53pc.cloudfront.net
 d1n478pkuw1c5t.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
@@ -2201,6 +2223,7 @@ data.mistat.xiaomi.com
 data.sensor.community
 data.terabox.com
 datadoghq-browser-agent.com
+datadoghq.eu
 datadome.co
 datafront.co
 dataplicity.com
@@ -2419,6 +2442,7 @@ download.windowsupdate.com
 download.winzip.com
 downloader.disk.yandex.ru$app=ru.yandex.disk
 downloads.mailchimp.com
+downloads.zivver.com
 dpbolvw.net
 dpiui.reedlan.com
 dpm.demdex.net
@@ -2581,6 +2605,7 @@ edge.api.brightcove.com
 edge.avangate.net
 edge.microsoft.com
 edgecast-vod.yahoo.net
+edgedl.me.gvt1.com
 edgefrecdn.azureedge.net
 edgekey.net
 edgetipscdn.microsoft.com
@@ -2596,6 +2621,7 @@ eff.org
 egolomt.mn
 ei.phncdn.com.sds.rncdn7.com
 eightforums.com
+eindependencia.edu.mx
 eisysinc.qtlcdn.com
 ejquo23388.i.lithium.com
 ekapusta.ru
@@ -2612,6 +2638,7 @@ elementa.otpbanka.hr
 elementsbrowser.com
 elevationsbanking.com
 elevationscu.com
+elink.clickdimensions.com
 eliteoz.com.au
 elitezones.ro
 elkjop-prod.fact-finder.de
@@ -2623,6 +2650,7 @@ elster.de
 elvenar.com
 ely.re
 em.bm23.com
+email-link.adtidy.org
 email.netlify.com
 email.ssdnodes.com
 email.uber.com
@@ -2649,6 +2677,7 @@ encrypted-tbn3.gstatic.com
 endpoint1-s03prdeuscompsvc.prd.bmc.cdn.office.net
 engadget.com
 engplus.ru
+enhance.com
 enpara.com
 enpass.io
 ent.east.mymtm.us
@@ -2831,6 +2860,7 @@ fc-resources.fastcompany.com
 fc2.com
 fda.gov
 fdroid.frostnerd.com
+fdv2-t-msedge.net
 fe.dealclub.de
 fe2.update.microsoft.com
 fe2.update.microsoft.com.akadns.net
@@ -2844,6 +2874,7 @@ federseebank.de
 fedex.ca
 fedex.com
 fednetbank.com
+feed.kr.karrotmarket.com
 feedback.aliexpress.com
 feedburner.com
 feedly.com
@@ -3073,6 +3104,7 @@ garantibank.nl
 gate.ariuspay.ru
 gate.hockeyapp.net
 gate.io
+gate.sc
 gate.vseplatezhi.ru
 gateway.fe.apple-dns.net
 gateway.wma.bedegaming.com
@@ -3087,6 +3119,7 @@ gcs.sc-cdn.net
 gdlp01.c-wss.com
 gdmf.apple.com
 gdmf.apple.com.akadns.net
+gds.google.com
 gearbest.com
 gefa-bank.de
 generali.it
@@ -3161,6 +3194,7 @@ github.hubspot.com
 github.io
 github.vscode-unpkg.net
 gitter.im
+givemenbastreams.com
 gizmodo.com
 gkeconnect.googleapis.com
 gkehub.googleapis.com
@@ -3276,6 +3310,7 @@ graph.fbpigeon.com$app=com.facebook.katana
 graph.instagram.com
 graphql-api.aws.syncbak.com
 graphql.api.dailymotion.com
+graphql.contentful.com
 gravatar.com
 gray-config-prod.api.cdn.arcpublishing.com
 greenend.org.uk
@@ -3435,6 +3470,7 @@ hermsdorfer-kreuz.de
 herner-sparkasse.de
 heroeswm.ru
 hesab.az
+hh-imgs.cyou
 hhs.gov
 hibu.com
 hide.my
@@ -3561,6 +3597,7 @@ i.lockobank.ru
 i.loli.net
 i.mdm.ru
 i.pcbeta.com
+i.redd.it
 i.rietumu.lv
 i.s-microsoft.com
 i.scdn.co
@@ -3585,6 +3622,7 @@ iadsdk.apple.com
 iadsdk.apple.com.edgekey.net
 iai-shop.com
 iamcredentials.googleapis.com
+iamport.kr
 ib.ablv.com
 ib.agrambanka.hr
 ib.airbank.cz
@@ -3823,6 +3861,7 @@ ibank24.kz
 ibank2r.vfbank.ru
 ibanka.seb.lv
 ibanking-services.com
+ibanking.bankofmelbourne.com.au
 ibanking.vtb.am
 ibankr.ricbank.com
 ibankretail.nbg.gr
@@ -3877,6 +3916,12 @@ id.elsevier.com
 id.pilet.ee
 id.santanderconsumer.no
 id.smt.docomo.ne.jp
+id.yandex.by
+id.yandex.com
+id.yandex.com.tr
+id.yandex.kz
+id.yandex.ru
+id.yandex.ua
 idbi.com
 idbibank.co.in
 idbibank.com
@@ -3916,6 +3961,7 @@ iky.fr
 il.ax
 ilbank.gov.tr
 ilix.in
+ilrc.org
 im-cms.bestcheck.de
 im.bestcheck.de
 im.mymtm.us
@@ -3939,6 +3985,7 @@ images.justwatch.com
 images.lacucinaitaliana.it
 images.metahub.space
 images.netdirector.co.uk
+images.nightcafe.studio
 images.novel-fast.club
 images.nvidiagrid.net
 images.performgroup.com
@@ -3980,6 +4027,7 @@ img.purch.com
 img.shouji.sogou.com
 img.ui-portal.de
 img.vidible.tv
+img.zivver.com
 img1.blogblog.com
 img1.od-cdn.com
 img1.sj.qq.com
@@ -4064,6 +4112,7 @@ intelink.gov
 intellectmoney.ru
 interactivebrokers.co.uk
 interactivebrokers.com
+intercom-mail.com
 intercom.io
 intercommerz.ru
 interface.xl9.xunlei.com
@@ -4132,6 +4181,7 @@ ipify.org
 ipinfo.info
 ipinfo.io
 ipla.hit.stat24.com
+ippen.space
 ipredator.se
 ipstack.com
 ipv4.tracker.harry.lu
@@ -4152,7 +4202,10 @@ iris06-gold-ssl.gameloft.com
 irs.gov
 is.gd
 isbank.com.tr
+isha-sadhguru-org-19ae.fast.getn7.io
 isha.sadhguru.org
+ishalife.com
+ishalogin-sadhguru-org-a2b316f6089eae8142ab.fast.getn7.io
 isk.richardsw.club
 isnbank.ru
 isra.li
@@ -4270,6 +4323,7 @@ kangaroo.vocento.com
 kapitalbank.az
 kaptcha.com
 kariyer.vakifbank.com.tr
+karrotmarket.com
 kashflow.com
 kask.us
 kaspi.kz
@@ -4510,6 +4564,7 @@ lg.provenpixel.com
 lgbbank.com
 lgin.msa.trafficmanager.net
 lgn.ru
+lgucdn.com
 lh3.googleusercontent.com
 lhv.ee
 li1406-230.members.linode.com
@@ -4527,6 +4582,7 @@ licensebuttons.net
 licensing.mp.microsoft.com
 licensing.xboxlive.com
 lick.my
+lidarr.audio
 lien.li
 lien.pl
 life.homecredit.ru
@@ -4555,6 +4611,8 @@ link.theplatform.com
 linkedin.com
 linkifier.com
 linkn.co
+links.da.slickdeals.net
+links.getblueshift.com
 links.iterable.com
 linksnappy.com
 linksynergy.com
@@ -5022,6 +5080,7 @@ moneyveo.ua
 monitor.azure.com
 monitoring.googleapis.com
 monobank.ua
+montreal.nyap2p.com
 monzo.com
 moog.cloud.axiadids.net
 moonburrow.club
@@ -5031,6 +5090,7 @@ moscombank.ru
 moskb.ru
 motherless.com
 movies.zsw.ca
+moyu.ac.cn
 mozilla.com
 mozilla.net
 mozilla.org
@@ -5074,6 +5134,7 @@ mtv.com
 muenchner-bank.de
 mueritz-sparkasse.de
 muganbank.az
+mult-imgs.cyou
 multiscreen.samsung.com
 music.126.net
 music.163.com
@@ -5116,6 +5177,7 @@ mybank.com.tw
 mybank.fortebank.com
 mybank.nationstrust.com
 mybannermaker.com
+mybbc-analytics.files.bbci.co.uk
 mybluemix.net
 mybrdnet.ro
 mybsn.com.my
@@ -5191,6 +5253,7 @@ nccc.com.tw
 ncdhhs.gov
 ncsi.4-c-0003.c-msedge.net
 ncu.client.hip.live.com
+nearby.kr.karrotmarket.com
 nedbank.co.za
 neilo.webuntis.com
 nelo2-col.linecorp.com
@@ -5276,6 +5339,7 @@ nicequest.com
 nicou.ch
 nifty.com
 nig.gr
+nightcafe.studio
 nih.gov
 nikoil.az
 nimiq.com
@@ -5295,6 +5359,7 @@ noaa.gov
 nobaeg.de
 node.plexapp.com
 nokss.ru
+nolo.com
 nordea.com
 nordea.fi
 nordea.ru
@@ -5344,6 +5409,7 @@ nubank.com.br
 nuernberg.de
 nuinvest.com.br
 nulled.to
+nuskin.com
 nutaku.com
 nutaku.net
 nvdst.com
@@ -5417,6 +5483,7 @@ ojrq.net
 ok.ru
 ok.webhop.net
 okok.fr
+olacast.live
 olark.com
 olb.consorsfinanz.de
 olb.de
@@ -5638,6 +5705,7 @@ openbank.es
 openbank.ru
 openbittorrent.com
 opendns.com
+openhd.lol
 openjdk.org
 opensource.org
 openstreetmap.org
@@ -5709,6 +5777,7 @@ overcast.fm
 overstock.com
 ow.ly
 ox.ac.uk
+oxen.io
 oxfordjournals.org
 oyakankerbank.de
 p-hbbtv.superrtl.de
@@ -5726,9 +5795,11 @@ p.sfx.ms
 p.typekit.net
 p04e.t.en25.com
 p11.techlab-cdn.com
+p16-sign-sg.tiktokcdn.com
 p16-sign-va.tiktokcdn.com
 p16-sign.tiktokcdn-us.com
 p16.resso.me
+p19-sign.tiktokcdn-us.com
 p2p.0g.cx
 p2p.alfabank.ua
 p2p.mdm.ru
@@ -5944,6 +6015,7 @@ play-lh.googleusercontent.com
 play.app.goo.gl
 play.google.com
 play.googleapis.com
+play.kakao.com
 player-api.dreamlab.pl
 player-cdn.com
 player-feedback-v1.glomex.com
@@ -6004,6 +6076,7 @@ portmanat.az
 portmone.com.ua
 portoseguro.com.br
 post.gov.tw
+post.i.api.ahrtv.cn
 post.spmailtechno.com
 postacertificata.lextel.it
 postbank.kz
@@ -6027,6 +6100,8 @@ practivate.adobe.com
 prbkbr-ibank2.ru
 prd-images2-gazzanet.gazzettaobjects.it
 prejit.cz
+presearch.com
+presearch.io
 presscustomizr.com
 prestashop.com
 prestige.minimafia.nl
@@ -6077,6 +6152,7 @@ profile.franklintempleton.com
 profile.shiftapis.com
 profile.target.com
 profitbank.ru
+programm.ard.de
 promenergobank.ru
 promo.concord.ua
 promotion.aliexpress.com
@@ -6120,6 +6196,7 @@ psyco.fr
 ptab.it
 ptm.ro
 pttbank.ptt.gov.tr
+public-tracker.ml
 public-tracker.zooki.xyz
 public.onlyfans.com
 public.overcast-cdn.com
@@ -6155,6 +6232,7 @@ puzz.com
 pvtag.yahoo.co.jp
 pvu.nets.no
 pw2.ro
+pxf.io
 py6.ru
 q.gs
 q.stripe.com
@@ -6540,6 +6618,7 @@ reddit-meta-production.s3.amazonaws.com
 reddit-uploaded-media.s3-accelerate.amazonaws.com
 reddit.com
 reddit.map.fastly.net
+reddit.rnbastreams.com
 redditmedia.com
 redditstatic.com
 redefine.hit.stat24.com
@@ -6570,6 +6649,7 @@ release.theplatform.com
 relink.fr
 remind.me
 reminders-pa.googleapis.com
+renault-bank-direkt.at
 renault-bank-direkt.de
 rentry.org
 rep-art.ynh.fr
@@ -6637,7 +6717,9 @@ richart.tw
 rico.com.vc
 ridefox.com
 rights-manager.sr.roku.com
+rigidindustries.com
 rileg.de
+rilibiao.com.cn
 rink.hockeyapp.net
 riotgames.com
 ripb.parsian-bank.ir
@@ -6650,6 +6732,7 @@ robinhood.com
 roblox.com
 roboform.com
 robokassa.ru
+rocket-chat-pub.kr.karrotmarket.com
 rocketbank.ru
 rod.gs
 rodnayasvyaz.ru
@@ -6718,6 +6801,7 @@ rvbwemding.de
 ryjer.com
 rzd.ru
 s-bid.rmp.rakuten.com
+s-f.scribdassets.com
 s-forum.biz
 s-jena.de
 s-kukc.de
@@ -6874,6 +6958,7 @@ sbab.se
 sbcglobal.net
 sber-bank.by
 sberbank-ast.ru
+sberbank.com
 sberbank.hu
 sberbank.kz
 sberbank.ru
@@ -6891,6 +6976,7 @@ sbsibank.by
 sbsvodns-vh.akamaihd.net
 sbtonline.in
 sc.com
+sc.sftcdn.net
 scalable.capital
 scans-hot.leanbox.us
 scans-ongoing-1.lastation.us
@@ -6931,6 +7017,7 @@ scribol.com
 script.ioam.de
 scripts.finanzen.net.edgekey.net
 scripts.kataweb.it
+scryfall.io
 scsb.com.tw
 scu.client.hip.live.com
 scu.org.tw
@@ -7042,6 +7129,7 @@ serials.ws
 serien.sx
 serienfans.org
 serve.adtrackers.net
+server.arcgisonline.com
 server.iad.liveperson.net
 serverfault.com
 service.biv.sony.tv
@@ -7126,6 +7214,7 @@ sibes.omsk.ru
 sicax.net
 sicoob.com.br
 sicredi.com.br
+sift.com
 signal-iduna.de
 signal-sdk-service-production.ap-south-1.elasticbeanstalk.com
 signal.org
@@ -7186,6 +7275,7 @@ skroc.pl
 skyhook.sonarr.tv
 skype.com
 sl-vb.de
+slackb.com
 slate.com
 slbank.ru
 slicie.icon256.com
@@ -7572,6 +7662,7 @@ spkson.de
 spktw.de
 spn.sr
 sponsor.ajay.app
+sportscentral.io
 spot.im
 spotify.com
 spotify.link
@@ -7650,7 +7741,9 @@ standardbank.co.za
 standardchartered.com.tw
 stanford.edu
 star-mini.c10r.facebook.com
+star-mini.fallback.c10r.facebook.com
 star.c10r.facebook.com
+star.fallback.c10r.facebook.com
 stardata.it
 stargrave.org
 starlingbank.com
@@ -7684,6 +7777,7 @@ static.bonprixsecure.com
 static.bunnycdn.ru
 static.camfrogcdn.com
 static.cgames.de
+static.cloud.coveo.com
 static.coinbase.com
 static.dingtalk.com
 static.dw.com.edgekey.net
@@ -7706,6 +7800,7 @@ static.rocketreach.co
 static.saavn.com
 static.siteheart.com
 static.sketchfab.com
+static.stands4.com
 static.template.pcbeta.com
 static.thenorthface.eu
 static.tianya.cn
@@ -7760,6 +7855,7 @@ steylerbank.de
 stickers.madentertainment.xyz
 stickypassword.com
 stileproject.com
+stisa.org.cn
 stitcher.pluto.tv
 stitcher2.acast.com
 stone.com.br
@@ -7827,6 +7923,7 @@ sux.cz
 suzihaza.com
 sv-03.mp4.sh
 sv.aq.qq.com
+svgs.scryfall.io
 swcatalog.apple.com
 swcdn.apple.com
 swcdn.apple.com.akadns.net
@@ -7860,6 +7957,7 @@ systweak.com
 sz-dns.net
 t-mobilebankowe.pl
 t-online.de
+t.133335.xyz
 t.acg.rip
 t.appsflyer.com
 t.btcland.xyz
@@ -7884,6 +7982,7 @@ t1-3.p-cdn.us
 t1-4.p-cdn.us
 t1-5.p-cdn.us
 t1.chfs.ch
+t1.daumcdn.net
 t1.g.mi.com
 t1.hloli.org
 t1.leech.ie
@@ -7915,6 +8014,7 @@ tamtam.chat
 tamtam.ok.ru
 tandfonline.com
 tangerine.ca
+tantanapp.com
 tanx.com
 taobao.com
 target.com
@@ -7967,6 +8067,7 @@ telebank.eatpbank.ru
 telebank.forshtadt.ru
 telebank.tatsotsbank.ru
 telefonnummer.net
+telegra.ph
 telegraaf.nl
 telegram.me
 telegraph.co.uk
@@ -8140,6 +8241,7 @@ tracemyip.org
 track.adform.net
 track.aftership.com
 track.customer.io
+track.moyu.ac.cn
 track.plop.pm
 track.ucas.com
 track.webgains.com
@@ -8246,6 +8348,7 @@ tracker.kuroy.me
 tracker.leech.ie
 tracker.leechers-paradise.org
 tracker.lelux.fi
+tracker.letpo.com
 tracker.lilithraws.cf
 tracker.lilithraws.org
 tracker.loadbt.com
@@ -8258,6 +8361,7 @@ tracker.madassnews.net
 tracker.merded.xyz
 tracker.minglong.org
 tracker.mininova.org
+tracker.mlsub.net
 tracker.moeblog.cn
 tracker.moeking.eu.org
 tracker.moeking.me
@@ -8288,6 +8392,7 @@ tracker.pomf.se
 tracker.publicbt.com
 tracker.publictracker.xyz
 tracker.pussytorrents.org
+tracker.qu.ax
 tracker.quix.cf
 tracker.rp-api.tech
 tracker.rsplwe.com
@@ -8324,10 +8429,12 @@ tracker.torrentyorg.pl
 tracker.trackerfix.com
 tracker.trackton.ga
 tracker.tricitytorrents.com
+tracker.tvgc.win
 tracker.tvunderground.org.ru
 tracker.uw0.xyz
 tracker.v6speed.org
 tracker.vectahosting.eu
+tracker.vraphim.com
 tracker.vrpnet.org
 tracker.vulnix.sh
 tracker.wellknownclub.net
@@ -8362,6 +8469,7 @@ tracker4.itzmx.com
 tracker6.dler.org
 tracker6.lelux.fi
 trackerb.jonaslsa.com
+trackers.mlsub.net
 tracking-protection.cdn.mozilla.net
 tracking.dpd.de
 tracking.epicgames.com
@@ -8413,6 +8521,7 @@ tronml.cf
 trueidentity.com
 trun.tom.ru
 trunc.it
+trust-provider.com
 trust.ru
 trust.zone
 trustedid.com
@@ -8837,6 +8946,7 @@ vereinigtevolksbankeg.de
 vereinte-volksbank.de
 verification-va.byteoversea.com
 verification-va.byteoversea.com.edgesuite.net
+verifythis.com
 verizon.com
 verkkopalkka.maventa.fi
 verkkopankki2.danskebank.fi
@@ -8874,6 +8984,7 @@ view.ceros.com
 view.genial.ly
 viewlift.com
 viewpoint.com
+viewpoint.rigidindustries.com
 viglink.com
 vimeo.com
 vip-lb1.osuosl.org
@@ -9246,6 +9357,7 @@ wb.mosoblbank.ru
 wb1.eu
 wdcp.microsoft.com
 wdcpalt.microsoft.com
+weakstream.org
 wealthbar.com
 wealthfront.com
 wealthsimple.com
@@ -9359,6 +9471,7 @@ wixsite.com
 wizink.es
 wl.jd.com
 wl.spotify.com
+wlrarshab.azureedge.net
 wmtransfer.com
 wn.nr
 wns.windows.com
@@ -9420,6 +9533,7 @@ ww1.wdr.de
 ww7.fr
 wwis-dubc1-vip60.adobe.com
 www-cdn.icloud.com.akadns.net
+www-googletagmanager.l.google.com
 www-msn-com.a-0003.a-msedge.net
 www-php-net.ax4z.com
 www-rkz58128.ssl0d.com
@@ -9439,6 +9553,7 @@ www.adf.ly
 www.affiliatefuture.com
 www.algolia.com
 www.all4nothin.net
+www.amazonforum.com
 www.androidpolice.com
 www.anibis.ch
 www.anrdoezrs.net
@@ -9574,6 +9689,7 @@ www.ibank.hbl.com
 www.ibroadcast.com
 www.iina.io
 www.iliad.it
+www.ilrc.org
 www.indianbank.lk
 www.inf
 www.ing.nl
@@ -9638,6 +9754,7 @@ www.muycomputer.com
 www.myfamilymobile.com
 www.myfirewalla.com
 www.myfreecams.com
+www.nartlof.com.br
 www.ndbbankonline.com
 www.nekos96.xyz
 www.neosonline.ndbbank.com
@@ -9648,6 +9765,7 @@ www.nicehash.com
 www.nn.de
 www.no-ip.com
 www.nobledesktop.com
+www.nolo.com
 www.nordpass.com
 www.nostrofiglio.it
 www.notion.so
@@ -9705,6 +9823,7 @@ www.redirectingat.com
 www.refersion.com
 www.resso.com
 www.riffreporter.de
+www.rigidindustries.com
 www.rijksmuseum.nl
 www.rivm.nl
 www.roadandtrack.com
@@ -9837,6 +9956,7 @@ xp.apple.com
 xpi.com.br
 xqqyu.mjt.lu
 xrl.us
+xsso.riotgames.com.cdn.cloudflare.net
 xsts.auth.xboxlive.com
 xt3.me
 xtremex.herokuapp.com
@@ -9970,6 +10090,7 @@ ziraatbank.me
 ziraatbank.ru
 ziraatbank.uz
 ziraatyatirim.matrikswebtrader.com
+zivver.com
 zkb.ch
 zkr.cz
 zkrat.me
