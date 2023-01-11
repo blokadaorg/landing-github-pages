@@ -12,7 +12,7 @@
             "update": {
                 "infoUrl": "https://blokada.org/#download",
                 "mirrors": [
-		    "https://github.com/blokadaorg/five-android/releases/download/23.1.0/blokada5-v230100.apk"
+		    "https://go.blokada.org/apk5"
                 ],
                 "newest": "666230100"
             }
@@ -25,7 +25,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5"
                 ],
-                "newest": "666022420"
+                "newest": "666230100"
             }
         },
         {
@@ -36,7 +36,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_escaped"
                 ],
-                "newest": "666022420"
+                "newest": "666230100"
             }
         },
         {
@@ -48,7 +48,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_beta"
                 ],
-                "newest": "666022420"
+                "newest": "666230100"
             }
         },
         {
