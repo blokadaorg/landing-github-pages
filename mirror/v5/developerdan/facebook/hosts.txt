@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2023-01-07T01:05:23+00:00
-# Count: 30108 domains
+# Released: 2023-01-24T01:05:23+00:00
+# Count: 30103 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -20,7 +20,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-0.0.0.0 www.facebook.com--secure-id-12567747644457.shahed.cc
 0.0.0.0 giphyscripts.s3.amazonaws.com
 0.0.0.0 www.giphyscripts.s3.amazonaws.com
 0.0.0.0 facebook-web-clients.appspot.com
@@ -55,6 +54,7 @@
 0.0.0.0 scontent-a-mia.cdninstagram.com
 0.0.0.0 scontent-a-mxp.cdninstagram.com
 0.0.0.0 scontent-a-nrt.cdninstagram.com
+0.0.0.0 scontent-a-ord.cdninstagram.com
 0.0.0.0 scontent-a-sea.cdninstagram.com
 0.0.0.0 scontent-a-sin.cdninstagram.com
 0.0.0.0 scontent-a-sjc.cdninstagram.com
@@ -82,6 +82,7 @@
 0.0.0.0 scontent-b-lga.cdninstagram.com
 0.0.0.0 scontent-b-lhr.cdninstagram.com
 0.0.0.0 scontent-b-mct1-1.cdninstagram.com
+0.0.0.0 scontent-b-mia.cdninstagram.com
 0.0.0.0 scontent-b-mxp.cdninstagram.com
 0.0.0.0 scontent-b-nrt.cdninstagram.com
 0.0.0.0 scontent-b-sin.cdninstagram.com
@@ -16353,7 +16354,6 @@
 0.0.0.0 mrvpravoce.facebook.com
 0.0.0.0 ms-my.facebook.com
 0.0.0.0 msgin-regional-shv-01-rash0.facebook.com
-0.0.0.0 msgin-regional-shv-01-rfrc0.facebook.com
 0.0.0.0 msgin-regional-shv-01-rprn0.facebook.com
 0.0.0.0 mt-mt.facebook.com
 0.0.0.0 mtouch.facebook.com
@@ -21044,7 +21044,6 @@
 0.0.0.0 www.education.fb.com
 0.0.0.0 ehrenamt.fb.com
 0.0.0.0 www.ehrenamt.fb.com
-0.0.0.0 emeapolicycovidhub.fb.com
 0.0.0.0 engineerfortheweek.fb.com
 0.0.0.0 www.engineerfortheweek.fb.com
 0.0.0.0 engineering.fb.com
@@ -25547,7 +25546,6 @@
 0.0.0.0 scontent.fgru9-1.fna.fbcdn.net
 0.0.0.0 video.fgru9-1.fna.fbcdn.net
 0.0.0.0 scontent.fgse1-1.fna.fbcdn.net
-0.0.0.0 scontent.fgse2-1.fna.fbcdn.net
 0.0.0.0 scontent.fgua2-1.fna.fbcdn.net
 0.0.0.0 instagram.fgua4-1.fna.fbcdn.net
 0.0.0.0 instagram.fgua5-1.fna.fbcdn.net
@@ -25602,9 +25600,6 @@
 0.0.0.0 external.fham6-1.fna.fbcdn.net
 0.0.0.0 scontent.fham6-1.fna.fbcdn.net
 0.0.0.0 external.fhan1-1.fna.fbcdn.net
-0.0.0.0 instagram.fhan2-1.fna.fbcdn.net
-0.0.0.0 scontent.fhan2-1.fna.fbcdn.net
-0.0.0.0 scontent.fhan2-2.fna.fbcdn.net
 0.0.0.0 instagram.fhan2-3.fna.fbcdn.net
 0.0.0.0 scontent.fhan2-3.fna.fbcdn.net
 0.0.0.0 www.scontent.fhan2-3.fna.fbcdn.net

@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 15 Dec 2022 at 03:07:15 GMT
+# Last updated: Mon, 30 Jan 2023 at 00:39:18 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -9465,7 +9465,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 ucstat.baidu.com
 127.0.0.1 ud.adkmob.com
 127.0.0.1 udarem.com
-127.0.0.1 udec.cl
 127.0.0.1 uedata.amazon.com
 127.0.0.1 uelbdc74fn.s.ad6media.fr
 127.0.0.1 ugo.eu-adcenter.net
@@ -10473,7 +10472,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www2.gorillavid.in
 127.0.0.1 www2.pubdirecte.com
 127.0.0.1 www2.tpgi.com.au
-127.0.0.1 www2.udec.cl
 127.0.0.1 www2.wyylde.com
 127.0.0.1 www2.zapadserver1.com
 127.0.0.1 www210.paypopup.com

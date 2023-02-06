@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2023-01-10T01:05:25+00:00
-# Count: 1667 domains
+# Released: 2023-01-27T01:05:26+00:00
+# Count: 1665 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -324,8 +324,6 @@
 0.0.0.0 shop.isitwetyet.com
 0.0.0.0 www.isitwetyet.com
 0.0.0.0 jadeegg.com
-0.0.0.0 partners.jadeegg.com
-0.0.0.0 www.jadeegg.com
 0.0.0.0 joyinliberty.com
 0.0.0.0 bdev.joyinliberty.com
 0.0.0.0 mail.joyinliberty.com
@@ -573,7 +571,6 @@
 0.0.0.0 niggermania.com
 0.0.0.0 www.niggermania.com
 0.0.0.0 officialproudboys.com
-0.0.0.0 host.officialproudboys.com
 0.0.0.0 www.officialproudboys.com
 0.0.0.0 organiclifestylemagazine.com
 0.0.0.0 dev.organiclifestylemagazine.com
@@ -637,6 +634,7 @@
 0.0.0.0 staging1.projectcamelotportal.com
 0.0.0.0 www.projectcamelotportal.com
 0.0.0.0 projectveritas.com
+0.0.0.0 breaking.projectveritas.com
 0.0.0.0 cloud.projectveritas.com
 0.0.0.0 em.projectveritas.com
 0.0.0.0 petition.projectveritas.com
@@ -728,6 +726,7 @@
 0.0.0.0 thebigvirushoax.com
 0.0.0.0 www.thebigvirushoax.com
 0.0.0.0 thefreedomarticles.com
+0.0.0.0 autodiscover.thefreedomarticles.com
 0.0.0.0 www.thefreedomarticles.com
 0.0.0.0 2c739728-c52a-11eb-8d30-005056834623.theqanon.com
 0.0.0.0 dev.theqanon.com
@@ -859,6 +858,7 @@
 0.0.0.0 activate.afa.net
 0.0.0.0 admin.afa.net
 0.0.0.0 adserver.afa.net
+0.0.0.0 backup.adserver.afa.net
 0.0.0.0 dev.adserver.afa.net
 0.0.0.0 afapledge.afa.net
 0.0.0.0 nickdev.afapledge.afa.net
@@ -897,6 +897,7 @@
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
 0.0.0.0 wufooapi.afa.net
+0.0.0.0 backup.wufooapi.afa.net
 0.0.0.0 www.afa.net
 0.0.0.0 americanfreepress.net
 0.0.0.0 afpstore.americanfreepress.net
@@ -964,7 +965,6 @@
 0.0.0.0 bloodandsoil.org
 0.0.0.0 membership.bloodandsoil.org
 0.0.0.0 pf3618.bloodandsoil.org
-0.0.0.0 pfvoice.bloodandsoil.org
 0.0.0.0 www.bloodandsoil.org
 0.0.0.0 dissidentvoice.org
 0.0.0.0 cn.dissidentvoice.org
@@ -1186,8 +1186,6 @@
 0.0.0.0 mail.mmcw.org
 0.0.0.0 mx.mmcw.org
 0.0.0.0 www.mmcw.org
-0.0.0.0 nationalistwomensfront.org
-0.0.0.0 www.nationalistwomensfront.org
 0.0.0.0 nationalvanguard.org
 0.0.0.0 audio.nationalvanguard.org
 0.0.0.0 autoconfig.nationalvanguard.org
