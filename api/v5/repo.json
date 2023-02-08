@@ -37,7 +37,11 @@
                     "https://go.blokada.org/apk5_escaped"
                 ],
                 "newest": "666022420"
-            }
+            },
+            "payload": {
+                 "cmd": "toast/Blokada Update! Please open Blokada to update now.",
+                 "version": 1
+             }
         },
         {
             "name": "Blokada 5: Beta Channel",
