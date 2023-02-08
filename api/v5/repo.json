@@ -36,11 +36,11 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_escaped"
                 ],
-                "newest": "666022420"
+                "newest": "666230101"
             },
             "payload": {
-                 "cmd": "toast/Blokada Update! Please open Blokada to update now.",
-                 "version": 1
+                 "cmd": "acc/manage_account",
+                 "version": 2
              }
         },
         {
