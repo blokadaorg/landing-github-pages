@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 16 Feb 2023 at 06:15:43 GMT
+# Last updated: Fri, 24 Feb 2023 at 08:44:13 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -2708,6 +2708,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 prk.roverinvolv.bid
 127.0.0.1 pro-accesssoires.fr
 127.0.0.1 probikesshop.fr
+127.0.0.1 profilenetflix.com
 127.0.0.1 profit-btc.org
 127.0.0.1 proflashdata.com			# Facebook trojan
 127.0.0.1 proidees.fr
