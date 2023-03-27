@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2023-02-25T01:05:25+00:00
-# Count: 1684 domains
+# Released: 2023-03-24T01:05:25+00:00
+# Count: 1672 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -96,7 +96,9 @@
 0.0.0.0 cms.americanthinker.com
 0.0.0.0 comments.americanthinker.com
 0.0.0.0 email.americanthinker.com
+0.0.0.0 images.americanthinker.com
 0.0.0.0 origin.americanthinker.com
+0.0.0.0 published.americanthinker.com
 0.0.0.0 subscriptions.americanthinker.com
 0.0.0.0 tmp.americanthinker.com
 0.0.0.0 www.americanthinker.com
@@ -321,7 +323,6 @@
 0.0.0.0 ns2.joyinliberty.com
 0.0.0.0 tracking.joyinliberty.com
 0.0.0.0 www.joyinliberty.com
-0.0.0.0 kamellia.com
 0.0.0.0 antispam.kamellia.com
 0.0.0.0 art.kamellia.com
 0.0.0.0 comune.kamellia.com
@@ -332,7 +333,6 @@
 0.0.0.0 mail.kamellia.com
 0.0.0.0 mail01.kamellia.com
 0.0.0.0 mail1.kamellia.com
-0.0.0.0 ww16.mail1.kamellia.com
 0.0.0.0 mail2.kamellia.com
 0.0.0.0 mail3.kamellia.com
 0.0.0.0 mail6.kamellia.com
@@ -346,18 +346,13 @@
 0.0.0.0 pop3.kamellia.com
 0.0.0.0 root.kamellia.com
 0.0.0.0 seed.kamellia.com
-0.0.0.0 ww16.seed.kamellia.com
 0.0.0.0 srv.kamellia.com
 0.0.0.0 tiger.kamellia.com
 0.0.0.0 vip.kamellia.com
-0.0.0.0 ww16.vip.kamellia.com
 0.0.0.0 vmail.kamellia.com
-0.0.0.0 ww1.kamellia.com
 0.0.0.0 ww11.kamellia.com
 0.0.0.0 ww16.kamellia.com
-0.0.0.0 ww25.kamellia.com
 0.0.0.0 ww38.kamellia.com
-0.0.0.0 www.kamellia.com
 0.0.0.0 knowingthetruth.com
 0.0.0.0 autodiscover.knowingthetruth.com
 0.0.0.0 cpanel.knowingthetruth.com
@@ -369,27 +364,17 @@
 0.0.0.0 webmail.knowingthetruth.com
 0.0.0.0 www.knowingthetruth.com
 0.0.0.0 leagueofthesouth.com
-0.0.0.0 802342794173233527.leagueofthesouth.com
-0.0.0.0 aaa.leagueofthesouth.com
 0.0.0.0 blog.leagueofthesouth.com
 0.0.0.0 direct.leagueofthesouth.com
 0.0.0.0 dixie.leagueofthesouth.com
-0.0.0.0 forum.leagueofthesouth.com
 0.0.0.0 ftp.leagueofthesouth.com
 0.0.0.0 lists.leagueofthesouth.com
-0.0.0.0 lync.leagueofthesouth.com
 0.0.0.0 mail.leagueofthesouth.com
 0.0.0.0 mail2.leagueofthesouth.com
 0.0.0.0 messenger.leagueofthesouth.com
-0.0.0.0 mx.leagueofthesouth.com
 0.0.0.0 radio.leagueofthesouth.com
-0.0.0.0 server.leagueofthesouth.com
-0.0.0.0 smtp.leagueofthesouth.com
 0.0.0.0 utilities.leagueofthesouth.com
-0.0.0.0 vpn.leagueofthesouth.com
-0.0.0.0 vps.leagueofthesouth.com
 0.0.0.0 www.leagueofthesouth.com
-0.0.0.0 wwww.leagueofthesouth.com
 0.0.0.0 lewrockwell.com
 0.0.0.0 archive.lewrockwell.com
 0.0.0.0 docs.lewrockwell.com
@@ -602,11 +587,13 @@
 0.0.0.0 web.prisonplanet.com
 0.0.0.0 www.prisonplanet.com
 0.0.0.0 projectcamelotportal.com
+0.0.0.0 23.projectcamelotportal.com
 0.0.0.0 backup1.projectcamelotportal.com
 0.0.0.0 beta.projectcamelotportal.com
 0.0.0.0 betatest.projectcamelotportal.com
 0.0.0.0 ca27.projectcamelotportal.com
 0.0.0.0 cali.projectcamelotportal.com
+0.0.0.0 camelot-may22.projectcamelotportal.com
 0.0.0.0 cdn1.projectcamelotportal.com
 0.0.0.0 cdn2.projectcamelotportal.com
 0.0.0.0 chat.projectcamelotportal.com
@@ -658,6 +645,9 @@
 0.0.0.0 qanonbin.com
 0.0.0.0 code.qanonbin.com
 0.0.0.0 test.qanonbin.com
+0.0.0.0 ww11.qanonbin.com
+0.0.0.0 ww25.qanonbin.com
+0.0.0.0 ww38.qanonbin.com
 0.0.0.0 www.qanonbin.com
 0.0.0.0 www2.qanonbin.com
 0.0.0.0 qanonfaq.com
@@ -838,10 +828,8 @@
 0.0.0.0 activate.afa.net
 0.0.0.0 admin.afa.net
 0.0.0.0 adserver.afa.net
-0.0.0.0 backup.adserver.afa.net
 0.0.0.0 dev.adserver.afa.net
 0.0.0.0 afapledge.afa.net
-0.0.0.0 nickdev.afapledge.afa.net
 0.0.0.0 pre.afapledge.afa.net
 0.0.0.0 test.pre.afapledge.afa.net
 0.0.0.0 aml.afa.net
@@ -866,6 +854,7 @@
 0.0.0.0 pray.afa.net
 0.0.0.0 pulseway.afa.net
 0.0.0.0 resources.afa.net
+0.0.0.0 api.resources.afa.net
 0.0.0.0 shareathonwebhook.afa.net
 0.0.0.0 shipstationwebhook.afa.net
 0.0.0.0 site2.afa.net
@@ -877,7 +866,6 @@
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
 0.0.0.0 wufooapi.afa.net
-0.0.0.0 backup.wufooapi.afa.net
 0.0.0.0 www.afa.net
 0.0.0.0 americanfreepress.net
 0.0.0.0 afpstore.americanfreepress.net

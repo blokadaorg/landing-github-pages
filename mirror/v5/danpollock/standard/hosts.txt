@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 24 Feb 2023 at 08:44:13 GMT
+# Last updated: Mon, 20 Mar 2023 at 04:52:38 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1050,7 +1050,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 s.clickability.com
 127.0.0.1 s.go-mpulse.net
 127.0.0.1 s.update.fbsbx.com 
-127.0.0.1 s.youtube.com				# Blocking this will interfere with video watching history
+127.0.0.1 s.youtube.com				# Blocking this will interfere with video watching history and may interfere with Google Podcasts
 127.0.0.1 s1-tracking.adalyser.com
 127.0.0.1 s1.shinystat.it
 127.0.0.1 s10.histats.com
@@ -2416,7 +2416,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 mail.bangla.net
 127.0.0.1 mail.cyberh.fr
 127.0.0.1 mail.hallym.ac.kr
-127.0.0.1 mail.hz.zh.cn
 127.0.0.1 mail.imamu.edu.sa
 127.0.0.1 mail.interq.or.jp
 127.0.0.1 mail.ioc.ac.ru
@@ -2424,10 +2423,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 mail.pmo.ac.cn
 127.0.0.1 mail.siom.ac.cn
 127.0.0.1 mail.tropmet.res.in
-127.0.0.1 mail.tsinghua.edu.cn
 127.0.0.1 mail1.371.net
 127.0.0.1 maillots-ffoot-actu.fr
-127.0.0.1 mails.cneic.com.cn
 127.0.0.1 mailtrack.fr
 127.0.0.1 main.exosrv.com
 127.0.0.1 maisonstravaux.fr
@@ -2929,6 +2926,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tiplanet.fr
 127.0.0.1 toknowall.com
 127.0.0.1 tomorrownewstoday.com	# I'm not sure what it does, but it seems to be associated with a phishing attempt on Facebook
+127.0.0.1 toppillstore.com
 127.0.0.1 toprxshopplace.com
 127.0.0.1 toptypeonlinetheclicks.icu
 127.0.0.1 torjackan.info
@@ -3169,7 +3167,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.shinilchurch.net	# domain was hacked and had a trojan installed
 127.0.0.1 www.simplyhelper.com
 127.0.0.1 www.sinera.org
-127.0.0.1 www.siom.ac.cn
 127.0.0.1 www.stellarium.fr
 127.0.0.1 www.stopphoulplay.com
 127.0.0.1 www.tanger.com.br
@@ -4593,10 +4590,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 a.adtng.com
 127.0.0.1 a.applvn.com
 127.0.0.1 a.baidu.com
+127.0.0.1 a.blesk.cz 
 127.0.0.1 a.boom.ro
 127.0.0.1 a.cctv.com
+127.0.0.1 a.centrum.cz 
 127.0.0.1 a.cntv.cn
+127.0.0.1 a.denik.cz 
 127.0.0.1 a.dynad.net
+127.0.0.1 a.iprima.cz 
 127.0.0.1 a.kerg.net
 127.0.0.1 a.libertystmedia.com
 127.0.0.1 a.ligatus.com
@@ -4606,6 +4607,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 a.prisacom.com
 127.0.0.1 a.rad.live.com
 127.0.0.1 a.rad.msn.com
+127.0.0.1 a.slunecnice.cz
 127.0.0.1 a.spolecznosci.net
 127.0.0.1 a.ss34.on9mail.com
 127.0.0.1 a.total-media.net
