@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2023-03-24T01:05:25+00:00
-# Count: 1672 domains
+# Released: 2023-05-01T01:05:26+00:00
+# Count: 1646 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -25,6 +25,8 @@
 0.0.0.0 qanon.app
 0.0.0.0 www.qanon.app
 0.0.0.0 historyreviewed.best
+0.0.0.0 dc-9963afc18363.historyreviewed.best
+0.0.0.0 dev.historyreviewed.best
 0.0.0.0 mail.historyreviewed.best
 0.0.0.0 www.historyreviewed.best
 0.0.0.0 siegeculture.biz
@@ -239,6 +241,7 @@
 0.0.0.0 media-staging.infowars.com
 0.0.0.0 mobile.infowars.com
 0.0.0.0 new.infowars.com
+0.0.0.0 newsletter.infowars.com
 0.0.0.0 ns1.infowars.com
 0.0.0.0 ns10.infowars.com
 0.0.0.0 ns11.infowars.com
@@ -323,36 +326,6 @@
 0.0.0.0 ns2.joyinliberty.com
 0.0.0.0 tracking.joyinliberty.com
 0.0.0.0 www.joyinliberty.com
-0.0.0.0 antispam.kamellia.com
-0.0.0.0 art.kamellia.com
-0.0.0.0 comune.kamellia.com
-0.0.0.0 cs.kamellia.com
-0.0.0.0 direct.kamellia.com
-0.0.0.0 imap.kamellia.com
-0.0.0.0 m.kamellia.com
-0.0.0.0 mail.kamellia.com
-0.0.0.0 mail01.kamellia.com
-0.0.0.0 mail1.kamellia.com
-0.0.0.0 mail2.kamellia.com
-0.0.0.0 mail3.kamellia.com
-0.0.0.0 mail6.kamellia.com
-0.0.0.0 mailgate.kamellia.com
-0.0.0.0 mbox.kamellia.com
-0.0.0.0 mx2.kamellia.com
-0.0.0.0 mx5.kamellia.com
-0.0.0.0 mxs.kamellia.com
-0.0.0.0 ns.kamellia.com
-0.0.0.0 ns2.kamellia.com
-0.0.0.0 pop3.kamellia.com
-0.0.0.0 root.kamellia.com
-0.0.0.0 seed.kamellia.com
-0.0.0.0 srv.kamellia.com
-0.0.0.0 tiger.kamellia.com
-0.0.0.0 vip.kamellia.com
-0.0.0.0 vmail.kamellia.com
-0.0.0.0 ww11.kamellia.com
-0.0.0.0 ww16.kamellia.com
-0.0.0.0 ww38.kamellia.com
 0.0.0.0 knowingthetruth.com
 0.0.0.0 autodiscover.knowingthetruth.com
 0.0.0.0 cpanel.knowingthetruth.com
@@ -364,16 +337,8 @@
 0.0.0.0 webmail.knowingthetruth.com
 0.0.0.0 www.knowingthetruth.com
 0.0.0.0 leagueofthesouth.com
-0.0.0.0 blog.leagueofthesouth.com
-0.0.0.0 direct.leagueofthesouth.com
-0.0.0.0 dixie.leagueofthesouth.com
 0.0.0.0 ftp.leagueofthesouth.com
-0.0.0.0 lists.leagueofthesouth.com
 0.0.0.0 mail.leagueofthesouth.com
-0.0.0.0 mail2.leagueofthesouth.com
-0.0.0.0 messenger.leagueofthesouth.com
-0.0.0.0 radio.leagueofthesouth.com
-0.0.0.0 utilities.leagueofthesouth.com
 0.0.0.0 www.leagueofthesouth.com
 0.0.0.0 lewrockwell.com
 0.0.0.0 archive.lewrockwell.com
@@ -386,6 +351,7 @@
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
 0.0.0.0 lindelltv.com
+0.0.0.0 dermwipes.com.lindelltv.com
 0.0.0.0 net.lindelltv.com
 0.0.0.0 faqaboutgod.net.lindelltv.com
 0.0.0.0 www.lindelltv.com
@@ -658,6 +624,8 @@
 0.0.0.0 www.qproofs.com
 0.0.0.0 qsaltlake.com
 0.0.0.0 ftp.qsaltlake.com
+0.0.0.0 pay.qsaltlake.com
+0.0.0.0 www.pay.qsaltlake.com
 0.0.0.0 www.qsaltlake.com
 0.0.0.0 qupdates.com
 0.0.0.0 autodiscover.qupdates.com
@@ -707,6 +675,10 @@
 0.0.0.0 thefreedomarticles.com
 0.0.0.0 autodiscover.thefreedomarticles.com
 0.0.0.0 www.thefreedomarticles.com
+0.0.0.0 theqanon.com
+0.0.0.0 demo.theqanon.com
+0.0.0.0 magento.theqanon.com
+0.0.0.0 staging.theqanon.com
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
 0.0.0.0 thinkqanon.com
@@ -830,8 +802,6 @@
 0.0.0.0 adserver.afa.net
 0.0.0.0 dev.adserver.afa.net
 0.0.0.0 afapledge.afa.net
-0.0.0.0 pre.afapledge.afa.net
-0.0.0.0 test.pre.afapledge.afa.net
 0.0.0.0 aml.afa.net
 0.0.0.0 apppush.afa.net
 0.0.0.0 bitrix.afa.net
@@ -857,6 +827,7 @@
 0.0.0.0 api.resources.afa.net
 0.0.0.0 shareathonwebhook.afa.net
 0.0.0.0 shipstationwebhook.afa.net
+0.0.0.0 backup.shipstationwebhook.afa.net
 0.0.0.0 site2.afa.net
 0.0.0.0 track.spark-post.afa.net
 0.0.0.0 streamer1.afa.net
@@ -866,6 +837,7 @@
 0.0.0.0 uptime.afa.net
 0.0.0.0 webmail.afa.net
 0.0.0.0 wufooapi.afa.net
+0.0.0.0 backup.wufooapi.afa.net
 0.0.0.0 www.afa.net
 0.0.0.0 americanfreepress.net
 0.0.0.0 afpstore.americanfreepress.net
@@ -901,8 +873,11 @@
 0.0.0.0 staging.jamesperloff.net
 0.0.0.0 www.jamesperloff.net
 0.0.0.0 kiwifarms.net
+0.0.0.0 element.kiwifarms.net
+0.0.0.0 git.kiwifarms.net
 0.0.0.0 matrix.kiwifarms.net
 0.0.0.0 no-cookie.kiwifarms.net
+0.0.0.0 resetera.kiwifarms.net
 0.0.0.0 riot.kiwifarms.net
 0.0.0.0 status.kiwifarms.net
 0.0.0.0 www.kiwifarms.net
@@ -935,7 +910,6 @@
 0.0.0.0 www.bloodandsoil.org
 0.0.0.0 dissidentvoice.org
 0.0.0.0 cn.dissidentvoice.org
-0.0.0.0 org.cn.dissidentvoice.org
 0.0.0.0 mmaa.org.cn.dissidentvoice.org
 0.0.0.0 consciencewww.dissidentvoice.org
 0.0.0.0 mail.dissidentvoice.org
@@ -1608,6 +1582,7 @@
 0.0.0.0 log.ublock.org
 0.0.0.0 mail.ublock.org
 0.0.0.0 ping.ublock.org
+0.0.0.0 releases.ublock.org
 0.0.0.0 support.ublock.org
 0.0.0.0 www.ublock.org
 0.0.0.0 warroom.org
@@ -1619,9 +1594,8 @@
 0.0.0.0 podcast.warroom.org
 0.0.0.0 sip.warroom.org
 0.0.0.0 storage.warroom.org
+0.0.0.0 track.warroom.org
 0.0.0.0 www.warroom.org
-0.0.0.0 qntmpkts.keybase.pub
-0.0.0.0 www.qntmpkts.keybase.pub
 0.0.0.0 operationq.pub
 0.0.0.0 www.operationq.pub
 0.0.0.0 qanon.pub

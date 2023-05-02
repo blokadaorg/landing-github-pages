@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 20 Mar 2023 at 04:52:38 GMT
+# Last updated: Thu, 27 Apr 2023 at 01:13:23 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1583,6 +1583,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 10tide.com
 127.0.0.1 1percent.fr
 127.0.0.1 2006mindfreaklike.blogspot.com	# Facebook trojan
+127.0.0.1 2023cradep0sit.com
 127.0.0.1 20linutes.fr
 127.0.0.1 20mlinutes.fr
 127.0.0.1 237online.fr
@@ -1962,6 +1963,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 delphix.fr
 127.0.0.1 denx.fr
 127.0.0.1 department06.fr
+127.0.0.1 deposit-cra2023.com
 127.0.0.1 depositphotos.fr
 127.0.0.1 devguardmap.org
 127.0.0.1 dewinci.fr
@@ -2248,7 +2250,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 jeupicard.fr
 127.0.0.1 jobfreelance.fr
 127.0.0.1 joomlaworks.fr
-127.0.0.1 jqueryscript.net
 127.0.0.1 juegosdechicas.fr
 127.0.0.1 juliettehasagun.fr
 127.0.0.1 jump.ewoss.net
@@ -2654,6 +2655,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 peremiere.fr
 127.0.0.1 petra.nic.gov.jo
 127.0.0.1 pexkr.comfortykive.xyz
+127.0.0.1 pfepfe.cc
 127.0.0.1 phising-initiative.fr
 127.0.0.1 phorm.ch
 127.0.0.1 phorm.co.uk
@@ -2689,8 +2691,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 poolin.fr
 127.0.0.1 poonstwifterspick.work
 127.0.0.1 portdusoleil.fr
+127.0.0.1 post-canada-delivery2023.com
 127.0.0.1 post.mil-gov.space
 127.0.0.1 postbox.mos.ru
+127.0.0.1 postcanada.ship-express.info
+127.0.0.1 postcanada.ship-priority.info
 127.0.0.1 postis.fr
 127.0.0.1 powertrfic.fr
 127.0.0.1 ppoi.org
@@ -2779,6 +2784,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 salebestever.su
 127.0.0.1 santanderbank.fr
 127.0.0.1 sartoriz.fr
+127.0.0.1 sbh9hu4trk.com
 127.0.0.1 scei-concour.fr
 127.0.0.1 schlaukopf.fr
 127.0.0.1 sciencesetlavenir.fr
@@ -2848,6 +2854,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 soniksports.fr
 127.0.0.1 soports.fr
 127.0.0.1 sorbone.fr
+127.0.0.1 sosohus.ink
 127.0.0.1 speakplanet.fr
 127.0.0.1 speechpad.fr
 127.0.0.1 speedycourse.fr
@@ -2890,6 +2897,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tanieaukcje.com
 127.0.0.1 taniezakupy.pl
 127.0.0.1 tattooshaha.info			# Facebook trojan
+127.0.0.1 tax-canada2023.co
 127.0.0.1 tbebestknives.fr
 127.0.0.1 teamsport-philipp.fr
 127.0.0.1 tearbelt.com
@@ -2950,6 +2958,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tweetdeck.fr
 127.0.0.1 twitpic.fr
 127.0.0.1 tx.micro.net.pk
+127.0.0.1 tx2returnhome.com
 127.0.0.1 typewriter.fr
 127.0.0.1 u-pssud.fr
 127.0.0.1 ua-consumerpanel.frge.io
@@ -3143,6 +3152,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.mshelp247.weebly.com
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
+127.0.0.1 www.mywot.com
 127.0.0.1 www.notepad2.com
 127.0.0.1 www.novemberrainx.com
 127.0.0.1 www.nu26.com
@@ -7099,6 +7109,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 evroteplo.ru
 127.0.0.1 exchange.scalemonk.com
 127.0.0.1 exclusivegiftcards.com
+127.0.0.1 exipure.net
 127.0.0.1 exponential.com
 127.0.0.1 ext.royalcactus.com
 127.0.0.1 eyewonder.com
@@ -7157,6 +7168,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 firrectly.top
 127.0.0.1 firstgame.xyz
 127.0.0.1 fixbonus.com
+127.0.0.1 fixxermorsel.za.com
 127.0.0.1 flbox.net
 127.0.0.1 fliplens.com
 127.0.0.1 floatingads.madisonavenue.com
@@ -7468,6 +7480,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ib.adnxs.com
 127.0.0.1 ibis.lgappstv.com
 127.0.0.1 iceman30.de
+127.0.0.1 iceonecasino.com
 127.0.0.1 icmserver.net
 127.0.0.1 id11938.luxup.ru
 127.0.0.1 id3103.com
@@ -7622,6 +7635,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 iwbubcs.v01aelux.space
 127.0.0.1 izmsj.co.jp
 127.0.0.1 j.adlooxtracking.com
+127.0.0.1 jac.yahoosandbox.com
 127.0.0.1 jadserve.postrelease.com
 127.0.0.1 jambocast.com
 127.0.0.1 jav.ee
@@ -8997,6 +9011,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 sharefile-us.com
 127.0.0.1 sharefiles-eu.com
 127.0.0.1 shares-cloud.com
+127.0.0.1 shatershepeleve.com
 127.0.0.1 shellstore.info
 127.0.0.1 shichihukuudon.com
 127.0.0.1 shinedns.net
@@ -9314,6 +9329,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 thebrighttag.com
 127.0.0.1 thebuzz.today
 127.0.0.1 theestatehouse.co.uk
+127.0.0.1 theketo-complete.com
 127.0.0.1 themaplemethod.com
 127.0.0.1 theotime.net
 127.0.0.1 thepiratetrader.com
@@ -10150,7 +10166,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.merlin.co.il
 127.0.0.1 www.mgid.com
 127.0.0.1 www.mightymagoo.com
-127.0.0.1 www.mijnbladopdemat.nl
 127.0.0.1 www.mikaeljigmo.com
 127.0.0.1 www.miqsoft.hu
 127.0.0.1 www.miyazaki-catv.ne.jp
