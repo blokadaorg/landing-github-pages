@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 27 Apr 2023 at 01:13:23 GMT
+# Last updated: Mon, 22 May 2023 at 22:53:33 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -95,7 +95,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.goat.cx
 127.0.0.1 shafou.com
 127.0.0.1 www.shafou.com
-
 127.0.0.1 1girl1pitcher.com
 127.0.0.1 1girl1pitcher.org
 127.0.0.1 1guy1cock.com
@@ -162,6 +161,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 painolympics.info
 127.0.0.1 painolympics.org
 127.0.0.1 phonejapan.com
+127.0.0.1 pnrtscr.com
 127.0.0.1 pressurespot.com
 127.0.0.1 prolapseman.com
 127.0.0.1 scrollbelow.com
@@ -6174,6 +6174,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 applyfix.tech
 127.0.0.1 appnexus.com
 127.0.0.1 appodeal.com
+127.0.0.1 apps-blue.com
 127.0.0.1 apps-cloud.xyz
 127.0.0.1 apps5.oingo.com
 127.0.0.1 appswiss.ch
@@ -6508,22 +6509,36 @@ ff02::3		ip6-allhosts
 127.0.0.1 c.za.msn.com
 127.0.0.1 c0011.boursorama.com
 127.0.0.1 c1.adform.net
+127.0.0.1 c1.cembuyukhanli.com
 127.0.0.1 c1.popads.net
+127.0.0.1 c1.somalisounds.com
 127.0.0.1 c1.teaser-goods.ru
 127.0.0.1 c1.zedo.com
 127.0.0.1 c11370896.c.youradexchange.com
+127.0.0.1 c2.cembuyukhanli.com
 127.0.0.1 c2.l.qq.com
 127.0.0.1 c2.popads.net
+127.0.0.1 c2.somalisounds.com
 127.0.0.1 c2.taboola.com
 127.0.0.1 c2.zedo.com
 127.0.0.1 c2366475.c.youradexchange.com
+127.0.0.1 c3.cembuyukhanli.com
+127.0.0.1 c3.somalisounds.com
 127.0.0.1 c3.zedo.com
 127.0.0.1 c35000246.c.youradexchange.com
+127.0.0.1 c4.cembuyukhanli.com
 127.0.0.1 c4.maxserving.com
+127.0.0.1 c4.somalisounds.com
 127.0.0.1 c4.zedo.com
 127.0.0.1 c4tracking01.com
+127.0.0.1 c5.cembuyukhanli.com
+127.0.0.1 c5.somalisounds.com
 127.0.0.1 c5.zedo.com
+127.0.0.1 c6.cembuyukhanli.com
+127.0.0.1 c6.somalisounds.com
 127.0.0.1 c6.zedo.com
+127.0.0.1 c7.cembuyukhanli.com
+127.0.0.1 c7.somalisounds.com
 127.0.0.1 c7.zedo.com
 127.0.0.1 c8.zedo.com
 127.0.0.1 ca.adserver.yahoo.com
@@ -6543,6 +6558,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 campaigns.f2.com.au
 127.0.0.1 canadaalltax.com
 127.0.0.1 canuckmethod.com
+127.0.0.1 canva2023.com
 127.0.0.1 capath.com
 127.0.0.1 carambo.la
 127.0.0.1 cardgamespidersolitaire.com
@@ -6586,6 +6602,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 cdn.assets.craveonline.com
 127.0.0.1 cdn.atlassbx.com
 127.0.0.1 cdn.augur.io
+127.0.0.1 cdn.axphotoalbum.top
 127.0.0.1 cdn.ayads.co
 127.0.0.1 cdn.banners.scubl.com
 127.0.0.1 cdn.betgorebysson.club
@@ -6665,6 +6682,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 charmflirt.com
 127.0.0.1 charmstroy.info
 127.0.0.1 chartbeat.com
+127.0.0.1 chatgpt-premium.com
 127.0.0.1 chechla.cnixon.com
 127.0.0.1 cherryhi.app.ur.gcion.com
 127.0.0.1 chip.popmarker.com
@@ -6974,6 +6992,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 djbanners.deadjournal.com
 127.0.0.1 djugoogs.com
 127.0.0.1 dk.adserver.yahoo.com
+127.0.0.1 dl.payforme.top
+127.0.0.1 dl.privatecollection.top
 127.0.0.1 dlvr.readserver.net
 127.0.0.1 dmatica.it
 127.0.0.1 dmp.vihub.ru
@@ -6993,6 +7013,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 download.inboxace.com
 127.0.0.1 download.weatherblink.com
 127.0.0.1 download.yesmessenger.com
+127.0.0.1 download5s.com
 127.0.0.1 downloadcdn.com
 127.0.0.1 downloadplayer.xyz
 127.0.0.1 downloads.larivieracasino.com
@@ -7029,7 +7050,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 e.serverbid.com
 127.0.0.1 e0.extreme-dm.com
 127.0.0.1 e1.addthis.com
+127.0.0.1 e1.wetterkameras.com
 127.0.0.1 e2.cdn.qnsr.com
+127.0.0.1 e2.wetterkameras.com
+127.0.0.1 e3.wetterkameras.com
+127.0.0.1 e4.wetterkameras.com
+127.0.0.1 e5.wetterkameras.com
+127.0.0.1 e6.wetterkameras.com
+127.0.0.1 e7.wetterkameras.com
 127.0.0.1 earnlivingonline.net
 127.0.0.1 eas4.emediate.eu
 127.0.0.1 easyadservice.com
@@ -7232,6 +7260,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 gamerz123.com
 127.0.0.1 games.superappbox.com
 127.0.0.1 gamesrotator.com
+127.0.0.1 gaming-box.com
 127.0.0.1 gar-tech.com
 127.0.0.1 garant.bos.ru
 127.0.0.1 garciaestelles.com
@@ -7373,6 +7402,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 h-afnetwww.adshuffle.com
 127.0.0.1 h.ppjol.com
 127.0.0.1 h.seznam.cz
+127.0.0.1 h1.helenrosi.com
+127.0.0.1 h2.helenrosi.com
+127.0.0.1 h3.helenrosi.com
+127.0.0.1 h4.helenrosi.com
+127.0.0.1 h5.helenrosi.com
+127.0.0.1 h6.helenrosi.com
+127.0.0.1 h7.helenrosi.com
 127.0.0.1 hamiltonpainters.ca
 127.0.0.1 hapax.qc.ca
 127.0.0.1 harvest.adgardener.com
@@ -7472,8 +7508,22 @@ ff02::3		ip6-allhosts
 127.0.0.1 i.total-media.net
 127.0.0.1 i.trkjmp.com
 127.0.0.1 i.w.inmobi.com
+127.0.0.1 i1.ictorganisers.com
 127.0.0.1 i1.teaser-goods.ru
+127.0.0.1 i1.vaishnaviinterior.com
+127.0.0.1 i2.ictorganisers.com
+127.0.0.1 i2.vaishnaviinterior.com
+127.0.0.1 i3.ictorganisers.com
+127.0.0.1 i3.vaishnaviinterior.com
+127.0.0.1 i4.ictorganisers.com
+127.0.0.1 i4.vaishnaviinterior.com
 127.0.0.1 i4track.net
+127.0.0.1 i5.ictorganisers.com
+127.0.0.1 i5.vaishnaviinterior.com
+127.0.0.1 i6.ictorganisers.com
+127.0.0.1 i6.vaishnaviinterior.com
+127.0.0.1 i7.ictorganisers.com
+127.0.0.1 i7.vaishnaviinterior.com
 127.0.0.1 iacas.adbureau.net
 127.0.0.1 iad.anm.co.uk
 127.0.0.1 ialaddin.genieesspv.jp
@@ -7635,6 +7685,20 @@ ff02::3		ip6-allhosts
 127.0.0.1 iwbubcs.v01aelux.space
 127.0.0.1 izmsj.co.jp
 127.0.0.1 j.adlooxtracking.com
+127.0.0.1 j1.jinghuaqitb.com
+127.0.0.1 j1.jmooreassoc.com
+127.0.0.1 j2.jinghuaqitb.com
+127.0.0.1 j2.jmooreassoc.com
+127.0.0.1 j3.jinghuaqitb.com
+127.0.0.1 j3.jmooreassoc.com
+127.0.0.1 j4.jinghuaqitb.com
+127.0.0.1 j4.jmooreassoc.com
+127.0.0.1 j5.jinghuaqitb.com
+127.0.0.1 j5.jmooreassoc.com
+127.0.0.1 j6.jinghuaqitb.com
+127.0.0.1 j6.jmooreassoc.com
+127.0.0.1 j7.jinghuaqitb.com
+127.0.0.1 j7.jmooreassoc.com
 127.0.0.1 jac.yahoosandbox.com
 127.0.0.1 jadserve.postrelease.com
 127.0.0.1 jambocast.com
@@ -7696,9 +7760,16 @@ ff02::3		ip6-allhosts
 127.0.0.1 justwebads.com
 127.0.0.1 jxliu.com
 127.0.0.1 jzclick.soso.com
+127.0.0.1 k1.karbilyazilim.com
 127.0.0.1 k1.mobileadsserver.com
+127.0.0.1 k2.karbilyazilim.com
+127.0.0.1 k3.karbilyazilim.com
 127.0.0.1 k3vzn.flx10.com
+127.0.0.1 k4.karbilyazilim.com
+127.0.0.1 k5.karbilyazilim.com
 127.0.0.1 k5ads.osdn.com
+127.0.0.1 k6.karbilyazilim.com
+127.0.0.1 k7.karbilyazilim.com
 127.0.0.1 kaartenhuis.nl.site-id.nl
 127.0.0.1 kaharmonie.nl
 127.0.0.1 kanzlei-borchers.de
@@ -7720,6 +7791,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 keys.dmtracker.com
 127.0.0.1 keywordblocks.com
 127.0.0.1 keywords.adtlgc.com
+127.0.0.1 kh1.kimhasa.com
+127.0.0.1 kh2.kimhasa.com
+127.0.0.1 kh3.kimhasa.com
+127.0.0.1 kh4.kimhasa.com
+127.0.0.1 kh5.kimhasa.com
+127.0.0.1 kh6.kimhasa.com
+127.0.0.1 kh7.kimhasa.com
 127.0.0.1 kilomniadst.info
 127.0.0.1 kiosked-d.openx.net
 127.0.0.1 kitaramarketplace.com
@@ -7866,6 +7944,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 lucker.co
 127.0.0.1 lucky-day-uk.com
 127.0.0.1 luxup.ru
+127.0.0.1 lydownload.net
 127.0.0.1 m.adbridge.de
 127.0.0.1 m.addthis.com
 127.0.0.1 m.addthisedge.com
@@ -8080,6 +8159,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 motosal.net
 127.0.0.1 moveyourmarket.com
 127.0.0.1 movieads.imgs.sapo.pt
+127.0.0.1 movies-box.net
+127.0.0.1 movies-cine.com
+127.0.0.1 movies-cinema.com
 127.0.0.1 movsflix.com
 127.0.0.1 moz.execulink.net
 127.0.0.1 mozebyctwoje.com
@@ -8129,15 +8211,23 @@ ff02::3		ip6-allhosts
 127.0.0.1 mygreatrewards.com
 127.0.0.1 mymediarecommendations.com
 127.0.0.1 mypopups.com
+127.0.0.1 myprivatephotoalbum.top
 127.0.0.1 mysagagame.com
 127.0.0.1 myseostats.com
 127.0.0.1 mytimerpro.com
 127.0.0.1 myusersonline.com
 127.0.0.1 myyearbookdigital.checkm8.com
 127.0.0.1 n01d05.cumulus-cloud.com
+127.0.0.1 n1.nskfyl.com
 127.0.0.1 n1internet.com
+127.0.0.1 n2.nskfyl.com
+127.0.0.1 n3.nskfyl.com
 127.0.0.1 n339.asp-cc.com
+127.0.0.1 n4.nskfyl.com
 127.0.0.1 n4p.ru.redtram.com
+127.0.0.1 n5.nskfyl.com
+127.0.0.1 n6.nskfyl.com
+127.0.0.1 n7.nskfyl.com
 127.0.0.1 na.ads.yahoo.com
 127.0.0.1 najlepszedlaciebie.com
 127.0.0.1 nakladatelstvi-brazda.wz.cz
@@ -8159,6 +8249,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 nbc.adbureau.net
 127.0.0.1 nbimg.dt00.net
 127.0.0.1 nc.ru.redtram.com
+127.0.0.1 nctitds.top
 127.0.0.1 nctracking.com
 127.0.0.1 nearbyad.com
 127.0.0.1 needadvertising.com
@@ -8267,6 +8358,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 offers.royalvegascasino.com
 127.0.0.1 offertrakking.info
 127.0.0.1 offerx.co.uk
+127.0.0.1 office-2023.com
+127.0.0.1 office-2023.net
+127.0.0.1 office2023.net
 127.0.0.1 office365-eu-update.com
 127.0.0.1 office365-us-update.com
 127.0.0.1 ohmydating.com
@@ -8349,10 +8443,17 @@ ff02::3		ip6-allhosts
 127.0.0.1 p.l.qq.com
 127.0.0.1 p.nexac.com
 127.0.0.1 p.profistats.net
+127.0.0.1 p1.preppypm.com
 127.0.0.1 p2.l.qq.com
+127.0.0.1 p2.preppypm.com
 127.0.0.1 p232207.mybestmv.com
+127.0.0.1 p3.preppypm.com
 127.0.0.1 p3p.mmstat.com
+127.0.0.1 p4.preppypm.com
 127.0.0.1 p4psearch.china.alibaba.com
+127.0.0.1 p5.preppypm.com
+127.0.0.1 p6.preppypm.com
+127.0.0.1 p7.preppypm.com
 127.0.0.1 paclitor.com
 127.0.0.1 page.0ffer.eu
 127.0.0.1 pagead2.googlesyndication.com
@@ -8391,6 +8492,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 paulomatosconsultores.com.br
 127.0.0.1 paulsnetwork.com
 127.0.0.1 payae8moon9.com
+127.0.0.1 payforme.top
 127.0.0.1 pb.tynt.com
 127.0.0.1 pbid.pro-market.net
 127.0.0.1 pc-gizmos-ssl.com
@@ -8428,12 +8530,15 @@ ff02::3		ip6-allhosts
 127.0.0.1 ph-ad20.focalink.com
 127.0.0.1 ph-ad21.focalink.com
 127.0.0.1 ph-cdn.effectivemeasure.net
+127.0.0.1 phcde.top
 127.0.0.1 philippschoch.ch
 127.0.0.1 phobia.net
 127.0.0.1 phoenixads.co.in
 127.0.0.1 phoenixinvestigations.ca
 127.0.0.1 phones4you.be
+127.0.0.1 photo-cam.com
 127.0.0.1 photobucket.adnxs.com
+127.0.0.1 photography-hq.com
 127.0.0.1 photos.daily-deals.analoganalytics.com
 127.0.0.1 photos.pop6.com
 127.0.0.1 photos0.pop6.com
@@ -8453,6 +8558,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 phuphi.com
 127.0.0.1 pic.casee.cn
 127.0.0.1 pickytime.com
+127.0.0.1 pictures-album.com
 127.0.0.1 ping.chartbeat.net
 127.0.0.1 pingfore.qq.com
 127.0.0.1 pingfore.soso.com
@@ -8546,6 +8652,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 prexyone.appspot.com
 127.0.0.1 primetime.ad.primetime.net
 127.0.0.1 primusbelgium.com
+127.0.0.1 privatecollection.top
 127.0.0.1 privitize.com
 127.0.0.1 prizes.co.uk
 127.0.0.1 prjcq.com
@@ -8558,6 +8665,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 profile.uproxx.com
 127.0.0.1 profiline-berlin.de
 127.0.0.1 profitboosterapp.com
+127.0.0.1 programe.top
 127.0.0.1 promo.awempire.com
 127.0.0.1 promo.betcity.net
 127.0.0.1 promo.easy-dating.org
@@ -8671,7 +8779,21 @@ ff02::3		ip6-allhosts
 127.0.0.1 r.reklama.biz
 127.0.0.1 r.turn.com
 127.0.0.1 r.turn.com.akadns.net
+127.0.0.1 r1.ritikajoshi.com
+127.0.0.1 r1.romeflirt.com
 127.0.0.1 r2.adwo.com
+127.0.0.1 r2.ritikajoshi.com
+127.0.0.1 r2.romeflirt.com
+127.0.0.1 r3.ritikajoshi.com
+127.0.0.1 r3.romeflirt.com
+127.0.0.1 r4.ritikajoshi.com
+127.0.0.1 r4.romeflirt.com
+127.0.0.1 r5.ritikajoshi.com
+127.0.0.1 r5.romeflirt.com
+127.0.0.1 r6.ritikajoshi.com
+127.0.0.1 r6.romeflirt.com
+127.0.0.1 r7.ritikajoshi.com
+127.0.0.1 r7.romeflirt.com
 127.0.0.1 r7mediar.com
 127.0.0.1 rad.live.com
 127.0.0.1 rad.msn.com
@@ -8888,6 +9010,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 sayfabulunamadi.com
 127.0.0.1 sb.freeskreen.com
 127.0.0.1 sb.scorecardresearch.com
+127.0.0.1 sb1.shble.com
+127.0.0.1 sb2.shble.com
+127.0.0.1 sb3.shble.com
+127.0.0.1 sb4.shble.com
+127.0.0.1 sb5.shble.com
+127.0.0.1 sb6.shble.com
+127.0.0.1 sb7.shble.com
 127.0.0.1 scalemonk.com
 127.0.0.1 scdown.qq.com
 127.0.0.1 scegli-vinci.it
@@ -9035,6 +9164,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 simg.zedo.com
 127.0.0.1 simpleads.net
 127.0.0.1 simpli.fi
+127.0.0.1 simpli.top
 127.0.0.1 sinseisyoji.co.jp
 127.0.0.1 sistemishop.it
 127.0.0.1 site.adform.com
@@ -9109,6 +9239,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 sponsor1.com
 127.0.0.1 sponsorships.net
 127.0.0.1 sportreisen.de
+127.0.0.1 sportydesktops.com
 127.0.0.1 spotxchange.com
 127.0.0.1 sq2trk2.com
 127.0.0.1 srs.targetpoint.com
@@ -9213,6 +9344,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 summer.ntua.edu.tw
 127.0.0.1 sumome.com
 127.0.0.1 sunmaker.com
+127.0.0.1 super-mario-deluxe.net
 127.0.0.1 superbrewards.com
 127.0.0.1 superfastcdn.com
 127.0.0.1 superinterstitial.com
@@ -9290,6 +9422,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tags.onscroll.com
 127.0.0.1 tags.tagcade.com
 127.0.0.1 taicheetee.com
+127.0.0.1 takeforme.xyz
 127.0.0.1 takeoneaudio.jp
 127.0.0.1 tanio-najtaniej.com
 127.0.0.1 taobaoafp.allyes.cn
@@ -9302,6 +9435,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tdameritrade.tt.omtrdc.net
 127.0.0.1 tdc.advertorials.dk
 127.0.0.1 te.kontera.com
+127.0.0.1 te1.techgeetam.com
 127.0.0.1 techexpert.site
 127.0.0.1 techms-shop.su
 127.0.0.1 techreview-images.adbureau.net
@@ -9531,10 +9665,17 @@ ff02::3		ip6-allhosts
 127.0.0.1 uvimage.56.com
 127.0.0.1 v-support.free.bg
 127.0.0.1 v1.browser-tools.systems
+127.0.0.1 v1.viayonetici.com
 127.0.0.1 v16.56.com
 127.0.0.1 v2.adsbookie.com
+127.0.0.1 v2.viayonetici.com
 127.0.0.1 v2profit.com
 127.0.0.1 v3.toolbar.soso.com
+127.0.0.1 v3.viayonetici.com
+127.0.0.1 v4.viayonetici.com
+127.0.0.1 v5.viayonetici.com
+127.0.0.1 v6.viayonetici.com
+127.0.0.1 v7.viayonetici.com
 127.0.0.1 vaitu.club
 127.0.0.1 vakarek.info
 127.0.0.1 valsgaard-kofod.dk
@@ -9546,6 +9687,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 vcdn.adnxs.com
 127.0.0.1 vda.oipzyrzffum.ovh
 127.0.0.1 vdbunt.net
+127.0.0.1 ve1.claker.top
+127.0.0.1 ve1.techgeetam.com
+127.0.0.1 ve2.techgeetam.com
 127.0.0.1 veirregnant.club
 127.0.0.1 vendorlist.consensu.org
 127.0.0.1 venetia.iad.appboy.com
@@ -9567,6 +9711,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 videomediagroep.nl
 127.0.0.1 videos.fleshlight.com
 127.0.0.1 videoslots.888.com
+127.0.0.1 videovip.org
 127.0.0.1 vidnline.com
 127.0.0.1 vidroll.ru
 127.0.0.1 view.atdmt.com
@@ -9702,6 +9847,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ww1510.smartadserver.com
 127.0.0.1 ww251.smartadserver.com
 127.0.0.1 ww690.smartadserver.com
+127.0.0.1 www-x-videos.com
 127.0.0.1 www.0202.com.tw
 127.0.0.1 www.1-1ads.com
 127.0.0.1 www.1120.com.tw
@@ -10534,6 +10680,16 @@ ff02::3		ip6-allhosts
 127.0.0.1 wwwroot.forent.sk
 127.0.0.1 wytypowany-zwyciezca.com
 127.0.0.1 wytypowany-zwyciezca.pl
+127.0.0.1 x-album.com
+127.0.0.1 x-album.net
+127.0.0.1 x-albums.net
+127.0.0.1 x-image.net
+127.0.0.1 x-images.com
+127.0.0.1 x-images.net
+127.0.0.1 x-photobucket.top
+127.0.0.1 x-photos.net
+127.0.0.1 x-picture.net
+127.0.0.1 x-pictures.net
 127.0.0.1 x.azjmp.com
 127.0.0.1 x.bidswitch.net
 127.0.0.1 x.iasrv.com
@@ -10558,6 +10714,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 xmlheads.com
 127.0.0.1 xpantivirus.com
 127.0.0.1 xphones-2019.info
+127.0.0.1 xphotos-album.com
+127.0.0.1 xphotos.net
+127.0.0.1 xpictures.net
 127.0.0.1 xstatic.nk-net.pl
 127.0.0.1 y.cdn.adblade.com
 127.0.0.1 yadro.ru
