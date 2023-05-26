@@ -14,7 +14,7 @@
                 "mirrors": [
 		    "https://go.blokada.org/apk5"
                 ],
-                "newest": "666230110"
+                "newest": "666230201"
             }
         },
         {
@@ -25,7 +25,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5"
                 ],
-                "newest": "666230110"
+                "newest": "666230201"
             }
         },
         {
@@ -36,7 +36,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_escaped"
                 ],
-                "newest": "666230110"
+                "newest": "666230201"
             }
         },
         {
@@ -48,7 +48,7 @@
                 "mirrors": [
                     "https://go.blokada.org/apk5_beta"
                 ],
-                "newest": "666230110"
+                "newest": "666230201"
             }
         },
         {
