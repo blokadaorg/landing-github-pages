@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2023-05-25 09:57:18.759703
+# Generated at 2023-05-29 07:59:39.300859
 # Made by Blokada
 
 databerries.com
@@ -69,7 +69,6 @@ aatkit.com
 vectaury.io
 mobileapptracking.com
 pushwoosh.com
-demdex.net
 exacttarget.
 omniture.com
 commander1.com
@@ -218,7 +217,6 @@ config.uca.cloud.unity3d.com
 config.unityads.unity3d.com
 stats.unity3d.com
 webview.unityads.unity3d.com
-device-api.urbanairship.com
 analytics.mobile.yandex.net
 appmetrica.yandex.com
 banners-slb.mobile.yandex.net
@@ -230,7 +228,6 @@ control.kochava.com
 kvinit-prod.api.kochava.com
 dc.webtrends.com
 mobile-collector.newrelic.com
-newrelic.com
 nr-data.net
 quantcast.com
 quantcast.net
