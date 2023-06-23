@@ -36,6 +36,23 @@ def main(argv):
         "output": "../mirror/v5",
         "packs": [
             {
+                "id": "oisd",
+                "configs": [
+                    {
+                        "name": "basic (wildcards)",
+                        "urls": [
+                            "https://abp.oisd.nl/basic/"
+                        ]
+                    },
+                    {
+                        "name": "extra (wildcards)",
+                        "urls": [
+                            "https://abp.oisd.nl/extra/"
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": "stevenblack",
                 "configs": [
                     {
@@ -185,50 +202,10 @@ def main(argv):
                     }
                 ]
             },
-            {
-                "id": "oisd",
-                "configs": [
-                    {
-                        "name": "light",
-                        "urls": [
-                            "https://dbl.oisd.nl/basic/"
-                        ]
-                    },
-                    {
-                        "name": "basicw",
-                        "urls": [
-                            "https://dblw.oisd.nl/basic/"
-                        ]
-                    },
-                    {
-                        "name": "basica",
-                        "urls": [
-                            "https://abp.oisd.nl/basic/"
-                        ]
-                    },
-                    {
-                        "name": "basic (wildcards)",
-                        "urls": [
-                            "https://abp.oisd.nl/basic/"
-                        ]
-                    },
-                    {
-                        "name": "extra (wildcards)",
-                        "urls": [
-                            "https://abp.oisd.nl/extra/"
-                        ]
-                    }
-                ]
-            },
+            
             {
                 "id": "developerdan",
                 "configs": [
-                    {
-                        "name": "ads",
-                        "urls": [
-                            "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt"
-                        ]
-                    },
                     {
                         "name": "ads and tracking",
                         "urls": [
@@ -245,12 +222,6 @@ def main(argv):
                         "name": "amp",
                         "urls": [
                             "https://www.github.developerdan.com/hosts/lists/amp-hosts-extended.txt"
-                        ]
-                    },
-                    {
-                        "name": "junk",
-                        "urls": [
-                            "https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt"
                         ]
                     },
                     {
@@ -366,36 +337,6 @@ def main(argv):
             {
                 "id": "1hosts",
                 "configs": [
-                    {
-                        "name": "lite",
-                        "urls": [
-                            "https://badmojr.github.io/1Hosts/Lite/hosts.txt"
-                        ]
-                    },
-                    {
-                        "name": "pro",
-                        "urls": [
-                            "https://badmojr.github.io/1Hosts/Pro/hosts.txt"
-                        ]
-                    },
-                    {
-                        "name": "litea",
-                        "urls": [
-                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt"
-                        ]
-                    },
-                    {
-                        "name": "proa",
-                        "urls": [
-                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Pro/adblock.txt"
-                        ]
-                    },
-                    {
-                        "name": "xtraa",
-                        "urls": [
-                            "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/adblock.txt"
-                        ]
-                    },
                     {
                         "name": "lite (wildcards)",
                         "urls": [
