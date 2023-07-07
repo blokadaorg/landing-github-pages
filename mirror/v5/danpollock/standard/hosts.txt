@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 22 May 2023 at 22:53:33 GMT
+# Last updated: Mon, 03 Jul 2023 at 17:46:08 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -115,7 +115,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 4girlsfingerpaint.org
 127.0.0.1 bagslap.com
 127.0.0.1 ballsack.org
-127.0.0.1 bestgore.com
 127.0.0.1 bestgore.fun
 127.0.0.1 bestshockers.com
 127.0.0.1 bluewaffle.biz
@@ -1930,6 +1929,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 coupondio.fr
 127.0.0.1 cplelangues.fr
 127.0.0.1 cra-arc-gc-ca.noads.biz
+127.0.0.1 cra-etransfer.online
 127.0.0.1 crdp-strsbourg.fr
 127.0.0.1 creativlonk.fr
 127.0.0.1 creditmuteuel.fr
@@ -2308,6 +2308,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 laredoutre.fr
 127.0.0.1 lareplubliquedespyrenees.fr
 127.0.0.1 larusse.fr
+127.0.0.1 lasopabowl158.weebly.com
 127.0.0.1 latribuen.fr
 127.0.0.1 latrubune.fr
 127.0.0.1 lavoixedunord.fr
@@ -2794,6 +2795,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 screencast-o-matic.fr
 127.0.0.1 scribbens.fr
 127.0.0.1 scribe.ttwitter.com
+127.0.0.1 scure-royaibamk.com
 127.0.0.1 scwharzkopf.fr
 127.0.0.1 scyxj.comfortykive.xyz
 127.0.0.1 sea.net.edu.cn
@@ -3107,6 +3109,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.comfortykive.xyz
 127.0.0.1 www.compufixshop.com
 127.0.0.1 www.didata.bw
+127.0.0.1 www.e-transfer-cra.com
 127.0.0.1 www.faggotry.com
 127.0.0.1 www.filezilla.fr
 127.0.0.1 www.findalgorithm.com
@@ -3233,6 +3236,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 zenigameblinger.org
 127.0.0.1 zettapetta.com
 127.0.0.1 zip.er.cz
+127.0.0.1 ztriskl.divisionfair.homes
 127.0.0.1 zzhc.vnet.cn
 127.0.0.1 zzkwg.comfortykive.xyz
 #</malware-sites>
@@ -6150,7 +6154,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 aporasal.net
 127.0.0.1 app-measurement.com
 127.0.0.1 app.datafastguru.info
-127.0.0.1 app.getresponse.com
 127.0.0.1 app.monetizze.com.br
 127.0.0.1 app.scanscout.com
 127.0.0.1 app1.letitbefaster.website
@@ -6395,6 +6398,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 blog.br0vvnn.io
 127.0.0.1 blogads.com
 127.0.0.1 blogvertising.pl
+127.0.0.1 bloodsugarberry.com
 127.0.0.1 blu.mobileads.msn.com
 127.0.0.1 blueconic.net
 127.0.0.1 bluediamondoffers.com
@@ -9436,6 +9440,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 tdc.advertorials.dk
 127.0.0.1 te.kontera.com
 127.0.0.1 te1.techgeetam.com
+127.0.0.1 tealium.com
+127.0.0.1 tealiumiq.com
 127.0.0.1 techexpert.site
 127.0.0.1 techms-shop.su
 127.0.0.1 techreview-images.adbureau.net
@@ -9481,6 +9487,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 tidebuy.com
 127.0.0.1 tiltott.net
 127.0.0.1 timetunnel.net
+127.0.0.1 tiqcdn.com
 127.0.0.1 titan-gel-extra.com
 127.0.0.1 titkoshirek.wordpress.com
 127.0.0.1 titokterminal.com
