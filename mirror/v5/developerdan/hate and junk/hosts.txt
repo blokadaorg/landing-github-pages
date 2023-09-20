@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2023-07-07T01:05:26+00:00
-# Count: 2109 domains
+# Released: 2023-09-19T01:05:26+00:00
+# Count: 2123 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -348,6 +348,7 @@
 0.0.0.0 li.100percentfedup.com
 0.0.0.0 rs-stripe.100percentfedup.com
 0.0.0.0 shop.100percentfedup.com
+0.0.0.0 staging.100percentfedup.com
 0.0.0.0 store.100percentfedup.com
 0.0.0.0 uptime.100percentfedup.com
 0.0.0.0 www.100percentfedup.com
@@ -477,8 +478,6 @@
 0.0.0.0 rss.b.infowars.com
 0.0.0.0 beta.infowars.com
 0.0.0.0 bigmedia1.infowars.com
-0.0.0.0 cdn.infowars.com
-0.0.0.0 cdntest.infowars.com
 0.0.0.0 comments.infowars.com
 0.0.0.0 cpdns1.infowars.com
 0.0.0.0 cuda.infowars.com
@@ -488,7 +487,6 @@
 0.0.0.0 www.devtest.infowars.com
 0.0.0.0 email.infowars.com
 0.0.0.0 europe.infowars.com
-0.0.0.0 fauci.infowars.com
 0.0.0.0 helpdesk.infowars.com
 0.0.0.0 hw.infowars.com
 0.0.0.0 hwbigmedia1.infowars.com
@@ -574,6 +572,7 @@
 0.0.0.0 mail.isitwetyet.com
 0.0.0.0 newsletter.isitwetyet.com
 0.0.0.0 shop.isitwetyet.com
+0.0.0.0 shoppers.isitwetyet.com
 0.0.0.0 www.isitwetyet.com
 0.0.0.0 jadeegg.com
 0.0.0.0 partners.jadeegg.com
@@ -611,8 +610,11 @@
 0.0.0.0 shop.lewrockwell.com
 0.0.0.0 www.lewrockwell.com
 0.0.0.0 lindelltv.com
+0.0.0.0 taichitoronto.com.boothlaw.biz.lindelltv.com
 0.0.0.0 dermwipes.com.lindelltv.com
+0.0.0.0 kaliwellnesswv.com.lindelltv.com
 0.0.0.0 texas-domains.com.lindelltv.com
+0.0.0.0 theultimatevaluepak.com.lindelltv.com
 0.0.0.0 bulletin.info.lindelltv.com
 0.0.0.0 net.lindelltv.com
 0.0.0.0 faqaboutgod.net.lindelltv.com
@@ -634,11 +636,13 @@
 0.0.0.0 national-justice.com
 0.0.0.0 www.national-justice.com
 0.0.0.0 naturalnews.com
+0.0.0.0 5gdefensepowder.naturalnews.com
 0.0.0.0 5htppowder.naturalnews.com
 0.0.0.0 affiliates.naturalnews.com
 0.0.0.0 ahiflower.naturalnews.com
 0.0.0.0 ahiflowersoftgel.naturalnews.com
 0.0.0.0 airandwaterfilter.naturalnews.com
+0.0.0.0 almondbutterenergybars.naturalnews.com
 0.0.0.0 almonds.naturalnews.com
 0.0.0.0 aloevera.naturalnews.com
 0.0.0.0 aloeveradigestionsupport.naturalnews.com
@@ -668,6 +672,7 @@
 0.0.0.0 blackfridayevent.naturalnews.com
 0.0.0.0 blogs.naturalnews.com
 0.0.0.0 blueberries.naturalnews.com
+0.0.0.0 blueberrychiajam.naturalnews.com
 0.0.0.0 blueberryovernightoats.naturalnews.com
 0.0.0.0 blueberrypowder.naturalnews.com
 0.0.0.0 bluelightblockingamberglasses.naturalnews.com
@@ -743,6 +748,8 @@
 0.0.0.0 fermentedsuper30.naturalnews.com
 0.0.0.0 fermentedsuperfood.naturalnews.com
 0.0.0.0 fivehtp.naturalnews.com
+0.0.0.0 flaxseedcrackers.naturalnews.com
+0.0.0.0 flourlesschocolatehazelnutstuffedpancakes.naturalnews.com
 0.0.0.0 foodforensics.naturalnews.com
 0.0.0.0 fourthofjulyevent.naturalnews.com
 0.0.0.0 frankincense.naturalnews.com
@@ -766,6 +773,7 @@
 0.0.0.0 healthysweeteners.naturalnews.com
 0.0.0.0 heirloomseedsgarden.naturalnews.com
 0.0.0.0 hempjuvenate.naturalnews.com
+0.0.0.0 hempmilk.naturalnews.com
 0.0.0.0 hempseed.naturalnews.com
 0.0.0.0 herbaltinctures.naturalnews.com
 0.0.0.0 himalayansalt.naturalnews.com
@@ -791,6 +799,7 @@
 0.0.0.0 lemoncake.naturalnews.com
 0.0.0.0 library.naturalnews.com
 0.0.0.0 limitedinventoryflashevent.naturalnews.com
+0.0.0.0 liposomalglutathione.naturalnews.com
 0.0.0.0 liquiddeodorant.naturalnews.com
 0.0.0.0 lucumapowder.naturalnews.com
 0.0.0.0 maca.naturalnews.com
@@ -852,6 +861,7 @@
 0.0.0.0 organicaloeverapowder.naturalnews.com
 0.0.0.0 organicapplepeelpowder.naturalnews.com
 0.0.0.0 organicavocado.naturalnews.com
+0.0.0.0 organicbanana.naturalnews.com
 0.0.0.0 organicbaobabsuperfruitsnacks.naturalnews.com
 0.0.0.0 organicbeepollen.naturalnews.com
 0.0.0.0 organicbeetjuicepowder.naturalnews.com
@@ -900,6 +910,7 @@
 0.0.0.0 organicmctoil.naturalnews.com
 0.0.0.0 organicminibuckets.naturalnews.com
 0.0.0.0 organicmoringapowder.naturalnews.com
+0.0.0.0 organicmushroom.naturalnews.com
 0.0.0.0 organicmushrooms.naturalnews.com
 0.0.0.0 organicnonipowder.naturalnews.com
 0.0.0.0 organicpeaprotein.naturalnews.com
@@ -947,6 +958,7 @@
 0.0.0.0 radio.naturalnews.com
 0.0.0.0 rangerbucket.naturalnews.com
 0.0.0.0 rangerorganicemergencyfood.naturalnews.com
+0.0.0.0 rawcheesecake.naturalnews.com
 0.0.0.0 realvideo.naturalnews.com
 0.0.0.0 research.naturalnews.com
 0.0.0.0 rfidblockingsleeves.naturalnews.com
@@ -960,6 +972,7 @@
 0.0.0.0 share1.naturalnews.com
 0.0.0.0 signup.naturalnews.com
 0.0.0.0 silverbreathspray.naturalnews.com
+0.0.0.0 silverfreshdeodorant.naturalnews.com
 0.0.0.0 silversafe.naturalnews.com
 0.0.0.0 smtplw1.naturalnews.com
 0.0.0.0 smtplw2.naturalnews.com
@@ -971,6 +984,7 @@
 0.0.0.0 storablefoods.naturalnews.com
 0.0.0.0 store.naturalnews.com
 0.0.0.0 store2.naturalnews.com
+0.0.0.0 strawberryandraspberries.naturalnews.com
 0.0.0.0 streaming.naturalnews.com
 0.0.0.0 summerspecials.naturalnews.com
 0.0.0.0 sunstick.naturalnews.com
@@ -985,10 +999,12 @@
 0.0.0.0 toothpaste.naturalnews.com
 0.0.0.0 toothsalt.naturalnews.com
 0.0.0.0 turmeric.naturalnews.com
+0.0.0.0 turmericcoconutgranola.naturalnews.com
 0.0.0.0 turmericextract.naturalnews.com
 0.0.0.0 turmericgoldliquidextract.naturalnews.com
 0.0.0.0 turmericgoldplus.naturalnews.com
 0.0.0.0 turmericgummybears.naturalnews.com
+0.0.0.0 turmericpowder.naturalnews.com
 0.0.0.0 turmericsupercombopack.naturalnews.com
 0.0.0.0 tv.naturalnews.com
 0.0.0.0 valentinesdayevent.naturalnews.com
@@ -1069,6 +1085,8 @@
 0.0.0.0 media.projectcamelotportal.com
 0.0.0.0 media2.projectcamelotportal.com
 0.0.0.0 media3.projectcamelotportal.com
+0.0.0.0 media4.projectcamelotportal.com
+0.0.0.0 media5.projectcamelotportal.com
 0.0.0.0 members.projectcamelotportal.com
 0.0.0.0 new.projectcamelotportal.com
 0.0.0.0 pctv.projectcamelotportal.com
@@ -1285,12 +1303,9 @@
 0.0.0.0 webdisk.nationalpolicy.institute
 0.0.0.0 webmail.nationalpolicy.institute
 0.0.0.0 www.nationalpolicy.institute
-0.0.0.0 qresearch.it
 0.0.0.0 ftp.qresearch.it
 0.0.0.0 mail.qresearch.it
 0.0.0.0 mx.qresearch.it
-0.0.0.0 webmail.qresearch.it
-0.0.0.0 www.qresearch.it
 0.0.0.0 afa.net
 0.0.0.0 activate.afa.net
 0.0.0.0 admin.afa.net
@@ -1310,6 +1325,7 @@
 0.0.0.0 ponyexpress4.afa.net
 0.0.0.0 pray.afa.net
 0.0.0.0 pulseway.afa.net
+0.0.0.0 webhook.raisedonors.afa.net
 0.0.0.0 resources.afa.net
 0.0.0.0 api.resources.afa.net
 0.0.0.0 shareathonwebhook.afa.net
@@ -1356,13 +1372,13 @@
 0.0.0.0 www.forbiddenknowledgetv.net
 0.0.0.0 jamesperloff.net
 0.0.0.0 staging.jamesperloff.net
-0.0.0.0 www.staging.jamesperloff.net
 0.0.0.0 www.jamesperloff.net
 0.0.0.0 kiwifarms.net
 0.0.0.0 element.kiwifarms.net
 0.0.0.0 git.kiwifarms.net
 0.0.0.0 matrix.kiwifarms.net
 0.0.0.0 no-cookie.kiwifarms.net
+0.0.0.0 resetera.kiwifarms.net
 0.0.0.0 riot.kiwifarms.net
 0.0.0.0 www.kiwifarms.net
 0.0.0.0 niggermania.net
@@ -1624,8 +1640,6 @@
 0.0.0.0 ftp.learntherisk.org
 0.0.0.0 www.learntherisk.org
 0.0.0.0 mmcw.org
-0.0.0.0 mail.mmcw.org
-0.0.0.0 mx.mmcw.org
 0.0.0.0 www.mmcw.org
 0.0.0.0 nationalvanguard.org
 0.0.0.0 autoconfig.nationalvanguard.org
