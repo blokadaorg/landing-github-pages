@@ -420,7 +420,7 @@ def main(argv):
                 "id": "mhxion",
                 "configs": [
                     {
-                        "name": "mhxion",
+                        "name": "porn",
                         "urls": [
                             "https://raw.githubusercontent.com/mhxion/pornaway/master/hosts/porn_sites.txt"
                         ],
