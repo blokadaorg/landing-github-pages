@@ -11,7 +11,7 @@
 # Format: Hosts
 # Entries: 103
 # License: MIT, https://github.com/jerryn70/GoodbyeAds/blob/master/LICENSE
-# Updated: Mar 12 12:32:31 GMT+05:30 2023
+# Updated: Sep 30 10:32:31 GMT+05:30 2023
 # Source: https://github.com/jerryn70/GoodbyeAds
 # Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
 # --------------------------------------------
@@ -37,7 +37,7 @@
 0.0.0.0 cdn.samsungcloudsolution.com
 0.0.0.0 config.samsungads.com
 0.0.0.0 connecttv.pelmorex.com
-0.0.0.0 coordinator-Production-28516768.us-east-1.elb.amazonaws.com
+0.0.0.0 coordinator-production-28516768.us-east-1.elb.amazonaws.com
 0.0.0.0 cpu.samsungelectronics.com
 0.0.0.0 d179kwmlpc4o47.cloudfront.net
 0.0.0.0 d1oxlq5h9kq8q5.cloudfront.net

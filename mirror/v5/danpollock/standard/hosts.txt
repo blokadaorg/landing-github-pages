@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Tue, 19 Sep 2023 at 04:25:53 GMT
+# Last updated: Fri, 13 Oct 2023 at 01:48:23 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1601,10 +1601,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 7frenchweb.fr
 127.0.0.1 7zip.fr
 127.0.0.1 8hj500ro4t7.groovepages.com
-127.0.0.1 ASKBOT.com
-127.0.0.1 Arrayshift.com
-127.0.0.1 OSQA.com
-127.0.0.1 Question2Answer.com
 127.0.0.1 a.kaytri.com
 127.0.0.1 a.phormlabs.com
 127.0.0.1 a.webwise.org
@@ -1695,6 +1691,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 aresweb.fr
 127.0.0.1 argenta.fr
 127.0.0.1 armsart.com
+127.0.0.1 arrayshift.com
 127.0.0.1 arteradio.fr
 127.0.0.1 artissanat.fr
 127.0.0.1 asemblee-nationale.fr
@@ -1703,6 +1700,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 asianread.com
 127.0.0.1 ask-coder.com
 127.0.0.1 ask.webatall.com
+127.0.0.1 askbot.com
 127.0.0.1 askto.net
 127.0.0.1 askubal.fr
 127.0.0.1 assistcom.fr
@@ -1971,6 +1969,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 decompiler.fr
 127.0.0.1 dejoyaux.fr
 127.0.0.1 delamaisn.fr
+127.0.0.1 delivery-change-reschedule6128.com
 127.0.0.1 deloitteca.com
 127.0.0.1 delphix.fr
 127.0.0.1 deltarviews.bond
@@ -2593,6 +2592,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 neko-scan.fr
 127.0.0.1 neon-genesis-evangelion-online.fr
 127.0.0.1 neowordprss.fr
+127.0.0.1 netflix-updateinfo.com
 127.0.0.1 netflix.apple-green.net
 127.0.0.1 new-vid-zone-1.blogspot.com.au
 127.0.0.1 newouest.fr
@@ -2648,6 +2648,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 orowy.comfortykive.xyz
 127.0.0.1 ortange.fr
 127.0.0.1 osonscomprendre.fr
+127.0.0.1 osqa.com
 127.0.0.1 osqa.net
 127.0.0.1 ostalgie.fr
 127.0.0.1 otsserver.com
@@ -2725,6 +2726,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 postbox.mos.ru
 127.0.0.1 postcanada.ship-express.info
 127.0.0.1 postcanada.ship-priority.info
+127.0.0.1 postecan-canpost.confrm942.link
 127.0.0.1 postecan-canpost.updt491.link
 127.0.0.1 postis.fr
 127.0.0.1 powertrfic.fr
@@ -2761,6 +2763,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 qevia.doubleclick.bond
 127.0.0.1 qfsya.comfortykive.xyz
 127.0.0.1 quaidesbulles.fr
+127.0.0.1 question2answer.com
 127.0.0.1 quickchess.fr
 127.0.0.1 quicksaledeal.su
 127.0.0.1 quirinale.fr
@@ -3032,6 +3035,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 utauniv-lyon2.fr
 127.0.0.1 utenti.lycos.it
 127.0.0.1 utrace.fr
+127.0.0.1 van-city-sign-on.com
 127.0.0.1 vcarrefour.fr
 127.0.0.1 venturead.com
 127.0.0.1 verify.rambler-profile.site
@@ -3073,6 +3077,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 waldenfarms.com
 127.0.0.1 wanadzoo.fr
 127.0.0.1 wanatoo.fr
+127.0.0.1 watch-netfiix.com
 127.0.0.1 watchpro.fr
 127.0.0.1 waterstudio.fr
 127.0.0.1 waudeesestew.com
@@ -3246,6 +3251,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.willysy.com
 127.0.0.1 www.winlottofrequently.com
 127.0.0.1 www.youfiletor.com
+127.0.0.1 www1-van-city-signon.com
 127.0.0.1 wyoutube.fr
 127.0.0.1 xcdkb.comfortykive.xyz
 127.0.0.1 xen-media.com
@@ -7996,6 +8002,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 m.openv.tv
 127.0.0.1 m.pl.pornzone.tv
 127.0.0.1 m.quantcount.com
+127.0.0.1 m.servedby-buysellads.com
 127.0.0.1 m.tidebuy.com
 127.0.0.1 m.tribalfusion.com
 127.0.0.1 m1.nsimg.net
@@ -8188,6 +8195,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mokavilag.com
 127.0.0.1 monarchy.nl
 127.0.0.1 monetate.net
+127.0.0.1 monetizepros.com
 127.0.0.1 moneybot.net
 127.0.0.1 moneyraid.com
 127.0.0.1 monkposseacre.casa
@@ -9129,6 +9137,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 serve.mediayan.com
 127.0.0.1 serve.popads.net
 127.0.0.1 serve.prestigecasino.com
+127.0.0.1 servedby-buysellads.com
 127.0.0.1 servedby.adcombination.com
 127.0.0.1 servedby.flashtalking.com
 127.0.0.1 servedbyadbutler.com
@@ -10369,6 +10378,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.mjonkers.nl
 127.0.0.1 www.mlntracker.com
 127.0.0.1 www.mochibot.com
+127.0.0.1 www.monetizemore.com
 127.0.0.1 www.morefreecamsecrets.com
 127.0.0.1 www.morevisits.info
 127.0.0.1 www.mpression.net
@@ -10495,6 +10505,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.searchingzone.com
 127.0.0.1 www.searchwe.com
 127.0.0.1 www.securerunner.com
+127.0.0.1 www.servedby-buysellads.com
 127.0.0.1 www.servitemequipos.cl
 127.0.0.1 www.seward.net
 127.0.0.1 www.sexadvertentiesite.nl

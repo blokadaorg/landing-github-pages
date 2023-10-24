@@ -1,6 +1,6 @@
 # Title: Lightswitch05's facebook-extended.txt
-# Released: 2023-09-12T01:05:24+00:00
-# Count: 29766 domains
+# Released: 2023-10-22T01:05:24+00:00
+# Count: 29746 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/facebook-extended.txt
@@ -142,7 +142,6 @@
 0.0.0.0 scontent-lax3-1.cdninstagram.com
 0.0.0.0 scontent-lax3-2.cdninstagram.com
 0.0.0.0 scontent-lcy1-1.cdninstagram.com
-0.0.0.0 scontent-lcy1-2.cdninstagram.com
 0.0.0.0 scontent-lga.cdninstagram.com
 0.0.0.0 scontent-lga3-1.cdninstagram.com
 0.0.0.0 scontent-lga3-2.cdninstagram.com
@@ -192,7 +191,6 @@
 0.0.0.0 scontent-sof1-2.cdninstagram.com
 0.0.0.0 scontent-ssn1-1.cdninstagram.com
 0.0.0.0 scontent-syd2-1.cdninstagram.com
-0.0.0.0 scontent-tir2-1.cdninstagram.com
 0.0.0.0 scontent-tpe.cdninstagram.com
 0.0.0.0 scontent-tpe1-1.cdninstagram.com
 0.0.0.0 scontent-vie.cdninstagram.com
@@ -242,7 +240,6 @@
 0.0.0.0 video-lax3-1.cdninstagram.com
 0.0.0.0 video-lax3-2.cdninstagram.com
 0.0.0.0 video-lcy1-1.cdninstagram.com
-0.0.0.0 video-lcy1-2.cdninstagram.com
 0.0.0.0 video-lga3-1.cdninstagram.com
 0.0.0.0 video-lga3-2.cdninstagram.com
 0.0.0.0 video-lhr8-1.cdninstagram.com
@@ -1759,7 +1756,6 @@
 0.0.0.0 edge-star-mini-shv-01-sjc3.facebook.com
 0.0.0.0 edge-star-mini-shv-01-sof1.facebook.com
 0.0.0.0 edge-star-mini-shv-01-ssn1.facebook.com
-0.0.0.0 edge-star-mini-shv-01-tir2.facebook.com
 0.0.0.0 edge-star-mini-shv-01-yyz1.facebook.com
 0.0.0.0 edge-star-mini-shv-02-atl3.facebook.com
 0.0.0.0 edge-star-mini-shv-02-bom1.facebook.com
@@ -1802,7 +1798,6 @@
 0.0.0.0 edge-star-shv-01-mxp1.facebook.com
 0.0.0.0 edge-star-shv-01-prg1.facebook.com
 0.0.0.0 edge-star-shv-01-syd2.facebook.com
-0.0.0.0 edge-star-shv-01-tir2.facebook.com
 0.0.0.0 edge-star-shv-01-waw1.facebook.com
 0.0.0.0 edge-star-shv-01-xsp1.facebook.com
 0.0.0.0 edge-star-shv-02-bom1.facebook.com
@@ -22740,7 +22735,6 @@
 0.0.0.0 ephemeral-media.giphy.com
 0.0.0.0 ephmedia.giphy.com
 0.0.0.0 events.giphy.com
-0.0.0.0 fbm-bot.giphy.com
 0.0.0.0 fbm-bot-qa.giphy.com
 0.0.0.0 framebyframe.giphy.com
 0.0.0.0 giphy-analytics.giphy.com
@@ -23477,6 +23471,7 @@
 0.0.0.0 gateway.quest.meta.com
 0.0.0.0 gateway.spark.meta.com
 0.0.0.0 store.meta.com
+0.0.0.0 support.meta.com
 0.0.0.0 gateway.work.meta.com
 0.0.0.0 www.meta.com
 0.0.0.0 oculus.com
@@ -24606,9 +24601,6 @@
 0.0.0.0 scontent.fblr13-1.fna.fbcdn.net
 0.0.0.0 instagram.fblr14-1.fna.fbcdn.net
 0.0.0.0 instagram.fblr18-1.fna.fbcdn.net
-0.0.0.0 external.fblr2-1.fna.fbcdn.net
-0.0.0.0 instagram.fblr2-1.fna.fbcdn.net
-0.0.0.0 scontent.fblr2-1.fna.fbcdn.net
 0.0.0.0 scontent.fblr20-2.fna.fbcdn.net
 0.0.0.0 external.fblr22-1.fna.fbcdn.net
 0.0.0.0 video.fblr3-2.fna.fbcdn.net
@@ -25798,7 +25790,6 @@
 0.0.0.0 instagram.fkix1-1.fna.fbcdn.net
 0.0.0.0 instagram.fkix1-2.fna.fbcdn.net
 0.0.0.0 instagram.fkix2-1.fna.fbcdn.net
-0.0.0.0 scontent.fkix2-1.fna.fbcdn.net
 0.0.0.0 external.fkix2-2.fna.fbcdn.net
 0.0.0.0 instagram.fkix2-2.fna.fbcdn.net
 0.0.0.0 scontent.fkix2-2.fna.fbcdn.net
@@ -25974,7 +25965,6 @@
 0.0.0.0 instagram.flnz1-1.fna.fbcdn.net
 0.0.0.0 instagram.flos1-1.fna.fbcdn.net
 0.0.0.0 scontent.flos1-1.fna.fbcdn.net
-0.0.0.0 external.flos10-2.fna.fbcdn.net
 0.0.0.0 scontent.flos2-2.fna.fbcdn.net
 0.0.0.0 instagram.flos3-1.fna.fbcdn.net
 0.0.0.0 scontent.flos3-1.fna.fbcdn.net
@@ -26346,9 +26336,7 @@
 0.0.0.0 external.fosl3-2.fna.fbcdn.net
 0.0.0.0 scontent.fosl3-2.fna.fbcdn.net
 0.0.0.0 external.fosl4-1.fna.fbcdn.net
-0.0.0.0 instagram.fosl4-1.fna.fbcdn.net
 0.0.0.0 scontent.fosl4-1.fna.fbcdn.net
-0.0.0.0 instagram.fosl4-2.fna.fbcdn.net
 0.0.0.0 instagram.fosm10-1.fna.fbcdn.net
 0.0.0.0 scontent.fosu1-1.fna.fbcdn.net
 0.0.0.0 instagram.fotp1-1.fna.fbcdn.net
@@ -27181,7 +27169,6 @@
 0.0.0.0 video.fwaw8-1.fna.fbcdn.net
 0.0.0.0 z-p3-scontent.fwaw8-1.fna.fbcdn.net
 0.0.0.0 scontent.fwbw1-1.fna.fbcdn.net
-0.0.0.0 external.fwlg1-2.fna.fbcdn.net
 0.0.0.0 instagram.fwlg2-1.fna.fbcdn.net
 0.0.0.0 scontent.fwlg2-1.fna.fbcdn.net
 0.0.0.0 external.fwlg3-1.fna.fbcdn.net
@@ -27518,7 +27505,6 @@
 0.0.0.0 whatsapp-cdn-shv-01-pmo1.fbcdn.net
 0.0.0.0 whatsapp-cdn-shv-01-scl2.fbcdn.net
 0.0.0.0 whatsapp-cdn-shv-01-sea1.fbcdn.net
-0.0.0.0 whatsapp-cdn-shv-01-tir2.fbcdn.net
 0.0.0.0 whatsapp-cdn-shv-01-vie1.fbcdn.net
 0.0.0.0 whatsapp-cdn-shv-01-waw1.fbcdn.net
 0.0.0.0 whatsapp-cdn-shv-01-xsp1.fbcdn.net
@@ -27591,7 +27577,6 @@
 0.0.0.0 external-lax3-1.xx.fbcdn.net
 0.0.0.0 external-lax3-2.xx.fbcdn.net
 0.0.0.0 external-lcy1-1.xx.fbcdn.net
-0.0.0.0 external-lcy1-2.xx.fbcdn.net
 0.0.0.0 external-lga3-1.xx.fbcdn.net
 0.0.0.0 external-lga3-2.xx.fbcdn.net
 0.0.0.0 external-lhr.xx.fbcdn.net
@@ -27745,7 +27730,6 @@
 0.0.0.0 scontent-lax3-1.xx.fbcdn.net
 0.0.0.0 scontent-lax3-2.xx.fbcdn.net
 0.0.0.0 scontent-lcy1-1.xx.fbcdn.net
-0.0.0.0 scontent-lcy1-2.xx.fbcdn.net
 0.0.0.0 scontent-lga.xx.fbcdn.net
 0.0.0.0 scontent-lga3-1.xx.fbcdn.net
 0.0.0.0 scontent-lga3-2.xx.fbcdn.net
@@ -27796,7 +27780,6 @@
 0.0.0.0 scontent-sof1-2.xx.fbcdn.net
 0.0.0.0 scontent-ssn1-1.xx.fbcdn.net
 0.0.0.0 scontent-syd2-1.xx.fbcdn.net
-0.0.0.0 scontent-tir2-1.xx.fbcdn.net
 0.0.0.0 scontent-tpe.xx.fbcdn.net
 0.0.0.0 scontent-tpe1-1.xx.fbcdn.net
 0.0.0.0 scontent-vie.xx.fbcdn.net
@@ -28003,7 +27986,6 @@
 0.0.0.0 video-sof1-1.xx.fbcdn.net
 0.0.0.0 video-sof1-2.xx.fbcdn.net
 0.0.0.0 video-syd2-1.xx.fbcdn.net
-0.0.0.0 video-tir2-1.xx.fbcdn.net
 0.0.0.0 video-tpe1-1.xx.fbcdn.net
 0.0.0.0 video-vie1-1.xx.fbcdn.net
 0.0.0.0 video-waw1-1.xx.fbcdn.net
@@ -29126,7 +29108,6 @@
 0.0.0.0 media-lax3-1.cdn.whatsapp.net
 0.0.0.0 media-lax3-2.cdn.whatsapp.net
 0.0.0.0 media-lcy1-1.cdn.whatsapp.net
-0.0.0.0 media-lcy1-2.cdn.whatsapp.net
 0.0.0.0 media-lga3-1.cdn.whatsapp.net
 0.0.0.0 media-lga3-2.cdn.whatsapp.net
 0.0.0.0 media-lhr8-1.cdn.whatsapp.net
@@ -29168,7 +29149,6 @@
 0.0.0.0 media-sof1-2.cdn.whatsapp.net
 0.0.0.0 media-ssn1-1.cdn.whatsapp.net
 0.0.0.0 media-syd2-1.cdn.whatsapp.net
-0.0.0.0 media-tir2-1.cdn.whatsapp.net
 0.0.0.0 media-tpe1-1.cdn.whatsapp.net
 0.0.0.0 media-vie1-1.cdn.whatsapp.net
 0.0.0.0 media-waw1-1.cdn.whatsapp.net

@@ -9,9 +9,9 @@
 # Title: GoodbyeAds-Xiaomi-AdBlock
 # Description: Blocks Xiaomi Ads,Trackers.
 # Format: Hosts
-# Entries: 279
+# Entries: 278
 # License: MIT, https://github.com/jerryn70/GoodbyeAds/blob/master/LICENSE
-# Updated: Mar 12 12:32:31 GMT+05:30 2023
+# Updated: Sep 30 10:32:31 GMT+05:30 2023
 # Source: https://github.com/jerryn70/GoodbyeAds
 # Developer & Maintainer: Jerry [jerryn70] XDA Senior Member
 # --------------------------------------------
@@ -182,7 +182,6 @@
 0.0.0.0 mini.cpc.sogou.com
 0.0.0.0 mis.g.mi.com
 0.0.0.0 mis.migc.xiaomi.com
-0.0.0.0 mis.migc.xiaomi.comfile.m
 0.0.0.0 mishop.cdn.pandora.xiaomi.com
 0.0.0.0 mishop.pandora.xiaomi.com
 0.0.0.0 mitunes.game.xiaomi.com
