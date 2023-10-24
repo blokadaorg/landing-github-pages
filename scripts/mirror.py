@@ -39,12 +39,16 @@ def main(argv):
                 "id": "oisd",
                 "configs": [
                     {
-                        "name": "basic (wildcards)",
-                        "urls": ["https://abp.oisd.nl/basic/"],
+                        "name": "basic (small)",
+                        "urls": ["https://small.oisd.nl/"],
                     },
                     {
-                        "name": "extra (wildcards)",
-                        "urls": ["https://abp.oisd.nl/extra/"],
+                        "name": "extra (big)",
+                        "urls": ["https://big.oisd.nl/"],
+                    },
+                    {
+                        "name": "nsfw",
+                        "urls": ["https://nsfw.oisd.nl/"],
                     },
                 ],
             },
