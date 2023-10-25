@@ -39,11 +39,11 @@ def main(argv):
                 "id": "oisd",
                 "configs": [
                     {
-                        "name": "basic (small)",
+                        "name": "small",
                         "urls": ["https://small.oisd.nl/"],
                     },
                     {
-                        "name": "extra (big)",
+                        "name": "big",
                         "urls": ["https://big.oisd.nl/"],
                     },
                     {
