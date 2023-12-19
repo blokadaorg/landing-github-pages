@@ -1,6 +1,6 @@
 # Title: Lightswitch05's hate-and-junk-extended.txt
-# Released: 2023-10-23T01:05:27+00:00
-# Count: 2235 domains
+# Released: 2023-11-16T01:05:27+00:00
+# Count: 2232 domains
 # Homepage: https://www.github.developerdan.com/hosts/
 # Issues: https://github.com/lightswitch05/hosts/issues
 # Source: https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
@@ -468,7 +468,6 @@
 0.0.0.0 affiliates.infowars.com
 0.0.0.0 api.infowars.com
 0.0.0.0 api-assets.infowars.com
-0.0.0.0 war.app.infowars.com
 0.0.0.0 app-api.infowars.com
 0.0.0.0 app-api-staging.infowars.com
 0.0.0.0 archives.infowars.com
@@ -525,7 +524,6 @@
 0.0.0.0 sl.infowars.com
 0.0.0.0 staging.infowars.com
 0.0.0.0 cs-web.staging.infowars.com
-0.0.0.0 staging-2.infowars.com
 0.0.0.0 staging-vod-api.infowars.com
 0.0.0.0 static.infowars.com
 0.0.0.0 stcf.infowars.com
@@ -590,7 +588,6 @@
 0.0.0.0 cpcalendars.knowingthetruth.com
 0.0.0.0 cpcontacts.knowingthetruth.com
 0.0.0.0 mail.knowingthetruth.com
-0.0.0.0 staging.knowingthetruth.com
 0.0.0.0 webdisk.knowingthetruth.com
 0.0.0.0 webmail.knowingthetruth.com
 0.0.0.0 www.knowingthetruth.com
@@ -615,6 +612,7 @@
 0.0.0.0 texas-domains.com.lindelltv.com
 0.0.0.0 theultimatevaluepak.com.lindelltv.com
 0.0.0.0 uniquewishes.com.lindelltv.com
+0.0.0.0 zerosugarcandybars.com.lindelltv.com
 0.0.0.0 bulletin.info.lindelltv.com
 0.0.0.0 net.lindelltv.com
 0.0.0.0 faqaboutgod.net.lindelltv.com
@@ -638,6 +636,7 @@
 0.0.0.0 naturalnews.com
 0.0.0.0 5gdefensepowder.naturalnews.com
 0.0.0.0 5htppowder.naturalnews.com
+0.0.0.0 advertisingkit.naturalnews.com
 0.0.0.0 affiliates.naturalnews.com
 0.0.0.0 ahiflower.naturalnews.com
 0.0.0.0 ahiflowersoftgel.naturalnews.com
@@ -783,6 +782,7 @@
 0.0.0.0 himalayansalt.naturalnews.com
 0.0.0.0 holidaysale.naturalnews.com
 0.0.0.0 holidaysale2017.naturalnews.com
+0.0.0.0 honeyroastedcashews.naturalnews.com
 0.0.0.0 huromslowjuicers.naturalnews.com
 0.0.0.0 hydrogeninfusionwater.naturalnews.com
 0.0.0.0 immunityessentialoil.naturalnews.com
@@ -1026,6 +1026,7 @@
 0.0.0.0 vipregistration.naturalnews.com
 0.0.0.0 vitaminc.naturalnews.com
 0.0.0.0 vitamincandd.naturalnews.com
+0.0.0.0 vitamincbufferedpowder.naturalnews.com
 0.0.0.0 vitamind.naturalnews.com
 0.0.0.0 vitamind3.naturalnews.com
 0.0.0.0 vitamind3drinkmix.naturalnews.com
@@ -1207,6 +1208,10 @@
 0.0.0.0 www.thefreedomarticles.com
 0.0.0.0 theqanons.com
 0.0.0.0 www.theqanons.com
+0.0.0.0 thinkqanon.com
+0.0.0.0 forum.thinkqanon.com
+0.0.0.0 mail.thinkqanon.com
+0.0.0.0 www.thinkqanon.com
 0.0.0.0 toqonline.com
 0.0.0.0 members.toqonline.com
 0.0.0.0 www.toqonline.com
@@ -1264,9 +1269,6 @@
 0.0.0.0 www.virus-hoax.com
 0.0.0.0 wattsupwiththat.com
 0.0.0.0 www.wattsupwiththat.com
-0.0.0.0 americanmove.webs.com
-0.0.0.0 dfwdude.webs.com
-0.0.0.0 www.dfwdude.webs.com
 0.0.0.0 minoritysarebad.weebly.com
 0.0.0.0 theqanonhub.weebly.com
 0.0.0.0 www.theqanonhub.weebly.com
@@ -1386,12 +1388,7 @@
 0.0.0.0 staging.jamesperloff.net
 0.0.0.0 www.jamesperloff.net
 0.0.0.0 kiwifarms.net
-0.0.0.0 element.kiwifarms.net
-0.0.0.0 git.kiwifarms.net
-0.0.0.0 matrix.kiwifarms.net
 0.0.0.0 no-cookie.kiwifarms.net
-0.0.0.0 resetera.kiwifarms.net
-0.0.0.0 riot.kiwifarms.net
 0.0.0.0 www.kiwifarms.net
 0.0.0.0 niggermania.net
 0.0.0.0 www.niggermania.net

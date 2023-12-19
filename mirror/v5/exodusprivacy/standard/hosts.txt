@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2023-10-25 09:43:29.593168
+# Generated at 2023-12-19 15:55:20.419744
 # Made by Blokada
 
 databerries.com
@@ -76,6 +76,7 @@ tagcommander.com
 firebase.com
 eulerian.com
 adjust.com
+go.link
 chartboost.com
 backelite.com
 areametrics.com
@@ -217,6 +218,7 @@ config.uca.cloud.unity3d.com
 config.unityads.unity3d.com
 stats.unity3d.com
 webview.unityads.unity3d.com
+device-api.asnapieu.com
 analytics.mobile.yandex.net
 appmetrica.yandex.com
 banners-slb.mobile.yandex.net
@@ -317,6 +319,7 @@ ssl.vungle.com
 v.vungle.com
 criteo.com
 a.tiles.mapbox.com
+optimizelyapis.com
 taboola.com
 wzrkt.com
 tracker-api.my.com
@@ -341,6 +344,8 @@ hyprmx.com
 bugly.qq.com
 duapps.com
 content.swrve.com
+eum-appdynamics.com
+appdynamics.com
 c2i.startappnetwork.com
 c2s.startappnetwork.com
 click.startappservice.com
@@ -396,6 +401,7 @@ sdk.adbuddiz.com
 adsafeprotected.com
 iasds01.com
 integralads.com
+data.altbeacon.org
 ads.mobclix.com
 axonix.com
 data.mobclix.com
@@ -427,6 +433,7 @@ chartbeat.net
 apiv2.moengage.com
 ads.adadapted.com
 admixer.co.kr
+admixer.net
 cdn-api.admost.com
 go.admost.com
 med-api.admost.com
@@ -451,11 +458,20 @@ zapr.in
 dmtry.com
 doubleclick.com
 mng-ads.com
+mobileads.google.com
+googlesyndication.com
+googleads.g.doubleclick.net
+adservice.google..*
+adservice.g.cn
 deliver.oztam.com.au
 abtasty.com
 acrcloud.com
 hb-minify-juc1ugur1qwqqqo4.stackpathdns.com
 actv8technologies.com
+hicloud.com
+dbankcloud.ru
+dbankcloud.cn
+dbankcloud.com
 apidm.airpush.com
 apistaging.airpush.com
 apportal.airpush.com
@@ -516,3 +532,9 @@ mktossl.com
 mktorest.com
 synerise.com
 tusdk.com
+backtrace.io
+cdn1.gigya.com
+cdn2.gigya.com
+cdn3.gigya.com
+cdns.us1.gigya.com
+david.gigya-cs.com

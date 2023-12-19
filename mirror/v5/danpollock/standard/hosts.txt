@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 13 Oct 2023 at 01:48:23 GMT
+# Last updated: Thu, 14 Dec 2023 at 03:33:13 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1143,6 +1143,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 stats.adultswim.com
 127.0.0.1 stats.airfarewatchdog.com
 127.0.0.1 stats.allliquid.com
+127.0.0.1 stats.arrowos.net
 127.0.0.1 stats.askmen.com
 127.0.0.1 stats.bbc.co.uk
 127.0.0.1 stats.becu.org
@@ -1171,6 +1172,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 stats.iwebtrack.com
 127.0.0.1 stats.jippii.com
 127.0.0.1 stats.ladotstats.nl
+127.0.0.1 stats.ozguryazilim.com.tr
 127.0.0.1 stats.paycounter.com
 127.0.0.1 stats.popscreen.com
 127.0.0.1 stats.resellerratings.com
@@ -1181,6 +1183,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 stats.townnews.com
 127.0.0.1 stats.ultimate-webservices.com
 127.0.0.1 stats.unionleader.com
+127.0.0.1 stats.unipi.it
 127.0.0.1 stats.vodpod.com
 127.0.0.1 stats.wordpress.com
 127.0.0.1 stats.wp.com
@@ -1444,6 +1447,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 whentheyopened.com
 127.0.0.1 wt.bankmillennium.pl
 127.0.0.1 wtnj.worldnow.com
+127.0.0.1 www-stats.unipi.it
 127.0.0.1 www.0stats.com
 127.0.0.1 www.123count.com
 127.0.0.1 www.123counter.superstats.com
@@ -1622,6 +1626,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 aca-languedoc.fr
 127.0.0.1 account-review.com
 127.0.0.1 accounts.secure-ua.website
+127.0.0.1 accounts.ukr.net.ssl2.in
 127.0.0.1 acessoires-electromenager.fr
 127.0.0.1 acglgoa.com
 127.0.0.1 acmen.fr
@@ -1729,6 +1734,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 avsvmcloud.com
 127.0.0.1 avtec.fr
 127.0.0.1 azureus.es
+127.0.0.1 b.doloaqywbvq.ru
 127.0.0.1 b.webwise.org
 127.0.0.1 babouche-maroc.fr
 127.0.0.1 bac-reunion.fr
@@ -1844,6 +1850,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 canadapost-delivery-reshedule.com
 127.0.0.1 canadapost-paymentservice.com
 127.0.0.1 capitalregionusa.fr
+127.0.0.1 capostdelivery.com
 127.0.0.1 carac-terres.fr
 127.0.0.1 carrfefour.fr
 127.0.0.1 cartoonnetworkarabic.fr
@@ -1924,6 +1931,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 compe-nickel.fr
 127.0.0.1 compufixshop.com
 127.0.0.1 comsss-56.com
+127.0.0.1 con-trnroayl.online
 127.0.0.1 conduit.com
 127.0.0.1 confg.fr
 127.0.0.1 conseil-coaching-jardinage.fr
@@ -1992,17 +2000,20 @@ ff02::3		ip6-allhosts
 127.0.0.1 disneyholidays.fr
 127.0.0.1 dns2.net1.it
 127.0.0.1 dnythgt.com
+127.0.0.1 docs.ukr.net.ssl2.in
 127.0.0.1 dogry.fr
 127.0.0.1 dogtrace.fr
 127.0.0.1 domaine-voyance.fr
 127.0.0.1 donforama.fr
 127.0.0.1 dontacos.fr
 127.0.0.1 doors.co.kr
+127.0.0.1 dpflyingoncs.top
 127.0.0.1 dsbzk.comfortykive.xyz
 127.0.0.1 dtcc.fr
 127.0.0.1 dveug.comfortykive.xyz
 127.0.0.1 e-kern.fr
 127.0.0.1 e-lords.fr
+127.0.0.1 e-trn-incm.com
 127.0.0.1 east.05tz2e9.com
 127.0.0.1 easyflier.fr
 127.0.0.1 easytic.fr
@@ -2011,6 +2022,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ecirque.fr
 127.0.0.1 eckosport.fr
 127.0.0.1 edecideur.fr
+127.0.0.1 edisk.ukr.net.ssl2.in
 127.0.0.1 edmo.fr
 127.0.0.1 education-securiter-routiere.fr
 127.0.0.1 eeude.comfortykive.xyz
@@ -2069,6 +2081,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 fanniemae.fr
 127.0.0.1 fasola.fr
 127.0.0.1 fclb.fr
+127.0.0.1 fedex-rescheduel-date.com
 127.0.0.1 fedgroceryrebate.com
 127.0.0.1 feedbackexplorer.com
 127.0.0.1 fengyixin.com
@@ -2076,6 +2089,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ffesm.fr
 127.0.0.1 fichier-pdfr.fr
 127.0.0.1 figato.fr
+127.0.0.1 files.ukr.net.ssl2.in
 127.0.0.1 filezilla.fr
 127.0.0.1 filosvybfimpsv.ru.gg
 127.0.0.1 filter.mediacpc.com
@@ -2705,6 +2719,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 plagtracker.fr
 127.0.0.1 plains.fr
 127.0.0.1 planetside2.fr
+127.0.0.1 planrecanpost1.info
 127.0.0.1 plasticker.fr
 127.0.0.1 platinmods.fr
 127.0.0.1 playbaspresse.fr
@@ -2721,6 +2736,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 poolin.fr
 127.0.0.1 poonstwifterspick.work
 127.0.0.1 portdusoleil.fr
+127.0.0.1 posicionamientonatural.es
 127.0.0.1 post-canada-delivery2023.com
 127.0.0.1 post.mil-gov.space
 127.0.0.1 postbox.mos.ru
@@ -2744,6 +2760,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 probikesshop.fr
 127.0.0.1 proclickpacket.com
 127.0.0.1 profilenetflix.com
+127.0.0.1 profilenotice.info
 127.0.0.1 profit-btc.org
 127.0.0.1 proflashdata.com			# Facebook trojan
 127.0.0.1 proidees.fr
@@ -2786,6 +2803,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 renov-landes.fr
 127.0.0.1 rentacars.fr
 127.0.0.1 rentamotorcycle.fr
+127.0.0.1 resetcibc-logincibc.com
 127.0.0.1 reskins.fr
 127.0.0.1 resulabi.fr
 127.0.0.1 resultatspmu.fr
@@ -3008,6 +3026,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ubuntu-fr.fr
 127.0.0.1 udgth.comfortykive.xyz
 127.0.0.1 ufpcdn.com
+127.0.0.1 umgpjdlllhl.ru
 127.0.0.1 un-ruly.fr
 127.0.0.1 unetbootin.net
 127.0.0.1 unetbootin.org
@@ -3223,6 +3242,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.shinilchurch.net	# domain was hacked and had a trojan installed
 127.0.0.1 www.simplyhelper.com
 127.0.0.1 www.sinera.org
+127.0.0.1 www.ssl2.in
 127.0.0.1 www.stellarium.fr
 127.0.0.1 www.stopphoulplay.com
 127.0.0.1 www.tanger.com.br
@@ -4696,6 +4716,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ac.rnm.ca
 127.0.0.1 ac.tynt.com
 127.0.0.1 academy-internet.net
+127.0.0.1 acceptable.a-ads.com
 127.0.0.1 acces.streaming-direct.co
 127.0.0.1 accessfreevpn.com
 127.0.0.1 accountprotection.xyz
@@ -6633,6 +6654,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ccpmo.com
 127.0.0.1 cctv.adsunion.com
 127.0.0.1 cdbs.com.tr
+127.0.0.1 cdddfia.hornylocals24.com
 127.0.0.1 cdn.8digits.com
 127.0.0.1 cdn.acloudvideos.com
 127.0.0.1 cdn.ad.citynews.it
@@ -6837,6 +6859,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 computertechanalysis.com
 127.0.0.1 conexionesymanguerashidrocalidas.com.mx
 127.0.0.1 config.getmyip.com
+127.0.0.1 config.seedtag.com
 127.0.0.1 config.sensic.net
 127.0.0.1 config.unityads.unity3d.com
 127.0.0.1 connect.247media.ads.link4ads.com
@@ -7269,6 +7292,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 fr.a2dfp.net
 127.0.0.1 fr.adserver.yahoo.com
 127.0.0.1 fr.classic.clickintext.net
+127.0.0.1 fra1-ib.adnxs-simple.com
 127.0.0.1 fra1-ib.adnxs.com
 127.0.0.1 franko.info
 127.0.0.1 free.thesocialsexnetwork.com
@@ -8163,6 +8187,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 microsoft-home-en.com
 127.0.0.1 microsoft-online-en-us.com
 127.0.0.1 microsoft-ware.com
+127.0.0.1 microwinds.de
 127.0.0.1 mightymagoo.com
 127.0.0.1 milyondolar.com
 127.0.0.1 minden-egyben.com
@@ -8460,6 +8485,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 openx.adfactor.nl
 127.0.0.1 openxxx.viragemedia.com
 127.0.0.1 oplaca-sie.pl
+127.0.0.1 opr.adx.opera.com
 127.0.0.1 opsonew3org.sg
 127.0.0.1 optimaconsulting.com.au
 127.0.0.1 optimize.indieclick.com
@@ -9029,6 +9055,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 s.oroll.com
 127.0.0.1 s.ppjol.net
 127.0.0.1 s.rev2pub.com
+127.0.0.1 s.seedtag.com
 127.0.0.1 s.skimresources.com
 127.0.0.1 s.spolecznosci.net
 127.0.0.1 s.spoutable.com
@@ -9110,6 +9137,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 secure.netscope.marktest.pt
 127.0.0.1 secure.webconnect.net
 127.0.0.1 securecloud-smart.com
+127.0.0.1 secureir.ebaystatic.com
 127.0.0.1 securerr.com
 127.0.0.1 securerunner.com
 127.0.0.1 security60-e.com
@@ -9455,10 +9483,12 @@ ff02::3		ip6-allhosts
 127.0.0.1 szupertanacsok.blog.hu
 127.0.0.1 t-ads.adap.tv
 127.0.0.1 t-o-kitano.com
+127.0.0.1 t-odx.op-mobile.opera.com
 127.0.0.1 t.atpanel.com
 127.0.0.1 t.dynad.net
 127.0.0.1 t.frtyg.com
 127.0.0.1 t.mdn2015x3.com
+127.0.0.1 t.seedtag.com
 127.0.0.1 t.silvinst.com
 127.0.0.1 t1.adserver.com
 127.0.0.1 t2.junbi-tracker.com
@@ -10189,6 +10219,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.eastwood35.idps.co.uk
 127.0.0.1 www.easy2date.net
 127.0.0.1 www.easyadservice.com
+127.0.0.1 www.ebayadservices.com
 127.0.0.1 www.ebayadvertising.com
 127.0.0.1 www.ebaybanner.com
 127.0.0.1 www.edv-waldherr.at
