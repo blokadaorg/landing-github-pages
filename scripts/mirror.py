@@ -433,6 +433,7 @@ def main(argv):
             },
             {
                 "id": "ndnspiracy",
+                "addwildcard": True,
                 "configs": [
                     {
                         "name": "dht bootstrap nodes",
@@ -498,6 +499,7 @@ def main(argv):
             },
             {
                 "id": "ndnsapps",
+                "addwildcard": True,
                 "configs": [
                     {
                         "name": "9gag",
@@ -800,6 +802,7 @@ def main(argv):
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
+            file_path = os.path.join(directory, "hosts.txt")
             try:
                 print(f"  Downloading: {url}")
 
@@ -812,11 +815,18 @@ def main(argv):
                         )
                     ]
                     urllib.request.install_opener(opener)
-                    urllib.request.urlretrieve(
-                        url, os.path.join(directory, "hosts.txt")
-                    )
+                    urllib.request.urlretrieve(url, file_path)
                 else:
-                    copyfile(url, os.path.join(directory, "hosts.txt"))
+                    copyfile(url, file_path)
+
+                # Check if 'addwildcard' is set in config and then prefix lines
+                if pack.get("addwildcard"):
+                    print(f"  Adding wildcards: {file_path}")
+                    with open(file_path, "r") as file:
+                        lines = file.readlines()
+                    with open(file_path, "w") as file:
+                        for line in lines:
+                            file.write(f"*.{line}")
 
                 count += 1
             except Exception as e:
