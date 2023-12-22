@@ -1,2 +1,2 @@
-signal.org
-textsecure-service.whispersystems.org
+*.signal.org
+*.textsecure-service.whispersystems.org

@@ -1,7 +1,7 @@
-ads-twitter.com
-t.co
-twimg.com
-twitter.com
-twttr.com
-twtrdns.net
-x.com
+*.ads-twitter.com
+*.t.co
+*.twimg.com
+*.twitter.com
+*.twttr.com
+*.twtrdns.net
+*.x.com

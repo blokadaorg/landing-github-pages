@@ -1,7 +1,7 @@
 # ddgtrackerradar standard
 # This host file is based on DuckDuckGo Tracker Radar.
 # More info at https://go.blokada.org/ddgtrackerradar
-# Generated at 2023-12-19 15:55:19.251682
+# Generated at 2023-12-22 09:27:05.346559
 # Made by Blokada
 
 0.cdn.autotraderspecialty.com
@@ -25,7 +25,6 @@
 064e32da.with.contentpass.net
 06b1193c.with.contentpass.net
 06d3b600.flyingcdn.com
-06f9095e3c8c.42c8209d.us-east-1.token.awswaf.com
 07d57c935d.edd1f5ee3c.com
 0970d8.a.searchspring.io
 09e195d8-4399-4851-9a2a-40baef21d2c7.rlets.com
@@ -234,7 +233,6 @@
 1896994.s5.udesk.cn
 1899b87e-5376-49cc-be8d-6505fec8eddc.rlets.com
 19-18.b.cdn13.com
-190c7e9b3144.733a2ffd.us-east-1.token.awswaf.com
 1954291293.cdn39.com
 199001.tctm.co
 19c70191-f172-42dc-bfe2-27c8d00517f0.rlets.com
@@ -244,7 +242,6 @@
 1c18135b.with.contentpass.net
 1c2d1f36-d37e-4c2c-85f1-4f8ed4959f58.rlets.com
 1eff62fc-2d77-41c7-9bde-bb407df8d9b2.rlets.com
-1f03bf5c529a.01e0ee30.us-east-1.token.awswaf.com
 1f529cd4-5f49-4266-a564-329d907a9e1a.rlets.com
 1hwjvf93zd-dsn.algolia.net
 1lzy9y.a.searchspring.io
@@ -275,7 +272,6 @@
 2268e617160d4162936b29ffd919ecd5.svc.dynamics.com
 22828331-bc7d-463c-aac6-a61ccdb5b07a.rlets.com
 22a0917a-a908-4e40-95d2-f5f8e9e7400c.rlets.com
-22af5ed32a4a.6959a200.ca-central-1.token.awswaf.com
 234627.tctm.co
 2348.thomasbarlowpro.com
 23andme.ada.support
@@ -303,7 +299,6 @@
 26l39z.a.searchspring.io
 276ad8a0-f193-4a2f-9ab4-c052291b345c.rlets.com
 277416443259.gigya-api.com
-27828fc62a50.9021bf3a.us-east-1.token.awswaf.com
 280825451955148.webpush.freshchat.com
 280bb695-99eb-4c89-b548-3925acb0af6b.rlets.com
 289-ztf-624.mktoweb.com
@@ -379,7 +374,6 @@
 3ba1f5b2.rocketcdn.me
 3bn-us.attn.tv
 3ca095f2-6512-47cc-bbc2-bff9a03f434f.rlets.com
-3d1df7d87d1c.bb81f591.us-east-1.token.awswaf.com
 3da72eaa-b0a2-489b-a950-1e171a4f77e3.rlets.com
 3e7bc79e.with.contentpass.net
 3e9a3b8e-684a-4270-b925-c75c2357fe8a.rlets.com
@@ -408,8 +402,6 @@
 416923.tctm.xyz
 418234.tctm.xyz
 419546017731654.eu.webpush.freshchat.com
-420556d6c999.466da07a.us-east-1.token.awswaf.com
-420556d6c999.f4b33da0.us-east-2.token.awswaf.com
 421012651215839.webpush.freshchat.com
 424171.tctm.xyz
 428534054462502.eu.webpush.freshchat.com
@@ -432,11 +424,8 @@
 461868f50f.nxcli.io
 463621.fs1.hubspotusercontent-na1.net
 466185841803.gigya-api.com
-4664900665475072-content.customer.pendo.io
-4664900665475072-data.customer.pendo.io
 467018677154127.webpush.freshchat.com
 470387.fs1.hubspotusercontent-na1.net
-4715035121942528-content.customer.pendo.io
 474382070262157.webpush.freshchat.com
 47brand.attn.tv
 47c92e88c0dc4a3fba99d1a1682895d4.pages.ubembed.com
@@ -454,11 +443,9 @@
 4af5009a-d3a0-44ac-a783-13a82cd25c8e.rlets.com
 4b1727ac-0470-449a-9828-09e6f7c4c3ac.rlets.com
 4be20d6d-0831-41f7-afef-c5f172d5f60a.rlets.com
-4c596c9ec80a.466da07a.us-east-1.token.awswaf.com
 4dec20fd-6355-4cd1-bb24-c5c39446e286.rlets.com
 4e034e9b.with.contentpass.net
 4e6f94f0-c23e-4752-a599-adf4d69df3be.rlets.com
-4e7d2b3cdfc7.2ee60f4c.us-east-2.token.awswaf.com
 4f193623-65cb-5068-aa48-c4ff04142174.prd.edge-inf.net
 4f8cca28-86d7-43d5-964c-42f792f94091.rlets.com
 4p6maa4.impervadns.net
@@ -492,11 +479,9 @@
 555870480453633.webpush.freshchat.com
 562-ct.c3tag.com
 5664e574-6655-47b1-9901-f0505d8e6f8a.rlets.com
-5716810793353216-data.customer.pendo.io
 57178341.sites.visualplatform.net
 573224696123752.webpush.freshchat.com
 577979425371121.webpush.freshchat.com
-583ec472ee7d.2cc890c4.us-east-2.token.awswaf.com
 588347354111550.webpush.freshchat.com
 5898ebe5-51de-4b36-8ee7-292d3ef802dc.rlets.com
 59440518721551.webpush.freshchat.com
@@ -617,7 +602,6 @@
 756fba3f-512c-46a8-b72b-4c09555b6299.rlets.com
 759736734723.gigya-api.com
 76195b2a-d2bc-4ea5-8e8d-8c574475047e.rlets.com
-764e5bfea5c9.3efe4d6b.us-east-2.token.awswaf.com
 765885de-7354-47c5-ad6f-3a392f1b0796.rlets.com
 765c5fce-7b56-45ec-86c1-a1ebeea9af04.rlets.com
 76e29321-dc32-42ab-8192-7800a01f15dd.rlets.com
@@ -837,7 +821,6 @@ a6.mylivechat.com
 a6f75fe7-e7b7-4554-a9e9-e8c174deaf1b.rlets.com
 a75fa5d9-00e9-4d87-a8ad-1776f4cf10aa.rlets.com
 a7s2.iop.dev
-a81eb85f6c63.4471219e.us-east-2.token.awswaf.com
 a8q7x3e3.rocketcdn.me
 aa.agkn.com
 aa.pornvideotop.com
@@ -862,7 +845,6 @@ aax.amazon-adsystem.com
 ab2.accruesavings.com
 ab51cbe6-941d-4df6-8562-6e855d72398d.rlets.com
 ab59b707-5888-4db1-9e60-56f8e5177813.rlets.com
-ab5ddfb19446.87d96309.us-east-2.token.awswaf.com
 abachat.launtel.net.au
 abbott.nanorep.co
 abcwarehouse.resultspage.com
@@ -1122,7 +1104,6 @@ advertising-cdn.dpgmedia.cloud
 advertising.forumexcellence.com
 advertising.jpmediallc.com
 advocare.attn.tv
-adx.4strokemedia.com
 adx.adform.net
 adx2.adform.net
 ae.attn.tv
@@ -1548,7 +1529,6 @@ app.openli.com
 app.optimalworkshop.com
 app.outsmart.digital
 app.package.ai
-app.pendo.io
 app.phoenixsite.nl
 app.posthog.com
 app.powerbi.com
@@ -2149,7 +2129,6 @@ at-w-comservtv-relay.iocnt.net
 at-w-comtt-relay.iocnt.net
 at.butlerssplashpage.com
 at.iocnt.net
-at1.listrakbi.com
 at252211p.searchunify.com
 atag.adgile.media
 atb.im-apps.net
@@ -2551,7 +2530,6 @@ biztimes.advertserve.com
 bizwest.advertserve.com
 bk.r-ad.ne.jp
 bkqus.customers.edgetag.io
-bl.listrakbi.com
 bl091912p.searchunify.com
 blackstone.api.kustomerapp.com
 blama.xxjave.xyz
@@ -2793,7 +2771,6 @@ c.fareportal.com
 c.finative.cloud
 c.flx1.com
 c.go-fet.ch
-c.ir0.webengage.com
 c.la1-c1-iad.salesforceliveagent.com
 c.la1-c1-syd.salesforceliveagent.com
 c.la1-c2-ia5.salesforceliveagent.com
@@ -2819,7 +2796,6 @@ c.revmizer.com
 c.riskified.com
 c.sa-tech.de
 c.searchhub.io
-c.seznam.cz
 c.shld.net.cdn.cloudflare.net
 c.sitetran.com
 c.slickstream.com
@@ -2830,7 +2806,6 @@ c.tadst.com
 c.tile.openstreetmap.fr
 c.time1.me
 c.travel-assets.com
-c.webengage.com
 c.webtrends-optimize.com
 c.woopic.com
 c0.avaamo.com
@@ -2843,8 +2818,6 @@ c04f.app.slickstream.com
 c05f.app.slickstream.com
 c06f.app.slickstream.com
 c08f.app.slickstream.com
-c09bc9c04079.85f87d4a.us-east-2.token.awswaf.com
-c09bc9c04079.fd7131b7.eu-north-1.token.awswaf.com
 c1-ofp.static.pub
 c1.adform.net
 c1.adis.ws
@@ -2875,7 +2848,6 @@ c58ssel.impervadns.net
 c5982b46.rocketcdn.me
 c5ab8b64.flyingcdn.com
 c5c2d332.with.contentpass.net
-c60708c831e2.b32e02cd.us-east-2.token.awswaf.com
 c7.dycdn.net
 c749610c9b.mjedge.net
 c74b770de1.mjedge.net
@@ -2894,7 +2866,6 @@ c7746b33d2.mjedge.net
 c7e50df0-76ba-40ff-879d-52ff8d32b44f.rlets.com
 c8.cduniverse.ws
 c9.cduniverse.ws
-c930fec9af08.d0a40594.us-east-1.token.awswaf.com
 c9b34aeaf1844e3ba4a4281022dff253.apm.us-east-1.aws.cloud.es.io
 c9dcfebe-5874-4f6f-96d6-67443bbecb9c.rlets.com
 ca.api.iheart.com
@@ -3017,7 +2988,6 @@ catbirdnyc.api.kustomerapp.com
 catholicanswers-us.attn.tv
 catholiccompany-us.attn.tv
 catholicvote.mktoweb.com
-cb147b0e3d6c.791988fc.us-east-2.token.awswaf.com
 cbf62818-65ae-4955-adc2-81ac9f263c3b.widget.cluster.groovehq.com
 cbiz.widget.insent.ai
 cbo-relay.iocnt.net
@@ -4037,7 +4007,6 @@ d1.awsstatic.com
 d14d2899.with.contentpass.net
 d24.user.com
 d371ad5ce0c9424abe91e993dbb6426d.events.ubembed.com
-d38318ed6b37.50cf26e3.us-east-1.token.awswaf.com
 d39-a.sdn.cz
 d4168a1d-dd9d-4bcb-9275-6685429ce544.rlets.com
 d42926ec-45dd-4466-80e6-9c07e1da1c91.rlets.com
@@ -4111,7 +4080,6 @@ data.chinatravel.com.edgekey.net
 data.coremetrics.com
 data.dianomi.com
 data.eetech.com
-data.eu.pendo.io
 data.flip.to
 data.globalhighlights.com
 data.indianexpress.com.edgekey.net
@@ -4123,7 +4091,6 @@ data.mopoga.com.sds.rncdn7.com
 data.my.permaleads.ch
 data.newsroom.co
 data.nudgify.com
-data.pendo.io
 data.photorank.me
 data.processwebsitedata.com
 data.rb24.com
@@ -4513,7 +4480,6 @@ e4wdua46h3o.exactdn.com
 e5msc6b5yce0.exactdn.com
 e5s8762easd.exactdn.com
 e652ec96.with.contentpass.net
-e6a982ef1287.45a67dea.us-east-1.token.awswaf.com
 e6e33858-d4bb-44ec-8029-a9dd7b061c7a.rlets.com
 e6k8j7j9.rocketcdn.me
 e71e257a-88a1-4ec7-b0e7-62a3f3ff474a.rlets.com
@@ -4622,8 +4588,6 @@ eea6tq8epsz.exactdn.com
 eeuroparts.ladesk.com
 eex-gateway.fr011.ttecfed.com
 ef261f9f.with.contentpass.net
-ef29add6956f.65ee4812.us-east-1.token.awswaf.com
-ef29add6956f.69a6d982.us-east-2.token.awswaf.com
 ef5c42f0-8220-43d8-9e0c-12a8b2b5bf91.rlets.com
 efahrer-relay.iocnt.net
 efarma.app.baqend.com
@@ -5001,7 +4965,6 @@ f1-oc.readspeaker.com
 f1389e686b.6542309b8a.com
 f180cb99-4392-4e9a-ab52-4f440022854c.rlets.com
 f250794f-b7c6-42c6-9041-b15a91a143e1.rlets.com
-f26495e0b95f.3421646e.us-east-1.token.awswaf.com
 f2921dd8-f474-4401-ad74-dc4be9cbc40d.rlets.com
 f4.bcbits.com
 f456d9d5-830c-43e9-8674-951b01c479da.rlets.com
@@ -5012,7 +4975,6 @@ f63d1488-a757-494d-b2a6-a1a2ac1f078d.rlets.com
 f6a922fc-43b9-4ce2-8de2-cf271ea88487.rlets.com
 f6d117f3-4454-45a6-89d0-7eadfec05e00.rlets.com
 f6p2k4m9.rocketcdn.me
-f73549d7936a.a481e94e.us-east-2.token.awswaf.com
 f8286a85-aa11-4825-9d0b-7707beecb206.rlets.com
 f93350d2-5b7c-45ed-a187-9af3797fc4d5.rlets.com
 f9b219c5-0a1b-46a2-9ef7-ebd14fe57bd9-webclient.conversed.biz
@@ -5093,7 +5055,6 @@ feature.veltra.com
 fecdn.user1st.info
 federatedmodules.icfcdn.com
 fedex.digital.nuance.com
-feed.4strokemedia.com
 feed.avplayer.com
 feed.mikle.com
 feed.solads.media
@@ -5225,7 +5186,6 @@ flppfftm.filerobot.com
 fls-na.amazon-adsystem.com
 fltimes.friends2follow.com
 flugrevu-relay.iocnt.net
-fluid.4strokemedia.com
 flux.broadstreet.ai
 flyeia.mpeasylink.com
 flyhoneycoyorl.dataplane.rudderstack.com
@@ -6180,7 +6140,6 @@ hovercart.quivers.com
 howdenscom.mpeasylink.com
 hp.taboola.com
 hqp7ph.a.searchspring.io
-hr9rvd0en0la8b5gtnmht7jihcb2ql12-data.customer.pendo.io
 hsh.maatoo.io
 hsn-us.attn.tv
 hsn.extole.io
@@ -6745,7 +6704,6 @@ k.zucks.net
 k3vzn.flx10.com
 k4z5v7a7.rocketcdn.me
 k5q5c8s7.rocketcdn.me
-k71undo1gelc9i46l5dn7upetghh24m9-data.customer.pendo.io
 k7g2e5d2.rocketcdn.me
 k886tw.a.searchspring.io
 kachelma-relay.iocnt.net
@@ -7185,7 +7143,6 @@ lpb-prod-remoteauth-euw-asr.service.signalr.net
 lpcdn-a.lpsnmedia.net
 lpcdn-gcp.lpsnmedia.net
 lpcdn.asynchronousmessaging.dashboard.co.uk
-lpcdn.chat.online.citi.com
 lpcdn2.lpsnmedia.net
 lpp2mmgfa6dnkgmin.ay.delivery
 lr-online.weekli.de
@@ -7317,6 +7274,7 @@ marketing.creditkey.com
 marketing.foxnews.com.edgekey.net
 marketingagencyb.oxy.host
 marketinglb.justatic.com
+marketingportal.citibank.com
 marketplace.finditchesapeake.com
 marketplaceathensmessenger.wehaa.net
 marketplacehjnews.wehaa.net
@@ -8020,6 +7978,7 @@ next-static.peddle.com
 next.cdn.pxr.nl
 next.imgoingcalendar.com
 nextjs.onthesnow.com
+nexus.ensighten.com
 nexus.toyota.com
 nfcu-widget.interface.ai
 nfhs-network.extole.io
@@ -8269,7 +8228,6 @@ onelist-ht.project1content.com
 onelogin.wpcdn.pl
 onemg.gumlet.io
 oneplus.attn.tv
-onescript-recscont.listrakbi.com
 onet.hit.gemius.pl
 onetrust.mktoweb.com
 onetrust.techservices.illinois.edu
@@ -8392,6 +8350,7 @@ p1.music.126.net.163jiasu.com
 p1.parsely.com
 p1.plibcdn.com
 p1.zemanta.com
+p11.techlab-cdn.com
 p16-capcut-va.ibyteimg.com
 p16-picowebsiteimg-va.ibyteimg.com
 p17000.cedexis-test.com
@@ -8949,7 +8908,6 @@ product-downloads.freshclick.co.uk
 product-images-cdn.liketoknow.it
 product-initjs.prod.rfksrv.com
 product.instiengage.com
-product.listrakbi.com
 product.prod.pizzahutaustralia.com.au
 productcatalog.channeladvisor.com
 productimages.mybobs.com.edgekey.net
@@ -9267,7 +9225,6 @@ recs-1a.particularaudience.com
 recs-na.hawksearch.com
 recs-us-e1a.particularaudience.com
 recs.hawksearch.com
-recs.listrakbi.com
 recs.occa.us-phoenix-1.ocs.oraclecloud.com
 recs.richrelevance.com
 recs.s5o.ru
@@ -9587,7 +9544,6 @@ rules.atgsvcs.com
 rules.ee.channels.ocs.oraclecloud.com
 rules.quantcount.com
 rum-http-intake.logs.datadoghq.com
-rum-ingest.us1.signalfx.com
 rum-observability.nissanpace.com
 rum.browser-intake-datadoghq.com
 rum.browser-intake-datadoghq.eu
@@ -9726,7 +9682,6 @@ s1.eestatic.com
 s1.ekogate.club
 s1.escortrankings.uk
 s1.journity.com
-s1.listrakbi.com
 s1.movavi.com
 s1.mylivechat.com
 s1.nordcdn.com
@@ -9889,7 +9844,6 @@ sc.pch.com.edgekey.net
 sc.tigra.dev
 sc.todaytix.com
 sc.tynt.com
-sca1.listrakbi.com
 scdn.italki.com.cdn.cloudflare.net
 scdn.line-apps.com
 scene7.toyota.eu
@@ -9930,6 +9884,7 @@ script.dotmetrics.net
 script.dotmetrics.rocks
 script.hotjar.com
 script.infinity-tracking.com
+script.ioam.de
 script.metricode.com
 script.mixi.net
 script.nettix.fi
@@ -10034,7 +9989,6 @@ seal.alphassl.com
 seal.buysafe.com
 seal.digicert.com
 seal.entrust.net
-seal.globalsign.com
 seal.trustguard.com
 search-a.omegacommerce.com
 search-api.fie.future.net.uk
@@ -10627,7 +10581,6 @@ srv.clickfuse.com
 srv.imonomy.com
 srv.motu-teamblue.services
 srv.tonemedia.com
-srv.tunefindforfans.com
 srv1.aaacompany.net
 srvr.dmvs-apac.com
 ss-aka-ori.coral.co.uk.cdn.cloudflare.net
@@ -10657,7 +10610,6 @@ ssl.quiksilver.com.edgekey.net
 ssl.sitew.org
 ssl.socdm.com
 ssl.tzoo-img.com
-ssl.widgets.webengage.com
 ssl.www8.hp.com.edgekey.net
 ssltieba.jomodns.com
 sslwidget.criteo.com
@@ -10769,7 +10721,6 @@ static-dc.autodesk.net
 static-dm.ubisoft.com-v1.edgekey.net
 static-eu-cdn.eporner.com
 static-eu.cargurus.com
-static-eu.cleverpush.com
 static-file.meross.com.w.cdngslb.com
 static-files.motogp.pulselive.com
 static-forms.klaviyo.com
@@ -10873,7 +10824,6 @@ static.chemistwarehouse.com.au
 static.chrono24.com
 static.cifras.com.br
 static.cimcontent.net.edgekey.net
-static.cleverpush.com
 static.clickskeks.at
 static.clicktripz.com
 static.client.measmerize.com
@@ -11445,9 +11395,7 @@ super73.attn.tv
 support.content.office.net.edgekey.net
 support.goto.com
 support.suspension.parts
-survey.survicate.com
 surveycompass-tools.consumerism.pressganey.com
-surveys-static.survicate.com
 surveys.okendo.io
 suspensionconnection.attn.tv
 sussan.resultspage.com
@@ -11678,6 +11626,7 @@ tag.wknd.ai
 tag.yieldoptimizer.com
 tagan.adlightning.com
 tagdelivery.mayoclinic.org.pc-mc.greylabeldelivery.com
+tagger.opecloud.com
 tags-cdn.clarivoy.com
 tags-cdn.deployads.com
 tags-eu.tiqcdn.com
@@ -11964,7 +11913,6 @@ tlginwmzfq.relay.squeezely.tech
 tlx.3lift.com
 tm-eu.beiersdorf.com
 tm.hdmtools.com
-tm.jsuol.com.br
 tm.r-ad.ne.jp
 tm.smedia.ca
 tm1.suitemovies.com
@@ -13041,7 +12989,6 @@ widgets.getsitecontrol.com
 widgets.goaffpro.app
 widgets.guidestar.org
 widgets.icanbuy.com
-widgets.in.webengage.com
 widgets.jobbio.com
 widgets.jobshq.com
 widgets.joinclyde.com
@@ -13189,8 +13136,6 @@ ws.vggcdn.net
 ws.walmeric.com
 ws.zoominfo.com
 wsan2.usaa.com.edgekey.net
-wsdk-files.in.webengage.com
-wsdk-files.webengage.com
 wsdkapi.netmera.com
 wserver.vidazoo.com
 wss2.cex.au.webuy.io.cdn.cloudflare.net
