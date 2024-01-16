@@ -14,6 +14,18 @@ Copyright © 2021 Blocka AB. All rights reserved.
 
 """
 Downloads blocklists used by Blokada to make a mirror.
+
+Packs are configured with a simple structure:
+- id: id of the pack, important for the clients
+- configs: list of configurations (lists for this pack)
+- addwildcards (optional): if true, will prefix all lines for all
+  lists of this pack with a wildcard
+
+Each configuration has:
+- name: name of the list, important for the clients
+- urls: list of urls to download the list from (first successful)
+- merge: a filename to merge with the downloaded list (optional)
+
 """
 
 import sys
@@ -557,6 +569,7 @@ def main(argv):
                     },
                     {
                         "name": "facebook",
+                        "merge": "./merge-facebook",
                         "urls": [
                             "https://raw.githubusercontent.com/nextdns/services/main/services/facebook"
                         ],
@@ -818,6 +831,16 @@ def main(argv):
                     urllib.request.urlretrieve(url, file_path)
                 else:
                     copyfile(url, file_path)
+
+                # Merge additional hosts when specified
+                merge = cfg.get("merge")
+                if merge:
+                    print(f"  Merging custom hosts: {merge}")
+                    with open (os.path.join(base_path, merge), "r") as file:
+                        lines = file.readlines()
+                    with open(file_path, "a") as file:
+                        for line in lines:
+                            file.write(line)
 
                 # Check if 'addwildcard' is set in config and then prefix lines
                 if pack.get("addwildcard"):
