@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 21 Dec 2023 at 18:56:48 GMT
+# Last updated: Wed, 10 Jan 2024 at 00:03:11 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1653,6 +1653,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ajouny.com
 127.0.0.1 aktiv-mit-ms.fr
 127.0.0.1 ale-gratka.pl
+127.0.0.1 alert1dhlshipment.info
 127.0.0.1 alexyu.fr
 127.0.0.1 aliecpress.fr
 127.0.0.1 aliexress.fr
@@ -1850,6 +1851,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 campus-forprof.fr
 127.0.0.1 canadapost-delivery-reshedule.com
 127.0.0.1 canadapost-paymentservice.com
+127.0.0.1 canadapost-postescanada.uwpackege.top
 127.0.0.1 capitalregionusa.fr
 127.0.0.1 capostdelivery.com
 127.0.0.1 carac-terres.fr
@@ -1887,6 +1889,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 chrliehebdo.fr
 127.0.0.1 chu-bordeau.fr
 127.0.0.1 chu-morlaix.fr
+127.0.0.1 cibconline-login.com
 127.0.0.1 cic-epargnrsalariale.fr
 127.0.0.1 cicontents.biz
 127.0.0.1 cifw.fr
@@ -2053,6 +2056,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 espaceagazines.fr
 127.0.0.1 espub.fr
 127.0.0.1 et-1nt3rc.com
+127.0.0.1 etdeposit-interac.com
 127.0.0.1 etribunaldunet.fr
 127.0.0.1 euriosport.fr
 127.0.0.1 europr1.fr
@@ -2083,6 +2087,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 fasola.fr
 127.0.0.1 fclb.fr
 127.0.0.1 fedex-rescheduel-date.com
+127.0.0.1 fedex-rescheduel-delivery-date.com
 127.0.0.1 fedgroceryrebate.com
 127.0.0.1 feedbackexplorer.com
 127.0.0.1 fengyixin.com
@@ -2264,6 +2269,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 installmac.com
 127.0.0.1 instantstreetview.fr
 127.0.0.1 interac-etransfer.net
+127.0.0.1 interac1-ssl2.info
 127.0.0.1 interacpayment-cra.com
 127.0.0.1 interhomes.fr
 127.0.0.1 interimairesssante.fr
@@ -2652,6 +2658,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 openinternetexchange.com
 127.0.0.1 openinternetexchange.net
 127.0.0.1 openoverflow.com
+127.0.0.1 optionmodifycanitem.info
 127.0.0.1 orange.npix.net
 127.0.0.1 orangemali.fr
 127.0.0.1 orangf.fr
@@ -2860,6 +2867,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 secret.xn--oogle-wmc.com
 127.0.0.1 secretosdelagua.fr
 127.0.0.1 secure-accept-e-transfer-interac.info
+127.0.0.1 secure-fidosolutions.com
 127.0.0.1 securielite.com
 127.0.0.1 securityscan.us
 127.0.0.1 seebox.fr
