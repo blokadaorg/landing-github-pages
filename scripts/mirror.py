@@ -774,6 +774,17 @@ def main(argv):
                     },
                 ],
             },
+            {
+                "id": "safesearch",
+                "configs": [
+                    {
+                        "name": "nosafesearch",
+                        "urls": [
+                            "https://raw.githubusercontent.com/nextdns/no-safesearch/main/domains"
+                        ],
+                    },
+                ],
+            },
         ],
     }
 
