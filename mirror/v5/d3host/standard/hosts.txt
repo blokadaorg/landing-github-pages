@@ -7,8 +7,8 @@
 
 # This list cover all the tests on https://d3ward.github.io/toolz/adblock
 # Type : Stable
-# Entries : 137
-# Updated On: 12/3/2023
+# Entries : 131
+# Updated On: 23/5/2024
 # Created by: d3ward
 
 #============ Ads =============
@@ -18,7 +18,6 @@
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 advice-ads.s3.amazonaws.com
-0.0.0.0 advertising-api-eu.amazon.com
 
 # --- Google Ads
 0.0.0.0 pagead2.googlesyndication.com
@@ -48,7 +47,6 @@
 #========= Analytics ==========
 
 # --- Google Analytics
-0.0.0.0 app-measurement.com
 0.0.0.0 analytics.google.com
 0.0.0.0 click.googleanalytics.com
 0.0.0.0 google-analytics.com
@@ -65,6 +63,9 @@
 
 # --- MouseFlow
 0.0.0.0 mouseflow.com
+0.0.0.0 cdn.mouseflow.com
+0.0.0.0 o2.mouseflow.com
+0.0.0.0 gtm.mouseflow.com
 0.0.0.0 api.mouseflow.com
 0.0.0.0 tools.mouseflow.com
 0.0.0.0 cdn-test.mouseflow.com
@@ -120,7 +121,6 @@
 0.0.0.0 log.pinterest.com
 0.0.0.0 analytics.pinterest.com
 0.0.0.0 trk.pinterest.com
-0.0.0.0 widgets.pinterest.com
 
 # --- Reddit
 0.0.0.0 events.reddit.com
@@ -147,7 +147,6 @@
 0.0.0.0 geo.yahoo.com
 0.0.0.0 udc.yahoo.com
 0.0.0.0 udcm.yahoo.com
-0.0.0.0 advertising.yahoo.com
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 partnerads.ysm.yahoo.com
 0.0.0.0 log.fc.yahoo.com
@@ -159,7 +158,6 @@
 0.0.0.0 appmetrica.yandex.ru
 0.0.0.0 adfstat.yandex.ru
 0.0.0.0 metrika.yandex.ru
-0.0.0.0 advertising.yandex.ru
 0.0.0.0 offerwall.yandex.net
 0.0.0.0 adfox.yandex.ru
 
@@ -185,7 +183,6 @@
 0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
 0.0.0.0 sdkconfig.ad.intl.xiaomi.com
-0.0.0.0 globalapi.ad.xiaomi.com
 0.0.0.0 tracking.rus.miui.com
 
 # --- Oppo
@@ -214,11 +211,8 @@
 0.0.0.0 analytics-api.samsunghealthcn.com
 
 # --- Apple
-0.0.0.0 advertising.apple.com
-0.0.0.0 tr.iadsdk.apple.com
 0.0.0.0 iadsdk.apple.com
 0.0.0.0 metrics.icloud.com
-0.0.0.0 metrics.apple.com
 0.0.0.0 metrics.mzstatic.com
 0.0.0.0 api-adservices.apple.com
 0.0.0.0 books-analytics-events.apple.com

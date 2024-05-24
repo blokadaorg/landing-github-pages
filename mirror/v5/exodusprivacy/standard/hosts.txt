@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2024-01-17 10:33:05.440093
+# Generated at 2024-05-24 21:34:19.272691
 # Made by Blokada
 
 databerries.com
@@ -265,6 +265,7 @@ cdn1.gigya.com
 cdn2.gigya.com
 cdn3.gigya.com
 cdns.us1.gigya.com
+david.gigya-cs.com
 4seeresults.com
 analytics.foresee.com
 foresee.com
