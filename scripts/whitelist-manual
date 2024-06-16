@@ -11,6 +11,7 @@ ahcdn.com
 ak.privatelink.msidentity.com
 api.na-backend.odysee.com
 api.prod.bunnings.com.au
+app.launchdarkly.com
 apps.mypurecloud.de
 asset.saturn.de.cdn.cloudflare.net
 assets-bwbx-io.shared.bloomberga.com
@@ -69,6 +70,7 @@ cms-images.mmst.eu
 cname.vercel-dns.com
 community.akamai.steamstatic.com
 community.cloudflare.steamstatic.com
+connect.ubisoft.com
 content.invisioncic.com
 cpwebassets.codepen.io
 cs196.wac.edgecastcdn.net
@@ -97,12 +99,14 @@ dl.web.de.edgekey.net
 download.amd.com
 drfone.wondershare.com
 drtst.com
+ds.ov12882.ikea.com.edgekey.net
 e-cdn-files.dzcdn.net
 e5hougg55fx.exactdn.com
 edge.gycpi.b.yahoodns.net
 ei.phncdn.com.sds.rncdn7.com
 emp.bbci.co.uk.edgekey.net
 esx.bigo.sg
+exporte.wdr.de.v1.edgekey.net
 external-preview.redd.it
 facebook.com
 fdn.gsmarena.com.cdn.cloudflare.net
@@ -112,6 +116,7 @@ fonts.bunny.net
 fs.npstatic.com
 fs1.extraimage.org
 gateway.kleinanzeigen.de
+geo-gcp.cdn.springernature.io
 ghs.googlehosted.com
 github.githubassets.com
 global-uploads.webflow.com
@@ -163,6 +168,7 @@ login.mso.msidentity.com
 m.files.bbci.co.uk.edgekey.net
 manifest.prod.boltdns.net
 media-video.chip.de.edgekey.net
+media.blubrry.com
 media.cdn.sapphiretech.com.cn
 media.discordapp.net
 media.forgecdn.net
@@ -173,6 +179,7 @@ menu-static.gog-statics.com
 miro.medium.com
 mosaic01.ztat.net
 mosaic02.ztat.net
+nasa-smd.go-vip.net
 nav.files.bbci.co.uk.edgekey.net
 neveragain.allstatics.com
 newassets.hcaptcha.com
@@ -259,6 +266,7 @@ static.npstatic.com
 static.parastorage.com
 static.playstation.com.edgekey.net
 static.politico.com.cdn.cloudflare.net
+static.sandisk.com
 static.sketchfab.com
 static.stands4.com
 static.tacdn.com
@@ -275,6 +283,7 @@ staticfiles.at.edgekey.net
 storage.buzzsprout.com
 storage.ko-fi.com
 store-site-backend-static-ipv4.ak.epicgames.com.edgekey.net
+store-static-modular.gog-statics.com
 store.akamai.steamstatic.com
 store.cloudflare.steamstatic.com
 store.evehome.com.hosting.netsuite.com
