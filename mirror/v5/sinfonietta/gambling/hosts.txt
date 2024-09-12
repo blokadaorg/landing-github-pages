@@ -1,9 +1,3 @@
-
-# <http://www.top100bookmakers.com/completelist.php>
-# <https://raw.githubusercontent.com/lassekongo83/Frellwits-filter-lists/master/anti-casino-and-betting-hosts-file.txt>
-# <https://www.reddit.com/r/GlobalOffensiveGamble/comments/3d5fmr/list_of_csgo_gambling_websites/>
-# Title: Gambling hosts
-# Updated March 12, 2023
 0.0.0.0 10bet.com
 0.0.0.0 10luxury39.com
 0.0.0.0 11wickets.com
@@ -338,6 +332,7 @@
 0.0.0.0 casimba.com
 0.0.0.0 casineto.net
 0.0.0.0 casiniabet.com
+0.0.0.0 casinoadmiral.lt
 0.0.0.0 casino-pp.net
 0.0.0.0 casinobg.info
 0.0.0.0 casino.betway.com
@@ -554,6 +549,7 @@
 0.0.0.0 en.cbet.lt
 0.0.0.0 en.expekt.com
 0.0.0.0 en.topsport.lt
+0.0.0.0 en.uniclub.lt
 0.0.0.0 energybet.com
 0.0.0.0 enterbet.com
 0.0.0.0 eqraffle.com
@@ -901,6 +897,7 @@
 0.0.0.0 majorsportsbetting.com
 0.0.0.0 malinasports.com
 0.0.0.0 mamamiabingo.com
+0.0.0.0 manoloto.lt
 0.0.0.0 mansion88.com
 0.0.0.0 mansionbet.com
 0.0.0.0 marathonbet.com
@@ -1018,6 +1015,7 @@
 0.0.0.0 omniacasino.com
 0.0.0.0 onetpedia.net
 0.0.0.0 online.caliente.mx
+0.0.0.0 online.casinoadmiral.lt
 0.0.0.0 online.singaporepools.com
 0.0.0.0 onlywinners.com
 0.0.0.0 opap.gr
@@ -1128,6 +1126,7 @@
 0.0.0.0 rush777.com
 0.0.0.0 ru.cbet.lt
 0.0.0.0 ru.topsport.lt
+0.0.0.0 ru.uniclub.lt
 0.0.0.0 saartoto.de
 0.0.0.0 sachsenlotto.de
 0.0.0.0 safaribet.com.gh
@@ -1209,6 +1208,7 @@
 0.0.0.0 sportpesa.co.tz
 0.0.0.0 sportpesa.com
 0.0.0.0 sports-gambling.com
+0.0.0.0 sports2.uniclub.lt
 0.0.0.0 sports.betway.com
 0.0.0.0 sports.br.betboo.com
 0.0.0.0 sports.bwin.com
@@ -1329,6 +1329,7 @@
 0.0.0.0 triobet.com
 0.0.0.0 ttr.casino
 0.0.0.0 turbico.com
+0.0.0.0 twinsbet.lt
 0.0.0.0 uberskins.net
 0.0.0.0 ubet.com
 0.0.0.0 ucabet.co
@@ -1336,6 +1337,7 @@
 0.0.0.0 unibet-42.com
 0.0.0.0 unibet.com
 0.0.0.0 unibet.com.au
+0.0.0.0 uniclub.lt
 0.0.0.0 unionbet.com
 0.0.0.0 usapriceperhead.com
 0.0.0.0 usbetting.co.za
@@ -1702,6 +1704,7 @@
 0.0.0.0 www.casimba.com
 0.0.0.0 www.casineto.net
 0.0.0.0 www.casiniabet.com
+0.0.0.0 www.casinoadmiral.lt
 0.0.0.0 www.casino-pp.net
 0.0.0.0 www.casino.org
 0.0.0.0 www.casinoandfriends.com
@@ -2175,6 +2178,7 @@
 0.0.0.0 www.majorsportsbetting.com
 0.0.0.0 www.malinasports.com
 0.0.0.0 www.mamamiabingo.com
+0.0.0.0 www.manoloto.lt
 0.0.0.0 www.mansion88.com
 0.0.0.0 www.mansionbet.com
 0.0.0.0 www.marathonbet.co.uk
@@ -2539,12 +2543,14 @@
 0.0.0.0 www.toxicjackpot.com
 0.0.0.0 www.triobet.com
 0.0.0.0 www.ttr.casino
+0.0.0.0 www.twinsbet.lt
 0.0.0.0 www.ubet.com
 0.0.0.0 www.ucabet.co
 0.0.0.0 www.uk-k8.com
 0.0.0.0 www.ultimate-odds.com
 0.0.0.0 www.unibet.co.uk
 0.0.0.0 www.unibet.com
+0.0.0.0 www.uniclub.lt
 0.0.0.0 www.unionbet.com
 0.0.0.0 www.usapriceperhead.com
 0.0.0.0 www.usbetting.co.za
@@ -2623,3 +2629,11 @@
 0.0.0.0 www.draftkings.com
 0.0.0.0 luckia.pt
 0.0.0.0 luckylandslots.com
+0.0.0.0 jackpotpiraten.de
+0.0.0.0 wildz.de
+0.0.0.0 thaicasinosonline.net
+0.0.0.0 www.palmsbet.com
+0.0.0.0 www.betano.bg
+0.0.0.0 www.pokerstars.bg
+0.0.0.0 everbet.bg
+0.0.0.0 slotino.bg

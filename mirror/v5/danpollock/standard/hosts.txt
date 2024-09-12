@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Tue, 21 May 2024 at 17:02:35 GMT
+# Last updated: Tue, 10 Sep 2024 at 06:03:36 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -1600,6 +1600,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 247blinds.fr
 127.0.0.1 2g312kn32qfy-1323053341.cos.ap-bangkok.myqcloud.com
 127.0.0.1 2roueselectrique.fr
+127.0.0.1 2x1gratis.com
 127.0.0.1 3mfrances.fr
 127.0.0.1 59-106-20-39.r-bl100.sakura.ne.jp
 127.0.0.1 6range.fr
@@ -1670,6 +1671,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 allomine.fr
 127.0.0.1 almaria.fr
 127.0.0.1 alocdn.com
+127.0.0.1 alojamientocentroleon.es
 127.0.0.1 alphardgolf.fr
 127.0.0.1 alphlauren.fr
 127.0.0.1 alzy.fr
@@ -2078,7 +2080,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 etdeposit-interac.com
 127.0.0.1 etransfer-23799.com
 127.0.0.1 etribunaldunet.fr
-127.0.0.1 eu2.contabostorage.com
 127.0.0.1 euriosport.fr
 127.0.0.1 europr1.fr
 127.0.0.1 eurospoprt.fr
@@ -2234,6 +2235,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 heuither.sbs
 127.0.0.1 hfrni.comfortykive.xyz
 127.0.0.1 hibody.fr
+127.0.0.1 hie.li
 127.0.0.1 hifa.fr
 127.0.0.1 himicrosoft.com
 127.0.0.1 hintonsfeetred.info
@@ -2260,6 +2262,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 hp.myway.com
 127.0.0.1 hradware.fr
 127.0.0.1 hsb-canada.com	# phishing site for hsbc.ca
+127.0.0.1 https-ticketnotice.com
 127.0.0.1 huffingtopost.fr
 127.0.0.1 hunkemoeller.fr
 127.0.0.1 hunkemuller.fr
@@ -2356,6 +2359,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 kuder.fr
 127.0.0.1 kweiqox.beauty
 127.0.0.1 l-histoire.fr
+127.0.0.1 l.wl.co
 127.0.0.1 la1dwne9cn5c.com
 127.0.0.1 laatribune.fr
 127.0.0.1 labanquepoqtale.fr
@@ -2616,6 +2620,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 myornamenti.com
 127.0.0.1 myprivateemails.com
 127.0.0.1 myquiz.fr
+127.0.0.1 myrogers-dashboard-signin.net
 127.0.0.1 mytee.fr
 127.0.0.1 mywifiext.fr
 127.0.0.1 n1up.fr
@@ -2834,12 +2839,15 @@ ff02::3		ip6-allhosts
 127.0.0.1 raptp.fr
 127.0.0.1 rb-on1in-sec.com
 127.0.0.1 rbc-anth-ogrn.com
+127.0.0.1 rbc-clientsupport1.com
 127.0.0.1 reacherinst.com
 127.0.0.1 realstar.fr
 127.0.0.1 recettes-vegetariennes.fr
 127.0.0.1 recevoirlatntn.fr
 127.0.0.1 recover-subscription.com
 127.0.0.1 redeastbay.com
+127.0.0.1 redelivercadpost.com
+127.0.0.1 redelivtls.online
 127.0.0.1 redf.fr
 127.0.0.1 redline-boutique.fr
 127.0.0.1 redrocks.fr
@@ -2892,6 +2900,8 @@ ff02::3		ip6-allhosts
 127.0.0.1 schlaukopf.fr
 127.0.0.1 sciencesetlavenir.fr
 127.0.0.1 scoietegenerale.fr
+127.0.0.1 scotiahelp-loginscotia.com
+127.0.0.1 scotiaonline-verification.com
 127.0.0.1 scottishstuff-online.com	# Canadian bank phishing site
 127.0.0.1 screenaddict.thewhizproducts.com
 127.0.0.1 screencast-o-matic.fr
@@ -2923,6 +2933,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 serff.fr
 127.0.0.1 serv-canada2024.com
 127.0.0.1 servpro.fr
+127.0.0.1 setup-mydelivery-date6437-fedex.com
 127.0.0.1 shapado.com
 127.0.0.1 sharelink.fr
 127.0.0.1 shiiva.fr
@@ -3334,6 +3345,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 wyoutube.fr
 127.0.0.1 xcdkb.comfortykive.xyz
 127.0.0.1 xen-media.com
+127.0.0.1 xn--80afden1bnch4a.xn--p1ai
 127.0.0.1 xn--oogle-wmc.com
 127.0.0.1 xpx7heciz9.com
 127.0.0.1 xxlargepop.com
@@ -3352,6 +3364,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 yrwap.cn
 127.0.0.1 yummie.fr
 127.0.0.1 yves-rocker.fr
+127.0.0.1 z3.skdfoiqwjelmdkfser.ru
 127.0.0.1 zalanado.fr
 127.0.0.1 zalandon.fr
 127.0.0.1 zb1.zeroredirect1.com
@@ -7833,7 +7846,6 @@ ff02::3		ip6-allhosts
 127.0.0.1 j6.jmooreassoc.com
 127.0.0.1 j7.jinghuaqitb.com
 127.0.0.1 j7.jmooreassoc.com
-127.0.0.1 jac.yahoosandbox.com
 127.0.0.1 jadserve.postrelease.com
 127.0.0.1 jambocast.com
 127.0.0.1 jav.ee
@@ -8793,6 +8805,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 premiumproductsonline.com
 127.0.0.1 prestoris.com
 127.0.0.1 prexyone.appspot.com
+127.0.0.1 prfctlivs.click
 127.0.0.1 primetime.ad.primetime.net
 127.0.0.1 primusbelgium.com
 127.0.0.1 privatecollection.top

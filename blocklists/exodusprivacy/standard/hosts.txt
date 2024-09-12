@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2024-05-24 21:34:19.272691
+# Generated at 2024-09-12 11:50:50.857382
 # Made by Blokada
 
 databerries.com
@@ -49,14 +49,12 @@ manifest.localytics.com
 profile.localytics.com
 sdk-assets.localytics.com
 appboy.com
-mparticle.com
 s4m.io
 sam4m.com
 serving-sys.com
 batch.com
 sync2ad.com
 flurry.com
-crashlytics.com
 leanplum.com
 schibsted.com
 ati-host.net
@@ -75,7 +73,6 @@ commander1.com
 tagcommander.com
 firebase.com
 eulerian.com
-adjust.com
 go.link
 chartboost.com
 backelite.com
