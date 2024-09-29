@@ -18,6 +18,7 @@ assets-bwbx-io.shared.bloomberga.com
 assets-cdn.abcnews.com
 assets-global.website-files.com
 assets-prod.sumo.prod.webservices.mozgcp.net
+assets.apnews.com.cdn.cloudflare.net
 assets.blz-contentstack.com
 assets.braintreegateway.com
 assets.buzzsprout.com
@@ -48,6 +49,7 @@ b.staticfiles.at
 base.maps.api.here.com.edgekey.net
 base.maps.ls.hereapi.com
 bilder.deutschlandfunk.de.edgekey.net
+bloximages.newyork1.vip.townnews.com
 builds.crazygames.com
 builds.mlbstatic.com
 c.basemaps.cartocdn.com
@@ -86,6 +88,7 @@ d.gcdn.co
 datawrapper.dwcdn.net
 de.staticfiles.at
 dfl-cis-production.aws.hmn.md
+dims.apnews.com.cdn.cloudflare.net
 discourse-cdn.com
 dl.flathub.org
 dl.gmx.at.edgekey.net
@@ -116,6 +119,7 @@ fonts.bunny.net
 fs.npstatic.com
 fs1.extraimage.org
 gateway.kleinanzeigen.de
+gateway.kleinanzeigen.de.edgekey.net
 geo-gcp.cdn.springernature.io
 ghs.googlehosted.com
 github.githubassets.com
@@ -173,6 +177,23 @@ media.cdn.sapphiretech.com.cn
 media.discordapp.net
 media.forgecdn.net
 media.miele.com
+media.nbcbayarea.com.edgekey.net
+media.nbcboston.com.edgekey.net
+media.nbcchicago.com.edgekey.net
+media.nbcconnecticut.com.edgekey.net
+media.nbcdfw.com.edgekey.net
+media.nbclosangeles.com.edgekey.net
+media.nbcmiami.com.edgekey.net
+media.nbcnewyork.com
+media.nbcnewyork.com.edgekey.net
+media.nbcphiladelphia.com.edgekey.net
+media.nbcsandiego.com.edgekey.net
+media.nbcsportsbayarea.com.edgekey.net
+media.nbcsportsboston.com.edgekey.net
+media.nbcsportschicago.com.edgekey.net
+media.nbcsportsphiladelphia.com.edgekey.net
+media.nbcwashington.com.edgekey.net
+media.os.fressnapf.com
 media.prod.bunnings.com.au
 media.springernature.com
 menu-static.gog-statics.com
@@ -183,6 +204,7 @@ nasa-smd.go-vip.net
 nav.files.bbci.co.uk.edgekey.net
 neveragain.allstatics.com
 newassets.hcaptcha.com
+npr.brightspotcdn.com
 nstatic.dcinside.com.cdnga.net
 nvdst.com
 nxedge.io
@@ -222,6 +244,7 @@ s1-cdn.hm.com
 s1.dmcdn.net
 s2.coinmarketcap.com
 s3.tradingview.com
+san.activision.com.edgekey.net
 san.airbnb.com.edgekey.net
 sc.sftcdn.net
 script.gmarket.co.kr.service3.gscdn.net
@@ -234,6 +257,7 @@ secure2.eurosport.edgekey.net
 server.arcgisonline.com
 sf16-website-login.neutral.ttwstatic.com
 sheinsz.ltwebstatic.com
+shop.lufthansa.com.edgekey.net
 shop.rewe-static.de-v1.edgekey.net
 slot9428.ebay.com.edgekey.net
 sp-ao.shortpixel.ai
@@ -242,7 +266,9 @@ ss.phncdn.com.sds.rncdn7.com
 ssl-static.libsyn.com
 ssl.zdf.de.edgekey.net
 sso-widget.airasia.com.w.cdngslb.com
+star.g2a.com.edgekey.net
 static-assets-cdn.i.hosted.panopto.com
+static-cdn.arte.tv-v1.edgekey.net
 static-cdn.jtvnw.net
 static-cdn.ubuntu-de.org
 static-dm.ubisoft.com-v1.edgekey.net
@@ -263,6 +289,7 @@ static.ietf.org.cdn.cloudflare.net
 static.independent.co.uk
 static.intercomassets.com
 static.kleinanzeigen.de
+static.kleinanzeigen.de.edgekey.net
 static.libsyn.com
 static.nc-img.com
 static.npstatic.com
