@@ -18,6 +18,7 @@ assets-bwbx-io.shared.bloomberga.com
 assets-cdn.abcnews.com
 assets-global.website-files.com
 assets-prod.sumo.prod.webservices.mozgcp.net
+assets-www.xbox.com.edgekey.net
 assets.apnews.com.cdn.cloudflare.net
 assets.blz-contentstack.com
 assets.braintreegateway.com
@@ -247,6 +248,7 @@ s3.tradingview.com
 san.activision.com.edgekey.net
 san.airbnb.com.edgekey.net
 sc.sftcdn.net
+scdn38e6f.wpc.9be8f.omegacdn.net
 script.gmarket.co.kr.service3.gscdn.net
 scripts.finanzen.net.edgekey.net
 seaimagesdym6y.cdn5th.com
@@ -312,6 +314,7 @@ static1.xdaimages.com
 staticfiles.at.edgekey.net
 storage.buzzsprout.com
 storage.ko-fi.com
+store-images.s-microsoft.com-c.edgekey.net
 store-site-backend-static-ipv4.ak.epicgames.com.edgekey.net
 store-static-modular.gog-statics.com
 store.akamai.steamstatic.com
