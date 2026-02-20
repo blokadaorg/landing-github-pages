@@ -74910,7 +74910,6 @@
 0.0.0.0 cs.iadsdk.apple.com
 0.0.0.0 news.iadsdk.apple.com
 0.0.0.0 su.iadsdk.apple.com
-0.0.0.0 tr.iadsdk.apple.com
 0.0.0.0 ut.iadsdk.apple.com
 0.0.0.0 securemetrics.apple.com
 0.0.0.0 securemvt.apple.com
@@ -146801,7 +146800,6 @@
 0.0.0.0 ib.gmrlnd.com
 0.0.0.0 analytics.disney.go.com
 0.0.0.0 stage.analytics.disney.go.com
-0.0.0.0 log.go.com
 0.0.0.0 sw88.go.com
 0.0.0.0 unid.go.com
 0.0.0.0 android.unid.go.com
@@ -255248,7 +255246,6 @@
 0.0.0.0 tl.trackalyzer.com
 0.0.0.0 vps.trackalyzer.com
 0.0.0.0 www.trackalyzer.com
-0.0.0.0 trackjs.com
 0.0.0.0 api.trackjs.com
 0.0.0.0 capture.trackjs.com
 0.0.0.0 cdn.trackjs.com
@@ -274592,7 +274589,6 @@
 0.0.0.0 wfgv096.youbora.com
 0.0.0.0 www.youbora.com
 0.0.0.0 yadmin.youbora.com
-0.0.0.0 youborafds01.com
 0.0.0.0 a-fds.youborafds01.com
 0.0.0.0 youboranqs01.com
 0.0.0.0 debug-nqs-lw4.youboranqs01.com
@@ -303610,6 +303606,7 @@
 0.0.0.0 staging.liftoff.io
 0.0.0.0 veraxen-sdk.liftoff.io
 0.0.0.0 www.liftoff.io
+0.0.0.0 litix.io
 0.0.0.0 02099999.litix.io
 0.0.0.0 3ej16jby.litix.io
 0.0.0.0 8vvsvnieiv3ej16jby.litix.io

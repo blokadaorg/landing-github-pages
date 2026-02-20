@@ -1,20 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Phishing List
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 190222
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Phishing Block List
+# Description: Phishing domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:33 UTC
+# Format: hosts
+# Entries: 190,222
+# URL:
 #
-# Phishing list
-# ------------------------------------[FILTERS]-------------------------------------
-# 0.0.0.0 appledetails.u Issue 6
-# 0.0.0.0 postfinance.ch Issue 5
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 0.01.2.13.3.sydneypropertyinvestors.com
 0.0.0.0 0.01.2.23.3.sydneypropertyinvestors.com
 0.0.0.0 000.9.009.09.ekurbani.com
@@ -1649,6 +1645,7 @@
 0.0.0.0 4vm.com
 0.0.0.0 4washingtonstreet.ga
 0.0.0.0 4wheelinfo.com
+0.0.0.0 4wsko.r.a.d.sendibm1.com
 0.0.0.0 4x412.com
 0.0.0.0 4x4led.co.il
 0.0.0.0 4yk.httpsproxy.org
@@ -2947,6 +2944,7 @@
 0.0.0.0 accesscpb.com
 0.0.0.0 accessdesjj.com
 0.0.0.0 accessfil.com
+0.0.0.0 accessfreevpn.com
 0.0.0.0 accessglobalinvtmgts.com
 0.0.0.0 accessible-schoolin.000webhostapp.com
 0.0.0.0 accessimagetz.com
@@ -4584,7 +4582,6 @@
 0.0.0.0 after-dinner-frigat.000webhostapp.com
 0.0.0.0 after3theatre.org
 0.0.0.0 afterlifeindustries.com
-# 0.0.0.0 aftership.com Issue 520
 0.0.0.0 afterwork.com.au
 0.0.0.0 aftlight.com
 0.0.0.0 aftu.com.au
@@ -7401,7 +7398,6 @@
 0.0.0.0 andalnetconsultpost201.ml
 0.0.0.0 andaluciaempresarial.com
 0.0.0.0 andaniandpartners.com
-# 0.0.0.0 andapangasinan.gov.ph
 0.0.0.0 andasuvi.com.br
 0.0.0.0 andat.com.vn
 0.0.0.0 andean-receipt.000webhostapp.com
@@ -8007,7 +8003,6 @@
 0.0.0.0 apapple.com
 0.0.0.0 aparatosolucoes.com.br
 0.0.0.0 aparet.ml
-# 0.0.0.0 aparriwaterdistrict.gov.ph
 0.0.0.0 apartamentoenvalencia.com.ve
 0.0.0.0 apartamentosadriana.com.br
 0.0.0.0 apartamentoturisticogranada.es
@@ -8400,7 +8395,6 @@
 0.0.0.0 app.no.applefaktur13.aes2applefaktur.ml
 0.0.0.0 app.pessoafisica.exclusiva.prime.private.tssl.com.br
 0.0.0.0 app.pngsgold.com
-# 0.0.0.0 app.powerbigov.us Issue 113
 0.0.0.0 app.rickshawrides.in
 0.0.0.0 app.riolabz.com
 0.0.0.0 app.salmacorp.net
@@ -11328,6 +11322,7 @@
 0.0.0.0 arancada.com
 0.0.0.0 arangi.org
 0.0.0.0 araniyan.com
+0.0.0.0 aranu.ir
 0.0.0.0 aranyszarvassc.fw.hu
 0.0.0.0 aranzatidings.com
 0.0.0.0 arapca-tr.com
@@ -14189,7 +14184,6 @@
 0.0.0.0 balangankab.go.id
 0.0.0.0 balanrealty.com
 0.0.0.0 balaw.ec
-# 0.0.0.0 balaymalaueg.gov.ph
 0.0.0.0 balazhimim.id
 0.0.0.0 balba.mx
 0.0.0.0 balbaki.com
@@ -15889,7 +15883,6 @@
 0.0.0.0 bessiesim.club
 0.0.0.0 best-air.co.il
 0.0.0.0 best-battleup.gq
-# 0.0.0.0 best-cons.ru Issue 190
 0.0.0.0 best-detox.com
 0.0.0.0 best-digital-slr-cameras.com
 0.0.0.0 best-drop.me
@@ -17572,11 +17565,11 @@
 0.0.0.0 bluewater.cf
 0.0.0.0 bluewavebay.com
 0.0.0.0 bluewelluk.com
-0.0.0.0 bluewin_login_accountsmail.godaddysites.com
 0.0.0.0 bluewin10.godaddysites.com
 0.0.0.0 bluewin389.wordpress.com
 0.0.0.0 bluewin7.godaddysites.com
 0.0.0.0 bluewin872.wordpress.com
+0.0.0.0 bluewin_login_accountsmail.godaddysites.com
 0.0.0.0 bluewinch.godaddysites.com
 0.0.0.0 bluexoxo.com
 0.0.0.0 bluff-parcels.000webhostapp.com
@@ -19673,11 +19666,11 @@
 0.0.0.0 bylinky.biz
 0.0.0.0 byliza.com
 0.0.0.0 bylka.com
-# 0.0.0.0 byloth.net Issue #266
 0.0.0.0 bymabogados.cl
 0.0.0.0 bymail.cl
 0.0.0.0 byonmath.com
 0.0.0.0 bypass-auth-sms.or-unlock.top
+0.0.0.0 bypass.network
 0.0.0.0 byproduct.ga
 0.0.0.0 byronautobody.com
 0.0.0.0 byronbayequestriancentre.com
@@ -19982,7 +19975,6 @@
 0.0.0.0 cal-maxtransport.com
 0.0.0.0 calabashawnings.co.uk
 0.0.0.0 caladrius.com.au
-# 0.0.0.0 calambamisocc.gov.ph
 0.0.0.0 calametal.com
 0.0.0.0 calaosafari.com
 0.0.0.0 calaproduct.com
@@ -20506,6 +20498,7 @@
 0.0.0.0 capsulink.com
 0.0.0.0 capta-sol.com
 0.0.0.0 captcha.business
+0.0.0.0 captcharesolving-universe.com
 0.0.0.0 captivajewelry.com
 0.0.0.0 captivatephotography.co.nz
 0.0.0.0 captmail2.000webhostapp.com
@@ -20583,7 +20576,6 @@
 0.0.0.0 cardisease.com
 0.0.0.0 cardnanny.com
 0.0.0.0 cardoctormobile.com
-# 0.0.0.0 cardonarizal.gov.ph
 0.0.0.0 cardozos.com
 0.0.0.0 cardplanetindia.com
 0.0.0.0 cardplumbing.com
@@ -21268,6 +21260,7 @@
 0.0.0.0 cbtekghana.com
 0.0.0.0 cbtelefonia.com.ar
 0.0.0.0 cbtherealestatecentre.com
+0.0.0.0 cbtoken.me
 0.0.0.0 cbts-demo.com
 0.0.0.0 cbu.uoumycyz.maxgrowth.ru
 0.0.0.0 cbu1975.000webhostapp.com
@@ -22663,6 +22656,7 @@
 0.0.0.0 check-as.gq
 0.0.0.0 check-busines-pages.gq
 0.0.0.0 check-ethpayments.kissr.com
+0.0.0.0 check-gosuslugi.ru
 0.0.0.0 check-info-your-account.com
 0.0.0.0 check-my-account.xyz
 0.0.0.0 check-page.cf
@@ -23036,6 +23030,7 @@
 0.0.0.0 choicecollege.net
 0.0.0.0 choicehighrisk.com
 0.0.0.0 choicekey.com.tw
+0.0.0.0 choicemonitor.top
 0.0.0.0 choicenext.com
 0.0.0.0 choicewoodproducts.com
 0.0.0.0 choiceyellowpages.com
@@ -23295,6 +23290,7 @@
 0.0.0.0 cidvale.com.br
 0.0.0.0 cie-chile.cl
 0.0.0.0 ciekawieowarszawie.pl
+0.0.0.0 ciel-goshugi.com
 0.0.0.0 cielrene.com
 0.0.0.0 ciemnes.com
 0.0.0.0 cienalgodones.com
@@ -23364,7 +23360,6 @@
 0.0.0.0 cinemanetflix.com
 0.0.0.0 cinemania.us
 0.0.0.0 cinemanity.com
-# 0.0.0.0 cinemazed.be Issue 502
 0.0.0.0 cinemiz.net
 0.0.0.0 cineredsocial.com
 0.0.0.0 cinexfilm.com
@@ -24303,6 +24298,8 @@
 0.0.0.0 codalsa.cl
 0.0.0.0 code-decode.net
 0.0.0.0 code-freewifi.com
+0.0.0.0 code-gosuslugi.online
+0.0.0.0 code-gosuslugi.ru
 0.0.0.0 code-huissier-92.fr
 0.0.0.0 code-promonetflix2.com
 0.0.0.0 code-santander.net
@@ -25241,7 +25238,6 @@
 0.0.0.0 confairs.com
 0.0.0.0 confeccoesegito.com.br
 0.0.0.0 confeiruna.com
-# 0.0.0.0 conferences.sigcomm.org Issue 121
 0.0.0.0 conferma-amazon.com
 0.0.0.0 confermazione-info-update.it
 0.0.0.0 confetti.com.co
@@ -25301,6 +25297,7 @@
 0.0.0.0 confirm.informatoin.rcdhakaparagon.org
 0.0.0.0 confirm.interlakesbuilders.com
 0.0.0.0 confirm.your.compte.vbb.aljedaan.com
+0.0.0.0 confirm28371630-coinbase-com.web.app
 0.0.0.0 confirma2018bio.webcindario.com
 0.0.0.0 confirmacaode-dados-com.umbler.net
 0.0.0.0 confirmacion-cuenta-appleid-locked-apple.com
@@ -25699,6 +25696,7 @@
 0.0.0.0 controviolenzadonne.org
 0.0.0.0 contructionportal.com
 0.0.0.0 contsc.com
+0.0.0.0 conv-alida-recapiro-com.preview-domain.com
 0.0.0.0 convegni.micro-labs.it
 0.0.0.0 convence.com.br
 0.0.0.0 convenciontercersectorsocial.live
@@ -25963,6 +25961,7 @@
 0.0.0.0 correntista.pessoajuridicaapp.cf
 0.0.0.0 correo.flexiplasttbt.com
 0.0.0.0 corretajedirecto.com
+0.0.0.0 corriertt.parceldlvr.xyz
 0.0.0.0 corrundumcapital.com
 0.0.0.0 corryley.com
 0.0.0.0 corseaidealapersonne.org
@@ -26166,6 +26165,7 @@
 0.0.0.0 covertcitrusy.edu.digital
 0.0.0.0 coveryouracct888122400.000webhostapp.com
 0.0.0.0 covicracing.com
+0.0.0.0 covid-cert-gosuslugi.ru
 0.0.0.0 covingtoness.org
 0.0.0.0 covingtonvending.com
 0.0.0.0 cowanart.com
@@ -26529,7 +26529,6 @@
 0.0.0.0 credimeta.com
 0.0.0.0 credinnova.pe
 0.0.0.0 credit-agricole-alert.com
-# 0.0.0.0 credit-agricole.fr Issue 127
 0.0.0.0 credit-agricolefrance.ga
 0.0.0.0 credit-card-information.elliottback.com
 0.0.0.0 credit-cusb.com
@@ -30065,6 +30064,8 @@
 0.0.0.0 disco-fama.pl
 0.0.0.0 discomfited-fold.000webhostapp.com
 0.0.0.0 discontinuedplumbing.com
+0.0.0.0 discorcl-nltro.xyz
+0.0.0.0 discorcl.link
 0.0.0.0 discord.pbphgwbr.in
 0.0.0.0 discoswalden.com
 0.0.0.0 discotaxi.pl
@@ -30108,6 +30109,8 @@
 0.0.0.0 discoveryourpaint.com
 0.0.0.0 discoverystudent.org
 0.0.0.0 discovher.life
+0.0.0.0 discqrde.com
+0.0.0.0 discrodnitro.org
 0.0.0.0 discursive-mists.000webhostapp.com
 0.0.0.0 discussdiary.com
 0.0.0.0 discvs.site
@@ -30149,12 +30152,14 @@
 0.0.0.0 disneycampers.com
 0.0.0.0 disneycoloringbook.com
 0.0.0.0 disneynetflixtv.com
+0.0.0.0 disneyplusfreetrial.com
 0.0.0.0 disneysidekick.com
 0.0.0.0 disneyspringsscooterrentals.com
 0.0.0.0 disobedient.pbphgwbr.in
 0.0.0.0 disodesign.com
 0.0.0.0 disonn.net
 0.0.0.0 disordered-cabs.000webhostapp.com
+0.0.0.0 disordsnltros.gifts
 0.0.0.0 disparity.pbphgwbr.in
 0.0.0.0 displayautomacao.com.br
 0.0.0.0 displaytile.com
@@ -30388,6 +30393,7 @@
 0.0.0.0 dl-pkale.com
 0.0.0.0 dl.mocoshop.thats.im
 0.0.0.0 dl.rumusic.xyz
+0.0.0.0 dl1-gosuslugi.ru
 0.0.0.0 dl15edu.com
 0.0.0.0 dl6.c1l.us
 0.0.0.0 dl7i3umkhimtfugcculeyuqj-online-netflix.info
@@ -30758,6 +30764,7 @@
 0.0.0.0 dom2exclusif.viptop.ru
 0.0.0.0 domacin.rs
 0.0.0.0 domain-47.ru
+0.0.0.0 domain-seguridad.com
 0.0.0.0 domain-update.com
 0.0.0.0 domain2363.com
 0.0.0.0 domain5.gq
@@ -31873,7 +31880,6 @@
 0.0.0.0 dulcimpbordados.com.br
 0.0.0.0 duldi.com
 0.0.0.0 duluxshop.lk
-# 0.0.0.0 dumalinao.gov.ph
 0.0.0.0 dumalnquicaires.com
 0.0.0.0 dumancy.pl
 0.0.0.0 dumationnaure.cf
@@ -32140,6 +32146,7 @@
 0.0.0.0 e-flox.com
 0.0.0.0 e-flox.de
 0.0.0.0 e-formulaire.fr
+0.0.0.0 e-giftnitro.com
 0.0.0.0 e-gives.blogspot.com
 0.0.0.0 e-global.es
 0.0.0.0 e-gtbuk.com
@@ -40478,6 +40485,15 @@
 0.0.0.0 g.vhvpybze.in
 0.0.0.0 g0.to
 0.0.0.0 g00g13dr1v3d0c.viewdns.net
+0.0.0.0 g0sulugl.ru
+0.0.0.0 g0susiugi.ru
+0.0.0.0 g0susligi.ru
+0.0.0.0 g0susllugi.ru
+0.0.0.0 g0suslugi.online
+0.0.0.0 g0suslugi.site
+0.0.0.0 g0suslugi.xyz
+0.0.0.0 g0suslugi29.ru
+0.0.0.0 g0suslugii.ru
 0.0.0.0 g10treinamento.com.br
 0.0.0.0 g1bx.app.link
 0.0.0.0 g1fts4free.free.lc
@@ -42554,300 +42570,6 @@
 0.0.0.0 go-v11.ml
 0.0.0.0 go.avmsapp.at
 0.0.0.0 go.boosteth.com
-0.0.0.0 gosusugiru.ru
-0.0.0.0 gosustugi.su
-0.0.0.0 gosusslugi.xyz
-0.0.0.0 gosuslugiugi.ru
-0.0.0.0 gosuslugiudmurtia.ru
-0.0.0.0 gosuslugii-ru.ru
-0.0.0.0 gosuslugii1.ru
-0.0.0.0 gosuslugi-covidcert.ru
-0.0.0.0 gosuslugi-bashkortostan.ru
-0.0.0.0 gosuslugi33.ru
-0.0.0.0 gossusllugl.ru
-0.0.0.0 goslulsugi.ru
-0.0.0.0 gosuslugi.contact
-0.0.0.0 wwwgosuslugj.ru
-0.0.0.0 i-gosusiugl.ru
-0.0.0.0 gosuyslygi.ru
-0.0.0.0 gosuslygi-ru.ru
-0.0.0.0 gosuslugv.ru
-0.0.0.0 gosuslugi-vladimir.ru
-0.0.0.0 gosuslugim.ru
-0.0.0.0 gosuslugi59.xyz
-0.0.0.0 gosuslugi.social
-0.0.0.0 gosuslugi.quest
-0.0.0.0 gosuslqgi.ru
-0.0.0.0 gosuslllugi.ru
-0.0.0.0 gosusljugi.ru
-0.0.0.0 gosusliugl.ru
-0.0.0.0 gosusiogi.ru
-0.0.0.0 gosusboogie.ru
-0.0.0.0 gosulugl.ru
-0.0.0.0 gosulsugi.info
-0.0.0.0 gosuislugii.ru
-0.0.0.0 gossyslugl.ru
-0.0.0.0 gosaslugi.site
-0.0.0.0 covid-cert-gosuslugi.ru
-0.0.0.0 wgosuslugi.ru
-0.0.0.0 gosuslug-y.ru
-0.0.0.0 gosuslugul.ru
-0.0.0.0 gosuslugi-vrn.ru
-0.0.0.0 gosuslugiru-covid-cert-virifu.ru
-0.0.0.0 gosuslugi-ru.live
-0.0.0.0 gosuslugi-rb.ru
-0.0.0.0 gos-uslugi-qr.ru
-0.0.0.0 gosuslugiinfo.ru
-0.0.0.0 gosuslugi-covid-sert.ru
-0.0.0.0 gosuslugi-covid-cert-verify.ru
-0.0.0.0 gosuslugee.ru
-0.0.0.0 gosusllugit.ru
-0.0.0.0 gosuslig.ru
-0.0.0.0 gossusluggi.ru
-0.0.0.0 gosrslugi.ru
-0.0.0.0 gosmslugi.ru
-0.0.0.0 goseslugi.ru
-0.0.0.0 gofsuslugi.ru
-0.0.0.0 gocyslugi.ru
-0.0.0.0 g0suslugi.xyz
-0.0.0.0 g0susligi.ru
-0.0.0.0 g0sulugl.ru
-0.0.0.0 xn--c1aapkosob.xn--p1ai
-0.0.0.0 qr-info-gosuslugi.ru
-0.0.0.0 i-gosuslygi.ru
-0.0.0.0 gosyslugi.su
-0.0.0.0 gosyclygi.ru
-0.0.0.0 gosyclugi.ru
-0.0.0.0 gosusygi.ru
-0.0.0.0 gosususlugi.ru
-0.0.0.0 gosuslugji.ru
-0.0.0.0 gosuslugis.online
-0.0.0.0 gosuslugirurf.ru
-0.0.0.0 gosuslugiqrcode.ru
-0.0.0.0 gosuslugipay.ru
-0.0.0.0 gosuslugi-kovid-19-test.ru
-0.0.0.0 gosuslugi-engels.ru
-0.0.0.0 gosuslugi-covid-qr.ru
-0.0.0.0 gosuslugicode.ru
-0.0.0.0 gosuslugi.recipes
-0.0.0.0 gosuslugi.kim
-0.0.0.0 gosuslugi.fyi
-0.0.0.0 gosuslugi.express
-0.0.0.0 gosuslugi.directory
-0.0.0.0 gosuslugi.cyou
-0.0.0.0 gosuslugi.cymru
-0.0.0.0 gosuslugi.clinic
-0.0.0.0 gosuslugi.casa
-0.0.0.0 gosuslugi.bid
-0.0.0.0 gosuslugi.agency
-0.0.0.0 gos-uslgi.ru
-0.0.0.0 gosulugy.ru
-0.0.0.0 gososuslugi.ru
-0.0.0.0 code-gosuslugi.ru
-0.0.0.0 code-gosuslugi.online
-0.0.0.0 l-gosuslugi.ru
-0.0.0.0 gosyslygi.online
-0.0.0.0 gosuslugt.ru
-0.0.0.0 gosuslugri.ru
-0.0.0.0 gosuslugivacine.ru
-0.0.0.0 gosuslugi-vaccine-verificate.ru
-0.0.0.0 gosuslugi-vaccine-verificate.online
-0.0.0.0 gosuslugispb.ru
-0.0.0.0 gosuslugi-nso.ru
-0.0.0.0 gosuslugih.ru
-0.0.0.0 gosuslugie.online
-0.0.0.0 gosuslugi28.ru
-0.0.0.0 gosuslugi112.ru
-0.0.0.0 gos-uslugi.info
-0.0.0.0 gosusloogi.ru
-0.0.0.0 gosusligu.ru
-0.0.0.0 gosulsug.ru
-0.0.0.0 gosulgi.ru
-0.0.0.0 gosuclgi.ru
-0.0.0.0 gossusiugi.ru
-0.0.0.0 gosoogi.com
-0.0.0.0 gocuslugy.ru
-0.0.0.0 g0suslugi.online
-0.0.0.0 immune-gosuslugi.ru
-0.0.0.0 gosvsiugi.ru
-0.0.0.0 gosusugi.site
-0.0.0.0 gosusslugii.ru
-0.0.0.0 gosusrugi.ru
-0.0.0.0 gosusluugl.ru
-0.0.0.0 gosuslugycovid.ru
-0.0.0.0 gosusluglvl.ru
-0.0.0.0 gosuslugicovidnet.ru
-0.0.0.0 gosuslugi-api.store
-0.0.0.0 gosuslugi-api.ru
-0.0.0.0 gosuslugi.ruhr
-0.0.0.0 gosuslugi.page
-0.0.0.0 gosuslugi.live
-0.0.0.0 gosuslugi.fit
-0.0.0.0 gosusllugi.net
-0.0.0.0 gosusliigi.ru
-0.0.0.0 gosusliga.ru
-0.0.0.0 gosuslegi.ru
-0.0.0.0 gosusiugi.run
-0.0.0.0 gosusbugi.ru
-0.0.0.0 gosulvgi.ru
-0.0.0.0 gossylsugi.ru
-0.0.0.0 gocuslugi.su
-0.0.0.0 g0suslugii.ru
-0.0.0.0 g0susllugi.ru
-0.0.0.0 g0susiugi.ru
-0.0.0.0 dl1-gosuslugi.ru
-0.0.0.0 ufa-gosuslugi.ru
-0.0.0.0 gosusnugi.ru
-0.0.0.0 gosuslugi-spb.ru
-0.0.0.0 gosuslugi-ru.website
-0.0.0.0 gosuslugi-payment.ru
-0.0.0.0 gosuslugi-pay.ru
-0.0.0.0 gosuslugikursk.ru
-0.0.0.0 gosuslugi-kultura.ru
-0.0.0.0 gosuslugicovid-cert.ru
-0.0.0.0 gosuslugh.ru
-0.0.0.0 gocusiugi.ru
-0.0.0.0 ciel-goshugi.com
-0.0.0.0 www-gos-uslugi.ru
-0.0.0.0 verify-gosuslugi.ru
-0.0.0.0 venture7program.biz
-0.0.0.0 gosuyslugl.ru
-0.0.0.0 gosuslugy-ru.ru
-0.0.0.0 gosuslugli.fun
-0.0.0.0 gosuslugi116.ru
-0.0.0.0 gosuslugi.date
-0.0.0.0 gosustluga.ru
-0.0.0.0 gosusslugy.ru
-0.0.0.0 gosusslugi.net
-0.0.0.0 gosussluga.ru
-0.0.0.0 gosuslygiy.ru
-0.0.0.0 gosuslygi.website
-0.0.0.0 gosuslungi.ru
-0.0.0.0 gosuslugi-kazan.ru
-0.0.0.0 gosulsugl.ru
-0.0.0.0 gosuclugii.ru
-0.0.0.0 goslusugj.ru
-0.0.0.0 xn----etbaunrsdatce.xn--p1ai
-0.0.0.0 gos-yslugi.ru
-0.0.0.0 gosuzslugi.ru
-0.0.0.0 gosusluslugi.ru
-0.0.0.0 gosuslugl92.ru
-0.0.0.0 gosuslugivn.ru
-0.0.0.0 gosuslugitest.ru
-0.0.0.0 gosuslugiiy.ru
-0.0.0.0 gosuslugi4.ru
-0.0.0.0 gosuslugi2.ru
-0.0.0.0 gosuslugi.cfd
-0.0.0.0 gosuslug.info
-0.0.0.0 gosulugi.online
-0.0.0.0 gosnuslugi.ru
-0.0.0.0 gosguslugi.ru
-0.0.0.0 m-gosuslugii.ru
-0.0.0.0 kazan-gosuslugi.ru
-0.0.0.0 gosusslugi.space
-0.0.0.0 gosuslyggi.ru
-0.0.0.0 gosuslvgii.ru
-0.0.0.0 gosuslugi-qrvac.ru
-0.0.0.0 gosuslugi-qr.site
-0.0.0.0 gosuslugi-nn.ru
-0.0.0.0 gosuslugianticovid.ru
-0.0.0.0 gosuslugi.xyz
-0.0.0.0 gosuslugi.asia
-0.0.0.0 gosusluggi.site
-0.0.0.0 gosuslugei.ru
-0.0.0.0 gosuslug.net
-0.0.0.0 gosuslgiu.ru
-0.0.0.0 gosusiiugi.store
-0.0.0.0 gosusiiugi.ru
-0.0.0.0 gosulcugy.ru
-0.0.0.0 gossuslugi-covid-cert.ru
-0.0.0.0 gossuslugi-covid-cert.online
-0.0.0.0 goosuslugii.ru
-0.0.0.0 g0suslugi29.ru
-0.0.0.0 www-gosuslugil.ru
-0.0.0.0 igosuslugi.ru
-0.0.0.0 gosys1ugi.ru
-0.0.0.0 gosuyslugi.ru
-0.0.0.0 gosusluigii.ru
-0.0.0.0 gosuslugiru.link
-0.0.0.0 gosuslugikrymsk.ru
-0.0.0.0 gosuslugii.site
-0.0.0.0 gosuslugi-covid19-cert.ru
-0.0.0.0 gosuslugi63.ru
-0.0.0.0 gosuslugi53.ru
-0.0.0.0 gosuslugi53.online
-0.0.0.0 gosuslugi-16.ru
-0.0.0.0 gosuslugi.today
-0.0.0.0 gosuslughi.ru
-0.0.0.0 gosusluga.su
-0.0.0.0 gosushlugi.ru
-0.0.0.0 gosulsugi.online
-0.0.0.0 gocuslugi-covid.ru
-0.0.0.0 g0suslugi.site
-0.0.0.0 www-gosuslugi-certificat.ru
-0.0.0.0 grosuslugi.ru
-0.0.0.0 gosyslugi.xyz
-0.0.0.0 gosusolugi.ru
-0.0.0.0 gos-uslygi.site
-0.0.0.0 gosusluigi.site
-0.0.0.0 gosuslugitatar.ru
-0.0.0.0 gosuslugi-ru.social
-0.0.0.0 gosuslugii.online
-0.0.0.0 gosuslugic.ru
-0.0.0.0 gosuslugi.wtf
-0.0.0.0 gosuslugi.team
-0.0.0.0 gosuslugi.life
-0.0.0.0 gosuslugi.co.uk
-0.0.0.0 gosuslug.run
-0.0.0.0 gosulslsugi.ru
-0.0.0.0 gossuuslugi.ru
-0.0.0.0 gossusluugii.ru
-0.0.0.0 gossuslugiy.ru
-0.0.0.0 gossuslugi.su
-0.0.0.0 gocusluga.ru
-0.0.0.0 xn--c1aapkosp.xn--p1ai
-0.0.0.0 xn--c1aapamrvaatca.xn--p1ai
-0.0.0.0 vgosuslugi.ru
-0.0.0.0 gosusslygi.ru
-0.0.0.0 gosuslugivrn.ru
-0.0.0.0 gosuslugiru.site
-0.0.0.0 gosuslugims.ru
-0.0.0.0 gosuslugii.com
-0.0.0.0 gosuslugi-gosnomera.ru
-0.0.0.0 gos-uslug.ru
-0.0.0.0 gosusllugi.site
-0.0.0.0 gosulugi-anticovid.ru
-0.0.0.0 gosulsugi.run
-0.0.0.0 gosnomera-gosuslugi.ru
-0.0.0.0 goslusgi.ru
-0.0.0.0 xn--c1aapwflapc.xn--p1ai
-0.0.0.0 xn----8sbhabmswnjffb4aeag2ac.xn--p1ai
-0.0.0.0 gosusugli.ru
-0.0.0.0 gosuslugi-vaccination.ru
-0.0.0.0 gosuslugigov.ru
-0.0.0.0 gosuslugi16.ru
-0.0.0.0 gosuslugi.network
-0.0.0.0 gossusslugi.site
-0.0.0.0 gosuslugi-ru-covid-certverify950000002767499.space
-0.0.0.0 gosuslugiru.online
-0.0.0.0 gosuslugi.uk
-0.0.0.0 gosulujgi.ru
-0.0.0.0 check-gosuslugi.ru
-0.0.0.0 gosysllygi.store
-0.0.0.0 gosysllygi.ru
-0.0.0.0 gosuslugi39.ru
-0.0.0.0 gossuslugi.space
-0.0.0.0 gosusslugi.site
-0.0.0.0 gosuslugi-29.ru
-0.0.0.0 gosuslugi.shop
-0.0.0.0 gosushugi.ru
-0.0.0.0 gocsuslugi.ru
-0.0.0.0 gosuslugi-covid-certi-verify-9240000086999395.ru
-0.0.0.0 gosus1ugj.ru
-0.0.0.0 moscow-gosuslugi.online
-0.0.0.0 gosuslugi59.ru
-0.0.0.0 gosslugi.fun
-0.0.0.0 gostuslugi.su
 0.0.0.0 go.ether10000.win
 0.0.0.0 go.ethereum-giveaway.net
 0.0.0.0 go.ethgft.party
@@ -42909,8 +42631,15 @@
 0.0.0.0 gocozfun.com
 0.0.0.0 gocrafty.in
 0.0.0.0 gocsb.com
+0.0.0.0 gocsuslugi.ru
+0.0.0.0 gocusiugi.ru
+0.0.0.0 gocusluga.ru
+0.0.0.0 gocuslugi-covid.ru
+0.0.0.0 gocuslugi.su
+0.0.0.0 gocuslugy.ru
 0.0.0.0 gocustom.id
 0.0.0.0 gocyad.com
+0.0.0.0 gocyslugi.ru
 0.0.0.0 god-fearing-algorit.000webhostapp.com
 0.0.0.0 god-is-good8.webnode.com
 0.0.0.0 godaddi.win
@@ -42956,6 +42685,7 @@
 0.0.0.0 goezlife.info
 0.0.0.0 gofarm.ru
 0.0.0.0 gofresh.com.pk
+0.0.0.0 gofsuslugi.ru
 0.0.0.0 gogabolson.com
 0.0.0.0 gogarraty.com
 0.0.0.0 gogerlz.com
@@ -43274,6 +43004,7 @@
 0.0.0.0 goon.szlftjcm.in
 0.0.0.0 gooooooooooooooooooooooooooooooooooooooooogle.com
 0.0.0.0 goopooy.com
+0.0.0.0 goosuslugii.ru
 0.0.0.0 goouujgle.com
 0.0.0.0 goozgle.com
 0.0.0.0 gopal.se
@@ -43302,24 +43033,56 @@
 0.0.0.0 gortehkomplekt.ru
 0.0.0.0 gory.pbphgwbr.in
 0.0.0.0 gorzelanny.pl
+0.0.0.0 gos-uslgi.ru
+0.0.0.0 gos-uslug.ru
+0.0.0.0 gos-uslugi-qr.ru
+0.0.0.0 gos-uslugi.info
+0.0.0.0 gos-uslygi.site
+0.0.0.0 gos-yslugi.ru
 0.0.0.0 gosadt.ga
 0.0.0.0 gosaline.ml
 0.0.0.0 gosanangelolive.com
 0.0.0.0 gosantanderhtrm.online
+0.0.0.0 gosaslugi.site
 0.0.0.0 goscandesign.com
 0.0.0.0 goscures.000webhostapp.com
+0.0.0.0 goseslugi.ru
 0.0.0.0 gosgmart.com
+0.0.0.0 gosguslugi.ru
 0.0.0.0 goshentouroperator.cm
 0.0.0.0 goshi2.ir
 0.0.0.0 goshuttledia.com
 0.0.0.0 gosiowa.pl
+0.0.0.0 goslulsugi.ru
+0.0.0.0 goslusgi.ru
+0.0.0.0 goslusugj.ru
+0.0.0.0 gosmslugi.ru
+0.0.0.0 gosnomera-gosuslugi.ru
+0.0.0.0 gosnuslugi.ru
 0.0.0.0 gosoins.events
+0.0.0.0 gosoogi.com
+0.0.0.0 gososuslugi.ru
 0.0.0.0 gospecialmessages.com
 0.0.0.0 gospelgamers.com
 0.0.0.0 gospodarka-galicji.pl
+0.0.0.0 gosrslugi.ru
 0.0.0.0 gossip9ja.com
 0.0.0.0 gossipsjunction.com
 0.0.0.0 gossiptamil.com
+0.0.0.0 gosslugi.fun
+0.0.0.0 gossusiugi.ru
+0.0.0.0 gossusllugl.ru
+0.0.0.0 gossusluggi.ru
+0.0.0.0 gossuslugi-covid-cert.online
+0.0.0.0 gossuslugi-covid-cert.ru
+0.0.0.0 gossuslugi.space
+0.0.0.0 gossuslugi.su
+0.0.0.0 gossuslugiy.ru
+0.0.0.0 gossusluugii.ru
+0.0.0.0 gossusslugi.site
+0.0.0.0 gossuuslugi.ru
+0.0.0.0 gossylsugi.ru
+0.0.0.0 gossyslugl.ru
 0.0.0.0 gostaclothing.kr
 0.0.0.0 gostaco.kr
 0.0.0.0 gostehnadzor.com
@@ -43327,6 +43090,219 @@
 0.0.0.0 gostol-cn.com
 0.0.0.0 gostosasnobar.com.br
 0.0.0.0 gostream365.com
+0.0.0.0 gostuslugi.su
+0.0.0.0 gosuclgi.ru
+0.0.0.0 gosuclugii.ru
+0.0.0.0 gosuislugii.ru
+0.0.0.0 gosulcugy.ru
+0.0.0.0 gosulgi.ru
+0.0.0.0 gosulslsugi.ru
+0.0.0.0 gosulsug.ru
+0.0.0.0 gosulsugi.info
+0.0.0.0 gosulsugi.online
+0.0.0.0 gosulsugi.run
+0.0.0.0 gosulsugl.ru
+0.0.0.0 gosulugi-anticovid.ru
+0.0.0.0 gosulugi.online
+0.0.0.0 gosulugl.ru
+0.0.0.0 gosulugy.ru
+0.0.0.0 gosulujgi.ru
+0.0.0.0 gosulvgi.ru
+0.0.0.0 gosus1ugj.ru
+0.0.0.0 gosusboogie.ru
+0.0.0.0 gosusbugi.ru
+0.0.0.0 gosushlugi.ru
+0.0.0.0 gosushugi.ru
+0.0.0.0 gosusiiugi.ru
+0.0.0.0 gosusiiugi.store
+0.0.0.0 gosusiogi.ru
+0.0.0.0 gosusiugi.run
+0.0.0.0 gosuslegi.ru
+0.0.0.0 gosuslgiu.ru
+0.0.0.0 gosuslig.ru
+0.0.0.0 gosusliga.ru
+0.0.0.0 gosusligu.ru
+0.0.0.0 gosusliigi.ru
+0.0.0.0 gosusliugl.ru
+0.0.0.0 gosusljugi.ru
+0.0.0.0 gosuslllugi.ru
+0.0.0.0 gosusllugi.net
+0.0.0.0 gosusllugi.site
+0.0.0.0 gosusllugit.ru
+0.0.0.0 gosusloogi.ru
+0.0.0.0 gosuslqgi.ru
+0.0.0.0 gosuslug-y.ru
+0.0.0.0 gosuslug.info
+0.0.0.0 gosuslug.net
+0.0.0.0 gosuslug.run
+0.0.0.0 gosusluga.su
+0.0.0.0 gosuslugee.ru
+0.0.0.0 gosuslugei.ru
+0.0.0.0 gosusluggi.site
+0.0.0.0 gosuslugh.ru
+0.0.0.0 gosuslughi.ru
+0.0.0.0 gosuslugi-16.ru
+0.0.0.0 gosuslugi-29.ru
+0.0.0.0 gosuslugi-api.ru
+0.0.0.0 gosuslugi-api.store
+0.0.0.0 gosuslugi-bashkortostan.ru
+0.0.0.0 gosuslugi-covid-cert-verify.ru
+0.0.0.0 gosuslugi-covid-certi-verify-9240000086999395.ru
+0.0.0.0 gosuslugi-covid-qr.ru
+0.0.0.0 gosuslugi-covid-sert.ru
+0.0.0.0 gosuslugi-covid19-cert.ru
+0.0.0.0 gosuslugi-covidcert.ru
+0.0.0.0 gosuslugi-engels.ru
+0.0.0.0 gosuslugi-gosnomera.ru
+0.0.0.0 gosuslugi-kazan.ru
+0.0.0.0 gosuslugi-kovid-19-test.ru
+0.0.0.0 gosuslugi-kultura.ru
+0.0.0.0 gosuslugi-nn.ru
+0.0.0.0 gosuslugi-nso.ru
+0.0.0.0 gosuslugi-pay.ru
+0.0.0.0 gosuslugi-payment.ru
+0.0.0.0 gosuslugi-qr.site
+0.0.0.0 gosuslugi-qrvac.ru
+0.0.0.0 gosuslugi-rb.ru
+0.0.0.0 gosuslugi-ru-covid-certverify950000002767499.space
+0.0.0.0 gosuslugi-ru.live
+0.0.0.0 gosuslugi-ru.social
+0.0.0.0 gosuslugi-ru.website
+0.0.0.0 gosuslugi-spb.ru
+0.0.0.0 gosuslugi-vaccination.ru
+0.0.0.0 gosuslugi-vaccine-verificate.online
+0.0.0.0 gosuslugi-vaccine-verificate.ru
+0.0.0.0 gosuslugi-vladimir.ru
+0.0.0.0 gosuslugi-vrn.ru
+0.0.0.0 gosuslugi.agency
+0.0.0.0 gosuslugi.asia
+0.0.0.0 gosuslugi.bid
+0.0.0.0 gosuslugi.casa
+0.0.0.0 gosuslugi.cfd
+0.0.0.0 gosuslugi.clinic
+0.0.0.0 gosuslugi.co.uk
+0.0.0.0 gosuslugi.contact
+0.0.0.0 gosuslugi.cymru
+0.0.0.0 gosuslugi.cyou
+0.0.0.0 gosuslugi.date
+0.0.0.0 gosuslugi.directory
+0.0.0.0 gosuslugi.express
+0.0.0.0 gosuslugi.fit
+0.0.0.0 gosuslugi.fyi
+0.0.0.0 gosuslugi.kim
+0.0.0.0 gosuslugi.life
+0.0.0.0 gosuslugi.live
+0.0.0.0 gosuslugi.network
+0.0.0.0 gosuslugi.page
+0.0.0.0 gosuslugi.quest
+0.0.0.0 gosuslugi.recipes
+0.0.0.0 gosuslugi.ruhr
+0.0.0.0 gosuslugi.shop
+0.0.0.0 gosuslugi.social
+0.0.0.0 gosuslugi.team
+0.0.0.0 gosuslugi.today
+0.0.0.0 gosuslugi.uk
+0.0.0.0 gosuslugi.wtf
+0.0.0.0 gosuslugi.xyz
+0.0.0.0 gosuslugi112.ru
+0.0.0.0 gosuslugi116.ru
+0.0.0.0 gosuslugi16.ru
+0.0.0.0 gosuslugi2.ru
+0.0.0.0 gosuslugi28.ru
+0.0.0.0 gosuslugi33.ru
+0.0.0.0 gosuslugi39.ru
+0.0.0.0 gosuslugi4.ru
+0.0.0.0 gosuslugi53.online
+0.0.0.0 gosuslugi53.ru
+0.0.0.0 gosuslugi59.ru
+0.0.0.0 gosuslugi59.xyz
+0.0.0.0 gosuslugi63.ru
+0.0.0.0 gosuslugianticovid.ru
+0.0.0.0 gosuslugic.ru
+0.0.0.0 gosuslugicode.ru
+0.0.0.0 gosuslugicovid-cert.ru
+0.0.0.0 gosuslugicovidnet.ru
+0.0.0.0 gosuslugie.online
+0.0.0.0 gosuslugigov.ru
+0.0.0.0 gosuslugih.ru
+0.0.0.0 gosuslugii-ru.ru
+0.0.0.0 gosuslugii.com
+0.0.0.0 gosuslugii.online
+0.0.0.0 gosuslugii.site
+0.0.0.0 gosuslugii1.ru
+0.0.0.0 gosuslugiinfo.ru
+0.0.0.0 gosuslugiiy.ru
+0.0.0.0 gosuslugikrymsk.ru
+0.0.0.0 gosuslugikursk.ru
+0.0.0.0 gosuslugim.ru
+0.0.0.0 gosuslugims.ru
+0.0.0.0 gosuslugipay.ru
+0.0.0.0 gosuslugiqrcode.ru
+0.0.0.0 gosuslugiru-covid-cert-virifu.ru
+0.0.0.0 gosuslugiru.link
+0.0.0.0 gosuslugiru.online
+0.0.0.0 gosuslugiru.site
+0.0.0.0 gosuslugirurf.ru
+0.0.0.0 gosuslugis.online
+0.0.0.0 gosuslugispb.ru
+0.0.0.0 gosuslugitatar.ru
+0.0.0.0 gosuslugitest.ru
+0.0.0.0 gosuslugiudmurtia.ru
+0.0.0.0 gosuslugiugi.ru
+0.0.0.0 gosuslugivacine.ru
+0.0.0.0 gosuslugivn.ru
+0.0.0.0 gosuslugivrn.ru
+0.0.0.0 gosuslugji.ru
+0.0.0.0 gosuslugl92.ru
+0.0.0.0 gosuslugli.fun
+0.0.0.0 gosusluglvl.ru
+0.0.0.0 gosuslugri.ru
+0.0.0.0 gosuslugt.ru
+0.0.0.0 gosuslugul.ru
+0.0.0.0 gosuslugv.ru
+0.0.0.0 gosuslugy-ru.ru
+0.0.0.0 gosuslugycovid.ru
+0.0.0.0 gosusluigi.site
+0.0.0.0 gosusluigii.ru
+0.0.0.0 gosuslungi.ru
+0.0.0.0 gosusluslugi.ru
+0.0.0.0 gosusluugl.ru
+0.0.0.0 gosuslvgii.ru
+0.0.0.0 gosuslyggi.ru
+0.0.0.0 gosuslygi-ru.ru
+0.0.0.0 gosuslygi.website
+0.0.0.0 gosuslygiy.ru
+0.0.0.0 gosusnugi.ru
+0.0.0.0 gosusolugi.ru
+0.0.0.0 gosusrugi.ru
+0.0.0.0 gosussluga.ru
+0.0.0.0 gosusslugi.net
+0.0.0.0 gosusslugi.site
+0.0.0.0 gosusslugi.space
+0.0.0.0 gosusslugi.xyz
+0.0.0.0 gosusslugii.ru
+0.0.0.0 gosusslugy.ru
+0.0.0.0 gosusslygi.ru
+0.0.0.0 gosustluga.ru
+0.0.0.0 gosustugi.su
+0.0.0.0 gosusugi.site
+0.0.0.0 gosusugiru.ru
+0.0.0.0 gosusugli.ru
+0.0.0.0 gosususlugi.ru
+0.0.0.0 gosusygi.ru
+0.0.0.0 gosuyslugi.ru
+0.0.0.0 gosuyslugl.ru
+0.0.0.0 gosuyslygi.ru
+0.0.0.0 gosuzslugi.ru
+0.0.0.0 gosvsiugi.ru
+0.0.0.0 gosyclugi.ru
+0.0.0.0 gosyclygi.ru
+0.0.0.0 gosys1ugi.ru
+0.0.0.0 gosysllygi.ru
+0.0.0.0 gosysllygi.store
+0.0.0.0 gosyslugi.su
+0.0.0.0 gosyslugi.xyz
+0.0.0.0 gosyslygi.online
 0.0.0.0 got-btc.com
 0.0.0.0 got-eth.com
 0.0.0.0 got-mick.com
@@ -43417,7 +43393,6 @@
 0.0.0.0 goymotions.com
 0.0.0.0 goyqospy.qijvipapv.fastsize.ru
 0.0.0.0 gp-enterprise.in
-# 0.0.0.0 gp.org Issue 453
 0.0.0.0 gpalmerandassociates.com
 0.0.0.0 gpatbd.com
 0.0.0.0 gpayconnect.com
@@ -43928,6 +43903,7 @@
 0.0.0.0 grosirgamisfashion.com
 0.0.0.0 grosirgamissyari.com
 0.0.0.0 grosirpayungpromosi.com
+0.0.0.0 grosuslugi.ru
 0.0.0.0 grotesque-majority.000webhostapp.com
 0.0.0.0 grotown.com
 0.0.0.0 grottes-de-saulges.com
@@ -44572,8 +44548,6 @@
 0.0.0.0 gzs0668.com
 0.0.0.0 gzycvq.site
 0.0.0.0 gzymca.org
-0.0.0.0 h_t_t_p_s.facebook.com.3s3s.ru
-0.0.0.0 h_t_t_p_s.www.facebook.com.3s3s.ru
 0.0.0.0 h-c.name
 0.0.0.0 h-dropbox.com
 0.0.0.0 h-e-a-r-t-s.org
@@ -44607,6 +44581,8 @@
 0.0.0.0 h72-7za-77.net
 0.0.0.0 h8invpbw.life
 0.0.0.0 h9consulting.com
+0.0.0.0 h_t_t_p_s.facebook.com.3s3s.ru
+0.0.0.0 h_t_t_p_s.www.facebook.com.3s3s.ru
 0.0.0.0 ha-pharma.com
 0.0.0.0 ha3nyiusz.com
 0.0.0.0 ha859.com
@@ -45633,6 +45609,7 @@
 0.0.0.0 hellosilk.com
 0.0.0.0 hellosmartsense.com
 0.0.0.0 hellosms.getforge.io
+0.0.0.0 hellothere.shop
 0.0.0.0 hellotohealth.co.uk
 0.0.0.0 hellpsupport.ga.getvanillagifts.com
 0.0.0.0 helmersorganic.ca
@@ -47558,6 +47535,7 @@
 0.0.0.0 hovi.org.mx
 0.0.0.0 hovlero.org
 0.0.0.0 hovpss.site
+0.0.0.0 hovrecording.com
 0.0.0.0 how-to-catch-my-husband-cheating.pen.io
 0.0.0.0 how-to-get-prospects.com
 0.0.0.0 how-to-make-money-easily.com
@@ -48740,6 +48718,8 @@
 0.0.0.0 i-dsnrnbzd.net
 0.0.0.0 i-engineerprior.icu
 0.0.0.0 i-feel-free.com
+0.0.0.0 i-gosusiugl.ru
+0.0.0.0 i-gosuslygi.ru
 0.0.0.0 i-house.se
 0.0.0.0 i-i4.ga
 0.0.0.0 i-idex.market
@@ -49848,6 +49828,7 @@
 0.0.0.0 igips.org
 0.0.0.0 igis.n.maxgrowth.ru
 0.0.0.0 igiveittoyou.com
+0.0.0.0 igiz.info
 0.0.0.0 igjsohg.com
 0.0.0.0 igkcj.qufewec.yi.org
 0.0.0.0 iglesiadc.com
@@ -49870,6 +49851,7 @@
 0.0.0.0 igorgraciejiujitsu.com
 0.0.0.0 igormaric.com
 0.0.0.0 igossi.com
+0.0.0.0 igosuslugi.ru
 0.0.0.0 igotapple.online
 0.0.0.0 igotrip.info
 0.0.0.0 igpaccreditation.org
@@ -50299,6 +50281,7 @@
 0.0.0.0 immobip.com
 0.0.0.0 immonieruchomosci.pl
 0.0.0.0 immoscout24.ch-log.info
+0.0.0.0 immune-gosuslugi.ru
 0.0.0.0 immxalapa.gob.mx
 0.0.0.0 imnec.com.br
 0.0.0.0 imnlfa.site
@@ -50448,7 +50431,6 @@
 0.0.0.0 imsolutions.id
 0.0.0.0 imssupplements.com
 0.0.0.0 imstagram-log.000webhostapp.com
-# 0.0.0.0 imsva91-ctp.trendmicro.com Issue 102
 0.0.0.0 imt-inc.com
 0.0.0.0 imtheboss.org
 0.0.0.0 imtmn.edu.bd
@@ -51080,7 +51062,6 @@
 0.0.0.0 infrc2206.000webhostapp.com
 0.0.0.0 infusion.pbphgwbr.in
 0.0.0.0 infusorian-altimete.000webhostapp.com
-# 0.0.0.0 ing-diba.de Issue 169
 0.0.0.0 ing.inactividad.online
 0.0.0.0 ing8f7c6czvu8gf7cv9hg8.top
 0.0.0.0 ingappupdate.com
@@ -54915,6 +54896,7 @@
 0.0.0.0 jsystem.org
 0.0.0.0 jt.e.maxgrowth.ru
 0.0.0.0 jt.vhvpybze.in
+0.0.0.0 jt2v.com
 0.0.0.0 jtattoo.com.br
 0.0.0.0 jtayl.org
 0.0.0.0 jtbconst.com
@@ -55830,6 +55812,7 @@
 0.0.0.0 kaz.jlxnesex.in
 0.0.0.0 kazabubbletea.id
 0.0.0.0 kazakhstan-embassy.be
+0.0.0.0 kazan-gosuslugi.ru
 0.0.0.0 kazanankampanya.net
 0.0.0.0 kazanankampanya.org
 0.0.0.0 kazanhram.ru
@@ -56201,6 +56184,7 @@
 0.0.0.0 keystonelawgroup.com
 0.0.0.0 keystotheguesthouse.com
 0.0.0.0 keywestjobs.co.uk
+0.0.0.0 keyyppoint08.com
 0.0.0.0 kfb.kz
 0.0.0.0 kfcc.com.na
 0.0.0.0 kfcckk.com
@@ -57512,7 +57496,6 @@
 0.0.0.0 kurularinsaat.com.tr
 0.0.0.0 kurwa-mac.com
 0.0.0.0 kurz-permanentmakeup.sk
-# 0.0.0.0 kurzelinks.de Issue 124
 0.0.0.0 kuser.usa.cc
 0.0.0.0 kushadangahs.edu.bd
 0.0.0.0 kushalengineersinc.com
@@ -57655,6 +57638,7 @@
 0.0.0.0 l-assurance-maladie-gouv-fr-particuliers.bks.edu.bd
 0.0.0.0 l-assurance-maladie-gouv-public.fr-particuliers.playgolfbali.com
 0.0.0.0 l-electrum.org
+0.0.0.0 l-gosuslugi.ru
 0.0.0.0 l-images-amazon.com
 0.0.0.0 l-jaxx.io
 0.0.0.0 l-lcloud-apple.com
@@ -57696,6 +57680,7 @@
 0.0.0.0 l5z.secureintl.com
 0.0.0.0 l6z.secureintl.com
 0.0.0.0 l7ghzedl-site.btempurl.com
+0.0.0.0 l7its4.webwave.dev
 0.0.0.0 l7z.secureintl.com
 0.0.0.0 l8omwpsh-site.itempurl.com
 0.0.0.0 l8z.secureintl.com
@@ -57729,7 +57714,6 @@
 0.0.0.0 labanquepostale.fr.informations-personnelles008.com
 0.0.0.0 labanquepostale.fr.kenandkentlawyers.com
 0.0.0.0 labares.com.br
-# 0.0.0.0 labason.gov.ph
 0.0.0.0 labdaiven.com
 0.0.0.0 labelgallery.net
 0.0.0.0 labelkaret.com
@@ -58628,7 +58612,6 @@
 0.0.0.0 ldcwatch.org
 0.0.0.0 ldcx.market
 0.0.0.0 ldcxmanket.com
-# 0.0.0.0 ldex.exchange Issue 105
 0.0.0.0 ldexmarket.com
 0.0.0.0 ldfa.ml
 0.0.0.0 ldgsx9yg0l2ukppof9ni.utahelkwhisperer.com
@@ -60942,6 +60925,7 @@
 0.0.0.0 loquesignifica.com
 0.0.0.0 loraepptonline.org
 0.0.0.0 loranvolgodonsk.ru
+0.0.0.0 loratech.pe
 0.0.0.0 lorawed.co.uk
 0.0.0.0 lorax.mx
 0.0.0.0 lordlier-introducti.000webhostapp.com
@@ -61633,6 +61617,7 @@
 0.0.0.0 m-ebay-supports.com
 0.0.0.0 m-ebays.com
 0.0.0.0 m-f-s.cwsurf.de
+0.0.0.0 m-gosuslugii.ru
 0.0.0.0 m-mehr.us
 0.0.0.0 m-mtuning.de
 0.0.0.0 m-owa-unil-ch.weebly.com
@@ -62566,6 +62551,7 @@
 0.0.0.0 main-hosting-server2.x24hr.com
 0.0.0.0 main-hosting-server3.x24hr.com
 0.0.0.0 main-myetherwallet.com
+0.0.0.0 main-newxz-orluttbx33b1bcng-gtw.qovery.io
 0.0.0.0 main.cantons.lu
 0.0.0.0 main.iqbs.com.au
 0.0.0.0 main.lanfa.com.tw
@@ -64303,6 +64289,7 @@
 0.0.0.0 me-petrini.com
 0.0.0.0 me.undip.ac.id
 0.0.0.0 me007.beget.tech
+0.0.0.0 me2.do
 0.0.0.0 me2disk.icu
 0.0.0.0 mea.co.kr
 0.0.0.0 meade.co.za
@@ -65493,8 +65480,6 @@
 0.0.0.0 microsharepointdoc.us
 0.0.0.0 microsoff.000webhostapp.com
 0.0.0.0 microsofoutlook.uk
-0.0.0.0 microsoft_excel.de.downloadastro.com
-0.0.0.0 microsoft_outlook2018.editor.multiscreensite.com
 0.0.0.0 microsoft-document-mxsecuredfile.000webhostapp.com
 0.0.0.0 microsoft-excel-online.com
 0.0.0.0 microsoft-excel-sharepoint.com
@@ -65522,6 +65507,8 @@
 0.0.0.0 microsoft2018.cdhost.com
 0.0.0.0 microsoft365-secured-documentfile.000webhostapp.com
 0.0.0.0 microsoft831-software.moonfruit.com
+0.0.0.0 microsoft_excel.de.downloadastro.com
+0.0.0.0 microsoft_outlook2018.editor.multiscreensite.com
 0.0.0.0 microsoftaccountupdate.cicpc.com
 0.0.0.0 microsoftangleonlineaccess.com.yolasite.com
 0.0.0.0 microsoftcom1234.000webhostapp.com
@@ -67183,6 +67170,7 @@
 0.0.0.0 mosamamashad.com
 0.0.0.0 moscamedia.com
 0.0.0.0 moscow-fitness.ru
+0.0.0.0 moscow-gosuslugi.online
 0.0.0.0 moscowcitypro.ru
 0.0.0.0 moscowdonkey.com
 0.0.0.0 moscowfitnes.ru
@@ -69159,7 +69147,6 @@
 0.0.0.0 nab.activateaccount.info
 0.0.0.0 nab.bank-confirmation.in
 0.0.0.0 nab.bank-verification.info
-# 0.0.0.0 nab.com.au #547
 0.0.0.0 nab.com.au-66c28750.national-australia-bank-179602f4.3inatree.com.au
 0.0.0.0 nab.com.au.device-confirm.services
 0.0.0.0 nab.com.au.lawrencepur.com
@@ -69718,7 +69705,6 @@
 0.0.0.0 ncorecreative.com
 0.0.0.0 ncp.kjukenhi.in
 0.0.0.0 ncqcqh.com
-# 0.0.0.0 ncr.csc.gov.ph
 0.0.0.0 ncrealestatedata.com
 0.0.0.0 ncrefrigeracao.com.br
 0.0.0.0 ncrgifts.com
@@ -69772,7 +69758,6 @@
 0.0.0.0 ne.xaoujti.maxgrowth.ru
 0.0.0.0 ne1co.info
 0.0.0.0 ne2beroas.godaddysites.com
-# 0.0.0.0 nea.gov.ph
 0.0.0.0 neagenea.gr
 0.0.0.0 neaindustrias.com
 0.0.0.0 neajrmcl.tk
@@ -70357,7 +70342,6 @@
 0.0.0.0 netflixproo.com
 0.0.0.0 netflixquebec.com
 0.0.0.0 netflixrate.com
-# 0.0.0.0 netflixreality.com
 0.0.0.0 netflixreanimate.com
 0.0.0.0 netflixrecadastro.com
 0.0.0.0 netflixrehberi.com
@@ -72007,7 +71991,6 @@
 0.0.0.0 npmghs.edu.bd
 0.0.0.0 npoforum.ru
 0.0.0.0 npp89.ddnsgeek.com
-# 0.0.0.0 nppa.com.au Flase Positive
 0.0.0.0 npumatlanta.org
 0.0.0.0 npv.com.ve
 0.0.0.0 npvkdy.site
@@ -73010,6 +72993,7 @@
 0.0.0.0 office-shield.com
 0.0.0.0 office-supports.xyz
 0.0.0.0 office-thoma.net
+0.0.0.0 office-un-peacekeeping.com
 0.0.0.0 office-update2018.info
 0.0.0.0 office-workspace.com
 0.0.0.0 office.argo-limited.com
@@ -73070,7 +73054,6 @@
 0.0.0.0 officecoffeedenver.com
 0.0.0.0 officeconnect365.tk
 0.0.0.0 officed12.000webhostapp.com
-0.0.0.0 office-un-peacekeeping.com
 0.0.0.0 officedeskmanageme.wixsite.com
 0.0.0.0 officeforyou.co.jp
 0.0.0.0 officeinnovations.co.za
@@ -74342,7 +74325,6 @@
 0.0.0.0 oraman.eu
 0.0.0.0 oraneconsulting.com
 0.0.0.0 oranemail2018.weebly.com
-0.0.0.0 orange_identifiezvous1.godaddysites.com
 0.0.0.0 orange-cloud.messageriepro3.com
 0.0.0.0 orange-connexion.weebly.com
 0.0.0.0 orange-email.org
@@ -74412,6 +74394,7 @@
 0.0.0.0 orange55426.weebly.com
 0.0.0.0 orange68.godaddysites.com
 0.0.0.0 orange8.godaddysites.com
+0.0.0.0 orange_identifiezvous1.godaddysites.com
 0.0.0.0 orangeandbronze.com
 0.0.0.0 orangeavontuur.com
 0.0.0.0 orangebags.in
@@ -75098,8 +75081,8 @@
 0.0.0.0 outlooksystems.com
 0.0.0.0 outlookteam.com
 0.0.0.0 outlooktechnicalhelpline.com
-0.0.0.0 outlookupdate_team.editor.multiscreensite.com
 0.0.0.0 outlookupdate-help-desk.ukit.me
+0.0.0.0 outlookupdate_team.editor.multiscreensite.com
 0.0.0.0 outlookusersupport.com
 0.0.0.0 outlookvet.com
 0.0.0.0 outlookvipcn.com
@@ -75375,6 +75358,7 @@
 0.0.0.0 ozyiud.jjletk.fastsize.ru
 0.0.0.0 ozzenproje.com
 0.0.0.0 ozziedeals.com.au
+0.0.0.0 ozzon-mobi-age.com
 0.0.0.0 p-alfred-m-worrall-dot-yamm-track.appspot.com
 0.0.0.0 p-ay-mail-support-pal-summry.com
 0.0.0.0 p-eos.io
@@ -80789,6 +80773,7 @@
 0.0.0.0 premiumnetflixuser.com
 0.0.0.0 premiumpatioproducts.com
 0.0.0.0 premiumplan.hr
+0.0.0.0 premiums-gift.com
 0.0.0.0 premiumsepet.com
 0.0.0.0 premiumservicios.net
 0.0.0.0 premiumsitedesigns.ca
@@ -81688,7 +81673,6 @@
 0.0.0.0 prospectscientific.com
 0.0.0.0 prosperbizdepot.com
 0.0.0.0 prosperchannel.com
-# 0.0.0.0 prosperidad.gov.ph
 0.0.0.0 prosperous.szlftjcm.in
 0.0.0.0 prossrtys.000webhostapp.com
 0.0.0.0 prostarwiki.com
@@ -82633,6 +82617,7 @@
 0.0.0.0 qqq.ezrasp.com
 0.0.0.0 qqqqwwqad.roanokekappas.com
 0.0.0.0 qqqyoutube.com
+0.0.0.0 qr-info-gosuslugi.ru
 0.0.0.0 qr38pj.c1l.us
 0.0.0.0 qratyebocoza.000webhostapp.com
 0.0.0.0 qrbrmt.site
@@ -83881,6 +83866,7 @@
 0.0.0.0 realestateinluxor.com
 0.0.0.0 realestateinsarasotabradenton.com
 0.0.0.0 realestatelolo.com
+0.0.0.0 realestatemashahir.ir
 0.0.0.0 realestateoptionscourse.com
 0.0.0.0 realestatestevensville.com
 0.0.0.0 realevents.flu.cc
@@ -84477,8 +84463,6 @@
 0.0.0.0 reginaldthompson.net
 0.0.0.0 regiojardines.com
 0.0.0.0 regiollanta.mx
-# 0.0.0.0 region12.dilg.gov.ph
-# 0.0.0.0 region3.dilg.gov.ph
 0.0.0.0 regionkozla.pl
 0.0.0.0 regionmaya.com.mx
 0.0.0.0 regionmorges.ch
@@ -84802,7 +84786,6 @@
 0.0.0.0 renovarapometria.com
 0.0.0.0 renovation4all.gr
 0.0.0.0 renovationkingdom.com
-# 0.0.0.0 renovationkingdom.com.au Issue 207
 0.0.0.0 renovationsincalgary.com
 0.0.0.0 renowala.com
 0.0.0.0 renownunited.com.au
@@ -85154,7 +85137,6 @@
 0.0.0.0 retreg.duckdns.org
 0.0.0.0 retrievalmagnetics.com
 0.0.0.0 retriever.pbphgwbr.in
-# 0.0.0.0 retro-bit.com Issue 153
 0.0.0.0 retroamusements.com.au
 0.0.0.0 retrobacklore.net
 0.0.0.0 retrodungeon.net
@@ -85970,6 +85952,7 @@
 0.0.0.0 robinsonconstructioncom-my.sharepoint.com
 0.0.0.0 robiul.site.aplus.net
 0.0.0.0 robledoweb.es
+0.0.0.0 roblox.com.sc
 0.0.0.0 robloxfreerobux1.000webhostapp.com
 0.0.0.0 roboarctica.ru
 0.0.0.0 robohon.robotstart.jp
@@ -86190,7 +86173,6 @@
 0.0.0.0 romarestaurantbridgwater.co.uk
 0.0.0.0 romastone.vn
 0.0.0.0 romblon.esti.edu.ph
-# 0.0.0.0 romblonwaterdistrict.gov.ph
 0.0.0.0 rome-apartments-it.com
 0.0.0.0 romehigie.com.br
 0.0.0.0 romeo.3.goodway.phenixcustomers.co.uk
@@ -87049,7 +87031,6 @@
 0.0.0.0 s8gvjf74.life
 0.0.0.0 s93405752.onlinehome.us
 0.0.0.0 sa-cd.org
-0.0.0.0 safetystudy1.biz
 0.0.0.0 sa-electric.com
 0.0.0.0 sa-foods.com
 0.0.0.0 sa-led.com.au
@@ -87345,6 +87326,7 @@
 0.0.0.0 safetyshippingwolrd.com
 0.0.0.0 safetyshops.com
 0.0.0.0 safetysolutionssoftware.com.au
+0.0.0.0 safetystudy1.biz
 0.0.0.0 safetyverifyfree.com
 0.0.0.0 safetyworkla.com
 0.0.0.0 safewater.rotary9350.co.za
@@ -95600,6 +95582,7 @@
 0.0.0.0 steancomnunuity.com
 0.0.0.0 steanconmunultu.com
 0.0.0.0 stearncommunily.com
+0.0.0.0 stearncornmunity.ru.com
 0.0.0.0 steccotoys.com.au
 0.0.0.0 stedelijk-interieur.com
 0.0.0.0 stedwardonthelakeschool.com
@@ -98313,7 +98296,6 @@
 0.0.0.0 taladkhao.com
 0.0.0.0 taladrizcargo.cl
 0.0.0.0 talagram.ir
-# 0.0.0.0 talaingod.gov.ph
 0.0.0.0 talak.usa.cc
 0.0.0.0 talal-int.com
 0.0.0.0 talamos.co.il
@@ -100790,7 +100772,6 @@
 0.0.0.0 tianweihk.com
 0.0.0.0 tianyingsport.com
 0.0.0.0 tianyuwenxue.zzcn.org
-# 0.0.0.0 tiaongwaterdistrict.gov.ph
 0.0.0.0 tiara.szlftjcm.in
 0.0.0.0 tiaradewi827.000webhostapp.com
 0.0.0.0 tiasentosa.co.id
@@ -101847,6 +101828,7 @@
 0.0.0.0 tracking.moca-tech.net
 0.0.0.0 tracking.woodgatecomputers.com
 0.0.0.0 tracking4web.com
+0.0.0.0 trackital.checkposttt.top
 0.0.0.0 trackonic.com
 0.0.0.0 trackservice.com.pe
 0.0.0.0 trackshackapp.com
@@ -103419,6 +103401,8 @@
 0.0.0.0 ueywewewwc.com
 0.0.0.0 uf.vhvpybze.in
 0.0.0.0 ufa-betontrest.ru
+0.0.0.0 ufa-gosuslugi.ru
+0.0.0.0 ufesif.com
 0.0.0.0 ufhdl.tk
 0.0.0.0 ufidopayli.com
 0.0.0.0 ufioi.org
@@ -105565,6 +105549,7 @@
 0.0.0.0 venturaluca.com
 0.0.0.0 venturaparts.com.br
 0.0.0.0 venturasolutionsivs.com
+0.0.0.0 venture7program.biz
 0.0.0.0 venturecapitalwestencino.com
 0.0.0.0 venturelli.ro
 0.0.0.0 venturemarketings.com
@@ -105871,6 +105856,7 @@
 0.0.0.0 verify-dispute.me-webappsid25757656712.com
 0.0.0.0 verify-email.xyz
 0.0.0.0 verify-findmyapple.com
+0.0.0.0 verify-gosuslugi.ru
 0.0.0.0 verify-host-x-support-bankofamerica.rsud.banjarnegarakab.go.id
 0.0.0.0 verify-icloud.com
 0.0.0.0 verify-icloud.info
@@ -106243,6 +106229,7 @@
 0.0.0.0 vgk.kjukenhi.in
 0.0.0.0 vgmusic.com
 0.0.0.0 vgontlakte.webservis.ru
+0.0.0.0 vgosuslugi.ru
 0.0.0.0 vgpecoxbo.xypiuayov.maxgrowth.ru
 0.0.0.0 vgqovb.site
 0.0.0.0 vgrafico.cl
@@ -109138,6 +109125,7 @@
 0.0.0.0 wgeltd.co.uk
 0.0.0.0 wgimoveis-al.com.br
 0.0.0.0 wgocob.site
+0.0.0.0 wgosuslugi.ru
 0.0.0.0 wgsseguroserastreamento.com.br
 0.0.0.0 wh-apple.info
 0.0.0.0 wh.meegmfio.in
@@ -110293,7 +110281,6 @@
 0.0.0.0 wwvv-apple.com
 0.0.0.0 wwvv.vlabcep.pet
 0.0.0.0 wwvwsantandermobiile.com
-0.0.0.0 www_calxa.economlcafederai.cf
 0.0.0.0 www---apple.com
 0.0.0.0 www--facebook.com
 0.0.0.0 www--paypal.com
@@ -110321,6 +110308,9 @@
 0.0.0.0 www-fb.business-case10009791.help
 0.0.0.0 www-findmyiphone.com
 0.0.0.0 www-google-com-0017174001usermail.duckdns.org
+0.0.0.0 www-gos-uslugi.ru
+0.0.0.0 www-gosuslugi-certificat.ru
+0.0.0.0 www-gosuslugil.ru
 0.0.0.0 www-hsbc-com-mx-personal.grassandgrass01.com
 0.0.0.0 www-icloud-location.com
 0.0.0.0 www-icloud-support.info
@@ -115655,7 +115645,6 @@
 0.0.0.0 www.andakara.com
 0.0.0.0 www.andalbagat.net
 0.0.0.0 www.andaniandpartners.com
-# 0.0.0.0 www.andapangasinan.gov.ph
 0.0.0.0 www.andasuvi.com.br
 0.0.0.0 www.andean-receipt.000webhostapp.com
 0.0.0.0 www.andeankingdomhuaraz.com
@@ -116108,7 +116097,6 @@
 0.0.0.0 www.apalkf.cf
 0.0.0.0 www.apapple.com
 0.0.0.0 www.aparnasinha.com
-# 0.0.0.0 www.aparriwaterdistrict.gov.ph
 0.0.0.0 www.apartamentosasturias.net
 0.0.0.0 www.apartamentoturisticogranada.es
 0.0.0.0 www.apartcar.com.ar
@@ -121043,7 +121031,6 @@
 0.0.0.0 www.balasdecocoribeirao.com.br
 0.0.0.0 www.balatonmeats.com
 0.0.0.0 www.balaw.ec
-# 0.0.0.0 www.balaymalaueg.gov.ph
 0.0.0.0 www.balazhimim.id
 0.0.0.0 www.balba.mx
 0.0.0.0 www.balbet.ro
@@ -122253,7 +122240,6 @@
 0.0.0.0 www.bespokemediadubai.com
 0.0.0.0 www.bessiesim.club
 0.0.0.0 www.best-air.co.il
-# 0.0.0.0 www.best-cons.ru Issue 190
 0.0.0.0 www.best-detox.com
 0.0.0.0 www.best-digital-slr-cameras.com
 0.0.0.0 www.best-drop.me
@@ -124921,7 +124907,6 @@
 0.0.0.0 www.byginobianchi.com
 0.0.0.0 www.byktol.com
 0.0.0.0 www.byliza.com
-# 0.0.0.0 www.byloth.net Issue #266
 0.0.0.0 www.bymabogados.cl
 0.0.0.0 www.bymail.cl
 0.0.0.0 www.bynow.com.br
@@ -125133,7 +125118,6 @@
 0.0.0.0 www.cal-family.com
 0.0.0.0 www.calabashawnings.co.uk
 0.0.0.0 www.caladrius.com.au
-# 0.0.0.0 www.calambamisocc.gov.ph
 0.0.0.0 www.calamo.org.mx
 0.0.0.0 www.calaosafari.com
 0.0.0.0 www.calaproduct.com
@@ -125571,7 +125555,6 @@
 0.0.0.0 www.cardionova.in
 0.0.0.0 www.cardnanny.com
 0.0.0.0 www.cardoctormobile.com
-# 0.0.0.0 www.cardonarizal.gov.ph
 0.0.0.0 www.cardozos.com
 0.0.0.0 www.cardplanetindia.com
 0.0.0.0 www.cardplumbing.com
@@ -128902,7 +128885,6 @@
 0.0.0.0 www.conservational-book.000webhostapp.com
 0.0.0.0 www.conservativebabylon.com
 0.0.0.0 www.conservativetones.com
-# 0.0.0.0 www.conservatorio.tn.it Issue 142
 0.0.0.0 www.conservatoriodemotril.com
 0.0.0.0 www.conserved-downgrade.000webhostapp.com
 0.0.0.0 www.consignadosantander.com.br
@@ -133166,7 +133148,6 @@
 0.0.0.0 www.dulp.ru
 0.0.0.0 www.duluti.com.br
 0.0.0.0 www.duluxshop.lk
-# 0.0.0.0 www.dumalinao.gov.ph
 0.0.0.0 www.dumbplans.gq
 0.0.0.0 www.dumbplans.ml
 0.0.0.0 www.dumbrell.com
@@ -141506,8 +141487,6 @@
 0.0.0.0 www.gzpybbs.com
 0.0.0.0 www.gzs0668.com
 0.0.0.0 www.gzymca.org
-0.0.0.0 www.h_t_t_p_s.facebook.com.3s3s.ru
-0.0.0.0 www.h_t_t_p_s.www.facebook.com.3s3s.ru
 0.0.0.0 www.h-dropbox.com
 0.0.0.0 www.h-e-a-r-t-s.org
 0.0.0.0 www.h-herms.es
@@ -141528,6 +141507,8 @@
 0.0.0.0 www.h5.com.br
 0.0.0.0 www.h5construtora.com.br
 0.0.0.0 www.h72-7za-77.net
+0.0.0.0 www.h_t_t_p_s.facebook.com.3s3s.ru
+0.0.0.0 www.h_t_t_p_s.www.facebook.com.3s3s.ru
 0.0.0.0 www.ha-pharma.com
 0.0.0.0 www.ha859.com
 0.0.0.0 www.haad.ba
@@ -150060,7 +150041,6 @@
 0.0.0.0 www.lab2a.ma
 0.0.0.0 www.labanquepostale-securitee.com
 0.0.0.0 www.labanquepostale.fr.kenandkentlawyers.com
-# 0.0.0.0 www.labason.gov.ph
 0.0.0.0 www.labbet.fi
 0.0.0.0 www.labelgallery.net
 0.0.0.0 www.labella-lodge.com
@@ -158362,7 +158342,6 @@
 0.0.0.0 www.netflixproo.com
 0.0.0.0 www.netflixquebec.com
 0.0.0.0 www.netflixrate.com
-# 0.0.0.0 www.netflixreality.com
 0.0.0.0 www.netflixreanimate.com
 0.0.0.0 www.netflixrecadastro.com
 0.0.0.0 www.netflixrehberi.com
@@ -165366,7 +165345,6 @@
 0.0.0.0 www.prospectscientific.com
 0.0.0.0 www.prosperbizdepot.com
 0.0.0.0 www.prosperchannel.com
-# 0.0.0.0 www.prosperidad.gov.ph
 0.0.0.0 www.prostatasaludable.com
 0.0.0.0 www.prostate-snip-bronchi.com
 0.0.0.0 www.prostatitiscanada.ca
@@ -167129,8 +167107,6 @@
 0.0.0.0 www.regidorpuebla.org.mx
 0.0.0.0 www.regina318.000webhostapp.com
 0.0.0.0 www.reginadorsey.com
-# 0.0.0.0 www.region12.dilg.gov.ph
-# 0.0.0.0 www.region3.dilg.gov.ph
 0.0.0.0 www.regionkozla.pl
 0.0.0.0 www.regionmaya.com.mx
 0.0.0.0 www.regishops.com
@@ -167333,7 +167309,6 @@
 0.0.0.0 www.renovarapometria.com
 0.0.0.0 www.renovation4all.gr
 0.0.0.0 www.renovationkingdom.com
-# 0.0.0.0 www.renovationkingdom.com.au Issue 207
 0.0.0.0 www.renowala.com
 0.0.0.0 www.renren-project.eu
 0.0.0.0 www.rensalbrothers.com
@@ -167566,7 +167541,6 @@
 0.0.0.0 www.retreatatoceanview.com.au
 0.0.0.0 www.retreg.duckdns.org
 0.0.0.0 www.retrievalmagnetics.com
-# 0.0.0.0 www.retro-bit.com Issue 153
 0.0.0.0 www.retrobacklore.net
 0.0.0.0 www.retrodungeon.net
 0.0.0.0 www.retrographics.net
@@ -168256,7 +168230,6 @@
 0.0.0.0 www.romantulis.ca
 0.0.0.0 www.romarestaurantbridgwater.co.uk
 0.0.0.0 www.romastone.vn
-# 0.0.0.0 www.romblonwaterdistrict.gov.ph
 0.0.0.0 www.rome-apartments-it.com
 0.0.0.0 www.romeo.3.goodway.phenixcustomers.co.uk
 0.0.0.0 www.romeo.4.goodway.phenixcustomers.co.uk
@@ -174571,7 +174544,6 @@
 0.0.0.0 www.stor-apple.com
 0.0.0.0 www.stora-design.ru
 0.0.0.0 www.stora.contentprovider.biz
-# 0.0.0.0 www.storage.googleapis.com Issue 95
 0.0.0.0 www.storagepinetown.co.za
 0.0.0.0 www.store-amazon.com
 0.0.0.0 www.store-apple.msk.ru
@@ -175939,7 +175911,6 @@
 0.0.0.0 www.taktonet.pl
 0.0.0.0 www.takumi-system.biz
 0.0.0.0 www.taladkhao.com
-# 0.0.0.0 www.talaingod.gov.ph
 0.0.0.0 www.talal-int.com
 0.0.0.0 www.talamos.co.il
 0.0.0.0 www.talampayaexc.tur.ar
@@ -177717,7 +177688,6 @@
 0.0.0.0 www.tianarafidy.ca
 0.0.0.0 www.tianyingsport.com
 0.0.0.0 www.tianyuwenxue.zzcn.org
-# 0.0.0.0 www.tiaongwaterdistrict.gov.ph
 0.0.0.0 www.tiaradewi827.000webhostapp.com
 0.0.0.0 www.tiasentosa.co.id
 0.0.0.0 www.tibatrade.com
@@ -186337,7 +186307,6 @@
 0.0.0.0 www.zam.co.in
 0.0.0.0 www.zamanlar2.com
 0.0.0.0 www.zambile.ro
-# 0.0.0.0 www.zamboangadelsur.gov.ph
 0.0.0.0 www.zambrano1.000webhostapp.com
 0.0.0.0 www.zamburi.ro
 0.0.0.0 www.zamektoszek.eu
@@ -187040,6 +187009,7 @@
 0.0.0.0 www993365.com
 0.0.0.0 www997.redneckinthesouth.nellgabrielle.com
 0.0.0.0 www997.xiomaragaston.nellgabrielle.com
+0.0.0.0 www_calxa.economlcafederai.cf
 0.0.0.0 wwwameli-remboursementportail.info
 0.0.0.0 wwwanzconz.000webhostapp.com
 0.0.0.0 wwwapplecaremedical.com
@@ -187154,6 +187124,7 @@
 0.0.0.0 wwwfacebookenespanol.com
 0.0.0.0 wwwfilecom.000webhostapp.com
 0.0.0.0 wwwfreefacebook.com
+0.0.0.0 wwwgosuslugj.ru
 0.0.0.0 wwwhealicomcom.000webhostapp.com
 0.0.0.0 wwwhg005.com
 0.0.0.0 wwwhg0055a.com
@@ -187709,7 +187680,9 @@
 0.0.0.0 xn----8sbaknp8abxgk2evf.xn--p1ai
 0.0.0.0 xn----8sbehf6ahnvdhiqld5lwba.xn--p1ai
 0.0.0.0 xn----8sbemcnfrgsgpvo1l.xn--p1ai
+0.0.0.0 xn----8sbhabmswnjffb4aeag2ac.xn--p1ai
 0.0.0.0 xn----8sbloncvndlhq7j.xn--p1ai
+0.0.0.0 xn----etbaunrsdatce.xn--p1ai
 0.0.0.0 xn----etbdcbue1abmpfcfx4o.xn--p1ai
 0.0.0.0 xn----itbjab7adkacocegb9etd2c.xn--p1ai
 0.0.0.0 xn---82-qdd0akcfirgv4j.xn--p1ai
@@ -187857,6 +187830,10 @@
 0.0.0.0 xn--bockclnain-eyb.info
 0.0.0.0 xn--bttrx-7ra5a.com
 0.0.0.0 xn--bw-ban-8bb.com
+0.0.0.0 xn--c1aapamrvaatca.xn--p1ai
+0.0.0.0 xn--c1aapkosob.xn--p1ai
+0.0.0.0 xn--c1aapkosp.xn--p1ai
+0.0.0.0 xn--c1aapwflapc.xn--p1ai
 0.0.0.0 xn--c3c1azabee2eb0exfsa5ftc.com
 0.0.0.0 xn--cebook-2tb24m.com
 0.0.0.0 xn--como-ganar-dinero-por-facebook-fcil-y-rpido-4rdh.website
@@ -189029,13 +189006,13 @@
 0.0.0.0 ym.kjukenhi.in
 0.0.0.0 ym.meegmfio.in
 0.0.0.0 ym.s.maxgrowth.ru
-0.0.0.0 ymail_102.godaddysites.com
 0.0.0.0 ymail-inc.com
 0.0.0.0 ymail-login.com
 0.0.0.0 ymail.dqgsd.com
 0.0.0.0 ymail.nftrb.com
 0.0.0.0 ymail.patelccmc.com
 0.0.0.0 ymail2n8.com
+0.0.0.0 ymail_102.godaddysites.com
 0.0.0.0 ymaila.euvbi.com
 0.0.0.0 ymaild.bradyheath.com
 0.0.0.0 ymaili.tomaish.com
@@ -189499,7 +189476,6 @@
 0.0.0.0 zalghani.my
 0.0.0.0 zam.co.in
 0.0.0.0 zamanlar2.com
-# 0.0.0.0 zamboangadelsur.gov.ph
 0.0.0.0 zambrano1.000webhostapp.com
 0.0.0.0 zamburi.ro
 0.0.0.0 zamcnzle.fasvuqiq.maxgrowth.ru
@@ -190246,37 +190222,3 @@
 0.0.0.0 zzz.nosu.yi.org
 0.0.0.0 zzzha.com
 0.0.0.0 zzzzzqp.com
-0.0.0.0 domain-seguridad.com
-0.0.0.0 bypass.network
-0.0.0.0 confirm28371630-coinbase-com.web.app
-0.0.0.0 main-newxz-orluttbx33b1bcng-gtw.qovery.io
-0.0.0.0 captcharesolving-universe.com
-0.0.0.0 hovrecording.com
-0.0.0.0 keyyppoint08.com
-0.0.0.0 discorcl.link
-0.0.0.0 discrodnitro.org
-0.0.0.0 stearncornmunity.ru.com
-0.0.0.0 ozzon-mobi-age.com
-0.0.0.0 disneyplusfreetrial.com
-0.0.0.0 accessfreevpn.com
-0.0.0.0 trackital.checkposttt.top
-0.0.0.0 corriertt.parceldlvr.xyz
-0.0.0.0 choicemonitor.top
-0.0.0.0 hellothere.shop
-0.0.0.0 jt2v.com
-0.0.0.0 loratech.pe
-0.0.0.0 aranu.ir
-0.0.0.0 realestatemashahir.ir
-0.0.0.0 conv-alida-recapiro-com.preview-domain.com
-0.0.0.0 ufesif.com
-0.0.0.0 disordsnltros.gifts
-0.0.0.0 4wsko.r.a.d.sendibm1.com
-0.0.0.0 me2.do
-0.0.0.0 premiums-gift.com
-0.0.0.0 discqrde.com
-0.0.0.0 e-giftnitro.com
-0.0.0.0 cbtoken.me
-0.0.0.0 roblox.com.sc
-0.0.0.0 igiz.info
-0.0.0.0 discorcl-nltro.xyz
-0.0.0.0 l7its4.webwave.dev

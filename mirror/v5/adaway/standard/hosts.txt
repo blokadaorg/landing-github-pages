@@ -1424,7 +1424,6 @@
 
 # [amazon.com]
 127.0.0.1 aan.amazon.com
-127.0.0.1 aax-us-east-retail-direct.amazon.com
 
 # [ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com]
 127.0.0.1 ads-api-new-2052271615.ap-northeast-1.elb.amazonaws.com
@@ -1755,7 +1754,6 @@
 # [apple.com]
 127.0.0.1 ca.iadsdk.apple.com
 127.0.0.1 news.iadsdk.apple.com
-127.0.0.1 tr.iadsdk.apple.com
 127.0.0.1 ut.iadsdk.apple.com
 127.0.0.1 notes-analytics-events.apple.com
 127.0.0.1 stocks-analytics-events.apple.com
@@ -4383,7 +4381,6 @@
 127.0.0.1 s.go-mpulse.net
 
 # [go.com]
-127.0.0.1 log.go.com
 127.0.0.1 sw88.go.com
 127.0.0.1 tredir.go.com
 127.0.0.1 unid.go.com
@@ -7633,7 +7630,6 @@
 127.0.0.1 e.qq.com
 127.0.0.1 sdk.e.qq.com
 127.0.0.1 mi.gdt.qq.com
-127.0.0.1 v.gdt.qq.com
 127.0.0.1 httpring.qq.com
 127.0.0.1 c.isdspeed.qq.com
 127.0.0.1 l.qq.com
@@ -10397,7 +10393,6 @@
 127.0.0.1 sdk.youappi.com
 
 # [youborafds01.com]
-127.0.0.1 youborafds01.com
 127.0.0.1 a-fds.youborafds01.com
 
 # [youdao.com]

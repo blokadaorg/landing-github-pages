@@ -143,6 +143,7 @@ aa.tweakers.nl
 aab.de
 aadcdn.msauth.net
 aadcdn.msftauth.net
+aax-us-east-retail-direct.amazon.com
 aax-us-iad.amazon.com
 ab.tweakers.nl
 abanca.com
@@ -162,6 +163,7 @@ accessbank.az
 accessbanking.com.ar
 accessbankplc.com
 account.activedirectory.windowsazure.com
+account.idocs.kz
 account.production-public.tubi.io
 account.skrill.com
 account.ubank.ru
@@ -391,6 +393,7 @@ apeksbank.com.ua
 apexsmrt.b2clogin.com
 api-02.moengage.com
 api-ao-list.adison.co
+api-ao.adison.co
 api-between.vcnc.co.kr
 api-glb.smoot.apple.com
 api-global.netflix.com
@@ -408,6 +411,7 @@ api.amplitude.com
 api.apple-cloudkit.com
 api.b.hatena.ne.jp
 api.bam-x.com
+api.bitwarden.com
 api.box.com
 api.browser.yandex.ru$app=ru.yandex.disk
 api.chat.xiaomi.net
@@ -504,6 +508,7 @@ app.link
 app.migc.xiaomi.com
 app.qq.com
 app.traderepublic.com
+app2.govee.com
 app3.takasbank.web.tr
 appboot.netflix.com
 appcfg.v.qq.com
@@ -623,6 +628,7 @@ aus.waterfox.net
 aus5.mozilla.org
 austin.sw.roku.com
 auth-relay-pqj6ndd4jq-uc.a.run.app
+auth.openai.com$app=com.openai.atlas
 auth.simperium.com
 auth1.prod.iot.irobotapi.com
 auth2.prod.iot.irobotapi.com
@@ -889,6 +895,7 @@ bendigobank.com.au
 benelph.de
 bensbergerbank.de
 bentonow.com
+beobank.be
 berenberg.de
 berg-sparebank.no
 bergische-volksbank.de
@@ -1043,6 +1050,7 @@ brightcove.net
 brk.to
 brokers.tcsbank.ru
 brom.ro
+browser-intake-datadoghq.com$app=com.openai.atlas
 browser.events.data.microsoft.com
 bruehlerbank.de
 bryan.sw.roku.com
@@ -1112,6 +1120,8 @@ ca-times.brightspotcdn.com
 ca24.credit-agricole.pl
 cabinet.altbb.ru
 cabinet.hcsbk.kz
+cable.auth.com
+cable.ua5v.com
 cache-cms-ext-us.battle.net
 cachecn.com
 cachecn.net
@@ -1183,6 +1193,7 @@ ccgslb.com
 ccgslb.com.cn
 ccgslb.net
 ccgslb.net.cn
+cchome.adobe.io
 ccindex.cn
 ccindex.com.cn
 ccj.im
@@ -1249,6 +1260,7 @@ cdn.tmooc.cn
 cdn.tpdads.com
 cdn.vidible.tv
 cdn.webclicks24.com
+cdn.winget.microsoft.com
 cdn1.smartadserver.com
 cdn2.downdetector.com
 cdn2.hubspot.net
@@ -1310,6 +1322,9 @@ charts.profinance.ru
 chase.co.uk
 chase.com
 chasecanada.ca
+chat.openai.com$app=com.openai.atlas
+chat.z.ai
+chatgpt.com$app=com.openai.atlas
 chb.com.tw
 chbrr.crimea.com
 check.ddos-guard.net
@@ -1374,6 +1389,7 @@ clb.bankmtb.ru
 clb.olmabank.ru
 clbank.investcapitalbank.ru
 clck.yandex.ru
+cleanuparr.pages.dev
 clear.com.br
 clearbit.com
 clearsale.com.br
@@ -1459,6 +1475,7 @@ cnisnet.inss.gov.br
 co-operativebank.co.nz
 co-operativebank.co.uk
 coastal24.com
+coastalbank.com
 coastcapitalsavings.com
 cobinhood.com
 code.jquery.com
@@ -1509,8 +1526,10 @@ connect.facebook.net
 connect.rom.miui.com
 connect.rtb.ru
 connect.ubisoft.com
+connectif.cloud
 connectivitycheck.android.com
 connectivitycheck.gstatic.com
+consent.cookiefirst.com
 consent.t-online.de
 console.cloud.google.com
 consorsbank.de
@@ -1553,6 +1572,7 @@ cra-arc.gc.ca
 crakmedia.com
 crashlytics.com
 crbcdn.jsfiddle.net
+crcldu.com
 creative.ak.fbcdn.net
 credicard.com.br
 credit-agricole.fr
@@ -1647,6 +1667,7 @@ d231vab146qzfb.cloudfront.net
 d2c8v52ll5s99u.cloudfront.net
 d2gatte9o95jao.cloudfront.net
 d3cb7mtd03xzt9.cloudfront.net
+d3g.qq.com
 d3orhvfyxudxxq.cloudfront.net
 d75.eu
 d9hhrg4mnvzow.cloudfront.net
@@ -1658,6 +1679,7 @@ dalena.ru
 dana.id
 danamon.co.id
 danamonline.com
+danskebank.com
 danskebank.dk
 danskebank.se
 dash.cloudflare.com
@@ -1669,6 +1691,7 @@ data.amazon.com
 data.here.com
 data.mistat.intl.xiaomi.com
 data.mistat.xiaomi.com
+data.service.paypal.com
 datacaciques.com
 datadoghq-browser-agent.com
 datadoghq.eu
@@ -1749,6 +1772,7 @@ device-metrics-us.amazon.com
 device-provisioning.googleapis.com
 device.auth.xboxlive.com
 deviceportal.nettvservices.com
+devices.a2z.com
 dfl-cis-production.aws.hmn.md
 dft.ba
 dhakabankltd.com
@@ -1816,6 +1840,7 @@ dls-udc.dqa.samsung.com$app=com.samsung.accessory.safiletransfer
 dlvr.it
 dmp.mgapex.com
 dms.metlife.ru
+dnb.no
 dns.msftncsi.com
 dnspao.com
 docfcu.org
@@ -2006,6 +2031,7 @@ emobias.md
 emp.bbci.co.uk.edgekey.net
 emploiquebec.gouv.qc.ca
 emsland-mitte.de
+enclave.ua5v.com
 encrypted-tbn0.gstatic.com
 encrypted-tbn1.gstatic.com
 encrypted-tbn2.gstatic.com
@@ -2037,6 +2063,9 @@ error.facebook.com
 erw.cz
 erzgebirgssparkasse.de
 esbank.no
+ess-apple.com.akadns.net
+ess.apple.com
+ess.apple.com.akadns.net
 estream.to
 esube.abank.com.tr
 esube.albaraka.com.tr
@@ -2123,6 +2152,7 @@ f.youku.com
 f1.g.mi.com
 f1.media.brightcove.com
 f97ae142.online
+fa2.tubi.video
 facebook.com
 facebook.com$app=com.instagram.android
 facebook.net
@@ -2156,6 +2186,7 @@ fbtonline.com
 fbtonline.net
 fbwebpos.com
 fc-resources.fastcompany.com
+fd.cleantalk.org
 fdn.gsmarena.com.cdn.cloudflare.net
 fdn2.gsmarena.com.cdn.cloudflare.net
 fe2.update.microsoft.com
@@ -2164,6 +2195,7 @@ fe2.ws.microsoft.com
 fe2cr.update.microsoft.com
 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 fe3.delivery.mp.microsoft.com
+featureassets.org$app=com.openai.atlas
 federalbank.co.in
 federseebank.de
 fednetbank.com
@@ -2206,6 +2238,7 @@ fintro.be
 fio.cz
 firebasedynamiclinks.googleapis.com
 firebaselogging-pa.googleapis.com
+firebaseremoteconfig.googleapis.com
 firestore.clients6.google.com
 firestore.googleapis.com
 fireworkapi.com
@@ -2330,6 +2363,7 @@ g00.me
 g00.msn.com
 g17media.com
 gabler-saliter-bank.de
+gaccount1.joycityglobal.com
 gallery.mailchimp.com
 game.weixin.qq.com
 game.xiaomi.com
@@ -2350,10 +2384,12 @@ gateway.kleinanzeigen.de.edgekey.net
 gazprombank.ru
 gbank.rsk.kg
 gbp.ma
+gbranch.joycityglobal.com
 gc.kis.scr.kaspersky-labs.com
 gc.zgo.at
 gc3d.georgiancard.ge
 gccdn.net
+gcontent1.joycityglobal.com
 gd57zlusmo-1.algolianet.com
 gd57zlusmo-2.algolianet.com
 gd57zlusmo-3.algolianet.com
@@ -2377,6 +2413,7 @@ geo-gcp.cdn.springernature.io
 geo-prod.do.dsp.mp.microsoft.com
 geo.cardinalcommerce.com
 geo.craigslist.org
+geo.elgato.com
 geo.ngtv.io
 geo0.ggpht.com
 geo1.presslabs.net
@@ -2475,6 +2512,7 @@ gov.au
 gov.in
 gov.kr
 gov.pl
+gov.ru
 gov.tw
 gov.uk
 gpsfront.aliexpress.com
@@ -2508,6 +2546,8 @@ gs.apple.com.akadns.net
 gs.statcounter.com
 gsa.apple.com
 gsa.apple.com.akadns.net
+gsas.apple.com
+gsas.apple.com.akadns.net
 gsb.or.th
 gslbsvc.cn
 gslbsvc.com
@@ -2518,6 +2558,7 @@ gsmarena.com.cdn.cloudflare.net
 gsp1.apple.com
 gstatic.com
 gstaticadssl.l.google.com
+gsys1.joycityglobal.com
 gtbank.com
 gtms01.alicdn.com
 gtms02.alicdn.com
@@ -2564,6 +2605,7 @@ hanacard.co.kr
 handelsbanken.se
 handybank.ru
 hangseng.com
+hanko.io
 hannoversche-volksbank.de
 hanseaticbank.de
 harrisbank.com
@@ -3022,6 +3064,8 @@ ideabank24.by
 ideaonline.ua
 ident.nets.eu
 identity.banknorwegian.no
+identity.bitwarden.com
+identity.idocs.kz
 identity.osi.office.net
 identity.virginmedia.com
 idmsa.apple.com
@@ -3195,6 +3239,7 @@ ipinfo.io
 ippen.space
 ipredator.se
 ipstack.com
+ipv4.google.com
 ipv4only.arpa
 ipv6.he.net
 iqoption.com
@@ -3526,7 +3571,6 @@ lisa.motivtelecom.ru
 listrakbi.com
 lists.infradead.org
 lithium.facebook.com
-litix.io
 live-f-ava.hulustream.com
 live-manifest-a.hulustream.com
 live-mediashield-hulustream-com.akamaized.net
@@ -3571,6 +3615,7 @@ location.services.mozilla.com
 loebbecke-bank.de
 log*-*.tiktokv.com
 log-upload-os.mihoyo.com
+log.go.com
 logging.googleapis.com
 loggly.com
 login-portal.nra.bg
@@ -3607,6 +3652,7 @@ lotustalk.com
 lovizaim.ru
 lp.babbel.com
 lp25.fr
+ls.apple.com
 lxdns.com
 lxdns.net
 lxsvc.cn
@@ -3652,6 +3698,7 @@ manifest.googlevideo.com
 manifest.prod.boltdns.net
 manimo.su
 mapi.flypgs.com
+mapsmobilesdks-pa.googleapis.com
 marcard.de
 marcus.com
 marfeel.com
@@ -3833,6 +3880,7 @@ mobile-ap.spotify.com
 mobile.beta.facebook.com
 mobile.facebook.com
 mobile.yandex.net
+mobileappcommunicator.auth.microsoft.com
 mobilecns.alipay.com
 mobilecodec.alipay.com
 mobilegw.alipay.cn
@@ -3864,6 +3912,7 @@ monobank.com.ua
 monobank.ua
 monzo.com
 more.sh
+mos.ru
 mosaic01.ztat.net
 mosaic02.ztat.net
 moscombank.ru
@@ -4000,7 +4049,9 @@ nbcnews.to
 nbe.com.eg
 nbg.gr
 nbmc.ru
+nc-fa2.tubi.video
 nc.bnpparibas.net
+nca-iot-us-west-2.svc.ui.com
 nccc.com.tw
 ncu.client.hip.live.com
 nedbank.co.za
@@ -4023,6 +4074,7 @@ netbanking.erstebank.me
 netbanking.erstebank.rs
 netbk.co.jp
 netcenter.com.cn
+netcore.co.in
 neteller.com
 netflix.com
 netpnb.com
@@ -4071,6 +4123,7 @@ non.li
 nonghyup.com
 nordea.com
 nordea.fi
+nordea.no
 nordea.ru
 nordea.se
 nordeanetbank.dk
@@ -4121,6 +4174,7 @@ o.pki.goog
 o1.email.plex.tv
 o2.sg0.plex.tv
 o2o.api.xiaomi.com
+oaistatic.com$app=com.openai.atlas
 oaookb.ru
 oasparebank.no
 obconline.co.in
@@ -4206,7 +4260,6 @@ online.bankofcyprus.com
 online.bankotsar.co.il
 online.bankpozitiv.kz
 online.bcs.ru
-online.beobank.be
 online.beyondbank.com.au
 online.binbankcards.ru
 online.bm.ru
@@ -4341,6 +4394,7 @@ onlinebanking.rhbgroup.com
 onlinebanking.usbank.com
 onlinepbx.ru
 onlinesbi.sbi
+onlinesbi.sbi.bank.in
 onlinetsb.kz
 onpointcu.com
 onstmettinger-bank.de
@@ -4589,7 +4643,7 @@ ping.*.adguard.io
 ping.avast.com
 ping.taplytics.com
 ping.ubnt.com
-ping1.tnt-ea.com                                    Plants vs Zombies: Heros   Check for internet
+ping1.tnt-ea.com                                    Plants vs Zombies: Heros       Check for internet
 pingdom.net
 pings.conviva.com
 pinpoint.us-east-1.amazonaws.com
@@ -4712,6 +4766,7 @@ prod.dw.us.fdcnet.biz
 prod.escapefromtarkov.com
 prod.mobile.roku.com
 prod.telemetry.ros.rockstargames.com
+prodregistryv2.org$app=com.openai.atlas
 production.plaid.com
 products.delight-vr.com
 products.office.com
@@ -5189,8 +5244,10 @@ resolver.msg.xiaomi.ne
 resolver.msg.xiaomi.net
 resonabank.co.jp
 resources.digital-cloud-west.medallia.com
+resources.licenses.adobe.com
 resources.sbs.com.au
 restapi.amap.com
+resu.joycityglobal.com
 resursbank.se
 retail.axisbank.co.in
 retail.mvbank.ru
@@ -5242,6 +5299,7 @@ rover.ebay.at
 rover.ebay.com
 rover.ebay.de
 rpc.ftm.tools
+rpt.gdt.qq.com
 rptrcks.walmart.com
 rs-portal.capitalbank.ru
 rs6.net
@@ -5417,6 +5475,7 @@ santanderconsumer.se
 sas.com
 sas.ooyala.com
 sascdn.com
+saupdates.dell.com
 sbab.se
 sber-bank.by
 sberbank-ast.ru
@@ -5567,6 +5626,7 @@ sendgrid.net
 sendpulse.com
 sendwyre.com
 seninbankan.com.tr
+sentinel.openai.com$app=com.openai.atlas
 sentry.io
 seosprint.net
 serve.adtrackers.net
@@ -5643,6 +5703,7 @@ sicredi.com.br
 sift.com
 signal-iduna.de
 signaler-pa.clients6.google.com
+signaler-pa.googleapis.com
 signalfx.com
 signature.video.aetnd.com
 signicat.com
@@ -5703,6 +5764,7 @@ sls.update.microsoft.com
 sls.update.microsoft.com.akadns.net
 slscr.update.microsoft.com
 slsp.sk
+smaad.net
 smallfiles.client.xunlei.com
 smallseotools.com
 smartasset.com
@@ -6235,6 +6297,7 @@ store.hispace.hicloud.com$app=com.huawei.gameassistant
 store.steampowered.com
 storecatalogrevocation.storequality.microsoft.com
 storeedgefd.dsx.mp.microsoft.com
+strat-public-global.joycityglobal.com
 streamplay.to
 stripe.com
 stripe.network
@@ -6334,6 +6397,7 @@ takasbank.com.tr
 takeout-pa.clients6.google.com
 talk.kakao.com
 talkbusiness.net
+talon-service-prod.ecosec.on.epicgames.com
 talon-service-prod.ecosec.on.epicgames.com.cdn.cloudflare.net
 tamtam.chat
 tamtam.ok.ru
@@ -6397,6 +6461,7 @@ terra-1-g.djicdn.com
 terra-2-g.djicdn.com
 ters-vod1.us-east-1.aiv-delivery.net
 tescobank.com
+test-gateway.instagram.com
 tg1.premium.db4.wix.com
 tg1.premium.dc11.wix.com
 th.bibplus.uobgroup.com
@@ -6478,6 +6543,7 @@ totenbanken.no
 touchbank.com
 tpb.vn
 tpmr.com
+tr.iadsdk.apple.com
 tr.im
 tr5.in
 tracemyip.org
@@ -6490,6 +6556,7 @@ trackcmp.net
 tracking.magnetmail.net
 tracking.truthfinder.com
 tracking.ubisoft.com
+trackjs.com
 trade.paritem.com
 trade.webborsam.com
 traderepublic.com
@@ -6550,6 +6617,7 @@ tvaddons.ag
 tvdb2.plex.tv
 tvthemes.plexapp.com
 tw.cx
+tw.netcore.co.in
 tw03a159.sandai.net
 twemoji.maxcdn.com
 twet.fr
@@ -6688,6 +6756,7 @@ uwzorgonline.nl
 v-vb.de
 v.firebog.net
 v.gd
+v.gdt.qq.com
 v.ht
 v.whatsapp.net
 v10-win.vortex.data.microsoft.com.akadns.net
@@ -7195,6 +7264,7 @@ vtbdirekt.de
 vtkbank.ru
 vur.me
 vv.vg
+vv.video.qq.com
 vvb-maingau.de
 vvrb.de
 vwfs.de
@@ -7314,6 +7384,7 @@ wodtogether.com
 woodpecker.uc.cn
 wooppay.com
 wooribank.com
+workflow.idocs.kz
 world-gen.g.aaplimg.com
 wow.zamimg.com
 wownero.herominers.com
@@ -7559,6 +7630,7 @@ www2.danskebank.ee
 www2.jugra.ru
 www3.l.google.com
 www4.handelsbanken.fi
+www4.l.google.com
 wwwstatic.megaupload.com
 wwy.me
 wx.qlogo.cn
@@ -7623,6 +7695,7 @@ ynuf.aliapp.org
 yogh.me
 yon.ir
 youbora.com
+youborafds01.com
 youfap.me
 youneedabudget.com
 youtu.be

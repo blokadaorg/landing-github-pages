@@ -6,7 +6,7 @@
 # Title: Anudeep's Blacklist
 # Expires: 1 days
 # Hosts contributed by Anudeep <anudeep@protonmail.com>
-# Domain count: 42,536
+# Domain count: 42,531
 # ===================================================================
 0.0.0.0 0001-cab8-4c8c-43de.reporo.net
 0.0.0.0 002-slq-470.mktoresp.com
@@ -18267,7 +18267,6 @@
 0.0.0.0 secure.widget.dynamic.advertising.com
 0.0.0.0 secure-yt.imrworldwide.com
 0.0.0.0 secure-za.imrworldwide.com
-0.0.0.0 securify.nl
 0.0.0.0 security-alert.th8fp9.top
 0.0.0.0 security.browser.intl.miui.com
 0.0.0.0 se.d1.sc.omtrdc.net
@@ -21086,7 +21085,6 @@
 0.0.0.0 twi69.01l.xyz
 0.0.0.0 twitter-srv.buysellads.com
 0.0.0.0 twk1b.voluumtrk.com
-0.0.0.0 tw.netcore.co.in
 0.0.0.0 tw-tags.vizury.com
 0.0.0.0 txch.media.net
 0.0.0.0 txdot.d1.sc.omtrdc.net
@@ -28693,8 +28691,6 @@
 0.0.0.0 datarain.frapp.in
 0.0.0.0 logger-04.vty.dailymotion.com
 0.0.0.0 libs.coremetrics.com
-0.0.0.0 tracker.affirm.com
-0.0.0.0 api-cf.affirm.com
 0.0.0.0 stat.fromfactory.club
 0.0.0.0 track.clubfactory.com
 0.0.0.0 bitdefender.evyy.net
@@ -30493,7 +30489,6 @@
 0.0.0.0 log.tiktokv.com
 0.0.0.0 web.vortex.data.msn.com
 0.0.0.0 outcome-ssp.supersonicads.com
-0.0.0.0 tr.iadsdk.apple.com
 0.0.0.0 init.supersonicads.com
 0.0.0.0 cdn.adnxs.com
 0.0.0.0 data.ad-score.com
@@ -34220,7 +34215,6 @@
 0.0.0.0 tracking.goanimate.com
 0.0.0.0 track.consumer.id
 0.0.0.0 tracking.adcanopus.com
-0.0.0.0 log.go.com
 0.0.0.0 ups.analytics.yahoo.com
 0.0.0.0 79423.analytics.edgekey.net
 0.0.0.0 track.mobird.co
