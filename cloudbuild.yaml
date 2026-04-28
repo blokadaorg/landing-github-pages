@@ -1,5 +1,7 @@
 steps:
   - name: "gcr.io/$PROJECT_ID/buildlists"
     args: []
+    env:
+      - 'COMMIT_SHA=$COMMIT_SHA'
 
 images: []
