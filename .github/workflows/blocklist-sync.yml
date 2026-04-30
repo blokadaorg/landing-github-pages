@@ -53,12 +53,25 @@ jobs:
       - name: Configure git identity
         env:
           GH_TOKEN: ${{ steps.app-token.outputs.token }}
-          APP_USER: blokada-ci-checkout[bot]
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
         run: |
           set -euo pipefail
-          gh_user_id=$(gh api "/users/${APP_USER}" --jq .id)
-          git config user.name "${APP_USER}"
-          git config user.email "${gh_user_id}+${APP_USER}@users.noreply.github.com"
+          # Derive identity from the App's slug (output by
+          # actions/create-github-app-token). Some Apps' bot users aren't
+          # exposed via /users/<slug>%5Bbot%5D — the request returns 404
+          # even though the bot exists and can author commits — so the
+          # numeric-ID lookup is best-effort. If it fails, fall back to
+          # the slug-only noreply format; git accepts it and GitHub still
+          # attributes the commit to the bot via the username portion.
+          name="${APP_SLUG}[bot]"
+          if id=$(gh api "/users/${APP_SLUG}%5Bbot%5D" --jq .id 2>/dev/null); then
+            email="${id}+${name}@users.noreply.github.com"
+          else
+            email="${name}@users.noreply.github.com"
+          fi
+          git config user.name  "${name}"
+          git config user.email "${email}"
+          echo "Configured: ${name} <${email}>"
 
       - name: Set up Python
         uses: actions/setup-python@v6
