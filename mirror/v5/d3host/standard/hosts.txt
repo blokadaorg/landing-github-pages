@@ -20,6 +20,7 @@
 0.0.0.0 advice-ads.s3.amazonaws.com
 
 # --- Google Ads
+0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 adservice.google.com
 0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 afs.googlesyndication.com
@@ -171,6 +172,8 @@
 0.0.0.0 bdapi-in-ads.realmemobile.com
 
 # --- Xiaomi
+0.0.0.0 api.ad.xiaomi.com
+0.0.0.0 data.mistat.xiaomi.com
 0.0.0.0 data.mistat.india.xiaomi.com
 0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 sdkconfig.ad.xiaomi.com
@@ -203,6 +206,7 @@
 0.0.0.0 analytics-api.samsunghealthcn.com
 
 # --- Apple
+0.0.0.0 iadsdk.apple.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 metrics.mzstatic.com
 0.0.0.0 api-adservices.apple.com

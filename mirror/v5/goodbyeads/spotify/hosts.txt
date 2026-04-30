@@ -612,6 +612,7 @@
 0.0.0.0 api.wac.4867.edgecastcdn.net
 0.0.0.0 api.zwizzarmyknife.com
 0.0.0.0 apiskywebbercom-a.akamaihd.net
+0.0.0.0 app.adjust.com
 0.0.0.0 app1.ams.0212.edgecastcdn.net
 0.0.0.0 app1.ams.0de9.edgecastcdn.net
 0.0.0.0 app1.cdg.04f1.edgecastcdn.net
@@ -1082,6 +1083,7 @@
 0.0.0.0 cdn.adnxs.com
 0.0.0.0 cdn.fastclick.net
 0.0.0.0 cdn.greenhousegroup.com
+0.0.0.0 cdn.ravenjs.com
 0.0.0.0 cdn.wac.0b12.edgecastcdn.net
 0.0.0.0 cdn.wac.14c4.edgecastcdn.net
 0.0.0.0 cdn.wac.9972.edgecastcdn.net
@@ -2457,6 +2459,7 @@
 0.0.0.0 p1.vip.sc9.admob.com
 0.0.0.0 pagead-googlehosted.l.google.com
 0.0.0.0 pagead.l.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead46.googlesyndication.com
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 paix1.sc1.admob.com

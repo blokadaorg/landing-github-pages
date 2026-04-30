@@ -1,7 +1,7 @@
 # exodusprivacy standard
 # This host file is based on Exodus Privacy database.
 # More info at https://go.blokada.org/exodusprivacy
-# Generated at 2026-02-20 09:20:06.737353
+# Generated at 2026-04-30 13:42:02.668868
 # Made by Blokada
 
 databerries.com
@@ -38,6 +38,7 @@ tmk.smartadserver.com
 usw-lax.adsrvr.org
 g.jwpsrv.com
 jwpltx.com
+p.jwpcdn.com
 outbrain.com
 appsflyer.com
 ligatus.com
@@ -59,6 +60,7 @@ sync2ad.com
 flurry.com
 hockeyapp.net
 leanplum.com
+etl.tindersparks.com
 schibsted.com
 schibsted.io
 ati-host.net
@@ -98,6 +100,7 @@ sejs.moatads.com
 yt.moatads.com
 yts.moatads.com
 z.moatads.com
+segment.com
 management.azure.com
 colocator.net
 applovin.com
@@ -234,6 +237,7 @@ startup.mobile.yandex.net
 control.kochava.com
 kvinit-prod.api.kochava.com
 dc.webtrends.com
+js-agent.newrelic.com
 mobile-collector.newrelic.com
 nr-data.net
 quantcast.com
@@ -369,6 +373,7 @@ startappservice.com
 va.origin.startappservice.com
 ads.aerserv.com
 debug.aerserv.com
+de.ioam.de
 target.my.com
 tapjoy.com
 tapjoyads.com
@@ -507,7 +512,9 @@ grid.amap.com
 tm.amap.com
 mst[0-9]*.is.autonavi.com
 mt[0-9]*.google.cn
+abroad.apilocate.amap.com
 apilocate.amap.com
+restapi.amap.com
 yuntuapi.amap.com
 m5.amap.com
 wb.amap.com
@@ -515,6 +522,7 @@ wb.amap.com
 wb.amap.com
 wb.amap.com
 apiinit.amap.com
+restapi.amap.com
 logs.amap.com
 cgicol.amap.com
 lbs.amap.com

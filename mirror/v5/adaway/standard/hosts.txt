@@ -496,6 +496,7 @@
 127.0.0.1 prod.adjoe.zone
 
 # [adjust.com]
+127.0.0.1 app.adjust.com
 127.0.0.1 s2s.adjust.com
 127.0.0.1 ulink.adjust.com
 127.0.0.1 app.us.adjust.com
@@ -1752,8 +1753,11 @@
 127.0.0.1 sdkapicdn.applanga.com
 
 # [apple.com]
+127.0.0.1 iadsdk.apple.com
 127.0.0.1 ca.iadsdk.apple.com
+127.0.0.1 cf.iadsdk.apple.com
 127.0.0.1 news.iadsdk.apple.com
+127.0.0.1 tr.iadsdk.apple.com
 127.0.0.1 ut.iadsdk.apple.com
 127.0.0.1 notes-analytics-events.apple.com
 127.0.0.1 stocks-analytics-events.apple.com
@@ -3283,6 +3287,7 @@
 # [customer.io]
 127.0.0.1 assets.customer.io
 127.0.0.1 edge-west.customer.io
+127.0.0.1 track.customer.io
 
 # [cxense.com]
 127.0.0.1 api.cxense.com
@@ -3501,6 +3506,7 @@
 127.0.0.1 x.disq.us
 
 # [disqus.com]
+127.0.0.1 referrer.disqus.com
 127.0.0.1 glitter.services.disqus.com
 127.0.0.1 tempest.services.disqus.com
 
@@ -3934,6 +3940,7 @@
 
 # [evidon.com]
 127.0.0.1 evidon.com
+127.0.0.1 c.evidon.com
 127.0.0.1 iabmap.evidon.com
 127.0.0.1 info.evidon.com
 127.0.0.1 l.evidon.com
@@ -4089,6 +4096,7 @@
 127.0.0.1 flurry.com
 127.0.0.1 adlog.flurry.com
 127.0.0.1 ads.flurry.com
+127.0.0.1 cdn.flurry.com
 127.0.0.1 cfg.flurry.com
 127.0.0.1 data.flurry.com
 127.0.0.1 gw.flurry.com
@@ -4443,6 +4451,7 @@
 # [googlesyndication.com]
 127.0.0.1 googlesyndication.com
 127.0.0.1 ade.googlesyndication.com
+127.0.0.1 pagead2.googlesyndication.com
 127.0.0.1 tpc.googlesyndication.com
 
 # [googleusercontent.com]
@@ -4476,6 +4485,7 @@
 127.0.0.1 vytomi.gotrackier.com
 
 # [gotraffic.net]
+127.0.0.1 cdn.gotraffic.net
 
 # [gowadogo.com]
 127.0.0.1 gowadogo.com
@@ -6244,6 +6254,8 @@
 127.0.0.1 snippet.minute.ly
 
 # [minutemediacdn.com]
+127.0.0.1 assets.minutemediacdn.com
+127.0.0.1 images2.minutemediacdn.com
 
 # [miui.com]
 127.0.0.1 tracking.india.miui.com
@@ -6280,6 +6292,7 @@
 127.0.0.1 gds.mmstat.com
 127.0.0.1 gj.gds.mmstat.com
 127.0.0.1 gj.mmstat.com
+127.0.0.1 gm.mmstat.com
 127.0.0.1 go.mmstat.com
 127.0.0.1 gxb.mmstat.com
 127.0.0.1 hd.mmstat.com
@@ -6289,6 +6302,7 @@
 127.0.0.1 res.mmstat.com
 127.0.0.1 sg.mmstat.com
 127.0.0.1 wgo.mmstat.com
+127.0.0.1 ws.mmstat.com
 127.0.0.1 yt.mmstat.com
 127.0.0.1 yt1.mmstat.com
 
@@ -6775,6 +6789,7 @@
 127.0.0.1 nervoussummer.com
 
 # [netflix.com]
+127.0.0.1 ichnaea-web.netflix.com
 127.0.0.1 nmtracking.netflix.com
 127.0.0.1 presentationtracking.netflix.com
 
@@ -6810,6 +6825,7 @@
 
 # [newrelic.com]
 127.0.0.1 insights-collector.newrelic.com
+127.0.0.1 js-agent.newrelic.com
 127.0.0.1 mobile-collector.newrelic.com
 
 # [newsbreak.com]
@@ -7630,6 +7646,7 @@
 127.0.0.1 e.qq.com
 127.0.0.1 sdk.e.qq.com
 127.0.0.1 mi.gdt.qq.com
+127.0.0.1 v.gdt.qq.com
 127.0.0.1 httpring.qq.com
 127.0.0.1 c.isdspeed.qq.com
 127.0.0.1 l.qq.com
@@ -8309,6 +8326,8 @@
 127.0.0.1 sift-campaign-creatives.sift.co
 
 # [siftscience.com]
+127.0.0.1 api3.siftscience.com
+127.0.0.1 cdn.siftscience.com
 
 # [signalr.net]
 127.0.0.1 community.service.signalr.net
@@ -9012,6 +9031,7 @@
 127.0.0.1 acme.tango.me
 
 # [taobao.com]
+127.0.0.1 audid-api.taobao.com
 127.0.0.1 adashx4ae.ut.taobao.com
 127.0.0.1 h-adashx.ut.taobao.com
 
@@ -9057,6 +9077,7 @@
 127.0.0.1 api.taplytics.com
 127.0.0.1 decision.taplytics.com
 127.0.0.1 js.taplytics.com
+127.0.0.1 ping.taplytics.com
 
 # [tappx.com]
 127.0.0.1 tappx.com
@@ -9541,6 +9562,7 @@
 127.0.0.1 mparticle.uc.cn
 127.0.0.1 track.uc.cn
 127.0.0.1 gj.track.uc.cn
+127.0.0.1 woodpecker.uc.cn
 
 # [ucweb.com]
 127.0.0.1 adtrack.ucweb.com
@@ -9716,6 +9738,7 @@
 127.0.0.1 sdk.out.usbla.net
 
 # [usebutton.com]
+127.0.0.1 api.usebutton.com
 127.0.0.1 cdn.usebutton.com
 127.0.0.1 mobileapi.usebutton.com
 127.0.0.1 app-03c19ea7c9fd0c57.mobileapi.usebutton.com
@@ -10232,6 +10255,7 @@
 127.0.0.1 collector.xhamster.com
 
 # [xiaomi.com]
+127.0.0.1 api.ad.xiaomi.com
 127.0.0.1 log.ad.xiaomi.com
 127.0.0.1 sdkconfig.ad.xiaomi.com
 127.0.0.1 track.ad.xiaomi.com
