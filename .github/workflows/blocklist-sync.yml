@@ -38,12 +38,17 @@ jobs:
           private-key: ${{ secrets.BLOKADA_APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
 
-      - name: Checkout main
+      - name: Checkout master
         uses: actions/checkout@v6
         with:
           token: ${{ steps.app-token.outputs.token }}
           submodules: recursive
-          fetch-depth: 0
+          # Default fetch-depth: 1 (shallow). Sync commits churn ~1M+
+          # lines each and the repo has accumulated many — full history
+          # is gigabytes. Nothing in the workflow needs more than HEAD:
+          # G2/G3/G5 use `git diff HEAD`, G4 uses `git show HEAD:path`,
+          # `make sync` does not walk parent history, and the new
+          # branch is created fresh off HEAD with no rebase.
 
       - name: Configure git identity
         env:
