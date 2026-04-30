@@ -34,7 +34,10 @@ jobs:
         id: app-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.BLOKADA_APP_ID }}
+          # Use the client-id input — `app-id` is deprecated in v3.
+          # Requires `BLOKADA_APP_CLIENT_ID` secret distributed by
+          # ops/secrets.tf alongside the legacy `BLOKADA_APP_ID`.
+          client-id: ${{ secrets.BLOKADA_APP_CLIENT_ID }}
           private-key: ${{ secrets.BLOKADA_APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
 
@@ -245,8 +248,11 @@ jobs:
               --comment "Superseded by today's sync run." || true
           done
 
+          # Detect default branch at runtime (this repo uses `master`,
+          # which differs from many GitHub repos that use `main`).
+          default_branch=$(gh repo view "$REPO" --json defaultBranchRef --jq .defaultBranchRef.name)
           pr_url=$(gh pr create \
-            --base main \
+            --base "${default_branch}" \
             --head "${BRANCH}" \
             --title "Sync mirrors (${today})" \
             --body "${BODY}")
