@@ -1496,6 +1496,7 @@
 0.0.0.0 data-eroadvertising.com
 0.0.0.0 data.coremetrics.com
 0.0.0.0 data.flurry.com
+0.0.0.0 data.mistat.xiaomi.com
 0.0.0.0 data.publishflow.com
 0.0.0.0 databreakers.com
 0.0.0.0 databureau.com
@@ -1647,12 +1648,14 @@
 0.0.0.0 duba.net
 0.0.0.0 dumedia.ru
 0.0.0.0 dw.cbsimg.net
+0.0.0.0 dw.com.com
 0.0.0.0 dwin1.com
 0.0.0.0 dwin2.com
 0.0.0.0 dynsrvtbg.com
 0.0.0.0 dyntracker.com
 0.0.0.0 dyntracker.de
 0.0.0.0 dyntrk.com
+0.0.0.0 dzc-metrics.mzstatic.com
 0.0.0.0 e-mark.nl
 0.0.0.0 e-webtrack.net
 0.0.0.0 e701.net
@@ -2642,6 +2645,7 @@
 0.0.0.0 mathtag.com
 0.0.0.0 mavic852.com
 0.0.0.0 maxgtm.net
+0.0.0.0 maxmind.com
 0.0.0.0 maxonclick.com
 0.0.0.0 maxtraffic.com
 0.0.0.0 maxymiser.net
@@ -13757,6 +13761,7 @@
 0.0.0.0 securestudies.com
 0.0.0.0 securestudies.net
 0.0.0.0 sedotracker.de
+0.0.0.0 segment.com
 0.0.0.0 selfadvertiser.com
 0.0.0.0 sellathon.com
 0.0.0.0 semasio.net
@@ -13803,6 +13808,7 @@
 0.0.0.0 serving-sys.com
 0.0.0.0 servingclks.com
 0.0.0.0 sessioncam.com
+0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 sex-affiliation.com
 0.0.0.0 sexad.net
 0.0.0.0 sexcount.com
@@ -14086,6 +14092,7 @@
 0.0.0.0 stat.swedbank.se
 0.0.0.0 stat24.com
 0.0.0.0 statbrain.com
+0.0.0.0 statcounter.com
 0.0.0.0 stathat.com
 0.0.0.0 static.audienceinsights.net
 0.0.0.0 static.chartbeat.com
