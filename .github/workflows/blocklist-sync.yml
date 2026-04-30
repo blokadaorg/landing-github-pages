@@ -1,0 +1,300 @@
+name: Blocklist sync
+
+# Weekly mirror refresh. Runs `make sync` on a fresh checkout, opens a PR
+# with the diff, runs deterministic gates (path allowlist, new-file
+# detector, per-list size deltas, format check on changed lines), and
+# auto-merges only when every gate passes. Modelled on the dependabot
+# auto-merge pattern but without an LLM step — blocklist diffs are
+# multi-MB and an LLM review buys nothing here.
+#
+# Kill-switch: set the repo variable BLOCKLIST_SYNC_AUTOMERGE_PAUSED to
+# 'true' to keep the PR open without merging.
+
+on:
+  schedule:
+    # Monday 06:00 UTC = 07:00 CET / 08:00 CEST. Early Monday morning
+    # Europe time, so a human is awake and online when the run lands.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blocklist-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Mint App token
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          app-id: ${{ secrets.BLOKADA_APP_ID }}
+          private-key: ${{ secrets.BLOKADA_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+
+      - name: Checkout main
+        uses: actions/checkout@v6
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Configure git identity
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          APP_USER: blokada-ci-checkout[bot]
+        run: |
+          set -euo pipefail
+          gh_user_id=$(gh api "/users/${APP_USER}" --jq .id)
+          git config user.name "${APP_USER}"
+          git config user.email "${gh_user_id}+${APP_USER}@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.x'
+
+      - name: Run sync (SKIP_COMMIT=1)
+        # The sync orchestrator pulls fresh tracker-radar, regenerates
+        # ddg/exodus blocklists, and runs mirror.py against all upstream
+        # sources. SKIP_COMMIT=1 stops it from creating a local commit so
+        # CI can stage the diff itself.
+        env:
+          SKIP_COMMIT: '1'
+        working-directory: scripts
+        run: |
+          set -euo pipefail
+          make sync
+
+      - name: Check for changes
+        id: changes
+        run: |
+          set -euo pipefail
+          if git diff --quiet HEAD && [ -z "$(git ls-files --others --exclude-standard)" ]; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No upstream changes — exiting cleanly."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run gates
+        id: gates
+        if: steps.changes.outputs.has_changes == 'true'
+        # Gates compare the working tree vs HEAD (the unmodified main commit
+        # just checked out). G1 (make test) is invoked via the `gates`
+        # Makefile target's dependency. The step always exits 0 — a failed
+        # gate sets verdict=FAIL so later steps still open the PR with a
+        # `needs-review` label and the reason as a PR comment.
+        working-directory: scripts
+        run: |
+          set +e
+          make gates 2>&1 | tee /tmp/gates.log
+          rc=${PIPESTATUS[0]}
+          set -e
+          if [ "$rc" -eq 0 ]; then
+            echo "verdict=PASS" >> "$GITHUB_OUTPUT"
+            echo "reason=all gates passed" >> "$GITHUB_OUTPUT"
+          else
+            # Capture the first `Gn FAIL: ...` header plus its indented
+            # detail lines. Without the detail lines, the reason in the
+            # PR body is just "G2 FAIL: changed paths outside allowlist:"
+            # with no indication of which paths.
+            reason=$(awk '/FAIL/{found=1; print; next} found && /^  /{print; next} found{exit}' /tmp/gates.log)
+            [ -z "$reason" ] && reason="gate failure (rc=$rc) — see workflow logs"
+            echo "verdict=FAIL" >> "$GITHUB_OUTPUT"
+            {
+              echo 'reason<<BLOCKLIST_SYNC_REASON_EOF'
+              echo "$reason"
+              echo 'BLOCKLIST_SYNC_REASON_EOF'
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build PR body
+        id: body
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          VERDICT: ${{ steps.gates.outputs.verdict }}
+          REASON: ${{ steps.gates.outputs.reason }}
+        # Public-repo safe: no GCP project names, no private repo names,
+        # no internal trigger or topic names. Per-file line-count delta
+        # only.
+        run: |
+          set -euo pipefail
+          today=$(date -u +%Y-%m-%d)
+          {
+            echo "Automated weekly mirror refresh ($today)."
+            echo
+            echo "## Gates"
+            echo
+            if [ "${VERDICT}" = "PASS" ]; then
+              echo ":white_check_mark: All gates passed — eligible for auto-merge."
+            else
+              echo ":warning: Gate tripped — needs human review."
+              echo
+              echo '```'
+              echo "${REASON}"
+              echo '```'
+            fi
+            echo
+            echo "## File deltas"
+            echo
+            echo "| File | Before (lines) | After (lines) | Change |"
+            echo "|---|---:|---:|---:|"
+            git diff --name-only HEAD -- 'mirror/v5/' 'blocklists/' \
+              | head -200 \
+              | while IFS= read -r f; do
+                  pre=$(git show "HEAD:$f" 2>/dev/null | wc -l | tr -d ' ' || echo 0)
+                  if [ -f "$f" ]; then
+                    post=$(wc -l < "$f" | tr -d ' ')
+                  else
+                    post=0
+                  fi
+                  if [ "$pre" -gt 0 ]; then
+                    pct=$(awk -v a="$pre" -v b="$post" 'BEGIN{printf "%+.1f%%", 100*(b-a)/a}')
+                  else
+                    pct="—"
+                  fi
+                  echo "| \`$f\` | $pre | $post | $pct |"
+                done
+            untracked=$(git ls-files --others --exclude-standard | grep -E '^(mirror/v5/|blocklists/)' || true)
+            if [ -n "$untracked" ]; then
+              echo
+              echo "## New files"
+              echo
+              # Loop, not unquoted expansion — real mirror paths can contain
+              # spaces (e.g. `1hosts/pro (wildcards)/hosts.txt`).
+              printf '%s\n' "$untracked" | while IFS= read -r f; do
+                printf -- '- `%s`\n' "$f"
+              done
+            fi
+          } > /tmp/pr-body.md
+          {
+            echo 'body<<BLOCKLIST_SYNC_BODY_EOF'
+            cat /tmp/pr-body.md
+            echo 'BLOCKLIST_SYNC_BODY_EOF'
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Push branch
+        id: push
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          set -euo pipefail
+          today=$(date -u +%Y-%m-%d)
+          branch="automation/blocklist-sync/${today}"
+          # If a previous run on the same day left a branch, tack on a run
+          # suffix so we don't trample its PR.
+          if git ls-remote --exit-code --heads origin "${branch}" >/dev/null 2>&1; then
+            branch="${branch}-${{ github.run_id }}"
+          fi
+          git switch -c "${branch}"
+          git add -A
+          git commit -m "Sync mirrors (${today})"
+          git push origin "${branch}"
+          echo "branch=${branch}" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Open PR
+        id: pr
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ steps.push.outputs.branch }}
+          BODY: ${{ steps.body.outputs.body }}
+        run: |
+          set -euo pipefail
+          today=$(date -u +%Y-%m-%d)
+
+          # Close any stale open sync PR before opening this run's PR.
+          # Without this, an unattended needs-review PR from a past run
+          # would accumulate alongside each new weekly run. Match by
+          # branch-name prefix (authoritative — humans cannot silently
+          # rename it) rather than by label, since this repo intentionally
+          # does not maintain a sync-specific label set.
+          old_prs=$(gh pr list --repo "$REPO" --state open \
+            --json number,headRefName \
+            --jq '.[] | select(.headRefName | startswith("automation/blocklist-sync/")) | .number')
+          for pr in $old_prs; do
+            gh pr close "$pr" --repo "$REPO" --delete-branch \
+              --comment "Superseded by today's sync run." || true
+          done
+
+          pr_url=$(gh pr create \
+            --base main \
+            --head "${BRANCH}" \
+            --title "Sync mirrors (${today})" \
+            --body "${BODY}")
+          echo "pr_url=${pr_url}" >> "$GITHUB_OUTPUT"
+          pr_number=$(echo "${pr_url}" | sed -E 's|.*/pull/([0-9]+).*|\1|')
+          echo "pr_number=${pr_number}" >> "$GITHUB_OUTPUT"
+
+      - name: Verify PR head unchanged before merge
+        # Defence in depth: the workflow on main is the only writer to this
+        # branch in the normal flow, so the race window is small. This check
+        # catches the rare case where an operator pushed an extra commit to
+        # the bot branch between PR creation and merge — refusing to merge
+        # is preferable to squashing the operator's edit unreviewed.
+        id: stale-check
+        if: >-
+          steps.changes.outputs.has_changes == 'true' &&
+          steps.gates.outputs.verdict == 'PASS' &&
+          vars.BLOCKLIST_SYNC_AUTOMERGE_PAUSED != 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ steps.pr.outputs.pr_number }}
+          REPO: ${{ github.repository }}
+          PUSHED_HEAD: ${{ steps.push.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          current=$(gh pr view "$PR" --repo "$REPO" --json headRefOid --jq .headRefOid)
+          if [ "$current" != "$PUSHED_HEAD" ]; then
+            echo "PR head ($current) differs from pushed head ($PUSHED_HEAD); refusing stale merge"
+            exit 1
+          fi
+          echo "PR head matches pushed SHA: $PUSHED_HEAD"
+
+      - name: Squash-merge
+        if: >-
+          steps.changes.outputs.has_changes == 'true' &&
+          steps.gates.outputs.verdict == 'PASS' &&
+          vars.BLOCKLIST_SYNC_AUTOMERGE_PAUSED != 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          PR: ${{ steps.pr.outputs.pr_number }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh pr review "$PR" --repo "$REPO" \
+            --approve \
+            --body "Auto-approved: all gates passed."
+          gh pr merge "$PR" --repo "$REPO" --squash --delete-branch
+
+      - name: Summary
+        if: always()
+        env:
+          HAS_CHANGES: ${{ steps.changes.outputs.has_changes }}
+          VERDICT: ${{ steps.gates.outputs.verdict }}
+          REASON: ${{ steps.gates.outputs.reason }}
+          PR_URL: ${{ steps.pr.outputs.pr_url }}
+          KILL_SWITCH: ${{ vars.BLOCKLIST_SYNC_AUTOMERGE_PAUSED }}
+        run: |
+          {
+            if [ "${HAS_CHANGES}" != "true" ]; then
+              echo "### No upstream changes"
+            else
+              echo "### Sync run"
+              echo
+              echo "- PR: ${PR_URL}"
+              echo "- Gate verdict: \`${VERDICT}\`"
+              echo "- Reason: ${REASON}"
+              echo "- Kill-switch (BLOCKLIST_SYNC_AUTOMERGE_PAUSED): \`${KILL_SWITCH:-unset}\`"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
