@@ -12,7 +12,9 @@ cd ../scripts
 ./mirror.py
 
 cd ..
-git add .
-git commit -am "Sync mirrors"
+if [ "${SKIP_COMMIT:-0}" != "1" ]; then
+  git add .
+  git commit -am "Sync mirrors"
+fi
 
 echo "Done"
