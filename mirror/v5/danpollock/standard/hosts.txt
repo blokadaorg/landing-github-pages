@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Wed, 29 Apr 2026 at 19:25:28 GMT
+# Last updated: Sun, 03 May 2026 at 19:11:26 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1766,11 +1766,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 climate-actionpayment.com
 127.0.0.1 clonezilla.es
 127.0.0.1 clonezilla.fr
+127.0.0.1 cloudalert.shop
 127.0.0.1 cltxhot.fun
 127.0.0.1 cmcre.fr
 127.0.0.1 cndpt.fr
 127.0.0.1 cnhv.co
 127.0.0.1 cnnews.fr
+127.0.0.1 cnrfms.pro
 127.0.0.1 cnt-jrs.com
 127.0.0.1 cnt.statistic.date
 127.0.0.1 codebiogblog.com
@@ -1830,6 +1832,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 croissieres.fr
 127.0.0.1 crouslyon.fr
 127.0.0.1 crpo.fr
+127.0.0.1 crrect.sa.com
 127.0.0.1 crypto-loot.com
 127.0.0.1 ctmsapp.com
 127.0.0.1 cuder.fr
@@ -1864,6 +1867,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 deloitteca.com
 127.0.0.1 delphix.fr
 127.0.0.1 deltarviews.bond
+127.0.0.1 dentalfix.shop
 127.0.0.1 denx.fr
 127.0.0.1 department06.fr
 127.0.0.1 deposit-cra2023.com
@@ -2017,6 +2021,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 flightams.fr
 127.0.0.1 fnactickets.fr
 127.0.0.1 foiegras-groliere.fr
+127.0.0.1 foreverprintco.com
 127.0.0.1 formumactif.fr
 127.0.0.1 forumdread.com
 127.0.0.1 forurm-candaulisme.fr
@@ -2756,6 +2761,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 poweroff.pt
 127.0.0.1 powertrfic.fr
 127.0.0.1 ppoi.org
+127.0.0.1 ppures.shop
 127.0.0.1 pr-wealth.in
 127.0.0.1 predictiondisplay.com
 127.0.0.1 predictivadnetwork.com
@@ -2763,6 +2769,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 premiumvideoupdates.com
 127.0.0.1 pressealgerei.fr
 127.0.0.1 pressesdesciences-po.fr
+127.0.0.1 pressmedieda.info
 127.0.0.1 prfcttit.za.com
 127.0.0.1 priosante.fr
 127.0.0.1 private-sportshop.fr
@@ -3338,6 +3345,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.cambonanza.com
 127.0.0.1 www.camtory.com
 127.0.0.1 www.canadianshawid.com
+127.0.0.1 www.caothusohoc.com
 127.0.0.1 www.caramail.com
 127.0.0.1 www.careertake.com
 127.0.0.1 www.carehigher.com
@@ -3630,6 +3638,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.mycontentlocker.com
 127.0.0.1 www.myexotel.com
 127.0.0.1 www.myfavcouponstore.com
+127.0.0.1 www.myfurnituresirplus.com
 127.0.0.1 www.myhucadvantage.com
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
@@ -3755,6 +3764,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.riversidefr.com
 127.0.0.1 www.rnleonard.com
 127.0.0.1 www.rnodernssolution.com
+127.0.0.1 www.robkellysurf.com
 127.0.0.1 www.rtkmyz.cfd
 127.0.0.1 www.rtpbolaslotjago.com
 127.0.0.1 www.russian-sex.com
@@ -3918,6 +3928,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 xxlargepop.com
 127.0.0.1 yachtingmagazine.fr
 127.0.0.1 yama.myfixhub.cfd
+127.0.0.1 yanteaviation.com
 127.0.0.1 ycapital.fr
 127.0.0.1 yev.moviesdirectpro.com
 127.0.0.1 yexex.comfortykive.xyz
