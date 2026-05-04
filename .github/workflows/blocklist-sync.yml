@@ -296,9 +296,10 @@ jobs:
           REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          gh pr review "$PR" --repo "$REPO" \
-            --approve \
-            --body "Auto-approved: all gates passed."
+          # No `gh pr review --approve`: GitHub forbids an account from
+          # approving its own PR, and this App both opens and merges these
+          # PRs. `master` is not protected, so the merge does not require
+          # an approving review anyway.
           gh pr merge "$PR" --repo "$REPO" --squash --delete-branch
 
       - name: Summary
