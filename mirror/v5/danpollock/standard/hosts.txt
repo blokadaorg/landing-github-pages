@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 03 May 2026 at 19:11:26 GMT
+# Last updated: Mon, 11 May 2026 at 05:42:45 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1511,6 +1511,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 apconsultantgroup.com
 127.0.0.1 apel3.fr
 127.0.0.1 api.inwemo.com
+127.0.0.1 apoutong.com
 127.0.0.1 app2.letslowbefast.life
 127.0.0.1 appale.fr
 127.0.0.1 appleld.apple.com.t5j2kdkc88dd2m423-verif.info
@@ -1521,6 +1522,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 arbrever.fr
 127.0.0.1 archeives-ouvertes.fr
 127.0.0.1 archi-facile.fr
+127.0.0.1 arcticblast.sa.com
 127.0.0.1 area52.fr
 127.0.0.1 aresweb.fr
 127.0.0.1 argenta.fr
@@ -1593,6 +1595,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 beautytemple.fr
 127.0.0.1 beboncoin.fr
 127.0.0.1 belambre.fr
+127.0.0.1 bellybuttons.sa.com
 127.0.0.1 benchmarkemail.fr
 127.0.0.1 benefitsgov.info
 127.0.0.1 benefitsorganic.com
@@ -1717,6 +1720,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 cbcare.fr
 127.0.0.1 cbt5.sdalfurqanjember.sch.id
 127.0.0.1 ccieurope.fr
+127.0.0.1 ccs.north-kazakhstan.su
 127.0.0.1 ccudl.com
 127.0.0.1 cd-elec.fr
 127.0.0.1 cd-sport.fr
@@ -2648,6 +2652,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 oolo.fr
 127.0.0.1 ooutube.fr
 127.0.0.1 opcwdns.opcw.nl
+127.0.0.1 openais.maricosnc.it
 127.0.0.1 openinternetexchange.com
 127.0.0.1 openinternetexchange.net
 127.0.0.1 openoverflow.com
@@ -3259,6 +3264,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.a2uu36g43l.download
 127.0.0.1 www.abetterinternet.com
 127.0.0.1 www.abnehmenkabofit.de
+127.0.0.1 www.aconchoe.com
 127.0.0.1 www.activetrap.com
 127.0.0.1 www.adblock.fr
 127.0.0.1 www.adselector.com
@@ -3285,6 +3291,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.aramcom.space
 127.0.0.1 www.arfrepuestos.com
 127.0.0.1 www.arknasasbluecross.com
+127.0.0.1 www.artdualdesign.com
 127.0.0.1 www.asianread.com
 127.0.0.1 www.assistdocklane.uk
 127.0.0.1 www.audacity.es
@@ -3379,6 +3386,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.clonezilla.es
 127.0.0.1 www.clonezilla.fr
 127.0.0.1 www.cloudverge.uk
+127.0.0.1 www.clovercraftshop.com
 127.0.0.1 www.clubplanning.com
 127.0.0.1 www.coconutsport.com
 127.0.0.1 www.coinimp.com
@@ -3389,6 +3397,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.consultingbyelevate.com
 127.0.0.1 www.controlpop.com
 127.0.0.1 www.cookoven.com
+127.0.0.1 www.coolrextintshop.com
 127.0.0.1 www.corlythra.uk
 127.0.0.1 www.corvettiortho.com
 127.0.0.1 www.cpatglobal.com
@@ -3402,6 +3411,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.darkrro.com
 127.0.0.1 www.dartya.com
 127.0.0.1 www.dayanitastore.com
+127.0.0.1 www.daytonjaxx.com
 127.0.0.1 www.dealresponse.com
 127.0.0.1 www.dealsrate.com
 127.0.0.1 www.defailermu.com
@@ -3426,13 +3436,16 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dynamictyres.com
 127.0.0.1 www.e-transfer-cra.com
 127.0.0.1 www.eaglesfanclub.com
+127.0.0.1 www.eamazondigital.com
 127.0.0.1 www.edashealthcare.com
 127.0.0.1 www.edwardmartino.com
 127.0.0.1 www.ekkekkocapital.com
 127.0.0.1 www.elanactivewear.com
 127.0.0.1 www.electrobell.com
+127.0.0.1 www.eljaleomedellin.com
 127.0.0.1 www.emailspend.com
 127.0.0.1 www.energiazoque.com
+127.0.0.1 www.eremplacementparts.com
 127.0.0.1 www.esjetonline.com
 127.0.0.1 www.ethicsstore.com
 127.0.0.1 www.europelinen.com
@@ -3447,6 +3460,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.extrabrick.com
 127.0.0.1 www.exvaro.cfd
 127.0.0.1 www.faggotry.com
+127.0.0.1 www.farmacyty.com
 127.0.0.1 www.farnazinternational.com
 127.0.0.1 www.fashiongown.com
 127.0.0.1 www.fenquavo.com
@@ -3490,17 +3504,20 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gamersigns.com
 127.0.0.1 www.gandiatv.com
 127.0.0.1 www.gavelandcap.com
+127.0.0.1 www.gekkstoyou.com
 127.0.0.1 www.gekorn.com
 127.0.0.1 www.generaldocs.com
 127.0.0.1 www.gentleshadeox.pro
 127.0.0.1 www.getnexuscard.com
 127.0.0.1 www.gezinti.com
 127.0.0.1 www.ggdark.net
+127.0.0.1 www.giadungnguyennhat.com
 127.0.0.1 www.gildedrosens.name
 127.0.0.1 www.gimp.es
 127.0.0.1 www.glassygrovefy.pro
 127.0.0.1 www.globalbuffer.com
 127.0.0.1 www.goggle.com
+127.0.0.1 www.goldendoodlez.com
 127.0.0.1 www.goldentopics.com
 127.0.0.1 www.googdiy.com
 127.0.0.1 www.gotorobeks.com
@@ -3513,6 +3530,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.greenvistazj.pro
 127.0.0.1 www.griffinlist.com
 127.0.0.1 www.grocreyoutlet.com
+127.0.0.1 www.groundofsuccess.com
 127.0.0.1 www.grouphappy.com
 127.0.0.1 www.growthbuilder.name
 127.0.0.1 www.hajoopteg.com
@@ -3525,6 +3543,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.helvora.help
 127.0.0.1 www.hiewa.com.my
 127.0.0.1 www.higherteam.com
+127.0.0.1 www.hindudirectory.com
 127.0.0.1 www.hitchedbridalandformalwear.com
 127.0.0.1 www.hits-football.com
 127.0.0.1 www.hocxaydung.com
@@ -3565,8 +3584,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.jvidzaixian.com
 127.0.0.1 www.jvzoo.com
 127.0.0.1 www.kahramananas.com
+127.0.0.1 www.karazah.com
 127.0.0.1 www.keepass.com
 127.0.0.1 www.keepass.fr
+127.0.0.1 www.kesau.com
 127.0.0.1 www.keybinary.com
 127.0.0.1 www.khanomtour.com
 127.0.0.1 www.kindnations.com
@@ -3621,6 +3642,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.milkycascadeut.site
 127.0.0.1 www.minr.pw
 127.0.0.1 www.miocardite.com
+127.0.0.1 www.miziko.com
 127.0.0.1 www.modelsailboat.net
 127.0.0.1 www.moncasinoonline.com
 127.0.0.1 www.monkeyball.osa.pl
@@ -3629,6 +3651,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.mostexchange.com
 127.0.0.1 www.movielocks.com
 127.0.0.1 www.mshelp247.weebly.com
+127.0.0.1 www.msmithguitarstudio.com
 127.0.0.1 www.msmpokergamer.com
 127.0.0.1 www.msxzff.com
 127.0.0.1 www.multiceps.com
@@ -3845,6 +3868,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.thedatesafe.com			# Facebook trojan
 127.0.0.1 www.thefriday.net
 127.0.0.1 www.themesets.com
+127.0.0.1 www.theprimeindia.com
 127.0.0.1 www.thesecuredtrader.com
 127.0.0.1 www.thisplanet.net
 127.0.0.1 www.thunderbird.es
@@ -3852,8 +3876,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.tinkfrog.com
 127.0.0.1 www.tiompanalley.com
 127.0.0.1 www.tntadfacts.com
+127.0.0.1 www.totalencomenda.com
 127.0.0.1 www.toysmetaverse.com
 127.0.0.1 www.tradewinning.com
+127.0.0.1 www.traficsigntest.com
 127.0.0.1 www.trucktirehotline.com
 127.0.0.1 www.truecrypt.fr
 127.0.0.1 www.trueshelterju.pro
@@ -3879,6 +3905,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.voolat.com
 127.0.0.1 www.walkhelp.net
 127.0.0.1 www.wantsfly.com
+127.0.0.1 www.wapersab.com
 127.0.0.1 www.wardhotels.com
 127.0.0.1 www.warrenmovers.net
 127.0.0.1 www.watchesnew.com
@@ -3908,11 +3935,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.workschat.com
 127.0.0.1 www.wraploans.com
 127.0.0.1 www.wrestlewebnews.com
+127.0.0.1 www.wwwpaipal.com
 127.0.0.1 www.xandermaker.com
 127.0.0.1 www.xdesimbi.com
 127.0.0.1 www.xtremetechcr.com
 127.0.0.1 www.yellowquartzkr.name
 127.0.0.1 www.yendermsoul.com
+127.0.0.1 www.yoolyes.com
 127.0.0.1 www.youfiletor.com
 127.0.0.1 www.yreta.com
 127.0.0.1 www.zenithvault.uk
