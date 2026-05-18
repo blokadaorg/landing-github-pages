@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 11 May 2026 at 05:42:45 GMT
+# Last updated: Sun, 17 May 2026 at 16:13:27 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1414,6 +1414,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 3mfrances.fr
 127.0.0.1 59-106-20-39.r-bl100.sakura.ne.jp
 127.0.0.1 602.lazulya.com
+127.0.0.1 69fcb79c002e689734cad7411fe0d2e2000.appwrite.network
 127.0.0.1 6range.fr
 127.0.0.1 6w1.sharedlinkconnect.com
 127.0.0.1 75esession.fr
@@ -1449,6 +1450,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 acglgoa.com
 127.0.0.1 acmen.fr
 127.0.0.1 acnenomor.com
+127.0.0.1 acrtsubmissions.com
 127.0.0.1 acsentia.fr
 127.0.0.1 activateprofile.info
 127.0.0.1 activebeat.fr
@@ -1831,6 +1833,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 creativlonk.fr
 127.0.0.1 creditmuteuel.fr
 127.0.0.1 creditmutuel-epargesalariale.fr
+127.0.0.1 criticals.sa.com
 127.0.0.1 criticaltt.shop
 127.0.0.1 critiquefilm.fr
 127.0.0.1 croissieres.fr
@@ -1963,6 +1966,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 etdeposit-interac.com
 127.0.0.1 etransfer-23799.com
 127.0.0.1 etribunaldunet.fr
+127.0.0.1 etronella.bizneswarszawa.info
 127.0.0.1 euriosport.fr
 127.0.0.1 europr1.fr
 127.0.0.1 eurospoprt.fr
@@ -2049,6 +2053,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 freighttools.live
 127.0.0.1 frenchbweb.fr
 127.0.0.1 frenesies.fr
+127.0.0.1 fresh.sa.com
 127.0.0.1 freshzz00.duckdns.org
 127.0.0.1 frnafinance.fr
 127.0.0.1 froancefootball.fr
@@ -2396,6 +2401,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 littleduck.fr
 127.0.0.1 livesfoot.fr
 127.0.0.1 livezfoot.fr
+127.0.0.1 livhlthy.sa.com
 127.0.0.1 livreral.fr
 127.0.0.1 livrval.fr
 127.0.0.1 livsffer.sa.com
@@ -2516,6 +2522,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mirillis.fr
 127.0.0.1 missdiva.fr
 127.0.0.1 missetam.fr
+127.0.0.1 mk.wiremanse.hair
 127.0.0.1 mlefigaro.fr
 127.0.0.1 mlpoo11-secondary.z13.web.core.windows.net
 127.0.0.1 mn.mn.co.cu
@@ -2711,6 +2718,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 peoplefinders.fr
 127.0.0.1 percantil.fr
 127.0.0.1 peremiere.fr
+127.0.0.1 perfecct.sa.com
 127.0.0.1 petra.nic.gov.jo
 127.0.0.1 pexkr.comfortykive.xyz
 127.0.0.1 pfepfe.cc
@@ -3492,6 +3500,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.freedailydownload.com
 127.0.0.1 www.fripta.com
 127.0.0.1 www.froling.bee.pl
+127.0.0.1 www.funkycovers.com
 127.0.0.1 www.furcomics.com
 127.0.0.1 www.futuredecide.com
 127.0.0.1 www.futureowned.com
@@ -3603,6 +3612,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.lanaita.com
 127.0.0.1 www.langleyantiques.com
 127.0.0.1 www.launchbuffer.com
+127.0.0.1 www.learngears.com
 127.0.0.1 www.learnnessy.com
 127.0.0.1 www.learntechno.com
 127.0.0.1 www.ledfaucetlight.com
@@ -3620,8 +3630,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.lockupouseburn.com
 127.0.0.1 www.loginhunter.com
 127.0.0.1 www.logoradar.com
+127.0.0.1 www.logoswitch.com
 127.0.0.1 www.lomalindasda.org			# Facebook trojan
 127.0.0.1 www.lostbestsgames.com
+127.0.0.1 www.loveromantic.com
 127.0.0.1 www.lunargrovefx.com
 127.0.0.1 www.magento-analytics.com
 127.0.0.1 www.maiecaffe.com
@@ -3726,6 +3738,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.phantomluck.com
 127.0.0.1 www.phormlabs.com
 127.0.0.1 www.photomagicapp.com
+127.0.0.1 www.pickupclean.com
 127.0.0.1 www.picture-uploads.com
 127.0.0.1 www.pinbroksup.com
 127.0.0.1 www.pintransup.com
@@ -3762,6 +3775,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.pure-glance.com
 127.0.0.1 www.qateee.com
 127.0.0.1 www.qbittorrent.com
+127.0.0.1 www.qualitygamer.com
 127.0.0.1 www.quarvions.com
 127.0.0.1 www.rackusread.com
 127.0.0.1 www.rajtoursdubai.com
@@ -3878,6 +3892,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.tntadfacts.com
 127.0.0.1 www.totalencomenda.com
 127.0.0.1 www.toysmetaverse.com
+127.0.0.1 www.tradesasa.com
 127.0.0.1 www.tradewinning.com
 127.0.0.1 www.traficsigntest.com
 127.0.0.1 www.trucktirehotline.com
@@ -3912,6 +3927,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.waterchalk.com
 127.0.0.1 www.waterchamber.com
 127.0.0.1 www.webassembly.stream
+127.0.0.1 www.webdevotee.com
 127.0.0.1 www.webmicrostores.com
 127.0.0.1 www.webpartition.com
 127.0.0.1 www.websrruss.com
@@ -6853,6 +6869,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 advertisement.avosapps.us
 127.0.0.1 advertising.aol.com
 127.0.0.1 advertising.bbcworldwide.com
+127.0.0.1 advertising.civitai.com
 127.0.0.1 advertising.hiasys.com
 127.0.0.1 advertising.illinimedia.com
 127.0.0.1 advertising.online-media24.de
