@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 24 May 2026 at 17:32:29 GMT
+# Last updated: Fri, 29 May 2026 at 15:46:03 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -3315,6 +3315,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.availablefiles.com
 127.0.0.1 www.avemoo.com
 127.0.0.1 www.azureus.es
+127.0.0.1 www.backingguitar.garden
 127.0.0.1 www.bahartonu.com
 127.0.0.1 www.baiakstyle.com
 127.0.0.1 www.balassst.com
@@ -3347,6 +3348,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.bonuxsarrive.com
 127.0.0.1 www.bookstadium.com
 127.0.0.1 www.borocade.com
+127.0.0.1 www.boysstrongly.living
 127.0.0.1 www.brandsclothingco.com
 127.0.0.1 www.breakslavery.com
 127.0.0.1 www.brghterimagelab.com
@@ -3421,6 +3423,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.creativesaftysupply.com
 127.0.0.1 www.crediainternational.com
 127.0.0.1 www.crowdnestfun.com
+127.0.0.1 www.crystalbranchtw.blog
 127.0.0.1 www.ctlcai.com
 127.0.0.1 www.dailyazure.com
 127.0.0.1 www.dangdangflow.com
@@ -3716,8 +3719,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.nursse.com
 127.0.0.1 www.nwbidrtb.com
 127.0.0.1 www.nzgamingworld.com
+127.0.0.1 www.oakog.com
 127.0.0.1 www.oakridgeflows.uk
 127.0.0.1 www.objectopoly.info
+127.0.0.1 www.occoquananimalhospital.com
 127.0.0.1 www.officerreport.com
 127.0.0.1 www.ogopond.com
 127.0.0.1 www.oilbasics.com
@@ -3816,6 +3821,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.rickrolling.com
 127.0.0.1 www.ricontools.com
 127.0.0.1 www.rightchanges.com
+127.0.0.1 www.risedirectly.living
 127.0.0.1 www.riversidefr.com
 127.0.0.1 www.rnleonard.com
 127.0.0.1 www.rnodernssolution.com
@@ -3853,6 +3859,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.smokyshadecj.name
 127.0.0.1 www.snkido.com
 127.0.0.1 www.snowhandball.com
+127.0.0.1 www.snugbirdjq.blog
 127.0.0.1 www.snurrlyspin.com
 127.0.0.1 www.softcarp.com
 127.0.0.1 www.softmillon.com
@@ -3930,6 +3937,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.urldelivery.com
 127.0.0.1 www.vacnleefarpels.com
 127.0.0.1 www.vebprostopinup.com
+127.0.0.1 www.vecchiopools.com
 127.0.0.1 www.ventilationdirec.com
 127.0.0.1 www.venturead.com
 127.0.0.1 www.vetmanevi.com
@@ -3967,6 +3975,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.winecrazydesigns.com
 127.0.0.1 www.wingfoilmargarita.com
 127.0.0.1 www.winlottofrequently.com
+127.0.0.1 www.wiseknows.bond
 127.0.0.1 www.wjldfm.com
 127.0.0.1 www.woodycrystaljo.name
 127.0.0.1 www.workschat.com
