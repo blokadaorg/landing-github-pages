@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 05 Jun 2026 at 21:38:08 GMT
+# Last updated: Sun, 14 Jun 2026 at 19:48:46 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1851,6 +1851,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 cures.ru.com
 127.0.0.1 customsoftwaredeveloper.com.au
 127.0.0.1 cutesaucepuppy.com
+127.0.0.1 cyber20.com
 127.0.0.1 cyberpanel.fr
 127.0.0.1 cyfe.fr
 127.0.0.1 czr.customzonereview.com
@@ -1940,6 +1941,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 elyses.fr
 127.0.0.1 emagicone.fr
 127.0.0.1 email.headers.digital
+127.0.0.1 emperors.bunkerhilltradingco.info
 127.0.0.1 emplpoi-store.fr
 127.0.0.1 en.btc-trader-app.club
 127.0.0.1 en.likefever.org			# Facebook trojan
@@ -2032,6 +2034,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 foiegras-groliere.fr
 127.0.0.1 foreverprintco.com
 127.0.0.1 formumactif.fr
+127.0.0.1 fortress.anhcs.info
 127.0.0.1 forumdread.com
 127.0.0.1 forurm-candaulisme.fr
 127.0.0.1 fourtuneo.fr
@@ -2407,6 +2410,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 livreral.fr
 127.0.0.1 livrval.fr
 127.0.0.1 livsffer.sa.com
+127.0.0.1 livsfs.today
 127.0.0.1 localo.fr
 127.0.0.1 login.belladermaco.com
 127.0.0.1 login.creditals-email.space
@@ -2473,6 +2477,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 matcheendirect.fr
 127.0.0.1 matchendirectr.fr
 127.0.0.1 matchendiredt.fr
+127.0.0.1 matchwomanreal.com
 127.0.0.1 max-wangcai28.com
 127.0.0.1 mbi3.kuicr.kyoto-u.ac.jp
 127.0.0.1 mcleaks.fr
@@ -2826,6 +2831,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 quicksaledeal.su
 127.0.0.1 quirinale.fr
 127.0.0.1 qyh.co.ua
+127.0.0.1 racingfamilyvillage.com
 127.0.0.1 radio42.fr
 127.0.0.1 randki-sex.com
 127.0.0.1 rapid-glade-cde8.asoumare042024.workers.dev
@@ -2855,6 +2861,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 rentacars.fr
 127.0.0.1 rentamotorcycle.fr
 127.0.0.1 resetcibc-logincibc.com
+127.0.0.1 residence.bunkerhilltradingco.info
 127.0.0.1 reskins.fr
 127.0.0.1 restriia.shop
 127.0.0.1 resulabi.fr
@@ -2881,6 +2888,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 romdiscover.com
 127.0.0.1 rootbuzz.com
 127.0.0.1 rottentomatoes.fr
+127.0.0.1 rrg2mrb.matchwomanreal.com
 127.0.0.1 rrtougao.com
 127.0.0.1 rtag.fr
 127.0.0.1 rubgyrama.fr
@@ -2893,6 +2901,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 s3-ap-southeast-1-amazonaws.com
 127.0.0.1 s3-ap-southeast-2-amazonaws.com
 127.0.0.1 s4d.in
+127.0.0.1 safes.ru.com
 127.0.0.1 saicmotor.fr
 127.0.0.1 sajour.fr
 127.0.0.1 salebestever.su
@@ -2979,6 +2988,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 societegernerale.fr
 127.0.0.1 societergenerale.fr
 127.0.0.1 sofaglobal.best
+127.0.0.1 sofia.whatcaniseeinkiev.info
 127.0.0.1 software-updates.co
 127.0.0.1 software-wenc.co.cc
 127.0.0.1 soidog.fr
@@ -3061,6 +3071,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 telpay.fr
 127.0.0.1 tenispro.fr
 127.0.0.1 terricole.fr
+127.0.0.1 test.gutir.ru
 127.0.0.1 test.ishvara-yoga.com
 127.0.0.1 testbook.fr
 127.0.0.1 textbrokr.fr
@@ -3335,6 +3346,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.bbyjgkkdihiyxy.com
 127.0.0.1 www.bcwars.net
 127.0.0.1 www.be4life.ru
+127.0.0.1 www.behdja.com
 127.0.0.1 www.bellamhair.com
 127.0.0.1 www.bernoussiphone.com
 127.0.0.1 www.bestlabour.com
@@ -3421,6 +3433,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.commuteinfo.com
 127.0.0.1 www.compufixshop.com
 127.0.0.1 www.conclusioncompeting.bond
+127.0.0.1 www.conservativedeeper.garden
 127.0.0.1 www.consultingbyelevate.com
 127.0.0.1 www.continuedlincoln.bond
 127.0.0.1 www.controlpop.com
@@ -3452,6 +3465,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.desirymart.com
 127.0.0.1 www.dewcoreaj.pro
 127.0.0.1 www.dewwillowwj.site
+127.0.0.1 www.diamondconnections.living
 127.0.0.1 www.dictadosonline.com
 127.0.0.1 www.didata.bw
 127.0.0.1 www.diffuselec.com
@@ -3467,6 +3481,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dustinjonesgolfacademy.com
 127.0.0.1 www.dymor.cfd
 127.0.0.1 www.dynamictyres.com
+127.0.0.1 www.dzzzsc.com
 127.0.0.1 www.e-transfer-cra.com
 127.0.0.1 www.eaglesfanclub.com
 127.0.0.1 www.eamazondigital.com
@@ -3560,6 +3575,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gotorobeks.com
 127.0.0.1 www.gparted.fr
 127.0.0.1 www.gpolitico.com
+127.0.0.1 www.gracefulmeaduu.online
 127.0.0.1 www.gradedoctortutoring.com
 127.0.0.1 www.grandtables.com
 127.0.0.1 www.greatdeposit.com
@@ -3629,9 +3645,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.karazah.com
 127.0.0.1 www.keepass.com
 127.0.0.1 www.keepass.fr
+127.0.0.1 www.kencorporation.property
 127.0.0.1 www.kesau.com
 127.0.0.1 www.keybinary.com
 127.0.0.1 www.khanomtour.com
+127.0.0.1 www.kinderstampo.com
 127.0.0.1 www.kindnations.com
 127.0.0.1 www.kindwebdg.site
 127.0.0.1 www.kittayaroyalbeauty.com
@@ -3669,6 +3687,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.lostbestsgames.com
 127.0.0.1 www.loveromantic.com
 127.0.0.1 www.lunargrovefx.com
+127.0.0.1 www.madnesscase.com
 127.0.0.1 www.magento-analytics.com
 127.0.0.1 www.maiecaffe.com
 127.0.0.1 www.maillazy.com
@@ -3763,6 +3782,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.paidsecure.com
 127.0.0.1 www.paidtheme.com
 127.0.0.1 www.paintballpins.com
+127.0.0.1 www.paintingoccasion.living
 127.0.0.1 www.paintnet.es
 127.0.0.1 www.paintnet.fr
 127.0.0.1 www.palaceskateboard.com
@@ -3773,6 +3793,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.paviro.cfd
 127.0.0.1 www.pcfixguide.help
 127.0.0.1 www.pdrill.com
+127.0.0.1 www.pdxsenior.com
 127.0.0.1 www.peachysailwv.pro
 127.0.0.1 www.pearlyappss.pro
 127.0.0.1 www.peopleesbancorp.com
@@ -3800,6 +3821,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.portlanfleathergoods.com
 127.0.0.1 www.portutopcas.com
 127.0.0.1 www.postsavings.com
+127.0.0.1 www.poukladanyswiat.com
 127.0.0.1 www.ppoi.org
 127.0.0.1 www.premiumbrandszonalibre.com
 127.0.0.1 www.presidency.site
@@ -3893,6 +3915,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.softwarebeginner.com
 127.0.0.1 www.sohailpc.com
 127.0.0.1 www.spectrumhomehealthinc.com
+127.0.0.1 www.spiritentertainment.homes
 127.0.0.1 www.spojrzenia.com
 127.0.0.1 www.sporttile.com
 127.0.0.1 www.ssdede.com
@@ -3911,6 +3934,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.stylistnet.com
 127.0.0.1 www.styxwise.com
 127.0.0.1 www.subwayfast.com
+127.0.0.1 www.suchnasty.skin
 127.0.0.1 www.sumgaydigital.com
 127.0.0.1 www.sunglassesfor.com
 127.0.0.1 www.supereeego.com
@@ -3957,6 +3981,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.tvrails.com
 127.0.0.1 www.tvshowslist.com
 127.0.0.1 www.ultratemps.com
+127.0.0.1 www.underobviously.garden
 127.0.0.1 www.unetbootin.net
 127.0.0.1 www.unetbootin.org
 127.0.0.1 www.upgradebasic.com
@@ -3964,6 +3989,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.uqz.com
 127.0.0.1 www.urldelivery.com
 127.0.0.1 www.vacnleefarpels.com
+127.0.0.1 www.vbttech.com
 127.0.0.1 www.vebprostopinup.com
 127.0.0.1 www.vecchiopools.com
 127.0.0.1 www.ventilationdirec.com
@@ -3994,6 +4020,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.weknow.ac
 127.0.0.1 www.wewillrocknow.com
 127.0.0.1 www.wezelco.com
+127.0.0.1 www.wgmarketingdigital.com
 127.0.0.1 www.whiskeyallys.com
 127.0.0.1 www.white-dock.net
 127.0.0.1 www.wholesaleorganix.com
@@ -4017,11 +4044,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.xtremetechcr.com
 127.0.0.1 www.yellowquartzkr.name
 127.0.0.1 www.yendermsoul.com
+127.0.0.1 www.yixiudn.com
 127.0.0.1 www.ylgj789.com
 127.0.0.1 www.yoolyes.com
 127.0.0.1 www.youfiletor.com
 127.0.0.1 www.yreta.com
 127.0.0.1 www.zenithvault.uk
+127.0.0.1 www.zephyrvineky.online
 127.0.0.1 www.zippylakeri.name
 127.0.0.1 www1-van-city-signon.com
 127.0.0.1 wyoutube.fr
