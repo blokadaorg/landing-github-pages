@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 14 Jun 2026 at 19:48:46 GMT
+# Last updated: Sun, 21 Jun 2026 at 18:19:42 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1663,6 +1663,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 brunga.at	# Facebook phishing attempt
 127.0.0.1 bsugars.sa.com
 127.0.0.1 bt.webwise.org
+127.0.0.1 build.waikatocycleways.info
 127.0.0.1 bulletwhiskey.sa.com
 127.0.0.1 bundesanzeiger.fr
 127.0.0.1 burley.fr
@@ -1796,6 +1797,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 coldcertainchannel.com
 127.0.0.1 coldpacific.com
 127.0.0.1 colisismo.fr
+127.0.0.1 collagenforwellnessandbeauty.com
 127.0.0.1 collline.fr
 127.0.0.1 coloradosoccerbuddies.acemlna.com
 127.0.0.1 colssimo.fr
@@ -2469,6 +2471,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mandialrelay.fr
 127.0.0.1 mappyt.fr
 127.0.0.1 marathondulacduder.fr
+127.0.0.1 marble.travelhealthreport.info
 127.0.0.1 marie-gerardmer.fr
 127.0.0.1 marigo.redbacksburger.info
 127.0.0.1 marinescence.fr
@@ -2567,6 +2570,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mshelp247.weebly.com
 127.0.0.1 msssante.fr
 127.0.0.1 msx.lumena.cfd
+127.0.0.1 mughal.sobiratel.info
 127.0.0.1 mundilite.fr
 127.0.0.1 murcia-ban.es
 127.0.0.1 musculaation.fr
@@ -2674,6 +2678,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 orange.npix.net
 127.0.0.1 orangemali.fr
 127.0.0.1 orangf.fr
+127.0.0.1 orbit.benchmarx.info
 127.0.0.1 ordersildenafil.com
 127.0.0.1 ordremek.fr
 127.0.0.1 orientationpour-tous.fr
@@ -3101,6 +3106,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 timberlande.fr
 127.0.0.1 tip-leisusports.com
 127.0.0.1 tiplanet.fr
+127.0.0.1 tlio.forskningsnytt.info
 127.0.0.1 tnews.day
 127.0.0.1 toknowall.com
 127.0.0.1 tomorrownewstoday.com	# I'm not sure what it does, but it seems to be associated with a phishing attempt on Facebook
@@ -3313,6 +3319,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.amintart.com
 127.0.0.1 www.amomales.com
 127.0.0.1 www.anatol.com
+127.0.0.1 www.anyik.com
 127.0.0.1 www.apcort.com
 127.0.0.1 www.apkfuuny.com
 127.0.0.1 www.aqualakefy.name
@@ -3469,6 +3476,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dictadosonline.com
 127.0.0.1 www.didata.bw
 127.0.0.1 www.diffuselec.com
+127.0.0.1 www.digimininggame.com
 127.0.0.1 www.digisubmission.com
 127.0.0.1 www.digitalbigger.garden
 127.0.0.1 www.digitalcoachpro.name
@@ -3547,6 +3555,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.futuredecide.com
 127.0.0.1 www.futureowned.com
 127.0.0.1 www.gadgetbonanzamarket.com
+127.0.0.1 www.gaicodon.com
 127.0.0.1 www.gainwintz.com
 127.0.0.1 www.gamelthae.com
 127.0.0.1 www.gameltjae.com
@@ -3554,6 +3563,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gameqnt.com
 127.0.0.1 www.gamersigns.com
 127.0.0.1 www.gandiatv.com
+127.0.0.1 www.gangtaylor.property
 127.0.0.1 www.gavelandcap.com
 127.0.0.1 www.gekkstoyou.com
 127.0.0.1 www.gekorn.com
@@ -3628,6 +3638,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.invitegame.com
 127.0.0.1 www.iovenesweb.com
 127.0.0.1 www.irony.world
+127.0.0.1 www.iwantclothing.com
 127.0.0.1 www.jackpotcasinojeux.com
 127.0.0.1 www.janushnderson.com
 127.0.0.1 www.jerseyoffers.com
@@ -3684,9 +3695,12 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.logoradar.com
 127.0.0.1 www.logoswitch.com
 127.0.0.1 www.lomalindasda.org			# Facebook trojan
+127.0.0.1 www.lookimpression.beer
 127.0.0.1 www.lostbestsgames.com
 127.0.0.1 www.loveromantic.com
+127.0.0.1 www.lowestincreases.bond
 127.0.0.1 www.lunargrovefx.com
+127.0.0.1 www.luxeforher.com
 127.0.0.1 www.madnesscase.com
 127.0.0.1 www.magento-analytics.com
 127.0.0.1 www.maiecaffe.com
@@ -3700,6 +3714,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.matifi.com
 127.0.0.1 www.meantvictim.lat
 127.0.0.1 www.mediamindpolska.com
+127.0.0.1 www.meeseger.com
 127.0.0.1 www.megapurchase.com
 127.0.0.1 www.memorieson.com
 127.0.0.1 www.mexdrugs.com
@@ -3710,6 +3725,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.milkycascadeut.site
 127.0.0.1 www.minr.pw
 127.0.0.1 www.miocardite.com
+127.0.0.1 www.mixsorts.garden
 127.0.0.1 www.miziko.com
 127.0.0.1 www.modelsailboat.net
 127.0.0.1 www.moncasinoonline.com
@@ -3857,6 +3873,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.realdrjudy.com
 127.0.0.1 www.reandrogames.com
 127.0.0.1 www.recallblog.com
+127.0.0.1 www.regulationprofit.bond
 127.0.0.1 www.rekonsise.com
 127.0.0.1 www.relaxingcafe.com
 127.0.0.1 www.reliaslearrning.com
@@ -3885,6 +3902,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.scrapzoneauto.com
 127.0.0.1 www.securityplusproducts.com
 127.0.0.1 www.securityscan.us
+127.0.0.1 www.seedschaos.garden
 127.0.0.1 www.sellpetrol.com
 127.0.0.1 www.sellrubber.com
 127.0.0.1 www.shinilchurch.net	# domain was hacked and had a trojan installed
@@ -3909,11 +3927,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.snowhandball.com
 127.0.0.1 www.snugbirdjq.blog
 127.0.0.1 www.snurrlyspin.com
+127.0.0.1 www.soctoni.com
 127.0.0.1 www.softcarp.com
 127.0.0.1 www.softmillon.com
 127.0.0.1 www.softpebble.com
 127.0.0.1 www.softwarebeginner.com
 127.0.0.1 www.sohailpc.com
+127.0.0.1 www.sonparks.skin
 127.0.0.1 www.spectrumhomehealthinc.com
 127.0.0.1 www.spiritentertainment.homes
 127.0.0.1 www.spojrzenia.com
@@ -3959,9 +3979,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.thecollectiverd.com
 127.0.0.1 www.thedatesafe.com			# Facebook trojan
 127.0.0.1 www.thefriday.net
+127.0.0.1 www.thelaferianews.com
 127.0.0.1 www.themesets.com
 127.0.0.1 www.theprimeindia.com
 127.0.0.1 www.thesecuredtrader.com
+127.0.0.1 www.theskinnyschool.com
 127.0.0.1 www.thisplanet.net
 127.0.0.1 www.thunderbird.es
 127.0.0.1 www.timelyworks.com
@@ -3976,6 +3998,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.trucktirehotline.com
 127.0.0.1 www.truecrypt.fr
 127.0.0.1 www.trueshelterju.pro
+127.0.0.1 www.ttcgg.com
 127.0.0.1 www.tuningcentar.com
 127.0.0.1 www.tvccpt.com
 127.0.0.1 www.tvrails.com
@@ -4021,6 +4044,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.wewillrocknow.com
 127.0.0.1 www.wezelco.com
 127.0.0.1 www.wgmarketingdigital.com
+127.0.0.1 www.whatsappvido.com
 127.0.0.1 www.whiskeyallys.com
 127.0.0.1 www.white-dock.net
 127.0.0.1 www.wholesaleorganix.com
@@ -4033,12 +4057,15 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.winlottofrequently.com
 127.0.0.1 www.wiseknows.bond
 127.0.0.1 www.wjldfm.com
+127.0.0.1 www.wontake.skin
 127.0.0.1 www.woodycrystaljo.name
 127.0.0.1 www.workschat.com
 127.0.0.1 www.wraploans.com
 127.0.0.1 www.wrestlewebnews.com
 127.0.0.1 www.wwwhwgo.com
+127.0.0.1 www.wwwmyboostnow.com
 127.0.0.1 www.wwwpaipal.com
+127.0.0.1 www.wwwtsg.com
 127.0.0.1 www.xandermaker.com
 127.0.0.1 www.xdesimbi.com
 127.0.0.1 www.xtremetechcr.com
