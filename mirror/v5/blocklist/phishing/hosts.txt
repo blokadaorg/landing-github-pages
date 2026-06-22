@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:33 UTC
+# Last modified: 2026-06-22 09:52:54 UTC
 # Format: hosts
-# Entries: 190,222
+# Entries: 190,223
 # URL:
 #
 # This list is maintained by The Block List Project
@@ -19291,7 +19291,7 @@
 0.0.0.0 bunted-reason.000webhostapp.com
 0.0.0.0 buntel-maroc.com
 0.0.0.0 buntymendke.com
-0.0.0.0 bunwaejrx.com #issue 44 add request
+0.0.0.0 bunwaejrx.com
 0.0.0.0 bunyonyifoods.com
 0.0.0.0 buonagente.com.br
 0.0.0.0 buond7ljzfxvzak3ka8x.readycarsvans.com
@@ -19982,7 +19982,7 @@
 0.0.0.0 calchain.io
 0.0.0.0 calchimelli.com.br
 0.0.0.0 calcific-moss.000webhostapp.com
-0.0.0.0 calcotsjvila.cat #issue 45 add requeset
+0.0.0.0 calcotsjvila.cat
 0.0.0.0 calculatedresults.com.au
 0.0.0.0 calcutta.co.kr
 0.0.0.0 calcuttaconnect.ie
@@ -42364,7 +42364,7 @@
 0.0.0.0 globalrecruitment.icu
 0.0.0.0 globalrexib.com
 0.0.0.0 globalrock.com.pk
-0.0.0.0 globalsending.top # issue 31 add request
+0.0.0.0 globalsending.top
 0.0.0.0 globalservices123.com
 0.0.0.0 globalshings.tk
 0.0.0.0 globalshippinglinecft.com
@@ -55822,6 +55822,7 @@
 0.0.0.0 kazps.com
 0.0.0.0 kazukogstone.com
 0.0.0.0 kazuled.com.vn
+0.0.0.0 kazwex.com
 0.0.0.0 kazzpc.com
 0.0.0.0 kba.org.pk
 0.0.0.0 kbanka.com
@@ -77072,7 +77073,6 @@
 0.0.0.0 paypal.com.0.confirmation.account-security.39612823e89e12155115a36a9b9328ae39612823e89e12155115a36a9b932.3233.privado.info
 0.0.0.0 paypal.com.798273.ml
 0.0.0.0 paypal.com.7updatetonew.duckdns.org
-0.0.0.0 paypal.com.account.security.mo.verification.iatxmjzqhibe81zbfzz.checksecurity.jnidicadefnaleaa46cq6nxackdbw.secure.account-stats
 0.0.0.0 paypal.com.account.update.paypal.com.paradiseyouthclub.com
 0.0.0.0 paypal.com.amaaonaws.com
 0.0.0.0 paypal.com.au-deviceid7956075-customer83034.julienobles.com
@@ -90331,7 +90331,7 @@
 0.0.0.0 sensus.jokam.org
 0.0.0.0 sent.clf.io
 0.0.0.0 sentasp.graimphe.com
-0.0.0.0 sentforyou.com # issue 31 add request
+0.0.0.0 sentforyou.com
 0.0.0.0 sentidoarquitetura.com.br
 0.0.0.0 sentienz.com
 0.0.0.0 sentierconsulting.co.in
@@ -178872,6 +178872,7 @@
 0.0.0.0 www.trustlinkmm.com
 0.0.0.0 www.trustmidia.com.br
 0.0.0.0 www.trustpasslogin.com
+0.0.0.0 www.trustpilot.com
 0.0.0.0 www.trustsolucoes.com.br
 0.0.0.0 www.trusttravelusa.com
 0.0.0.0 www.trusturman.com
