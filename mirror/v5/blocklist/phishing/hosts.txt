@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 09:52:54 UTC
+# Last modified: 2026-06-28 17:19:01 UTC
 # Format: hosts
-# Entries: 190,223
+# Entries: 190,215
 # URL:
 #
 # This list is maintained by The Block List Project
@@ -15715,6 +15715,7 @@
 0.0.0.0 benderpainting.bc.ca
 0.0.0.0 benderterrace.net
 0.0.0.0 bendery-fortress.com
+0.0.0.0 bendigorewardsaj-homes.info
 0.0.0.0 bendinat-villa.com
 0.0.0.0 bendiouis-immobilier.com
 0.0.0.0 benditagraca.com.br
@@ -76504,7 +76505,6 @@
 0.0.0.0 payficient.com
 0.0.0.0 paygiveaway.com
 0.0.0.0 paygoworkercomp.com
-0.0.0.0 payhip.com
 0.0.0.0 payinbee.icu
 0.0.0.0 payintl-paypal.com
 0.0.0.0 payipal-infomation.mondomaide.ovh
@@ -83718,7 +83718,6 @@
 0.0.0.0 rcco.in
 0.0.0.0 rcdauganda.org
 0.0.0.0 rcddc.org
-0.0.0.0 rce-event.de
 0.0.0.0 rce-jo.com
 0.0.0.0 rcentral527.webserversystems.com
 0.0.0.0 rcg.kjukenhi.in
@@ -90203,6 +90202,7 @@
 0.0.0.0 sellyourcell.in
 0.0.0.0 sellyourmac.co.za
 0.0.0.0 selmart.net
+0.0.0.0 selot.jp.net
 0.0.0.0 selouskingalodge.com
 0.0.0.0 seltvideos.com
 0.0.0.0 selvagoldcovering.com
@@ -95387,6 +95387,7 @@
 0.0.0.0 staubsblog.com
 0.0.0.0 staubwoelkchen.at
 0.0.0.0 stavreko.cz
+0.0.0.0 stay-house24891.com
 0.0.0.0 stayclassy.ru
 0.0.0.0 staydryboatlauncher.com
 0.0.0.0 stayinsa.co.za
@@ -95466,6 +95467,7 @@
 0.0.0.0 steamcommuinlty.com
 0.0.0.0 steamcommujtliy.com
 0.0.0.0 steamcommumnity.com
+0.0.0.0 steamcommumtiy.com
 0.0.0.0 steamcommunety.com
 0.0.0.0 steamcommunety.net
 0.0.0.0 steamcommuniitu.com
@@ -103492,6 +103494,7 @@
 0.0.0.0 uk-appleid.com
 0.0.0.0 uk-appleidservice.com
 0.0.0.0 uk-bnk.com
+0.0.0.0 uk-dpd-parcelmovex.sbs
 0.0.0.0 uk-paypal.net
 0.0.0.0 uk-refund-support.com
 0.0.0.0 uk-restore.com
@@ -106066,8 +106069,6 @@
 0.0.0.0 verizonwireess.com
 0.0.0.0 verizonwireless-messaging.com
 0.0.0.0 verizonwireless-txt.com
-0.0.0.0 verizonwireless.com
-0.0.0.0 verizonwireless.company
 0.0.0.0 verizonwireless.rocks
 0.0.0.0 verizonwireless4g.com
 0.0.0.0 verizonwireless5g.com
@@ -107597,7 +107598,6 @@
 0.0.0.0 vzagainstwo.co.uk
 0.0.0.0 vzazrb.site
 0.0.0.0 vzdrzevan.si
-0.0.0.0 vzfraudatverizonwireless.com
 0.0.0.0 vziyqmtad.fu.maxgrowth.ru
 0.0.0.0 vzmakh.ru
 0.0.0.0 vzmo.bunopro.us
@@ -110277,7 +110277,6 @@
 0.0.0.0 wwtech.eu
 0.0.0.0 wwuol.com.br
 0.0.0.0 wwv-apple.com
-0.0.0.0 wwverizonwireless.com
 0.0.0.0 wwvv-apple.com
 0.0.0.0 wwvv.vlabcep.pet
 0.0.0.0 wwvwsantandermobiile.com
@@ -122117,6 +122116,7 @@
 0.0.0.0 www.benderpainting.bc.ca
 0.0.0.0 www.benderterrace.net
 0.0.0.0 www.bendery-fortress.com
+0.0.0.0 www.bendigorewardsaj-homes.info
 0.0.0.0 www.bendinat-villa.com
 0.0.0.0 www.bendmunchkinmanor.com
 0.0.0.0 www.bends.in
@@ -127437,7 +127437,6 @@
 0.0.0.0 www.cinemania.us
 0.0.0.0 www.cinemanity.com
 0.0.0.0 www.cinemateus.com.br
-0.0.0.0 www.cinemazed.be
 0.0.0.0 www.cinemiz.net
 0.0.0.0 www.cinkantonlances.com
 0.0.0.0 www.cinny.athlodomi.com
@@ -162053,7 +162052,6 @@
 0.0.0.0 www.paygiveaway.com
 0.0.0.0 www.paygoworkercomp.com
 0.0.0.0 www.payhelpser.000webhostapp.com
-0.0.0.0 www.payhip.com
 0.0.0.0 www.payiipal.com
 0.0.0.0 www.payipaal.com
 0.0.0.0 www.paykassa2018.ru
@@ -166620,7 +166618,6 @@
 0.0.0.0 www.rccgpavilion.org
 0.0.0.0 www.rccgpraiseassembly.com.ng
 0.0.0.0 www.rcco.in
-0.0.0.0 www.rce-event.de
 0.0.0.0 www.rce-jo.com
 0.0.0.0 www.rcgrp.us
 0.0.0.0 www.rchobbyindia.com
@@ -181096,7 +181093,6 @@
 0.0.0.0 www.verizonwireess.com
 0.0.0.0 www.verizonwireless-messaging.com
 0.0.0.0 www.verizonwireless-txt.com
-0.0.0.0 www.verizonwireless.company
 0.0.0.0 www.verizonwireless.rocks
 0.0.0.0 www.verizonwireless4g.com
 0.0.0.0 www.verizonwireless5g.com
@@ -182123,7 +182119,6 @@
 0.0.0.0 www.vyxwtjsq.tk
 0.0.0.0 www.vz9dhqlskgwtlksyxmzm.littlematchagirl.com.au
 0.0.0.0 www.vzdrzevan.si
-0.0.0.0 www.vzfraudatverizonwireless.com
 0.0.0.0 www.w-bdesigns.co.uk
 0.0.0.0 www.w-eight.org
 0.0.0.0 www.w-eos.com
@@ -183999,7 +183994,6 @@
 0.0.0.0 www.wwt.kz
 0.0.0.0 www.wwtech.eu
 0.0.0.0 www.wwv-apple.com
-0.0.0.0 www.wwverizonwireless.com
 0.0.0.0 www.wwvv-apple.com
 0.0.0.0 www.wwvwsantandermobiile.com
 0.0.0.0 www.www---apple.com
@@ -184608,7 +184602,6 @@
 0.0.0.0 www.xemayanhem.com
 0.0.0.0 www.xemoz.com
 0.0.0.0 www.xenangdaiduong.com.vn
-0.0.0.0 www.xenet.es
 0.0.0.0 www.xenew.tk
 0.0.0.0 www.xenewns.tk
 0.0.0.0 www.xenoninfotech.in
@@ -187495,7 +187488,6 @@
 0.0.0.0 xenangdaiduong.com.vn
 0.0.0.0 xenaroda.com
 0.0.0.0 xenctoy.ga
-0.0.0.0 xenet.es
 0.0.0.0 xenew.tk
 0.0.0.0 xenewns.tk
 0.0.0.0 xenoninfotech.in

@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 09:52:58 UTC
+# Last modified: 2026-06-28 17:19:02 UTC
 # Format: hosts
-# Entries: 15,052
+# Entries: 15,051
 # URL:
 #
 # This list is maintained by The Block List Project
@@ -2040,7 +2040,6 @@
 0.0.0.0 gfswl.geforce.com
 0.0.0.0 ggimg.tapas.net
 0.0.0.0 ggo.directrev.com
-0.0.0.0 ghostery.com
 0.0.0.0 gigabytedealz.com
 0.0.0.0 gillyhunt.com
 0.0.0.0 gimmescreenshot.com
@@ -14086,6 +14085,7 @@
 0.0.0.0 static.audienceinsights.net
 0.0.0.0 static.chartbeat.com
 0.0.0.0 static.zanox.com
+0.0.0.0 statistik.changing-cities.org
 0.0.0.0 statistik.i22.de
 0.0.0.0 stats.adthink-media.com
 0.0.0.0 stats.adurr.com
@@ -14394,7 +14394,6 @@
 0.0.0.0 tracker.webstyle.com
 0.0.0.0 tracker.webstyle.de
 0.0.0.0 tracker.winload.de
-0.0.0.0 tracker2.itzmx.com
 0.0.0.0 trackersimulator.org
 0.0.0.0 trackerstatistik.init-ag.de
 0.0.0.0 trackertec.nznweb.com.br
@@ -14952,3 +14951,6 @@
 0.0.0.0 zylpfood.com
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
+0.0.0.0 wwwstat.rz.uni-leipzig.de
+0.0.0.0 uni.wwwstat.rz.uni-leipzig.de
+0.0.0.0 rtnl.bxcl.de

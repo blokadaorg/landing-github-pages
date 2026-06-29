@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 21 Jun 2026 at 18:19:42 GMT
+# Last updated: Fri, 26 Jun 2026 at 17:11:13 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -3298,6 +3298,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.abnehmenkabofit.de
 127.0.0.1 www.aconchoe.com
 127.0.0.1 www.activetrap.com
+127.0.0.1 www.adacoustics.com
 127.0.0.1 www.adblock.fr
 127.0.0.1 www.adselector.com
 127.0.0.1 www.adshufffle.com
@@ -3448,6 +3449,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.coolrextintshop.com
 127.0.0.1 www.corlythra.uk
 127.0.0.1 www.corvettiortho.com
+127.0.0.1 www.courtneydowns.com
 127.0.0.1 www.cpatglobal.com
 127.0.0.1 www.cprcar.com
 127.0.0.1 www.cqwallpaper.com
@@ -3506,6 +3508,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.esjetonline.com
 127.0.0.1 www.ethicsstore.com
 127.0.0.1 www.europelinen.com
+127.0.0.1 www.eventflavor.com
 127.0.0.1 www.exactpharm.com
 127.0.0.1 www.exambased.com
 127.0.0.1 www.exceleratehelp.com
@@ -3714,6 +3717,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.matifi.com
 127.0.0.1 www.meantvictim.lat
 127.0.0.1 www.mediamindpolska.com
+127.0.0.1 www.meecheck.com
 127.0.0.1 www.meeseger.com
 127.0.0.1 www.megapurchase.com
 127.0.0.1 www.memorieson.com
@@ -3760,6 +3764,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.new2crypto.com
 127.0.0.1 www.newshello.com
 127.0.0.1 www.nextfeatures.com
+127.0.0.1 www.nftnavigator.com
 127.0.0.1 www.nigja.com
 127.0.0.1 www.nnews.net
 127.0.0.1 www.nobetsjustfun.com
@@ -3833,6 +3838,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.playroyaluk.com
 127.0.0.1 www.playtactics-hub.com
 127.0.0.1 www.pluseconomy.com
+127.0.0.1 www.ponhap.com
 127.0.0.1 www.portaldimensional.com
 127.0.0.1 www.portlanfleathergoods.com
 127.0.0.1 www.portutopcas.com
@@ -3895,6 +3901,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.rtpbolaslotjago.com
 127.0.0.1 www.russian-sex.com
 127.0.0.1 www.sailpirate.com
+127.0.0.1 www.salliemaebenefits.com
 127.0.0.1 www.salttm.com
 127.0.0.1 www.sandybellxb.site
 127.0.0.1 www.sandybrookyt.name
@@ -3968,6 +3975,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.tanger.com.br
 127.0.0.1 www.tattnexa.tattoo
 127.0.0.1 www.tattooshaha.info			# Facebook trojan
+127.0.0.1 www.teacherblogit.com
 127.0.0.1 www.teafortune.com
 127.0.0.1 www.techadvisorpro.name
 127.0.0.1 www.technocost.com
@@ -3979,6 +3987,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.thecollectiverd.com
 127.0.0.1 www.thedatesafe.com			# Facebook trojan
 127.0.0.1 www.thefriday.net
+127.0.0.1 www.thegioibaove.com
 127.0.0.1 www.thelaferianews.com
 127.0.0.1 www.themesets.com
 127.0.0.1 www.theprimeindia.com
@@ -4024,6 +4033,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.vipnac.com
 127.0.0.1 www.vkvmotion.com
 127.0.0.1 www.vnailssanclemente.com
+127.0.0.1 www.volvce.com
 127.0.0.1 www.voolat.com
 127.0.0.1 www.walkhelp.net
 127.0.0.1 www.wantsfly.com
