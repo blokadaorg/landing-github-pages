@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 26 Jun 2026 at 17:11:13 GMT
+# Last updated: Thu, 02 Jul 2026 at 20:47:18 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1845,6 +1845,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 crrect.sa.com
 127.0.0.1 crypto-loot.com
 127.0.0.1 ctmsapp.com
+127.0.0.1 ctziogas.gr
 127.0.0.1 cuder.fr
 127.0.0.1 cullligan.fr
 127.0.0.1 culturalfoundation.fr
@@ -1931,6 +1932,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 ecantal.fr
 127.0.0.1 ecirque.fr
 127.0.0.1 eckosport.fr
+127.0.0.1 ecommercegoodies.com
 127.0.0.1 edecideur.fr
 127.0.0.1 edisk.ukr.net.ssl2.in
 127.0.0.1 edmo.fr
@@ -3340,11 +3342,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.availablefiles.com
 127.0.0.1 www.avemoo.com
 127.0.0.1 www.azureus.es
+127.0.0.1 www.azwomens.com
 127.0.0.1 www.backingguitar.garden
 127.0.0.1 www.bahartonu.com
 127.0.0.1 www.baiakstyle.com
 127.0.0.1 www.balassst.com
 127.0.0.1 www.bandexperts.com
+127.0.0.1 www.banghra.com
 127.0.0.1 www.bankofcounty.com
 127.0.0.1 www.barjacity.com
 127.0.0.1 www.basealloys.com
@@ -3465,6 +3469,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dayanitastore.com
 127.0.0.1 www.daytonjaxx.com
 127.0.0.1 www.dealresponse.com
+127.0.0.1 www.dealshaat.com
 127.0.0.1 www.dealsrate.com
 127.0.0.1 www.deashi.com
 127.0.0.1 www.defailermu.com
@@ -3485,6 +3490,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dkpmsa.cfd
 127.0.0.1 www.dlinktour.com
 127.0.0.1 www.dorminvaders.com
+127.0.0.1 www.downmass.com
 127.0.0.1 www.drivegoals.com
 127.0.0.1 www.dualeotruyenno.com
 127.0.0.1 www.duotrader.com
@@ -3505,6 +3511,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.energiazoque.com
 127.0.0.1 www.eqarati.com
 127.0.0.1 www.eremplacementparts.com
+127.0.0.1 www.erincranor.com
 127.0.0.1 www.esjetonline.com
 127.0.0.1 www.ethicsstore.com
 127.0.0.1 www.europelinen.com
@@ -3526,6 +3533,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.feelimprove.bond
 127.0.0.1 www.fenquavo.com
 127.0.0.1 www.ferreteriamaracopa.com
+127.0.0.1 www.feudlands.com
 127.0.0.1 www.fhtmmeeting.com
 127.0.0.1 www.filezilla.fr
 127.0.0.1 www.findalgorithm.com
@@ -3600,6 +3608,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.grouphappy.com
 127.0.0.1 www.growthbuilder.name
 127.0.0.1 www.guaranteeservice.lat
+127.0.0.1 www.haikuservices.com
 127.0.0.1 www.hajoopteg.com
 127.0.0.1 www.hakerzy.net
 127.0.0.1 www.handbrake.es
@@ -3610,6 +3619,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.healthcompeting.rest
 127.0.0.1 www.helvax.cfd
 127.0.0.1 www.helvora.help
+127.0.0.1 www.herselfshame.homes
 127.0.0.1 www.hiewa.com.my
 127.0.0.1 www.higherteam.com
 127.0.0.1 www.hindudirectory.com
@@ -3640,6 +3650,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.instantcross.com
 127.0.0.1 www.invitegame.com
 127.0.0.1 www.iovenesweb.com
+127.0.0.1 www.irlandalk.com
 127.0.0.1 www.irony.world
 127.0.0.1 www.iwantclothing.com
 127.0.0.1 www.jackpotcasinojeux.com
@@ -3684,6 +3695,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.ledfaucetlight.com
 127.0.0.1 www.leeucode.com
 127.0.0.1 www.lemoncascadexq.name
+127.0.0.1 www.lfsph.com
 127.0.0.1 www.libanco.com
 127.0.0.1 www.lightcontest.com
 127.0.0.1 www.lightstylist.com
@@ -3905,8 +3917,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.salttm.com
 127.0.0.1 www.sandybellxb.site
 127.0.0.1 www.sandybrookyt.name
+127.0.0.1 www.santemama.com
 127.0.0.1 www.sauteenacoochee.com
 127.0.0.1 www.scrapzoneauto.com
+127.0.0.1 www.sealabour.living
 127.0.0.1 www.securityplusproducts.com
 127.0.0.1 www.securityscan.us
 127.0.0.1 www.seedschaos.garden
@@ -9308,6 +9322,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 newclk.com
 127.0.0.1 newip427.changeip.net
 127.0.0.1 newjunk4u.com
+127.0.0.1 newlovez.co
+127.0.0.1 newlovez2.co
+127.0.0.1 newlovez3.co
+127.0.0.1 newlovez4.co
 127.0.0.1 newmedsdeal.eu
 127.0.0.1 newms-shop.su
 127.0.0.1 newpipe.app
