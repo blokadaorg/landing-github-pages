@@ -1,15 +1,6 @@
-# Title: Tracking Block List
-# Description: Tracking and analytics
-# Homepage: https://github.com/blocklistproject/Lists
-# License: MIT
-# Last modified: 2026-07-06 00:40:32 UTC
-# Format: hosts
-# Entries: 143,869
-# URL:
-#
-# This list is maintained by The Block List Project
-# https://github.com/blocklistproject/Lists
-#
+# Tracking Blocklist
+# Updated by upstream monitoring
+# Date: 2026-07-08T05:35:15.341817
 
 0.0.0.0 000-000-37645t2783296323fn2.calibrescientifics.com
 0.0.0.0 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
@@ -3487,6 +3478,7 @@
 0.0.0.0 ad-serverparc.nl
 0.0.0.0 ad-stir.com
 0.0.0.0 ad-track.jp
+0.0.0.0 ad-tracker.samsungads.com
 0.0.0.0 ad-x.co.uk
 0.0.0.0 ad.12dt.com
 0.0.0.0 ad.71i.de
@@ -5845,6 +5837,7 @@
 0.0.0.0 analytics-eu.socialhippo.be
 0.0.0.0 analytics-eu.socialhippo.nl
 0.0.0.0 analytics-eu.trustyou.com
+0.0.0.0 analytics-events.apple.com
 0.0.0.0 analytics-f1-venues.yinzcam.com
 0.0.0.0 analytics-frame.sendsafely.com
 0.0.0.0 analytics-gtm.redbubble.com
@@ -23742,6 +23735,7 @@
 0.0.0.0 click.aaptiv.com
 0.0.0.0 click.alexabyte.site
 0.0.0.0 click.amazingfacts.org
+0.0.0.0 click.appwonders.org
 0.0.0.0 click.avenuehomes.net
 0.0.0.0 click.beatport-email.com
 0.0.0.0 click.bible.com
@@ -47760,6 +47754,7 @@
 0.0.0.0 jzd3dk.com
 0.0.0.0 jzvln.famousfootwear.com
 0.0.0.0 jzvsc.thermoworks.com
+0.0.0.0 jzzuvzq98.alphonso.tv
 0.0.0.0 k-analytix.com
 0.0.0.0 k-ring-fallback.msedge.net
 0.0.0.0 k-ring.msedge.net
@@ -47980,6 +47975,7 @@
 0.0.0.0 kfw03.webtrekk.net
 0.0.0.0 kfw04.webtrekk.net
 0.0.0.0 kg-ad-lgsmartad-com.aws-prd.net
+0.0.0.0 kg-legacy-analytics.servicebus.windows.net
 0.0.0.0 kg-logagent-st.kingsgroupgames.com
 0.0.0.0 kg.ad.lgsmartad.com
 0.0.0.0 kg.lgsmartad.com
@@ -48478,6 +48474,7 @@
 0.0.0.0 krishnaw401.alphonso.tv
 0.0.0.0 krishnaw404.alphonso.tv
 0.0.0.0 krishnaw405.alphonso.tv
+0.0.0.0 krishnaw408.alphonso.tv
 0.0.0.0 krishnaw411.alphonso.tv
 0.0.0.0 krishnaw412.alphonso.tv
 0.0.0.0 krishnaw413.alphonso.tv
@@ -56521,6 +56518,7 @@
 0.0.0.0 marketing.wbm.com
 0.0.0.0 marketing.wbresearch.com
 0.0.0.0 marketing.webgruppen.no
+0.0.0.0 marketing.whitewallsolutions.com
 0.0.0.0 marketing.whysymphony.com
 0.0.0.0 marketing.willamettewines.com
 0.0.0.0 marketing.wilmingtonandbeaches.com
@@ -80150,6 +80148,7 @@
 0.0.0.0 newrelic.ventures
 0.0.0.0 newrelic.works
 0.0.0.0 newrelic.wtf
+0.0.0.0 news-analytics-events.apple.com
 0.0.0.0 news-app-events.apple.com
 0.0.0.0 news-events.apple.com
 0.0.0.0 news-lichter.de
@@ -92620,6 +92619,7 @@
 0.0.0.0 pocitadlo.nejen.cz
 0.0.0.0 pocitadlolibise.seznam.cz
 0.0.0.0 pocketfaucet.com
+0.0.0.0 podcasts-analytics-events.apple.com
 0.0.0.0 podfdch.com
 0.0.0.0 podiumpresto.com
 0.0.0.0 podph.mielleorganics.com
@@ -92994,6 +92994,7 @@
 0.0.0.0 priv.w-vt.de
 0.0.0.0 privacy-analytics.cc
 0.0.0.0 privacy-api.9gag.com
+0.0.0.0 privacy-backend.samsungads.com
 0.0.0.0 privacy-cs.mail.ru
 0.0.0.0 privacy-digital.diip.co.uk
 0.0.0.0 privacy-digital.infracapital.co.uk
@@ -102291,6 +102292,7 @@
 0.0.0.0 serving-sys.com
 0.0.0.0 servingclks.com
 0.0.0.0 servmetric.com
+0.0.0.0 servo-report.dvdfab.cn
 0.0.0.0 servo-report.keepstreams.com
 0.0.0.0 servo-report.streamfab.com
 0.0.0.0 servpaulapro.paulacunha.com.br
@@ -138150,6 +138152,7 @@
 0.0.0.0 tutorthing.com
 0.0.0.0 tutta.site
 0.0.0.0 tuutrk.com
+0.0.0.0 tv-analytics-events.apple.com
 0.0.0.0 tv-api.blivenyc.com
 0.0.0.0 tv-static.scdn.co
 0.0.0.0 tv.ads.spotx.tv
@@ -138333,6 +138336,7 @@
 0.0.0.0 ua2.coveo.com
 0.0.0.0 uadx.com
 0.0.0.0 uae.nujum.ae
+0.0.0.0 uaenorth-0.in.applicationinsights.azure.com
 0.0.0.0 uafkj.wondercide.com
 0.0.0.0 uafms.ocbc.com
 0.0.0.0 uagmu.cmkconstructioninc.com

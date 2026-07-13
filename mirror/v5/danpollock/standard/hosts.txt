@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Thu, 02 Jul 2026 at 20:47:18 GMT
+# Last updated: Fri, 10 Jul 2026 at 21:29:22 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -2152,6 +2152,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 hcg82f2b.com
 127.0.0.1 headization.lexkd.cn
 127.0.0.1 healpublic.best
+127.0.0.1 healthit.live
 127.0.0.1 hefever.fr
 127.0.0.1 hellomobile.fr
 127.0.0.1 helpmedb.com
@@ -2171,6 +2172,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 hiteck.fr
 127.0.0.1 hiuinder.beauty
 127.0.0.1 hlhtylivs.shop
+127.0.0.1 hlpurs.live
 127.0.0.1 hlthiliv.shop
 127.0.0.1 hltuup.za.com
 127.0.0.1 hocolats-voisin.fr
@@ -2733,6 +2735,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 percantil.fr
 127.0.0.1 peremiere.fr
 127.0.0.1 perfecct.sa.com
+127.0.0.1 performer.za.com
 127.0.0.1 petra.nic.gov.jo
 127.0.0.1 pexkr.comfortykive.xyz
 127.0.0.1 pfepfe.cc
@@ -2990,6 +2993,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 smicaval.fr
 127.0.0.1 smile-angel.com
 127.0.0.1 smosh.fr
+127.0.0.1 snapsonthehouse.com
 127.0.0.1 snscf.fr
 127.0.0.1 sociagil.fr
 127.0.0.1 societegernerale.fr
@@ -3306,6 +3310,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.adshufffle.com
 127.0.0.1 www.aerodriftcore.uk
 127.0.0.1 www.agreementnow.com
+127.0.0.1 www.ahlie.com
 127.0.0.1 www.airmedcarennetwork.com
 127.0.0.1 www.airybotsh.pro
 127.0.0.1 www.airypathsq.name
@@ -3393,6 +3398,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.bucahssana.com
 127.0.0.1 www.builtinfo.com
 127.0.0.1 www.bumerang.cc
+127.0.0.1 www.buystables.com
 127.0.0.1 www.bvcnle.cfd
 127.0.0.1 www.cablyshaw.com
 127.0.0.1 www.calmde.com
@@ -3443,6 +3449,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.combinebasic.com
 127.0.0.1 www.comfortykive.xyz
 127.0.0.1 www.commuteinfo.com
+127.0.0.1 www.complien.com
 127.0.0.1 www.compufixshop.com
 127.0.0.1 www.conclusioncompeting.bond
 127.0.0.1 www.conservativedeeper.garden
@@ -3512,6 +3519,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.eqarati.com
 127.0.0.1 www.eremplacementparts.com
 127.0.0.1 www.erincranor.com
+127.0.0.1 www.erspan.com
 127.0.0.1 www.esjetonline.com
 127.0.0.1 www.ethicsstore.com
 127.0.0.1 www.europelinen.com
@@ -3529,6 +3537,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.faggotry.com
 127.0.0.1 www.farmacyty.com
 127.0.0.1 www.farnazinternational.com
+127.0.0.1 www.faruvclight.com
 127.0.0.1 www.fashiongown.com
 127.0.0.1 www.feelimprove.bond
 127.0.0.1 www.fenquavo.com
@@ -3629,17 +3638,20 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.homininfossil.cfd
 127.0.0.1 www.hotelsdetermine.bond
 127.0.0.1 www.hotpanic.net
+127.0.0.1 www.hourofscience.com
 127.0.0.1 www.hoursales.com
 127.0.0.1 www.hugesector.com
 127.0.0.1 www.hunterspeed.com
 127.0.0.1 www.hypeprop.com
 127.0.0.1 www.hypetrust.com
 127.0.0.1 www.icecars.com
+127.0.0.1 www.iconatsbs.com
 127.0.0.1 www.icygrovejn.com
 127.0.0.1 www.icyhivemy.name
 127.0.0.1 www.iejonline.com
 127.0.0.1 www.iepelnazareno.com
 127.0.0.1 www.igameup.com
+127.0.0.1 www.improvingthe.com
 127.0.0.1 www.indexprofile.com
 127.0.0.1 www.infopaypal.com
 127.0.0.1 www.informecadastral.com
@@ -3648,17 +3660,21 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.inkscape.fr
 127.0.0.1 www.inpicklenaton.com
 127.0.0.1 www.instantcross.com
+127.0.0.1 www.inventons.com
 127.0.0.1 www.invitegame.com
 127.0.0.1 www.iovenesweb.com
 127.0.0.1 www.irlandalk.com
 127.0.0.1 www.irony.world
+127.0.0.1 www.isavs.com
 127.0.0.1 www.iwantclothing.com
 127.0.0.1 www.jackpotcasinojeux.com
+127.0.0.1 www.jacqueruth.com
 127.0.0.1 www.janushnderson.com
 127.0.0.1 www.jerseyoffers.com
 127.0.0.1 www.jessicalonda.com
 127.0.0.1 www.jeuxfortuna.com
 127.0.0.1 www.jeuxjackpotcasino.com
+127.0.0.1 www.jewishgame.com
 127.0.0.1 www.jhsmiami.com
 127.0.0.1 www.jnhjf.com
 127.0.0.1 www.joinfx.net
@@ -3766,6 +3782,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.myhucadvantage.com
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
+127.0.0.1 www.myrosinase.com
 127.0.0.1 www.nabtapharma.com
 127.0.0.1 www.nanohistory.com
 127.0.0.1 www.naturalmovementz.com
@@ -3824,6 +3841,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.partsttown.com
 127.0.0.1 www.paseyourself.com
 127.0.0.1 www.paviro.cfd
+127.0.0.1 www.payasyougocert.com
 127.0.0.1 www.pcfixguide.help
 127.0.0.1 www.pdrill.com
 127.0.0.1 www.pdxsenior.com
@@ -3832,7 +3850,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.peopleesbancorp.com
 127.0.0.1 www.pepernity.com
 127.0.0.1 www.perimentu.com
+127.0.0.1 www.pfsim.com
 127.0.0.1 www.phantomluck.com
+127.0.0.1 www.phonenumberbook.com
 127.0.0.1 www.phormlabs.com
 127.0.0.1 www.photomagicapp.com
 127.0.0.1 www.pickupclean.com
@@ -3908,16 +3928,19 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.rnodernssolution.com
 127.0.0.1 www.robkellysurf.com
 127.0.0.1 www.romanticdemands.bond
+127.0.0.1 www.roofcoins.com
 127.0.0.1 www.rplconnect.com
 127.0.0.1 www.rtkmyz.cfd
 127.0.0.1 www.rtpbolaslotjago.com
 127.0.0.1 www.russian-sex.com
 127.0.0.1 www.sailpirate.com
+127.0.0.1 www.saintmc.com
 127.0.0.1 www.salliemaebenefits.com
 127.0.0.1 www.salttm.com
 127.0.0.1 www.sandybellxb.site
 127.0.0.1 www.sandybrookyt.name
 127.0.0.1 www.santemama.com
+127.0.0.1 www.sapiatinsurance.com
 127.0.0.1 www.sauteenacoochee.com
 127.0.0.1 www.scrapzoneauto.com
 127.0.0.1 www.sealabour.living
@@ -3939,6 +3962,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.sinera.org
 127.0.0.1 www.sizecart.com
 127.0.0.1 www.skibidihotel.com
+127.0.0.1 www.skillmatchgame.com
 127.0.0.1 www.skyonlinegratis.com
 127.0.0.1 www.slidingdoorlocks.com
 127.0.0.1 www.smashchampionsat.com
@@ -4021,6 +4045,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.trucktirehotline.com
 127.0.0.1 www.truecrypt.fr
 127.0.0.1 www.trueshelterju.pro
+127.0.0.1 www.trustaddons.com
 127.0.0.1 www.ttcgg.com
 127.0.0.1 www.tuningcentar.com
 127.0.0.1 www.tvccpt.com
@@ -4060,6 +4085,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.webassembly.stream
 127.0.0.1 www.webdevotee.com
 127.0.0.1 www.webmicrostores.com
+127.0.0.1 www.webontwerp.com
 127.0.0.1 www.webpartition.com
 127.0.0.1 www.websrruss.com
 127.0.0.1 www.webwise.com
