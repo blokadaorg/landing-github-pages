@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 10 Jul 2026 at 21:29:22 GMT
+# Last updated: Fri, 17 Jul 2026 at 21:15:47 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -2089,6 +2089,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 gcn-1nterc.com
 127.0.0.1 gdudh473-chersfeye483.landmarksfeed.su
 127.0.0.1 gekowex.com
+127.0.0.1 genuinepeople.cc
 127.0.0.1 geolantis.fr
 127.0.0.1 geopostcodes.fr
 127.0.0.1 get-answers-fast.com
@@ -3097,6 +3098,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 thedatesafe.com			# Facebook trojan
 127.0.0.1 themusicnetwork.co.uk
 127.0.0.1 thenewswire.fr
+127.0.0.1 thesciencequest.info
 127.0.0.1 thesimsresource.fr
 127.0.0.1 thetorrentz.fr
 127.0.0.1 thickporter.sa.com
@@ -3318,6 +3320,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.alexyastro.com
 127.0.0.1 www.alittlelewd.com
 127.0.0.1 www.allhqpics.com			# Facebook trojan
+127.0.0.1 www.allinvideo.com
 127.0.0.1 www.allscrabble.com
 127.0.0.1 www.allstateproteectionplans.com
 127.0.0.1 www.allusermanual.com
@@ -3335,6 +3338,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.arfrepuestos.com
 127.0.0.1 www.arknasasbluecross.com
 127.0.0.1 www.artdualdesign.com
+127.0.0.1 www.artssets.com
 127.0.0.1 www.asianread.com
 127.0.0.1 www.assistdocklane.uk
 127.0.0.1 www.atightschedule.com
@@ -3432,6 +3436,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.ciderglowcm.site
 127.0.0.1 www.cidersunjt.com
 127.0.0.1 www.cjkassociates.co.in
+127.0.0.1 www.cjtest.com
 127.0.0.1 www.claimedmoney.com
 127.0.0.1 www.cleanvvlife.com
 127.0.0.1 www.cleanvvmagic.com
@@ -3449,6 +3454,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.combinebasic.com
 127.0.0.1 www.comfortykive.xyz
 127.0.0.1 www.commuteinfo.com
+127.0.0.1 www.compacfurniture.com
 127.0.0.1 www.complien.com
 127.0.0.1 www.compufixshop.com
 127.0.0.1 www.conclusioncompeting.bond
@@ -3462,6 +3468,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.corvettiortho.com
 127.0.0.1 www.courtneydowns.com
 127.0.0.1 www.cpatglobal.com
+127.0.0.1 www.cpension.com
 127.0.0.1 www.cprcar.com
 127.0.0.1 www.cqwallpaper.com
 127.0.0.1 www.creativesaftysupply.com
@@ -3475,6 +3482,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dartya.com
 127.0.0.1 www.dayanitastore.com
 127.0.0.1 www.daytonjaxx.com
+127.0.0.1 www.dbcorporation.com
 127.0.0.1 www.dealresponse.com
 127.0.0.1 www.dealshaat.com
 127.0.0.1 www.dealsrate.com
@@ -3513,6 +3521,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.ekkekkocapital.com
 127.0.0.1 www.elanactivewear.com
 127.0.0.1 www.electrobell.com
+127.0.0.1 www.elfralalo.com
 127.0.0.1 www.eljaleomedellin.com
 127.0.0.1 www.emailspend.com
 127.0.0.1 www.energiazoque.com
@@ -3617,6 +3626,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.grouphappy.com
 127.0.0.1 www.growthbuilder.name
 127.0.0.1 www.guaranteeservice.lat
+127.0.0.1 www.guashastone.com
 127.0.0.1 www.haikuservices.com
 127.0.0.1 www.hajoopteg.com
 127.0.0.1 www.hakerzy.net
@@ -3666,6 +3676,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.irlandalk.com
 127.0.0.1 www.irony.world
 127.0.0.1 www.isavs.com
+127.0.0.1 www.itemtools.com
 127.0.0.1 www.iwantclothing.com
 127.0.0.1 www.jackpotcasinojeux.com
 127.0.0.1 www.jacqueruth.com
@@ -3677,6 +3688,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.jewishgame.com
 127.0.0.1 www.jhsmiami.com
 127.0.0.1 www.jnhjf.com
+127.0.0.1 www.joinclap.com
 127.0.0.1 www.joinfx.net
 127.0.0.1 www.jovareo.com
 127.0.0.1 www.justdebug.com
