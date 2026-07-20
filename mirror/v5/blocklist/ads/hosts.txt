@@ -1,6 +1,15 @@
-# Ads Blocklist
-# Updated by upstream monitoring
-# Date: 2026-07-08T05:34:55.551422
+# Title: Ads Block List
+# Description: Ad serving domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2026-07-18 01:38:02 UTC
+# Format: hosts
+# Entries: 234,025
+# URL:
+#
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
 
 0.0.0.0 0--0.info
 0.0.0.0 0--4.com
@@ -74469,7 +74478,6 @@
 0.0.0.0 clientapi-reliance.dtignite.com
 0.0.0.0 clientapi.clinkad.com
 0.0.0.0 clientcdn.pushengage.com
-0.0.0.0 clientfd.family.microsoft.com
 0.0.0.0 clientgear.com
 0.0.0.0 clientjourney.optimove.net
 0.0.0.0 clientlimit.com
@@ -133210,7 +133218,6 @@
 0.0.0.0 log.newsvine.com
 0.0.0.0 log.nexgen.neustar.biz
 0.0.0.0 log.ngsm.nexon.com
-0.0.0.0 log.nordot.jp
 0.0.0.0 log.olark.com
 0.0.0.0 log.omiga-plus.com
 0.0.0.0 log.opentracker.net
@@ -148468,7 +148475,6 @@
 0.0.0.0 notification-browser.com
 0.0.0.0 notification-browser.tools
 0.0.0.0 notification-center.kdanmobile.com
-0.0.0.0 notification-prod.svc.gearsofwar.net
 0.0.0.0 notification-system.tools
 0.0.0.0 notification-time.com
 0.0.0.0 notification.crittercism.com
@@ -190037,7 +190043,6 @@
 0.0.0.0 subs.prod.vidible.tv
 0.0.0.0 subs.vidible.tv
 0.0.0.0 subscribe.hearstmags.com
-0.0.0.0 subscribe.washingtonpost.com
 0.0.0.0 subscribedefinitionhosiery.com
 0.0.0.0 subscriberridenarcotic.com
 0.0.0.0 subscribers.click
@@ -215135,7 +215140,6 @@
 0.0.0.0 web.easyresearch.se
 0.0.0.0 web.f8.pyco.vn
 0.0.0.0 web.fe-vrier.com
-0.0.0.0 web.global-e.com
 0.0.0.0 web.hb.ad.cpe.dotomi.com
 0.0.0.0 web.hiido.com
 0.0.0.0 web.industrybrains.com

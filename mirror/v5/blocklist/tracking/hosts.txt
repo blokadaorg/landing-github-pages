@@ -1,6 +1,15 @@
-# Tracking Blocklist
-# Updated by upstream monitoring
-# Date: 2026-07-08T05:35:15.341817
+# Title: Tracking Block List
+# Description: Tracking and analytics
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2026-07-18 01:35:22 UTC
+# Format: hosts
+# Entries: 143,876
+# URL:
+#
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
 
 0.0.0.0 000-000-37645t2783296323fn2.calibrescientifics.com
 0.0.0.0 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
@@ -7666,7 +7675,6 @@
 0.0.0.0 analytics.ceriumsoft.com
 0.0.0.0 analytics.cert.pl
 0.0.0.0 analytics.certapet.com
-0.0.0.0 analytics.certifiedit.net
 0.0.0.0 analytics.certo-app.de
 0.0.0.0 analytics.cetteup.com
 0.0.0.0 analytics.ceu.com
@@ -30165,7 +30173,6 @@
 0.0.0.0 data.email.realmadrid.com
 0.0.0.0 data.email.skistar.com
 0.0.0.0 data.email.suressedirektbank.de
-0.0.0.0 data.email.tangerine.ca
 0.0.0.0 data.email.telmore.dk
 0.0.0.0 data.email.uhc.com
 0.0.0.0 data.email.uplus.pfizer.com
@@ -46784,7 +46791,6 @@
 0.0.0.0 ip.liveryvideo.com
 0.0.0.0 ip.lovely-app.com
 0.0.0.0 ip.marquer.io
-0.0.0.0 ip.me
 0.0.0.0 ip.mktindex.com
 0.0.0.0 ip.moojing.com
 0.0.0.0 ip.mrfriday.com
@@ -121150,7 +121156,6 @@
 0.0.0.0 stat.ferratec.ch
 0.0.0.0 stat.feustel.eu
 0.0.0.0 stat.ff.uni-lj.si
-0.0.0.0 stat.fi
 0.0.0.0 stat.fibi.co.il
 0.0.0.0 stat.fincabmedia.fi
 0.0.0.0 stat.finessum.com
@@ -130634,7 +130639,6 @@
 0.0.0.0 structurerod.com
 0.0.0.0 struq.com
 0.0.0.0 sts.advertising.microsoft.com
-0.0.0.0 sts.amazonaws.com
 0.0.0.0 sts.blr.com
 0.0.0.0 sts.ipsonetwork.net
 0.0.0.0 sts.livrariadopsicologo.com.br
@@ -140685,7 +140689,6 @@
 0.0.0.0 wb22trk.com
 0.0.0.0 wbdiul.dywanyluszczow.eu
 0.0.0.0 wbg.tt.omtrdc.net
-0.0.0.0 wbinsights.com
 0.0.0.0 wblacknet-224.top
 0.0.0.0 wbm.wochenblitz.com
 0.0.0.0 wbte.cimalp.fr
@@ -141609,7 +141612,6 @@
 0.0.0.0 whatismyip.uno
 0.0.0.0 whatismyip1.itsupport247.net
 0.0.0.0 whatismyip4.com
-0.0.0.0 whatismyipaddress.com
 0.0.0.0 whatismyipaddressnow.co
 0.0.0.0 whatismyiplookup.com
 0.0.0.0 whatismyippro.com
