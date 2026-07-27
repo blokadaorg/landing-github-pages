@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 17 Jul 2026 at 21:15:47 GMT
+# Last updated: Mon, 27 Jul 2026 at 03:19:12 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1806,6 +1806,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 commax.fr
 127.0.0.1 commdev.fr
 127.0.0.1 compe-nickel.fr
+127.0.0.1 completelove22.cc
 127.0.0.1 compufixshop.com
 127.0.0.1 comsss-56.com
 127.0.0.1 con-trnroayl.online
@@ -3265,6 +3266,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 wetter24.fr
 127.0.0.1 wewillrocknow.com
 127.0.0.1 wfflxx.com
+127.0.0.1 wgdcjd8kxd.olijfgent.be
 127.0.0.1 whiscas.fr
 127.0.0.1 whiteenamel.fr
 127.0.0.1 whqxzx.com
@@ -3385,6 +3387,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.blueridgecpp.com
 127.0.0.1 www.bmrneswk.com
 127.0.0.1 www.board-ly.com
+127.0.0.1 www.bocastyle.com
 127.0.0.1 www.bonuxsarrive.com
 127.0.0.1 www.bookstadium.com
 127.0.0.1 www.borocade.com
@@ -3474,6 +3477,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.creativesaftysupply.com
 127.0.0.1 www.crediainternational.com
 127.0.0.1 www.crowdnestfun.com
+127.0.0.1 www.cruzresorts.com
 127.0.0.1 www.crystalbranchtw.blog
 127.0.0.1 www.ctlcai.com
 127.0.0.1 www.dailyazure.com
@@ -3510,6 +3514,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.dualeotruyenno.com
 127.0.0.1 www.duotrader.com
 127.0.0.1 www.dustinjonesgolfacademy.com
+127.0.0.1 www.dutchoutlet.com
 127.0.0.1 www.dymor.cfd
 127.0.0.1 www.dynamictyres.com
 127.0.0.1 www.dzzzsc.com
@@ -3585,6 +3590,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.futureowned.com
 127.0.0.1 www.gadgetbonanzamarket.com
 127.0.0.1 www.gaicodon.com
+127.0.0.1 www.gaiis.com
 127.0.0.1 www.gainwintz.com
 127.0.0.1 www.gamelthae.com
 127.0.0.1 www.gameltjae.com
@@ -3644,6 +3650,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.hindudirectory.com
 127.0.0.1 www.hitchedbridalandformalwear.com
 127.0.0.1 www.hits-football.com
+127.0.0.1 www.hoabridal.com
 127.0.0.1 www.hocxaydung.com
 127.0.0.1 www.homininfossil.cfd
 127.0.0.1 www.hotelsdetermine.bond
@@ -3654,12 +3661,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.hunterspeed.com
 127.0.0.1 www.hypeprop.com
 127.0.0.1 www.hypetrust.com
+127.0.0.1 www.ibenefi.com
 127.0.0.1 www.icecars.com
 127.0.0.1 www.iconatsbs.com
 127.0.0.1 www.icygrovejn.com
 127.0.0.1 www.icyhivemy.name
 127.0.0.1 www.iejonline.com
 127.0.0.1 www.iepelnazareno.com
+127.0.0.1 www.iesaber.com
 127.0.0.1 www.igameup.com
 127.0.0.1 www.improvingthe.com
 127.0.0.1 www.indexprofile.com
@@ -3718,6 +3727,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.langleyantiques.com
 127.0.0.1 www.launchbuffer.com
 127.0.0.1 www.learngears.com
+127.0.0.1 www.learningfound.com
 127.0.0.1 www.learnnessy.com
 127.0.0.1 www.learntechno.com
 127.0.0.1 www.ledfaucetlight.com
@@ -3811,6 +3821,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.nobetsjustfun.com
 127.0.0.1 www.noithatphanthinh.com
 127.0.0.1 www.northvalesgrids.uk
+127.0.0.1 www.nostalgicroses.com
 127.0.0.1 www.notepad2.com
 127.0.0.1 www.novemberrainx.com
 127.0.0.1 www.novosantiago.com
@@ -3852,6 +3863,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.parejaamateur.com
 127.0.0.1 www.partsttown.com
 127.0.0.1 www.paseyourself.com
+127.0.0.1 www.patelshop.com
 127.0.0.1 www.paviro.cfd
 127.0.0.1 www.payasyougocert.com
 127.0.0.1 www.pcfixguide.help
@@ -3912,6 +3924,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.quartersnorth.lat
 127.0.0.1 www.quarvions.com
 127.0.0.1 www.quintingwatches.com
+127.0.0.1 www.quipla.com
 127.0.0.1 www.rackusread.com
 127.0.0.1 www.rajtoursdubai.com
 127.0.0.1 www.randki-sex.com
@@ -3941,6 +3954,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.robkellysurf.com
 127.0.0.1 www.romanticdemands.bond
 127.0.0.1 www.roofcoins.com
+127.0.0.1 www.roundtopbooks.com
 127.0.0.1 www.rplconnect.com
 127.0.0.1 www.rtkmyz.cfd
 127.0.0.1 www.rtpbolaslotjago.com
@@ -4095,6 +4109,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.waterchalk.com
 127.0.0.1 www.waterchamber.com
 127.0.0.1 www.webassembly.stream
+127.0.0.1 www.webdesignmetric.com
 127.0.0.1 www.webdevotee.com
 127.0.0.1 www.webmicrostores.com
 127.0.0.1 www.webontwerp.com
