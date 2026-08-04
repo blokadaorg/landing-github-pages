@@ -382,6 +382,36 @@ if __name__ == "__main__":
             # Empty domain extraction
             self.assertEqual(self.filter._extract_domain(""), "")
             self.assertEqual(self.filter._extract_domain("   "), "")
-    
+
+    class TestManualWhitelistEntries(unittest.TestCase):
+        """Regression guards for individual whitelist-manual entries.
+
+        Loads the real whitelist-manual, so a dropped line fails `make test`,
+        which `make sync` runs before regenerating the mirrors.
+        """
+
+        def setUp(self):
+            self.filter = WhitelistFilter()
+            manual = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)), "whitelist-manual"
+            )
+            self.assertTrue(self.filter.load_whitelist(manual), f"missing {manual}")
+
+        def test_google_cloud_monitoring_is_whitelisted(self):
+            """blocklist/tracking sinkholes the Cloud Monitoring API frontend."""
+            self.assertTrue(
+                self.filter.should_filter_domain("monitoring.clients6.google.com")
+            )
+
+        def test_google_ad_endpoints_stay_blocked(self):
+            """A wildcard entry would unblock these too, so keep it exact."""
+            for domain in (
+                "ogads-pa.clients6.google.com",
+                "adsmarketingfrontend-pa.clients6.google.com",
+                "googleads.g.doubleclick.net",
+            ):
+                with self.subTest(domain=domain):
+                    self.assertFalse(self.filter.should_filter_domain(domain))
+
     # Run tests
     unittest.main()
