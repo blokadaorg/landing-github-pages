@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sat, 01 Aug 2026 at 22:56:18 GMT
+# Last updated: Sat, 08 Aug 2026 at 17:41:42 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1712,6 +1712,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 canadapost.helpdag.top
 127.0.0.1 canadapost.postescanadad.xyz
 127.0.0.1 canadapostarticle.com
+127.0.0.1 canadaposteb.eu.cc
 127.0.0.1 capital-invest-can.cropvita.sbs
 127.0.0.1 capitalregionusa.fr
 127.0.0.1 capostdelivery.com
@@ -1871,6 +1872,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 davidhuynh.fr
 127.0.0.1 db-z.fr
 127.0.0.1 dbios.org
+127.0.0.1 dd.l146.com
 127.0.0.1 dealerconnection.fr
 127.0.0.1 dealiveroo.fr
 127.0.0.1 declarateenquiebra.cl
@@ -3334,6 +3336,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.americanresortresolutions.com
 127.0.0.1 www.amintart.com
 127.0.0.1 www.amomales.com
+127.0.0.1 www.ampervid.com
 127.0.0.1 www.anatol.com
 127.0.0.1 www.anyik.com
 127.0.0.1 www.apcort.com
@@ -3341,6 +3344,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.aqualakefy.name
 127.0.0.1 www.aramcom.space
 127.0.0.1 www.arfrepuestos.com
+127.0.0.1 www.argesmedia.com
 127.0.0.1 www.arknasasbluecross.com
 127.0.0.1 www.artdualdesign.com
 127.0.0.1 www.artssets.com
@@ -3535,6 +3539,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.elfralalo.com
 127.0.0.1 www.eljaleomedellin.com
 127.0.0.1 www.emailspend.com
+127.0.0.1 www.emprenderimportaperu.com
 127.0.0.1 www.energiazoque.com
 127.0.0.1 www.eqarati.com
 127.0.0.1 www.eremplacementparts.com
@@ -3680,6 +3685,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.iepelnazareno.com
 127.0.0.1 www.iesaber.com
 127.0.0.1 www.igameup.com
+127.0.0.1 www.ilyasasseban.com
 127.0.0.1 www.improvingthe.com
 127.0.0.1 www.indexprofile.com
 127.0.0.1 www.infopaypal.com
@@ -3729,10 +3735,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.knowinteractive.com
 127.0.0.1 www.knoxmenus.com
 127.0.0.1 www.kobotausa.com
+127.0.0.1 www.konceptseven.com
 127.0.0.1 www.kpremium.com
 127.0.0.1 www.kryzantor.uk
+127.0.0.1 www.ksiargentina.com
 127.0.0.1 www.lacocinany.com
 127.0.0.1 www.lahoreautismcentre.com
+127.0.0.1 www.lamaisonhind.com
 127.0.0.1 www.lanaita.com
 127.0.0.1 www.langleyantiques.com
 127.0.0.1 www.launchbuffer.com
@@ -3773,6 +3782,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.manoces.waw.pl
 127.0.0.1 www.markethelper.name
 127.0.0.1 www.marketinghwy.com
+127.0.0.1 www.massagetherapybyjuli.com
 127.0.0.1 www.match3quests.com
 127.0.0.1 www.matifi.com
 127.0.0.1 www.meantvictim.lat
@@ -3990,6 +4000,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.shinyechogz.name
 127.0.0.1 www.shootingeffectively.skin
 127.0.0.1 www.shopvisitors.com
+127.0.0.1 www.shrimahaveercollege.com
 127.0.0.1 www.sidneyman.com
 127.0.0.1 www.silebah.com
 127.0.0.1 www.silentgateck.site
@@ -4026,6 +4037,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.statsff.com
 127.0.0.1 www.steelbucks.com
 127.0.0.1 www.stellarium.fr
+127.0.0.1 www.stelop.com
 127.0.0.1 www.stihil.com
 127.0.0.1 www.stocksrate.com
 127.0.0.1 www.stopphoulplay.com
@@ -4042,6 +4054,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.supereeego.com
 127.0.0.1 www.supportnestframe.uk
 127.0.0.1 www.supportwindowlane.uk
+127.0.0.1 www.susanhaggarphotography.com
 127.0.0.1 www.svipfulishipin.com
 127.0.0.1 www.swallowwire.sa.com
 127.0.0.1 www.sweetdominique.com
@@ -4107,6 +4120,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.videonhadat.com
 127.0.0.1 www.videostan.ru
 127.0.0.1 www.vipnac.com
+127.0.0.1 www.visitigangels.com
 127.0.0.1 www.vkvmotion.com
 127.0.0.1 www.vnailssanclemente.com
 127.0.0.1 www.volvce.com
@@ -4159,6 +4173,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.xtremetechcr.com
 127.0.0.1 www.yellowquartzkr.name
 127.0.0.1 www.yendermsoul.com
+127.0.0.1 www.yesyouvan.com
 127.0.0.1 www.yixiudn.com
 127.0.0.1 www.ylgj789.com
 127.0.0.1 www.yoolyes.com
@@ -9235,6 +9250,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 mjxads.internet.com
 127.0.0.1 mk.limonshel.de
 127.0.0.1 mklik.gazeta.pl
+127.0.0.1 mks98.com
 127.0.0.1 ml314.com
 127.0.0.1 mlntracker.com
 127.0.0.1 mm.chitika.net
