@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sat, 08 Aug 2026 at 17:41:42 GMT
+# Last updated: Mon, 17 Aug 2026 at 00:28:47 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -3351,6 +3351,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.asianread.com
 127.0.0.1 www.assistdocklane.uk
 127.0.0.1 www.atightschedule.com
+127.0.0.1 www.atoztechnotricks.com
 127.0.0.1 www.audacity.es
 127.0.0.1 www.audacity.fr
 127.0.0.1 www.audionoisereducer.com
@@ -3365,9 +3366,11 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.bahartonu.com
 127.0.0.1 www.baiakstyle.com
 127.0.0.1 www.balassst.com
+127.0.0.1 www.ballarddesighs.com
 127.0.0.1 www.bandexperts.com
 127.0.0.1 www.banghra.com
 127.0.0.1 www.bankofcounty.com
+127.0.0.1 www.banyotoptansatis.com
 127.0.0.1 www.barjacity.com
 127.0.0.1 www.basealloys.com
 127.0.0.1 www.baseequip.com
@@ -3426,6 +3429,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.careertake.com
 127.0.0.1 www.carehigher.com
 127.0.0.1 www.carolmassoterapia.com
+127.0.0.1 www.casamaticoecu.com
 127.0.0.1 www.casinorankerhub.com
 127.0.0.1 www.casinostarluck.net
 127.0.0.1 www.cassink.com
@@ -3461,6 +3465,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.clubplanning.com
 127.0.0.1 www.coconutsport.com
 127.0.0.1 www.coinimp.com
+127.0.0.1 www.colleyvillepapershredding.com
 127.0.0.1 www.combinebasic.com
 127.0.0.1 www.comfortykive.xyz
 127.0.0.1 www.commitlacrossecamps.com
@@ -3825,6 +3830,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
 127.0.0.1 www.myrosinase.com
+127.0.0.1 www.myupstox.com
 127.0.0.1 www.nabtapharma.com
 127.0.0.1 www.nanohistory.com
 127.0.0.1 www.naturalmovementz.com
@@ -3892,6 +3898,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.pdxsenior.com
 127.0.0.1 www.peachysailwv.pro
 127.0.0.1 www.pearlyappss.pro
+127.0.0.1 www.pelistvseries.com
 127.0.0.1 www.peopleesbancorp.com
 127.0.0.1 www.pepernity.com
 127.0.0.1 www.perimentu.com
@@ -3922,6 +3929,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.postsavings.com
 127.0.0.1 www.poukladanyswiat.com
 127.0.0.1 www.ppoi.org
+127.0.0.1 www.prabvisa.com
 127.0.0.1 www.premiumbrandszonalibre.com
 127.0.0.1 www.presidency.site
 127.0.0.1 www.prgwbn.cfd
@@ -3956,11 +3964,13 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.readyviews.com
 127.0.0.1 www.realdrjudy.com
 127.0.0.1 www.reandrogames.com
+127.0.0.1 www.reasearchverified.com
 127.0.0.1 www.recallblog.com
 127.0.0.1 www.regulationprofit.bond
 127.0.0.1 www.rekonsise.com
 127.0.0.1 www.relaxingcafe.com
 127.0.0.1 www.reliaslearrning.com
+127.0.0.1 www.reltar.com
 127.0.0.1 www.renderfoest.com
 127.0.0.1 www.rerminix.com
 127.0.0.1 www.revivemore.com
@@ -4011,11 +4021,14 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.sizecart.com
 127.0.0.1 www.skibidihotel.com
 127.0.0.1 www.skillmatchgame.com
+127.0.0.1 www.skincareds.com
 127.0.0.1 www.skyonlinegratis.com
+127.0.0.1 www.slawdhaka.com
 127.0.0.1 www.slidingdoorlocks.com
 127.0.0.1 www.smashchampionsat.com
 127.0.0.1 www.smionecare.com
 127.0.0.1 www.smokyshadecj.name
+127.0.0.1 www.smtnaraynicollege.com
 127.0.0.1 www.snkido.com
 127.0.0.1 www.snowhandball.com
 127.0.0.1 www.snugbirdjq.blog
@@ -4028,6 +4041,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.sohailpc.com
 127.0.0.1 www.sonparks.skin
 127.0.0.1 www.spectrumhomehealthinc.com
+127.0.0.1 www.speesway.com
 127.0.0.1 www.spiritentertainment.homes
 127.0.0.1 www.spojrzenia.com
 127.0.0.1 www.sporttile.com
@@ -9963,6 +9977,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 reactads.cdn.adglare.net
 127.0.0.1 realads.realmedia.com
 127.0.0.1 realgfsbucks.com
+127.0.0.1 realizationnewestfangs.com
 127.0.0.1 realmedia-a800.d4p.net
 127.0.0.1 realmedia.advance.net
 127.0.0.1 realplayz.com
@@ -10383,6 +10398,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 speednetwork14.adk2x.com
 127.0.0.1 speednetwork6.adk2x.com
 127.0.0.1 speeltuintalud.nl
+127.0.0.1 spendsdetachment.com
 127.0.0.1 spensa.co
 127.0.0.1 spin.spinbox.net
 127.0.0.1 spinbox.com
@@ -10624,6 +10640,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 thebitcrew.com
 127.0.0.1 thebrighttag.com
 127.0.0.1 thebuzz.today
+127.0.0.1 thedirecthor.com
 127.0.0.1 theestatehouse.co.uk
 127.0.0.1 theketo-complete.com
 127.0.0.1 themaplemethod.com
@@ -10814,6 +10831,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 unser-en.de
 127.0.0.1 unstat.baidu.com
 127.0.0.1 uole.ad.uol.com.br
+127.0.0.1 upbeatbut.com
 127.0.0.1 upgrade-ms-home.com
 127.0.0.1 upload.adtech.fr
 127.0.0.1 upload.adtech.us
@@ -11014,6 +11032,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 worden.samenresultaat.nl
 127.0.0.1 work-offer.com
 127.0.0.1 workaccount.free.bg
+127.0.0.1 workdeadlinededicate.com
 127.0.0.1 worldmedpilldeliver.com
 127.0.0.1 worry-free-savings.com
 127.0.0.1 wowanalytics.co.uk
@@ -11957,6 +11976,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 zevents.com
 127.0.0.1 zlhoteckelinie.wz.cz
 127.0.0.1 zoeandjo.co.uk
+127.0.0.1 zoologyfibre.com
 127.0.0.1 zu1.november-lax.com
 127.0.0.1 zulu.r867qq.net
 127.0.0.1 zytpirwai.net
