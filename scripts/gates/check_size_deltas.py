@@ -4,7 +4,7 @@
 For every modified file under mirror/v5/ or blocklists/, compare line count
 in HEAD (the pre-sync state) vs the current working copy. Trips the gate if
 the new file dropped more than 20% of its lines (likely a partially-broken
-upstream feed) or grew to more than 10x its previous size (likely an upstream
+upstream feed) or grew to more than 2x its previous size (likely an upstream
 that started spamming or got compromised).
 
 Thresholds are intentionally public: the strength of this gate comes from
@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 DROP_RATIO = 0.8       # post must be >= 80% of pre
-GROWTH_RATIO = 10      # post must be <= 10x pre
+GROWTH_RATIO = 2       # post must be <= 2x pre
 ALLOWED_PREFIXES = ("mirror/v5/", "blocklists/")
 
 
@@ -61,12 +61,12 @@ def main() -> int:
         if post < pre * DROP_RATIO:
             failures.append(
                 f"{path}: line count dropped from {pre} to {post} "
-                f"({100*(1-post/pre):.0f}% drop, threshold 20%)"
+                f"({100*(1-post/pre):.0f}% drop, threshold {100*(1-DROP_RATIO):.0f}%)"
             )
         elif post > pre * GROWTH_RATIO:
             failures.append(
                 f"{path}: line count grew from {pre} to {post} "
-                f"({post/pre:.1f}x, threshold 10x)"
+                f"({post/pre:.1f}x, threshold {GROWTH_RATIO}x)"
             )
 
     if failures:
