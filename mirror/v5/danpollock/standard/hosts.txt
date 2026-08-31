@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Sun, 23 Aug 2026 at 21:12:30 GMT
+# Last updated: Fri, 28 Aug 2026 at 21:17:08 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -1923,6 +1923,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 dooror.com
 127.0.0.1 doors.co.kr
 127.0.0.1 dpflyingoncs.top
+127.0.0.1 dragonfly-express.duckdns.org
 127.0.0.1 dsbzk.comfortykive.xyz
 127.0.0.1 dtcc.fr
 127.0.0.1 dveug.comfortykive.xyz
@@ -3362,6 +3363,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.auditprint.com
 127.0.0.1 www.auto-runmz.com
 127.0.0.1 www.autoinkoopbedrijf.com
+127.0.0.1 www.autotra.com
 127.0.0.1 www.availablefiles.com
 127.0.0.1 www.avemoo.com
 127.0.0.1 www.azureus.es
@@ -3439,6 +3441,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.cassink.com
 127.0.0.1 www.catabcde.com
 127.0.0.1 www.catjre.com
+127.0.0.1 www.cdinstagram.com
 127.0.0.1 www.celestia.es
 127.0.0.1 www.celestia.fr
 127.0.0.1 www.cemerhealth.com
@@ -3547,6 +3550,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.electrobell.com
 127.0.0.1 www.elfralalo.com
 127.0.0.1 www.eljaleomedellin.com
+127.0.0.1 www.ellesalonhb.com
 127.0.0.1 www.emailspend.com
 127.0.0.1 www.emprenderimportaperu.com
 127.0.0.1 www.energiazoque.com
@@ -3579,6 +3583,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.feudlands.com
 127.0.0.1 www.fhtmmeeting.com
 127.0.0.1 www.filezilla.fr
+127.0.0.1 www.financevd.com
 127.0.0.1 www.findalgorithm.com
 127.0.0.1 www.findalign.com
 127.0.0.1 www.findlobster.com
@@ -3634,6 +3639,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.gimp.es
 127.0.0.1 www.glassygrovefy.pro
 127.0.0.1 www.globalbuffer.com
+127.0.0.1 www.globlepoker.com
 127.0.0.1 www.goggle.com
 127.0.0.1 www.goldendoodlez.com
 127.0.0.1 www.goldentopics.com
@@ -3773,7 +3779,9 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.likespike.com			# Facebook trojan
 127.0.0.1 www.likethis.mbosoft.com		# Facebook trojan
 127.0.0.1 www.likethislist.biz			# Facebook trojan
+127.0.0.1 www.listadegames.com
 127.0.0.1 www.liveorigamirisk.com
+127.0.0.1 www.livetickettv.com
 127.0.0.1 www.loansfield.com
 127.0.0.1 www.lockupouseburn.com
 127.0.0.1 www.loginhunter.com
@@ -3837,6 +3845,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.myhucadvantage.com
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
+127.0.0.1 www.mynepalshop.com
 127.0.0.1 www.myrosinase.com
 127.0.0.1 www.myupstox.com
 127.0.0.1 www.nabtapharma.com
@@ -4102,6 +4111,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.techyscope.com
 127.0.0.1 www.tenantbackgronudsearch.com
 127.0.0.1 www.teresinaapartment.com
+127.0.0.1 www.texasmyxoomenergy.com
 127.0.0.1 www.textdynamics.com
 127.0.0.1 www.thecollectiverd.com
 127.0.0.1 www.thedatesafe.com			# Facebook trojan
@@ -4115,16 +4125,20 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.theskinnyschool.com
 127.0.0.1 www.thisplanet.net
 127.0.0.1 www.thunderbird.es
+127.0.0.1 www.ticketspiket.com
 127.0.0.1 www.timelyworks.com
 127.0.0.1 www.tinkfrog.com
 127.0.0.1 www.tiompanalley.com
 127.0.0.1 www.tntadfacts.com
+127.0.0.1 www.topluckystars.com
+127.0.0.1 www.topopulentwin.com
 127.0.0.1 www.totalencomenda.com
 127.0.0.1 www.toysmetaverse.com
 127.0.0.1 www.tradesasa.com
 127.0.0.1 www.tradewinning.com
 127.0.0.1 www.traficsigntest.com
 127.0.0.1 www.transcet.com
+127.0.0.1 www.travelrushzone.com
 127.0.0.1 www.trucktirehotline.com
 127.0.0.1 www.truecrypt.fr
 127.0.0.1 www.trueshelterju.pro
@@ -4134,6 +4148,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.tvccpt.com
 127.0.0.1 www.tvrails.com
 127.0.0.1 www.tvshowslist.com
+127.0.0.1 www.ultimarerewards.com
 127.0.0.1 www.ultratemps.com
 127.0.0.1 www.unclaimedbaggag.com
 127.0.0.1 www.underobviously.garden
