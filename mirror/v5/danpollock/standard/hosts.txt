@@ -10,7 +10,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Fri, 04 Sep 2026 at 17:27:13 GMT
+# Last updated: Thu, 10 Sep 2026 at 15:50:14 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from
@@ -3314,6 +3314,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.7zip.fr
 127.0.0.1 www.991abc.com
 127.0.0.1 www.a2uu36g43l.download
+127.0.0.1 www.aaaddedbenifits.com
 127.0.0.1 www.aagofwi.com
 127.0.0.1 www.aaringtone.com
 127.0.0.1 www.abetterinternet.com
@@ -3550,6 +3551,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.edwardmartino.com
 127.0.0.1 www.ekkekkocapital.com
 127.0.0.1 www.elanactivewear.com
+127.0.0.1 www.elchavotortas.com
 127.0.0.1 www.electrobell.com
 127.0.0.1 www.elfralalo.com
 127.0.0.1 www.eljaleomedellin.com
@@ -3813,6 +3815,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.massagetherapybyjuli.com
 127.0.0.1 www.match3quests.com
 127.0.0.1 www.matifi.com
+127.0.0.1 www.mdarussellhobbs.com
 127.0.0.1 www.meantvictim.lat
 127.0.0.1 www.mediamindpolska.com
 127.0.0.1 www.meecheck.com
@@ -3849,6 +3852,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.myexotel.com
 127.0.0.1 www.myfavcouponstore.com
 127.0.0.1 www.myfurnituresirplus.com
+127.0.0.1 www.myguidedreaders.com
 127.0.0.1 www.myhucadvantage.com
 127.0.0.1 www.mylike.co.uk			# Facebook trojan
 127.0.0.1 www.mylovecards.com
@@ -4158,6 +4162,7 @@ ff02::3		ip6-allhosts
 127.0.0.1 www.trustaddons.com
 127.0.0.1 www.ttcgg.com
 127.0.0.1 www.tuningcentar.com
+127.0.0.1 www.tuscanypointevillas.com
 127.0.0.1 www.tvccpt.com
 127.0.0.1 www.tvrails.com
 127.0.0.1 www.tvshowslist.com
@@ -7852,8 +7857,10 @@ ff02::3		ip6-allhosts
 127.0.0.1 classicjack.com
 127.0.0.1 clausing-advies.nl
 127.0.0.1 clb.bazzacco.net
+127.0.0.1 cleancrdio.shop
 127.0.0.1 cleaningformac.com
 127.0.0.1 clearonclick.com
+127.0.0.1 clearviewhub9.cc
 127.0.0.1 clevernt.com
 127.0.0.1 clhctrk.com
 127.0.0.1 click.a-ads.com
