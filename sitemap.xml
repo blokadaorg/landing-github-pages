@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blokada.org/</loc>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/switch-from-pihole/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/switch-from-mullvad-dns/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-mullvad-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/router-ad-blocking/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/android-private-dns/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/android-private-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/browser-dns-over-https/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/browser-dns-over-https/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/apple-devices/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/apple-devices/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/android-private-dns/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/android-private-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/apple-devices/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/apple-devices/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/browser-dns-over-https/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/browser-dns-over-https/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/android-private-dns/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/android-private-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/apple-devices/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/apple-devices/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/browser-dns-over-https/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/browser-dns-over-https/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/switch-from-mullvad-dns/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-mullvad-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/switch-from-pihole/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/router-ad-blocking/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/router-ad-blocking/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/switch-from-mullvad-dns/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-mullvad-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/switch-from-pihole/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
+  </url>
+</urlset>

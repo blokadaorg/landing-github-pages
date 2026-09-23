@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud · Blokada</title>
+  <meta name="description" content="Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.">
+  <link rel="canonical" href="https://blokada.org/guides/switch-from-mullvad-dns/">
+  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/">
+  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-mullvad-dns/">
+  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-mullvad-dns/">
+  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/switch-from-mullvad-dns/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Blokada">
+  <meta property="og:title" content="Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud">
+  <meta property="og:description" content="Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.">
+  <meta property="og:url" content="https://blokada.org/guides/switch-from-mullvad-dns/">
+  <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
+  <meta property="og:locale" content="en">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/guides/assets/guides.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/img/brand/blue.png" alt="Blokada" height="32"></a>
+      <nav>
+        <a href="/guides/">Guides</a>
+        <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="guide">
+  <nav class="crumbs"><a href="/guides/">Guides</a></nav>
+  <h1>Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud</h1>
+  <p class="lead">Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.</p>
+  <p class="meta">Updated <time datetime="2026-09-23">2026-09-23</time></p>
+  <aside class="device">
+    <p class="if-no-device">The addresses on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
+      <a href="https://app.blokada.org/setup?src=guides">Find my address</a></p>
+    <p class="if-device">This guide is filled in with the addresses of your device.</p>
+  </aside>
+
+  <p>Mullvad is closing its free public DNS service on <strong>2 November 2026</strong> and recommends Quad9 instead. Quad9 blocks malware but does <strong>not</strong> block ads or trackers. If you used one of Mullvad's filtering addresses, ads come back on that date unless you switch.</p>
+<p>This page is about the public DNS addresses ending in <code>dns.mullvad.net</code>. It does not cover the Mullvad VPN app.</p>
+<h2>What you used, and what to pick in Blokada</h2>
+<table>
+<thead>
+<tr>
+<th>Mullvad address</th>
+<th>What it blocked</th>
+<th>In the Blokada dashboard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dns.mullvad.net</code></td>
+<td>nothing</td>
+<td>Blokada is a filtering service. If you want no filtering, Quad9 or your provider's DNS is the simpler choice.</td>
+</tr>
+<tr>
+<td><code>adblock.dns.mullvad.net</code></td>
+<td>ads, trackers</td>
+<td>an ad and tracker blocklist</td>
+</tr>
+<tr>
+<td><code>base.dns.mullvad.net</code></td>
+<td>ads, trackers, malware</td>
+<td>add a malware list</td>
+</tr>
+<tr>
+<td><code>extended.dns.mullvad.net</code></td>
+<td>base plus social media</td>
+<td>add a social media list</td>
+</tr>
+<tr>
+<td><code>family.dns.mullvad.net</code></td>
+<td>base plus adult content and gambling</td>
+<td>add adult content and gambling lists</td>
+</tr>
+<tr>
+<td><code>all.dns.mullvad.net</code></td>
+<td>all of the above</td>
+<td>turn on all of them</td>
+</tr>
+</tbody>
+</table>
+<p>You choose blocklists in the dashboard under <em>Blocklists</em>. You can change them at any time, and the change applies to all your devices.</p>
+<h2>Your Blokada addresses</h2>
+<p>Blokada gives you your own address, so the dashboard can show activity per device:</p>
+<ul>
+<li>DNS over TLS (Android, routers): <code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></li>
+<li>DNS over HTTPS (browsers, some routers): <code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></li>
+</ul>
+<h2>Switch each device</h2>
+<h3>Android</h3>
+<p>Mullvad's guide had you enter a hostname under <em>Private DNS</em>. Replace it with your Blokada address. The <a href="../android-private-dns/">Android guide</a> has the steps.</p>
+<h3>iPhone, iPad and Mac</h3>
+<p>Mullvad's setup used a configuration profile. Remove it first:</p>
+<ul>
+<li><strong>iPhone and iPad:</strong> <em>Settings → General → VPN &amp; Device Management</em>, tap the Mullvad DNS profile, then <em>Remove Profile</em>.</li>
+<li><strong>Mac:</strong> open the list of profiles (<em>System Settings → General → Device Management</em> on macOS 15 and later, <em>System Settings → Privacy &amp; Security → Profiles</em> on macOS 13 and 14, <em>System Preferences → Profiles</em> on macOS 12 and earlier), select the Mullvad DNS profile and click <em>−</em>.</li>
+</ul>
+<p>Then install the Blokada profile from the <a href="../apple-devices/">Apple guide</a>.</p>
+<h3>Browsers</h3>
+<p>If you entered a Mullvad address such as <code>https://adblock.dns.mullvad.net/dns-query</code> under <em>secure DNS</em> or <em>DNS over HTTPS</em>, replace it with your Blokada address. The <a href="../browser-dns-over-https/">browser guide</a> has the steps for each browser.</p>
+<h3>Router</h3>
+<p>If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS over TLS address, and remove Mullvad's IP addresses. The <a href="../router-ad-blocking/">router guide</a> covers common models.</p>
+<h2>Check that it works</h2>
+<p>Open a few websites, then look at the <em>Activity</em> page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.</p>
+
+
+  <aside class="cta">
+  <h2>Blokada Cloud</h2>
+  <p>Blocks ads and trackers for every device in your home. You set it up once in the DNS settings, with no app on your TV, console or router.</p>
+  <p class="actions">
+    <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Get Blokada Cloud</a>
+    <a class="btn" href="https://app.blokada.org/setup?src=guides">I already have an account</a>
+  </p>
+  <p class="small">Want a VPN as well? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds an encrypted WireGuard tunnel on each device, with the same blocking.</p>
+</aside>
+
+</article>
+
+<section class="comments">
+  <h2>Questions and comments</h2>
+  
+<div id="discourse-comments"></div>
+<script>
+  window.DiscourseEmbed = {
+    discourseUrl: 'https://community.blokada.org/',
+    discourseEmbedUrl: 'https://blokada.org/guides/switch-from-mullvad-dns/',
+  };
+  (function () {
+    var d = document.createElement('script');
+    d.async = true;
+    d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    document.head.appendChild(d);
+  })();
+</script>
+
+</section>
+
+<script>// Fills a guide with one device's Blokada Cloud addresses.
+//
+// The dashboard links here as /guides/<page>/#tag=<device tag>&name=<name>.
+// The fragment never reaches the server, a CDN log or a search index. The tag
+// only identifies which account's filtering to use; it grants no access to the
+// account itself.
+//
+// This file is inlined into every guide as a plain script, and loaded by the
+// tests with require(). Without it, or without a tag, the page shows
+// placeholders and still reads fine.
+(function (root) {
+  // Same as the API and the resolver (api/devicetag.go, blockadns/id/setup.go).
+  var TAG_RE = /^([0-9a-f]{6}|[23][0-9a-f]{10})$/;
+  var NAME_MAX = 32;
+  // A DoT name is one DNS label, "<name>-<tag>". The resolver turns "--" back
+  // into a space and splits at the first remaining "-", so the name itself may
+  // hold letters, digits and spaces only.
+  var DOT_NAME_RE = /^[A-Za-z0-9 ]+$/;
+  var LABEL_MAX = 63;
+  var STORAGE_KEY = 'blokada_guide_device';
+
+  // The name ends up URL-encoded (DoH, profile) or as text, never as markup,
+  // so it only loses control characters and gets a length limit. Counted in
+  // code points: cutting a surrogate pair in half would make
+  // encodeURIComponent throw.
+  function cleanName(name) {
+    if (typeof name !== 'string') return '';
+    var cleaned = name.replace(/[\p{Cc}\p{Cf}]/gu, '').trim();
+    return Array.from(cleaned).slice(0, NAME_MAX).join('').trim();
+  }
+
+  function parseDevice(hash) {
+    if (typeof hash !== 'string' || hash.length < 2) return null;
+    var params = new URLSearchParams(hash.replace(/^#/, ''));
+    var tag = (params.get('tag') || '').toLowerCase();
+    if (!TAG_RE.test(tag)) return null;
+    return { tag: tag, name: cleanName(params.get('name')) };
+  }
+
+  function addresses(device) {
+    var tag = device.tag;
+    var name = device.name || '';
+    var dotLabel = tag;
+    if (name && DOT_NAME_RE.test(name)) {
+      var withName = name.replace(/ /g, '--') + '-' + tag;
+      if (withName.length <= LABEL_MAX) dotLabel = withName;
+    }
+    var dohPath = name ? tag + '/' + encodeURIComponent(name) : tag;
+    return {
+      dot: dotLabel + '.cloud.blokada.org',
+      doh: 'https://cloud.blokada.org/' + dohPath,
+      apple: 'https://api.cloud.blokada.org/apple?device_tag=' + tag +
+        '&device_name=' + encodeURIComponent(name),
+    };
+  }
+
+  // Takes the device off the URL (and keeps it for this tab), or falls back to
+  // one kept earlier, so the guide stays filled in after the fragment is gone.
+  function takeDevice(location, history, storage) {
+    var device = parseDevice(location.hash);
+    if (device) {
+      try {
+        storage.setItem(STORAGE_KEY, JSON.stringify(device));
+      } catch (e) {
+        // Private mode or blocked storage: the page still works for this view.
+      }
+      history.replaceState(history.state, '', location.pathname + location.search);
+      return device;
+    }
+    try {
+      var stored = JSON.parse(storage.getItem(STORAGE_KEY) || 'null');
+      if (stored && TAG_RE.test(stored.tag)) {
+        return { tag: stored.tag, name: cleanName(stored.name) };
+      }
+    } catch (e) {
+      // Unreadable storage is the same as no device.
+    }
+    return null;
+  }
+
+  function fill(document, values) {
+    var nodes = document.querySelectorAll('[data-dns]');
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var value = values[node.getAttribute('data-dns')];
+      if (!value) continue;
+      if (node.tagName === 'A') node.setAttribute('href', value);
+      else node.textContent = value;
+    }
+    document.documentElement.classList.add('has-device');
+  }
+
+  var api = {
+    parseDevice: parseDevice,
+    addresses: addresses,
+    takeDevice: takeDevice,
+    fill: fill,
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = api;
+    return;
+  }
+
+  function run() {
+    var storage;
+    try {
+      storage = root.sessionStorage;
+    } catch (e) {
+      storage = null;
+    }
+    var device = takeDevice(root.location, root.history, storage || {
+      getItem: function () { return null; },
+      setItem: function () {},
+    });
+    if (!device) return;
+    try {
+      fill(root.document, addresses(device));
+    } catch (e) {
+      // A name we could not encode: leave the placeholders rather than break.
+    }
+  }
+
+  run();
+  root.addEventListener('hashchange', run);
+})(typeof window !== 'undefined' ? window : this);
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="languages" aria-label="Other languages">
+        <span aria-current="page">English</span>
+        <a href="/de/guides/switch-from-mullvad-dns/" hreflang="de" lang="de">Deutsch</a>
+        <a href="/sv/guides/switch-from-mullvad-dns/" hreflang="sv" lang="sv">Svenska</a>
+      </nav>
+      <p>
+        &copy; Blocka AB ·
+        <a href="https://go.blokada.org/terms">Terms</a> ·
+        <a href="https://go.blokada.org/privacy">Privacy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blockera reklam i hela nätverket med reklamblockering i routern · Blokada</title>
+  <meta name="description" content="Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.">
+  <link rel="canonical" href="https://blokada.org/sv/guides/router-ad-blocking/">
+  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/">
+  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/">
+  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/">
+  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/router-ad-blocking/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Blokada">
+  <meta property="og:title" content="Blockera reklam i hela nätverket med reklamblockering i routern">
+  <meta property="og:description" content="Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.">
+  <meta property="og:url" content="https://blokada.org/sv/guides/router-ad-blocking/">
+  <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
+  <meta property="og:locale" content="sv">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/guides/assets/guides.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/img/brand/blue.png" alt="Blokada" height="32"></a>
+      <nav>
+        <a href="/sv/guides/">Guider</a>
+        <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="guide">
+  <nav class="crumbs"><a href="/sv/guides/">Guider</a></nav>
+  <h1>Blockera reklam i hela nätverket med reklamblockering i routern</h1>
+  <p class="lead">Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.</p>
+  <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+  <aside class="device">
+    <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
+      <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
+    <p class="if-device">Guiden visar adresserna för din enhet.</p>
+  </aside>
+
+  <p>Alla enheter i nätverket frågar routern vilken DNS-server de ska använda. Peka routern mot Blokada Cloud, så blockeras reklam och spårare för allt som är anslutet till den. Det gäller även smarta tv-apparater, spelkonsoler, streamingstickor och smarta hem-enheter, som inte har plats för en app för reklamblockering.</p>
+<h2>Det här behöver din router</h2>
+<p>Routern måste ha stöd för <strong>krypterad DNS med värdnamn</strong>, alltså DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar har det, bland annat modellerna nedan. Dina adresser är:</p>
+<ul>
+<li>DNS över TLS: <code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></li>
+<li>DNS över HTTPS: <code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></li>
+</ul>
+<div class="note">
+<p><strong>Bara vanliga IP-adresser?</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Stöd för det är på väg. Till dess kan du ställa in dina enheter en i taget: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">iPhone, iPad, Mac och Apple TV</a> och <a href="../browser-dns-over-https/">webbläsare</a>. Du kan också köra en liten vidarebefordrare på en Raspberry Pi, som beskrivs i <a href="../switch-from-pihole/">Pi-hole-guiden</a>.</p>
+</div>
+<h2>FRITZ!Box</h2>
+<p>FRITZ!OS 7.20 eller senare.</p>
+<ol>
+<li>Öppna <code>http://fritz.box</code> och gå till <em>Internet → Account Information → DNS Server</em>.</li>
+<li>Under <em>Encrypted Name Resolution on the Internet (DNS over TLS)</em> kryssar du i <em>Use encrypted name resolution</em>.</li>
+<li>Kryssa i <em>Enforce certificate verification for encrypted name resolution</em>.</li>
+<li>Avmarkera <em>Allow fallback to unencrypted name resolution</em>.</li>
+<li>Ange bara <code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code> under <em>Resolver names</em>. <strong>Ta bort alla andra poster.</strong> FRITZ!Box använder alla resolvers i listan, och varje annan resolver släpper igenom reklam.</li>
+<li>Klicka på <em>Apply</em>.</li>
+</ol>
+<h2>ASUS</h2>
+<p>Nyare ASUS-firmware (3.0.0.4.388 eller senare) och Asuswrt-Merlin.</p>
+<ol>
+<li>Öppna routerns administrationssida och gå till <em>WAN → Internet Connection</em>.</li>
+<li>Under <em>WAN DNS Setting</em> ställer du in <em>DNS Privacy Protocol</em> på <em>DNS-over-TLS (DoT)</em> och <em>DNS-over-TLS Profile</em> på <em>Strict</em>.</li>
+<li>Ta bort alla poster i <em>DNS-over-TLS Server List</em> och lägg sedan till en:
+<ul>
+<li>Address: <code>193.180.80.10</code></li>
+<li>TLS Hostname: <code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></li>
+</ul>
+</li>
+<li>Klicka på <em>Apply</em>.</li>
+</ol>
+<h2>OpenWrt</h2>
+<ol>
+<li>Under <em>System → Software</em> uppdaterar du listorna och installerar <code>luci-app-https-dns-proxy</code>.</li>
+<li>Öppna <em>Services → HTTPS DNS Proxy</em>. Ta bort instanserna för andra leverantörer.</li>
+<li>Lägg till en instans med en egen resolver-URL: <code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></li>
+<li><em>Save &amp; Apply</em>. Paketet pekar automatiskt dnsmasq mot den.</li>
+</ol>
+<h2>Andra routrar</h2>
+<p>Leta efter en inställning som heter <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> eller <em>DNS over HTTPS</em>. Ange motsvarande adress ovan och ta bort alla andra DNS-servrar, även reservservrar.</p>
+<h2>Kontrollera att det fungerar</h2>
+<ol>
+<li>Starta om en enhet, eller stäng av och slå på dess wifi, så att den får den nya inställningen.</li>
+<li>Surfa en stund och öppna sedan sidan <em>Activity</em> i dashboarden. Nätverkets uppslag visas där.</li>
+</ol>
+<p>Vissa enheter går förbi routern: telefoner med <em>privat DNS</em> inställd, webbläsare med <em>säker DNS</em> inställd på en annan leverantör och enheter med egen, hårdkodad DNS. Ställ in dem direkt på enheten, eller stäng av deras egen DNS-inställning.</p>
+<div class="note">
+<p>Bakom routern delar alla enheter en adress, så dashboarden visar ditt nätverk som en enda enhet. Ställ in telefoner och datorer med en egen adress om du vill se dem var för sig. Då behåller de också blockeringen när de lämnar hemmet.</p>
+</div>
+
+
+  <aside class="cta">
+  <h2>Blokada Cloud</h2>
+  <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
+  <p class="actions">
+    <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
+    <a class="btn" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
+  </p>
+  <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
+</aside>
+
+</article>
+
+<section class="comments">
+  <h2>Frågor och kommentarer</h2>
+  
+<div id="discourse-comments"></div>
+<script>
+  window.DiscourseEmbed = {
+    discourseUrl: 'https://community.blokada.org/',
+    discourseEmbedUrl: 'https://blokada.org/sv/guides/router-ad-blocking/',
+  };
+  (function () {
+    var d = document.createElement('script');
+    d.async = true;
+    d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    document.head.appendChild(d);
+  })();
+</script>
+
+</section>
+
+<script>// Fills a guide with one device's Blokada Cloud addresses.
+//
+// The dashboard links here as /guides/<page>/#tag=<device tag>&name=<name>.
+// The fragment never reaches the server, a CDN log or a search index. The tag
+// only identifies which account's filtering to use; it grants no access to the
+// account itself.
+//
+// This file is inlined into every guide as a plain script, and loaded by the
+// tests with require(). Without it, or without a tag, the page shows
+// placeholders and still reads fine.
+(function (root) {
+  // Same as the API and the resolver (api/devicetag.go, blockadns/id/setup.go).
+  var TAG_RE = /^([0-9a-f]{6}|[23][0-9a-f]{10})$/;
+  var NAME_MAX = 32;
+  // A DoT name is one DNS label, "<name>-<tag>". The resolver turns "--" back
+  // into a space and splits at the first remaining "-", so the name itself may
+  // hold letters, digits and spaces only.
+  var DOT_NAME_RE = /^[A-Za-z0-9 ]+$/;
+  var LABEL_MAX = 63;
+  var STORAGE_KEY = 'blokada_guide_device';
+
+  // The name ends up URL-encoded (DoH, profile) or as text, never as markup,
+  // so it only loses control characters and gets a length limit. Counted in
+  // code points: cutting a surrogate pair in half would make
+  // encodeURIComponent throw.
+  function cleanName(name) {
+    if (typeof name !== 'string') return '';
+    var cleaned = name.replace(/[\p{Cc}\p{Cf}]/gu, '').trim();
+    return Array.from(cleaned).slice(0, NAME_MAX).join('').trim();
+  }
+
+  function parseDevice(hash) {
+    if (typeof hash !== 'string' || hash.length < 2) return null;
+    var params = new URLSearchParams(hash.replace(/^#/, ''));
+    var tag = (params.get('tag') || '').toLowerCase();
+    if (!TAG_RE.test(tag)) return null;
+    return { tag: tag, name: cleanName(params.get('name')) };
+  }
+
+  function addresses(device) {
+    var tag = device.tag;
+    var name = device.name || '';
+    var dotLabel = tag;
+    if (name && DOT_NAME_RE.test(name)) {
+      var withName = name.replace(/ /g, '--') + '-' + tag;
+      if (withName.length <= LABEL_MAX) dotLabel = withName;
+    }
+    var dohPath = name ? tag + '/' + encodeURIComponent(name) : tag;
+    return {
+      dot: dotLabel + '.cloud.blokada.org',
+      doh: 'https://cloud.blokada.org/' + dohPath,
+      apple: 'https://api.cloud.blokada.org/apple?device_tag=' + tag +
+        '&device_name=' + encodeURIComponent(name),
+    };
+  }
+
+  // Takes the device off the URL (and keeps it for this tab), or falls back to
+  // one kept earlier, so the guide stays filled in after the fragment is gone.
+  function takeDevice(location, history, storage) {
+    var device = parseDevice(location.hash);
+    if (device) {
+      try {
+        storage.setItem(STORAGE_KEY, JSON.stringify(device));
+      } catch (e) {
+        // Private mode or blocked storage: the page still works for this view.
+      }
+      history.replaceState(history.state, '', location.pathname + location.search);
+      return device;
+    }
+    try {
+      var stored = JSON.parse(storage.getItem(STORAGE_KEY) || 'null');
+      if (stored && TAG_RE.test(stored.tag)) {
+        return { tag: stored.tag, name: cleanName(stored.name) };
+      }
+    } catch (e) {
+      // Unreadable storage is the same as no device.
+    }
+    return null;
+  }
+
+  function fill(document, values) {
+    var nodes = document.querySelectorAll('[data-dns]');
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var value = values[node.getAttribute('data-dns')];
+      if (!value) continue;
+      if (node.tagName === 'A') node.setAttribute('href', value);
+      else node.textContent = value;
+    }
+    document.documentElement.classList.add('has-device');
+  }
+
+  var api = {
+    parseDevice: parseDevice,
+    addresses: addresses,
+    takeDevice: takeDevice,
+    fill: fill,
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = api;
+    return;
+  }
+
+  function run() {
+    var storage;
+    try {
+      storage = root.sessionStorage;
+    } catch (e) {
+      storage = null;
+    }
+    var device = takeDevice(root.location, root.history, storage || {
+      getItem: function () { return null; },
+      setItem: function () {},
+    });
+    if (!device) return;
+    try {
+      fill(root.document, addresses(device));
+    } catch (e) {
+      // A name we could not encode: leave the placeholders rather than break.
+    }
+  }
+
+  run();
+  root.addEventListener('hashchange', run);
+})(typeof window !== 'undefined' ? window : this);
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="languages" aria-label="Andra språk">
+        <a href="/guides/router-ad-blocking/" hreflang="en" lang="en">English</a>
+        <a href="/de/guides/router-ad-blocking/" hreflang="de" lang="de">Deutsch</a>
+        <span aria-current="page">Svenska</span>
+      </nav>
+      <p>
+        &copy; Blocka AB ·
+        <a href="https://go.blokada.org/terms">Villkor</a> ·
+        <a href="https://go.blokada.org/privacy">Integritet</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blockera reklam på Android med privat DNS · Blokada</title>
+  <meta name="description" content="Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.">
+  <link rel="canonical" href="https://blokada.org/sv/guides/android-private-dns/">
+  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/">
+  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/">
+  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/android-private-dns/">
+  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/android-private-dns/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Blokada">
+  <meta property="og:title" content="Blockera reklam på Android med privat DNS">
+  <meta property="og:description" content="Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.">
+  <meta property="og:url" content="https://blokada.org/sv/guides/android-private-dns/">
+  <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
+  <meta property="og:locale" content="sv">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/guides/assets/guides.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/img/brand/blue.png" alt="Blokada" height="32"></a>
+      <nav>
+        <a href="/sv/guides/">Guider</a>
+        <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="guide">
+  <nav class="crumbs"><a href="/sv/guides/">Guider</a></nav>
+  <h1>Blockera reklam på Android med privat DNS</h1>
+  <p class="lead">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.</p>
+  <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+  <aside class="device">
+    <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
+      <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
+    <p class="if-device">Guiden visar adresserna för din enhet.</p>
+  </aside>
+
+  <p>Android 9 och senare har inställningen <em>Privat DNS</em>. Ställ in den på Blokada Cloud, så blockeras reklam och spårare i alla appar, på alla nätverk, utan att någon app körs i bakgrunden.</p>
+<p>Din adress för privat DNS är: <code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></p>
+<h2>De flesta Android-telefoner</h2>
+<ol>
+<li>Öppna <em>Inställningar → Nätverk och internet</em>. På vissa telefoner heter det <em>Anslutningar</em> eller <em>Anslutning och delning</em>.</li>
+<li>Tryck på <em>Privat DNS</em>. På Samsung-telefoner finns det under <em>Fler anslutningsinställningar</em>.</li>
+<li>Välj <em>Värdnamn för privat DNS-leverantör</em>.</li>
+<li>Ange <code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code> och tryck på <em>Spara</em>.</li>
+</ol>
+<p>Hittar du det inte kan du söka efter ”Privat DNS” i appen Inställningar.</p>
+<h2>Kontrollera att det fungerar</h2>
+<p>Öppna några appar eller webbplatser och titta sedan på sidan <em>Activity</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Telefonens uppslag visas där.</p>
+<h2>Om något inte fungerar</h2>
+<ul>
+<li><strong>”Det gick inte att ansluta” eller inget internet:</strong> kontrollera att adressen inte har några stavfel. Den måste vara exakt som ovan, utan <code>https://</code>.</li>
+<li><strong>En annan VPN-app är aktiv:</strong> vissa VPN-appar använder egen DNS och kringgår privat DNS. Stäng av VPN-appens DNS- eller reklamblockeringsinställning, eller använd Blokada 6 i stället.</li>
+<li><strong>Chrome visar fortfarande reklam:</strong> öppna <em>Inställningar → Integritet och säkerhet → Använd säker DNS</em> i Chrome och välj <em>Use current service provider</em>.</li>
+</ul>
+<div class="note">
+<p>Föredrar du en app? <a href="https://blokada.org/#download">Blokada 6</a> ställer in det här åt dig och visar aktiviteten direkt i telefonen.</p>
+</div>
+
+
+  <aside class="cta">
+  <h2>Blokada Cloud</h2>
+  <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
+  <p class="actions">
+    <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
+    <a class="btn" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
+  </p>
+  <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
+</aside>
+
+</article>
+
+<section class="comments">
+  <h2>Frågor och kommentarer</h2>
+  
+<div id="discourse-comments"></div>
+<script>
+  window.DiscourseEmbed = {
+    discourseUrl: 'https://community.blokada.org/',
+    discourseEmbedUrl: 'https://blokada.org/sv/guides/android-private-dns/',
+  };
+  (function () {
+    var d = document.createElement('script');
+    d.async = true;
+    d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    document.head.appendChild(d);
+  })();
+</script>
+
+</section>
+
+<script>// Fills a guide with one device's Blokada Cloud addresses.
+//
+// The dashboard links here as /guides/<page>/#tag=<device tag>&name=<name>.
+// The fragment never reaches the server, a CDN log or a search index. The tag
+// only identifies which account's filtering to use; it grants no access to the
+// account itself.
+//
+// This file is inlined into every guide as a plain script, and loaded by the
+// tests with require(). Without it, or without a tag, the page shows
+// placeholders and still reads fine.
+(function (root) {
+  // Same as the API and the resolver (api/devicetag.go, blockadns/id/setup.go).
+  var TAG_RE = /^([0-9a-f]{6}|[23][0-9a-f]{10})$/;
+  var NAME_MAX = 32;
+  // A DoT name is one DNS label, "<name>-<tag>". The resolver turns "--" back
+  // into a space and splits at the first remaining "-", so the name itself may
+  // hold letters, digits and spaces only.
+  var DOT_NAME_RE = /^[A-Za-z0-9 ]+$/;
+  var LABEL_MAX = 63;
+  var STORAGE_KEY = 'blokada_guide_device';
+
+  // The name ends up URL-encoded (DoH, profile) or as text, never as markup,
+  // so it only loses control characters and gets a length limit. Counted in
+  // code points: cutting a surrogate pair in half would make
+  // encodeURIComponent throw.
+  function cleanName(name) {
+    if (typeof name !== 'string') return '';
+    var cleaned = name.replace(/[\p{Cc}\p{Cf}]/gu, '').trim();
+    return Array.from(cleaned).slice(0, NAME_MAX).join('').trim();
+  }
+
+  function parseDevice(hash) {
+    if (typeof hash !== 'string' || hash.length < 2) return null;
+    var params = new URLSearchParams(hash.replace(/^#/, ''));
+    var tag = (params.get('tag') || '').toLowerCase();
+    if (!TAG_RE.test(tag)) return null;
+    return { tag: tag, name: cleanName(params.get('name')) };
+  }
+
+  function addresses(device) {
+    var tag = device.tag;
+    var name = device.name || '';
+    var dotLabel = tag;
+    if (name && DOT_NAME_RE.test(name)) {
+      var withName = name.replace(/ /g, '--') + '-' + tag;
+      if (withName.length <= LABEL_MAX) dotLabel = withName;
+    }
+    var dohPath = name ? tag + '/' + encodeURIComponent(name) : tag;
+    return {
+      dot: dotLabel + '.cloud.blokada.org',
+      doh: 'https://cloud.blokada.org/' + dohPath,
+      apple: 'https://api.cloud.blokada.org/apple?device_tag=' + tag +
+        '&device_name=' + encodeURIComponent(name),
+    };
+  }
+
+  // Takes the device off the URL (and keeps it for this tab), or falls back to
+  // one kept earlier, so the guide stays filled in after the fragment is gone.
+  function takeDevice(location, history, storage) {
+    var device = parseDevice(location.hash);
+    if (device) {
+      try {
+        storage.setItem(STORAGE_KEY, JSON.stringify(device));
+      } catch (e) {
+        // Private mode or blocked storage: the page still works for this view.
+      }
+      history.replaceState(history.state, '', location.pathname + location.search);
+      return device;
+    }
+    try {
+      var stored = JSON.parse(storage.getItem(STORAGE_KEY) || 'null');
+      if (stored && TAG_RE.test(stored.tag)) {
+        return { tag: stored.tag, name: cleanName(stored.name) };
+      }
+    } catch (e) {
+      // Unreadable storage is the same as no device.
+    }
+    return null;
+  }
+
+  function fill(document, values) {
+    var nodes = document.querySelectorAll('[data-dns]');
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var value = values[node.getAttribute('data-dns')];
+      if (!value) continue;
+      if (node.tagName === 'A') node.setAttribute('href', value);
+      else node.textContent = value;
+    }
+    document.documentElement.classList.add('has-device');
+  }
+
+  var api = {
+    parseDevice: parseDevice,
+    addresses: addresses,
+    takeDevice: takeDevice,
+    fill: fill,
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = api;
+    return;
+  }
+
+  function run() {
+    var storage;
+    try {
+      storage = root.sessionStorage;
+    } catch (e) {
+      storage = null;
+    }
+    var device = takeDevice(root.location, root.history, storage || {
+      getItem: function () { return null; },
+      setItem: function () {},
+    });
+    if (!device) return;
+    try {
+      fill(root.document, addresses(device));
+    } catch (e) {
+      // A name we could not encode: leave the placeholders rather than break.
+    }
+  }
+
+  run();
+  root.addEventListener('hashchange', run);
+})(typeof window !== 'undefined' ? window : this);
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="languages" aria-label="Andra språk">
+        <a href="/guides/android-private-dns/" hreflang="en" lang="en">English</a>
+        <a href="/de/guides/android-private-dns/" hreflang="de" lang="de">Deutsch</a>
+        <span aria-current="page">Svenska</span>
+      </nav>
+      <p>
+        &copy; Blocka AB ·
+        <a href="https://go.blokada.org/terms">Villkor</a> ·
+        <a href="https://go.blokada.org/privacy">Integritet</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
