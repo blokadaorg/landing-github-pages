@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eine Pi-hole Alternative ohne eigene Hardware · Blokada</title>
+  <meta name="description" content="Verlege den Werbeblocker für dein Zuhause vom Pi-hole zu Blokada Cloud, oder behalte den Pi-hole und leite seine Anfragen über Blokada.">
+  <link rel="canonical" href="https://blokada.org/de/guides/switch-from-pihole/">
+  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/">
+  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/">
+  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/">
+  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/switch-from-pihole/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Blokada">
+  <meta property="og:title" content="Eine Pi-hole Alternative ohne eigene Hardware">
+  <meta property="og:description" content="Verlege den Werbeblocker für dein Zuhause vom Pi-hole zu Blokada Cloud, oder behalte den Pi-hole und leite seine Anfragen über Blokada.">
+  <meta property="og:url" content="https://blokada.org/de/guides/switch-from-pihole/">
+  <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
+  <meta property="og:locale" content="de">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/guides/assets/guides.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <nav class="topbar">
+        <a class="brand" href="/"><img src="/img/brand/white.png" alt="Blokada" height="40"></a>
+        <span class="topbar-links">
+          <a href="/de/guides/">Anleitungen</a>
+          <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+          <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Blokada Cloud holen</a>
+        </span>
+      </nav>
+      <div class="hero-text">
+        <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
+        <h1>Eine Pi-hole Alternative ohne eigene Hardware</h1>
+        <p class="lead">Verlege den Werbeblocker für dein Zuhause vom Pi-hole zu Blokada Cloud, oder behalte den Pi-hole und leite seine Anfragen über Blokada.</p>
+        <p class="meta">Aktualisiert <time datetime="2026-09-23">2026-09-23</time></p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="guide">
+  <aside class="device">
+    <p class="if-no-device">Die Adressen auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link „Auf einem anderen Gerät öffnen“ im Dashboard, wird er automatisch eingesetzt.
+      <a href="https://app.blokada.org/setup?src=guides">Meine Adresse finden</a></p>
+    <p class="if-device">Diese Anleitung zeigt die Adressen deines Geräts.</p>
+  </aside>
+
+  <p>Ein Pi-hole blockiert Werbung für jedes Gerät in deinem Netzwerk, solange der Raspberry Pi läuft, aktuell ist und zu Hause steht. Blokada Cloud erledigt dasselbe von unseren Servern aus:</p>
+<ul>
+<li><strong>Keine Box, um die du dich kümmern musst.</strong> Keine SD-Karten, keine Updates, kein Ausfall, wenn der Pi ausfällt.</li>
+<li><strong>Funktioniert auch unterwegs.</strong> Handys und Laptops blockieren weiter, auch mobil und in anderen WLANs.</li>
+<li><strong>Verschlüsselt.</strong> Geräte sprechen mit Blokada über DNS over TLS oder DNS over HTTPS, dein Anbieter kann deine Anfragen also weder lesen noch verändern.</li>
+<li><strong>Ein Dashboard.</strong> Blocklisten, erlaubte und blockierte Domains und die Aktivität pro Gerät, unter <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
+</ul>
+<p>Es gibt zwei Wege zum Wechsel: Ersetze den Pi-hole ganz, oder behalte ihn und nutze Blokada Cloud als Upstream.</p>
+<h2>Option 1: den Pi-hole ersetzen</h2>
+<ol>
+<li><strong>Hol dir Blokada Cloud</strong> und öffne das Dashboard. Unter <em>Setup</em> findest du deine persönlichen Adressen:
+<ul>
+<li>DNS over TLS: <code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></li>
+<li>DNS over HTTPS: <code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></li>
+</ul>
+</li>
+<li><strong>Stelle deinen Router auf Blokada statt auf den Pi-hole um.</strong> Folge der <a href="../router-ad-blocking/">Router-Anleitung</a>. Akzeptiert dein Router als DNS-Server nur eine einfache IP-Adresse, richte stattdessen deine Geräte einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">iPhone, iPad, Mac und Apple TV</a> und <a href="../browser-dns-over-https/">Browser</a>.</li>
+<li><strong>War dein Pi-hole der DHCP-Server,</strong> schalte DHCP in deinem Router wieder ein, <em>bevor</em> du den Pi ausschaltest. Sonst bekommen deine Geräte keine Netzwerkadressen mehr.</li>
+<li><strong>Übertrage deine Listen.</strong> Wähle im Dashboard unter <em>Blocklists</em> deine Blocklisten und füge unter <em>My blocklists</em> eigene erlaubte oder blockierte Domains hinzu.</li>
+<li><strong>Schalte den Pi-hole aus,</strong> oder nutze ihn für etwas anderes.</li>
+</ol>
+<div class="note">
+<p>Dein Pi-hole zeigte jedes Gerät im Netzwerk mit seiner IP-Adresse. Bei Blokada erscheint jedes Gerät mit seinem eigenen Namen, solange es seine eigene Adresse nutzt. Ein Router, der mit einer Adresse eingerichtet ist, erscheint als ein Gerät.</p>
+</div>
+<h2>Option 2: den Pi-hole behalten, Blokada Cloud als Upstream</h2>
+<p>Möchtest du deine lokale Einrichtung behalten, etwa lokale Hostnamen, DHCP oder eigene Listen, lass den Pi-hole seine Anfragen über eine verschlüsselte Verbindung an Blokada weiterleiten. Pi-hole kann selbst nicht verschlüsselt weiterleiten, deshalb läuft daneben eine kleine Weiterleitung. Diese Anleitung nutzt <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, eine Open-Source-Weiterleitung, die aus einer einzigen Datei besteht.</p>
+<ol>
+<li>Lade auf dem Pi-hole-Rechner die <code>dnsproxy</code>-Version für deine CPU (<code>linux-arm64</code> für einen aktuellen Raspberry Pi) von der Release-Seite herunter und kopiere die Datei <code>dnsproxy</code> nach <code>/usr/local/bin/</code>.</li>
+<li>Lege <code>/etc/systemd/system/dnsproxy.service</code> an:</li>
+</ol>
+<pre><code>[Unit]
+Description=Encrypted DNS forwarder to Blokada Cloud
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/dnsproxy -l 127.0.0.1 -p 5054 -u tls://<span data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</span> -b 9.9.9.9
+Restart=always
+DynamicUser=yes
+
+[Install]
+WantedBy=multi-user.target</code></pre>
+<ol start="3">
+<li>Starte sie: <code>sudo systemctl enable --now dnsproxy</code></li>
+<li>Öffne im Pi-hole-Admin <em>Settings → DNS</em>. Entferne die Haken bei allen Upstream-Servern und füge <code>127.0.0.1#5054</code> als eigenen Upstream-Server hinzu. Speichere.</li>
+<li>Sieh dir die Seite <em>Activity</em> im Dashboard an. Anfragen aus deinem Netzwerk erscheinen jetzt dort.</li>
+</ol>
+<p>Du kannst die Blocklisten des Pi-hole ausschalten und die Blockierung im Dashboard verwalten, oder beides behalten.</p>
+<h2>Häufige Fragen</h2>
+<p><strong>Brauche ich Blokada Plus?</strong> Nein. Blokada Cloud deckt die DNS-Blockierung für dein ganzes Zuhause ab. <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt ein VPN.</p>
+<p><strong>Was, wenn Blokada nicht erreichbar ist?</strong> Deine Geräte können keine Namen auflösen, bis es wieder erreichbar ist, genau wie bei einem ausgefallenen Pi-hole. Trage keinen zweiten, ungefilterten DNS-Server als Fallback ein. Die meisten Geräte nutzen alle ihre Server zufällig, und so käme Werbung durch.</p>
+
+
+  <aside class="cta">
+  <h2>Blokada Cloud</h2>
+  <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
+  <p class="actions">
+    <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Blokada Cloud holen</a>
+    <a class="btn btn-white" href="https://app.blokada.org/setup?src=guides">Ich habe schon ein Konto</a>
+  </p>
+  <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
+</aside>
+
+</article>
+
+<section class="comments">
+  <h2>Fragen und Kommentare</h2>
+  
+<div id="discourse-comments"></div>
+<script>
+  window.DiscourseEmbed = {
+    discourseUrl: 'https://community.blokada.org/',
+    discourseEmbedUrl: 'https://blokada.org/de/guides/switch-from-pihole/',
+  };
+  (function () {
+    var d = document.createElement('script');
+    d.async = true;
+    d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    document.head.appendChild(d);
+  })();
+</script>
+
+</section>
+
+<script>// Fills a guide with one device's Blokada Cloud addresses.
+//
+// The dashboard links here as /guides/<page>/#tag=<device tag>&name=<name>.
+// The fragment never reaches the server, a CDN log or a search index. The tag
+// only identifies which account's filtering to use; it grants no access to the
+// account itself.
+//
+// This file is inlined into every guide as a plain script, and loaded by the
+// tests with require(). Without it, or without a tag, the page shows
+// placeholders and still reads fine.
+(function (root) {
+  // Same as the API and the resolver (api/devicetag.go, blockadns/id/setup.go).
+  var TAG_RE = /^([0-9a-f]{6}|[23][0-9a-f]{10})$/;
+  var NAME_MAX = 32;
+  // A DoT name is one DNS label, "<name>-<tag>". The resolver turns "--" back
+  // into a space and splits at the first remaining "-", so the name itself may
+  // hold letters, digits and spaces only.
+  var DOT_NAME_RE = /^[A-Za-z0-9 ]+$/;
+  var LABEL_MAX = 63;
+  var STORAGE_KEY = 'blokada_guide_device';
+
+  // The name ends up URL-encoded (DoH, profile) or as text, never as markup,
+  // so it only loses control characters and gets a length limit. Counted in
+  // code points: cutting a surrogate pair in half would make
+  // encodeURIComponent throw.
+  function cleanName(name) {
+    if (typeof name !== 'string') return '';
+    var cleaned = name.replace(/[\p{Cc}\p{Cf}]/gu, '').trim();
+    return Array.from(cleaned).slice(0, NAME_MAX).join('').trim();
+  }
+
+  function parseDevice(hash) {
+    if (typeof hash !== 'string' || hash.length < 2) return null;
+    var params = new URLSearchParams(hash.replace(/^#/, ''));
+    var tag = (params.get('tag') || '').toLowerCase();
+    if (!TAG_RE.test(tag)) return null;
+    return { tag: tag, name: cleanName(params.get('name')) };
+  }
+
+  function addresses(device) {
+    var tag = device.tag;
+    var name = device.name || '';
+    var dotLabel = tag;
+    if (name && DOT_NAME_RE.test(name)) {
+      var withName = name.replace(/ /g, '--') + '-' + tag;
+      if (withName.length <= LABEL_MAX) dotLabel = withName;
+    }
+    var dohPath = name ? tag + '/' + encodeURIComponent(name) : tag;
+    return {
+      dot: dotLabel + '.cloud.blokada.org',
+      doh: 'https://cloud.blokada.org/' + dohPath,
+      apple: 'https://api.cloud.blokada.org/apple?device_tag=' + tag +
+        '&device_name=' + encodeURIComponent(name),
+    };
+  }
+
+  // Takes the device off the URL (and keeps it for this tab), or falls back to
+  // one kept earlier, so the guide stays filled in after the fragment is gone.
+  function takeDevice(location, history, storage) {
+    var device = parseDevice(location.hash);
+    if (device) {
+      try {
+        storage.setItem(STORAGE_KEY, JSON.stringify(device));
+      } catch (e) {
+        // Private mode or blocked storage: the page still works for this view.
+      }
+      history.replaceState(history.state, '', location.pathname + location.search);
+      return device;
+    }
+    try {
+      var stored = JSON.parse(storage.getItem(STORAGE_KEY) || 'null');
+      if (stored && TAG_RE.test(stored.tag)) {
+        return { tag: stored.tag, name: cleanName(stored.name) };
+      }
+    } catch (e) {
+      // Unreadable storage is the same as no device.
+    }
+    return null;
+  }
+
+  function fill(document, values) {
+    var nodes = document.querySelectorAll('[data-dns]');
+    for (var i = 0; i < nodes.length; i++) {
+      var node = nodes[i];
+      var value = values[node.getAttribute('data-dns')];
+      if (!value) continue;
+      if (node.tagName === 'A') node.setAttribute('href', value);
+      else node.textContent = value;
+    }
+    document.documentElement.classList.add('has-device');
+  }
+
+  var api = {
+    parseDevice: parseDevice,
+    addresses: addresses,
+    takeDevice: takeDevice,
+    fill: fill,
+  };
+
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = api;
+    return;
+  }
+
+  function run() {
+    var storage;
+    try {
+      storage = root.sessionStorage;
+    } catch (e) {
+      storage = null;
+    }
+    var device = takeDevice(root.location, root.history, storage || {
+      getItem: function () { return null; },
+      setItem: function () {},
+    });
+    if (!device) return;
+    try {
+      fill(root.document, addresses(device));
+    } catch (e) {
+      // A name we could not encode: leave the placeholders rather than break.
+    }
+  }
+
+  run();
+  root.addEventListener('hashchange', run);
+})(typeof window !== 'undefined' ? window : this);
+</script>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav class="languages" aria-label="Andere Sprachen">
+        <a href="/guides/switch-from-pihole/" hreflang="en" lang="en">English</a>
+        <span aria-current="page">Deutsch</span>
+        <a href="/sv/guides/switch-from-pihole/" hreflang="sv" lang="sv">Svenska</a>
+      </nav>
+      <p>
+        &copy; Blocka AB ·
+        <a href="https://go.blokada.org/terms">AGB</a> ·
+        <a href="https://go.blokada.org/privacy">Datenschutz</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
