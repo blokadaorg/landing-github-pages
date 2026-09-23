@@ -1,7 +1,14 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" data-label-copy="Kopieren" data-label-copied="Kopiert">
 <head>
   <meta charset="utf-8">
+  <script>
+    // Before first paint, so a chosen theme never flashes the other one.
+    try {
+      var theme = localStorage.getItem('blokada_guides_theme');
+      if (theme === 'dark' || theme === 'light') document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Werbung in Chrome, Firefox, Edge und Brave mit DNS over HTTPS blockieren · Blokada</title>
   <meta name="description" content="Stelle Blokada Cloud als sicheres DNS im Browser ein und blockiere Werbung und Tracker auf jedem Computer, auch auf Arbeitslaptops ohne App-Installation.">
@@ -31,6 +38,10 @@
         <span class="topbar-links">
           <a href="/de/guides/">Anleitungen</a>
           <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+          <button type="button" class="theme-toggle" aria-label="Dunkler Modus" title="Dunkler Modus" aria-pressed="false" hidden>
+            <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
           <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Blokada Cloud holen</a>
         </span>
       </nav>
@@ -53,30 +64,30 @@
 
   <p>Moderne Browser können einen eigenen verschlüsselten DNS-Anbieter nutzen, genannt <em>sicheres DNS</em> oder <em>DNS over HTTPS</em>. Stellst du dort Blokada Cloud ein, blockiert der Browser Werbung und Tracker in jedem Netz, ganz ohne Erweiterung.</p>
 <p>Diese Einstellung gilt nur für diesen Browser. Für den ganzen Computer nutzt du auf dem Mac das <a href="../apple-devices/">Apple-Profil</a> oder richtest deinen <a href="../router-ad-blocking/">Router</a> ein.</p>
-<p>Deine Adresse für DNS over HTTPS: <code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></p>
+<p>Deine Adresse für DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></p>
 <h2>Chrome</h2>
 <ol>
 <li>Öffne <code>chrome://settings/security</code>.</li>
 <li>Schalte <em>Sicheres DNS verwenden</em> ein und wähle dann <em>Add custom DNS service provider</em>.</li>
-<li>Gib <code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code> ein.</li>
+<li>Gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
 <h2>Edge</h2>
 <ol>
 <li>Öffne <code>edge://settings/privacy</code>.</li>
 <li>Schalte unter <em>Sicherheit</em> die Option <em>Use secure DNS to specify how to look up the network address for websites</em> ein.</li>
-<li>Wähle <em>Choose a service provider</em> und gib <code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code> ein.</li>
+<li>Wähle <em>Choose a service provider</em> und gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
 <h2>Firefox</h2>
 <ol>
 <li>Öffne <em>Einstellungen → Datenschutz &amp; Sicherheit</em> und scrolle zu <em>DNS über HTTPS</em>.</li>
 <li>Wähle <em>Maximaler Schutz</em>.</li>
-<li>Wähle unter <em>Anbieter auswählen</em> die Option <em>Benutzerdefiniert</em> und gib <code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code> ein.</li>
+<li>Wähle unter <em>Anbieter auswählen</em> die Option <em>Benutzerdefiniert</em> und gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
 <h2>Brave</h2>
 <ol>
 <li>Öffne <code>brave://settings/security</code>.</li>
 <li>Schalte <em>Sicheres DNS verwenden</em> ein und wähle dann <em>Add custom DNS service provider</em>.</li>
-<li>Gib <code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code> ein.</li>
+<li>Gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
 <h2>Safari</h2>
 <p>Safari hat keine eigene Einstellung für sicheres DNS. Es nutzt das DNS des Systems, installiere also das <a href="../apple-devices/">Apple-Profil</a>.</p>
@@ -262,5 +273,96 @@
       </p>
     </div>
   </footer>
+  <script>// Copy buttons and the dark mode toggle. Both are added by script, so a page
+// without JavaScript shows no buttons that cannot work.
+(function () {
+  var root = document.documentElement;
+  var labels = {
+    copy: root.getAttribute('data-label-copy') || 'Copy',
+    copied: root.getAttribute('data-label-copied') || 'Copied',
+  };
+
+  var ICON_COPY =
+    '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+  var ICON_DONE =
+    '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  // Where the clipboard API is missing or refused, select the text instead so
+  // one keystroke copies it.
+  function selectText(node) {
+    var range = document.createRange();
+    range.selectNodeContents(node);
+    var selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+  }
+
+  function addCopyButton(box, source) {
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'copy-btn';
+    button.setAttribute('aria-label', labels.copy);
+    button.title = labels.copy;
+    button.innerHTML = ICON_COPY;
+    button.addEventListener('click', function () {
+      var text = source.textContent.trim();
+      var done = function () {
+        button.innerHTML = ICON_DONE;
+        button.classList.add('is-done');
+        button.setAttribute('aria-label', labels.copied);
+        button.title = labels.copied;
+        setTimeout(function () {
+          button.innerHTML = ICON_COPY;
+          button.classList.remove('is-done');
+          button.setAttribute('aria-label', labels.copy);
+          button.title = labels.copy;
+        }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function () { selectText(source); });
+      } else {
+        selectText(source);
+      }
+    });
+    box.appendChild(button);
+  }
+
+  var boxes = document.querySelectorAll('.copy');
+  for (var i = 0; i < boxes.length; i++) {
+    addCopyButton(boxes[i], boxes[i].querySelector('code'));
+  }
+  var blocks = document.querySelectorAll('pre');
+  for (var j = 0; j < blocks.length; j++) {
+    blocks[j].classList.add('copy-block');
+    addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // Dark mode: follows the system until the reader picks, then remembers.
+  var toggle = document.querySelector('.theme-toggle');
+  if (!toggle) return;
+  toggle.hidden = false;
+  var system = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  function current() {
+    var chosen = root.getAttribute('data-theme');
+    if (chosen) return chosen;
+    return system && system.matches ? 'dark' : 'light';
+  }
+  function show() {
+    toggle.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false');
+  }
+  toggle.addEventListener('click', function () {
+    var next = current() === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try {
+      localStorage.setItem('blokada_guides_theme', next);
+    } catch (e) {
+      // Not remembered, but this page still switches.
+    }
+    show();
+  });
+  if (system && system.addEventListener) system.addEventListener('change', show);
+  show();
+})();
+</script>
 </body>
 </html>
