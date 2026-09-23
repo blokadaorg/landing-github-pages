@@ -20,26 +20,31 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="hero">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/img/brand/blue.png" alt="Blokada" height="32"></a>
-      <nav>
-        <a href="/sv/guides/">Guider</a>
-        <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+      <nav class="topbar">
+        <a class="brand" href="/"><img src="/img/brand/white.png" alt="Blokada" height="40"></a>
+        <span class="topbar-links">
+          <a href="/sv/guides/">Guider</a>
+          <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+          <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
+        </span>
       </nav>
+      <div class="hero-text">
+        <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
+        <h1>Blockera reklam på Android med privat DNS</h1>
+        <p class="lead">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.</p>
+        <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
     <article class="guide">
-  <nav class="crumbs"><a href="/sv/guides/">Guider</a></nav>
-  <h1>Blockera reklam på Android med privat DNS</h1>
-  <p class="lead">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.</p>
-  <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
   <aside class="device">
     <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
       <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
@@ -74,7 +79,7 @@
   <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
   <p class="actions">
     <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
-    <a class="btn" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
+    <a class="btn btn-white" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
   </p>
   <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
 </aside>

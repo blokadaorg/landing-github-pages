@@ -20,23 +20,29 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="hero">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/img/brand/blue.png" alt="Blokada" height="32"></a>
-      <nav>
-        <a href="/sv/guides/">Guider</a>
-        <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+      <nav class="topbar">
+        <a class="brand" href="/"><img src="/img/brand/white.png" alt="Blokada" height="40"></a>
+        <span class="topbar-links">
+          <a href="/sv/guides/">Guider</a>
+          <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+          <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
+        </span>
       </nav>
+      <div class="hero-text">
+        <h1>Guider för Blokada Cloud</h1>
+        <p class="lead">Steg-för-steg-guider för att blockera reklam och spårare på router, tv, dator och mobil med Blokada Cloud.</p>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
-    <h1>Guider för Blokada Cloud</h1>
-<p class="lead">Blokada Cloud blockerar reklam och spårare via DNS, så det fungerar även på enheter som inte kan köra en annonsblockerare. Välj din enhet eller tjänsten du byter från.</p>
+    <p class="intro">Blokada Cloud blockerar reklam och spårare via DNS, så det fungerar även på enheter som inte kan köra en annonsblockerare. Välj din enhet eller tjänsten du byter från.</p>
 <ul class="cards">
   <li><a href="/sv/guides/switch-from-pihole/"><strong>Ett alternativ till Pi-hole som inte kräver någon hårdvara</strong>Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.</a></li>
   <li><a href="/sv/guides/switch-from-mullvad-dns/"><strong>Mullvad DNS läggs ner. Behåll reklamblockeringen med Blokada Cloud</strong>Mullvad stänger sin publika DNS den 2 november 2026. Så flyttar du telefon, dator och router till Blokada Cloud innan dess och behåller reklamblockeringen.</a></li>
@@ -50,7 +56,7 @@
   <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
   <p class="actions">
     <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
-    <a class="btn" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
+    <a class="btn btn-white" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
   </p>
   <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
 </aside>

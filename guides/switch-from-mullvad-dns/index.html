@@ -20,26 +20,31 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
 </head>
 <body>
-  <header class="site-header">
+  <header class="hero">
     <div class="wrap">
-      <a class="brand" href="/"><img src="/img/brand/blue.png" alt="Blokada" height="32"></a>
-      <nav>
-        <a href="/guides/">Guides</a>
-        <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+      <nav class="topbar">
+        <a class="brand" href="/"><img src="/img/brand/white.png" alt="Blokada" height="40"></a>
+        <span class="topbar-links">
+          <a href="/guides/">Guides</a>
+          <a href="https://app.blokada.org/?src=guides">Dashboard</a>
+          <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Get Blokada Cloud</a>
+        </span>
       </nav>
+      <div class="hero-text">
+        <p class="crumbs"><a href="/guides/">Guides</a></p>
+        <h1>Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud</h1>
+        <p class="lead">Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.</p>
+        <p class="meta">Updated <time datetime="2026-09-23">2026-09-23</time></p>
+      </div>
     </div>
   </header>
 
   <main class="wrap">
     <article class="guide">
-  <nav class="crumbs"><a href="/guides/">Guides</a></nav>
-  <h1>Mullvad DNS is shutting down. Keep your ad blocking with Blokada Cloud</h1>
-  <p class="lead">Mullvad closes its public DNS on 2 November 2026. Here is how to move your phone, computer and router to Blokada Cloud before then, without losing ad blocking.</p>
-  <p class="meta">Updated <time datetime="2026-09-23">2026-09-23</time></p>
   <aside class="device">
     <p class="if-no-device">The addresses on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
       <a href="https://app.blokada.org/setup?src=guides">Find my address</a></p>
@@ -120,7 +125,7 @@
   <p>Blocks ads and trackers for every device in your home. You set it up once in the DNS settings, with no app on your TV, console or router.</p>
   <p class="actions">
     <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Get Blokada Cloud</a>
-    <a class="btn" href="https://app.blokada.org/setup?src=guides">I already have an account</a>
+    <a class="btn btn-white" href="https://app.blokada.org/setup?src=guides">I already have an account</a>
   </p>
   <p class="small">Want a VPN as well? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds an encrypted WireGuard tunnel on each device, with the same blocking.</p>
 </aside>
