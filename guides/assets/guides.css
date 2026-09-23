@@ -236,3 +236,6 @@ a.btn[data-dns] { background: var(--accent); color: #fff; }
   .hero h1 { font-size: 1.75rem; }
   .hero .lead { font-size: 1.05rem; }
 }
+
+/* The forum frame; its inside is styled by discourse-embedded.css on the forum. */
+#discourse-comments iframe { display: block; }

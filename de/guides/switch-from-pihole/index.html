@@ -132,11 +132,31 @@ WantedBy=multi-user.target</code></pre>
   
 <div id="discourse-comments"></div>
 <script>
-  window.DiscourseEmbed = {
-    discourseUrl: 'https://community.blokada.org/',
-    discourseEmbedUrl: 'https://blokada.org/de/guides/switch-from-pihole/',
-  };
   (function () {
+    function theme() {
+      var chosen = document.documentElement.getAttribute('data-theme');
+      if (chosen) return chosen;
+      return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    function className(t) {
+      return 'blokada-guides theme-' + t;
+    }
+
+    window.DiscourseEmbed = {
+      discourseUrl: 'https://community.blokada.org/',
+      discourseEmbedUrl: 'https://blokada.org/de/guides/switch-from-pihole/',
+      className: className(theme()),
+    };
+
+    // The frame can't be restyled from here, so a theme change reloads it
+    // with the other class. It is one small request, and only on a toggle.
+    document.addEventListener('blokada:theme', function () {
+      var frame = document.getElementById('discourse-embed-frame');
+      if (!frame) return;
+      var src = frame.src.replace(/([?&]class_name=)[^&]*/, '$1' + encodeURIComponent(className(theme())));
+      if (src !== frame.src) frame.src = src;
+    });
+
     var d = document.createElement('script');
     d.async = true;
     d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
@@ -366,6 +386,8 @@ WantedBy=multi-user.target</code></pre>
   }
   function show() {
     toggle.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false');
+    // For parts that can't follow CSS alone, like the comments frame.
+    document.dispatchEvent(new CustomEvent('blokada:theme', { detail: current() }));
   }
   toggle.addEventListener('click', function () {
     var next = current() === 'dark' ? 'light' : 'dark';

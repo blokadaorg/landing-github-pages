@@ -165,6 +165,8 @@
   }
   function show() {
     toggle.setAttribute('aria-pressed', current() === 'dark' ? 'true' : 'false');
+    // For parts that can't follow CSS alone, like the comments frame.
+    document.dispatchEvent(new CustomEvent('blokada:theme', { detail: current() }));
   }
   toggle.addEventListener('click', function () {
     var next = current() === 'dark' ? 'light' : 'dark';
