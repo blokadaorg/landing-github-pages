@@ -57,18 +57,18 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">The addresses on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
-      <a href="https://app.blokada.org/setup?src=guides">Find my address</a></p>
-    <p class="if-device">This guide is filled in with the addresses of your device.</p>
+    <p class="if-no-device">The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
+      <a href="https://app.blokada.org/setup?src=guides">Fill in my details</a></p>
+    <p class="if-device">This guide is filled in with the details of your device.</p>
   </aside>
 
-  <p>Mullvad is closing its free public DNS service on <strong>2 November 2026</strong> and recommends Quad9 instead. Quad9 blocks malware but does <strong>not</strong> block ads or trackers. If you used one of Mullvad's filtering addresses, ads come back on that date unless you switch.</p>
-<p>This page is about the public DNS addresses ending in <code>dns.mullvad.net</code>. It does not cover the Mullvad VPN app.</p>
+  <p>Mullvad is closing its free public DNS service on <strong>2 November 2026</strong> and recommends Quad9 instead. Quad9 blocks malware but does <strong>not</strong> block ads or trackers. If you used one of Mullvad's filtering DNS names, ads come back on that date unless you switch.</p>
+<p>This page is about the public DNS names ending in <code>dns.mullvad.net</code>. It does not cover the Mullvad VPN app.</p>
 <h2>What you used, and what to pick in Blokada</h2>
 <table>
 <thead>
 <tr>
-<th>Mullvad address</th>
+<th>Mullvad DNS name</th>
 <th>What it blocked</th>
 <th>In the Blokada dashboard</th>
 </tr>
@@ -107,15 +107,15 @@
 </tbody>
 </table>
 <p>You choose blocklists in the dashboard under <em>Blocklists</em>. You can change them at any time, and the change applies to all your devices.</p>
-<h2>Your Blokada addresses</h2>
-<p>Blokada gives you your own address, so the dashboard can show activity per device:</p>
+<h2>Your Blokada details</h2>
+<p>Blokada gives each device its own name, so the dashboard can show activity per device:</p>
 <ul>
-<li>DNS over TLS (Android, routers): <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
-<li>DNS over HTTPS (browsers, some routers): <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
+<li>Your Blokada DNS name, for DNS over TLS (Android, routers): <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
+<li>Your DoH link, for DNS over HTTPS (browsers, some routers): <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
 </ul>
 <h2>Switch each device</h2>
 <h3>Android</h3>
-<p>Mullvad's guide had you enter a hostname under <em>Private DNS</em>. Replace it with your Blokada address. The <a href="../android-private-dns/">Android guide</a> has the steps.</p>
+<p>Mullvad's guide had you enter a hostname under <em>Private DNS</em>. Replace it with your Blokada DNS name. The <a href="../android-private-dns/">Android guide</a> has the steps.</p>
 <h3>iPhone, iPad and Mac</h3>
 <p>Mullvad's setup used a configuration profile. Remove it first:</p>
 <ul>
@@ -124,9 +124,9 @@
 </ul>
 <p>Then install the Blokada profile from the <a href="../apple-devices/">Apple guide</a>.</p>
 <h3>Browsers</h3>
-<p>If you entered a Mullvad address such as <code>https://adblock.dns.mullvad.net/dns-query</code> under <em>secure DNS</em> or <em>DNS over HTTPS</em>, replace it with your Blokada address. The <a href="../browser-dns-over-https/">browser guide</a> has the steps for each browser.</p>
+<p>If you entered a Mullvad DoH link such as <code>https://adblock.dns.mullvad.net/dns-query</code> under <em>secure DNS</em> or <em>DNS over HTTPS</em>, replace it with your DoH link. The <a href="../browser-dns-over-https/">browser guide</a> has the steps for each browser.</p>
 <h3>Router</h3>
-<p>If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS over TLS address, and remove Mullvad's IP addresses. The <a href="../router-ad-blocking/">router guide</a> covers common models.</p>
+<p>If your router uses Mullvad over DNS over TLS, replace the Mullvad hostname with your Blokada DNS name, and remove Mullvad's IP addresses. The <a href="../router-ad-blocking/">router guide</a> covers common models.</p>
 <h2>Check that it works</h2>
 <p>Open a few websites, then look at the <em>Activity</em> page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using another DNS server.</p>
 
@@ -262,6 +262,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -277,6 +298,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -297,9 +320,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }

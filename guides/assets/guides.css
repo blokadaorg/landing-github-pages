@@ -179,6 +179,13 @@ pre.copy-block .copy-btn {
   background: var(--bg);
 }
 
+/* Shown only on an iPhone or iPad browser that isn't Safari (ui script). */
+.if-other-browser { display: none; }
+.is-ios-other-browser .if-other-browser { display: block; }
+/* Steps and buttons that only work in Safari. `html.` so this wins over
+   `.has-device .if-device` on elements that carry both. */
+html.is-ios-other-browser .if-safari { display: none; }
+
 /* The personalise script adds .has-device once it has filled the page. */
 .if-device { display: none; }
 .has-device .if-device { display: block; }
@@ -210,6 +217,7 @@ pre.copy-block .copy-btn {
 .btn:hover { transform: translateY(-1px); }
 .btn-primary, .cta .btn-primary { background: var(--accent); color: #fff; }
 .btn-white, .hero .btn-white, .cta .btn-white { background: #fff; color: #121212; }
+.btn-outline { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--line); }
 a.btn[data-dns] { background: var(--accent); color: #fff; }
 
 .cards { list-style: none; padding: 0; display: grid; gap: 12px; }

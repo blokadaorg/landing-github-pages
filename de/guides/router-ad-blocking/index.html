@@ -57,20 +57,20 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">Die Adressen auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link „Auf einem anderen Gerät öffnen“ im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Adresse finden</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Adressen deines Geräts.</p>
+    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
+      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
+    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
   </aside>
 
   <p>Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es nutzen soll. Stellst du den Router auf Blokada Cloud um, werden Werbung und Tracker für alles dahinter blockiert. Dazu gehören Smart-TVs, Spielkonsolen, Streaming-Sticks und Smart-Home-Geräte, auf denen kein Platz für eine Werbeblocker-App ist.</p>
 <h2>Was dein Router können muss</h2>
-<p>Dein Router muss <strong>verschlüsseltes DNS mit Hostnamen</strong> unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Deine Adressen:</p>
+<p>Dein Router muss <strong>verschlüsseltes DNS mit Hostnamen</strong> unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, brauchst du:</p>
 <ul>
-<li>DNS over TLS: <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
-<li>DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
+<li>Für DNS over TLS deinen Blokada-DNS-Namen: <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
+<li>Für DNS over HTTPS dein DoH-Link: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
 </ul>
 <div class="note">
-<p><strong>Nur einfache IP-Adressen?</strong> Viele Router von Internetanbietern akzeptieren für DNS nur einfache IP-Adressen. Unterstützung dafür ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">iPhone, iPad, Mac und Apple TV</a> und <a href="../browser-dns-over-https/">Browser</a>. Du kannst auch eine kleine Weiterleitung auf einem Raspberry Pi betreiben, wie in der <a href="../switch-from-pihole/">Pi-hole-Anleitung</a> beschrieben.</p>
+<p><strong>Nur einfache IP-Adressen?</strong> Viele Router von Internetanbietern akzeptieren für DNS nur einfache IP-Adressen. Unterstützung dafür ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac und Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> und <a href="../browser-dns-over-https/">Browser</a>. Du kannst auch eine kleine Weiterleitung auf einem Raspberry Pi betreiben, wie in der <a href="../switch-from-pihole/">Pi-hole-Anleitung</a> beschrieben.</p>
 </div>
 <h2>FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 oder neuer.</p>
@@ -89,7 +89,7 @@
 <li>Stelle unter <em>WAN DNS Setting</em> das <em>DNS Privacy Protocol</em> auf <em>DNS-over-TLS (DoT)</em> und das <em>DNS-over-TLS Profile</em> auf <em>Strict</em>.</li>
 <li>Entferne alle Einträge aus der <em>DNS-over-TLS Server List</em> und füge dann einen hinzu:
 <ul>
-<li>Address: <code>193.180.80.10</code></li>
+<li>Address: <span class="copy"><code>193.180.80.10</code></span></li>
 <li>TLS Hostname: <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
 </ul>
 </li>
@@ -103,15 +103,15 @@
 <li><em>Save &amp; Apply</em>. Das Paket leitet dnsmasq automatisch darauf um.</li>
 </ol>
 <h2>Andere Router</h2>
-<p>Suche nach einer Einstellung namens <em>DNS over TLS</em>, <em>Privates DNS</em>, <em>Verschlüsseltes DNS</em> oder <em>DNS over HTTPS</em>. Trage die passende Adresse von oben ein und entferne alle anderen DNS-Server, auch Fallback-Server.</p>
+<p>Suche nach einer Einstellung namens <em>DNS over TLS</em>, <em>Privates DNS</em>, <em>Verschlüsseltes DNS</em> oder <em>DNS over HTTPS</em>. Trage deinen Blokada-DNS-Namen oder DoH-Link von oben ein und entferne alle anderen DNS-Server, auch Fallback-Server.</p>
 <h2>Prüfen, ob es funktioniert</h2>
 <ol>
 <li>Starte ein Gerät neu oder schalte sein WLAN aus und wieder ein, damit es die Änderung übernimmt.</li>
-<li>Surfe eine Minute lang und öffne dann die Seite <em>Activity</em> im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.</li>
+<li>Surfe eine Minute lang und öffne dann die Seite <em>Aktivität</em> im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.</li>
 </ol>
 <p>Manche Geräte umgehen den Router: Handys mit eingerichtetem <em>Privatem DNS</em>, Browser, deren <em>sicheres DNS</em> auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.</p>
 <div class="note">
-<p>Hinter dem Router teilen sich alle Geräte eine Adresse, deshalb zeigt das Dashboard dein Netzwerk als ein einziges Gerät. Richte Handys und Laptops mit ihrer eigenen Adresse ein, wenn du sie einzeln sehen möchtest. So bleibt ihre Blockierung auch unterwegs aktiv.</p>
+<p>Hinter dem Router teilen sich alle Geräte eine Adresse, deshalb zeigt das Dashboard dein Netzwerk als ein einziges Gerät. Richte Handys und Laptops mit ihrem eigenen Blokada-DNS-Namen ein, wenn du sie einzeln sehen möchtest. So bleibt ihre Blockierung auch unterwegs aktiv.</p>
 </div>
 
 
@@ -246,6 +246,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -261,6 +282,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -281,9 +304,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }

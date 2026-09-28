@@ -10,8 +10,8 @@
     } catch (e) {}
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blockera reklam på iPhone, iPad, Mac och Apple TV · Blokada</title>
-  <meta name="description" content="Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på iPhone, iPad, Mac och Apple TV, med krypterad DNS och utan app.">
+  <title>Blockera reklam på Mac och Apple TV med en DNS-profil från Blokada · Blokada</title>
+  <meta name="description" content="Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på Mac eller Apple TV, med krypterad DNS och inget i bakgrunden.">
   <link rel="canonical" href="https://blokada.org/sv/guides/apple-devices/">
   <link rel="alternate" hreflang="en" href="https://blokada.org/guides/apple-devices/">
   <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/apple-devices/">
@@ -19,8 +19,8 @@
   <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/apple-devices/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Blokada">
-  <meta property="og:title" content="Blockera reklam på iPhone, iPad, Mac och Apple TV">
-  <meta property="og:description" content="Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på iPhone, iPad, Mac och Apple TV, med krypterad DNS och utan app.">
+  <meta property="og:title" content="Blockera reklam på Mac och Apple TV med en DNS-profil från Blokada">
+  <meta property="og:description" content="Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på Mac eller Apple TV, med krypterad DNS och inget i bakgrunden.">
   <meta property="og:url" content="https://blokada.org/sv/guides/apple-devices/">
   <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
   <meta property="og:locale" content="sv">
@@ -47,9 +47,9 @@
       </nav>
       <div class="hero-text">
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
-        <h1>Blockera reklam på iPhone, iPad, Mac och Apple TV</h1>
-        <p class="lead">Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på iPhone, iPad, Mac och Apple TV, med krypterad DNS och utan app.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+        <h1>Blockera reklam på Mac och Apple TV med en DNS-profil från Blokada</h1>
+        <p class="lead">Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på Mac eller Apple TV, med krypterad DNS och inget i bakgrunden.</p>
+        <p class="meta">Uppdaterad <time datetime="2026-09-28">2026-09-28</time></p>
       </div>
     </div>
   </header>
@@ -57,44 +57,56 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
-    <p class="if-device">Guiden visar adresserna för din enhet.</p>
+    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
+      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
+    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
   </aside>
 
-  <p>Apple-enheter kan använda krypterad DNS för hela systemet via en konfigurationsprofil. Blokada-profilen ställer in enheten på att använda Blokada Cloud, som blockerar reklam och spårare i alla appar och webbläsare.</p>
-<p>Det fungerar på iOS och iPadOS 14, macOS 11 (Big Sur), tvOS 14 och senare.</p>
-<p><a class="btn" data-dns="apple" href="https://app.blokada.org/setup?src=guides">Hämta Blokada-profilen</a></p>
-<p>Knappen öppnar dashboarden om du inte kom till den här sidan via länken i din dashboard. Där får du profilen för din enhet.</p>
+  <p>Apple-enheter kan använda krypterad DNS för hela systemet via en konfigurationsprofil. Blokada-profilen pekar enheten mot Blokada Cloud, som blockerar reklam och spårare i alla appar och webbläsare.</p>
+<p>Det fungerar på macOS 11 (Big Sur), tvOS 14, iOS och iPadOS 14 och senare.</p>
+<div class="if-no-device">
+<p>Den här sidan känner inte till din enhet än, så den kan inte erbjuda din profil. Logga in i dashboarden, öppna <em>Inställningar</em>, välj din enhet och öppna den här guiden via länken för att öppna på en annan enhet.</p>
+<p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Hämta min profillänk</a></p>
+</div>
 <h2>iPhone och iPad</h2>
+<p>Det enklaste sättet är appen. <a href="https://go.blokada.org/appstore">Blokada 6</a> ställer in allt åt dig, slår på och av blockeringen med ett tryck och visar vad som blockerats direkt i telefonen. Logga in med ditt konto-ID, så är du klar.</p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Hämta Blokada 6 i App Store</a></p>
+<h3>Utan appen</h3>
+<p>Du kan installera profilen i stället. iPhone och iPad installerar profiler bara från <strong>Safari</strong>.</p>
+<div class="if-device">
+<div class="if-other-browser note">
+<p>Den här sidan är öppen i en annan webbläsare. Kopiera din länk och öppna den i Safari för att fortsätta där: <span class="copy"><code data-dns="page">https://blokada.org/sv/guides/apple-devices/</code></span></p>
+</div>
+</div>
+<div class="if-safari">
 <ol>
-<li>Öppna den här sidan i <strong>Safari</strong> på enheten och tryck på knappen ovan. Tryck på <em>Tillåt</em> för att hämta profilen.</li>
+<li>Tryck på knappen nedan i Safari och sedan på <em>Tillåt</em> för att hämta profilen.</li>
 <li>Öppna <em>Inställningar</em>. Tryck på <em>Profil hämtad</em> högst upp. Du hittar den också under <em>Allmänt → VPN och enhetshantering</em>.</li>
 <li>Tryck på <em>Installera</em>, ange din lösenkod och bekräfta.</li>
 </ol>
+</div>
+<p class="if-device if-safari"><a class="btn" data-dns="apple" href="https://app.blokada.org/setup?src=guides">Hämta min profil</a></p>
 <h2>Mac</h2>
 <ol>
-<li>Klicka på knappen ovan för att hämta profilen.</li>
+<li>Klicka på knappen nedan för att hämta profilen.</li>
 <li>Öppna listan med profiler: <em>Systeminställningar → Allmänt → Enhetshantering</em> på macOS 15 och senare, <em>Systeminställningar → Integritet och säkerhet → Profiler</em> på macOS 13 och 14, eller <em>Systeminställningar → Profiler</em> på macOS 12 och tidigare.</li>
 <li>Dubbelklicka på Blokada-profilen och klicka på <em>Installera</em>.</li>
 </ol>
+<p class="if-device"><a class="btn" data-dns="apple" href="https://app.blokada.org/setup?src=guides">Hämta min profil</a></p>
 <h2>Apple TV</h2>
-<p>Apple TV kan inte öppna webbsidor, så du ger den profilens adress i stället.</p>
+<p>Apple TV kan inte öppna webbsidor, så du skriver in din profillänk på den.</p>
 <ol>
-<li>Din profiladress är: <span class="copy"><code data-dns="apple">https://api.cloud.blokada.org/apple?device_tag=&lt;ditt-id&gt;</code></span></li>
+<li>Din profillänk: <span class="copy"><code data-dns="apple">https://api.cloud.blokada.org/apple?device_tag=&lt;ditt-id&gt;</code></span></li>
 <li>Öppna <em>Inställningar → Allmänt → Integritet och säkerhet</em> på Apple TV.</li>
 <li>Markera <em>Send to Apple</em> (<em>Share Apple TV Analytics</em> i äldre tvOS). Välj den inte, utan tryck på Spela/Paus-knappen på fjärrkontrollen i stället.</li>
-<li>Välj <em>Add Profile</em> och ange profiladressen. Enklast är att skriva med tangentbordsaviseringen på din iPhone, där du kan klistra in adressen. Installera profilen och bekräfta.</li>
+<li>Välj <em>Add Profile</em> och ange din profillänk. Enklast är att skriva med tangentbordsaviseringen på din iPhone, där du kan klistra in den. Installera profilen och bekräfta.</li>
 </ol>
 <div class="note">
 <p><strong>Apple TV och andra enheter i hemmet:</strong> om du ställer in Blokada Cloud på din <a href="../router-ad-blocking/">router</a> skyddas Apple TV tillsammans med allt annat.</p>
 </div>
 <h2>Kontrollera att det fungerar</h2>
-<p>Surfa en stund och öppna sedan sidan <em>Activity</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Enhetens uppslag visas där.</p>
+<p>Surfa en stund och öppna sedan sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Enhetens uppslag visas där.</p>
 <p>Vill du ta bort Blokada senare raderar du profilen där du installerade den.</p>
-<div class="note">
-<p>På iPhone ställer <a href="https://blokada.org/#download">Blokada 6</a> in det här åt dig och visar aktiviteten direkt i telefonen.</p>
-</div>
 
 
   <aside class="cta">
@@ -228,6 +240,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -243,6 +276,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -263,9 +298,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }
