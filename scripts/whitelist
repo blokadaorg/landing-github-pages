@@ -485,6 +485,7 @@ assets.buzzsprout.com
 assets.bwbx.io
 assets.coingecko.com
 assets.deutschlandfunk.de.edgekey.net
+assets.dm.de
 assets.getpocket.com
 assets.hearstapps.com
 assets.hulu.com
@@ -505,6 +506,7 @@ assets.static-bahn.de
 assets.static-chmedia.ch
 assets.steadyhq.com
 assets.ubuntu.com
+assets.volkswagen.com
 assets.vsco.co
 assets.website-files.com
 assets.zorincdn.com
@@ -553,6 +555,7 @@ avanza.se
 avbank.ru
 avia.ideabank.ua
 avon.payupay.ru
+avrupd1.onkyo.com
 avvillas.com.co
 awin1.com
 aws-proxy-gcp.api.snapchat.com
@@ -1363,6 +1366,7 @@ content-fox.uplynk.com
 content-loader.com
 content-prod.iot.irobotapi.com
 content.invisioncic.com
+content.services.dmtech.com
 content.yikyakapi.net
 continuum.dds.microsoft.com
 control.phone.com
@@ -1467,6 +1471,7 @@ d.gcdn.co
 d.la1-c1-ord.salesforceliveagent.com
 d13itkw33a7sus.cloudfront.net
 d17vo8z6jop21h.cloudfront.net
+d1i3g64yqh23bt.cloudfront.net8
 d1n478pkuw1c5t.cloudfront.net
 d1nruqhae353qc.cloudfront.net
 d231vab146qzfb.cloudfront.net
@@ -1530,6 +1535,7 @@ dbo1.uralfinance.com
 dbs.com.tw
 dcard.docomo.ne.jp
 dcf.espn.com
+dcs-spotify.megaphone.fm
 dcs-vod.apis.anvato.net
 dcu-online.org
 dcu.org
@@ -1791,6 +1797,7 @@ elevationscu.com
 ellisbank.com
 elster.de
 ely.re
+embed.acast.com
 embedwistia-a.akamaihd.net
 emerald.xboxservices.com
 emiratesnbd.com
@@ -1945,10 +1952,12 @@ fdn.gsmarena.com.cdn.cloudflare.net
 fdn2.gsmarena.com.cdn.cloudflare.net
 fe2.ws.microsoft.com
 fe2cr.update.microsoft.com
+feature-services.vwonehub.io
 featureassets.org$app=com.openai.atlas
 federalbank.co.in
 federseebank.de
 fednetbank.com
+feeder.acast.com
 feeds2.feedburner.com
 feib.com.tw
 feniciabank.com
@@ -2023,6 +2032,7 @@ forexprostools.com
 formy.upriver.ru
 forsakringskassan.se
 fortuneo.fr
+forum-uploads.privacyguidesusercontent.com
 forums.sonarr.tv
 fosterswiss.com
 fota-apis.samsungdm.com
@@ -2408,6 +2418,7 @@ i.cdn.turner.com
 i.computer-bild.de
 i.ebayimg.com
 i.emb.ru
+i.etsystatic.com
 i.gyazo.com
 i.ipotekabank.com
 i.kredprombank.ru
@@ -2429,6 +2440,7 @@ i1.social.s-msft.com
 i1.ytimg.com
 i18n-pglstatp.com
 i234.me
+i8.amplience.net
 i99.cz
 ib.ablv.com
 ib.agrambanka.hr
@@ -2959,6 +2971,7 @@ justanswer.com
 jutlander-netbank.dk
 jyskebank.dk
 k.twitchcdn.net
+k8s-lb.wss.redditmedia.com
 kaios-d.facebook.com
 kaltenkirchener-bank.de
 kampyle.com
@@ -3171,6 +3184,7 @@ libero.it
 liberty.sw.roku.com
 libertybank.ge
 libertypay.ge
+library.telefonica.de
 license.adrise.tv
 licensing.mp.microsoft.com
 licensing.xboxlive.com
@@ -3347,6 +3361,7 @@ meabank.com
 meatballsandads.com
 mebank.com.au
 mebytmb.com
+media-cldnry.s-nbcnews.com.edgekey.net
 media-share-1.s3.amazonaws.com
 media-share-4.s3-eu-west-1.amazonaws.com
 media-share-5.s3.eu-central-1.amazonaws.com
@@ -3551,6 +3566,7 @@ my.alfabank.com.ua
 my.blackhawkbank.com
 my.bmi.ir
 my.credit-agricole.com.ua
+my.dhlecommerce.nl
 my.europlanbank.ru
 my.helaba.bank
 my.jcb.co.jp
@@ -3650,6 +3666,7 @@ netbk.co.jp
 netcenter.com.cn
 netcore.co.in
 neteller.com
+nether.wowhead.com
 netpnb.com
 netsafe.hdfcbank.com
 nettbank2.danskebank.no
@@ -3668,6 +3685,7 @@ newdefend.net.cn
 newdefend.org
 newdefend.org.cn
 newrelic.com
+news-cdn.bindg.com
 news.smi2.ru
 newstube.ru
 newvelocity.ocbcnisp.com
@@ -3692,6 +3710,7 @@ no-ip.com
 nobaeg.de
 node.plexapp.com
 nokss.ru
+nominatim.openstreetmap.org
 non.li
 nonghyup.com
 nordea.com
@@ -3781,6 +3800,7 @@ omasp.fi
 omtrdc.net
 onba.ch
 onboardingaggregator.family.microsoft.com
+one.o9.de
 oneaccount.com
 oneclickmoney.ru
 oneclient.sfx.ms
@@ -4213,6 +4233,7 @@ player-services.pluto.tv
 player.blubrry.com
 player.captivate.fm
 player.odycdn.com
+player.podigee-cdn.net
 players.brightcove.net
 players.pluto.tv
 playerservice.cdn.tv1.eu
@@ -4299,6 +4320,7 @@ prod.telemetry.ros.rockstargames.com
 prodregistryv2.org$app=com.openai.atlas
 production.plaid.com
 products.delight-vr.com
+products.dm.de
 products.office.com
 productserver.sygic.com
 productsup.com
@@ -4340,6 +4362,7 @@ psdbank-ht.de
 ptab.it
 ptm.ro
 pttbank.ptt.gov.tr
+public-ubiservices.ubi.com
 public.onlyfans.com
 pubsub.plex.bz
 pubsub.plex.tv
@@ -5680,8 +5703,10 @@ static.intercomassets.com
 static.kleinanzeigen.de
 static.kleinanzeigen.de.edgekey.net
 static.libsyn.com
+static.meteoblue.com
 static.nc-img.com
 static.npstatic.com
+static.o9.de.cdn.cloudflare.net
 static.parastorage.com
 static.playstation.com.edgekey.net
 static.politico.com.cdn.cloudflare.net
@@ -5697,6 +5722,7 @@ static.ui.com
 static.vesselfinder.net
 static.vsco.co
 static.wixstatic.com
+static0.makeuseofimages.com
 static01.nyt.com
 static1.dmcdn.net
 static1.makeuseofimages.com
@@ -5737,11 +5763,13 @@ storecatalogrevocation.storequality.microsoft.com
 storeedge.microsoft.com
 storeedgefd.dsx.mp.microsoft.com
 strat-public-global.joycityglobal.com
+stream.mux.com
 streamplay.to
 stripe.com
 stripe.network
 stroeerdigitalpublishing.de
 strommensparebank.no
+style-cdn.ravelrycache.com
 styles.finanzen.net.edgekey.net
 su.pr
 sube.garantibbva.com.tr
@@ -5907,6 +5935,8 @@ ticari.yapikredi.com.tr
 ticket.uz.gov.ua
 tikker.emta.ee
 tile.openstreetmap.org
+tiles-storage.venus.bayern
+tiles.venus.bayern
 time.samsungcloudsolution.com
 time.windows.com
 tin.li
@@ -6665,6 +6695,7 @@ wallpaperapi.sofa.opera-api2.com
 wangsu.com
 wapo.st
 warburg-bank.de
+warcraft.wiki.gg
 warez-bb.org
 wartburg-sparkasse.de
 watch.graph.api.espn.com
@@ -6726,6 +6757,7 @@ whp-aus2.cold.extweb.hp.com
 wideo.fr
 wideup.net
 widget-cdn.rpxnow.com
+widget.gleamjs.io
 widget2.kudobuzz.com
 widgets.turnto.com
 widiba.it
