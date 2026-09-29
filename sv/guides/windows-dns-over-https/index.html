@@ -10,18 +10,18 @@
     } catch (e) {}
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ett alternativ till Pi-hole som inte kräver någon hårdvara · Blokada</title>
-  <meta name="description" content="Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.">
-  <link rel="canonical" href="https://blokada.org/sv/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/switch-from-pihole/">
+  <title>Blockera reklam i Windows med DNS över HTTPS · Blokada</title>
+  <meta name="description" content="Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.">
+  <link rel="canonical" href="https://blokada.org/sv/guides/windows-dns-over-https/">
+  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/windows-dns-over-https/">
+  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/windows-dns-over-https/">
+  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/windows-dns-over-https/">
+  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/windows-dns-over-https/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Blokada">
-  <meta property="og:title" content="Ett alternativ till Pi-hole som inte kräver någon hårdvara">
-  <meta property="og:description" content="Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.">
-  <meta property="og:url" content="https://blokada.org/sv/guides/switch-from-pihole/">
+  <meta property="og:title" content="Blockera reklam i Windows med DNS över HTTPS">
+  <meta property="og:description" content="Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.">
+  <meta property="og:url" content="https://blokada.org/sv/guides/windows-dns-over-https/">
   <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
   <meta property="og:locale" content="sv">
   <meta name="referrer" content="no-referrer-when-downgrade">
@@ -47,9 +47,9 @@
       </nav>
       <div class="hero-text">
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
-        <h1>Ett alternativ till Pi-hole som inte kräver någon hårdvara</h1>
-        <p class="lead">Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+        <h1>Blockera reklam i Windows med DNS över HTTPS</h1>
+        <p class="lead">Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.</p>
+        <p class="meta">Uppdaterad <time datetime="2026-09-28">2026-09-28</time></p>
       </div>
     </div>
   </header>
@@ -62,57 +62,35 @@
     <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
   </aside>
 
-  <p>En Pi-hole blockerar reklam för alla enheter i nätverket, så länge Raspberry Pi:n är igång, uppdaterad och hemma. Blokada Cloud gör samma jobb från våra servrar:</p>
+  <p>Windows 11 kan skicka alla sina DNS-uppslag krypterat, via DNS över HTTPS. Peka Windows mot Blokada Cloud, så blockeras reklam och spårare i alla appar och webbläsare på datorn, utan något att installera.</p>
+<p>Du behöver två värden:</p>
 <ul>
-<li><strong>Ingen låda att sköta.</strong> Inga SD-kort, inga uppdateringar och inget avbrott när Pi:n går ner.</li>
-<li><strong>Fungerar utanför hemmet.</strong> Telefoner och datorer behåller blockeringen på mobildata och andra wifi-nätverk.</li>
-<li><strong>Krypterat.</strong> Enheterna pratar med Blokada via DNS över TLS eller DNS över HTTPS, så din leverantör kan inte läsa eller ändra dina uppslag.</li>
-<li><strong>En dashboard.</strong> Blocklistor, tillåtna och blockerade domäner och aktivitet per enhet, på <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
+<li>DNS-server (IP-adress): <span class="copy"><code>34.117.212.222</code></span></li>
+<li>Din DoH-länk: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></li>
 </ul>
-<p>Det finns två sätt att byta. Ersätt Pi-hole helt, eller behåll den och använd Blokada Cloud som uppströmsserver.</p>
-<h2>Alternativ 1: ersätt Pi-hole</h2>
+<h2>Windows 11</h2>
 <ol>
-<li><strong>Skaffa Blokada Cloud</strong> och öppna dashboarden. Under <em>Inställningar</em> hittar du dina uppgifter:
-<ul>
-<li>Ditt Blokada-DNS-namn, för DNS över TLS: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></li>
-<li>Din DoH-länk, för DNS över HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></li>
-</ul>
-</li>
-<li><strong>Peka routern mot Blokada i stället för Pi-hole.</strong> Följ <a href="../router-ad-blocking/">routerguiden</a>. Om routern bara accepterar en vanlig IP-adress som DNS-server ställer du in enheterna en i taget i stället: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>
-<li><strong>Om din Pi-hole var DHCP-server</strong> aktiverar du DHCP i routern igen <em>innan</em> du stänger av Pi:n. Annars slutar dina enheter att få nätverksadresser.</li>
-<li><strong>Flytta dina listor.</strong> I dashboarden väljer du blocklistor under <em>Blocklists</em> och lägger till egna tillåtna eller blockerade domäner under <em>Undantag</em>.</li>
-<li><strong>Stäng av Pi-hole,</strong> eller använd den till något annat.</li>
+<li>Öppna <em>Inställningar → Nätverk och Internet</em> och sedan <em>Wi-Fi</em> eller <em>Ethernet</em>, beroende på hur datorn är ansluten.</li>
+<li>Öppna anslutningens <em>Maskinvaruegenskaper</em>. För Wi-Fi väljer du <em>Hantera kända nätverk</em> och sedan nätverket, eller <em>Maskinvaruegenskaper</em> högst upp på Wi-Fi-sidan.</li>
+<li>Välj <em>Redigera</em> bredvid <em>DNS-servertilldelning</em>. Välj <em>Manuell</em> och aktivera <em>IPv4</em>.</li>
+<li>Ange DNS-servern <span class="copy"><code>34.117.212.222</code></span> under <em>Önskad DNS</em>.</li>
+<li>Ställ in <em>DNS över HTTPS</em> på <em>På (manuell mall)</em> och klistra in din DoH-länk <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span> som <em>DoH-mall</em>.</li>
+<li>Stäng av <em>Återgång till oformaterad text</em> och välj <em>Spara</em>.</li>
 </ol>
+<p>Om datorn använder både Wi-Fi och Ethernet upprepar du detta för den andra anslutningen.</p>
 <div class="note">
-<p>Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada-DNS-namn. En router som är inställd med ett Blokada-DNS-namn visas som en enhet.</p>
+<p>Lämna <em>Alternativ DNS</em> tom. Windows använder båda servrarna, och varje annan server släpper igenom reklam.</p>
+<p>Finns inte alternativet <em>På (manuell mall)</em>? Då är ditt Windows 11 äldre. Uppdatera Windows, eller använd <a href="../browser-dns-over-https/">webbläsarguiden</a> så länge.</p>
+<p>Om reklam fortfarande slinker igenom i ett nätverk med IPv6 kan Windows även fråga routerns IPv6-DNS-server. Stäng av <em>Internet Protocol Version 6 (TCP/IPv6)</em> i nätverkskortets egenskaper (<em>Kontrollpanelen → Nätverksanslutningar</em>), eller ställ in din <a href="../router-ad-blocking/">router</a>.</p>
 </div>
-<h2>Alternativ 2: behåll Pi-hole och använd Blokada Cloud uppströms</h2>
-<p>Vill du behålla din lokala installation, till exempel lokala värdnamn, DHCP eller egna listor, kan du låta Pi-hole vidarebefordra sina uppslag till Blokada över en krypterad anslutning. Pi-hole kan inte själv vidarebefordra krypterat, så en liten vidarebefordrare körs bredvid. Den här guiden använder <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, en vidarebefordrare med öppen källkod som består av en enda fil.</p>
-<ol>
-<li>Ladda ner den <code>dnsproxy</code>-version som passar din processor (<code>linux-arm64</code> för en nyare Raspberry Pi) från projektets releasesida till Pi-hole-datorn och kopiera binärfilen <code>dnsproxy</code> till <code>/usr/local/bin/</code>.</li>
-<li>Skapa <code>/etc/systemd/system/dnsproxy.service</code>:</li>
-</ol>
-<pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
-Wants=network-online.target
-After=network-online.target
-
-[Service]
-ExecStart=/usr/local/bin/dnsproxy -l 127.0.0.1 -p 5054 -u tls://<span data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</span> -b 9.9.9.9
-Restart=always
-DynamicUser=yes
-
-[Install]
-WantedBy=multi-user.target</code></pre>
-<ol start="3">
-<li>Starta den: <code>sudo systemctl enable --now dnsproxy</code></li>
-<li>Öppna <em>Settings → DNS</em> i Pi-holes administrationsgränssnitt. Avmarkera alla uppströmsservrar och lägg till <code>127.0.0.1#5054</code> som anpassad uppströmsserver. Spara.</li>
-<li>Kontrollera sidan <em>Aktivitet</em> i dashboarden. Uppslag från ditt nätverk visas nu där.</li>
-</ol>
-<p>Du kan stänga av Pi-holes egna blocklistor och sköta blockeringen i dashboarden, eller behålla båda.</p>
-<h2>Vanliga frågor</h2>
-<p><strong>Behöver jag Blokada Plus?</strong> Nej. Blokada Cloud sköter DNS-blockeringen för hela hemmet. <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en VPN ovanpå.</p>
-<p><strong>Vad händer om Blokada inte går att nå?</strong> Dina enheter kan inte slå upp namn förrän tjänsten är tillbaka, precis som när en Pi-hole går ner. Lägg inte till en andra, ofiltrerad DNS-server som reserv. De flesta enheter använder alla sina servrar slumpmässigt, så reklam skulle slinka igenom.</p>
+<h2>Windows 10</h2>
+<p>Windows 10 har ingen inbyggd krypterad DNS. Ställ in säker DNS i webbläsaren i stället, enligt <a href="../browser-dns-over-https/">webbläsarguiden</a>, eller ställ in din <a href="../router-ad-blocking/">router</a> för att skydda hela hemmet.</p>
+<h2>Kontrollera att det fungerar</h2>
+<p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Datorns uppslag visas där.</p>
+<p>Webbläsare med en egen inställning för <em>säker DNS</em> går förbi Windows. I Chrome och Edge ställer du in den på att använda den aktuella tjänsteleverantören, eller på din DoH-länk.</p>
+<div class="note">
+<p>Vill du också ha en VPN på den här datorn? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.</p>
+</div>
 
 
   <aside class="cta">
@@ -144,7 +122,7 @@ WantedBy=multi-user.target</code></pre>
 
     window.DiscourseEmbed = {
       discourseUrl: 'https://community.blokada.org/',
-      discourseEmbedUrl: 'https://blokada.org/sv/guides/switch-from-pihole/',
+      discourseEmbedUrl: 'https://blokada.org/sv/guides/windows-dns-over-https/',
       className: className(theme()),
     };
 
@@ -327,8 +305,8 @@ WantedBy=multi-user.target</code></pre>
   <footer class="site-footer">
     <div class="wrap">
       <nav class="languages" aria-label="Andra språk">
-        <a href="/guides/switch-from-pihole/" hreflang="en" lang="en">English</a>
-        <a href="/de/guides/switch-from-pihole/" hreflang="de" lang="de">Deutsch</a>
+        <a href="/guides/windows-dns-over-https/" hreflang="en" lang="en">English</a>
+        <a href="/de/guides/windows-dns-over-https/" hreflang="de" lang="de">Deutsch</a>
         <span aria-current="page">Svenska</span>
       </nav>
       <p>

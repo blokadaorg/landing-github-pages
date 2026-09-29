@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv" data-label-copy="Kopiera" data-label-copied="Kopierat">
+<html lang="en" data-label-copy="Copy" data-label-copied="Copied">
 <head>
   <meta charset="utf-8">
   <script>
@@ -10,20 +10,20 @@
     } catch (e) {}
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ett alternativ till Pi-hole som inte kräver någon hårdvara · Blokada</title>
-  <meta name="description" content="Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.">
-  <link rel="canonical" href="https://blokada.org/sv/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/">
-  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/switch-from-pihole/">
+  <title>A NextDNS alternative with the same setup on every device · Blokada</title>
+  <meta name="description" content="Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada&#39;s on your phone, computer and router, and keep your ad blocking.">
+  <link rel="canonical" href="https://blokada.org/guides/switch-from-nextdns/">
+  <link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-nextdns/">
+  <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-nextdns/">
+  <link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-nextdns/">
+  <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/switch-from-nextdns/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Blokada">
-  <meta property="og:title" content="Ett alternativ till Pi-hole som inte kräver någon hårdvara">
-  <meta property="og:description" content="Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.">
-  <meta property="og:url" content="https://blokada.org/sv/guides/switch-from-pihole/">
+  <meta property="og:title" content="A NextDNS alternative with the same setup on every device">
+  <meta property="og:description" content="Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada&#39;s on your phone, computer and router, and keep your ad blocking.">
+  <meta property="og:url" content="https://blokada.org/guides/switch-from-nextdns/">
   <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
-  <meta property="og:locale" content="sv">
+  <meta property="og:locale" content="en">
   <meta name="referrer" content="no-referrer-when-downgrade">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,20 +36,20 @@
       <nav class="topbar">
         <a class="brand" href="/"><img src="/img/brand/white.png" alt="Blokada" height="40"></a>
         <span class="topbar-links">
-          <a href="/sv/guides/">Guider</a>
+          <a href="/guides/">Guides</a>
           <a href="https://app.blokada.org/?src=guides">Dashboard</a>
-          <button type="button" class="theme-toggle" aria-label="Mörkt läge" title="Mörkt läge" aria-pressed="false" hidden>
+          <button type="button" class="theme-toggle" aria-label="Dark mode" title="Dark mode" aria-pressed="false" hidden>
             <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="currentColor"/></svg>
             <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
-          <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
+          <a class="btn btn-white topbar-cta" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Get Blokada Cloud</a>
         </span>
       </nav>
       <div class="hero-text">
-        <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
-        <h1>Ett alternativ till Pi-hole som inte kräver någon hårdvara</h1>
-        <p class="lead">Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+        <p class="crumbs"><a href="/guides/">Guides</a></p>
+        <h1>A NextDNS alternative with the same setup on every device</h1>
+        <p class="lead">Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada&#39;s on your phone, computer and router, and keep your ad blocking.</p>
+        <p class="meta">Updated <time datetime="2026-09-28">2026-09-28</time></p>
       </div>
     </div>
   </header>
@@ -57,78 +57,84 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
-    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
+    <p class="if-no-device">The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
+      <a href="https://app.blokada.org/setup?src=guides">Fill in my details</a></p>
+    <p class="if-device">This guide is filled in with the details of your device.</p>
   </aside>
 
-  <p>En Pi-hole blockerar reklam för alla enheter i nätverket, så länge Raspberry Pi:n är igång, uppdaterad och hemma. Blokada Cloud gör samma jobb från våra servrar:</p>
+  <p>NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.</p>
+<h2>What you used, and what to pick in Blokada</h2>
+<table>
+<thead>
+<tr>
+<th>In NextDNS</th>
+<th>In Blokada Cloud</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Your configuration ID, e.g. <code>abc123</code></td>
+<td>Your device tag, part of your Blokada DNS name and DoH link</td>
+</tr>
+<tr>
+<td><em>Privacy</em> blocklists</td>
+<td><em>Blocklists</em> in the dashboard</td>
+</tr>
+<tr>
+<td><em>Security</em> (malware, phishing)</td>
+<td>a malware list under <em>Blocklists</em></td>
+</tr>
+<tr>
+<td><em>Parental control</em></td>
+<td>adult content and gambling lists under <em>Blocklists</em></td>
+</tr>
+<tr>
+<td><em>Allowlist</em> and <em>Denylist</em></td>
+<td><em>Exceptions</em> in the dashboard</td>
+</tr>
+<tr>
+<td><em>Logs</em> and <em>Analytics</em></td>
+<td><em>Activity</em> and <em>Stats</em> in the dashboard</td>
+</tr>
+</tbody>
+</table>
+<h2>Your Blokada details</h2>
 <ul>
-<li><strong>Ingen låda att sköta.</strong> Inga SD-kort, inga uppdateringar och inget avbrott när Pi:n går ner.</li>
-<li><strong>Fungerar utanför hemmet.</strong> Telefoner och datorer behåller blockeringen på mobildata och andra wifi-nätverk.</li>
-<li><strong>Krypterat.</strong> Enheterna pratar med Blokada via DNS över TLS eller DNS över HTTPS, så din leverantör kan inte läsa eller ändra dina uppslag.</li>
-<li><strong>En dashboard.</strong> Blocklistor, tillåtna och blockerade domäner och aktivitet per enhet, på <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
+<li>Your Blokada DNS name, for DNS over TLS: <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
+<li>Your DoH link, for DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
 </ul>
-<p>Det finns två sätt att byta. Ersätt Pi-hole helt, eller behåll den och använd Blokada Cloud som uppströmsserver.</p>
-<h2>Alternativ 1: ersätt Pi-hole</h2>
-<ol>
-<li><strong>Skaffa Blokada Cloud</strong> och öppna dashboarden. Under <em>Inställningar</em> hittar du dina uppgifter:
-<ul>
-<li>Ditt Blokada-DNS-namn, för DNS över TLS: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></li>
-<li>Din DoH-länk, för DNS över HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></li>
-</ul>
-</li>
-<li><strong>Peka routern mot Blokada i stället för Pi-hole.</strong> Följ <a href="../router-ad-blocking/">routerguiden</a>. Om routern bara accepterar en vanlig IP-adress som DNS-server ställer du in enheterna en i taget i stället: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>
-<li><strong>Om din Pi-hole var DHCP-server</strong> aktiverar du DHCP i routern igen <em>innan</em> du stänger av Pi:n. Annars slutar dina enheter att få nätverksadresser.</li>
-<li><strong>Flytta dina listor.</strong> I dashboarden väljer du blocklistor under <em>Blocklists</em> och lägger till egna tillåtna eller blockerade domäner under <em>Undantag</em>.</li>
-<li><strong>Stäng av Pi-hole,</strong> eller använd den till något annat.</li>
-</ol>
-<div class="note">
-<p>Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada-DNS-namn. En router som är inställd med ett Blokada-DNS-namn visas som en enhet.</p>
-</div>
-<h2>Alternativ 2: behåll Pi-hole och använd Blokada Cloud uppströms</h2>
-<p>Vill du behålla din lokala installation, till exempel lokala värdnamn, DHCP eller egna listor, kan du låta Pi-hole vidarebefordra sina uppslag till Blokada över en krypterad anslutning. Pi-hole kan inte själv vidarebefordra krypterat, så en liten vidarebefordrare körs bredvid. Den här guiden använder <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, en vidarebefordrare med öppen källkod som består av en enda fil.</p>
-<ol>
-<li>Ladda ner den <code>dnsproxy</code>-version som passar din processor (<code>linux-arm64</code> för en nyare Raspberry Pi) från projektets releasesida till Pi-hole-datorn och kopiera binärfilen <code>dnsproxy</code> till <code>/usr/local/bin/</code>.</li>
-<li>Skapa <code>/etc/systemd/system/dnsproxy.service</code>:</li>
-</ol>
-<pre><code>[Unit]
-Description=Encrypted DNS forwarder to Blokada Cloud
-Wants=network-online.target
-After=network-online.target
-
-[Service]
-ExecStart=/usr/local/bin/dnsproxy -l 127.0.0.1 -p 5054 -u tls://<span data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</span> -b 9.9.9.9
-Restart=always
-DynamicUser=yes
-
-[Install]
-WantedBy=multi-user.target</code></pre>
-<ol start="3">
-<li>Starta den: <code>sudo systemctl enable --now dnsproxy</code></li>
-<li>Öppna <em>Settings → DNS</em> i Pi-holes administrationsgränssnitt. Avmarkera alla uppströmsservrar och lägg till <code>127.0.0.1#5054</code> som anpassad uppströmsserver. Spara.</li>
-<li>Kontrollera sidan <em>Aktivitet</em> i dashboarden. Uppslag från ditt nätverk visas nu där.</li>
-</ol>
-<p>Du kan stänga av Pi-holes egna blocklistor och sköta blockeringen i dashboarden, eller behålla båda.</p>
-<h2>Vanliga frågor</h2>
-<p><strong>Behöver jag Blokada Plus?</strong> Nej. Blokada Cloud sköter DNS-blockeringen för hela hemmet. <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en VPN ovanpå.</p>
-<p><strong>Vad händer om Blokada inte går att nå?</strong> Dina enheter kan inte slå upp namn förrän tjänsten är tillbaka, precis som när en Pi-hole går ner. Lägg inte till en andra, ofiltrerad DNS-server som reserv. De flesta enheter använder alla sina servrar slumpmässigt, så reklam skulle slinka igenom.</p>
+<h2>Switch each device</h2>
+<h3>Android</h3>
+<p>If you used <em>Private DNS</em> with <code>&lt;your-id&gt;.dns.nextdns.io</code>, replace it with your Blokada DNS name, as in the <a href="../android-private-dns/">Android guide</a>. If you used the NextDNS app, uninstall it and install <a href="https://go.blokada.org/play_cloud">Blokada 6</a> instead.</p>
+<h3>iPhone and iPad</h3>
+<p>If you used the NextDNS app, uninstall it and install <a href="https://go.blokada.org/appstore">Blokada 6</a>. If you installed a NextDNS profile instead, remove it under <em>Settings → General → VPN &amp; Device Management</em>, then follow the <a href="../apple-devices/">Apple guide</a>.</p>
+<h3>Mac and Apple TV</h3>
+<p>Remove the NextDNS profile or app, then install the Blokada profile from the <a href="../apple-devices/">Apple guide</a>.</p>
+<h3>Windows and Linux</h3>
+<p>Uninstall the NextDNS app if you use it. On Windows, replace the NextDNS server and DoH template with Blokada's, as in the <a href="../windows-dns-over-https/">Windows guide</a>. On Linux, replace the NextDNS server in systemd-resolved, as in the <a href="../linux-dns-over-tls/">Linux guide</a>.</p>
+<h3>Browsers</h3>
+<p>If you set <code>https://dns.nextdns.io/…</code> as your browser's <em>secure DNS</em>, replace it with your DoH link, as in the <a href="../browser-dns-over-https/">browser guide</a>.</p>
+<h3>Router</h3>
+<p>If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the <a href="../router-ad-blocking/">router guide</a>.</p>
+<p>If it uses NextDNS through plain IP addresses with a <em>linked IP</em>, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.</p>
+<h2>Check that it works</h2>
+<p>Open a few websites, then look at the <em>Activity</em> page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.</p>
 
 
   <aside class="cta">
   <h2>Blokada Cloud</h2>
-  <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
+  <p>Blocks ads and trackers for every device in your home. You set it up once in the DNS settings, with no app on your TV, console or router.</p>
   <p class="actions">
-    <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Skaffa Blokada Cloud</a>
-    <a class="btn btn-white" href="https://app.blokada.org/setup?src=guides">Jag har redan ett konto</a>
+    <a class="btn btn-primary" href="https://app.blokada.org/activate?tier=cloud&amp;src=guides">Get Blokada Cloud</a>
+    <a class="btn btn-white" href="https://app.blokada.org/setup?src=guides">I already have an account</a>
   </p>
-  <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
+  <p class="small">Want a VPN as well? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds an encrypted WireGuard tunnel on each device, with the same blocking.</p>
 </aside>
 
 </article>
 
 <section class="comments">
-  <h2>Frågor och kommentarer</h2>
+  <h2>Questions and comments</h2>
   
 <div id="discourse-comments"></div>
 <script>
@@ -144,7 +150,7 @@ WantedBy=multi-user.target</code></pre>
 
     window.DiscourseEmbed = {
       discourseUrl: 'https://community.blokada.org/',
-      discourseEmbedUrl: 'https://blokada.org/sv/guides/switch-from-pihole/',
+      discourseEmbedUrl: 'https://blokada.org/guides/switch-from-nextdns/',
       className: className(theme()),
     };
 
@@ -326,15 +332,15 @@ WantedBy=multi-user.target</code></pre>
 
   <footer class="site-footer">
     <div class="wrap">
-      <nav class="languages" aria-label="Andra språk">
-        <a href="/guides/switch-from-pihole/" hreflang="en" lang="en">English</a>
-        <a href="/de/guides/switch-from-pihole/" hreflang="de" lang="de">Deutsch</a>
-        <span aria-current="page">Svenska</span>
+      <nav class="languages" aria-label="Other languages">
+        <span aria-current="page">English</span>
+        <a href="/de/guides/switch-from-nextdns/" hreflang="de" lang="de">Deutsch</a>
+        <a href="/sv/guides/switch-from-nextdns/" hreflang="sv" lang="sv">Svenska</a>
       </nav>
       <p>
         &copy; Blocka AB ·
-        <a href="https://go.blokada.org/terms">Villkor</a> ·
-        <a href="https://go.blokada.org/privacy">Integritet</a>
+        <a href="https://go.blokada.org/terms">Terms</a> ·
+        <a href="https://go.blokada.org/privacy">Privacy</a>
       </p>
     </div>
   </footer>

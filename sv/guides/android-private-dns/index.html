@@ -10,8 +10,8 @@
     } catch (e) {}
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Blockera reklam på Android med privat DNS · Blokada</title>
-  <meta name="description" content="Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.">
+  <title>Ställ in privat DNS på Android med Blokada Cloud · Blokada</title>
+  <meta name="description" content="Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.">
   <link rel="canonical" href="https://blokada.org/sv/guides/android-private-dns/">
   <link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/">
   <link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/">
@@ -19,8 +19,8 @@
   <link rel="alternate" hreflang="x-default" href="https://blokada.org/guides/android-private-dns/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Blokada">
-  <meta property="og:title" content="Blockera reklam på Android med privat DNS">
-  <meta property="og:description" content="Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.">
+  <meta property="og:title" content="Ställ in privat DNS på Android med Blokada Cloud">
+  <meta property="og:description" content="Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.">
   <meta property="og:url" content="https://blokada.org/sv/guides/android-private-dns/">
   <meta property="og:image" content="https://blokada.org/img/blokada-thumb.png">
   <meta property="og:locale" content="sv">
@@ -47,9 +47,9 @@
       </nav>
       <div class="hero-text">
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
-        <h1>Blockera reklam på Android med privat DNS</h1>
-        <p class="lead">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata, utan att installera någon app.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+        <h1>Ställ in privat DNS på Android med Blokada Cloud</h1>
+        <p class="lead">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.</p>
+        <p class="meta">Uppdaterad <time datetime="2026-09-28">2026-09-28</time></p>
       </div>
     </div>
   </header>
@@ -57,32 +57,32 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
-    <p class="if-device">Guiden visar adresserna för din enhet.</p>
+    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
+      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
+    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
   </aside>
 
-  <p>Android 9 och senare har inställningen <em>Privat DNS</em>. Ställ in den på Blokada Cloud, så blockeras reklam och spårare i alla appar, på alla nätverk, utan att någon app körs i bakgrunden.</p>
-<p>Din adress för privat DNS är: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></p>
-<h2>De flesta Android-telefoner</h2>
+  <h2>Det enklaste sättet: appen</h2>
+<p><a href="https://go.blokada.org/play_cloud">Blokada 6</a> ställer in allt åt dig, slår på och av blockeringen med ett tryck och visar vad som blockerats direkt i telefonen. Logga in med ditt konto-ID, så är du klar.</p>
+<p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Hämta Blokada 6 på Google Play</a></p>
+<h2>Utan appen: privat DNS</h2>
+<p>Android 9 och senare har inställningen <em>Privat DNS</em>. Ställ in den på Blokada Cloud, så blockeras reklam och spårare i alla appar, på alla nätverk, utan att något körs i bakgrunden.</p>
+<p>Ditt Blokada-DNS-namn: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></p>
 <ol>
 <li>Öppna <em>Inställningar → Nätverk och internet</em>. På vissa telefoner heter det <em>Anslutningar</em> eller <em>Anslutning och delning</em>.</li>
 <li>Tryck på <em>Privat DNS</em>. På Samsung-telefoner finns det under <em>Fler anslutningsinställningar</em>.</li>
 <li>Välj <em>Värdnamn för privat DNS-leverantör</em>.</li>
-<li>Ange <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> och tryck på <em>Spara</em>.</li>
+<li>Ange ditt Blokada-DNS-namn <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> och tryck på <em>Spara</em>.</li>
 </ol>
 <p>Hittar du det inte kan du söka efter ”Privat DNS” i appen Inställningar.</p>
 <h2>Kontrollera att det fungerar</h2>
-<p>Öppna några appar eller webbplatser och titta sedan på sidan <em>Activity</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Telefonens uppslag visas där.</p>
+<p>Öppna några appar eller webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Telefonens uppslag visas där.</p>
 <h2>Om något inte fungerar</h2>
 <ul>
-<li><strong>”Det gick inte att ansluta” eller inget internet:</strong> kontrollera att adressen inte har några stavfel. Den måste vara exakt som ovan, utan <code>https://</code>.</li>
+<li><strong>”Det gick inte att ansluta” eller inget internet:</strong> kontrollera att ditt Blokada-DNS-namn inte har några stavfel. Det måste vara exakt som ovan, utan <code>https://</code>.</li>
 <li><strong>En annan VPN-app är aktiv:</strong> vissa VPN-appar använder egen DNS och kringgår privat DNS. Stäng av VPN-appens DNS- eller reklamblockeringsinställning, eller använd Blokada 6 i stället.</li>
 <li><strong>Chrome visar fortfarande reklam:</strong> öppna <em>Inställningar → Integritet och säkerhet → Använd säker DNS</em> i Chrome och välj <em>Use current service provider</em>.</li>
 </ul>
-<div class="note">
-<p>Föredrar du en app? <a href="https://blokada.org/#download">Blokada 6</a> ställer in det här åt dig och visar aktiviteten direkt i telefonen.</p>
-</div>
 
 
   <aside class="cta">
@@ -216,6 +216,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -231,6 +252,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -251,9 +274,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }

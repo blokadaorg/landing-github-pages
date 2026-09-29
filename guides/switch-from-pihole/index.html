@@ -57,9 +57,9 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">The addresses on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
-      <a href="https://app.blokada.org/setup?src=guides">Find my address</a></p>
-    <p class="if-device">This guide is filled in with the addresses of your device.</p>
+    <p class="if-no-device">The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
+      <a href="https://app.blokada.org/setup?src=guides">Fill in my details</a></p>
+    <p class="if-device">This guide is filled in with the details of your device.</p>
   </aside>
 
   <p>A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:</p>
@@ -72,19 +72,19 @@
 <p>There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.</p>
 <h2>Option 1: replace the Pi-hole</h2>
 <ol>
-<li><strong>Get Blokada Cloud</strong> and open the dashboard. Under <em>Setup</em> you find your personal addresses:
+<li><strong>Get Blokada Cloud</strong> and open the dashboard. Under <em>Setup</em> you find your details:
 <ul>
-<li>DNS over TLS: <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
-<li>DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
+<li>Your Blokada DNS name, for DNS over TLS: <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
+<li>Your DoH link, for DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
 </ul>
 </li>
-<li><strong>Point your router at Blokada instead of the Pi-hole.</strong> Follow the <a href="../router-ad-blocking/">router guide</a>. If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">iPhone, iPad, Mac and Apple TV</a>, and <a href="../browser-dns-over-https/">browsers</a>.</li>
+<li><strong>Point your router at Blokada instead of the Pi-hole.</strong> Follow the <a href="../router-ad-blocking/">router guide</a>. If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>.</li>
 <li><strong>If your Pi-hole was the DHCP server,</strong> turn DHCP back on in your router <em>before</em> you switch the Pi off. Otherwise your devices stop getting network addresses.</li>
-<li><strong>Move your lists.</strong> In the dashboard, choose blocklists under <em>Blocklists</em>, and add your own allowed or blocked domains under <em>My blocklists</em>.</li>
+<li><strong>Move your lists.</strong> In the dashboard, choose blocklists under <em>Blocklists</em>, and add your own allowed or blocked domains under <em>Exceptions</em>.</li>
 <li><strong>Switch the Pi-hole off,</strong> or keep it for something else.</li>
 </ol>
 <div class="note">
-<p>Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own address. A router set up with one address shows up as one device.</p>
+<p>Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.</p>
 </div>
 <h2>Option 2: keep the Pi-hole, use Blokada Cloud upstream</h2>
 <p>If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, an open source forwarder that is a single file.</p>
@@ -246,6 +246,27 @@ WantedBy=multi-user.target</code></pre>
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -261,6 +282,8 @@ WantedBy=multi-user.target</code></pre>
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -281,9 +304,14 @@ WantedBy=multi-user.target</code></pre>
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }

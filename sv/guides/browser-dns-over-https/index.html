@@ -57,14 +57,14 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
-    <p class="if-device">Guiden visar adresserna för din enhet.</p>
+    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
+      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
+    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
   </aside>
 
   <p>Moderna webbläsare kan använda en egen krypterad DNS-leverantör, så kallad <em>säker DNS</em> eller <em>DNS över HTTPS</em>. Ställ in den på Blokada Cloud, så blockerar webbläsaren reklam och spårare på alla nätverk, utan något tillägg att installera.</p>
 <p>Inställningen gäller bara den här webbläsaren. Vill du skydda hela datorn använder du <a href="../apple-devices/">Apple-profilen</a> på en Mac eller ställer in din <a href="../router-ad-blocking/">router</a>.</p>
-<p>Din adress för DNS över HTTPS är: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></p>
+<p>Din DoH-länk: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></p>
 <h2>Chrome</h2>
 <ol>
 <li>Öppna <code>chrome://settings/security</code>.</li>
@@ -92,7 +92,7 @@
 <h2>Safari</h2>
 <p>Safari har ingen egen inställning för säker DNS. Den använder systemets DNS, så installera <a href="../apple-devices/">Apple-profilen</a>.</p>
 <h2>Kontrollera att det fungerar</h2>
-<p>Surfa en stund och öppna sedan sidan <em>Activity</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Webbläsarens uppslag visas där.</p>
+<p>Surfa en stund och öppna sedan sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Webbläsarens uppslag visas där.</p>
 <div class="note">
 <p>Om webbläsaren hanteras av din arbetsplats eller skola kan inställningen för säker DNS vara låst. Fråga din administratör.</p>
 </div>
@@ -229,6 +229,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -244,6 +265,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -264,9 +287,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }

@@ -57,20 +57,20 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">Adresserna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via länken ”Öppna på en annan enhet” i dashboarden fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Hitta min adress</a></p>
-    <p class="if-device">Guiden visar adresserna för din enhet.</p>
+    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
+      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
+    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
   </aside>
 
   <p>Alla enheter i nätverket frågar routern vilken DNS-server de ska använda. Peka routern mot Blokada Cloud, så blockeras reklam och spårare för allt som är anslutet till den. Det gäller även smarta tv-apparater, spelkonsoler, streamingstickor och smarta hem-enheter, som inte har plats för en app för reklamblockering.</p>
 <h2>Det här behöver din router</h2>
-<p>Routern måste ha stöd för <strong>krypterad DNS med värdnamn</strong>, alltså DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar har det, bland annat modellerna nedan. Dina adresser är:</p>
+<p>Routern måste ha stöd för <strong>krypterad DNS med värdnamn</strong>, alltså DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar har det, bland annat modellerna nedan. Beroende på vad din router har stöd för behöver du:</p>
 <ul>
-<li>DNS över TLS: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></li>
-<li>DNS över HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></li>
+<li>För DNS över TLS, ditt Blokada-DNS-namn: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></li>
+<li>För DNS över HTTPS, din DoH-länk: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></li>
 </ul>
 <div class="note">
-<p><strong>Bara vanliga IP-adresser?</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Stöd för det är på väg. Till dess kan du ställa in dina enheter en i taget: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">iPhone, iPad, Mac och Apple TV</a> och <a href="../browser-dns-over-https/">webbläsare</a>. Du kan också köra en liten vidarebefordrare på en Raspberry Pi, som beskrivs i <a href="../switch-from-pihole/">Pi-hole-guiden</a>.</p>
+<p><strong>Bara vanliga IP-adresser?</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Stöd för det är på väg. Till dess kan du ställa in dina enheter en i taget: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>. Du kan också köra en liten vidarebefordrare på en Raspberry Pi, som beskrivs i <a href="../switch-from-pihole/">Pi-hole-guiden</a>.</p>
 </div>
 <h2>FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 eller senare.</p>
@@ -89,7 +89,7 @@
 <li>Under <em>WAN DNS Setting</em> ställer du in <em>DNS Privacy Protocol</em> på <em>DNS-over-TLS (DoT)</em> och <em>DNS-over-TLS Profile</em> på <em>Strict</em>.</li>
 <li>Ta bort alla poster i <em>DNS-over-TLS Server List</em> och lägg sedan till en:
 <ul>
-<li>Address: <code>193.180.80.10</code></li>
+<li>Address: <span class="copy"><code>193.180.80.10</code></span></li>
 <li>TLS Hostname: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></li>
 </ul>
 </li>
@@ -103,15 +103,15 @@
 <li><em>Save &amp; Apply</em>. Paketet pekar automatiskt dnsmasq mot den.</li>
 </ol>
 <h2>Andra routrar</h2>
-<p>Leta efter en inställning som heter <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> eller <em>DNS over HTTPS</em>. Ange motsvarande adress ovan och ta bort alla andra DNS-servrar, även reservservrar.</p>
+<p>Leta efter en inställning som heter <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> eller <em>DNS over HTTPS</em>. Ange ditt Blokada-DNS-namn eller din DoH-länk från ovan och ta bort alla andra DNS-servrar, även reservservrar.</p>
 <h2>Kontrollera att det fungerar</h2>
 <ol>
 <li>Starta om en enhet, eller stäng av och slå på dess wifi, så att den får den nya inställningen.</li>
-<li>Surfa en stund och öppna sedan sidan <em>Activity</em> i dashboarden. Nätverkets uppslag visas där.</li>
+<li>Surfa en stund och öppna sedan sidan <em>Aktivitet</em> i dashboarden. Nätverkets uppslag visas där.</li>
 </ol>
 <p>Vissa enheter går förbi routern: telefoner med <em>privat DNS</em> inställd, webbläsare med <em>säker DNS</em> inställd på en annan leverantör och enheter med egen, hårdkodad DNS. Ställ in dem direkt på enheten, eller stäng av deras egen DNS-inställning.</p>
 <div class="note">
-<p>Bakom routern delar alla enheter en adress, så dashboarden visar ditt nätverk som en enda enhet. Ställ in telefoner och datorer med en egen adress om du vill se dem var för sig. Då behåller de också blockeringen när de lämnar hemmet.</p>
+<p>Bakom routern delar alla enheter en adress, så dashboarden visar ditt nätverk som en enda enhet. Ställ in telefoner och datorer med ett eget Blokada-DNS-namn om du vill se dem var för sig. Då behåller de också blockeringen när de lämnar hemmet.</p>
 </div>
 
 
@@ -246,6 +246,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -261,6 +282,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -281,9 +304,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }

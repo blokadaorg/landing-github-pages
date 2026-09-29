@@ -57,18 +57,18 @@
   <main class="wrap">
     <article class="guide">
   <aside class="device">
-    <p class="if-no-device">Die Adressen auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link „Auf einem anderen Gerät öffnen“ im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Adresse finden</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Adressen deines Geräts.</p>
+    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
+      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
+    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
   </aside>
 
-  <p>Mullvad stellt seinen kostenlosen öffentlichen DNS-Dienst am <strong>2. November 2026</strong> ein und empfiehlt stattdessen Quad9. Quad9 blockiert Malware, aber <strong>keine</strong> Werbung und keine Tracker. Hast du eine der Filteradressen von Mullvad genutzt, kommt die Werbung an diesem Tag zurück, wenn du nicht wechselst.</p>
-<p>Diese Seite behandelt die öffentlichen DNS-Adressen, die auf <code>dns.mullvad.net</code> enden. Um die Mullvad-VPN-App geht es hier nicht.</p>
+  <p>Mullvad stellt seinen kostenlosen öffentlichen DNS-Dienst am <strong>2. November 2026</strong> ein und empfiehlt stattdessen Quad9. Quad9 blockiert Malware, aber <strong>keine</strong> Werbung und keine Tracker. Hast du einen der filternden DNS-Namen von Mullvad genutzt, kommt die Werbung an diesem Tag zurück, wenn du nicht wechselst.</p>
+<p>Diese Seite behandelt die öffentlichen DNS-Namen, die auf <code>dns.mullvad.net</code> enden. Um die Mullvad-VPN-App geht es hier nicht.</p>
 <h2>Was du genutzt hast und was du in Blokada wählst</h2>
 <table>
 <thead>
 <tr>
-<th>Mullvad-Adresse</th>
+<th>Mullvad-DNS-Name</th>
 <th>Was sie blockiert hat</th>
 <th>Im Blokada-Dashboard</th>
 </tr>
@@ -107,15 +107,15 @@
 </tbody>
 </table>
 <p>Blocklisten wählst du im Dashboard unter <em>Blocklists</em>. Du kannst sie jederzeit ändern, und die Änderung gilt für alle deine Geräte.</p>
-<h2>Deine Blokada-Adressen</h2>
-<p>Blokada gibt dir deine eigene Adresse, damit das Dashboard die Aktivität pro Gerät zeigen kann:</p>
+<h2>Deine Blokada-Daten</h2>
+<p>Blokada gibt jedem Gerät einen eigenen Namen, damit das Dashboard die Aktivität pro Gerät zeigen kann:</p>
 <ul>
-<li>DNS over TLS (Android, Router): <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
-<li>DNS over HTTPS (Browser, manche Router): <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
+<li>Dein Blokada-DNS-Name, für DNS over TLS (Android, Router): <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
+<li>Dein DoH-Link, für DNS over HTTPS (Browser, manche Router): <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
 </ul>
 <h2>Jedes Gerät umstellen</h2>
 <h3>Android</h3>
-<p>Laut der Mullvad-Anleitung hast du einen Hostnamen unter <em>Privates DNS</em> eingetragen. Ersetze ihn durch deine Blokada-Adresse. Die Schritte stehen in der <a href="../android-private-dns/">Android-Anleitung</a>.</p>
+<p>Laut der Mullvad-Anleitung hast du einen Hostnamen unter <em>Privates DNS</em> eingetragen. Ersetze ihn durch deinen Blokada-DNS-Namen. Die Schritte stehen in der <a href="../android-private-dns/">Android-Anleitung</a>.</p>
 <h3>iPhone, iPad und Mac</h3>
 <p>Die Mullvad-Einrichtung nutzte ein Konfigurationsprofil. Entferne es zuerst:</p>
 <ul>
@@ -124,11 +124,11 @@
 </ul>
 <p>Installiere dann das Blokada-Profil aus der <a href="../apple-devices/">Apple-Anleitung</a>.</p>
 <h3>Browser</h3>
-<p>Hast du unter <em>sicheres DNS</em> oder <em>DNS over HTTPS</em> eine Mullvad-Adresse wie <code>https://adblock.dns.mullvad.net/dns-query</code> eingetragen, ersetze sie durch deine Blokada-Adresse. Die <a href="../browser-dns-over-https/">Browser-Anleitung</a> enthält die Schritte für jeden Browser.</p>
+<p>Hast du unter <em>sicheres DNS</em> oder <em>DNS over HTTPS</em> einen Mullvad-DoH-Link wie <code>https://adblock.dns.mullvad.net/dns-query</code> eingetragen, ersetze sie durch deinen DoH-Link. Die <a href="../browser-dns-over-https/">Browser-Anleitung</a> enthält die Schritte für jeden Browser.</p>
 <h3>Router</h3>
-<p>Nutzt dein Router Mullvad über DNS over TLS, ersetze den Mullvad-Hostnamen durch deine Blokada-Adresse für DNS over TLS und entferne die IP-Adressen von Mullvad. Die <a href="../router-ad-blocking/">Router-Anleitung</a> behandelt gängige Modelle.</p>
+<p>Nutzt dein Router Mullvad über DNS over TLS, ersetze den Mullvad-Hostnamen durch deinen Blokada-DNS-Namen und entferne die IP-Adressen von Mullvad. Die <a href="../router-ad-blocking/">Router-Anleitung</a> behandelt gängige Modelle.</p>
 <h2>Prüfen, ob es funktioniert</h2>
-<p>Öffne ein paar Websites und sieh dir dann die Seite <em>Activity</em> im Dashboard an. Dort siehst du die Anfragen deiner Geräte, blockierte sind markiert. Taucht ein Gerät nicht auf, nutzt es noch einen anderen DNS-Server.</p>
+<p>Öffne ein paar Websites und sieh dir dann die Seite <em>Aktivität</em> im Dashboard an. Dort siehst du die Anfragen deiner Geräte, blockierte sind markiert. Taucht ein Gerät nicht auf, nutzt es noch einen anderen DNS-Server.</p>
 
 
   <aside class="cta">
@@ -262,6 +262,27 @@
     return null;
   }
 
+  // This page with the device in the fragment again, to carry it to another
+  // browser (Safari, for an Apple profile). The address bar no longer has it.
+  function pageLink(location, device) {
+    var params = new URLSearchParams({ tag: device.tag });
+    if (device.name) params.set('name', device.name);
+    return location.origin + location.pathname + '#' + params.toString();
+  }
+
+  // iPhone and iPad install configuration profiles from Safari only. Other
+  // browsers there (Chrome, Firefox, Edge, in-app views) identify themselves
+  // in the user agent, or leave out "Safari" entirely. An iPad asks for
+  // desktop sites by default and says "Macintosh", but unlike a Mac it has a
+  // touch screen. Browsers that copy Safari's user agent exactly (Brave) can't
+  // be told apart; they see the Safari steps.
+  function isIosOtherBrowser(userAgent, maxTouchPoints) {
+    var ipad = /Macintosh/.test(userAgent) && maxTouchPoints > 1;
+    if (!/iPhone|iPad|iPod/.test(userAgent) && !ipad) return false;
+    if (/CriOS|FxiOS|EdgiOS|OPiOS|OPT\/|DuckDuckGo|GSA\/|FBAN|FBAV|Instagram|Line\//.test(userAgent)) return true;
+    return !/Safari\//.test(userAgent);
+  }
+
   function fill(document, values) {
     var nodes = document.querySelectorAll('[data-dns]');
     for (var i = 0; i < nodes.length; i++) {
@@ -277,6 +298,8 @@
   var api = {
     parseDevice: parseDevice,
     addresses: addresses,
+    pageLink: pageLink,
+    isIosOtherBrowser: isIosOtherBrowser,
     takeDevice: takeDevice,
     fill: fill,
   };
@@ -297,9 +320,14 @@
       getItem: function () { return null; },
       setItem: function () {},
     });
+    if (isIosOtherBrowser(root.navigator.userAgent || '', root.navigator.maxTouchPoints || 0)) {
+      root.document.documentElement.classList.add('is-ios-other-browser');
+    }
     if (!device) return;
     try {
-      fill(root.document, addresses(device));
+      var values = addresses(device);
+      values.page = pageLink(root.location, device);
+      fill(root.document, values);
     } catch (e) {
       // A name we could not encode: leave the placeholders rather than break.
     }
