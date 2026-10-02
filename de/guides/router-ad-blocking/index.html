@@ -49,30 +49,55 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Werbung im ganzen Netzwerk blockieren mit einem Router-Werbeblocker</h1>
         <p class="lead">Richte Blokada Cloud einmal im Router ein und blockiere Werbung auf allen Geräten in deinem Zuhause, auch auf Smart-TV, Spielkonsole und Smart Speaker.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Deine Daten</h2>
+        <p class="details-status if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS-Name (DNS over TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH-Link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <details class="toc-inner">
+        <summary class="toc-title">Auf dieser Seite</summary>
+        <ol>
+          <li><a href="#was-dein-router-konnen-muss">Was dein Router können muss</a></li>
+          <li><a href="#fritz-box">FRITZ!Box</a></li>
+          <li><a href="#asus">ASUS</a></li>
+          <li><a href="#openwrt">OpenWrt</a></li>
+          <li><a href="#andere-router">Andere Router</a></li>
+          <li><a href="#prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</a></li>
+          <li><a href="#wenn-manche-gerate-noch-werbung-zeigen">Wenn manche Geräte noch Werbung zeigen</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es nutzen soll. Stellst du den Router auf Blokada Cloud um, werden Werbung und Tracker für alles dahinter blockiert. Dazu gehören Smart-TVs, Spielkonsolen, Streaming-Sticks und Smart-Home-Geräte, auf denen kein Platz für eine Werbeblocker-App ist.</p>
-<h2>Was dein Router können muss</h2>
-<p>Dein Router muss <strong>verschlüsseltes DNS mit Hostnamen</strong> unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, brauchst du:</p>
-<ul>
-<li>Für DNS over TLS deinen Blokada-DNS-Namen: <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
-<li>Für DNS over HTTPS dein DoH-Link: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
-</ul>
-<div class="note">
+    <div class="guide-intro"><p>Jedes Gerät in deinem Netzwerk fragt den Router, welchen DNS-Server es nutzen soll. Stellst du den Router auf Blokada Cloud um, werden Werbung und Tracker für alles dahinter blockiert. Dazu gehören Smart-TVs, Spielkonsolen, Streaming-Sticks und Smart-Home-Geräte, auf denen kein Platz für eine Werbeblocker-App ist.</p>
+</div><section class="guide-section"><h2 id="was-dein-router-konnen-muss">Was dein Router können muss</h2>
+<p>Dein Router muss <strong>verschlüsseltes DNS mit Hostnamen</strong> unterstützen, also DNS over TLS (DoT) oder DNS over HTTPS (DoH). Viele neuere Router können das, darunter die Modelle unten. Je nachdem, was dein Router unterstützt, brauchst du deinen DNS-Namen oder deinen DoH-Link. Beide stehen oben unter <em>Deine Daten</em>.</p>
+<div class="note important">
 <p><strong>Nur einfache IP-Adressen?</strong> Viele Router von Internetanbietern akzeptieren für DNS nur einfache IP-Adressen. Unterstützung dafür ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac und Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> und <a href="../browser-dns-over-https/">Browser</a>. Du kannst auch eine kleine Weiterleitung auf einem Raspberry Pi betreiben, wie in der <a href="../switch-from-pihole/">Pi-hole-Anleitung</a> beschrieben.</p>
 </div>
-<h2>FRITZ!Box</h2>
+</section><section class="guide-section"><h2 id="fritz-box">FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 oder neuer.</p>
 <ol>
 <li>Öffne <code>http://fritz.box</code>, gehe zu <em>Internet → Zugangsdaten</em> und dann auf die Registerkarte <em>DNS-Server</em>.</li>
@@ -82,7 +107,7 @@
 <li>Siehst du die Option <em>Bei DNS-Störungen auf öffentliche DNS-Server zurückgreifen</em>, deaktiviere sie.</li>
 <li>Klicke auf <em>Übernehmen</em>.</li>
 </ol>
-<h2>ASUS</h2>
+</section><section class="guide-section"><h2 id="asus">ASUS</h2>
 <p>ASUS-Firmware neuer als 3.0.0.4.386.4xxxx und Asuswrt-Merlin.</p>
 <ol>
 <li>Öffne die Admin-Seite des Routers und gehe zu <em>WAN → Internet Connection</em>.</li>
@@ -95,27 +120,29 @@
 </li>
 <li>Klicke auf <em>Apply</em>.</li>
 </ol>
-<h2>OpenWrt</h2>
+</section><section class="guide-section"><h2 id="openwrt">OpenWrt</h2>
 <ol>
 <li>Aktualisiere unter <em>System → Software</em> die Listen und installiere <code>luci-app-https-dns-proxy</code>.</li>
 <li>Öffne <em>Services → HTTPS DNS Proxy</em>. Lösche die Instanzen anderer Anbieter.</li>
 <li>Füge eine Instanz mit eigener Resolver-URL hinzu: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
 <li><em>Save &amp; Apply</em>. Das Paket leitet dnsmasq automatisch darauf um.</li>
 </ol>
-<h2>Andere Router</h2>
+</section><section class="guide-section"><h2 id="andere-router">Andere Router</h2>
 <p>Suche nach einer Einstellung namens <em>DNS over TLS</em>, <em>Privates DNS</em>, <em>Verschlüsseltes DNS</em> oder <em>DNS over HTTPS</em>. Trage deinen Blokada-DNS-Namen oder DoH-Link von oben ein und entferne alle anderen DNS-Server, auch Fallback-Server.</p>
-<h2>Prüfen, ob es funktioniert</h2>
+</section><section class="guide-section"><h2 id="prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</h2>
 <ol>
 <li>Starte ein Gerät neu oder schalte sein WLAN aus und wieder ein, damit es die Änderung übernimmt.</li>
 <li>Surfe eine Minute lang und öffne dann die Seite <em>Aktivität</em> im Dashboard. Dort erscheinen die Anfragen aus deinem Netzwerk.</li>
 </ol>
+</section><section class="guide-section"><h2 id="wenn-manche-gerate-noch-werbung-zeigen">Wenn manche Geräte noch Werbung zeigen</h2>
 <p>Manche Geräte umgehen den Router: Handys mit eingerichtetem <em>Privatem DNS</em>, Browser, deren <em>sicheres DNS</em> auf einen anderen Anbieter eingestellt ist, und Geräte mit fest eingebautem eigenem DNS. Richte diese direkt auf dem Gerät ein oder schalte ihre eigene DNS-Einstellung aus.</p>
-<div class="note">
+<div class="note tip">
 <p>Hinter dem Router teilen sich alle Geräte eine Adresse, deshalb zeigt das Dashboard dein Netzwerk als ein einziges Gerät. Richte Handys und Laptops mit ihrem eigenen Blokada-DNS-Namen ein, wenn du sie einzeln sehen möchtest. So bleibt ihre Blockierung auch unterwegs aktiv.</p>
 </div>
+</section>
+    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
   <p class="actions">
@@ -125,7 +152,8 @@
   <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Fragen und Kommentare</h2>
@@ -400,6 +428,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

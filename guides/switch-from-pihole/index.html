@@ -49,20 +49,45 @@
         <p class="crumbs"><a href="/guides/">Guides</a></p>
         <h1>A Pi-hole alternative that needs no hardware</h1>
         <p class="lead">Move your home&#39;s ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.</p>
-        <p class="meta">Updated <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
-      <a href="https://app.blokada.org/setup?src=guides">Fill in my details</a></p>
-    <p class="if-device">This guide is filled in with the details of your device.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Your details</h2>
+        <p class="details-status if-device">This guide is filled in with the details of your device.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS name (DNS over TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Fill in my details</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="On this page">
+      <details class="toc-inner">
+        <summary class="toc-title">On this page</summary>
+        <ol>
+          <li><a href="#option-1-replace-the-pi-hole">Option 1: replace the Pi-hole</a></li>
+          <li><a href="#option-2-keep-the-pi-hole-use-blokada-cloud-upstream">Option 2: keep the Pi-hole, use Blokada Cloud upstream</a></li>
+          <li><a href="#frequently-asked">Frequently asked</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:</p>
+    <div class="guide-intro"><p>A Pi-hole blocks ads for every device on your network, as long as the Raspberry Pi is running, updated and at home. Blokada Cloud does the same job from our servers:</p>
 <ul>
 <li><strong>No box to maintain.</strong> No SD cards, no updates, no outage when the Pi goes down.</li>
 <li><strong>It works away from home.</strong> Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.</li>
@@ -70,23 +95,18 @@
 <li><strong>One dashboard.</strong> Blocklists, allowed and blocked domains, and activity per device, at <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
 </ul>
 <p>There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.</p>
-<h2>Option 1: replace the Pi-hole</h2>
+</div><section class="guide-section"><h2 id="option-1-replace-the-pi-hole">Option 1: replace the Pi-hole</h2>
 <ol>
-<li><strong>Get Blokada Cloud</strong> and open the dashboard. Under <em>Setup</em> you find your details:
-<ul>
-<li>Your Blokada DNS name, for DNS over TLS: <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
-<li>Your DoH link, for DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
-</ul>
-</li>
+<li><strong>Get Blokada Cloud</strong> and open the dashboard. Your DNS name and DoH link are under <em>Setup</em> there, and under <em>Your details</em> above.</li>
 <li><strong>Point your router at Blokada instead of the Pi-hole.</strong> Follow the <a href="../router-ad-blocking/">router guide</a>. If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>.</li>
 <li><strong>If your Pi-hole was the DHCP server,</strong> turn DHCP back on in your router <em>before</em> you switch the Pi off. Otherwise your devices stop getting network addresses.</li>
 <li><strong>Move your lists.</strong> In the dashboard, choose blocklists under <em>Blocklists</em>, and add your own allowed or blocked domains under <em>Exceptions</em>.</li>
 <li><strong>Switch the Pi-hole off,</strong> or keep it for something else.</li>
 </ol>
-<div class="note">
+<div class="note aside">
 <p>Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.</p>
 </div>
-<h2>Option 2: keep the Pi-hole, use Blokada Cloud upstream</h2>
+</section><section class="guide-section"><h2 id="option-2-keep-the-pi-hole-use-blokada-cloud-upstream">Option 2: keep the Pi-hole, use Blokada Cloud upstream</h2>
 <p>If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, an open source forwarder that is a single file.</p>
 <ol>
 <li>On the Pi-hole machine, download the <code>dnsproxy</code> release for your CPU (<code>linux-arm64</code> for a recent Raspberry Pi) from its releases page, and copy the <code>dnsproxy</code> binary to <code>/usr/local/bin/</code>.</li>
@@ -110,12 +130,13 @@ WantedBy=multi-user.target</code></pre>
 <li>Check the dashboard <em>Activity</em> page. Lookups from your network now show up there.</li>
 </ol>
 <p>You can turn off the Pi-hole's own blocklists and manage blocking in the dashboard, or keep both.</p>
-<h2>Frequently asked</h2>
+</section><section class="guide-section"><h2 id="frequently-asked">Frequently asked</h2>
 <p><strong>Do I need Blokada Plus?</strong> No. Blokada Cloud covers DNS blocking for your whole home. <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds a VPN on top.</p>
 <p><strong>What if Blokada is unreachable?</strong> Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.</p>
+</section>
+    <p class="updated">Updated <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blocks ads and trackers for every device in your home. You set it up once in the DNS settings, with no app on your TV, console or router.</p>
   <p class="actions">
@@ -125,7 +146,8 @@ WantedBy=multi-user.target</code></pre>
   <p class="small">Want a VPN as well? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds an encrypted WireGuard tunnel on each device, with the same blocking.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Questions and comments</h2>
@@ -400,6 +422,49 @@ WantedBy=multi-user.target</code></pre>
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

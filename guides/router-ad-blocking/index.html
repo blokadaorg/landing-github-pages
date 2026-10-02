@@ -49,40 +49,65 @@
         <p class="crumbs"><a href="/guides/">Guides</a></p>
         <h1>Block ads on your whole network with router ad blocking</h1>
         <p class="lead">Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.</p>
-        <p class="meta">Updated <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
-      <a href="https://app.blokada.org/setup?src=guides">Fill in my details</a></p>
-    <p class="if-device">This guide is filled in with the details of your device.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Your details</h2>
+        <p class="details-status if-device">This guide is filled in with the details of your device.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS name (DNS over TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Fill in my details</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="On this page">
+      <details class="toc-inner">
+        <summary class="toc-title">On this page</summary>
+        <ol>
+          <li><a href="#what-your-router-needs">What your router needs</a></li>
+          <li><a href="#fritz-box">FRITZ!Box</a></li>
+          <li><a href="#asus">ASUS</a></li>
+          <li><a href="#openwrt">OpenWrt</a></li>
+          <li><a href="#other-routers">Other routers</a></li>
+          <li><a href="#check-that-it-works">Check that it works</a></li>
+          <li><a href="#if-some-devices-still-show-ads">If some devices still show ads</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.</p>
-<h2>What your router needs</h2>
-<p>Your router must support <strong>encrypted DNS with a host name</strong>, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need:</p>
-<ul>
-<li>For DNS over TLS, your Blokada DNS name: <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
-<li>For DNS over HTTPS, your DoH link: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
-</ul>
-<div class="note">
+    <div class="guide-intro"><p>Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.</p>
+</div><section class="guide-section"><h2 id="what-your-router-needs">What your router needs</h2>
+<p>Your router must support <strong>encrypted DNS with a host name</strong>, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under <em>Your details</em> above.</p>
+<div class="note important">
 <p><strong>Only plain IP addresses?</strong> Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>. You can also run a small forwarder on a Raspberry Pi, as described in the <a href="../switch-from-pihole/">Pi-hole guide</a>.</p>
 </div>
-<h2>FRITZ!Box</h2>
+</section><section class="guide-section"><h2 id="fritz-box">FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 or later.</p>
 <ol>
 <li>Open <code>http://fritz.box</code> and go to <em>Internet → Account Information</em>, then the <em>DNS Server</em> tab.</li>
 <li>Turn on <em>Encrypted name resolution in the internet (DNS over TLS)</em>.</li>
-<li>In <em>Resolved Names of the DNS Server</em>, enter only <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span>. <strong>Remove every other entry.</strong> The FRITZ!Box uses all listed resolvers, and any other one lets ads through.</li>
+<li>In <em>Resolved Names of the DNS Server</em>, enter only <span class="copy-tail"><span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span><span>.</span></span> <strong>Remove every other entry.</strong> The FRITZ!Box uses all listed resolvers, and any other one lets ads through.</li>
 <li>Tick the option that enforces certificate verification, and untick the one that allows fallback to unencrypted name resolution.</li>
 <li>If you see <em>Failover to public DNS servers when DNS disrupted</em>, turn it off.</li>
 <li>Click <em>Apply</em>.</li>
 </ol>
-<h2>ASUS</h2>
+</section><section class="guide-section"><h2 id="asus">ASUS</h2>
 <p>ASUS firmware later than 3.0.0.4.386.4xxxx, and Asuswrt-Merlin.</p>
 <ol>
 <li>Open the router admin page and go to <em>WAN → Internet Connection</em>.</li>
@@ -95,27 +120,29 @@
 </li>
 <li>Click <em>Apply</em>.</li>
 </ol>
-<h2>OpenWrt</h2>
+</section><section class="guide-section"><h2 id="openwrt">OpenWrt</h2>
 <ol>
 <li>In <em>System → Software</em>, update the lists and install <code>luci-app-https-dns-proxy</code>.</li>
 <li>Open <em>Services → HTTPS DNS Proxy</em>. Delete the instances for other providers.</li>
 <li>Add an instance with a custom resolver URL: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
 <li><em>Save &amp; Apply</em>. The package points dnsmasq at it automatically.</li>
 </ol>
-<h2>Other routers</h2>
+</section><section class="guide-section"><h2 id="other-routers">Other routers</h2>
 <p>Look for a setting called <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> or <em>DNS over HTTPS</em>. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.</p>
-<h2>Check that it works</h2>
+</section><section class="guide-section"><h2 id="check-that-it-works">Check that it works</h2>
 <ol>
 <li>Restart one device, or turn its Wi-Fi off and on, so it picks up the change.</li>
 <li>Browse for a minute, then open the <em>Activity</em> page in the dashboard. Your network's lookups show up there.</li>
 </ol>
+</section><section class="guide-section"><h2 id="if-some-devices-still-show-ads">If some devices still show ads</h2>
 <p>Some devices bypass the router: phones with <em>Private DNS</em> set, browsers with <em>secure DNS</em> set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.</p>
-<div class="note">
+<div class="note tip">
 <p>Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.</p>
 </div>
+</section>
+    <p class="updated">Updated <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blocks ads and trackers for every device in your home. You set it up once in the DNS settings, with no app on your TV, console or router.</p>
   <p class="actions">
@@ -125,7 +152,8 @@
   <p class="small">Want a VPN as well? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds an encrypted WireGuard tunnel on each device, with the same blocking.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Questions and comments</h2>
@@ -400,6 +428,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

@@ -49,32 +49,43 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Werbung auf Mac und Apple TV mit einem Blokada-DNS-Profil blockieren</h1>
         <p class="lead">Installiere ein Blokada-Cloud-DNS-Profil und blockiere Werbung und Tracker systemweit auf Mac oder Apple TV, verschlüsselt und ohne Hintergrund-App.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <aside class="device">
+      <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
+        <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
+      <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
+    </aside>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <details class="toc-inner">
+        <summary class="toc-title">Auf dieser Seite</summary>
+        <ol>
+          <li><a href="#iphone-und-ipad">iPhone und iPad</a></li>
+          <li><a href="#mac">Mac</a></li>
+          <li><a href="#apple-tv">Apple TV</a></li>
+          <li><a href="#prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Apple-Geräte können über ein Konfigurationsprofil verschlüsseltes DNS für das ganze System nutzen. Das Blokada-Profil stellt das Gerät auf Blokada Cloud um, das Werbung und Tracker in allen Apps und Browsern blockiert.</p>
+    <div class="guide-intro"><p>Apple-Geräte können über ein Konfigurationsprofil verschlüsseltes DNS für das ganze System nutzen. Das Blokada-Profil stellt das Gerät auf Blokada Cloud um, das Werbung und Tracker in allen Apps und Browsern blockiert.</p>
 <p>Das funktioniert ab macOS 11 (Big Sur), tvOS 14 sowie iOS und iPadOS 14.</p>
 <div class="if-no-device">
 <p>Diese Seite kennt dein Gerät noch nicht und kann dir deshalb dein Profil nicht anbieten. Melde dich im Dashboard an, öffne <em>Einrichtung</em>, wähle dein Gerät und öffne diese Anleitung über <em>Auf einem anderen Gerät öffnen</em>.</p>
 <p><a class="btn btn-outline" href="https://app.blokada.org/setup?src=guides">Meinen Profil-Link holen</a></p>
 </div>
-<h2>iPhone und iPad</h2>
+</div><section class="guide-section"><h2 id="iphone-und-ipad">iPhone und iPad</h2>
 <p>Am einfachsten geht es mit der App. <a href="https://go.blokada.org/appstore">Blokada 6</a> richtet alles für dich ein, schaltet die Blockierung mit einem Tippen ein und aus und zeigt direkt auf dem Handy, was blockiert wurde. Melde dich mit deiner Konto-ID an, und du bist fertig.</p>
 <p><a class="btn btn-primary" href="https://go.blokada.org/appstore">Blokada 6 im App Store holen</a></p>
 <h3>Ohne App</h3>
 <p>Du kannst stattdessen das Profil installieren. iPhone und iPad installieren Profile nur aus <strong>Safari</strong>.</p>
 <div class="if-device">
-<div class="if-other-browser note">
+<div class="if-other-browser note important">
 <p>Diese Seite ist in einem anderen Browser geöffnet. Kopiere deinen Link und öffne ihn in Safari, um dort weiterzumachen: <span class="copy"><code data-dns="page">https://blokada.org/de/guides/apple-devices/</code></span></p>
 </div>
 </div>
@@ -86,14 +97,14 @@
 </ol>
 </div>
 <p class="if-device if-safari"><a class="btn" data-dns="apple" href="https://app.blokada.org/setup?src=guides">Mein Profil laden</a></p>
-<h2>Mac</h2>
+</section><section class="guide-section"><h2 id="mac">Mac</h2>
 <ol>
 <li>Klicke auf den Button unten, um das Profil zu laden.</li>
 <li>Öffne die Liste der Profile: <em>Systemeinstellungen → Allgemein → Geräteverwaltung</em> ab macOS 15, <em>Systemeinstellungen → Datenschutz &amp; Sicherheit → Profile</em> unter macOS 13 und 14 oder <em>Systemeinstellungen → Profile</em> unter macOS 12 und älter.</li>
 <li>Doppelklicke auf das Blokada-Profil und klicke auf <em>Installieren</em>.</li>
 </ol>
 <p class="if-device"><a class="btn" data-dns="apple" href="https://app.blokada.org/setup?src=guides">Mein Profil laden</a></p>
-<h2>Apple TV</h2>
+</section><section class="guide-section"><h2 id="apple-tv">Apple TV</h2>
 <p>Das Apple TV kann keine Webseiten öffnen, deshalb tippst du deinen Profil-Link dort ein.</p>
 <ol>
 <li>Dein Profil-Link: <span class="copy"><code data-dns="apple">https://api.cloud.blokada.org/apple?device_tag=&lt;deine-id&gt;</code></span></li>
@@ -101,15 +112,16 @@
 <li>Markiere <em>Share Apple TV Analytics</em>. Wähle es nicht aus. Drücke stattdessen die Play/Pause-Taste auf der Fernbedienung.</li>
 <li>Wähle <em>Add Profile</em> und gib deinen Profil-Link ein. Am einfachsten tippst du über die Tastatur-Mitteilung auf deinem iPhone, dort kannst du ihn einfügen. Installiere das Profil und bestätige.</li>
 </ol>
-<div class="note">
+<div class="note aside">
 <p><strong>Apple TV und andere Geräte zu Hause:</strong> Richtest du Blokada Cloud auf deinem <a href="../router-ad-blocking/">Router</a> ein, ist das Apple TV zusammen mit allem anderen abgedeckt.</p>
 </div>
-<h2>Prüfen, ob es funktioniert</h2>
+</section><section class="guide-section"><h2 id="prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</h2>
 <p>Surfe eine Minute lang und öffne dann die Seite <em>Aktivität</em> im <a href="https://app.blokada.org/stats?src=guides">Dashboard</a>. Dort erscheinen die Anfragen dieses Geräts.</p>
 <p>Um Blokada später zu entfernen, lösche das Profil dort, wo du es installiert hast.</p>
+</section>
+    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
   <p class="actions">
@@ -119,7 +131,8 @@
   <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Fragen und Kommentare</h2>
@@ -394,6 +407,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

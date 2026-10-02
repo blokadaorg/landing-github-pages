@@ -54,17 +54,89 @@
 
   <main class="wrap">
     <p class="intro">Blokada Cloud blockerar reklam och spårare via DNS, så det fungerar även på enheter som inte kan köra en annonsblockerare. Välj din enhet eller tjänsten du byter från.</p>
-<ul class="cards">
-  <li><a href="/sv/guides/switch-from-pihole/"><strong>Ett alternativ till Pi-hole som inte kräver någon hårdvara</strong>Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.</a></li>
-  <li><a href="/sv/guides/switch-from-mullvad-dns/"><strong>Mullvad DNS läggs ner. Behåll reklamblockeringen med Blokada Cloud</strong>Mullvad stänger sin publika DNS den 2 november 2026. Så flyttar du telefon, dator och router till Blokada Cloud innan dess och behåller reklamblockeringen.</a></li>
-  <li><a href="/sv/guides/switch-from-nextdns/"><strong>Ett alternativ till NextDNS med samma inställning på alla enheter</strong>Byt från NextDNS till Blokada Cloud. Ersätt NextDNS-namnet, DoH-länken eller profilen med Blokadas på telefon, dator och router och behåll reklamblockeringen.</a></li>
-  <li><a href="/sv/guides/router-ad-blocking/"><strong>Blockera reklam i hela nätverket med reklamblockering i routern</strong>Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.</a></li>
-  <li><a href="/sv/guides/android-private-dns/"><strong>Ställ in privat DNS på Android med Blokada Cloud</strong>Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.</a></li>
-  <li><a href="/sv/guides/apple-devices/"><strong>Blockera reklam på Mac och Apple TV med en DNS-profil från Blokada</strong>Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på Mac eller Apple TV, med krypterad DNS och inget i bakgrunden.</a></li>
-  <li><a href="/sv/guides/browser-dns-over-https/"><strong>Blockera reklam i Chrome, Firefox, Edge och Brave med DNS över HTTPS</strong>Ange Blokada Cloud som säker DNS i webbläsaren och blockera reklam och spårare på alla datorer, även jobbdatorer där du inte kan installera appar.</a></li>
-  <li><a href="/sv/guides/windows-dns-over-https/"><strong>Blockera reklam i Windows med DNS över HTTPS</strong>Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.</a></li>
-  <li><a href="/sv/guides/linux-dns-over-tls/"><strong>Blockera reklam i Linux med DNS över TLS</strong>Ställ in systemd-resolved på att använda Blokada Cloud via krypterad DNS över TLS och blockera reklam och spårare för alla appar på din Linux-dator.</a></li>
-</ul>
+<section class="guide-group">
+  <h2>Ställ in en enhet</h2>
+  <ul class="guide-cards"><li class="guide-card is-featured">
+  <a href="/sv/guides/router-ad-blocking/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 16.5h.01M11 16.5h.01M8 13V9M16 13V9M5.5 6.5a9 9 0 0 1 13 0M8.5 9.5a5 5 0 0 1 7 0"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Router</span><span class="badge">Rekommenderas: skyddar alla enheter hemma</span>
+      <span class="guide-card-desc">Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/android-private-dns/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path d="M11 18h2"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Android</span>
+      <span class="guide-card-desc">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/apple-devices/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Mac, iPhone och Apple TV</span>
+      <span class="guide-card-desc">Installera en DNS-profil för Blokada Cloud och blockera reklam och spårare i hela systemet på Mac eller Apple TV, med krypterad DNS och inget i bakgrunden.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/windows-dns-over-https/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="3.5" width="19" height="13" rx="2"/><path d="M2.5 13h19M9 20.5h6M12 16.5v4"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Windows</span>
+      <span class="guide-card-desc">Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/linux-dns-over-tls/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M6.5 9l3 3-3 3M12 15h5"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Linux</span>
+      <span class="guide-card-desc">Ställ in systemd-resolved på att använda Blokada Cloud via krypterad DNS över TLS och blockera reklam och spårare för alla appar på din Linux-dator.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/browser-dns-over-https/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="19" height="16" rx="2"/><path d="M2.5 9h19M6 6.5h.01M9 6.5h.01"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Webbläsare</span>
+      <span class="guide-card-desc">Ange Blokada Cloud som säker DNS i webbläsaren och blockera reklam och spårare på alla datorer, även jobbdatorer där du inte kan installera appar.</span>
+    </span>
+  </a>
+</li>
+  </ul>
+</section>
+<section class="guide-group">
+  <h2>Byt från en annan tjänst</h2>
+  <ul class="guide-cards"><li class="guide-card">
+  <a href="/sv/guides/switch-from-mullvad-dns/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Från Mullvad DNS</span><span class="badge badge-urgent">Stängs 2 november 2026</span>
+      <span class="guide-card-desc">Mullvad stänger sin publika DNS den 2 november 2026. Så flyttar du telefon, dator och router till Blokada Cloud innan dess och behåller reklamblockeringen.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/switch-from-pihole/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Från Pi-hole</span>
+      <span class="guide-card-desc">Flytta hemmets reklamblockering från Pi-hole till Blokada Cloud, eller behåll din Pi-hole och skicka dess uppslag via Blokada.</span>
+    </span>
+  </a>
+</li><li class="guide-card">
+  <a href="/sv/guides/switch-from-nextdns/">
+    <span class="guide-card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg></span>
+    <span class="guide-card-body">
+      <span class="guide-card-name">Från NextDNS</span>
+      <span class="guide-card-desc">Byt från NextDNS till Blokada Cloud. Ersätt NextDNS-namnet, DoH-länken eller profilen med Blokadas på telefon, dator och router och behåll reklamblockeringen.</span>
+    </span>
+  </a>
+</li>
+  </ul>
+</section>
+
 <p class="more-guides"><a href="https://community.blokada.org/c/guides">Fler guider på forumet</a></p>
 <aside class="cta">
   <h2>Blokada Cloud</h2>
@@ -75,6 +147,7 @@
   </p>
   <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
 </aside>
+
 
 
   </main>
@@ -155,6 +228,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

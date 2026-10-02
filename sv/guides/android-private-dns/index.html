@@ -49,25 +49,46 @@
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
         <h1>Ställ in privat DNS på Android med Blokada Cloud</h1>
         <p class="lead">Använd Androids inbyggda privata DNS med Blokada Cloud och blockera reklam och spårare i alla appar, på wifi och mobildata. Eller låt appen Blokada 6 göra det.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
-    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Dina uppgifter</h2>
+        <p class="details-status if-device">Guiden visar uppgifterna för din enhet.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS-namn (DNS över TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="På den här sidan">
+      <details class="toc-inner">
+        <summary class="toc-title">På den här sidan</summary>
+        <ol>
+          <li><a href="#det-enklaste-sattet-appen">Det enklaste sättet: appen</a></li>
+          <li><a href="#utan-appen-privat-dns">Utan appen: privat DNS</a></li>
+          <li><a href="#kontrollera-att-det-fungerar">Kontrollera att det fungerar</a></li>
+          <li><a href="#om-nagot-inte-fungerar">Om något inte fungerar</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <h2>Det enklaste sättet: appen</h2>
+    <div class="guide-intro"><h2 id="det-enklaste-sattet-appen">Det enklaste sättet: appen</h2>
 <p><a href="https://go.blokada.org/play_cloud">Blokada 6</a> ställer in allt åt dig, slår på och av blockeringen med ett tryck och visar vad som blockerats direkt i telefonen. Logga in med ditt konto-ID, så är du klar.</p>
 <p><a class="btn btn-primary" href="https://go.blokada.org/play_cloud">Hämta Blokada 6 på Google Play</a></p>
-<h2>Utan appen: privat DNS</h2>
+</div><section class="guide-section"><h2 id="utan-appen-privat-dns">Utan appen: privat DNS</h2>
 <p>Android 9 och senare har inställningen <em>Privat DNS</em>. Ställ in den på Blokada Cloud, så blockeras reklam och spårare i alla appar, på alla nätverk, utan att något körs i bakgrunden.</p>
-<p>Ditt Blokada-DNS-namn: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></p>
 <ol>
 <li>Öppna <em>Inställningar → Nätverk och internet</em>. På vissa telefoner heter det <em>Anslutningar</em> eller <em>Anslutning och delning</em>.</li>
 <li>Tryck på <em>Privat DNS</em>. På Samsung-telefoner finns det under <em>Fler anslutningsinställningar</em>.</li>
@@ -75,17 +96,18 @@
 <li>Ange ditt Blokada-DNS-namn <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> och tryck på <em>Spara</em>.</li>
 </ol>
 <p>Hittar du det inte kan du söka efter ”Privat DNS” i appen Inställningar.</p>
-<h2>Kontrollera att det fungerar</h2>
+</section><section class="guide-section"><h2 id="kontrollera-att-det-fungerar">Kontrollera att det fungerar</h2>
 <p>Öppna några appar eller webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Telefonens uppslag visas där.</p>
-<h2>Om något inte fungerar</h2>
+</section><section class="guide-section"><h2 id="om-nagot-inte-fungerar">Om något inte fungerar</h2>
 <ul>
 <li><strong>”Det gick inte att ansluta” eller inget internet:</strong> kontrollera att ditt Blokada-DNS-namn inte har några stavfel. Det måste vara exakt som ovan, utan <code>https://</code>.</li>
 <li><strong>En annan VPN-app är aktiv:</strong> vissa VPN-appar använder egen DNS och kringgår privat DNS. Stäng av VPN-appens DNS- eller reklamblockeringsinställning, eller använd Blokada 6 i stället.</li>
 <li><strong>Chrome visar fortfarande reklam:</strong> Chrome kan vara inställt på en egen leverantör för säker DNS och då gå förbi privat DNS. Öppna <em>Inställningar → Integritet och säkerhet → Använd säker DNS</em> i Chrome och välj <em>Använd den nuvarande DNS-leverantören</em>. Då följer Chrome privat DNS.</li>
 </ul>
+</section>
+    <p class="updated">Uppdaterad <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
   <p class="actions">
@@ -95,7 +117,8 @@
   <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Frågor och kommentarer</h2>
@@ -370,6 +393,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

@@ -49,26 +49,48 @@
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
         <h1>Blockera reklam i Windows med DNS över HTTPS</h1>
         <p class="lead">Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
-    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Dina uppgifter</h2>
+        <p class="details-status if-device">Guiden visar uppgifterna för din enhet.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS-server (IP-adress)</dt>
+          <dd><span class="copy"><code>34.117.212.222</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH-länk (DNS över HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="På den här sidan">
+      <details class="toc-inner">
+        <summary class="toc-title">På den här sidan</summary>
+        <ol>
+          <li><a href="#windows-11">Windows 11</a></li>
+          <li><a href="#windows-10">Windows 10</a></li>
+          <li><a href="#kontrollera-att-det-fungerar">Kontrollera att det fungerar</a></li>
+          <li><a href="#om-nagot-inte-fungerar">Om något inte fungerar</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Windows 11 kan skicka alla sina DNS-uppslag krypterat, via DNS över HTTPS. Peka Windows mot Blokada Cloud, så blockeras reklam och spårare i alla appar och webbläsare på datorn, utan något att installera.</p>
-<p>Du behöver två värden:</p>
-<ul>
-<li>DNS-server (IP-adress): <span class="copy"><code>34.117.212.222</code></span></li>
-<li>Din DoH-länk: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></li>
-</ul>
-<h2>Windows 11</h2>
+    <div class="guide-intro"><p>Windows 11 kan skicka alla sina DNS-uppslag krypterat, via DNS över HTTPS. Peka Windows mot Blokada Cloud, så blockeras reklam och spårare i alla appar och webbläsare på datorn, utan något att installera.</p>
+<p>Du behöver DNS-serverns IP-adress och din DoH-länk. Båda finns under <em>Dina uppgifter</em> ovan.</p>
+</div><section class="guide-section"><h2 id="windows-11">Windows 11</h2>
 <ol>
 <li>Öppna <em>Inställningar → Nätverk &amp; Internet</em> och sedan <em>Wi-Fi</em> eller <em>Ethernet</em>, beroende på hur datorn är ansluten.</li>
 <li>Öppna anslutningens <em>Maskinvaruegenskaper</em> (<em>Hardware properties</em>). För Wi-Fi väljer du <em>Hantera kända nätverk</em> och sedan nätverket, eller <em>Maskinvaruegenskaper</em> högst upp på Wi-Fi-sidan.</li>
@@ -78,27 +100,31 @@
 <li>Stäng av <em>Återställning till oformaterad text</em> och välj <em>Spara</em>.</li>
 </ol>
 <p>Om datorn använder både Wi-Fi och Ethernet upprepar du detta för den andra anslutningen.</p>
-<div class="note">
+<div class="note important">
 <p>Lämna <em>Alternativ DNS-server</em> tom. Windows använder båda servrarna, och varje annan server släpper igenom reklam.</p>
-<p>Finns inte alternativet <em>På (manuell mall)</em>? Då är ditt Windows 11 äldre. Uppdatera Windows, eller använd <a href="../browser-dns-over-https/">webbläsarguiden</a> så länge.</p>
-<p>Om reklam fortfarande slinker igenom i ett nätverk med IPv6 kan Windows även fråga routerns IPv6-DNS-server. Stäng av <em>Internet Protocol Version 6 (TCP/IPv6)</em> i nätverkskortets egenskaper (<em>Kontrollpanelen → Nätverksanslutningar</em>), eller ställ in din <a href="../router-ad-blocking/">router</a>.</p>
 </div>
-<h2>Windows 10</h2>
+<div class="note tip">
+<p>Finns inte alternativet <em>På (manuell mall)</em>? Då är ditt Windows 11 äldre. Uppdatera Windows, eller använd <a href="../browser-dns-over-https/">webbläsarguiden</a> så länge.</p>
+</div>
+</section><section class="guide-section"><h2 id="windows-10">Windows 10</h2>
 <p>Windows 10 har ingen inbyggd krypterad DNS. Ställ in säker DNS i webbläsaren i stället, enligt <a href="../browser-dns-over-https/">webbläsarguiden</a>, eller ställ in din <a href="../router-ad-blocking/">router</a> för att skydda hela hemmet.</p>
-<h2>Kontrollera att det fungerar</h2>
+</section><section class="guide-section"><h2 id="kontrollera-att-det-fungerar">Kontrollera att det fungerar</h2>
 <p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Datorns uppslag visas där.</p>
+<div class="note aside">
+<p>Vill du också ha en VPN på den här datorn? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.</p>
+</div>
+</section><section class="guide-section"><h2 id="om-nagot-inte-fungerar">Om något inte fungerar</h2>
 <p>Chrome och Edge har en egen inställning för <em>säker DNS</em>, som går förbi Windows. I automatiskt läge kan den falla tillbaka på okrypterad DNS, som Blokada nekar. Ställ in den på din DoH-länk i stället:</p>
 <ul>
 <li><strong>Chrome:</strong> öppna <code>chrome://settings/security</code>, aktivera <em>Använd säker DNS</em> och välj <em>Lägg till en anpassad DNS-tjänsteleverantör</em> under <em>Välj DNS-leverantör</em>.</li>
 <li><strong>Edge:</strong> öppna <code>edge://settings/privacy</code>, aktivera säker DNS och välj <em>Välj en tjänsteleverantör</em> (<em>Choose a service provider</em>).</li>
 </ul>
 <p>Klistra sedan in din DoH-länk <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></p>
-<div class="note">
-<p>Vill du också ha en VPN på den här datorn? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.</p>
-</div>
+<p>Om reklam fortfarande slinker igenom i ett nätverk med IPv6 kan Windows även fråga routerns IPv6-DNS-server. Stäng av <em>Internet Protocol Version 6 (TCP/IPv6)</em> i nätverkskortets egenskaper (<em>Kontrollpanelen → Nätverksanslutningar</em>), eller ställ in din <a href="../router-ad-blocking/">router</a>.</p>
+</section>
+    <p class="updated">Uppdaterad <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
   <p class="actions">
@@ -108,7 +134,8 @@
   <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Frågor och kommentarer</h2>
@@ -383,6 +410,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

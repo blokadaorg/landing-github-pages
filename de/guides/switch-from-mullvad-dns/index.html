@@ -49,22 +49,47 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Mullvad DNS wird eingestellt. Werbung weiter blockieren mit Blokada Cloud</h1>
         <p class="lead">Mullvad schaltet sein öffentliches DNS am 2. November 2026 ab. So stellst du Handy, Computer und Router rechtzeitig um und blockierst weiter Werbung.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Deine Daten</h2>
+        <p class="details-status if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS-Name (DNS over TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH-Link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <details class="toc-inner">
+        <summary class="toc-title">Auf dieser Seite</summary>
+        <ol>
+          <li><a href="#was-du-genutzt-hast-und-was-du-in-blokada-wahlst">Was du genutzt hast und was du in Blokada wählst</a></li>
+          <li><a href="#jedes-gerat-umstellen">Jedes Gerät umstellen</a></li>
+          <li><a href="#prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Mullvad stellt seinen kostenlosen öffentlichen DNS-Dienst am <strong>2. November 2026</strong> ein und empfiehlt stattdessen Quad9. Quad9 blockiert Malware, aber <strong>keine</strong> Werbung und keine Tracker. Sobald Mullvads DNS abgeschaltet ist, laden Geräte, die darauf eingestellt sind, keine Websites und Apps mehr. Darf ein Gerät auf einen anderen DNS-Server ausweichen, kommt stattdessen die Werbung zurück. Wechsle vor diesem Tag.</p>
+    <div class="guide-intro"><p>Mullvad stellt seinen kostenlosen öffentlichen DNS-Dienst am <strong>2. November 2026</strong> ein und empfiehlt stattdessen Quad9. Quad9 blockiert Malware, aber <strong>keine</strong> Werbung und keine Tracker. Sobald Mullvads DNS abgeschaltet ist, laden Geräte, die darauf eingestellt sind, keine Websites und Apps mehr. Darf ein Gerät auf einen anderen DNS-Server ausweichen, kommt stattdessen die Werbung zurück. Wechsle vor diesem Tag.</p>
 <p>Diese Seite behandelt die öffentlichen DNS-Namen, die auf <code>dns.mullvad.net</code> enden. Um die Mullvad-VPN-App geht es hier nicht.</p>
-<h2>Was du genutzt hast und was du in Blokada wählst</h2>
+</div><section class="guide-section"><h2 id="was-du-genutzt-hast-und-was-du-in-blokada-wahlst">Was du genutzt hast und was du in Blokada wählst</h2>
 <table>
 <thead>
 <tr>
@@ -107,13 +132,8 @@
 </tbody>
 </table>
 <p>Sperrlisten wählst du im Dashboard unter <em>Sperrlisten</em>. Du kannst sie jederzeit ändern, und die Änderung gilt für alle deine Geräte.</p>
-<h2>Deine Blokada-Daten</h2>
-<p>Blokada gibt jedem Gerät einen eigenen Namen, damit das Dashboard die Aktivität pro Gerät zeigen kann:</p>
-<ul>
-<li>Dein Blokada-DNS-Name, für DNS over TLS (Android, Router): <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
-<li>Dein DoH-Link, für DNS over HTTPS (Browser, manche Router): <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
-</ul>
-<h2>Jedes Gerät umstellen</h2>
+</section><section class="guide-section"><h2 id="jedes-gerat-umstellen">Jedes Gerät umstellen</h2>
+<p>Blokada gibt jedem Gerät einen eigenen Namen, damit das Dashboard die Aktivität pro Gerät zeigen kann. Je nach Gerät brauchst du deinen DNS-Namen oder deinen DoH-Link. Beide stehen oben unter <em>Deine Daten</em>.</p>
 <h3>Android</h3>
 <p>Laut der Mullvad-Anleitung hast du einen Hostnamen unter <em>Privates DNS</em> eingetragen. Ersetze ihn durch deinen Blokada-DNS-Namen. Die Schritte stehen in der <a href="../android-private-dns/">Android-Anleitung</a>.</p>
 <h3>iPhone, iPad und Mac</h3>
@@ -127,11 +147,12 @@
 <p>Hast du unter <em>sicheres DNS</em> oder <em>DNS over HTTPS</em> einen Mullvad-DoH-Link wie <code>https://adblock.dns.mullvad.net/dns-query</code> eingetragen, ersetze sie durch deinen DoH-Link. Die <a href="../browser-dns-over-https/">Browser-Anleitung</a> enthält die Schritte für jeden Browser.</p>
 <h3>Router</h3>
 <p>Nutzt dein Router Mullvad über DNS over TLS, ersetze den Mullvad-Hostnamen durch deinen Blokada-DNS-Namen und entferne die IP-Adressen von Mullvad. Die <a href="../router-ad-blocking/">Router-Anleitung</a> behandelt gängige Modelle.</p>
-<h2>Prüfen, ob es funktioniert</h2>
+</section><section class="guide-section"><h2 id="prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</h2>
 <p>Öffne ein paar Websites und sieh dir dann die Seite <em>Aktivität</em> im Dashboard an. Dort siehst du die Anfragen deiner Geräte, blockierte sind markiert. Taucht ein Gerät nicht auf, nutzt es noch einen anderen DNS-Server.</p>
+</section>
+    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
   <p class="actions">
@@ -141,7 +162,8 @@
   <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Fragen und Kommentare</h2>
@@ -416,6 +438,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

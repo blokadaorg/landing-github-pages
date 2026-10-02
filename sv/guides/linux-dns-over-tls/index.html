@@ -49,21 +49,46 @@
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
         <h1>Blockera reklam i Linux med DNS över TLS</h1>
         <p class="lead">Ställ in systemd-resolved på att använda Blokada Cloud via krypterad DNS över TLS och blockera reklam och spårare för alla appar på din Linux-dator.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-28">2026-09-28</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.
-      <a href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a></p>
-    <p class="if-device">Guiden visar uppgifterna för din enhet.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Dina uppgifter</h2>
+        <p class="details-status if-device">Guiden visar uppgifterna för din enhet.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>Server för DNS över TLS (IP-adress)</dt>
+          <dd><span class="copy"><code>193.180.80.10</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DNS-namn (DNS över TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>DNS-namnen och länkarna på den här sidan innehåller <code>&lt;ditt-id&gt;</code>, en kort kod för din enhet. Logga in i dashboarden för att se din. Om du öppnar guiden via dashboardens länk för att öppna på en annan enhet fylls den i åt dig.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Fyll i mina uppgifter</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="På den här sidan">
+      <details class="toc-inner">
+        <summary class="toc-title">På den här sidan</summary>
+        <ol>
+          <li><a href="#stall-in-systemd-resolved">Ställ in systemd-resolved</a></li>
+          <li><a href="#utan-systemd-resolved">Utan systemd-resolved</a></li>
+          <li><a href="#kontrollera-att-det-fungerar">Kontrollera att det fungerar</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>De flesta aktuella Linux-distributioner, bland annat Ubuntu och Fedora, slår upp namn via <em>systemd-resolved</em>, som har stöd för DNS över TLS. På Debian installerar du det först med <code>sudo apt install systemd-resolved</code>. Peka den mot Blokada Cloud, så blockeras reklam och spårare för alla appar på datorn.</p>
-<h2>Ställ in systemd-resolved</h2>
+    <div class="guide-intro"><p>De flesta aktuella Linux-distributioner, bland annat Ubuntu och Fedora, slår upp namn via <em>systemd-resolved</em>, som har stöd för DNS över TLS. På Debian installerar du det först med <code>sudo apt install systemd-resolved</code>. Peka den mot Blokada Cloud, så blockeras reklam och spårare för alla appar på datorn.</p>
+</div><section class="guide-section"><h2 id="stall-in-systemd-resolved">Ställ in systemd-resolved</h2>
 <ol>
 <li>Skapa mappen med <code>sudo mkdir -p /etc/systemd/resolved.conf.d</code> och sedan filen <code>/etc/systemd/resolved.conf.d/blokada.conf</code> med de här inställningarna:</li>
 </ol>
@@ -76,19 +101,20 @@ Domains=~.</code></pre>
 <li>Kontrollera den: <code>resolvectl status</code> visar <code>+DNSOverTLS</code> och Blokada-servern.</li>
 </ol>
 <p>Delen efter <code>#</code> är ditt Blokada-DNS-namn: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> systemd-resolved kontrollerar serverns certifikat mot det, och Blokada använder det för att veta vilken enhet som frågar.</p>
-<div class="note">
+<div class="note important">
 <p><strong>NetworkManager</strong> skickar också vidare nätverkets DNS-servrar. <code>Domains=~.</code> skickar alla uppslag till Blokada, men om <code>resolvectl status</code> fortfarande visar en annan server för en anslutning stänger du av automatisk DNS för den anslutningen (reglaget <em>Automatic</em> bredvid <em>DNS</em> i dess IPv4- och IPv6-inställningar).</p>
 </div>
-<h2>Utan systemd-resolved</h2>
+</section><section class="guide-section"><h2 id="utan-systemd-resolved">Utan systemd-resolved</h2>
 <p>Om <code>resolvectl</code> inte hittas slår din distribution upp namn på ett annat sätt. Ställ in säker DNS i webbläsaren i stället, enligt <a href="../browser-dns-over-https/">webbläsarguiden</a>, eller ställ in din <a href="../router-ad-blocking/">router</a> för att skydda hela hemmet.</p>
-<h2>Kontrollera att det fungerar</h2>
+</section><section class="guide-section"><h2 id="kontrollera-att-det-fungerar">Kontrollera att det fungerar</h2>
 <p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Datorns uppslag visas där.</p>
-<div class="note">
+<div class="note aside">
 <p>Vill du också ha en VPN på den här datorn? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.</p>
 </div>
+</section>
+    <p class="updated">Uppdaterad <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockerar reklam och spårare på alla enheter i hemmet. Du ställer in det en gång i DNS-inställningarna, utan app på tv:n, konsolen eller routern.</p>
   <p class="actions">
@@ -98,7 +124,8 @@ Domains=~.</code></pre>
   <p class="small">Vill du också ha en VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> lägger till en krypterad WireGuard-tunnel på varje enhet, med samma blockering.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Frågor och kommentarer</h2>
@@ -373,6 +400,49 @@ Domains=~.</code></pre>
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

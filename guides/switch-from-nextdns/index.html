@@ -49,21 +49,46 @@
         <p class="crumbs"><a href="/guides/">Guides</a></p>
         <h1>A NextDNS alternative with the same setup on every device</h1>
         <p class="lead">Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada&#39;s on your phone, computer and router, and keep your ad blocking.</p>
-        <p class="meta">Updated <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.
-      <a href="https://app.blokada.org/setup?src=guides">Fill in my details</a></p>
-    <p class="if-device">This guide is filled in with the details of your device.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Your details</h2>
+        <p class="details-status if-device">This guide is filled in with the details of your device.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS name (DNS over TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>The DNS names and links on this page contain <code>&lt;your-id&gt;</code>, a short code for your device. Sign in to the dashboard to see yours. If you open this guide with the dashboard’s “Open on another device” link, it is filled in for you.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Fill in my details</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="On this page">
+      <details class="toc-inner">
+        <summary class="toc-title">On this page</summary>
+        <ol>
+          <li><a href="#what-you-used-and-what-to-pick-in-blokada">What you used, and what to pick in Blokada</a></li>
+          <li><a href="#switch-each-device">Switch each device</a></li>
+          <li><a href="#check-that-it-works">Check that it works</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.</p>
-<h2>What you used, and what to pick in Blokada</h2>
+    <div class="guide-intro"><p>NextDNS and Blokada Cloud work the same way: an encrypted DNS service that blocks ads and trackers by name, with your own settings behind a personal DNS name. Switching means replacing the NextDNS values on each device with your Blokada ones. Nothing else on the device changes.</p>
+</div><section class="guide-section"><h2 id="what-you-used-and-what-to-pick-in-blokada">What you used, and what to pick in Blokada</h2>
 <table>
 <thead>
 <tr>
@@ -98,12 +123,8 @@
 </tr>
 </tbody>
 </table>
-<h2>Your Blokada details</h2>
-<ul>
-<li>Your Blokada DNS name, for DNS over TLS: <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span></li>
-<li>Your DoH link, for DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></li>
-</ul>
-<h2>Switch each device</h2>
+</section><section class="guide-section"><h2 id="switch-each-device">Switch each device</h2>
+<p>Depending on the device, you need your DNS name or your DoH link, both under <em>Your details</em> above.</p>
 <h3>Android</h3>
 <p>If you used <em>Private DNS</em> with <code>&lt;your-id&gt;.dns.nextdns.io</code>, replace it with your Blokada DNS name, as in the <a href="../android-private-dns/">Android guide</a>. If you used the NextDNS app, uninstall it and install <a href="https://go.blokada.org/play_cloud">Blokada 6</a> instead.</p>
 <h3>iPhone and iPad</h3>
@@ -117,11 +138,12 @@
 <h3>Router</h3>
 <p>If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the <a href="../router-ad-blocking/">router guide</a>.</p>
 <p>If it uses NextDNS through plain IP addresses with a <em>linked IP</em>, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.</p>
-<h2>Check that it works</h2>
+</section><section class="guide-section"><h2 id="check-that-it-works">Check that it works</h2>
 <p>Open a few websites, then look at the <em>Activity</em> page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.</p>
+</section>
+    <p class="updated">Updated <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blocks ads and trackers for every device in your home. You set it up once in the DNS settings, with no app on your TV, console or router.</p>
   <p class="actions">
@@ -131,7 +153,8 @@
   <p class="small">Want a VPN as well? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds an encrypted WireGuard tunnel on each device, with the same blocking.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Questions and comments</h2>
@@ -406,6 +429,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

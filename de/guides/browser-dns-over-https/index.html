@@ -49,56 +49,82 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Werbung in Chrome, Firefox, Edge und Brave mit DNS over HTTPS blockieren</h1>
         <p class="lead">Stelle Blokada Cloud als sicheres DNS im Browser ein und blockiere Werbung und Tracker auf jedem Computer, auch auf Arbeitslaptops ohne App-Installation.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-09-23">2026-09-23</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Deine Daten</h2>
+        <p class="details-status if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DoH-Link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <details class="toc-inner">
+        <summary class="toc-title">Auf dieser Seite</summary>
+        <ol>
+          <li><a href="#chrome">Chrome</a></li>
+          <li><a href="#edge">Edge</a></li>
+          <li><a href="#firefox">Firefox</a></li>
+          <li><a href="#brave">Brave</a></li>
+          <li><a href="#safari">Safari</a></li>
+          <li><a href="#prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</a></li>
+          <li><a href="#wenn-etwas-nicht-klappt">Wenn etwas nicht klappt</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Moderne Browser können einen eigenen verschlüsselten DNS-Anbieter nutzen, genannt <em>sicheres DNS</em> oder <em>DNS over HTTPS</em>. Stellst du dort Blokada Cloud ein, blockiert der Browser Werbung und Tracker in jedem Netz, ganz ohne Erweiterung.</p>
+    <div class="guide-intro"><p>Moderne Browser können einen eigenen verschlüsselten DNS-Anbieter nutzen, genannt <em>sicheres DNS</em> oder <em>DNS over HTTPS</em>. Stellst du dort Blokada Cloud ein, blockiert der Browser Werbung und Tracker in jedem Netz, ganz ohne Erweiterung.</p>
 <p>Diese Einstellung gilt nur für diesen Browser. Für den ganzen Computer nutzt du auf dem Mac das <a href="../apple-devices/">Apple-Profil</a> oder richtest deinen <a href="../router-ad-blocking/">Router</a> ein.</p>
-<p>Dein DoH-Link: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></p>
-<h2>Chrome</h2>
+</div><section class="guide-section"><h2 id="chrome">Chrome</h2>
 <ol>
 <li>Öffne <code>chrome://settings/security</code>.</li>
 <li>Schalte <em>Sicheres DNS verwenden</em> ein und wähle dann <em>Add custom DNS service provider</em>.</li>
 <li>Gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
-<h2>Edge</h2>
+</section><section class="guide-section"><h2 id="edge">Edge</h2>
 <ol>
 <li>Öffne <code>edge://settings/privacy</code>.</li>
 <li>Schalte unter <em>Sicherheit</em> die Option <em>Use secure DNS to specify how to look up the network address for websites</em> ein.</li>
 <li>Wähle <em>Choose a service provider</em> und gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
-<h2>Firefox</h2>
+</section><section class="guide-section"><h2 id="firefox">Firefox</h2>
 <ol>
 <li>Öffne <em>Einstellungen → Datenschutz &amp; Sicherheit</em> und scrolle zu <em>DNS über HTTPS</em>.</li>
 <li>Wähle <em>Maximaler Schutz</em>.</li>
 <li>Wähle unter <em>Anbieter auswählen</em> die Option <em>Benutzerdefiniert</em> und gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
-<h2>Brave</h2>
+</section><section class="guide-section"><h2 id="brave">Brave</h2>
 <ol>
 <li>Öffne <code>brave://settings/security</code>.</li>
 <li>Schalte <em>Sicheres DNS verwenden</em> ein und wähle dann <em>Add custom DNS service provider</em>.</li>
 <li>Gib <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</li>
 </ol>
-<h2>Safari</h2>
+</section><section class="guide-section"><h2 id="safari">Safari</h2>
 <p>Safari hat keine eigene Einstellung für sicheres DNS. Es nutzt das DNS des Systems, installiere also das <a href="../apple-devices/">Apple-Profil</a>.</p>
-<h2>Prüfen, ob es funktioniert</h2>
+</section><section class="guide-section"><h2 id="prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</h2>
 <p>Surfe eine Minute lang und öffne dann die Seite <em>Aktivität</em> im <a href="https://app.blokada.org/stats?src=guides">Dashboard</a>. Dort erscheinen die Anfragen dieses Browsers.</p>
-<div class="note">
+</section><section class="guide-section"><h2 id="wenn-etwas-nicht-klappt">Wenn etwas nicht klappt</h2>
+<div class="note tip">
 <p>Wird dein Browser von deiner Arbeit oder Schule verwaltet, ist die Einstellung für sicheres DNS eventuell gesperrt. Frag deinen Administrator.</p>
 </div>
+</section>
+    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
   <p class="actions">
@@ -108,7 +134,8 @@
   <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Fragen und Kommentare</h2>
@@ -383,6 +410,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

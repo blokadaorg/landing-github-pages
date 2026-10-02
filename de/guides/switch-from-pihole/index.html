@@ -49,20 +49,45 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Eine Pi-hole Alternative ohne eigene Hardware</h1>
         <p class="lead">Verlege den Werbeblocker für dein Zuhause vom Pi-hole zu Blokada Cloud, oder behalte den Pi-hole und leite seine Anfragen über Blokada.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Deine Daten</h2>
+        <p class="details-status if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS-Name (DNS over TLS)</dt>
+          <dd><span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH-Link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <details class="toc-inner">
+        <summary class="toc-title">Auf dieser Seite</summary>
+        <ol>
+          <li><a href="#option-1-den-pi-hole-ersetzen">Option 1: den Pi-hole ersetzen</a></li>
+          <li><a href="#option-2-den-pi-hole-behalten-blokada-cloud-als-upstream">Option 2: den Pi-hole behalten, Blokada Cloud als Upstream</a></li>
+          <li><a href="#haufige-fragen">Häufige Fragen</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Ein Pi-hole blockiert Werbung für jedes Gerät in deinem Netzwerk, solange der Raspberry Pi läuft, aktuell ist und zu Hause steht. Blokada Cloud erledigt dasselbe von unseren Servern aus:</p>
+    <div class="guide-intro"><p>Ein Pi-hole blockiert Werbung für jedes Gerät in deinem Netzwerk, solange der Raspberry Pi läuft, aktuell ist und zu Hause steht. Blokada Cloud erledigt dasselbe von unseren Servern aus:</p>
 <ul>
 <li><strong>Keine Box, um die du dich kümmern musst.</strong> Keine SD-Karten, keine Updates, kein Ausfall, wenn der Pi ausfällt.</li>
 <li><strong>Funktioniert auch unterwegs.</strong> Handys und Laptops blockieren weiter, auch mobil und in anderen WLANs.</li>
@@ -70,23 +95,18 @@
 <li><strong>Ein Dashboard.</strong> Sperrlisten, erlaubte und blockierte Domains und die Aktivität pro Gerät, unter <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
 </ul>
 <p>Es gibt zwei Wege zum Wechsel: Ersetze den Pi-hole ganz, oder behalte ihn und nutze Blokada Cloud als Upstream.</p>
-<h2>Option 1: den Pi-hole ersetzen</h2>
+</div><section class="guide-section"><h2 id="option-1-den-pi-hole-ersetzen">Option 1: den Pi-hole ersetzen</h2>
 <ol>
-<li><strong>Hol dir Blokada Cloud</strong> und öffne das Dashboard. Unter <em>Einrichtung</em> findest du deine Daten:
-<ul>
-<li>Dein Blokada-DNS-Name, für DNS over TLS: <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span></li>
-<li>Dein DoH-Link, für DNS over HTTPS: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
-</ul>
-</li>
+<li><strong>Hol dir Blokada Cloud</strong> und öffne das Dashboard. Deinen DNS-Namen und deinen DoH-Link findest du dort unter <em>Einrichtung</em> und oben unter <em>Deine Daten</em>.</li>
 <li><strong>Stelle deinen Router auf Blokada statt auf den Pi-hole um.</strong> Folge der <a href="../router-ad-blocking/">Router-Anleitung</a>. Akzeptiert dein Router als DNS-Server nur eine einfache IP-Adresse, richte stattdessen deine Geräte einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac und Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> und <a href="../browser-dns-over-https/">Browser</a>.</li>
 <li><strong>War dein Pi-hole der DHCP-Server,</strong> schalte DHCP in deinem Router wieder ein, <em>bevor</em> du den Pi ausschaltest. Sonst bekommen deine Geräte keine Netzwerkadressen mehr.</li>
 <li><strong>Übertrage deine Listen.</strong> Wähle im Dashboard unter <em>Sperrlisten</em> deine Sperrlisten und füge unter <em>Ausnahmen</em> eigene erlaubte oder blockierte Domains hinzu.</li>
 <li><strong>Schalte den Pi-hole aus,</strong> oder nutze ihn für etwas anderes.</li>
 </ol>
-<div class="note">
+<div class="note aside">
 <p>Dein Pi-hole zeigte jedes Gerät im Netzwerk mit seiner IP-Adresse. Bei Blokada erscheint jedes Gerät mit seinem eigenen Namen, solange es seinen eigenen Blokada-DNS-Namen nutzt. Ein Router, der mit einem Blokada-DNS-Namen eingerichtet ist, erscheint als ein Gerät.</p>
 </div>
-<h2>Option 2: den Pi-hole behalten, Blokada Cloud als Upstream</h2>
+</section><section class="guide-section"><h2 id="option-2-den-pi-hole-behalten-blokada-cloud-als-upstream">Option 2: den Pi-hole behalten, Blokada Cloud als Upstream</h2>
 <p>Möchtest du deine lokale Einrichtung behalten, etwa lokale Hostnamen, DHCP oder eigene Listen, lass den Pi-hole seine Anfragen über eine verschlüsselte Verbindung an Blokada weiterleiten. Pi-hole kann selbst nicht verschlüsselt weiterleiten, deshalb läuft daneben eine kleine Weiterleitung. Diese Anleitung nutzt <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, eine Open-Source-Weiterleitung, die aus einer einzigen Datei besteht.</p>
 <ol>
 <li>Lade auf dem Pi-hole-Rechner die <code>dnsproxy</code>-Version für deine CPU (<code>linux-arm64</code> für einen aktuellen Raspberry Pi) von der Release-Seite herunter und kopiere die Datei <code>dnsproxy</code> nach <code>/usr/local/bin/</code>.</li>
@@ -110,12 +130,13 @@ WantedBy=multi-user.target</code></pre>
 <li>Sieh dir die Seite <em>Aktivität</em> im Dashboard an. Anfragen aus deinem Netzwerk erscheinen jetzt dort.</li>
 </ol>
 <p>Du kannst die Blocklisten des Pi-hole ausschalten und die Blockierung im Dashboard verwalten, oder beides behalten.</p>
-<h2>Häufige Fragen</h2>
+</section><section class="guide-section"><h2 id="haufige-fragen">Häufige Fragen</h2>
 <p><strong>Brauche ich Blokada Plus?</strong> Nein. Blokada Cloud deckt die DNS-Blockierung für dein ganzes Zuhause ab. <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt ein VPN.</p>
 <p><strong>Was, wenn Blokada nicht erreichbar ist?</strong> Deine Geräte können keine Namen auflösen, bis es wieder erreichbar ist, genau wie bei einem ausgefallenen Pi-hole. Trage keinen zweiten, ungefilterten DNS-Server als Fallback ein. Die meisten Geräte nutzen alle ihre Server zufällig, und so käme Werbung durch.</p>
+</section>
+    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
   <p class="actions">
@@ -125,7 +146,8 @@ WantedBy=multi-user.target</code></pre>
   <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Fragen und Kommentare</h2>
@@ -400,6 +422,49 @@ WantedBy=multi-user.target</code></pre>
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.

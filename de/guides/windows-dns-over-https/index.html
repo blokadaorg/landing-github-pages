@@ -49,26 +49,48 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Werbung unter Windows mit DNS over HTTPS blockieren</h1>
         <p class="lead">Nutze das in Windows 11 eingebaute verschlüsselte DNS mit Blokada Cloud und blockiere Werbung und Tracker in allen Apps und Browsern, ohne Software.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
 
   <main class="wrap">
-    <article class="guide">
-  <aside class="device">
-    <p class="if-no-device">Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.
-      <a href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a></p>
-    <p class="if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
-  </aside>
+    <div class="guide-layout">
+  <article class="guide">
+    <section class="details" aria-labelledby="details-title">
+      <div class="details-head">
+        <h2 id="details-title">Deine Daten</h2>
+        <p class="details-status if-device">Diese Anleitung zeigt die Daten deines Geräts.</p>
+      </div>
+      <dl>
+        <div class="detail">
+          <dt>DNS-Server (IP-Adresse)</dt>
+          <dd><span class="copy"><code>34.117.212.222</code></span></dd>
+        </div>
+        <div class="detail">
+          <dt>DoH-Link (DNS over HTTPS)</dt>
+          <dd><span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></dd>
+        </div>
+      </dl>
+      <div class="details-empty if-no-device">
+        <p>Die DNS-Namen und Links auf dieser Seite enthalten <code>&lt;deine-id&gt;</code>, einen kurzen Code für dein Gerät. Melde dich im Dashboard an, um deinen zu sehen. Öffnest du diese Anleitung über den Link zum Öffnen auf einem anderen Gerät im Dashboard, wird er automatisch eingesetzt.</p>
+        <a class="btn btn-primary" href="https://app.blokada.org/setup?src=guides">Meine Daten einsetzen</a>
+      </div>
+    </section>
+    <nav class="toc" aria-label="Auf dieser Seite">
+      <details class="toc-inner">
+        <summary class="toc-title">Auf dieser Seite</summary>
+        <ol>
+          <li><a href="#windows-11">Windows 11</a></li>
+          <li><a href="#windows-10">Windows 10</a></li>
+          <li><a href="#prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</a></li>
+          <li><a href="#wenn-etwas-nicht-klappt">Wenn etwas nicht klappt</a></li>
+        </ol>
+      </details>
+    </nav>
 
-  <p>Windows 11 kann alle DNS-Anfragen verschlüsselt über DNS over HTTPS senden. Stellst du es auf Blokada Cloud um, werden Werbung und Tracker in allen Apps und Browsern auf dem Computer blockiert, ohne dass du etwas installieren musst.</p>
-<p>Du brauchst zwei Werte:</p>
-<ul>
-<li>DNS-Server (IP-Adresse): <span class="copy"><code>34.117.212.222</code></span></li>
-<li>Dein DoH-Link: <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span></li>
-</ul>
-<h2>Windows 11</h2>
+    <div class="guide-intro"><p>Windows 11 kann alle DNS-Anfragen verschlüsselt über DNS over HTTPS senden. Stellst du es auf Blokada Cloud um, werden Werbung und Tracker in allen Apps und Browsern auf dem Computer blockiert, ohne dass du etwas installieren musst.</p>
+<p>Du brauchst die IP-Adresse des DNS-Servers und deinen DoH-Link. Beide stehen oben unter <em>Deine Daten</em>.</p>
+</div><section class="guide-section"><h2 id="windows-11">Windows 11</h2>
 <ol>
 <li>Öffne <em>Einstellungen → Netzwerk &amp; Internet</em> und dann <em>WLAN</em> oder <em>Ethernet</em>, je nachdem, wie der Computer verbunden ist.</li>
 <li>Öffne die <em>Hardwareeigenschaften</em> (<em>Hardware properties</em>) deiner Verbindung. Wähle bei WLAN <em>Bekannte Netzwerke verwalten</em> und dann das Netzwerk, oder oben auf der WLAN-Seite <em>Hardwareeigenschaften</em>.</li>
@@ -78,27 +100,31 @@
 <li>Schalte <em>Fallback auf Nurtext</em> aus und wähle <em>Speichern</em>.</li>
 </ol>
 <p>Nutzt der Computer sowohl WLAN als auch Ethernet, wiederhole das für die andere Verbindung.</p>
-<div class="note">
+<div class="note important">
 <p>Lass <em>Alternativer DNS-Server</em> leer. Windows nutzt beide Server, und jeder andere lässt Werbung durch.</p>
-<p>Keine Option <em>An (manuelle Vorlage)</em>? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die <a href="../browser-dns-over-https/">Browser-Anleitung</a>.</p>
-<p>Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte <em>Internetprotokoll Version 6 (TCP/IPv6)</em> in den Eigenschaften des Adapters aus (<em>Systemsteuerung → Netzwerkverbindungen</em>), oder richte deinen <a href="../router-ad-blocking/">Router</a> ein.</p>
 </div>
-<h2>Windows 10</h2>
+<div class="note tip">
+<p>Keine Option <em>An (manuelle Vorlage)</em>? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die <a href="../browser-dns-over-https/">Browser-Anleitung</a>.</p>
+</div>
+</section><section class="guide-section"><h2 id="windows-10">Windows 10</h2>
 <p>Windows 10 hat kein eingebautes verschlüsseltes DNS. Richte stattdessen sicheres DNS in deinem Browser ein, wie in der <a href="../browser-dns-over-https/">Browser-Anleitung</a> beschrieben, oder richte deinen <a href="../router-ad-blocking/">Router</a> ein, um dein ganzes Zuhause abzudecken.</p>
-<h2>Prüfen, ob es funktioniert</h2>
+</section><section class="guide-section"><h2 id="prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</h2>
 <p>Öffne ein paar Websites und sieh dir dann die Seite <em>Aktivität</em> im <a href="https://app.blokada.org/stats?src=guides">Dashboard</a> an. Dort erscheinen die Anfragen dieses Computers.</p>
+<div class="note aside">
+<p>Du möchtest auf diesem Computer auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> enthält eine WireGuard-Einrichtung, die den gesamten Datenverkehr verschlüsselt, mit derselben Blockierung.</p>
+</div>
+</section><section class="guide-section"><h2 id="wenn-etwas-nicht-klappt">Wenn etwas nicht klappt</h2>
 <p>Chrome und Edge haben eine eigene Einstellung für <em>sicheres DNS</em>, die Windows umgeht. Im automatischen Modus kann sie auf unverschlüsseltes DNS zurückfallen, das Blokada ablehnt. Stelle sie stattdessen auf deinen DoH-Link:</p>
 <ul>
 <li><strong>Chrome:</strong> Öffne <code>chrome://settings/security</code>, schalte <em>Sicheres DNS verwenden</em> ein und wähle unter <em>DNS-Anbieter auswählen</em> die Option <em>Benutzerdefinierten DNS-Dienstanbieter hinzufügen</em>.</li>
 <li><strong>Edge:</strong> Öffne <code>edge://settings/privacy</code>, schalte sicheres DNS ein und wähle <em>Dienstanbieter auswählen</em> (<em>Choose a service provider</em>).</li>
 </ul>
 <p>Füge dann deinen DoH-Link <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</p>
-<div class="note">
-<p>Du möchtest auf diesem Computer auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> enthält eine WireGuard-Einrichtung, die den gesamten Datenverkehr verschlüsselt, mit derselben Blockierung.</p>
-</div>
+<p>Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte <em>Internetprotokoll Version 6 (TCP/IPv6)</em> in den Eigenschaften des Adapters aus (<em>Systemsteuerung → Netzwerkverbindungen</em>), oder richte deinen <a href="../router-ad-blocking/">Router</a> ein.</p>
+</section>
+    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
 
-
-  <aside class="cta">
+    <aside class="cta">
   <h2>Blokada Cloud</h2>
   <p>Blockiert Werbung und Tracker auf allen Geräten in deinem Zuhause. Einmal in den DNS-Einstellungen eingerichtet, ohne App auf Fernseher, Konsole oder Router.</p>
   <p class="actions">
@@ -108,7 +134,8 @@
   <p class="small">Du möchtest auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> ergänzt auf jedem Gerät einen verschlüsselten WireGuard-Tunnel mit derselben Blockierung.</p>
 </aside>
 
-</article>
+  </article>
+</div>
 
 <section class="comments">
   <h2>Fragen und Kommentare</h2>
@@ -383,6 +410,49 @@
   for (var j = 0; j < blocks.length; j++) {
     blocks[j].classList.add('copy-block');
     addCopyButton(blocks[j], blocks[j].querySelector('code') || blocks[j]);
+  }
+
+  // "On this page" is folded on narrow screens and always open in the
+  // wide-screen column, where folding it would only hide it.
+  var tocDetails = document.querySelector('.toc details');
+  var wide = window.matchMedia ? window.matchMedia('(min-width: 1240px)') : null;
+  if (tocDetails && wide) {
+    var syncToc = function () { tocDetails.open = wide.matches; };
+    syncToc();
+    if (wide.addEventListener) wide.addEventListener('change', syncToc);
+    tocDetails.addEventListener('toggle', function () {
+      if (wide.matches && !tocDetails.open) tocDetails.open = true;
+    });
+  }
+  // A jump from the folded list closes it again.
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('.toc a');
+    if (link && tocDetails && !(wide && wide.matches)) tocDetails.open = false;
+  });
+
+  // "On this page": marks the section being read, for the sticky column.
+  var tocLinks = document.querySelectorAll('.toc a[href^="#"]');
+  if (tocLinks.length && 'IntersectionObserver' in window) {
+    var byId = {};
+    for (var k = 0; k < tocLinks.length; k++) {
+      byId[tocLinks[k].getAttribute('href').slice(1)] = tocLinks[k];
+    }
+    var visible = {};
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        visible[entry.target.querySelector('h2').id] = entry.isIntersecting;
+      });
+      var first = null;
+      for (var id in byId) {
+        if (visible[id]) { first = id; break; }
+      }
+      if (!first) return;
+      for (var other in byId) byId[other].classList.toggle('is-active', other === first);
+    }, { rootMargin: '0px 0px -60% 0px' });
+    for (var id in byId) {
+      var heading = document.getElementById(id);
+      if (heading && heading.parentNode) observer.observe(heading.parentNode);
+    }
   }
 
   // Dark mode: follows the system until the reader picks, then remembers.
