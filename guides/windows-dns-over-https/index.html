@@ -49,7 +49,7 @@
         <p class="crumbs"><a href="/guides/">Guides</a></p>
         <h1>Block ads on Windows with DNS over HTTPS</h1>
         <p class="lead">Use the encrypted DNS built into Windows 11 with Blokada Cloud to block ads and trackers in every app and browser, with no software to install.</p>
-        <p class="meta">Updated <time datetime="2026-09-28">2026-09-28</time></p>
+        <p class="meta">Updated <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
@@ -87,7 +87,12 @@
 <p>Windows 10 has no built-in encrypted DNS. Set up secure DNS in your browser instead, as in the <a href="../browser-dns-over-https/">browser guide</a>, or set up your <a href="../router-ad-blocking/">router</a> to cover the whole home.</p>
 <h2>Check that it works</h2>
 <p>Open a few websites, then look at the <em>Activity</em> page in the <a href="https://app.blokada.org/stats?src=guides">dashboard</a>. This computer's lookups show up there.</p>
-<p>Browsers with their own <em>secure DNS</em> setting bypass Windows. In Chrome and Edge, set it to use the current service provider, or to your DoH link.</p>
+<p>Chrome and Edge have their own <em>secure DNS</em> setting, which bypasses Windows. Left on automatic, it can fall back to plain DNS, which Blokada refuses. Set it to your DoH link instead:</p>
+<ul>
+<li><strong>Chrome:</strong> open <code>chrome://settings/security</code>, turn on <em>Use secure DNS</em>, and under <em>Select DNS provider</em> choose <em>Add custom DNS service provider</em>.</li>
+<li><strong>Edge:</strong> open <code>edge://settings/privacy</code>, turn on secure DNS, and choose <em>Choose a service provider</em>.</li>
+</ul>
+<p>Then paste your DoH link <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;your-id&gt;</code></span></p>
 <div class="note">
 <p>Want a VPN on this computer too? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> includes a WireGuard setup that encrypts all traffic, with the same blocking.</p>
 </div>

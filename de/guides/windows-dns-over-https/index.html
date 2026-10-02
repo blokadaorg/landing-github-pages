@@ -49,7 +49,7 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Werbung unter Windows mit DNS over HTTPS blockieren</h1>
         <p class="lead">Nutze das in Windows 11 eingebaute verschlüsselte DNS mit Blokada Cloud und blockiere Werbung und Tracker in allen Apps und Browsern, ohne Software.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-09-28">2026-09-28</time></p>
+        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
@@ -70,24 +70,29 @@
 </ul>
 <h2>Windows 11</h2>
 <ol>
-<li>Öffne <em>Einstellungen → Netzwerk und Internet</em> und dann <em>WLAN</em> oder <em>Ethernet</em>, je nachdem, wie der Computer verbunden ist.</li>
-<li>Öffne die <em>Hardwareeigenschaften</em> deiner Verbindung. Wähle bei WLAN <em>Bekannte Netzwerke verwalten</em> und dann das Netzwerk, oder oben auf der WLAN-Seite <em>Hardwareeigenschaften</em>.</li>
-<li>Wähle neben <em>DNS-Serverzuweisung</em> die Option <em>Bearbeiten</em>. Wähle <em>Manuell</em> und schalte <em>IPv4</em> ein.</li>
-<li>Gib unter <em>Bevorzugter DNS</em> den DNS-Server <span class="copy"><code>34.117.212.222</code></span> ein.</li>
-<li>Stelle <em>DNS über HTTPS</em> auf <em>Ein (manuelle Vorlage)</em> und füge deinen DoH-Link <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> als <em>DoH-Vorlage</em> ein.</li>
-<li>Schalte <em>Fallback auf Klartext</em> aus und wähle <em>Speichern</em>.</li>
+<li>Öffne <em>Einstellungen → Netzwerk &amp; Internet</em> und dann <em>WLAN</em> oder <em>Ethernet</em>, je nachdem, wie der Computer verbunden ist.</li>
+<li>Öffne die <em>Hardwareeigenschaften</em> (<em>Hardware properties</em>) deiner Verbindung. Wähle bei WLAN <em>Bekannte Netzwerke verwalten</em> und dann das Netzwerk, oder oben auf der WLAN-Seite <em>Hardwareeigenschaften</em>.</li>
+<li>Wähle neben <em>DNS-Serverzuweisung</em> (<em>DNS server assignment</em>) die Option <em>Bearbeiten</em>. Wähle <em>Manuell</em> und schalte <em>IPv4</em> ein.</li>
+<li>Gib unter <em>Bevorzugter DNS-Server</em> den DNS-Server <span class="copy"><code>34.117.212.222</code></span> ein.</li>
+<li>Stelle <em>DNS über HTTPS</em> auf <em>An (manuelle Vorlage)</em> und füge deinen DoH-Link <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> in das Vorlagenfeld <em>DNS über HTTPS</em> ein.</li>
+<li>Schalte <em>Fallback auf Nurtext</em> aus und wähle <em>Speichern</em>.</li>
 </ol>
 <p>Nutzt der Computer sowohl WLAN als auch Ethernet, wiederhole das für die andere Verbindung.</p>
 <div class="note">
-<p>Lass <em>Alternativer DNS</em> leer. Windows nutzt beide Server, und jeder andere lässt Werbung durch.</p>
-<p>Keine Option <em>Ein (manuelle Vorlage)</em>? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die <a href="../browser-dns-over-https/">Browser-Anleitung</a>.</p>
-<p>Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte <em>Internetprotokoll, Version 6 (TCP/IPv6)</em> in den Eigenschaften des Adapters aus (<em>Systemsteuerung → Netzwerkverbindungen</em>), oder richte deinen <a href="../router-ad-blocking/">Router</a> ein.</p>
+<p>Lass <em>Alternativer DNS-Server</em> leer. Windows nutzt beide Server, und jeder andere lässt Werbung durch.</p>
+<p>Keine Option <em>An (manuelle Vorlage)</em>? Dann ist dein Windows 11 älter. Aktualisiere Windows, oder nutze solange die <a href="../browser-dns-over-https/">Browser-Anleitung</a>.</p>
+<p>Kommt in einem Netzwerk mit IPv6 noch Werbung durch, fragt Windows womöglich auch den IPv6-DNS-Server deines Routers. Schalte <em>Internetprotokoll Version 6 (TCP/IPv6)</em> in den Eigenschaften des Adapters aus (<em>Systemsteuerung → Netzwerkverbindungen</em>), oder richte deinen <a href="../router-ad-blocking/">Router</a> ein.</p>
 </div>
 <h2>Windows 10</h2>
 <p>Windows 10 hat kein eingebautes verschlüsseltes DNS. Richte stattdessen sicheres DNS in deinem Browser ein, wie in der <a href="../browser-dns-over-https/">Browser-Anleitung</a> beschrieben, oder richte deinen <a href="../router-ad-blocking/">Router</a> ein, um dein ganzes Zuhause abzudecken.</p>
 <h2>Prüfen, ob es funktioniert</h2>
 <p>Öffne ein paar Websites und sieh dir dann die Seite <em>Aktivität</em> im <a href="https://app.blokada.org/stats?src=guides">Dashboard</a> an. Dort erscheinen die Anfragen dieses Computers.</p>
-<p>Browser mit eigener Einstellung für <em>sicheres DNS</em> umgehen Windows. Stelle sie in Chrome und Edge auf den aktuellen Dienstanbieter oder auf deinen DoH-Link ein.</p>
+<p>Chrome und Edge haben eine eigene Einstellung für <em>sicheres DNS</em>, die Windows umgeht. Im automatischen Modus kann sie auf unverschlüsseltes DNS zurückfallen, das Blokada ablehnt. Stelle sie stattdessen auf deinen DoH-Link:</p>
+<ul>
+<li><strong>Chrome:</strong> Öffne <code>chrome://settings/security</code>, schalte <em>Sicheres DNS verwenden</em> ein und wähle unter <em>DNS-Anbieter auswählen</em> die Option <em>Benutzerdefinierten DNS-Dienstanbieter hinzufügen</em>.</li>
+<li><strong>Edge:</strong> Öffne <code>edge://settings/privacy</code>, schalte sicheres DNS ein und wähle <em>Dienstanbieter auswählen</em> (<em>Choose a service provider</em>).</li>
+</ul>
+<p>Füge dann deinen DoH-Link <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;deine-id&gt;</code></span> ein.</p>
 <div class="note">
 <p>Du möchtest auf diesem Computer auch ein VPN? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> enthält eine WireGuard-Einrichtung, die den gesamten Datenverkehr verschlüsselt, mit derselben Blockierung.</p>
 </div>

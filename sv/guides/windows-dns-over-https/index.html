@@ -49,7 +49,7 @@
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
         <h1>Blockera reklam i Windows med DNS över HTTPS</h1>
         <p class="lead">Använd den inbyggda krypterade DNS:en i Windows 11 med Blokada Cloud och blockera reklam och spårare i alla appar och webbläsare, utan att installera något.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-28">2026-09-28</time></p>
+        <p class="meta">Uppdaterad <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
@@ -70,16 +70,16 @@
 </ul>
 <h2>Windows 11</h2>
 <ol>
-<li>Öppna <em>Inställningar → Nätverk och Internet</em> och sedan <em>Wi-Fi</em> eller <em>Ethernet</em>, beroende på hur datorn är ansluten.</li>
-<li>Öppna anslutningens <em>Maskinvaruegenskaper</em>. För Wi-Fi väljer du <em>Hantera kända nätverk</em> och sedan nätverket, eller <em>Maskinvaruegenskaper</em> högst upp på Wi-Fi-sidan.</li>
-<li>Välj <em>Redigera</em> bredvid <em>DNS-servertilldelning</em>. Välj <em>Manuell</em> och aktivera <em>IPv4</em>.</li>
-<li>Ange DNS-servern <span class="copy"><code>34.117.212.222</code></span> under <em>Önskad DNS</em>.</li>
-<li>Ställ in <em>DNS över HTTPS</em> på <em>På (manuell mall)</em> och klistra in din DoH-länk <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span> som <em>DoH-mall</em>.</li>
-<li>Stäng av <em>Återgång till oformaterad text</em> och välj <em>Spara</em>.</li>
+<li>Öppna <em>Inställningar → Nätverk &amp; Internet</em> och sedan <em>Wi-Fi</em> eller <em>Ethernet</em>, beroende på hur datorn är ansluten.</li>
+<li>Öppna anslutningens <em>Maskinvaruegenskaper</em> (<em>Hardware properties</em>). För Wi-Fi väljer du <em>Hantera kända nätverk</em> och sedan nätverket, eller <em>Maskinvaruegenskaper</em> högst upp på Wi-Fi-sidan.</li>
+<li>Välj <em>Redigera</em> bredvid <em>DNS-servertilldelning</em> (<em>DNS server assignment</em>). Välj <em>Manuellt</em> och aktivera <em>IPv4</em>.</li>
+<li>Ange DNS-servern <span class="copy"><code>34.117.212.222</code></span> under <em>Önskad DNS-server</em>.</li>
+<li>Ställ in <em>DNS över HTTPS</em> på <em>På (manuell mall)</em> och klistra in din DoH-länk <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span> i mallrutan <em>DNS över HTTPS</em>.</li>
+<li>Stäng av <em>Återställning till oformaterad text</em> och välj <em>Spara</em>.</li>
 </ol>
 <p>Om datorn använder både Wi-Fi och Ethernet upprepar du detta för den andra anslutningen.</p>
 <div class="note">
-<p>Lämna <em>Alternativ DNS</em> tom. Windows använder båda servrarna, och varje annan server släpper igenom reklam.</p>
+<p>Lämna <em>Alternativ DNS-server</em> tom. Windows använder båda servrarna, och varje annan server släpper igenom reklam.</p>
 <p>Finns inte alternativet <em>På (manuell mall)</em>? Då är ditt Windows 11 äldre. Uppdatera Windows, eller använd <a href="../browser-dns-over-https/">webbläsarguiden</a> så länge.</p>
 <p>Om reklam fortfarande slinker igenom i ett nätverk med IPv6 kan Windows även fråga routerns IPv6-DNS-server. Stäng av <em>Internet Protocol Version 6 (TCP/IPv6)</em> i nätverkskortets egenskaper (<em>Kontrollpanelen → Nätverksanslutningar</em>), eller ställ in din <a href="../router-ad-blocking/">router</a>.</p>
 </div>
@@ -87,7 +87,12 @@
 <p>Windows 10 har ingen inbyggd krypterad DNS. Ställ in säker DNS i webbläsaren i stället, enligt <a href="../browser-dns-over-https/">webbläsarguiden</a>, eller ställ in din <a href="../router-ad-blocking/">router</a> för att skydda hela hemmet.</p>
 <h2>Kontrollera att det fungerar</h2>
 <p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Datorns uppslag visas där.</p>
-<p>Webbläsare med en egen inställning för <em>säker DNS</em> går förbi Windows. I Chrome och Edge ställer du in den på att använda den aktuella tjänsteleverantören, eller på din DoH-länk.</p>
+<p>Chrome och Edge har en egen inställning för <em>säker DNS</em>, som går förbi Windows. I automatiskt läge kan den falla tillbaka på okrypterad DNS, som Blokada nekar. Ställ in den på din DoH-länk i stället:</p>
+<ul>
+<li><strong>Chrome:</strong> öppna <code>chrome://settings/security</code>, aktivera <em>Använd säker DNS</em> och välj <em>Lägg till en anpassad DNS-tjänsteleverantör</em> under <em>Välj DNS-leverantör</em>.</li>
+<li><strong>Edge:</strong> öppna <code>edge://settings/privacy</code>, aktivera säker DNS och välj <em>Välj en tjänsteleverantör</em> (<em>Choose a service provider</em>).</li>
+</ul>
+<p>Klistra sedan in din DoH-länk <span class="copy"><code data-dns="doh">https://cloud.blokada.org/&lt;ditt-id&gt;</code></span></p>
 <div class="note">
 <p>Vill du också ha en VPN på den här datorn? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.</p>
 </div>

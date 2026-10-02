@@ -49,7 +49,7 @@
         <p class="crumbs"><a href="/de/guides/">Anleitungen</a></p>
         <h1>Werbung im ganzen Netzwerk blockieren mit einem Router-Werbeblocker</h1>
         <p class="lead">Richte Blokada Cloud einmal im Router ein und blockiere Werbung auf allen Geräten in deinem Zuhause, auch auf Smart-TV, Spielkonsole und Smart Speaker.</p>
-        <p class="meta">Aktualisiert <time datetime="2026-09-23">2026-09-23</time></p>
+        <p class="meta">Aktualisiert <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
@@ -75,15 +75,15 @@
 <h2>FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 oder neuer.</p>
 <ol>
-<li>Öffne <code>http://fritz.box</code> und gehe zu <em>Internet → Zugangsdaten → DNS-Server</em>.</li>
-<li>Setze unter <em>Verschlüsselte Namensauflösung im Internet (DNS over TLS)</em> den Haken bei <em>Verschlüsselte Namensauflösung verwenden</em>.</li>
-<li>Setze den Haken bei <em>Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen</em>.</li>
-<li>Entferne den Haken bei <em>Fallback auf unverschlüsselte Namensauflösung im Internet erlauben</em>.</li>
-<li>Trage unter <em>Auflösungsnamen</em> nur <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span> ein. <strong>Entferne alle anderen Einträge.</strong> Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.</li>
+<li>Öffne <code>http://fritz.box</code>, gehe zu <em>Internet → Zugangsdaten</em> und dann auf die Registerkarte <em>DNS-Server</em>.</li>
+<li>Aktiviere die Option <em>Verschlüsselte Namensauflösung im Internet (DNS over TLS)</em>.</li>
+<li>Trage im Eingabefeld <em>Auflösungsnamen der DNS-Server</em> nur <span class="copy"><code data-dns="dot">&lt;deine-id&gt;.cloud.blokada.org</code></span> ein. <strong>Entferne alle anderen Einträge.</strong> Die FRITZ!Box nutzt alle eingetragenen Resolver, und jeder andere lässt Werbung durch.</li>
+<li>Setze den Haken bei <em>Zertifikatsprüfung für verschlüsselte Namensauflösung im Internet erzwingen</em> und entferne ihn bei <em>Fallback auf unverschlüsselte Namensauflösung im Internet zulassen</em>.</li>
+<li>Siehst du die Option <em>Bei DNS-Störungen auf öffentliche DNS-Server zurückgreifen</em>, deaktiviere sie.</li>
 <li>Klicke auf <em>Übernehmen</em>.</li>
 </ol>
 <h2>ASUS</h2>
-<p>Aktuelle ASUS-Firmware (3.0.0.4.388 oder neuer) und Asuswrt-Merlin.</p>
+<p>ASUS-Firmware neuer als 3.0.0.4.386.4xxxx und Asuswrt-Merlin.</p>
 <ol>
 <li>Öffne die Admin-Seite des Routers und gehe zu <em>WAN → Internet Connection</em>.</li>
 <li>Stelle unter <em>WAN DNS Setting</em> das <em>DNS Privacy Protocol</em> auf <em>DNS-over-TLS (DoT)</em> und das <em>DNS-over-TLS Profile</em> auf <em>Strict</em>.</li>

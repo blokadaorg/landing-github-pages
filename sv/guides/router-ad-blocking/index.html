@@ -49,7 +49,7 @@
         <p class="crumbs"><a href="/sv/guides/">Guider</a></p>
         <h1>Blockera reklam i hela nätverket med reklamblockering i routern</h1>
         <p class="lead">Ställ in Blokada Cloud i routern en gång och skydda alla enheter hemma, även tv, spelkonsoler och smarta högtalare som inte kan köra en annonsblockerare.</p>
-        <p class="meta">Uppdaterad <time datetime="2026-09-23">2026-09-23</time></p>
+        <p class="meta">Uppdaterad <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
@@ -73,17 +73,17 @@
 <p><strong>Bara vanliga IP-adresser?</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Stöd för det är på väg. Till dess kan du ställa in dina enheter en i taget: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>. Du kan också köra en liten vidarebefordrare på en Raspberry Pi, som beskrivs i <a href="../switch-from-pihole/">Pi-hole-guiden</a>.</p>
 </div>
 <h2>FRITZ!Box</h2>
-<p>FRITZ!OS 7.20 eller senare.</p>
+<p>FRITZ!OS 7.20 eller senare. FRITZ!OS finns inte på svenska, så stegen använder de engelska namnen.</p>
 <ol>
-<li>Öppna <code>http://fritz.box</code> och gå till <em>Internet → Account Information → DNS Server</em>.</li>
-<li>Under <em>Encrypted Name Resolution on the Internet (DNS over TLS)</em> kryssar du i <em>Use encrypted name resolution</em>.</li>
-<li>Kryssa i <em>Enforce certificate verification for encrypted name resolution</em>.</li>
-<li>Avmarkera <em>Allow fallback to unencrypted name resolution</em>.</li>
-<li>Ange bara <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> under <em>Resolver names</em>. <strong>Ta bort alla andra poster.</strong> FRITZ!Box använder alla resolvers i listan, och varje annan resolver släpper igenom reklam.</li>
+<li>Öppna <code>http://fritz.box</code>, gå till <em>Internet → Account Information</em> och sedan fliken <em>DNS Server</em>.</li>
+<li>Aktivera <em>Encrypted name resolution in the internet (DNS over TLS)</em>.</li>
+<li>Ange bara <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> under <em>Resolved Names of the DNS Server</em>. <strong>Ta bort alla andra poster.</strong> FRITZ!Box använder alla resolvers i listan, och varje annan resolver släpper igenom reklam.</li>
+<li>Kryssa i alternativet som kräver certifikatkontroll och avmarkera det som tillåter återgång till okrypterad namnupplösning.</li>
+<li>Om du ser <em>Failover to public DNS servers when DNS disrupted</em> stänger du av det.</li>
 <li>Klicka på <em>Apply</em>.</li>
 </ol>
 <h2>ASUS</h2>
-<p>Nyare ASUS-firmware (3.0.0.4.388 eller senare) och Asuswrt-Merlin.</p>
+<p>ASUS-firmware senare än 3.0.0.4.386.4xxxx och Asuswrt-Merlin.</p>
 <ol>
 <li>Öppna routerns administrationssida och gå till <em>WAN → Internet Connection</em>.</li>
 <li>Under <em>WAN DNS Setting</em> ställer du in <em>DNS Privacy Protocol</em> på <em>DNS-over-TLS (DoT)</em> och <em>DNS-over-TLS Profile</em> på <em>Strict</em>.</li>

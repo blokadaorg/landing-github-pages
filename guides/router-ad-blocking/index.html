@@ -49,7 +49,7 @@
         <p class="crumbs"><a href="/guides/">Guides</a></p>
         <h1>Block ads on your whole network with router ad blocking</h1>
         <p class="lead">Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.</p>
-        <p class="meta">Updated <time datetime="2026-09-23">2026-09-23</time></p>
+        <p class="meta">Updated <time datetime="2026-10-01">2026-10-01</time></p>
       </div>
     </div>
   </header>
@@ -75,15 +75,15 @@
 <h2>FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 or later.</p>
 <ol>
-<li>Open <code>http://fritz.box</code> and go to <em>Internet → Account Information → DNS Server</em>.</li>
-<li>Under <em>Encrypted Name Resolution on the Internet (DNS over TLS)</em>, tick <em>Use encrypted name resolution</em>.</li>
-<li>Tick <em>Enforce certificate verification for encrypted name resolution</em>.</li>
-<li>Untick <em>Allow fallback to unencrypted name resolution</em>.</li>
-<li>In <em>Resolver names</em>, enter only <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span>. <strong>Remove every other entry.</strong> The FRITZ!Box uses all listed resolvers, and any other one lets ads through.</li>
+<li>Open <code>http://fritz.box</code> and go to <em>Internet → Account Information</em>, then the <em>DNS Server</em> tab.</li>
+<li>Turn on <em>Encrypted name resolution in the internet (DNS over TLS)</em>.</li>
+<li>In <em>Resolved Names of the DNS Server</em>, enter only <span class="copy"><code data-dns="dot">&lt;your-id&gt;.cloud.blokada.org</code></span>. <strong>Remove every other entry.</strong> The FRITZ!Box uses all listed resolvers, and any other one lets ads through.</li>
+<li>Tick the option that enforces certificate verification, and untick the one that allows fallback to unencrypted name resolution.</li>
+<li>If you see <em>Failover to public DNS servers when DNS disrupted</em>, turn it off.</li>
 <li>Click <em>Apply</em>.</li>
 </ol>
 <h2>ASUS</h2>
-<p>Recent ASUS firmware (3.0.0.4.388 or later) and Asuswrt-Merlin.</p>
+<p>ASUS firmware later than 3.0.0.4.386.4xxxx, and Asuswrt-Merlin.</p>
 <ol>
 <li>Open the router admin page and go to <em>WAN → Internet Connection</em>.</li>
 <li>Under <em>WAN DNS Setting</em>, set <em>DNS Privacy Protocol</em> to <em>DNS-over-TLS (DoT)</em> and <em>DNS-over-TLS Profile</em> to <em>Strict</em>.</li>
