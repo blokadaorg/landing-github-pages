@@ -102,12 +102,12 @@ Domains=~.</code></pre>
 </ol>
 <p>Delen efter <code>#</code> är ditt Blokada-DNS-namn: <span class="copy"><code data-dns="dot">&lt;ditt-id&gt;.cloud.blokada.org</code></span> systemd-resolved kontrollerar serverns certifikat mot det, och Blokada använder det för att veta vilken enhet som frågar.</p>
 <div class="note important">
-<p><strong>NetworkManager</strong> skickar också vidare nätverkets DNS-servrar. <code>Domains=~.</code> skickar alla uppslag till Blokada, men om <code>resolvectl status</code> fortfarande visar en annan server för en anslutning stänger du av automatisk DNS för den anslutningen (reglaget <em>Automatic</em> bredvid <em>DNS</em> i dess IPv4- och IPv6-inställningar).</p>
+<p><strong>NetworkManager</strong> skickar också med nätverkets DNS-servrar. <code>Domains=~.</code> skickar alla uppslag till Blokada, men om <code>resolvectl status</code> ändå visar en annan server på en anslutning, stäng av automatisk DNS för den anslutningen (brytaren <em>Automatisk</em> bredvid <em>DNS</em> i IPv4- och IPv6-inställningarna).</p>
 </div>
 </section><section class="guide-section"><h2 id="utan-systemd-resolved">Utan systemd-resolved</h2>
 <p>Om <code>resolvectl</code> inte hittas slår din distribution upp namn på ett annat sätt. Ställ in säker DNS i webbläsaren i stället, enligt <a href="../browser-dns-over-https/">webbläsarguiden</a>, eller ställ in din <a href="../router-ad-blocking/">router</a> för att skydda hela hemmet.</p>
 </section><section class="guide-section"><h2 id="kontrollera-att-det-fungerar">Kontrollera att det fungerar</h2>
-<p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Datorns uppslag visas där.</p>
+<p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Den här datorns uppslag visas där.</p>
 <div class="note aside">
 <p>Vill du också ha en VPN på den här datorn? <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> innehåller en WireGuard-konfiguration som krypterar all trafik, med samma blockering.</p>
 </div>
