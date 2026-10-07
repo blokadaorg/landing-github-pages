@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Page not found · Blokada</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+      /* GitHub Pages serves this file for any missing path, at any depth, so
+         it carries its own styles and uses absolute links only. */
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(150deg, #121212 15%, #1c1c1e 70%, #5a5a5a 94%);
+        color: #fff;
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        text-align: center;
+      }
+      main { padding: 24px; max-width: 520px; }
+      img { height: 44px; width: auto; }
+      h1 { font-size: 1.75rem; font-weight: 600; margin: 32px 0 12px; }
+      p { color: rgba(255, 255, 255, 0.8); line-height: 1.6; margin: 0 0 28px; }
+      a.btn {
+        display: inline-block;
+        margin: 6px;
+        padding: 12px 22px;
+        border-radius: 6px;
+        background: #fff;
+        color: #121212;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      a.btn.alt { background: transparent; color: #fff; border: 1px solid rgba(255, 255, 255, 0.5); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="/"><img src="/img/brand/white.png" alt="Blokada" width="132" height="44"></a>
+      <h1>Page not found</h1>
+      <p>The page you are looking for does not exist or has moved.</p>
+      <a class="btn" href="/">Go to the homepage</a>
+      <a class="btn alt" id="guides" href="/guides/">Setup guides</a>
+    </main>
+    <script>
+      // A dead link under /de/ or /sv/ goes back to that language's guides.
+      var lang = location.pathname.match(/^\/(de|sv)\//);
+      if (lang) document.getElementById('guides').href = '/' + lang[1] + '/guides/';
+    </script>
+  </body>
+</html>

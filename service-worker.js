@@ -1,29 +1,14 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
+// The homepage no longer uses a service worker. Browsers that registered the
+// old precaching one fetch this file on their next visit: it deletes that
+// worker's caches and unregisters itself. The open page is left alone, and
+// the visit after that comes from the network. Keep this file published.
+self.addEventListener('install', () => self.skipWaiting());
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
-
-importScripts(
-  "precache-manifest.aeb9673595628782181049c6f08c936a.js"
-);
-
-workbox.core.setCacheNameDetails({prefix: "landing"});
-
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.suppressWarnings();
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    caches.keys()
+      // Workbox named its caches after the "landing" prefix.
+      .then(keys => Promise.all(keys.filter(key => key.startsWith('landing-')).map(key => caches.delete(key))))
+      .then(() => self.registration.unregister())
+  );
+});
