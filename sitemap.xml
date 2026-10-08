@@ -2,12 +2,509 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blokada.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/bg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/cs/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/fi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/hu/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/id/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/pl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/pt-br/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/ro/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/tr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/zh-hant/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://blokada.org/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://blokada.org/cs/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://blokada.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://blokada.org/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://blokada.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://blokada.org/hu/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://blokada.org/id/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://blokada.org/it/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://blokada.org/ja/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://blokada.org/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://blokada.org/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://blokada.org/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://blokada.org/ro/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://blokada.org/ru/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://blokada.org/tr/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://blokada.org/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://blokada.org/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/android-private-dns/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/android-private-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/apple-devices/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/apple-devices/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/apple-devices/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/browser-dns-over-https/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/browser-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/browser-dns-over-https/"/>
   </url>
   <url>
     <loc>https://blokada.org/de/guides/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/linux-dns-over-tls/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/linux-dns-over-tls/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/linux-dns-over-tls/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/linux-dns-over-tls/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/router-ad-blocking/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/switch-from-mullvad-dns/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-mullvad-dns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-mullvad-dns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/switch-from-nextdns/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-nextdns/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-nextdns/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-nextdns/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/switch-from-pihole/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/windows-dns-over-https/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/windows-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/windows-dns-over-https/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/windows-dns-over-https/"/>
   </url>
   <url>
     <loc>https://blokada.org/guides/android-private-dns/</loc>
@@ -79,75 +576,6 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/windows-dns-over-https/"/>
   </url>
   <url>
-    <loc>https://blokada.org/sv/guides/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/android-private-dns/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/android-private-dns/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/android-private-dns/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/apple-devices/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/apple-devices/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/apple-devices/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/apple-devices/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/browser-dns-over-https/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/browser-dns-over-https/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/browser-dns-over-https/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/browser-dns-over-https/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/linux-dns-over-tls/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/linux-dns-over-tls/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/linux-dns-over-tls/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/linux-dns-over-tls/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/router-ad-blocking/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/switch-from-mullvad-dns/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-mullvad-dns/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-mullvad-dns/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/switch-from-nextdns/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-nextdns/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-nextdns/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-nextdns/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/switch-from-pihole/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/de/guides/windows-dns-over-https/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/windows-dns-over-https/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/windows-dns-over-https/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/windows-dns-over-https/"/>
-  </url>
-  <url>
     <loc>https://blokada.org/sv/guides/android-private-dns/</loc>
     <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/android-private-dns/"/>
@@ -167,6 +595,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/browser-dns-over-https/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/browser-dns-over-https/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/browser-dns-over-https/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/"/>
   </url>
   <url>
     <loc>https://blokada.org/sv/guides/linux-dns-over-tls/</loc>
