@@ -24,3 +24,14 @@ dialog.languages::backdrop{background:rgba(0,0,0,.5)}
 dialog.languages ul{list-style:none;margin:0 0 16px;padding:0;columns:2}
 dialog.languages a{display:block;padding:6px 0}
 dialog.languages [aria-current]{font-weight:600}
+
+/* Readable contrast (WCAG AA). The brand orange stays as it is: it is paired
+   with dark text, and links on white carry it as an underline. */
+.btn-warning,.btn-warning:hover,.btn-warning:focus,.btn-warning:not(:disabled):not(.disabled):active,
+.btn-success,.btn-success:hover,.btn-success:focus,.btn-success:not(:disabled):not(.disabled):active{color:#121212}
+a.text-warning,a.text-warning:hover,a.text-warning:focus{color:#32325d!important;text-decoration:underline;text-decoration-color:#ff9400;text-decoration-thickness:2px;text-underline-offset:5px}
+a.text-warning:hover,a.text-warning:focus{text-decoration-thickness:3px}
+.btn-danger,.btn-danger:hover{background-color:#dc2648;border-color:#dc2648}
+.btn-danger:not(:disabled):not(.disabled):active{background-color:#c41f3e;border-color:#dc2648}
+.text-success{color:#18805a!important}
+.text-muted{color:#687688!important}
