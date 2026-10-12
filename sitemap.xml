@@ -520,13 +520,6 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/linux-dns-over-tls/"/>
   </url>
   <url>
-    <loc>https://blokada.org/guides/router-ad-blocking/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
-  </url>
-  <url>
     <loc>https://blokada.org/guides/switch-from-mullvad-dns/</loc>
     <lastmod>2026-10-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-mullvad-dns/"/>
@@ -617,20 +610,6 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
   </url>
   <url>
-    <loc>https://blokada.org/de/guides/router-ad-blocking/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
-  </url>
-  <url>
-    <loc>https://blokada.org/sv/guides/router-ad-blocking/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
-    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
-  </url>
-  <url>
     <loc>https://blokada.org/sv/guides/switch-from-nextdns/</loc>
     <lastmod>2026-10-09</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-nextdns/"/>
@@ -643,5 +622,26 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/switch-from-pihole/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/switch-from-pihole/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/switch-from-pihole/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/de/guides/router-ad-blocking/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/guides/router-ad-blocking/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
+  </url>
+  <url>
+    <loc>https://blokada.org/sv/guides/router-ad-blocking/</loc>
+    <lastmod>2026-10-09</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://blokada.org/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://blokada.org/de/guides/router-ad-blocking/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://blokada.org/sv/guides/router-ad-blocking/"/>
   </url>
 </urlset>

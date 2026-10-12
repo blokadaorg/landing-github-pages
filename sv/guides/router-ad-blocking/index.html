@@ -86,7 +86,7 @@
           <li><a href="#asus">ASUS</a></li>
           <li><a href="#openwrt">OpenWrt</a></li>
           <li><a href="#andra-routrar">Andra routrar</a></li>
-          <li><a href="#routrar-som-bara-tar-en-ip-adress">Routrar som bara tar en IP-adress</a></li>
+          <li><a href="#routers-that-only-take-an-ip-address">Routrar som endast accepterar en IP-adress</a></li>
           <li><a href="#kontrollera-att-det-fungerar">Kontrollera att det fungerar</a></li>
           <li><a href="#om-vissa-enheter-fortfarande-visar-reklam">Om vissa enheter fortfarande visar reklam</a></li>
         </ol>
@@ -95,12 +95,12 @@
 
     <div class="guide-intro"><p>Alla enheter i nätverket frågar routern vilken DNS-server de ska använda. Peka routern mot Blokada Cloud, så blockeras reklam och spårare för allt som är anslutet till den. Det gäller även smarta tv-apparater, spelkonsoler, streamingstickor och smarta hem-enheter, som inte har plats för en app för reklamblockering.</p>
 </div><section class="guide-section"><h2 id="det-har-behover-din-router">Det här behöver din router</h2>
-<p>Det finns två sätt att ställa in en router:</p>
+<p>Det finns två sätt att konfigurera en router:</p>
 <ul>
-<li><strong>Krypterad DNS med ett värdnamn</strong>, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar har stöd för det, inklusive modellerna nedan. Beroende på vad din router stöder behöver du ditt DNS-namn eller din DoH-länk, båda finns ovan under <em>Dina uppgifter</em>.</li>
-<li><strong>En vanlig IPv6-DNS-adress.</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser som DNS. Om din gör det och din anslutning har IPv6 ger Blokada dig en IPv6-adress att ange. Se <a href="#routrar-som-bara-tar-en-ip-adress">Routrar som bara tar en IP-adress</a>.</li>
+<li><strong>Krypterad DNS med ett värdnamn</strong>, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar gör det, inklusive modellerna nedan. Beroende på vad din router stöder behöver du ditt DNS-namn eller din DoH-länk, båda finns ovan under <em>Dina uppgifter</em>.</li>
+<li><strong>En vanlig IPv6 DNS-adress.</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser för DNS. Om din gör det och din anslutning har IPv6, ger Blokada dig en IPv6-adress att ange. Se <a href="#routers-that-only-take-an-ip-address">Routrar som bara accepterar en IP-adress</a>.</li>
 </ul>
-<p>Använd krypterad DNS om din router stöder det. Då förblir uppslagen privata på vägen till Blokada.</p>
+<p>Använd krypterad DNS om din router stöder det. Uppslag hålls privata på sin väg till Blokada.</p>
 </section><section class="guide-section"><h2 id="fritz-box">FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 eller senare. FRITZ!OS finns inte på svenska, så stegen använder de engelska namnen.</p>
 <ol>
@@ -132,24 +132,24 @@
 <li><em>Save &amp; Apply</em>. Paketet pekar automatiskt dnsmasq mot den.</li>
 </ol>
 </section><section class="guide-section"><h2 id="andra-routrar">Andra routrar</h2>
-<p>Leta efter en inställning som heter <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> eller <em>DNS over HTTPS</em>. Ange ditt Blokada-DNS-namn eller din DoH-länk från ovan och ta bort alla andra DNS-servrar, även reservservrar. Om det inte finns någon sådan inställning använder du en vanlig IPv6-adress enligt nedan.</p>
-</section><section class="guide-section"><h2 id="routrar-som-bara-tar-en-ip-adress">Routrar som bara tar en IP-adress</h2>
-<p>Din router och din internetanslutning behöver IPv6 för det här. Stöd för vanliga IPv4-adresser kommer senare.</p>
+<p>Leta efter en inställning som heter <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> eller <em>DNS over HTTPS</em>. Ange ditt Blokada DNS-namn eller DoH-länk ovan och ta bort alla andra DNS-servrar, inklusive reservservrar. Om det inte finns någon sådan inställning, använd en vanlig IPv6-adress enligt nedan.</p>
+</section><section class="guide-section"><h2 id="routers-that-only-take-an-ip-address">Routrar som endast accepterar en IP-adress</h2>
+<p>Din router och din internetanslutning behöver IPv6 för detta. Stöd för vanliga IPv4-adresser kommer senare.</p>
 <ol>
-<li>Öppna <em>Setup</em> i <a href="https://app.blokada.org/setup?src=guides">dashboarden</a> och välj <em>Router, TV, game console</em>.</li>
-<li>Ge routern ett namn, till exempel <em>Routern hemma</em>, och välj <em>Get address</em>. Namnet visas i din aktivitet och kan inte ändras senare.</li>
-<li>Leta upp DNS-servrarna för IPv6 i routerns inställningar, ofta under <em>Internet</em>, <em>WAN</em> eller <em>IPv6</em>, och ange adressen som enda DNS-server.</li>
-<li><strong>Ta bort alla andra DNS-servrar, även IPv4-servrar.</strong> Enheter som fortfarande får en IPv4-DNS-server från routern skickar en del uppslag förbi Blokada. Om routern inte kan lämna IPv4-DNS tomt ställer du i stället in enheterna en i taget: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>
+<li>I <a href="https://app.blokada.org/setup?src=guides">dashboarden</a>, öppna <em>Inställningar</em> och välj <em>Router, TV, spelkonsol</em>.</li>
+<li>Ge routern ett namn, till exempel <em>Hemrouter</em>, och välj <em>Hämta adress</em>. Namnet visas i din aktivitet och kan inte ändras senare.</li>
+<li>Gå till routerinställningarna och leta upp DNS-servrarna för IPv6, ofta under <em>Internet</em>, <em>WAN</em> eller <em>IPv6</em>, och ange adressen som den enda DNS-servern.</li>
+<li><strong>Ta bort alla andra DNS-servrar, även IPv4-servrar.</strong> Enheter som fortfarande får en IPv4 DNS-server från routern skickar vissa uppslag utanför Blokada. Om routern inte kan lämna IPv4 DNS tom, ställ in dina enheter en i taget istället: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>
 </ol>
-<p>Samma inställning fungerar för en tv eller spelkonsol där du kan ange en DNS-server för hand. Ge var och en en egen adress, så visas den med namn i din aktivitet.</p>
+<p>Samma inställning fungerar för en TV eller spelkonsol där du kan ange DNS-server manuellt. Ge varje enhet en egen adress så den visas med namn i din aktivitet.</p>
 <div class="note aside">
-<p>De här uppslagen skickas okrypterade till Blokada, precis som med vilken vanlig DNS-server som helst. Om din router stöder DNS över TLS eller DNS över HTTPS använder du hellre det.</p>
+<p>Dessa uppslag skickas okrypterade till Blokada, precis som med vilken vanlig DNS-server som helst. Om din router stöder DNS over TLS eller DNS over HTTPS rekommenderas att du använder det istället.</p>
 </div>
 </section><section class="guide-section"><h2 id="kontrollera-att-det-fungerar">Kontrollera att det fungerar</h2>
 <ol>
 <li>Starta om en enhet, eller stäng av och slå på dess wifi, så att den får den nya inställningen.</li>
-<li>Stäng av Blokada på den enheten om den kör det, och öppna <a href="https://go.blokada.org/test">go.blokada.org/test</a>. Där ser du om din DNS går via Blokada.</li>
-<li>Surfa en stund och öppna sedan sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Nätverkets uppslag visas där.</li>
+<li>Stäng av Blokada på enheten om den körs där, och öppna sedan <a href="https://go.blokada.org/test">go.blokada.org/test</a>. Där visas om din DNS går genom Blokada.</li>
+<li>Surfa en stund och öppna sedan sidan <em>Aktivitet</em> i <a href="https://app.blokada.org/stats?src=guides">dashboarden</a>. Ditt nätverks uppslag visas där.</li>
 </ol>
 </section><section class="guide-section"><h2 id="om-vissa-enheter-fortfarande-visar-reklam">Om vissa enheter fortfarande visar reklam</h2>
 <p>Vissa enheter går förbi routern: telefoner med <em>privat DNS</em> inställd, webbläsare med <em>säker DNS</em> inställd på en annan leverantör och enheter med egen, hårdkodad DNS. Ställ in dem direkt på enheten, eller stäng av deras egen DNS-inställning.</p>

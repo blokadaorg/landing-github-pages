@@ -92,14 +92,14 @@
 <ul>
 <li><strong>Keine Box, um die du dich kümmern musst.</strong> Keine SD-Karten, keine Updates, kein Ausfall, wenn der Pi ausfällt.</li>
 <li><strong>Funktioniert auch unterwegs.</strong> Handys und Laptops blockieren weiter, auch mobil und in anderen WLANs.</li>
-<li><strong>Verschlüsselt.</strong> Geräte sprechen mit Blokada über DNS over TLS oder DNS over HTTPS, dein Anbieter kann deine Anfragen also weder lesen noch verändern. Ausgenommen ist ein Router oder Gerät, das mit einer einfachen IPv6-Adresse eingerichtet ist. Seine Anfragen sind nicht verschlüsselt.</li>
+<li><strong>Verschlüsselt.</strong> Geräte kommunizieren mit Blokada über DNS over TLS oder DNS over HTTPS, sodass dein Anbieter deine Anfragen nicht lesen oder verändern kann. Eine Ausnahme ist ein Router oder Gerät, das mit einer einfachen IPv6-Adresse eingerichtet ist; dessen Anfragen sind nicht verschlüsselt.</li>
 <li><strong>Ein Dashboard.</strong> Sperrlisten, erlaubte und blockierte Domains und die Aktivität pro Gerät, unter <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
 </ul>
 <p>Es gibt zwei Wege zum Wechsel: Ersetze den Pi-hole ganz, oder behalte ihn und nutze Blokada Cloud als Upstream.</p>
 </div><section class="guide-section"><h2 id="option-1-den-pi-hole-ersetzen">Option 1: den Pi-hole ersetzen</h2>
 <ol>
 <li><strong>Hol dir Blokada Cloud</strong> und öffne das Dashboard. Deinen DNS-Namen und deinen DoH-Link findest du dort unter <em>Einrichtung</em> und oben unter <em>Deine Daten</em>.</li>
-<li><strong>Stelle deinen Router auf Blokada statt auf den Pi-hole um.</strong> Folge der <a href="../router-ad-blocking/">Router-Anleitung</a>. Sie deckt auch Router ab, die als DNS-Server nur eine einfache IP-Adresse annehmen, solange dein Anschluss IPv6 hat. Ohne IPv6 richtest du stattdessen deine Geräte einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac und Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> und <a href="../browser-dns-over-https/">Browser</a>.</li>
+<li><strong>Stelle deinen Router auf Blokada statt auf den Pi-hole um.</strong> Folge der <a href="../router-ad-blocking/">Router-Anleitung</a>. Dort sind auch Router abgedeckt, die nur eine einfache IP-Adresse als DNS-Server akzeptieren, sofern deine Verbindung IPv6 hat. Ohne IPv6 richte deine Geräte stattdessen einzeln ein: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac und Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> und <a href="../browser-dns-over-https/">Browser</a>.</li>
 <li><strong>War dein Pi-hole der DHCP-Server,</strong> schalte DHCP in deinem Router wieder ein, <em>bevor</em> du den Pi ausschaltest. Sonst bekommen deine Geräte keine Netzwerkadressen mehr.</li>
 <li><strong>Übertrage deine Listen.</strong> Wähle im Dashboard unter <em>Sperrlisten</em> deine Sperrlisten und füge unter <em>Ausnahmen</em> eigene erlaubte oder blockierte Domains hinzu.</li>
 <li><strong>Schalte den Pi-hole aus,</strong> oder nutze ihn für etwas anderes.</li>

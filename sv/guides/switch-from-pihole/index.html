@@ -92,20 +92,20 @@
 <ul>
 <li><strong>Ingen låda att sköta.</strong> Inga SD-kort, inga uppdateringar och inget avbrott när Pi:n går ner.</li>
 <li><strong>Fungerar utanför hemmet.</strong> Telefoner och datorer behåller blockeringen på mobildata och andra wifi-nätverk.</li>
-<li><strong>Krypterat.</strong> Enheterna pratar med Blokada via DNS över TLS eller DNS över HTTPS, så din leverantör kan inte läsa eller ändra dina uppslag. Undantaget är en router eller enhet som är inställd med en vanlig IPv6-adress, vars uppslag inte är krypterade.</li>
+<li><strong>Krypterat.</strong> Enheter kommunicerar med Blokada via DNS över TLS eller DNS över HTTPS, så din leverantör kan varken läsa eller ändra dina uppslag. Undantaget är en router eller enhet som är inställd med en vanlig IPv6-adress, vars uppslag inte är krypterade.</li>
 <li><strong>En dashboard.</strong> Blocklistor, tillåtna och blockerade domäner och aktivitet per enhet, på <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
 </ul>
 <p>Det finns två sätt att byta. Ersätt Pi-hole helt, eller behåll den och använd Blokada Cloud som uppströmsserver.</p>
 </div><section class="guide-section"><h2 id="alternativ-1-ersatt-pi-hole">Alternativ 1: ersätt Pi-hole</h2>
 <ol>
 <li><strong>Skaffa Blokada Cloud</strong> och öppna dashboarden. Ditt DNS-namn och din DoH-länk finns där under <em>Inställningar</em> och under <em>Dina uppgifter</em> ovan.</li>
-<li><strong>Peka routern mot Blokada i stället för Pi-hole.</strong> Följ <a href="../router-ad-blocking/">routerguiden</a>. Den tar också upp routrar som bara accepterar en vanlig IP-adress som DNS-server, så länge din anslutning har IPv6. Utan IPv6 ställer du in enheterna en i taget i stället: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>
+<li><strong>Peka routern mot Blokada i stället för Pi-hole.</strong> Följ <a href="../router-ad-blocking/">routerguiden</a>. Guiden täcker även routrar som bara accepterar en vanlig IP-adress som DNS-server, så länge din anslutning har IPv6. Utan IPv6 ställer du in dina enheter en och en istället: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>
 <li><strong>Om din Pi-hole var DHCP-server</strong> aktiverar du DHCP i routern igen <em>innan</em> du stänger av Pi:n. Annars slutar dina enheter att få nätverksadresser.</li>
 <li><strong>Flytta dina listor.</strong> I dashboarden väljer du blocklistor under <em>Blocklistor</em> och lägger till egna tillåtna eller blockerade domäner under <em>Undantag</em>.</li>
 <li><strong>Stäng av Pi-hole,</strong> eller använd den till något annat.</li>
 </ol>
 <div class="note aside">
-<p>Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada-DNS-namn. En router som är inställd med ett Blokada-DNS-namn eller en IPv6-adress visas som en enhet.</p>
+<p>Din Pi-hole visade varje enhet i nätverket med dess IP-adress. Med Blokada visas varje enhet med sitt eget namn, så länge den använder sitt eget Blokada-DNS-namn. En router som är inställd med ett Blokada-DNS-namn eller IPv6-adress visas som en enhet.</p>
 </div>
 </section><section class="guide-section"><h2 id="alternativ-2-behall-pi-hole-och-anvand-blokada-cloud-uppstroms">Alternativ 2: behåll Pi-hole och använd Blokada Cloud uppströms</h2>
 <p>Vill du behålla din lokala installation, till exempel lokala värdnamn, DHCP eller egna listor, kan du låta Pi-hole vidarebefordra sina uppslag till Blokada över en krypterad anslutning. Pi-hole kan inte själv vidarebefordra krypterat, så en liten vidarebefordrare körs bredvid. Den här guiden använder <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, en vidarebefordrare med öppen källkod som består av en enda fil.</p>
