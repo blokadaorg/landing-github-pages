@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/de/"},{"@type":"ListItem","position":2,"name":"Anleitungen","item":"https://blokada.org/de/guides/"},{"@type":"ListItem","position":3,"name":"Eine NextDNS-Alternative mit derselben Einrichtung auf jedem Gerät","item":"https://blokada.org/de/guides/switch-from-nextdns/"}]},{"@type":"Article","headline":"Eine NextDNS-Alternative mit derselben Einrichtung auf jedem Gerät","description":"Wechsle von NextDNS zu Blokada Cloud. Ersetze NextDNS-DNS-Name, DoH-Link oder Profil auf Handy, Computer und Router und blockiere weiter Werbung.","inLanguage":"de","dateModified":"2026-10-02","mainEntityOfPage":"https://blokada.org/de/guides/switch-from-nextdns/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/de/"},{"@type":"ListItem","position":2,"name":"Anleitungen","item":"https://blokada.org/de/guides/"},{"@type":"ListItem","position":3,"name":"Eine NextDNS-Alternative mit derselben Einrichtung auf jedem Gerät","item":"https://blokada.org/de/guides/switch-from-nextdns/"}]},{"@type":"Article","headline":"Eine NextDNS-Alternative mit derselben Einrichtung auf jedem Gerät","description":"Wechsle von NextDNS zu Blokada Cloud. Ersetze NextDNS-DNS-Name, DoH-Link oder Profil auf Handy, Computer und Router und blockiere weiter Werbung.","inLanguage":"de","dateModified":"2026-10-09","mainEntityOfPage":"https://blokada.org/de/guides/switch-from-nextdns/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
 </head>
 <body>
   <header class="hero">
@@ -138,11 +138,11 @@
 <p>Hast du <code>https://dns.nextdns.io/…</code> als <em>sicheres DNS</em> in deinem Browser eingetragen, ersetze es durch deinen DoH-Link, wie in der <a href="../browser-dns-over-https/">Browser-Anleitung</a> beschrieben.</p>
 <h3>Router</h3>
 <p>Nutzt dein Router NextDNS über DNS over TLS oder DNS over HTTPS, ersetze den NextDNS-Namen oder -Link durch deinen von Blokada, wie in der <a href="../router-ad-blocking/">Router-Anleitung</a> beschrieben.</p>
-<p>Nutzt er NextDNS über einfache IP-Adressen mit einer <em>verknüpften IP</em> (<em>linked IP</em>), kann Blokada das noch nicht übernehmen. Unterstützung für Router mit einfachen DNS-Adressen ist in Arbeit. Bis dahin richtest du deine Geräte einzeln ein oder nutzt einen Router, der verschlüsseltes DNS unterstützt.</p>
+<p>Nutzt er NextDNS über einfache IP-Adressen, ersetze sie durch eine Blokada-IPv6-Adresse, wie in der <a href="../router-ad-blocking/">Router-Anleitung</a>. Dafür braucht dein Anschluss IPv6, und die Anfragen sind nicht verschlüsselt. Blokada hat noch keine einfachen IPv4-Adressen, daher lässt sich eine Einrichtung mit einer <em>verknüpften IP</em> (<em>linked IP</em>) von NextDNS nicht direkt übernehmen. Ohne IPv6 richtest du deine Geräte einzeln ein oder nutzt einen Router, der verschlüsseltes DNS unterstützt.</p>
 </section><section class="guide-section"><h2 id="prufen-ob-es-funktioniert">Prüfen, ob es funktioniert</h2>
 <p>Öffne ein paar Websites und sieh dir dann die Seite <em>Aktivität</em> im Dashboard an. Dort siehst du die Anfragen deiner Geräte, blockierte sind markiert. Taucht ein Gerät nicht auf, nutzt es noch NextDNS.</p>
 </section>
-    <p class="updated">Aktualisiert <time datetime="2026-10-02">2026-10-02</time></p>
+    <p class="updated">Aktualisiert <time datetime="2026-10-09">2026-10-09</time></p>
 
     <aside class="cta">
   <h2>Blokada Cloud</h2>

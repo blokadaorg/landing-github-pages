@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://blokada.org/guides/"},{"@type":"ListItem","position":3,"name":"A Pi-hole alternative that needs no hardware","item":"https://blokada.org/guides/switch-from-pihole/"}]},{"@type":"Article","headline":"A Pi-hole alternative that needs no hardware","description":"Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.","inLanguage":"en","dateModified":"2026-10-02","mainEntityOfPage":"https://blokada.org/guides/switch-from-pihole/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://blokada.org/guides/"},{"@type":"ListItem","position":3,"name":"A Pi-hole alternative that needs no hardware","item":"https://blokada.org/guides/switch-from-pihole/"}]},{"@type":"Article","headline":"A Pi-hole alternative that needs no hardware","description":"Move your home's ad blocking from a Pi-hole to Blokada Cloud, or keep your Pi-hole and send its lookups through Blokada.","inLanguage":"en","dateModified":"2026-10-09","mainEntityOfPage":"https://blokada.org/guides/switch-from-pihole/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
 </head>
 <body>
   <header class="hero">
@@ -92,20 +92,20 @@
 <ul>
 <li><strong>No box to maintain.</strong> No SD cards, no updates, no outage when the Pi goes down.</li>
 <li><strong>It works away from home.</strong> Phones and laptops keep their blocking on mobile data and other Wi-Fi networks.</li>
-<li><strong>Encrypted.</strong> Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups.</li>
+<li><strong>Encrypted.</strong> Devices talk to Blokada over DNS over TLS or DNS over HTTPS, so your provider cannot read or change your lookups. The exception is a router or device set up with a plain IPv6 address, whose lookups are not encrypted.</li>
 <li><strong>One dashboard.</strong> Blocklists, allowed and blocked domains, and activity per device, at <a href="https://app.blokada.org/?src=guides">app.blokada.org</a>.</li>
 </ul>
 <p>There are two ways to switch. Replace the Pi-hole completely, or keep it and use Blokada Cloud as its upstream.</p>
 </div><section class="guide-section"><h2 id="option-1-replace-the-pi-hole">Option 1: replace the Pi-hole</h2>
 <ol>
 <li><strong>Get Blokada Cloud</strong> and open the dashboard. Your DNS name and DoH link are under <em>Setup</em> there, and under <em>Your details</em> above.</li>
-<li><strong>Point your router at Blokada instead of the Pi-hole.</strong> Follow the <a href="../router-ad-blocking/">router guide</a>. If your router only accepts a plain IP address as DNS server, set up your devices one by one instead: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>.</li>
+<li><strong>Point your router at Blokada instead of the Pi-hole.</strong> Follow the <a href="../router-ad-blocking/">router guide</a>. It also covers routers that only accept a plain IP address as DNS server, as long as your connection has IPv6. Without IPv6, set up your devices one by one instead: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>.</li>
 <li><strong>If your Pi-hole was the DHCP server,</strong> turn DHCP back on in your router <em>before</em> you switch the Pi off. Otherwise your devices stop getting network addresses.</li>
 <li><strong>Move your lists.</strong> In the dashboard, choose blocklists under <em>Blocklists</em>, and add your own allowed or blocked domains under <em>Exceptions</em>.</li>
 <li><strong>Switch the Pi-hole off,</strong> or keep it for something else.</li>
 </ol>
 <div class="note aside">
-<p>Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name shows up as one device.</p>
+<p>Your Pi-hole showed every device on the network by its IP address. With Blokada each device shows up by its own name, as long as it uses its own Blokada DNS name. A router set up with one Blokada DNS name or IPv6 address shows up as one device.</p>
 </div>
 </section><section class="guide-section"><h2 id="option-2-keep-the-pi-hole-use-blokada-cloud-upstream">Option 2: keep the Pi-hole, use Blokada Cloud upstream</h2>
 <p>If you want to keep your local setup, such as local host names, DHCP or your own lists, let the Pi-hole forward its lookups to Blokada over an encrypted connection. Pi-hole cannot do encrypted forwarding itself, so a small forwarder runs next to it. This guide uses <a href="https://github.com/AdguardTeam/dnsproxy">dnsproxy</a>, an open source forwarder that is a single file.</p>
@@ -135,7 +135,7 @@ WantedBy=multi-user.target</code></pre>
 <p><strong>Do I need Blokada Plus?</strong> No. Blokada Cloud covers DNS blocking for your whole home. <a href="https://app.blokada.org/activate?tier=plus&amp;src=guides">Blokada Plus</a> adds a VPN on top.</p>
 <p><strong>What if Blokada is unreachable?</strong> Your devices cannot resolve names until it is back, just as when a Pi-hole goes down. Don't add a second, unfiltered DNS server as fallback. Most devices use all their servers at random, so ads would get through.</p>
 </section>
-    <p class="updated">Updated <time datetime="2026-10-02">2026-10-02</time></p>
+    <p class="updated">Updated <time datetime="2026-10-09">2026-10-09</time></p>
 
     <aside class="cta">
   <h2>Blokada Cloud</h2>

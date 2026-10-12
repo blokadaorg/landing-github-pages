@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/sv/"},{"@type":"ListItem","position":2,"name":"Guider","item":"https://blokada.org/sv/guides/"},{"@type":"ListItem","position":3,"name":"Ett alternativ till NextDNS med samma inställning på alla enheter","item":"https://blokada.org/sv/guides/switch-from-nextdns/"}]},{"@type":"Article","headline":"Ett alternativ till NextDNS med samma inställning på alla enheter","description":"Byt från NextDNS till Blokada Cloud. Ersätt NextDNS-namnet, DoH-länken eller profilen med Blokadas på telefon, dator och router och behåll reklamblockeringen.","inLanguage":"sv","dateModified":"2026-10-02","mainEntityOfPage":"https://blokada.org/sv/guides/switch-from-nextdns/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/sv/"},{"@type":"ListItem","position":2,"name":"Guider","item":"https://blokada.org/sv/guides/"},{"@type":"ListItem","position":3,"name":"Ett alternativ till NextDNS med samma inställning på alla enheter","item":"https://blokada.org/sv/guides/switch-from-nextdns/"}]},{"@type":"Article","headline":"Ett alternativ till NextDNS med samma inställning på alla enheter","description":"Byt från NextDNS till Blokada Cloud. Ersätt NextDNS-namnet, DoH-länken eller profilen med Blokadas på telefon, dator och router och behåll reklamblockeringen.","inLanguage":"sv","dateModified":"2026-10-09","mainEntityOfPage":"https://blokada.org/sv/guides/switch-from-nextdns/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
 </head>
 <body>
   <header class="hero">
@@ -138,11 +138,11 @@
 <p>Om du angav <code>https://dns.nextdns.io/…</code> som webbläsarens <em>säkra DNS</em> byter du ut den mot din DoH-länk, enligt <a href="../browser-dns-over-https/">webbläsarguiden</a>.</p>
 <h3>Router</h3>
 <p>Om din router använder NextDNS via DNS över TLS eller DNS över HTTPS ersätter du NextDNS-namnet eller -länken med ditt Blokada-DNS-namn eller din DoH-länk, enligt <a href="../router-ad-blocking/">routerguiden</a>.</p>
-<p>Om den använder NextDNS via vanliga IP-adresser med en <em>linked IP</em> kan Blokada inte ta över det än. Stöd för routrar med vanliga DNS-adresser är på väg. Till dess kan du ställa in dina enheter en i taget, eller använda en router som har stöd för krypterad DNS.</p>
+<p>Om den använder NextDNS via vanliga IP-adresser byter du ut dem mot en IPv6-adress från Blokada, som i <a href="../router-ad-blocking/">routerguiden</a>. Det kräver IPv6 på din anslutning, och uppslagen är inte krypterade. Blokada har inga vanliga IPv4-adresser än, så en inställning med en <em>linked IP</em> från NextDNS kan inte tas över som den är. Utan IPv6 ställer du in dina enheter en i taget, eller använder en router som har stöd för krypterad DNS.</p>
 </section><section class="guide-section"><h2 id="kontrollera-att-det-fungerar">Kontrollera att det fungerar</h2>
 <p>Öppna några webbplatser och titta sedan på sidan <em>Aktivitet</em> i dashboarden. Där ser du dina enheters uppslag, och de blockerade är markerade. Om en enhet inte syns använder den fortfarande NextDNS.</p>
 </section>
-    <p class="updated">Uppdaterad <time datetime="2026-10-02">2026-10-02</time></p>
+    <p class="updated">Uppdaterad <time datetime="2026-10-09">2026-10-09</time></p>
 
     <aside class="cta">
   <h2>Blokada Cloud</h2>

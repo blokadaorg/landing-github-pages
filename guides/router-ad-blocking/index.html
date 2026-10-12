@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://blokada.org/guides/"},{"@type":"ListItem","position":3,"name":"Block ads on your whole network with router ad blocking","item":"https://blokada.org/guides/router-ad-blocking/"}]},{"@type":"Article","headline":"Block ads on your whole network with router ad blocking","description":"Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.","inLanguage":"en","dateModified":"2026-10-02","mainEntityOfPage":"https://blokada.org/guides/router-ad-blocking/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://blokada.org/guides/"},{"@type":"ListItem","position":3,"name":"Block ads on your whole network with router ad blocking","item":"https://blokada.org/guides/router-ad-blocking/"}]},{"@type":"Article","headline":"Block ads on your whole network with router ad blocking","description":"Set up Blokada Cloud on your router once, and every device at home is covered, including TVs, game consoles and smart speakers that cannot run an ad blocker.","inLanguage":"en","dateModified":"2026-10-09","mainEntityOfPage":"https://blokada.org/guides/router-ad-blocking/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
 </head>
 <body>
   <header class="hero">
@@ -86,6 +86,7 @@
           <li><a href="#asus">ASUS</a></li>
           <li><a href="#openwrt">OpenWrt</a></li>
           <li><a href="#other-routers">Other routers</a></li>
+          <li><a href="#routers-that-only-take-an-ip-address">Routers that only take an IP address</a></li>
           <li><a href="#check-that-it-works">Check that it works</a></li>
           <li><a href="#if-some-devices-still-show-ads">If some devices still show ads</a></li>
         </ol>
@@ -94,10 +95,12 @@
 
     <div class="guide-intro"><p>Every device on your network asks the router which DNS server to use. Point the router at Blokada Cloud, and ads and trackers are blocked for everything behind it. That includes smart TVs, game consoles, streaming sticks and smart home devices, which have no room for an ad blocker app.</p>
 </div><section class="guide-section"><h2 id="what-your-router-needs">What your router needs</h2>
-<p>Your router must support <strong>encrypted DNS with a host name</strong>, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers do, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under <em>Your details</em> above.</p>
-<div class="note important">
-<p><strong>Only plain IP addresses?</strong> Many internet provider routers only accept plain IP addresses for DNS. Support for those is on the way. Until then, set up your devices one at a time: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>. You can also run a small forwarder on a Raspberry Pi, as described in the <a href="../switch-from-pihole/">Pi-hole guide</a>.</p>
-</div>
+<p>There are two ways to set up a router:</p>
+<ul>
+<li><strong>Encrypted DNS with a host name</strong>, that is DNS over TLS (DoT) or DNS over HTTPS (DoH). Many recent routers support it, including the models below. Depending on which your router supports, you need your DNS name or your DoH link, both under <em>Your details</em> above.</li>
+<li><strong>A plain IPv6 DNS address.</strong> Many internet provider routers only accept plain IP addresses for DNS. If yours does and your connection has IPv6, Blokada gives you an IPv6 address to enter. See <a href="#routers-that-only-take-an-ip-address">Routers that only take an IP address</a>.</li>
+</ul>
+<p>Use encrypted DNS if your router supports it. Lookups stay private on their way to Blokada.</p>
 </section><section class="guide-section"><h2 id="fritz-box">FRITZ!Box</h2>
 <p>FRITZ!OS 7.20 or later.</p>
 <ol>
@@ -129,11 +132,24 @@
 <li><em>Save &amp; Apply</em>. The package points dnsmasq at it automatically.</li>
 </ol>
 </section><section class="guide-section"><h2 id="other-routers">Other routers</h2>
-<p>Look for a setting called <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> or <em>DNS over HTTPS</em>. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers.</p>
+<p>Look for a setting called <em>DNS over TLS</em>, <em>Private DNS</em>, <em>Encrypted DNS</em> or <em>DNS over HTTPS</em>. Enter your Blokada DNS name or DoH link from above, and remove every other DNS server, including fallback servers. If there is no such setting, use a plain IPv6 address as below.</p>
+</section><section class="guide-section"><h2 id="routers-that-only-take-an-ip-address">Routers that only take an IP address</h2>
+<p>Your router and your internet connection need IPv6 for this. Support for plain IPv4 addresses is coming later.</p>
+<ol>
+<li>In the <a href="https://app.blokada.org/setup?src=guides">dashboard</a>, open <em>Setup</em> and choose <em>Router, TV, game console</em>.</li>
+<li>Name the router, for example <em>Home router</em>, and select <em>Get address</em>. The name shows up in your activity and can't be changed later.</li>
+<li>In the router's settings, find the DNS servers for IPv6, often under <em>Internet</em>, <em>WAN</em> or <em>IPv6</em>, and enter the address as the only DNS server.</li>
+<li><strong>Remove every other DNS server, IPv4 ones included.</strong> Devices that still get an IPv4 DNS server from the router send some lookups past Blokada. If the router can't leave IPv4 DNS empty, set up your devices one at a time instead: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac and Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a>, and <a href="../browser-dns-over-https/">browsers</a>.</li>
+</ol>
+<p>The same setup works for a TV or game console that lets you enter a DNS server by hand. Give each one its own address, so it shows up by name in your activity.</p>
+<div class="note aside">
+<p>These lookups travel unencrypted to Blokada, like with any plain DNS server. If your router supports DNS over TLS or DNS over HTTPS, use that instead.</p>
+</div>
 </section><section class="guide-section"><h2 id="check-that-it-works">Check that it works</h2>
 <ol>
 <li>Restart one device, or turn its Wi-Fi off and on, so it picks up the change.</li>
-<li>Browse for a minute, then open the <em>Activity</em> page in the dashboard. Your network's lookups show up there.</li>
+<li>On that device, turn off Blokada if it runs it, then open <a href="https://go.blokada.org/test">go.blokada.org/test</a>. It shows whether your DNS goes through Blokada.</li>
+<li>Browse for a minute, then open the <em>Activity</em> page in the <a href="https://app.blokada.org/stats?src=guides">dashboard</a>. Your network's lookups show up there.</li>
 </ol>
 </section><section class="guide-section"><h2 id="if-some-devices-still-show-ads">If some devices still show ads</h2>
 <p>Some devices bypass the router: phones with <em>Private DNS</em> set, browsers with <em>secure DNS</em> set to another provider, and devices that hard-code their own DNS. Set those up on the device itself, or turn their own DNS setting off.</p>
@@ -141,7 +157,7 @@
 <p>Behind the router, all devices share one address, so the dashboard shows your network as a single device. Set up phones and laptops with their own Blokada DNS name if you want to see them separately. They also keep their blocking when they leave home.</p>
 </div>
 </section>
-    <p class="updated">Updated <time datetime="2026-10-02">2026-10-02</time></p>
+    <p class="updated">Updated <time datetime="2026-10-09">2026-10-09</time></p>
 
     <aside class="cta">
   <h2>Blokada Cloud</h2>

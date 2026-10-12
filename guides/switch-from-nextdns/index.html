@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/guides/assets/guides.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://blokada.org/guides/"},{"@type":"ListItem","position":3,"name":"A NextDNS alternative with the same setup on every device","item":"https://blokada.org/guides/switch-from-nextdns/"}]},{"@type":"Article","headline":"A NextDNS alternative with the same setup on every device","description":"Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.","inLanguage":"en","dateModified":"2026-10-02","mainEntityOfPage":"https://blokada.org/guides/switch-from-nextdns/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Blokada","item":"https://blokada.org/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://blokada.org/guides/"},{"@type":"ListItem","position":3,"name":"A NextDNS alternative with the same setup on every device","item":"https://blokada.org/guides/switch-from-nextdns/"}]},{"@type":"Article","headline":"A NextDNS alternative with the same setup on every device","description":"Move from NextDNS to Blokada Cloud. Swap your NextDNS DNS name, DoH link or profile for Blokada's on your phone, computer and router, and keep your ad blocking.","inLanguage":"en","dateModified":"2026-10-09","mainEntityOfPage":"https://blokada.org/guides/switch-from-nextdns/","author":{"@type":"Organization","name":"Blokada","url":"https://blokada.org/"},"publisher":{"@type":"Organization","name":"Blokada","logo":{"@type":"ImageObject","url":"https://blokada.org/img/blokada-thumb.png"}}}]}</script>
 </head>
 <body>
   <header class="hero">
@@ -138,11 +138,11 @@
 <p>If you set <code>https://dns.nextdns.io/…</code> as your browser's <em>secure DNS</em>, replace it with your DoH link, as in the <a href="../browser-dns-over-https/">browser guide</a>.</p>
 <h3>Router</h3>
 <p>If your router uses NextDNS over DNS over TLS or DNS over HTTPS, replace the NextDNS name or link with your Blokada one, as in the <a href="../router-ad-blocking/">router guide</a>.</p>
-<p>If it uses NextDNS through plain IP addresses with a <em>linked IP</em>, Blokada can't take that over yet. Support for routers with plain DNS addresses is on the way. Until then, set up your devices one by one, or use a router that supports encrypted DNS.</p>
+<p>If it uses NextDNS through plain IP addresses, replace them with a Blokada IPv6 address, as in the <a href="../router-ad-blocking/">router guide</a>. This needs IPv6 on your connection, and the lookups are not encrypted. Blokada has no plain IPv4 addresses yet, so a setup with a NextDNS <em>linked IP</em> can't be taken over as it is. Without IPv6, set up your devices one by one, or use a router that supports encrypted DNS.</p>
 </section><section class="guide-section"><h2 id="check-that-it-works">Check that it works</h2>
 <p>Open a few websites, then look at the <em>Activity</em> page in the dashboard. You see your devices' lookups there, with blocked ones marked. If a device doesn't show up, it is still using NextDNS.</p>
 </section>
-    <p class="updated">Updated <time datetime="2026-10-02">2026-10-02</time></p>
+    <p class="updated">Updated <time datetime="2026-10-09">2026-10-09</time></p>
 
     <aside class="cta">
   <h2>Blokada Cloud</h2>
