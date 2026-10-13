@@ -97,8 +97,8 @@
 </div><section class="guide-section"><h2 id="det-har-behover-din-router">Det här behöver din router</h2>
 <p>Det finns två sätt att konfigurera en router:</p>
 <ul>
-<li><strong>Krypterad DNS med ett värdnamn</strong>, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar gör det, inklusive modellerna nedan. Beroende på vad din router stöder behöver du ditt DNS-namn eller din DoH-länk, båda finns ovan under <em>Dina uppgifter</em>.</li>
-<li><strong>En vanlig IPv6 DNS-adress.</strong> Många routrar från internetleverantörer accepterar bara vanliga IP-adresser för DNS. Om din gör det och din anslutning har IPv6, ger Blokada dig en IPv6-adress att ange. Se <a href="#routers-that-only-take-an-ip-address">Routrar som bara accepterar en IP-adress</a>.</li>
+<li>Din router måste stödja <strong>krypterad DNS med ett värdnamn</strong>, det vill säga DNS över TLS (DoT) eller DNS över HTTPS (DoH). Många nyare routrar gör det, inklusive modellerna nedan. Beroende på vad din router stöder behöver du ditt DNS-namn eller din DoH-länk, båda finns ovan under <em>Dina uppgifter</em>.</li>
+<li><strong>En vanlig IPv6 DNS-adress.</strong> Många routers från internetleverantörer accepterar bara vanliga IP-adresser för DNS. Om din gör det och din anslutning har IPv6, ger Blokada dig en IPv6-adress att ange. Se <a href="#routers-that-only-take-an-ip-address">Routrar som bara accepterar en IP-adress</a>.</li>
 </ul>
 <p>Använd krypterad DNS om din router stöder det. Uppslag hålls privata på sin väg till Blokada.</p>
 </section><section class="guide-section"><h2 id="fritz-box">FRITZ!Box</h2>
@@ -136,7 +136,7 @@
 </section><section class="guide-section"><h2 id="routers-that-only-take-an-ip-address">Routrar som endast accepterar en IP-adress</h2>
 <p>Din router och din internetanslutning behöver IPv6 för detta. Stöd för vanliga IPv4-adresser kommer senare.</p>
 <ol>
-<li>I <a href="https://app.blokada.org/setup?src=guides">dashboarden</a>, öppna <em>Inställningar</em> och välj <em>Router, TV, spelkonsol</em>.</li>
+<li>I <a href="https://app.blokada.org/setup?src=guides">dashboarden</a>, öppna <em>Konfiguration</em> och välj <em>Router, TV, spelkonsol</em>.</li>
 <li>Ge routern ett namn, till exempel <em>Hemrouter</em>, och välj <em>Hämta adress</em>. Namnet visas i din aktivitet och kan inte ändras senare.</li>
 <li>Gå till routerinställningarna och leta upp DNS-servrarna för IPv6, ofta under <em>Internet</em>, <em>WAN</em> eller <em>IPv6</em>, och ange adressen som den enda DNS-servern.</li>
 <li><strong>Ta bort alla andra DNS-servrar, även IPv4-servrar.</strong> Enheter som fortfarande får en IPv4 DNS-server från routern skickar vissa uppslag utanför Blokada. Om routern inte kan lämna IPv4 DNS tom, ställ in dina enheter en i taget istället: <a href="../android-private-dns/">Android</a>, <a href="../apple-devices/">Mac och Apple TV</a>, <a href="../windows-dns-over-https/">Windows</a>, <a href="../linux-dns-over-tls/">Linux</a> och <a href="../browser-dns-over-https/">webbläsare</a>.</li>

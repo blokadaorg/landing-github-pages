@@ -412,5 +412,11 @@ a.btn[data-dns] { background: var(--accent); color: #fff; }
 }
 .guide-section ol > li:last-child { padding-bottom: 0; }
 
+/* The illustration on a product page, beside its list of points. */
+.product-ill { float: right; width: 34%; max-width: 240px; height: auto; margin: 0 0 16px 24px; }
+/* The section grows to hold the illustration, so the next one starts below it. */
+.guide-section:has(.product-ill) { display: flow-root; }
+@media (max-width: 560px) { .product-ill { float: none; display: block; width: 60%; margin: 0 auto 16px; } }
+
 /* The forum frame; its inside is styled by discourse-embedded.css on the forum. */
 #discourse-comments iframe { display: block; }
