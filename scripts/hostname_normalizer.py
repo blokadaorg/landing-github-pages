@@ -11,6 +11,7 @@ IDNA 2003 codec would map to a different domain than browsers look up.
 Every other line is left untouched.
 """
 
+import ipaddress
 import re
 from typing import Optional
 
@@ -18,14 +19,20 @@ HOSTNAME_RE = re.compile(r"[A-Za-z0-9_][A-Za-z0-9_.\-]*")
 ADBLOCK_RE = re.compile(r"^(\s*\|\|)([^\^\s]*)(.*)$", re.DOTALL)
 HOSTS_RE = re.compile(r"^(\s*\S+\s+)(\S+)(.*)$", re.DOTALL)
 BARE_RE = re.compile(r"^(\s*)(\S+)(.*)$", re.DOTALL)
-# Same address shape as the format gate's hosts-file pattern.
-ADDRESS_RE = re.compile(r"[0-9a-fA-F:.]+(?:%[A-Za-z0-9]+)?")
 # ASCII characters a candidate host may hold; anything else (`@`, `|`, `:`,
 # `/`, ...) marks a rule or metadata that is left for the format gate.
 # IDNA 2003 maps these away (`straße.de` -> `strasse.de`), while IDNA 2008
 # and browsers keep them, so converting would block an unrelated domain.
 DEVIATIONS = set("\u00df\u03c2\u200c\u200d")
 HOST_CHARS = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.-")
+
+
+def is_address(token: str) -> bool:
+    try:
+        ipaddress.ip_address(token.split("%", 1)[0])
+        return True
+    except ValueError:
+        return False
 
 
 def normalize_host(host: str) -> Optional[str]:
@@ -52,7 +59,7 @@ def normalize_line(line: str) -> Optional[str]:
         match = ADBLOCK_RE.match(line)
     elif len(tokens) == 1 or tokens[1].startswith("#"):
         match = BARE_RE.match(line)
-    elif ADDRESS_RE.fullmatch(tokens[0]):
+    elif is_address(tokens[0]):
         match = HOSTS_RE.match(line)
     else:
         return line
@@ -113,6 +120,8 @@ if __name__ == "__main__":
                 "::1 localhost\n",
                 "// comment with ünïcode\n",
                 "Title: schöne Liste\n",
+                "Feed: straße.de\n",
+                "dead bücher.de\n",
                 "@@||bücher.de^\n",
                 ".example.com/path\n",
             ):
@@ -122,6 +131,7 @@ if __name__ == "__main__":
             self.assertEqual(normalize_line(".betway.ug\n"), "betway.ug\n")
             self.assertEqual(normalize_line("..betway.ug\n"), "betway.ug\n")
             self.assertEqual(normalize_line("0.0.0.0 .betway.ug\n"), "0.0.0.0 betway.ug\n")
+            self.assertEqual(normalize_line("fe80::1%lo0 .betway.ug\n"), "fe80::1%lo0 betway.ug\n")
             self.assertEqual(normalize_line("||.betway.ug^\n"), "||betway.ug^\n")
             self.assertEqual(normalize_line("*..betway.ug\n"), "*.betway.ug\n")
 
