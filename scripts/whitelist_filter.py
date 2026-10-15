@@ -9,6 +9,8 @@ supporting various host file formats and subdomain matching.
 import os
 from typing import List, Set, Optional
 
+from hostname_normalizer import normalize_host
+
 
 class WhitelistFilter:
     """
@@ -51,14 +53,12 @@ class WhitelistFilter:
                         domain = line.strip('"').lower()
                         if domain:
                             self.whitelist.add(domain)
-                            if domain.startswith('*.'):
-                                # Wildcard domain - store the base domain
-                                base_domain = domain[2:]
-                                if base_domain:
-                                    self.wildcard_domains.add(base_domain)
-                            else:
-                                # Exact domain
-                                self.exact_domains.add(domain)
+                            wildcard = domain.startswith('*.')
+                            base_domain = domain[2:] if wildcard else domain
+                            # mirror.py normalizes entries (punycode, no leading
+                            # dot) before filtering, so match both forms
+                            names = {base_domain, normalize_host(base_domain)} - {None, ""}
+                            (self.wildcard_domains if wildcard else self.exact_domains).update(names)
             return True
         except FileNotFoundError:
             return False
@@ -382,6 +382,17 @@ if __name__ == "__main__":
             # Empty domain extraction
             self.assertEqual(self.filter._extract_domain(""), "")
             self.assertEqual(self.filter._extract_domain("   "), "")
+
+        def test_idn_whitelist_matches_punycode_entries(self):
+            """An IDN whitelist entry also matches its punycode form."""
+            with open(self.whitelist_path, 'w', encoding='utf-8') as f:
+                f.write("bücher.de\n*.müller.de\n")
+            self.filter.load_whitelist(self.whitelist_path)
+
+            self.assertTrue(self.filter.should_filter_domain("bücher.de"))
+            self.assertTrue(self.filter.should_filter_domain("xn--bcher-kva.de"))
+            self.assertTrue(self.filter.should_filter_domain("shop.xn--mller-kva.de"))
+            self.assertIsNone(self.filter.filter_blocklist_line("0.0.0.0 xn--bcher-kva.de"))
 
     class TestManualWhitelistEntries(unittest.TestCase):
         """Regression guards for individual whitelist-manual entries.

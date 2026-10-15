@@ -66,6 +66,7 @@ This repository contains scripts for managing blocklists and mirrors for the Blo
 - **Output**: `../mirror/v5/` directory structure
 - **Features**:
   - Downloads from multiple external sources (1hosts, StevenBlack, etc.)
+  - Normalizes entries first (`hostname_normalizer.py`): strips leading dots, converts IDNs to punycode, drops entries that still aren't hostnames
   - Applies sophisticated whitelist filtering to all downloaded content
   - Supports custom merging and wildcard prefixing
   - Handles various formats:
@@ -94,7 +95,7 @@ This repository contains scripts for managing blocklists and mirrors for the Blo
 ### `Makefile`
 - **Purpose**: Provides safe build targets with dependency management
 - **Targets**:
-  - `make test` - Runs whitelist filtering tests
+  - `make test` - Runs whitelist filtering and hostname normalizer tests
   - `make gen-whitelist` - Generates master whitelist from manual entries
   - `make sync` - Runs tests, generates whitelist, then syncs mirrors (only if tests pass)
 
@@ -110,6 +111,7 @@ scripts/
 ├── ddg.py                 # DuckDuckGo tracker processor
 ├── exodus.py              # Exodus Privacy processor
 ├── mirror.py              # External blocklist mirror
+├── hostname_normalizer.py # Leading-dot / IDN entry normalization
 └── sync-mirrors.sh        # Master sync script
 ```
 
