@@ -5,8 +5,9 @@ Normalizes host-list entries so DNS consumers can match them.
 Upstream lists occasionally carry entries no consumer can match: a leading
 dot (`.example.com`) or an internationalized name in UTF-8 (queries arrive as
 punycode). Such entries get the leading dots stripped and the name converted
-to punycode with Python's `idna` codec (IDNA 2003, so `ß` maps to `ss`);
-entries that still are not a hostname afterwards are dropped.
+to punycode with Python's `idna` codec; entries that still are not a
+hostname afterwards are dropped, and so are names with a character the
+IDNA 2003 codec would map to a different domain than browsers look up.
 Every other line is left untouched.
 """
 
@@ -21,6 +22,9 @@ BARE_RE = re.compile(r"^(\s*)(\S+)(.*)$", re.DOTALL)
 ADDRESS_RE = re.compile(r"[0-9a-fA-F:.]+(?:%[A-Za-z0-9]+)?")
 # ASCII characters a candidate host may hold; anything else (`@`, `|`, `:`,
 # `/`, ...) marks a rule or metadata that is left for the format gate.
+# IDNA 2003 maps these away (`straße.de` -> `strasse.de`), while IDNA 2008
+# and browsers keep them, so converting would block an unrelated domain.
+DEVIATIONS = set("\u00df\u03c2\u200c\u200d")
 HOST_CHARS = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.-")
 
 
@@ -28,6 +32,8 @@ def normalize_host(host: str) -> Optional[str]:
     """Returns the host as a matchable hostname, or None if it cannot be one."""
     host = host.lstrip(".")
     if not host.isascii():
+        if DEVIATIONS & set(host.lower()):
+            return None
         try:
             host = host.encode("idna").decode("ascii")
         except UnicodeError:
@@ -133,8 +139,10 @@ if __name__ == "__main__":
             self.assertEqual(normalize_line("BÜCHER.de.\n"), "xn--bcher-kva.de.\n")
             self.assertEqual(normalize_line("||bücher.de\n"), "||xn--bcher-kva.de\n")
 
-        def test_idn_uses_idna_2003_mapping(self):
-            self.assertEqual(normalize_line("straße.de\n"), "strasse.de\n")
+        def test_idn_with_deviation_characters_is_dropped(self):
+            self.assertIsNone(normalize_line("straße.de\n"))
+            self.assertIsNone(normalize_line("0.0.0.0 STRAẞE.de\n"))
+            self.assertIsNone(normalize_line("ελληνικός.gr\n"))
 
         def test_unusable_entries_are_dropped(self):
             self.assertIsNone(normalize_line(".\n"))

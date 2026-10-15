@@ -386,12 +386,12 @@ if __name__ == "__main__":
         def test_idn_whitelist_matches_punycode_entries(self):
             """An IDN whitelist entry also matches its punycode form."""
             with open(self.whitelist_path, 'w', encoding='utf-8') as f:
-                f.write("bücher.de\n*.straße.de\n")
+                f.write("bücher.de\n*.müller.de\n")
             self.filter.load_whitelist(self.whitelist_path)
 
             self.assertTrue(self.filter.should_filter_domain("bücher.de"))
             self.assertTrue(self.filter.should_filter_domain("xn--bcher-kva.de"))
-            self.assertTrue(self.filter.should_filter_domain("shop.strasse.de"))
+            self.assertTrue(self.filter.should_filter_domain("shop.xn--mller-kva.de"))
             self.assertIsNone(self.filter.filter_blocklist_line("0.0.0.0 xn--bcher-kva.de"))
 
     class TestManualWhitelistEntries(unittest.TestCase):
