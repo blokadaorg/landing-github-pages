@@ -3,6 +3,7 @@
 # Run whitelist filter tests
 test:
 	python3 whitelist_filter.py
+	python3 hostname_normalizer.py
 	@echo "Tests passed."
 
 # Generate master whitelist from manual entries and external sources

@@ -35,6 +35,7 @@ import urllib.request
 from shutil import copyfile
 from os import path
 from whitelist_filter import WhitelistFilter
+from hostname_normalizer import normalize_file
 
 
 def main(argv):
@@ -854,6 +855,10 @@ def main(argv):
                     urllib.request.urlretrieve(url, file_path)
                 else:
                     copyfile(url, file_path)
+
+                rewritten, dropped = normalize_file(file_path)
+                if rewritten or dropped:
+                    print(f"  Normalized {rewritten} and dropped {dropped} unusable entries")
 
                 # Apply whitelist filtering if whitelist is loaded
                 if whitelist_filter.whitelist:
