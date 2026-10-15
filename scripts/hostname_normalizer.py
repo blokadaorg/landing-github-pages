@@ -17,6 +17,11 @@ HOSTNAME_RE = re.compile(r"[A-Za-z0-9_][A-Za-z0-9_.\-]*")
 ADBLOCK_RE = re.compile(r"^(\s*\|\|)([^\^\s]*)(.*)$", re.DOTALL)
 HOSTS_RE = re.compile(r"^(\s*\S+\s+)(\S+)(.*)$", re.DOTALL)
 BARE_RE = re.compile(r"^(\s*)(\S+)(.*)$", re.DOTALL)
+# Same address shape as the format gate's hosts-file pattern.
+ADDRESS_RE = re.compile(r"[0-9a-fA-F:.]+(?:%[A-Za-z0-9]+)?")
+# ASCII characters a candidate host may hold; anything else (`@`, `|`, `:`,
+# `/`, ...) marks a rule or metadata that is left for the format gate.
+HOST_CHARS = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.-")
 
 
 def normalize_host(host: str) -> Optional[str]:
@@ -36,17 +41,22 @@ def normalize_line(line: str) -> Optional[str]:
     if not stripped or stripped[0] in "#!;[/":
         return line
 
+    tokens = stripped.split()
     if stripped.startswith("||"):
         match = ADBLOCK_RE.match(line)
+    elif len(tokens) == 1 or tokens[1].startswith("#"):
+        match = BARE_RE.match(line)
+    elif ADDRESS_RE.fullmatch(tokens[0]):
+        match = HOSTS_RE.match(line)
     else:
-        tokens = stripped.split()
-        hosts_format = len(tokens) >= 2 and not tokens[1].startswith("#")
-        match = (HOSTS_RE if hosts_format else BARE_RE).match(line)
+        return line
 
     head, host, tail = match.groups()
     wildcard = "*." if host.startswith("*.") else ""
     name = host[len(wildcard):]
     if not name.startswith(".") and name.isascii():
+        return line
+    if any(c.isascii() and c not in HOST_CHARS for c in name):
         return line
 
     normalized = normalize_host(name)
@@ -96,6 +106,9 @@ if __name__ == "__main__":
                 "\n",
                 "::1 localhost\n",
                 "// comment with ünïcode\n",
+                "Title: schöne Liste\n",
+                "@@||bücher.de^\n",
+                ".example.com/path\n",
             ):
                 self.assertEqual(normalize_line(line), line)
 
@@ -128,7 +141,6 @@ if __name__ == "__main__":
             self.assertIsNone(normalize_line("0.0.0.0 ..\n"))
             self.assertIsNone(normalize_line("bad..ü.de\n"))
             self.assertIsNone(normalize_line("a" * 64 + "ü.de\n"))
-            self.assertIsNone(normalize_line(".example.com/path\n"))
 
     class TestNormalizeFile(unittest.TestCase):
         def test_rewrites_in_place(self):
