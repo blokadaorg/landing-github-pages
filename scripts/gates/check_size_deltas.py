@@ -3,9 +3,14 @@
 
 For every modified file under mirror/v5/ or blocklists/, compare line count
 in HEAD (the pre-sync state) vs the current working copy. Trips the gate if
-the new file dropped more than 20% of its lines (likely a partially-broken
-upstream feed) or grew to more than 2x its previous size (likely an upstream
-that started spamming or got compromised).
+the file vanished, emptied, or moved far enough to look like a broken
+upstream feed rather than ordinary churn.
+
+Large lists get the percentage rule: the big mirrors move within a few
+percent weekly, so a 20% drop there means a truncated download. Small
+lists are exempt from it — a 2k-line feed expiring a normal batch of
+entries is a double-digit percentage, and the percentage swings grow as
+the list shrinks. They trip only on a collapse.
 
 Thresholds are intentionally public: the strength of this gate comes from
 enforcement, not from hiding the rules.
@@ -17,8 +22,10 @@ import subprocess
 import sys
 from pathlib import Path
 
-DROP_RATIO = 0.8       # post must be >= 80% of pre
-GROWTH_RATIO = 2       # post must be <= 2x pre
+DROP_RATIO = 0.8          # large lists: post must be >= 80% of pre
+COLLAPSE_RATIO = 0.25     # any list: post must be >= 25% of pre
+GROWTH_RATIO = 2          # post must be <= 2x pre
+PERCENT_RULE_MIN_LINES = 10000  # below this, only the collapse rule applies
 ALLOWED_PREFIXES = ("mirror/v5/", "blocklists/")
 
 
@@ -58,7 +65,15 @@ def main() -> int:
         if pre == 0:
             continue
 
-        if post < pre * DROP_RATIO:
+        if post == 0:
+            failures.append(f"{path}: emptied (was {pre} lines)")
+        elif post < pre * COLLAPSE_RATIO:
+            failures.append(
+                f"{path}: line count collapsed from {pre} to {post} "
+                f"({100*(1-post/pre):.0f}% drop, threshold "
+                f"{100*(1-COLLAPSE_RATIO):.0f}%)"
+            )
+        elif pre >= PERCENT_RULE_MIN_LINES and post < pre * DROP_RATIO:
             failures.append(
                 f"{path}: line count dropped from {pre} to {post} "
                 f"({100*(1-post/pre):.0f}% drop, threshold {100*(1-DROP_RATIO):.0f}%)"
